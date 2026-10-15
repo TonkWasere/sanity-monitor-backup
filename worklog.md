@@ -2224,4 +2224,43 @@ Stage Summary:
 - Автору: нужен свежий PAT (GitHub → Settings → Developer settings → Tokens, scope repo+gist); после получения — creds rebuild → API-проверка → тест-пуш висящих коммитов → PATCH gist-хранилища
 - Урок раунду: формат creds-строки — «https://<TOKEN>@github.com/» с переводом строки; guard теперь обязателен перед каждым коммитом
 
+---
+Task ID: 54-token-3
+Agent: Z.ai (main session)
+Task: Автор прислал НОВЫЙ PAT + письмо GitHub, раскрывающее причину отзыва предыдущего («GitHub PAT found in gist… We have revoked it») — восстановить push-контур, ликвидировать gist-хранилище, организовать хранение по решению автора.
+
+Work Log:
+- Причина инцидента 22:48–22:50 UTC КОНФИРМИРОВАНА: секрет-сканинг GitHub поймал токен «SanityBackups» в содержимом СЕКРЕТНОГО gist'а (base64-обфускация не спасла). Хранение токена на GitHub (в любом виде) — ЗАПРЕЩЕНО навсегда
+- Новый токен верифицирован (TonkWasere, скоупы repo+gist+workflow+admin:public_key+audit_log+…), значение нигде не логируется
+- Gist dfe5c841e416959fdbee643681a437d4 УДАЛЁН (HTTP 204, 23:30 UTC); /home/z/.pat_gist_url удалён
+- ~/.git-credentials восстановлен; ВАЖНОЕ ОТКРЫТИЕ: формат «token-as-username» (https://TOKEN@github.com/) credential-store НЕ отдаёт — push падал «could not read Username»; рабочий формат — user:pass: printf 'https://TonkWasere:%s@github.com/\n' "$T" (проверено git credential fill: username sha b8df219e12f2, password sha = sha токена)
+- ДВОЙНОЙ PUSH ВОССТАНОВЛЕН 23:33 UTC: 1e3d998+9d246f6 уехали на origin+backup (7aadec4..9d246f6), sync verified (HEAD=origin=backup=9d246f6)
+- Хранение по решению автора («рядом с RESTORE_GUIDE, в худшем случае по новой генерирую»): /home/z/my-project/PAT_VAULT_LOCAL.md (600, gitignored PAT_VAULT_LOCAL*), указатель без секрета в RESTORE_GUIDE.md («Локальные секреты рядом»), .gitignore дополнен (PAT_VAULT_LOCAL*, .pat*); vault попадает в tar-слепки воркспейса → переживает откат ВМ
+- tools/secret_guard.py: +паттерн cred_url_userpass_token (user:pass cred-URL)
+- Плейбук GIT_AUTOMATION.md: статус PUSH ВОССТАНОВЛЕН, правила хранения (3 места: creds, vault, НИГДЕ на GitHub), формат user:pass, инцидент-лог переведён в «ЗАКРЫТ» с конфирмацией
+
+Stage Summary:
+- Push-контур полностью восстановлен за ~8 мин от получения токена; инцидент закрыт в 23:33 UTC
+- Три места истины по токену: ~/.git-credentials (работа) + PAT_VAULT_LOCAL.md (переживает откат) + чат автора (последняя инстанция). GitHub — НИКОГДА
+- Guard ловит оба формата cred-URL; раунды продолжаются штатно
+
+---
+Task ID: 54-23
+Agent: Z.ai (cron agentTurn, job 462533 — раунд 23:26 UTC, выполнен 23:28–23:40 после прерывания сообщением автора)
+Task: Часовой cron-раунд по регламенту (health-check шаг 0 → обход → ledger → двойной push → bundle). Режим «пока автор не скажет Остановить».
+
+Work Log:
+- Шаг 0: state_healthcheck.py → STATE HEALTHY 12/12 (sync=9d246f6 на обоих remote, гэп 0.6 ч, bundle 1.1 ч)
+- Прочитан хвост worklog (54-22b/54-token/54-token-2) + плейбук; повторы исключены
+- Обход TS 2337 (tools/rescan54_23_fetch.py, 25/25 OK): news, фронт, ТГК, 19 тредов near999999 (включая новые кластерные 196510/196516/196519/196520/196499) + 196411 postsindex off0/20/40
+- Резюме: ledger №48 append
+- Дельты часа: 196411 СНОС-ПАУЗА >2.4 ч (#71 не случился, гэпы {15,33,63,64-70}=10 стабильны, ритм 1/час окончательно сломан), #48 CANON OK ×14; хотфикс 196511 cc 12→13 (#15 23:17 «тебе дали стартерпак, че бухтеть?»); 196510 cc 17→18 — ЭСКАЛАЦИЯ («на прошлый колизей тоже записали как негативный фитбэк»); 196520 cc 2→5 (решение: отключается в настройках); 196461 cc 158→159 (#162 встречный лагерь «резать хил/анимки»); ФРОНТ НОВОЕ: 196523 «ОБРАЩЕНИЕ К EXBO» (23:36, cc=3) + 196522 «Штыриуса тред.» (23:27, cc=14); ОТС cc=90 frozen, старт ~15.4 ч; Талоны 31 ч 18 мин офиц. молчания; контролы/магпулы/196062 frozen; ТГК 3204 последний
+- git add -A + guard (clean) + commit + ДВОЙНОЙ PUSH + bundle
+
+Stage Summary:
+- Первый полностью штатный раунд после инцидента: healthcheck → обход → ledger №48 → dual push → bundle за один проход
+- Наблюдение раунда: Колизей-кластер перешёл в фазу «недоверие к официальным ответам» (196510) — вместе с караулом компенсации 16.10 это главный фронт следующих часов
+- Караул 16.10: компенсация (факт), старт ОТС 15:00 UTC/18:00 МСК, OP 196523/196522, сносы #71+, Талоны 32 ч
+
+
 

@@ -37,3 +37,6 @@ tool-results/
 backup_home_root_20261002/
 upload/
 tests/
+# --- локальные секреты (инцидент 15.10.2026: токен в gist = авто-отзыв GitHub'ом) ---
+PAT_VAULT_LOCAL*
+.pat*

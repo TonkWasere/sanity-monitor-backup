@@ -16,6 +16,7 @@ PATTERNS = [
     ('ghu_user_token', re.compile(r'ghu_[A-Za-z0-9]{30,}')),
     ('ghs_server_token', re.compile(r'ghs_[A-Za-z0-9]{30,}')),
     ('cred_url_embedded_token', re.compile(r'https://[A-Za-z0-9_-]{30,}@github\.com')),
+    ('cred_url_userpass_token', re.compile(r'https://[A-Za-z0-9_.-]+:[A-Za-z0-9_-]{30,}@github\.com')),
 ]
 
 def scan(text, src):

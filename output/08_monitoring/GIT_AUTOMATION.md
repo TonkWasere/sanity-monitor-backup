@@ -26,20 +26,22 @@ fsck, ветка, creds, синхронизация origin+backup, гэп ком
 - PAT аккаунта TonkWasere хранится локально в ~/.git-credentials (ВНЕ репо, chmod 600,
   credential.helper = store). Строка токена НИКОГДА не попадает в worklog/ledger/коммиты
   (публичный репо!) и в выводы логов.
-- СТАТУС (15.10 22:55 UTC): **PUSH ПРИОСТАНОВЛЕН — токен отозван.** Хронология: первый токен (fine-grained)
-  дал push 403; классический работал 19:15–22:30 UTC (все раунды уехали, dual push verified);
-  в 22:48–22:50 UTC токен УМЕР (401 и на API, и на git-эндпойнте). ПОЛНЫЙ токен НЕ был в git-истории
-  (проверено git log --all -S по телу токена — чисто) — отзыв вне репо (ротация автором / экспирация /
-  засветка в третьем месте). Провалившийся пуш сам стёр строку credential store (credential erase) —
-  ~/.git-credentials теперь ПУСТ (0 байт) — это НОРМАЛЬНО, не баг.
-- ВОССТАНОВЛЕНИЕ CREDS после нового токена (формат обязателен — одна строка с переводом):
-  printf 'https://%s@github.com/\n' "$NEW_PAT" > ~/.git-credentials && chmod 600 ~/.git-credentials
-  Проверка: T=$(sed -E 's#https://([^@]*)@github.com/.*#\1#' ~/.git-credentials);
-  curl -s -o /dev/null -w '%{http_code}' -H "Authorization: token $T" https://api.github.com/user → ждём 200.
-  После этого: PATCH gist-хранилища (секретный gist dfe5c841e416959fdbee643681a437d4, base64-обфускация
-  + SHA256-отпечаток; URL в /home/z/.pat_gist_url, вне репо) и push накопленных коммитов.
+- СТАТУС (15.10 23:33 UTC): **PUSH ВОССТАНОВЛЕН.** Хронология: первый токен (fine-grained) дал push 403;
+  классический «SanityBackups» работал 19:15–22:30 UTC; в 22:48–22:50 UTC отозван GitHub'ом —
+  ПРИЧИНА ПОДТВЕРЖДЕНА ПИСЬМОМ: «GitHub PAT found in gist» — секрет-сканинг поймал токен в содержимом
+  СЕКРЕТНОГО gist'а (даже с base64-обфускацией). Gist dfe5c841 удалён 23:30 UTC. ХРАНИТЬ ТОКЕН НА GITHUB
+  (в любом виде) — ЗАПРЕЩЕНО. Новый токен выдан автором 23:25 UTC, creds восстановлены 23:33 UTC
+  (формат user:pass — см. ниже), dual push 7aadec4..9d246f6 verified на оба remote.
+- ХРАНЕНИЕ ТОКЕНА (по решению автора 23:28 UTC): (1) ~/.git-credentials (600) — рабочий формат;
+  (2) /home/z/my-project/PAT_VAULT_LOCAL.md — рядом с RESTORE_GUIDE.md, gitignored (PAT_VAULT_LOCAL* в
+  .gitignore), 600 — попадает в tar-слепки воркспейса, переживает откат ВМ; (3) НЕ в git, НЕ на GitHub.
+- ФОРМАТ CREDS — ТОЛЬКО user:pass: printf 'https://TonkWasere:%s@github.com/\n' "$NEW_PAT" > ~/.git-credentials
+  && chmod 600 ~/.git-credentials. Вариант «https://TOKEN@github.com/» (token-as-username) store-хелпер
+  НЕ подхватывает — push падает «could not read Username» (проверено 23:32 UTC).
+  Проверка: curl -s -o /dev/null -w '%{http_code}' -H "Authorization: token $NEW_PAT" https://api.github.com/user → 200.
 - ЕСЛИ ТОКЕН ОТОВРАН/ПРОСРОЧЕН: раунды идут, коммиты копятся ЛОКАЛЬНО в /home/z/my-project (git),
-  push отложенный — как только рабочий токен появится в ~/.git-credentials, часовой раунд запушит всё накопленное.
+  push отложенный — как только рабочий токен появится, часовой раунд запушит всё накопленное
+  (пример: 2 инцидентных коммита 1e3d998+9d246f6 провисели ~45 мин и уехали 23:33 UTC).
 
 ## Часовой раунд (executed by cron agentTurn, fixed_rate 3600s)
 0. **Health-check состояния** (ПЕРВЫМ ШАГОМ, до обхода): `python3 tools/state_healthcheck.py`.
@@ -87,18 +89,24 @@ fsck, ветка, creds, синхронизация origin+backup, гэп ком
    автор выдаёт новый токен (GitHub → Settings → Developer settings → Tokens, scope repo).
 
 ## Инцидент-лог
-### 15.10.2026 ~22:48–22:50 UTC — PAT отозван (push pending)
+### 15.10.2026 22:48–23:33 UTC — PAT «SanityBackups» отозван и заменён (ЗАКРЫТ)
 - Симптом: git push 401 «Invalid username or token» на оба remote; API тем же токеном тоже 401.
 - Тайминг: 22:46 API 200 · 22:48 POST /gists 201 (создано офф-ВМ gist-хранилище токена) ·
-  22:49 push 401 · 22:50 API 401. Смерть ровно в окне 22:48–22:49.
-- Расследование: полный токен НЕ в git-истории и НЕ в дереве (git log --all -S '<тело токена>' пусто,
-  grep по дереву чист; оба репо публичны). Единственное вхождение 'ghp_' в worklog — цитата сообщения
-  автора «ghp_… теперь работает?» (префикс, не секрет). Утечки с нашей стороны НЕТ.
-- Версии причины: ручная ротация/ревок автором · экспирация · засветка токена в третьем месте
-  (другой чат/инструмент со скан-интеграцией). Требуется свежий PAT от автора.
-- Последствия: ~/.git-credentials стёрт failed-push'ем (credential erase → 0 байт); коммиты 1e3d998
-  и инцидентный ждут push (push pending); gist-хранилище держит мёртвый токен — обновить после нового.
-- Профилактика: tools/secret_guard.py встроен шагом 4 раунда — секрет физически не пройдёт в коммит.
+  22:49 push 401 · 22:50 API 401. Смерть ровно в окне после создания gist'а.
+- **ПРИЧИНА КОНФИРМИРОВАНА письмом GitHub автору (~23:20 UTC):** «A recent scan found a valid GitHub
+  Personal Access Token, SanityBackups, in the content of gist. We have revoked it» — секрет-сканинг
+  GitHub просканил СЕКРЕТНЫЙ gist и авто-отозвал токен. Base64-обфускация НЕ спасла.
+  Наша git-история чиста (git log --all -S по телу токена — пусто, grep дерева — чист).
+- ВЫВОДЫ: (1) хранить токен на GitHub — ЗАПРЕЩЕНО в любом виде (gist/репо/обфускация);
+  (2) провалившийся пуш стирает строку credential store (credential erase → файл 0 байт) — штатно;
+  (3) формат creds — ТОЛЬКО user:pass (token-as-username store-хелпер не отдаёт).
+- Решение автора 23:28 UTC: новый токен выдан 23:25 UTC; хранение — ~/.git-credentials +
+  PAT_VAULT_LOCAL.md рядом с RESTORE_GUIDE.md (gitignored, попадает в tar-слепки, переживает откат);
+  gist dfe5c841 удалён 23:30 UTC (204).
+- Восстановление 23:33 UTC: creds (user:pass) → API 200 → dual push 7aadec4..9d246f6 (оба remote) →
+  sync verified. Инцидент ЗАКРЫТ.
+- Профилактика: tools/secret_guard.py (шаг 4 раунда; паттерн cred_url_userpass_token добавлен);
+  guard позитивный/чистый тесты — OK.
 
 ## Ограничения
 - GitHub: файл ≤100 МБ, репо мягкий лимит ~5 ГБ. Баннеры png исключены из git (в ZIP-линии).

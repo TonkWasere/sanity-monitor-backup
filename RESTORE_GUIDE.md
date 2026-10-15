@@ -57,3 +57,13 @@ python3 -m pip install --break-system-packages mega.py "tenacity==8.1.0"
 - `node_modules/` и `.next/` не в архиве (см. выше)
 - Dev-сервер на момент снимка работал: `dev.log` и SQLite могут содержать последние секунды активности — не критично
 - Дискорд-ссылки на скрины постов A/B имеют срок годности, но сами PNG лежат в `output/evidence_post/` и в `SanityModeration_195660_20261002_v1.zip` — им срок не страшен
+
+## Локальные секреты рядом (НЕ в git)
+
+- `PAT_VAULT_LOCAL.md` (этот же каталог, gitignored, chmod 600) — классический PAT аккаунта
+  TonkWasere для push ветки sanity-monitor (origin + backup). В git НИКОГДА не коммитить:
+  инцидент 15.10.2026 — GitHub авто-отозвал токен, найденный секрет-сканером в содержимом
+  gist'а (даже base64-обфускация не спасла). При распаковке tar-слепка файл возвращается
+  вместе с my-project/; при утере — автор генерирует новый токен
+  (GitHub → Settings → Developer settings → Tokens, scope repo+gist) и его кладут
+  в `~/.git-credentials` + обновляют PAT_VAULT_LOCAL.md.
