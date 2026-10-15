@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "STAL\nZONE\n\nГДЕ ПРОХОДИТЬ?\nТалоны не найти на спокойном Юге. PvE испытания доступны только на Севере, Диком Севере и в Любече-3 — там, где по-настоящему жарко. Неважно, какую из локаций выберете: награда одна и та же, главное — рискнуть.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1791314094,
+  "id": "20261007031450ddc7920e929a4209",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261007031450ddc7920e929a4209",
+  "usage": {
+    "completion_tokens": 84,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1671,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1755
+  }
+}

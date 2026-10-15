@@ -1,0 +1,39 @@
+# --- heavy artifacts: остаются в ZIP/MEGA-линии, в git не идут ---
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.mp4
+*.webm
+download/
+db/
+node_modules/
+.next/
+.DS_Store
+*.log
+dev.log
+agent-ctx/
+# png/jpg-баннеры и скрины — только в ZIP-линии (git остаётся текстовым)
+output/evidence_post/*.png
+output/evidence_post/*.jpg
+output/evidence_post/*.jpeg
+output/evidence_post/*.img
+output/evidence_post/*.webp
+output/03_screenshots/
+output/economy_patch_analysis/
+output/sanity_sources_stage/
+output/07_full_collection/
+output/sanity_workspace_*.tar
+# prisma/sqlite
+prisma/*.db
+*.sqlite
+*.db-journal
+.env
+skills/
+mini-services/
+examples/
+tool-results/
+.zscripts/
+backup_home_root_20261002/
+upload/
+tests/

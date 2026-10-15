@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "STALCRAFT\nZONE\n\nНАГРАДЫ\nЗа каждое пройденное испытание — небольшая награда. А за определённое количество выполненных испытаний — награды покрупнее:\n\n2 — 100 талонов\n4 — 150 талонов\n6 — облик «Покровник» для «Альбатрос-Перехватчик»\n8 — 250 талонов",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1791314101,
+  "id": "202610070314577cb67e398d1e4f38",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202610070314577cb67e398d1e4f38",
+  "usage": {
+    "completion_tokens": 91,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1671,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1762
+  }
+}

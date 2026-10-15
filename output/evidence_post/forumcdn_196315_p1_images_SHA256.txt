@@ -1,0 +1,32 @@
+# CDN-бекап OP d/196315 «Балансные правки от 12.10.26» (Magoda1, 12.10 08:44:02 UTC)
+# 14 изображений PNG. Снято 2026-10-12 (правило №20.1), HTTP 200, PNG-магия подтверждена.
+# Формат канонический (sha256sum -c совместим). Привязка файл→CDN-источник — в комментариях.
+# Источник привязки: discussion_196315_near1_20261012_1225.json (OP contentHtml).
+# [01] <- https://forum-cdn.exbo.net//2026-10-12/1791793997-95009-02-droboviki.png  (291464 B)
+742188fc72eb3aa5f13887fcd115555b9c63755b91824b8286f1bb24530d6d32  forumcdn_196315_p1_01_02-droboviki.png
+# [02] <- https://forum-cdn.exbo.net//2026-10-12/1791794020-590344-04-pistolety-pulemyoty.png  (133088 B)
+c7156a66e4222747e598b8349f3887d62f4511c772c2b1a8fa2e17f65be7d790  forumcdn_196315_p1_02_04-pistolety-pulemyoty.png
+# [03] <- https://forum-cdn.exbo.net//2026-10-12/1791794031-585560-01-snaiperskie-vintovki.png  (276660 B)
+a2d34672f6ccab7e40c19b0f3dc4e754f08e31e950446d2fa689bd52e24d0141  forumcdn_196315_p1_03_01-snaiperskie-vintovki.png
+# [04] <- https://forum-cdn.exbo.net//2026-10-12/1791794065-47869-03-pistolety.png  (159470 B)
+11af84d820f6d4981a9a547db89ba1fc7f98ae94af17a4b7a094d4b099e27e4d  forumcdn_196315_p1_04_03-pistolety.png
+# [05] <- https://forum-cdn.exbo.net//2026-10-12/1791794097-532488-05-pulemyoty.png  (131537 B)
+ff8ba6f3a2f009f334ad952b155ae1e765051af61572afc9308847749661bea0  forumcdn_196315_p1_05_05-pulemyoty.png
+# [06] <- https://forum-cdn.exbo.net//2026-10-12/1791794126-703832-06-sturmovye-vintovki.png  (235290 B)
+4cc52a78f65988fa904bdc98b883372c2ab830a2a640bf4f80fdf6e4bb0b774a  forumcdn_196315_p1_06_06-sturmovye-vintovki.png
+# [07] <- https://forum-cdn.exbo.net//2026-10-12/1791794168-600922-08-rukoyatki.png  (65429 B)
+3f7c316bd429e60d527c15633e80ea3ad22b092fcff6abd5c4e82cc48f0c177d  forumcdn_196315_p1_07_08-rukoyatki.png
+# [08] <- https://forum-cdn.exbo.net//2026-10-12/1791794224-877277-07-glusiteli-i-nadulniki.png  (77501 B)
+53e1af845f4b08ecfc756df7210d2edb010790e1865acce00952f30667fb06da  forumcdn_196315_p1_08_07-glusiteli-i-nadulniki.png
+# [09] <- https://forum-cdn.exbo.net//2026-10-12/1791794240-471536-09-lazery.png  (35037 B)
+e96339deac43c0336f4e6185d255e3f1ed47e47ef83817eb46d31c4f8307ec08  forumcdn_196315_p1_09_09-lazery.png
+# [10] <- https://forum-cdn.exbo.net//2026-10-12/1791794363-777312-11-konteinery-i-ryukzaki.png  (118290 B)
+1b0526f44d8ef95cb5742e4811a105db7eccc84d6ec1af11eb1e85255f978fb0  forumcdn_196315_p1_10_11-konteinery-i-ryukzaki.png
+# [11] <- https://forum-cdn.exbo.net//2026-10-12/1791794415-724114-10-boevaya-bronya.png  (152729 B)
+7b942f1ecb8cb4e82a93fe16b51d8f21eb1e72859dfb394ffb9c210e951df221  forumcdn_196315_p1_11_10-boevaya-bronya.png
+# [12] <- https://forum-cdn.exbo.net//2026-10-12/1791794447-661802-12-kombinirovannaya-bronya.png  (201385 B)
+e0ad116bb9cf618e390ca93bbfbdddce20028aeeff4023c9de7ecbbedfb3e3c4  forumcdn_196315_p1_12_12-kombinirovannaya-bronya.png
+# [13] <- https://forum-cdn.exbo.net//2026-10-12/1791794477-727801-13-naucnaya-bronya.png  (92658 B)
+feb6f7ef7f9f9843d296827257a36aa9c4d0fbb9f4ef164cdaa0d9a0e4c4e748  forumcdn_196315_p1_13_13-naucnaya-bronya.png
+# [14] <- https://forum-cdn.exbo.net//2026-10-12/1791794550-678821-14-procee.png  (24030 B)
+0af1e2fc22ba12b01466105463831844ce508601b1909bc041344a49cf416df9  forumcdn_196315_p1_14_14-procee.png

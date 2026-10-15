@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "STAL\nZONE\n\nВЫБЕРИ СВОЙ ПУТЬ\n\nВсего 16 испытаний — по 8 в PvE и в Колизее, и каждое принесет награду. Для главного приза — талонов и облика, будет достаточно выполнить любые 8 из 16, свободно комбинируя оба формата.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1791314097,
+  "id": "20261007031455a66270b9bb744100",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261007031455a66270b9bb744100",
+  "usage": {
+    "completion_tokens": 78,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1671,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1749
+  }
+}

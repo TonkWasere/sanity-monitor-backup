@@ -1,0 +1,1290 @@
+{
+ "fetched_at_utc": "2026-10-04T17:05-17:10Z",
+ "method": "guest API /api/discussions?filter[q]&page[size]=50&sort=-lastPostedAt, 2 страницы по 50 + дефолтная (дедуп по id)",
+ "queries": {
+  "Убежка": {
+   "total_unique": 82,
+   "threads": [
+    {
+     "id": "195873",
+     "title": "Есть ли какие-то новости по Убежке?",
+     "createdAt": "2026-10-02",
+     "lastPostedAt": "2026-10-03",
+     "commentCount": 16
+    },
+    {
+     "id": "195661",
+     "title": "Декоративная мебель (с возможностью скрафтить)",
+     "createdAt": "2026-09-30",
+     "lastPostedAt": "2026-09-30",
+     "commentCount": 17
+    },
+    {
+     "id": "195418",
+     "title": "Почему так?",
+     "createdAt": "2026-09-24",
+     "lastPostedAt": "2026-09-27",
+     "commentCount": 71
+    },
+    {
+     "id": "194907",
+     "title": "Казалось бы, причем тут артефакт Яйцо",
+     "createdAt": "2026-09-14",
+     "lastPostedAt": "2026-09-16",
+     "commentCount": 57
+    },
+    {
+     "id": "193825",
+     "title": "QOL по взаимодействию в убежке",
+     "createdAt": "2026-08-23",
+     "lastPostedAt": "2026-08-27",
+     "commentCount": 11
+    },
+    {
+     "id": "193664",
+     "title": "Убежка, сырьё",
+     "createdAt": "2026-08-20",
+     "lastPostedAt": "2026-08-21",
+     "commentCount": 23
+    },
+    {
+     "id": "193127",
+     "title": "Новая внешка убежки",
+     "createdAt": "2026-08-12",
+     "lastPostedAt": "2026-08-13",
+     "commentCount": 9
+    },
+    {
+     "id": "192252",
+     "title": "Предложение по поводу убежки",
+     "createdAt": "2026-07-28",
+     "lastPostedAt": "2026-07-28",
+     "commentCount": 5
+    },
+    {
+     "id": "192078",
+     "title": "Плакали 500 батарей",
+     "createdAt": "2026-07-25",
+     "lastPostedAt": "2026-08-06",
+     "commentCount": 35
+    },
+    {
+     "id": "191614",
+     "title": "Кот - На арбузе",
+     "createdAt": "2026-07-17",
+     "lastPostedAt": "2026-10-04",
+     "commentCount": 6562
+    },
+    {
+     "id": "190608",
+     "title": "По поводу флагов",
+     "createdAt": "2026-07-03",
+     "lastPostedAt": "2026-07-05",
+     "commentCount": 30
+    },
+    {
+     "id": "190076",
+     "title": "Убежка ",
+     "createdAt": "2026-06-22",
+     "lastPostedAt": "2026-06-23",
+     "commentCount": 29
+    },
+    {
+     "id": "189792",
+     "title": "Памятная вывеска в убежку",
+     "createdAt": "2026-06-17",
+     "lastPostedAt": "2026-06-17",
+     "commentCount": 3
+    },
+    {
+     "id": "189485",
+     "title": "продукт игросодержащий, 0-я итерация ВСЕХ механик",
+     "createdAt": "2026-06-14",
+     "lastPostedAt": "2026-06-15",
+     "commentCount": 172
+    },
+    {
+     "id": "189207",
+     "title": "Новые 3д модели испортили крутые скины",
+     "createdAt": "2026-06-09",
+     "lastPostedAt": "2026-06-09",
+     "commentCount": 14
+    },
+    {
+     "id": "188996",
+     "title": "БилиЯть! Где гребанная убежка от выброса?!",
+     "createdAt": "2026-06-06",
+     "lastPostedAt": "2026-06-06",
+     "commentCount": 16
+    },
+    {
+     "id": "188910",
+     "title": "Заработок на убежке",
+     "createdAt": "2026-06-04",
+     "lastPostedAt": "2026-06-05",
+     "commentCount": 19
+    },
+    {
+     "id": "188878",
+     "title": "Снова убиваем способы заработка в игре)",
+     "createdAt": "2026-06-04",
+     "lastPostedAt": "2026-06-05",
+     "commentCount": 39
+    },
+    {
+     "id": "188525",
+     "title": "Сессионки 0-итерации?",
+     "createdAt": "2026-05-30",
+     "lastPostedAt": "2026-06-01",
+     "commentCount": 21
+    },
+    {
+     "id": "188518",
+     "title": "Хачу радио в убежку",
+     "createdAt": "2026-05-30",
+     "lastPostedAt": "2026-05-30",
+     "commentCount": 8
+    },
+    {
+     "id": "188503",
+     "title": "Кейсы и объекты в убежку.",
+     "createdAt": "2026-05-30",
+     "lastPostedAt": "2026-06-04",
+     "commentCount": 12
+    },
+    {
+     "id": "188480",
+     "title": "мархонт сливы",
+     "createdAt": "2026-05-29",
+     "lastPostedAt": "2026-09-15",
+     "commentCount": 2227
+    },
+    {
+     "id": "187718",
+     "title": "А где?",
+     "createdAt": "2026-05-14",
+     "lastPostedAt": "2026-05-14",
+     "commentCount": 16
+    },
+    {
+     "id": "187579",
+     "title": "Расширьте убежку",
+     "createdAt": "2026-05-12",
+     "lastPostedAt": "2026-05-14",
+     "commentCount": 27
+    },
+    {
+     "id": "187518",
+     "title": "Что с шансами на PzB и вещи на убежку?",
+     "createdAt": "2026-05-11",
+     "lastPostedAt": "2026-05-22",
+     "commentCount": 61
+    },
+    {
+     "id": "187348",
+     "title": "убежище строить симс унитазы школа ремонта",
+     "createdAt": "2026-05-08",
+     "lastPostedAt": "2026-05-09",
+     "commentCount": 88
+    },
+    {
+     "id": "187337",
+     "title": "Новые окна в убежке",
+     "createdAt": "2026-05-08",
+     "lastPostedAt": "2026-05-08",
+     "commentCount": 22
+    },
+    {
+     "id": "186956",
+     "title": "Тредик Кёки",
+     "createdAt": "2026-05-02",
+     "lastPostedAt": "2026-07-07",
+     "commentCount": 990
+    },
+    {
+     "id": "186820",
+     "title": "Как убежать от мск1 - 2 ?",
+     "createdAt": "2026-04-29",
+     "lastPostedAt": "2026-04-30",
+     "commentCount": 9
+    },
+    {
+     "id": "186520",
+     "title": "Петы в Убежку",
+     "createdAt": "2026-04-24",
+     "lastPostedAt": "2026-07-08",
+     "commentCount": 46
+    },
+    {
+     "id": "186302",
+     "title": "🏠 Убежище 2.0 🏠",
+     "createdAt": "2026-04-22",
+     "lastPostedAt": "2026-04-29",
+     "commentCount": 127
+    },
+    {
+     "id": "186105",
+     "title": "Таблица убежки? или её аналог на сайте.",
+     "createdAt": "2026-04-19",
+     "lastPostedAt": "2026-08-23",
+     "commentCount": 35
+    },
+    {
+     "id": "185955",
+     "title": "Удаленная манипуляция убежкой и почтой",
+     "createdAt": "2026-04-17",
+     "lastPostedAt": "2026-04-17",
+     "commentCount": 10
+    },
+    {
+     "id": "185797",
+     "title": "Убезка",
+     "createdAt": "2026-04-14",
+     "lastPostedAt": "2026-04-15",
+     "commentCount": 12
+    },
+    {
+     "id": "185362",
+     "title": "Какашка",
+     "createdAt": "2026-04-08",
+     "lastPostedAt": "2026-04-09",
+     "commentCount": 17
+    },
+    {
+     "id": "185305",
+     "title": "Кошка в убежку ",
+     "createdAt": "2026-04-08",
+     "lastPostedAt": "2026-04-08",
+     "commentCount": 9
+    },
+    {
+     "id": "185140",
+     "title": "10 уровень Триумфов",
+     "createdAt": "2026-04-06",
+     "lastPostedAt": "2026-04-12",
+     "commentCount": 351
+    },
+    {
+     "id": "185004",
+     "title": "Цифры онлайна говорят об обратном .....",
+     "createdAt": "2026-04-05",
+     "lastPostedAt": "2026-04-07",
+     "commentCount": 88
+    },
+    {
+     "id": "184918",
+     "title": "Бесконечная жизнь на отс",
+     "createdAt": "2026-04-04",
+     "lastPostedAt": "2026-04-04",
+     "commentCount": 29
+    },
+    {
+     "id": "184520",
+     "title": "Как фармить деньги ",
+     "createdAt": "2026-03-30",
+     "lastPostedAt": "2026-03-30",
+     "commentCount": 90
+    },
+    {
+     "id": "184418",
+     "title": "⚠️ Правки аукциона",
+     "createdAt": "2026-03-28",
+     "lastPostedAt": "2026-04-01",
+     "commentCount": 124
+    },
+    {
+     "id": "184229",
+     "title": "Стрельбище в убежке",
+     "createdAt": "2026-03-25",
+     "lastPostedAt": "2026-03-25",
+     "commentCount": 11
+    },
+    {
+     "id": "184124",
+     "title": "💸 Деньги, кейсы и фарм: как работает экономика STALCRAFT: X",
+     "createdAt": "2026-03-24",
+     "lastPostedAt": "2026-03-28",
+     "commentCount": 228
+    },
+    {
+     "id": "184024",
+     "title": "Убежка?",
+     "createdAt": "2026-03-22",
+     "lastPostedAt": "2026-03-22",
+     "commentCount": 7
+    },
+    {
+     "id": "183866",
+     "title": "оборудование для убежки",
+     "createdAt": "2026-03-20",
+     "lastPostedAt": "2026-03-20",
+     "commentCount": 6
+    },
+    {
+     "id": "183660",
+     "title": "Дайте возможность поставить в убежку!",
+     "createdAt": "2026-03-18",
+     "lastPostedAt": "2026-03-19",
+     "commentCount": 6
+    },
+    {
+     "id": "183247",
+     "title": "Новый бар говно-проблема старой и новой базы долга",
+     "createdAt": "2026-03-13",
+     "lastPostedAt": "2026-03-14",
+     "commentCount": 10
+    },
+    {
+     "id": "182073",
+     "title": "Большая коллаборация: STALCRAFT: X и Arknights",
+     "createdAt": "2026-03-03",
+     "lastPostedAt": "2026-06-03",
+     "commentCount": 342
+    },
+    {
+     "id": "181794",
+     "title": "Убежка",
+     "createdAt": "2026-02-26",
+     "lastPostedAt": "2026-02-27",
+     "commentCount": 14
+    },
+    {
+     "id": "181768",
+     "title": "Неписи в убежку",
+     "createdAt": "2026-02-26",
+     "lastPostedAt": "2026-02-26",
+     "commentCount": 40
+    },
+    {
+     "id": "181565",
+     "title": "📊 Тревога в отделе экономики!",
+     "createdAt": "2026-02-23",
+     "lastPostedAt": "2026-04-04",
+     "commentCount": 300
+    },
+    {
+     "id": "181300",
+     "title": "Как побороть инфляцию раз и навсегда",
+     "createdAt": "2026-02-20",
+     "lastPostedAt": "2026-02-20",
+     "commentCount": 43
+    },
+    {
+     "id": "181063",
+     "title": "Тема: Нерф бустов – что будет с  Убежкой? и  Экономикой?",
+     "createdAt": "2026-02-18",
+     "lastPostedAt": "2026-02-27",
+     "commentCount": 25
+    },
+    {
+     "id": "180909",
+     "title": "А чем вообще разрабы занимаются? ",
+     "createdAt": "2026-02-16",
+     "lastPostedAt": "2026-02-20",
+     "commentCount": 291
+    },
+    {
+     "id": "180206",
+     "title": "механики,активности,предложение по исправлению и ид",
+     "createdAt": "2026-02-06",
+     "lastPostedAt": "2026-02-08",
+     "commentCount": 69
+    },
+    {
+     "id": "179480",
+     "title": "Как же вы надоели ныть.",
+     "createdAt": "2026-01-28",
+     "lastPostedAt": "2026-01-29",
+     "commentCount": 36
+    },
+    {
+     "id": "179411",
+     "title": "Боевые псы / обновление убежки / переработка прикопов",
+     "createdAt": "2026-01-28",
+     "lastPostedAt": "2026-02-01",
+     "commentCount": 25
+    },
+    {
+     "id": "179267",
+     "title": "Даёшь пресеты в убежку",
+     "createdAt": "2026-01-26",
+     "lastPostedAt": "2026-01-26",
+     "commentCount": 8
+    },
+    {
+     "id": "178882",
+     "title": "Ёлочка в убежке",
+     "createdAt": "2026-01-21",
+     "lastPostedAt": "2026-01-21",
+     "commentCount": 2
+    },
+    {
+     "id": "178879",
+     "title": "Требую компенсацию",
+     "createdAt": "2026-01-21",
+     "lastPostedAt": "2026-01-21",
+     "commentCount": 4
+    },
+    {
+     "id": "178715",
+     "title": "Всех устраивает ТТК в игре ?",
+     "createdAt": "2026-01-19",
+     "lastPostedAt": "2026-01-20",
+     "commentCount": 152
+    },
+    {
+     "id": "178640",
+     "title": "Зачем выдавать людям шмот",
+     "createdAt": "2026-01-18",
+     "lastPostedAt": "2026-01-19",
+     "commentCount": 71
+    },
+    {
+     "id": "178247",
+     "title": "БИЛЕТЫ В СТРЕПТИЗ УБЕЖКУ(БЕСПЛАТНО) 34 мест",
+     "createdAt": "2026-01-13",
+     "lastPostedAt": "2026-01-14",
+     "commentCount": 18
+    },
+    {
+     "id": "177933",
+     "title": "Новичок хочет качнуть убежку",
+     "createdAt": "2026-01-10",
+     "lastPostedAt": "2026-01-11",
+     "commentCount": 76
+    },
+    {
+     "id": "177479",
+     "title": "Убежка и зуб",
+     "createdAt": "2026-01-05",
+     "lastPostedAt": "2026-01-05",
+     "commentCount": 5
+    },
+    {
+     "id": "177141",
+     "title": "Тест обвесов/ганов в убежке",
+     "createdAt": "2025-12-31",
+     "lastPostedAt": "2026-01-04",
+     "commentCount": 3
+    },
+    {
+     "id": "176227",
+     "title": "Снежная проблема убежки",
+     "createdAt": "2025-12-21",
+     "lastPostedAt": "2025-12-21",
+     "commentCount": 11
+    },
+    {
+     "id": "175589",
+     "title": "Скоро, во всех убежках игры...",
+     "createdAt": "2025-12-16",
+     "lastPostedAt": "2025-12-16",
+     "commentCount": 25
+    },
+    {
+     "id": "175174",
+     "title": "Окна в убежке",
+     "createdAt": "2025-12-11",
+     "lastPostedAt": "2025-12-11",
+     "commentCount": 6
+    },
+    {
+     "id": "175100",
+     "title": "Что вас раздражает/бесит в игре?",
+     "createdAt": "2025-12-10",
+     "lastPostedAt": "2025-12-11",
+     "commentCount": 30
+    },
+    {
+     "id": "174833",
+     "title": "Прошу объяснить как работает система крафта ",
+     "createdAt": "2025-12-08",
+     "lastPostedAt": "2025-12-09",
+     "commentCount": 9
+    },
+    {
+     "id": "174777",
+     "title": "Оружейная в убежке",
+     "createdAt": "2025-12-07",
+     "lastPostedAt": "2025-12-08",
+     "commentCount": 13
+    },
+    {
+     "id": "174443",
+     "title": "Проблемы с убежкой",
+     "createdAt": "2025-12-03",
+     "lastPostedAt": "2025-12-03",
+     "commentCount": 3
+    },
+    {
+     "id": "174273",
+     "title": "Неиронично крутые решения SEXBO и почему ни одно из них не работает",
+     "createdAt": "2025-12-02",
+     "lastPostedAt": "2026-06-01",
+     "commentCount": 80
+    },
+    {
+     "id": "173901",
+     "title": "Выход из убежкии",
+     "createdAt": "2025-11-26",
+     "lastPostedAt": "2025-12-03",
+     "commentCount": 2
+    },
+    {
+     "id": "165086",
+     "title": "Сейфы с редким дропом в убежку",
+     "createdAt": "2025-07-18",
+     "lastPostedAt": "2026-05-25",
+     "commentCount": 14
+    },
+    {
+     "id": "162400",
+     "title": "[Розыгрыш] День рождения у Сталкрафта, а подарки - Игрокам",
+     "createdAt": "2025-06-23",
+     "lastPostedAt": "2026-02-09",
+     "commentCount": 629
+    },
+    {
+     "id": "160432",
+     "title": "Продажа расходников ЗА БЕСЦЕНОК!",
+     "createdAt": "2025-06-04",
+     "lastPostedAt": "2026-03-30",
+     "commentCount": 16
+    },
+    {
+     "id": "159638",
+     "title": "Когда уволят WWtddw ?",
+     "createdAt": "2025-05-18",
+     "lastPostedAt": "2026-03-04",
+     "commentCount": 487
+    },
+    {
+     "id": "149361",
+     "title": "Блеклое будущие соло эндгейма, критика проекта \"Социализация\"",
+     "createdAt": "2024-12-16",
+     "lastPostedAt": "2024-12-20",
+     "commentCount": 648
+    },
+    {
+     "id": "147099",
+     "title": "Таблица себестоимости всех предметов убежища",
+     "createdAt": "2024-11-17",
+     "lastPostedAt": "2026-04-29",
+     "commentCount": 103
+    },
+    {
+     "id": "110767",
+     "title": "Сталкерские скуфики",
+     "createdAt": "2023-05-02",
+     "lastPostedAt": "2026-01-26",
+     "commentCount": 12648
+    }
+   ]
+  },
+  "Убежище": {
+   "total_unique": 100,
+   "threads": [
+    {
+     "id": "190109",
+     "title": "Когда пытался сам себе создать атмосферу...",
+     "createdAt": "2026-06-22",
+     "lastPostedAt": "2026-06-23",
+     "commentCount": 33
+    },
+    {
+     "id": "189623",
+     "title": "Сталкок",
+     "createdAt": "2026-06-17",
+     "lastPostedAt": "2026-06-18",
+     "commentCount": 23
+    },
+    {
+     "id": "189187",
+     "title": "Надоели неотключаемые оповещения",
+     "createdAt": "2026-06-09",
+     "lastPostedAt": "2026-06-09",
+     "commentCount": 5
+    },
+    {
+     "id": "188231",
+     "title": "Оптимизация баз фракций для слабых пк",
+     "createdAt": "2026-05-24",
+     "lastPostedAt": "2026-05-25",
+     "commentCount": 11
+    },
+    {
+     "id": "185226",
+     "title": "📰 Патчноут [08.04.2026]",
+     "createdAt": "2026-04-07",
+     "lastPostedAt": "2026-04-29",
+     "commentCount": 340
+    },
+    {
+     "id": "184785",
+     "title": "Убежище ",
+     "createdAt": "2026-04-02",
+     "lastPostedAt": "2026-04-03",
+     "commentCount": 9
+    },
+    {
+     "id": "184124",
+     "title": "💸 Деньги, кейсы и фарм: как работает экономика STALCRAFT: X",
+     "createdAt": "2026-03-24",
+     "lastPostedAt": "2026-03-28",
+     "commentCount": 228
+    },
+    {
+     "id": "183216",
+     "title": "возник вапросiк",
+     "createdAt": "2026-03-13",
+     "lastPostedAt": "2026-03-14",
+     "commentCount": 64
+    },
+    {
+     "id": "179946",
+     "title": "Убежище без вложений",
+     "createdAt": "2026-02-04",
+     "lastPostedAt": "2026-02-04",
+     "commentCount": 6
+    },
+    {
+     "id": "179001",
+     "title": "убежище",
+     "createdAt": "2026-01-22",
+     "lastPostedAt": "2026-01-22",
+     "commentCount": 8
+    },
+    {
+     "id": "178083",
+     "title": "Убежище ",
+     "createdAt": "2026-01-11",
+     "lastPostedAt": "2026-01-12",
+     "commentCount": 10
+    },
+    {
+     "id": "177816",
+     "title": "Уютное убежище",
+     "createdAt": "2026-01-08",
+     "lastPostedAt": "2026-01-08",
+     "commentCount": 6
+    },
+    {
+     "id": "177782",
+     "title": "<<<<ПЛАВИЛЬНЯ В УБЕЖИЩЕ>>>>",
+     "createdAt": "2026-01-08",
+     "lastPostedAt": "2026-01-08",
+     "commentCount": 11
+    },
+    {
+     "id": "177236",
+     "title": "Зеленая комната в убежище",
+     "createdAt": "2026-01-01",
+     "lastPostedAt": "2026-01-01",
+     "commentCount": 3
+    },
+    {
+     "id": "176810",
+     "title": "убежище",
+     "createdAt": "2025-12-27",
+     "lastPostedAt": "2025-12-27",
+     "commentCount": 5
+    },
+    {
+     "id": "176317",
+     "title": "УБЕЖИЩЕ",
+     "createdAt": "2025-12-22",
+     "lastPostedAt": "2025-12-22",
+     "commentCount": 2
+    },
+    {
+     "id": "176019",
+     "title": "Убежище ",
+     "createdAt": "2025-12-19",
+     "lastPostedAt": "2025-12-19",
+     "commentCount": 2
+    },
+    {
+     "id": "175774",
+     "title": "Пара недочетов, которые заметил",
+     "createdAt": "2025-12-17",
+     "lastPostedAt": "2025-12-21",
+     "commentCount": 5
+    },
+    {
+     "id": "174738",
+     "title": "Комната переговоров (Убежище)",
+     "createdAt": "2025-12-06",
+     "lastPostedAt": "2025-12-07",
+     "commentCount": 2
+    },
+    {
+     "id": "174296",
+     "title": "Заработок на убежище ",
+     "createdAt": "2025-12-02",
+     "lastPostedAt": "2025-12-04",
+     "commentCount": 42
+    },
+    {
+     "id": "174116",
+     "title": "Обменщик (перекупщик) в убежище",
+     "createdAt": "2025-11-29",
+     "lastPostedAt": "2025-11-30",
+     "commentCount": 8
+    },
+    {
+     "id": "174047",
+     "title": "Первомайский - надежное убежище.",
+     "createdAt": "2025-11-28",
+     "lastPostedAt": "2025-11-28",
+     "commentCount": 1
+    },
+    {
+     "id": "172815",
+     "title": "неправильный урон по маникену в убежище ",
+     "createdAt": "2025-11-10",
+     "lastPostedAt": "2025-11-11",
+     "commentCount": 18
+    },
+    {
+     "id": "172312",
+     "title": "Агроном в убежище.",
+     "createdAt": "2025-11-01",
+     "lastPostedAt": "2025-11-04",
+     "commentCount": 16
+    },
+    {
+     "id": "172089",
+     "title": "Предложения для телепорта в убежище ",
+     "createdAt": "2025-10-29",
+     "lastPostedAt": "2025-10-29",
+     "commentCount": 9
+    },
+    {
+     "id": "171614",
+     "title": "Мультикрафт и шансы критического крафта в убежище",
+     "createdAt": "2025-10-24",
+     "lastPostedAt": "2025-10-24",
+     "commentCount": 10
+    },
+    {
+     "id": "171559",
+     "title": "Добавление предметов в убежище ",
+     "createdAt": "2025-10-23",
+     "lastPostedAt": "2025-10-23",
+     "commentCount": 7
+    },
+    {
+     "id": "170590",
+     "title": "Вопросик про убежище",
+     "createdAt": "2025-10-06",
+     "lastPostedAt": "2025-10-07",
+     "commentCount": 8
+    },
+    {
+     "id": "168812",
+     "title": "Убежище ",
+     "createdAt": "2025-09-08",
+     "lastPostedAt": "2025-09-08",
+     "commentCount": 4
+    },
+    {
+     "id": "168798",
+     "title": "Влияние ивентов на убежище.",
+     "createdAt": "2025-09-08",
+     "lastPostedAt": "2025-09-15",
+     "commentCount": 76
+    },
+    {
+     "id": "168528",
+     "title": "Анализ рынка (zubzalinaza убежище)",
+     "createdAt": "2025-09-04",
+     "lastPostedAt": "2025-09-04",
+     "commentCount": 4
+    },
+    {
+     "id": "168268",
+     "title": "Гараж в убежище и то для чего он будет нужен.",
+     "createdAt": "2025-09-02",
+     "lastPostedAt": "2025-09-03",
+     "commentCount": 25
+    },
+    {
+     "id": "167702",
+     "title": "Ни разу не просил контента, но и ни разу не получал фиксов кор механик игры",
+     "createdAt": "2025-08-23",
+     "lastPostedAt": "2025-08-24",
+     "commentCount": 13
+    },
+    {
+     "id": "167379",
+     "title": "Убежище и 7-ые навыки",
+     "createdAt": "2025-08-18",
+     "lastPostedAt": "2025-08-19",
+     "commentCount": 7
+    },
+    {
+     "id": "167328",
+     "title": "Убежище",
+     "createdAt": "2025-08-17",
+     "lastPostedAt": "2025-08-17",
+     "commentCount": 2
+    },
+    {
+     "id": "167039",
+     "title": "какие же вы все новички",
+     "createdAt": "2025-08-12",
+     "lastPostedAt": "2025-08-13",
+     "commentCount": 72
+    },
+    {
+     "id": "166830",
+     "title": "Почему бы не добавить в убежище:",
+     "createdAt": "2025-08-08",
+     "lastPostedAt": "2025-08-08",
+     "commentCount": 8
+    },
+    {
+     "id": "166441",
+     "title": "Го перейдём  все в свободу будем   афка лиму ,правда ",
+     "createdAt": "2025-08-03",
+     "lastPostedAt": "2025-08-03",
+     "commentCount": 10
+    },
+    {
+     "id": "166258",
+     "title": "Строительство в убежище.",
+     "createdAt": "2025-07-31",
+     "lastPostedAt": "2025-08-01",
+     "commentCount": 2
+    },
+    {
+     "id": "166133",
+     "title": "Расщепление",
+     "createdAt": "2025-07-30",
+     "lastPostedAt": "2025-07-31",
+     "commentCount": 11
+    },
+    {
+     "id": "166012",
+     "title": "Количество объектов в убежище",
+     "createdAt": "2025-07-30",
+     "lastPostedAt": "2025-07-30",
+     "commentCount": 6
+    },
+    {
+     "id": "165429",
+     "title": "Кривые объекты в убежище",
+     "createdAt": "2025-07-22",
+     "lastPostedAt": "2025-07-23",
+     "commentCount": 3
+    },
+    {
+     "id": "165088",
+     "title": "Крафт сумок с патронами в убежище",
+     "createdAt": "2025-07-18",
+     "lastPostedAt": "2025-07-23",
+     "commentCount": 3
+    },
+    {
+     "id": "164925",
+     "title": "Убежище как смысл жизни",
+     "createdAt": "2025-07-16",
+     "lastPostedAt": "2025-07-16",
+     "commentCount": 18
+    },
+    {
+     "id": "163854",
+     "title": "Жуть в убежище",
+     "createdAt": "2025-07-09",
+     "lastPostedAt": "2025-07-10",
+     "commentCount": 4
+    },
+    {
+     "id": "163667",
+     "title": "Лимит предметов в убежище",
+     "createdAt": "2025-07-06",
+     "lastPostedAt": "2025-07-06",
+     "commentCount": 1
+    },
+    {
+     "id": "163555",
+     "title": "Расширение количества обьектов в убежище",
+     "createdAt": "2025-07-05",
+     "lastPostedAt": "2025-07-05",
+     "commentCount": 7
+    },
+    {
+     "id": "163531",
+     "title": "Разбор ненужных объектов в убежище",
+     "createdAt": "2025-07-05",
+     "lastPostedAt": "2025-07-05",
+     "commentCount": 10
+    },
+    {
+     "id": "163242",
+     "title": "Колекции в убежище",
+     "createdAt": "2025-07-02",
+     "lastPostedAt": "2025-07-02",
+     "commentCount": 1
+    },
+    {
+     "id": "163120",
+     "title": "Личная тачка в Убежище...",
+     "createdAt": "2025-07-01",
+     "lastPostedAt": "2025-07-06",
+     "commentCount": 19
+    },
+    {
+     "id": "162893",
+     "title": "цены упали а разрабам пофиг",
+     "createdAt": "2025-06-29",
+     "lastPostedAt": "2025-11-20",
+     "commentCount": 420
+    },
+    {
+     "id": "162471",
+     "title": "Убежище есть ли скрытые свойства у станков",
+     "createdAt": "2025-06-24",
+     "lastPostedAt": "2025-06-25",
+     "commentCount": 11
+    },
+    {
+     "id": "162430",
+     "title": "Несколько предложений для убежища.",
+     "createdAt": "2025-06-24",
+     "lastPostedAt": "2025-06-25",
+     "commentCount": 11
+    },
+    {
+     "id": "162381",
+     "title": "Убежище ",
+     "createdAt": "2025-06-23",
+     "lastPostedAt": "2025-06-23",
+     "commentCount": 16
+    },
+    {
+     "id": "162372",
+     "title": "Что там с убежищем?",
+     "createdAt": "2025-06-23",
+     "lastPostedAt": "2025-06-23",
+     "commentCount": 17
+    },
+    {
+     "id": "162100",
+     "title": "Крафт бильярда в убежище и возможность в него играть с друзьями.",
+     "createdAt": "2025-06-19",
+     "lastPostedAt": "2025-06-19",
+     "commentCount": 1
+    },
+    {
+     "id": "162097",
+     "title": "Убежище(строительный вопрос)",
+     "createdAt": "2025-06-19",
+     "lastPostedAt": "2025-06-20",
+     "commentCount": 8
+    },
+    {
+     "id": "160288",
+     "title": "Убежище как прогрессия персонажа",
+     "createdAt": "2025-06-01",
+     "lastPostedAt": "2025-06-03",
+     "commentCount": 167
+    },
+    {
+     "id": "159067",
+     "title": "Идеи/Улучшения/Предложения по игре",
+     "createdAt": "2025-05-08",
+     "lastPostedAt": "2025-05-14",
+     "commentCount": 23
+    },
+    {
+     "id": "144639",
+     "title": "Еще один тред про убежище",
+     "createdAt": "2024-10-17",
+     "lastPostedAt": "2025-07-17",
+     "commentCount": 301
+    },
+    {
+     "id": "142487",
+     "title": "Cкупаю приколы для убежища",
+     "createdAt": "2024-09-11",
+     "lastPostedAt": "2025-07-15",
+     "commentCount": 300
+    },
+    {
+     "id": "136835",
+     "title": "Радио в убежище",
+     "createdAt": "2024-07-16",
+     "lastPostedAt": "2025-12-17",
+     "commentCount": 8
+    },
+    {
+     "id": "136482",
+     "title": "Бафф мид и лоу тир крафтов убежища",
+     "createdAt": "2024-07-13",
+     "lastPostedAt": "2024-07-14",
+     "commentCount": 45
+    },
+    {
+     "id": "136330",
+     "title": "убежище",
+     "createdAt": "2024-07-13",
+     "lastPostedAt": "2024-07-13",
+     "commentCount": 1
+    },
+    {
+     "id": "136281",
+     "title": "самая бесполезная трата досок в убежище",
+     "createdAt": "2024-07-13",
+     "lastPostedAt": "2024-07-13",
+     "commentCount": 20
+    },
+    {
+     "id": "136230",
+     "title": "Убежище",
+     "createdAt": "2024-07-12",
+     "lastPostedAt": "2024-07-21",
+     "commentCount": 116
+    },
+    {
+     "id": "136217",
+     "title": "Система крафтов в убежище",
+     "createdAt": "2024-07-12",
+     "lastPostedAt": "2024-07-12",
+     "commentCount": 5
+    },
+    {
+     "id": "136199",
+     "title": "Повысьте спавн текстолита",
+     "createdAt": "2024-07-12",
+     "lastPostedAt": "2024-07-17",
+     "commentCount": 34
+    },
+    {
+     "id": "136173",
+     "title": "Затягивание гаек в убежище",
+     "createdAt": "2024-07-12",
+     "lastPostedAt": "2024-07-13",
+     "commentCount": 11
+    },
+    {
+     "id": "136133",
+     "title": "треп хата",
+     "createdAt": "2024-07-12",
+     "lastPostedAt": "2024-07-12",
+     "commentCount": 3
+    },
+    {
+     "id": "136085",
+     "title": "Убежище",
+     "createdAt": "2024-07-12",
+     "lastPostedAt": "2024-07-12",
+     "commentCount": 8
+    },
+    {
+     "id": "136081",
+     "title": "🔥 Хотфиксы [12.07.24]",
+     "createdAt": "2024-07-12",
+     "lastPostedAt": "2024-07-15",
+     "commentCount": 59
+    },
+    {
+     "id": "136039",
+     "title": "Убежище вопросы > ответы:",
+     "createdAt": "2024-07-11",
+     "lastPostedAt": "2024-07-17",
+     "commentCount": 24
+    },
+    {
+     "id": "136031",
+     "title": "MOD: STALCRAFT: X Legacy v. 1.0",
+     "createdAt": "2024-07-11",
+     "lastPostedAt": "2026-09-22",
+     "commentCount": 1290
+    },
+    {
+     "id": "135965",
+     "title": "Петиция на возврат прав кубоголовых гитаристов",
+     "createdAt": "2024-07-11",
+     "lastPostedAt": "2024-07-13",
+     "commentCount": 12
+    },
+    {
+     "id": "135945",
+     "title": "ЛАЗЕРНЫЙ УРОВЕНЬ",
+     "createdAt": "2024-07-11",
+     "lastPostedAt": "2024-07-11",
+     "commentCount": 5
+    },
+    {
+     "id": "135921",
+     "title": "как попасть на радар?",
+     "createdAt": "2024-07-11",
+     "lastPostedAt": "2024-07-12",
+     "commentCount": 7
+    },
+    {
+     "id": "135790",
+     "title": "Виниловый проигрыватель в убежище",
+     "createdAt": "2024-07-11",
+     "lastPostedAt": "2024-07-16",
+     "commentCount": 40
+    },
+    {
+     "id": "135653",
+     "title": "Убежище",
+     "createdAt": "2024-07-10",
+     "lastPostedAt": "2024-07-10",
+     "commentCount": 5
+    },
+    {
+     "id": "135551",
+     "title": "Жизнь YoYo",
+     "createdAt": "2024-07-10",
+     "lastPostedAt": "2025-06-04",
+     "commentCount": 72
+    },
+    {
+     "id": "135149",
+     "title": "Увеличение Перс. Склада",
+     "createdAt": "2024-07-05",
+     "lastPostedAt": "2025-08-23",
+     "commentCount": 55
+    },
+    {
+     "id": "133974",
+     "title": "Убежище",
+     "createdAt": "2024-06-20",
+     "lastPostedAt": "2024-06-20",
+     "commentCount": 1
+    },
+    {
+     "id": "130964",
+     "title": "Неизвестен - Без названия ",
+     "createdAt": "2024-04-23",
+     "lastPostedAt": "2026-07-15",
+     "commentCount": 78984
+    },
+    {
+     "id": "130114",
+     "title": "Попрошайничество/скам/спам",
+     "createdAt": "2024-04-03",
+     "lastPostedAt": "2024-04-12",
+     "commentCount": 81
+    },
+    {
+     "id": "126807",
+     "title": "Адаптивные заражения штурме",
+     "createdAt": "2024-01-31",
+     "lastPostedAt": "2024-02-06",
+     "commentCount": 103
+    },
+    {
+     "id": "120497",
+     "title": "Убежище балбесов",
+     "createdAt": "2023-10-25",
+     "lastPostedAt": "2025-02-10",
+     "commentCount": 214
+    },
+    {
+     "id": "117979",
+     "title": "Личное убежище в игре",
+     "createdAt": "2023-08-31",
+     "lastPostedAt": "2024-01-30",
+     "commentCount": 54
+    },
+    {
+     "id": "114417",
+     "title": "Вопросы скинов, кастомизации, покраски",
+     "createdAt": "2023-07-10",
+     "lastPostedAt": "2025-06-29",
+     "commentCount": 941
+    },
+    {
+     "id": "112917",
+     "title": "нереального вайба тред",
+     "createdAt": "2023-06-07",
+     "lastPostedAt": "2026-10-04",
+     "commentCount": 65793
+    },
+    {
+     "id": "99231",
+     "title": "Самогонный аппарат",
+     "createdAt": "2022-12-04",
+     "lastPostedAt": "2022-12-04",
+     "commentCount": 8
+    },
+    {
+     "id": "96737",
+     "title": "Смерть в изнанке",
+     "createdAt": "2022-11-01",
+     "lastPostedAt": "2022-11-01",
+     "commentCount": 3
+    },
+    {
+     "id": "91924",
+     "title": "Убежище Собак",
+     "createdAt": "2022-08-07",
+     "lastPostedAt": "2022-08-09",
+     "commentCount": 10
+    },
+    {
+     "id": "87271",
+     "title": "\"Убежище\" или как можно вернуть Ч-4 ",
+     "createdAt": "2022-06-22",
+     "lastPostedAt": "2025-05-14",
+     "commentCount": 20
+    },
+    {
+     "id": "82973",
+     "title": "Идея для эндгейм контента",
+     "createdAt": "2022-05-14",
+     "lastPostedAt": "2022-05-16",
+     "commentCount": 46
+    },
+    {
+     "id": "77441",
+     "title": "жилье",
+     "createdAt": "2022-02-28",
+     "lastPostedAt": "2022-03-01",
+     "commentCount": 21
+    },
+    {
+     "id": "75602",
+     "title": "олды нытики",
+     "createdAt": "2022-02-08",
+     "lastPostedAt": "2022-02-11",
+     "commentCount": 123
+    },
+    {
+     "id": "75459",
+     "title": "Выбросы",
+     "createdAt": "2022-02-07",
+     "lastPostedAt": "2022-02-07",
+     "commentCount": 16
+    },
+    {
+     "id": "60630",
+     "title": "Новая база - Выработанная шахта",
+     "createdAt": "2021-09-10",
+     "lastPostedAt": "2021-09-12",
+     "commentCount": 19
+    },
+    {
+     "id": "58826",
+     "title": "Промзона",
+     "createdAt": "2021-08-20",
+     "lastPostedAt": "2021-08-21",
+     "commentCount": 14
+    },
+    {
+     "id": "11232",
+     "title": "Убежище котов",
+     "createdAt": "2019-06-27",
+     "lastPostedAt": "2024-12-05",
+     "commentCount": 1174
+    }
+   ]
+  }
+ }
+}
