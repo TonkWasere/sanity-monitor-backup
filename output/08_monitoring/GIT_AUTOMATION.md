@@ -7,10 +7,17 @@
 
 ## Репозиторий
 - remote: https://github.com/TonkWasere/test.git
-- push из ВМ возможен ТОЛЬКО с PAT (Personal Access Token) аккаунта TonkWasere.
-  Пат хранится локально: `git config credential.helper store` + один раз выполненный push.
-- БЕЗ токена: раунды идут, коммиты копятся ЛОКАЛЬНО в /home/z/my-project (git),
-  push выполняется отложенно, как только токен появится.
+- ВЕТКА: **sanity-monitor** (локальная ветка master переименована в sanity-monitor 15.10;
+  default-ветка master на GitHub НЕ трогаем — по просьбе автора «в отд ветку»)
+- push: `git push origin sanity-monitor`
+- PAT аккаунта TonkWasere хранится локально в ~/.git-credentials (ВНЕ репо, chmod 600,
+  credential.helper = store). Строка токена НИКОГДА не попадает в worklog/ledger/коммиты
+  (публичный репо!) и в выводы логов.
+- СТАТУС: первый токен (15.10 ~19:25 UTC) — аутентификация OK (TonkWasere), но push 403:
+  у токена нет Repository permissions → Contents → Read and write. Ожидается замена токена
+  автором (отредактировать: Permissions → Contents: Read and write; Metadata остаётся Read-only).
+- БЕЗ работающего токена: раунды идут, коммиты копятся ЛОКАЛЬНО в /home/z/my-project (git),
+  push отложенный — как только токен с правами появится, часовой раунд запушит всё накопленное.
 
 ## Часовой раунд (executed by cron agentTurn, fixed_rate 3600s)
 1. Прочитать хвост /home/z/my-project/worklog.md (последние 2-3 задачи) — не повторять уже сделанное.

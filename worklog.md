@@ -2048,3 +2048,22 @@ Stage Summary:
 - Тихий час по витрине (0 news-дельт, патчноута 15.10 нет) при живых точечных вспышках: ОТС-отряды, ттк-тред
 - Все караул-линии стабильны/без движения; новых официальных реакций нет
 - Первый cron-раунд отработал штатно; цепочка коммитов начата
+
+---
+Task ID: 54-b
+Agent: Z.ai (main session)
+Task: Автор прислал PAT (строка в переписке, в документы НЕ логируется — репо публичный) и скомандовал «паааааааехали, и давай, чисто на всякий, в отд ветку» — активация GitHub-push + перевод на отдельную ветку.
+
+Work Log:
+- Credential store настроен: ~/.git-credentials (chmod 600, ВНЕ репо), credential.helper=store; строка токена нигде не логируется
+- Ветка: локальная master → **sanity-monitor** (переименована); push-проба → **403 Permission denied**
+- Диагностика через API: токен жив, /user = TonkWasere, /repos/TonkWasere/test — push:true (это права ЮЗЕРА, не токена); подпись ошибки «denied to TonkWasere» = классика **Fine-grained PAT без Contents: Read and write** (Metadata: Read есть — поэтому API-чтение работает)
+- Вердикт: токен не даёт прав на запись контента → автору перегенерировать: Permissions → Repository permissions → **Contents: Read and write** (Metadata остаётся авто)
+- Плейбук GIT_AUTOMATION.md обновлён: ветка sanity-monitor, push origin sanity-monitor, статус токена, правило невлогирования токена
+- Cron: 462137 удалена, создана 462176 (fixed_rate 3600s) — push origin sanity-monitor, «pushed/push pending» маркеры, запрет логировать токен
+- worklog/ledger append (Task 54-b, №42 — компакт)
+
+Stage Summary:
+- Всё готово к мгновенному ретраю: ветка sanity-monitor, credential store, cron 462176 с корректной push-командой; как только автор даст токен с Contents:RW — первый же push унесёт ВСЕ накопленные коммиты (b87396c…HEAD)
+- Push-маршрут: локальные коммиты копятся; GitHub default-ветка master (Hello world) остаётся нетронутой — мониторинг живёт в ветке sanity-monitor
+- Автор может переключить default-ветку на sanity-monitor в Settings (по желанию, не блокирует ничего)
