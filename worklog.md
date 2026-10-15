@@ -2145,3 +2145,23 @@ Stage Summary:
 - Официальный контур по Колизею активен: позиция Crios зафиксирована (паттерны — будущие сезоны, награды — проблема); Колизей-кластер = тема дня (5 тредов)
 - Соло-консолидация после ОТС-скандала: 196516 растёт на концепт «соло-зоны»
 - Цепочка hourly-коммитов + push в sanity-monitor продолжается
+
+---
+Task ID: 54-hc
+Agent: Z.ai (main session)
+Task: Автор: «потенциальный кирдык ВМки — стяни с github состояние, и куда-нибудь, где оно хоть в Теории будет более отказоустойчиво со стороны "вмка упала", запиши чтоб была проверка состояния, и вЫтяжка с Гита если Кронинг форума/стейт ВМ ушло погулять» — построение мульти-линий отказоустойчивости + health-check с авторекавери.
+
+Work Log:
+- Health-check текущего стейта: fsck чист, HEAD==remote (55f9fca), creds 600, .git 17M — всё живо
+- Линия 2: создано backup-репо TonkWasere/sanity-monitor-backup (POST /user/repos тем же PAT, HTTP 201, токен не логировался), remote backup добавлен, ветка sanity-monitor запушена (55f9fca verified)
+- Линия 3: зеркало-ветка origin sanity-monitor-mirror запушена (55f9fca verified) — защита от кривого force-push в основную
+- Линия 4: git bundle /home/z/backups/sanity-monitor-20261015_2223.bundle (12.1MB) — офф-гитховская копия всей истории
+- tools/state_healthcheck.py: 12 проверок (файлы/директории/fsck/ветка/creds/sync origin+backup ls-remote/гэп коммитов >3 ч/свежесть bundle) + режим --recover (clone -b sanity-monitor → rsync контента и .git в /home/z/my-project; credentials-потеря → «push pending», токен только от автора). Тест: STATE HEALTHY exit 0 (после фикса двух ложных триггеров: API rate-limit → ls-remote; парсинг дат worklog → git log)
+- GIT_AUTOMATION.md: секция «Линии отказоустойчивости» (4 линии), шаг 0 часового раунда = health-check, двойной push origin+backup, bundle refresh каждый раунд, рекавери-процедура x3 источника (origin → backup → bundle)
+- Cron 462176 удалена, создана 462533 (fixed_rate 3600s, priority 10): payload = health-check шаг 0 + двойной push + bundle + гэп-логика
+- worklog/ledger append, commit + двойной push + bundle refresh
+
+Stage Summary:
+- Стейт теперь переживает: смерть ВМ (GitHub origin+backup), удаление/порчу одного репо (второй репо), кривой force-push (mirror-ветка), порчу обоих GitHub-репо (локальный bundle), смерть кронинга (health-check гэп-детект + вытяжка с Гита следующим раундом)
+- Единственный невосстановимый элемент — токен (только у автора; при потере creds раунды коммитят локально до нового токена)
+- Health-check = 12 проверок, exit 0/1, режим --recover; встраивается шагом 0 в каждый часовой раунд через cron 462533
