@@ -2067,3 +2067,25 @@ Stage Summary:
 - Всё готово к мгновенному ретраю: ветка sanity-monitor, credential store, cron 462176 с корректной push-командой; как только автор даст токен с Contents:RW — первый же push унесёт ВСЕ накопленные коммиты (b87396c…HEAD)
 - Push-маршрут: локальные коммиты копятся; GitHub default-ветка master (Hello world) остаётся нетронутой — мониторинг живёт в ветке sanity-monitor
 - Автор может переключить default-ветку на sanity-monitor в Settings (по желанию, не блокирует ничего)
+
+---
+Task ID: 54-19
+Agent: Z.ai (main session)
+Task: Автор прислал новый классический токен «ghp_… теперь работает?» — верификация, пуш в отдельную ветку; попутно дочитать прерванный cron-раунд TS 1912 (задача 462176 была остановлена на полуфазе в 19:13 UTC, снапы без анализа).
+
+Work Log:
+- git-состояние: ветка уже sanity-monitor (Task 54-b), 4 локальных коммита, 21 осиротевший файл TS 1912
+- ls-remote с новым токеном → OK (auth прошёл; remote: master 2e2c79e, sanity-monitor отсутствовал)
+- ~/.git-credentials перезаписан новым токеном (chmod 600, ВНЕ репо; строка токена нигде не логируется; старый fine-grained в ВМ больше не хранится)
+- `git push -u origin sanity-monitor` → **успех 19:15 UTC**: ветка создана, 4 коммита (b87396c, 6f8ee4b, 8075cbb, f58c8d1) уехали; ls-remote верификация: refs/heads/sanity-monitor = f58c8d1 ✓; master не тронут
+- Дочитка раунда TS 1912: TS запинен в rescan54_19_fetch.py → реран без единого GET (SKIP-логика), полный дельта-резюме: 196461 активен (#146–150), ОТС OP editedAt 16:19 UTC, 196411 сносы-пауза + #48 CANON OK rx=0 (= базе 1852), кейс/Талоны/магпулы/контролы/ТГК без движения, 3 новых треда фронта (196501/196500/196498 — OP на след. раунд)
+- rx #48 сверён 1852↔1912: 0↔0, дельты нет
+- GIT_AUTOMATION.md: статус «PUSH РАБОТАЕТ», push-команда п.4 исправлена (master→sanity-monitor), рекавери = clone -b sanity-monitor
+- ledger №43 append; cron 462176 не трогал (payload корректен: push origin sanity-monitor, запрет логировать токен)
+- git add -A + commit + push (этот коммит — первый после верификации)
+
+Stage Summary:
+- **GitHub-рекавери-контур ПОЛНОСТЬЮ РАБОЧИЙ**: каждый часовой раунд теперь автоматом commit+push в ветку sanity-monitor; клон-восстановление `git clone -b sanity-monitor https://github.com/TonkWasere/test.git`
+- Прерванная полуфаза cron закрыта без потери данных и без лишних GET; цепочка hourly-коммитов непрерывна
+- Безопасность: токен засвечен в переписке — автору по желанию отозвать/перевыпустить в любой момент (GitHub → Settings → Developer settings → Tokens); старый fine-grained токен можно отозвать сразу (в ВМ не хранится)
+- Автор может переключить default-ветку на sanity-monitor в Settings (не блокирует ничего)

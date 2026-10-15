@@ -13,11 +13,11 @@
 - PAT аккаунта TonkWasere хранится локально в ~/.git-credentials (ВНЕ репо, chmod 600,
   credential.helper = store). Строка токена НИКОГДА не попадает в worklog/ledger/коммиты
   (публичный репо!) и в выводы логов.
-- СТАТУС: первый токен (15.10 ~19:25 UTC) — аутентификация OK (TonkWasere), но push 403:
-  у токена нет Repository permissions → Contents → Read and write. Ожидается замена токена
-  автором (отредактировать: Permissions → Contents: Read and write; Metadata остаётся Read-only).
-- БЕЗ работающего токена: раунды идут, коммиты копятся ЛОКАЛЬНО в /home/z/my-project (git),
-  push отложенный — как только токен с правами появится, часовой раунд запушит всё накопленное.
+- СТАТУС (15.10 19:15 UTC): **PUSH РАБОТАЕТ.** Первый токен (fine-grained) дал push 403
+  (не хватало Contents:write); автор выдал классический токен — ls-remote OK, пуш прошёл:
+  ветка sanity-monitor создана на GitHub, первые 4 коммита (b87396c…f58c8d1) уехали, master не тронут.
+- ЕСЛИ ТОКЕН ОТОВРАН/ПРОСРОЧЕН: раунды идут, коммиты копятся ЛОКАЛЬНО в /home/z/my-project (git),
+  push отложенный — как только рабочий токен появится в ~/.git-credentials, часовой раунд запушит всё накопленное.
 
 ## Часовой раунд (executed by cron agentTurn, fixed_rate 3600s)
 1. Прочитать хвост /home/z/my-project/worklog.md (последние 2-3 задачи) — не повторять уже сделанное.
@@ -37,13 +37,14 @@
    - cd /home/z/my-project
    - git add -A (gitignore отсекает zip/tar/png-баннеры/node_modules)
    - git commit -m "hourly round <UTC timestamp>: <краткое дельта-описание>"
-   - git push origin master (если PAT настроен; иначе — commit остаётся локальным,
-     в резюме отметить «push pending, нет PAT»)
+   - git push origin sanity-monitor (если прошёл — пометь «pushed»; если 401/403 —
+     «push pending: токен отозван/без прав», коммит остаётся локальным)
 5. НЕ публиковать ничего на форуме (read-only), НЕ создавать ZIP-версии (это отдельная линия,
    только по чек-пойнтам/команде автора), НЕ трогать /tmp-стейджи.
 
 ## Рекавери-процедура (если ВМ откатилась/отвалилась)
-1. git clone https://github.com/TonkWasere/test.git → вернуть worklog.md, tools/, output/ тексты.
+1. git clone -b sanity-monitor https://github.com/TonkWasere/test.git → вернуть worklog.md, tools/, output/ тексты.
+   (ветка по умолчанию на GitHub = master «Hello world» — мониторинг живёт в sanity-monitor).
 2. Тяжёлое (ZIP vNN, png-баннеры) — из MEGA-оттяжки автора (свежая версия у автора всегда).
 3. Продолжить раунды с нового HEAD.
 
