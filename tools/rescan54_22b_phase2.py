@@ -1,90 +1,104 @@
 #!/usr/bin/env python3
-# rescan54_22b_phase2.py — OP 196516/196510 + верификация сноса #70 в 196411 + хвост Crios-ответов 196435
-import json, os, urllib.request, time, re, datetime
+# rescan54_22b_phase2.py — Task 54-22: OP новых тредов окна 21:26 (196556 «Говнозей и тимминг»,
+# 196578 «Починка обвесов (Шепота)», 196544 «Площадка для объявлений» cc=25) near1+near999999
+# + хвосты вспышек: 196563 (взрыв 9→26), 196562 (7→9), 196576 (7→10), 196575 (8→11),
+# 196574/196572/196561/196560, 196425 (ожил 43→44).
+import json, os, re, time, urllib.request
 
-TS = '20261015_2209'
-TS2 = datetime.datetime.now(datetime.UTC).strftime('%Y%m%d_%H%M')
-OUT = '/home/z/my-project/output/evidence_post'
-UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36',
-      'Accept': 'application/json'}
 BASE = 'https://forum.exbo.net'
+OUT = '/home/z/my-project/output/evidence_post'
+TS = "20261016_2231"
+UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+      '(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36')
 
-def get(url, name, validate_json=True):
-    path = os.path.join(OUT, name)
-    if os.path.exists(path):
-        print(f'SKIP {name}'); return True
+def get(url, fname):
+    dst = os.path.join(OUT, fname)
+    if os.path.exists(dst):
+        print('SKIP', fname); return True
     try:
-        req = urllib.request.Request(url, headers=UA)
+        req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'application/json'})
         with urllib.request.urlopen(req, timeout=30) as r:
-            body = r.read()
-        open(path, 'wb').write(body)
-        if validate_json:
-            json.loads(body)
-        print(f'OK {name} ({len(body)}B)')
-        return True
+            data = r.read()
+        open(dst, 'wb').write(data)
+        if fname.endswith('.json'):
+            json.loads(data.decode('utf-8'))  # валидация
+        print('OK', fname, f'({len(data)}B)'); time.sleep(1); return True
     except Exception as e:
-        print(f'FAIL {name}: {e}')
-        return False
+        print('FAIL', fname, e); return False
 
-def posts_of(fname):
+# --- OP новых тредов окна 21:26 ---
+for tid in (196556, 196578, 196544):
+    get(f'{BASE}/api/discussions/{tid}?page[near]=1', f'discussion_{tid}_near1_{TS}.json')
+    get(f'{BASE}/api/discussions/{tid}?page[near]=999999', f'discussion_{tid}_near999999_{TS}.json')
+# --- хвосты вспыхнувших ---
+for tid in (196563, 196562, 196576, 196575, 196574, 196572, 196425, 196561, 196560):
+    get(f'{BASE}/api/discussions/{tid}?page[near]=999999', f'discussion_{tid}_near999999_{TS}.json')
+
+users = {}
+def uname(uid):
+    return users.get(uid, f'u{uid}')
+
+def load_users(fname):
     try:
-        d = json.load(open(os.path.join(OUT, fname)))
+        d = json.load(open(os.path.join(OUT, fname), encoding='utf-8'))
+        for i in d.get('included', []):
+            if i.get('type') == 'users':
+                users[i['id']] = i.get('attributes', {}).get('username') or f"u{i['id']}"
     except Exception as e:
-        print(f'PARSE FAIL {fname}: {e}'); return []
-    out = []
-    for i in (d.get('data') if isinstance(d.get('data'), list) else []):
-        if isinstance(i, dict) and i.get('type') == 'posts':
-            out.append(i)
-    for i in (d.get('included') or []):
-        if isinstance(i, dict) and i.get('type') == 'posts':
-            out.append(i)
-    return out
+        print('users fail', fname, e)
 
-def head_text(p, n=230):
-    a = p.get('attributes', {})
-    t = a.get('contentPlain') or a.get('content') or a.get('contentHtml') or ''
-    if not isinstance(t, str):
-        try: t = json.dumps(t, ensure_ascii=False)
-        except Exception: t = str(type(t))
-    t = re.sub(r'<[^>]+>', ' ', t)
-    t = re.sub(r'\s+', ' ', t).strip()
-    return t[:n]
-
-# === OP-добор ===
-for tid in (196516, 196510):
-    get(f'{BASE}/api/discussions/{tid}?page[near]=1', f'discussion_{tid}_near1_{TS2}.json'); time.sleep(1)
-
-for tid in (196516, 196510):
-    fn = f'discussion_{tid}_near1_{TS2}.json'
+def dump_thread(tid):
+    fnear = os.path.join(OUT, f'discussion_{tid}_near999999_{TS}.json')
+    fop = os.path.join(OUT, f'discussion_{tid}_near1_{TS}.json')
+    src = fnear if os.path.exists(fnear) else fop
+    if not os.path.exists(src):
+        print(f'[{tid}] NO DATA'); return
     try:
-        dd = json.load(open(os.path.join(OUT, fn)))
-        aa = dd.get('data', {}).get('attributes', {}) if isinstance(dd.get('data'), dict) else {}
-        print(f"\n[{tid}] cc={aa.get('commentCount')} LPN={aa.get('lastPostNumber')} createdAt={aa.get('createdAt')} :: {aa.get('title','')}")
-        pp = sorted(posts_of(fn), key=lambda p: p.get('attributes', {}).get('number') or 0)
-        for p in pp[:2]:
+        d = json.load(open(src, encoding='utf-8'))
+        load_users(os.path.basename(src))
+        dd = d.get('data', {})
+        aa = dd.get('attributes', {}) if isinstance(dd, dict) else {}
+        title = aa.get('title', '?'); cc = aa.get('commentCount'); lpn = aa.get('lastPostNumber')
+        created = (aa.get('createdAt') or '')[:16]
+        print(f"\n===== {tid} «{title}» cc={cc} LPN={lpn} created={created} =====")
+        # OP
+        if os.path.exists(fop):
+            dop = json.load(open(fop, encoding='utf-8'))
+            inc = dop.get('included', [])
+            for i in inc:
+                if i.get('type') == 'users':
+                    users[i['id']] = i.get('attributes', {}).get('username') or f"u{i['id']}"
+            opp = [p for p in dop.get('included', []) if p.get('type') == 'posts' and p.get('attributes', {}).get('number') == 1]
+            if opp:
+                opa = opp[0].get('attributes', {})
+                txt = opa.get('contentPlain') or ''
+                if not txt:
+                    h = opa.get('contentHtml') or ''
+                    txt = re.sub(r'<[^>]+>', ' ', h)
+                    txt = re.sub(r'\s+', ' ', txt).strip()
+                print(f"  OP[{uname(opp[0].get('relationships', {}).get('user', {}).get('data', {}).get('id'))}] {txt[:420]}")
+        pp = []
+        dd2 = d.get('data', {})
+        posts_rel = (dd2.get('relationships', {}).get('posts', {}) or {}).get('data', [])
+        included_posts = [i for i in d.get('included', []) if i.get('type') == 'posts']
+        by_id = {i['id']: i for i in included_posts}
+        for rel in posts_rel:
+            p = by_id.get(rel.get('id'))
+            if p: pp.append(p)
+        for p in pp[-12:]:
             a = p.get('attributes', {})
-            print(f"  #{a.get('number')} {a.get('createdAt')} :: {head_text(p)}")
+            num = a.get('number'); ts = (a.get('createdAt') or '')[:16]
+            uid = p.get('relationships', {}).get('user', {}).get('data', {}).get('id')
+            txt = a.get('contentPlain') or ''
+            if not txt:
+                h = a.get('contentHtml') or ''
+                txt = re.sub(r'<[^>]+>', ' ', h)
+                txt = re.sub(r'\s+', ' ', txt).strip()
+            print(f"  #{num} {ts} :: {uname(uid)} {txt[:200]}")
     except Exception as e:
-        print(f'[{tid}] fail {e}')
+        print(f'[{tid}] parse fail {e}')
 
-# === Верификация сноса #70 (196411, фаза 1) ===
-fn = os.path.join(OUT, f'discussion_196411_near999999_{TS}.json')
-pp = posts_of(fn)
-nums = sorted((p.get('attributes', {}).get('number') or 0) for p in pp)
-print(f'\n196411 near999999 покрытие: {nums[0]}..{nums[-1]} ({len(nums)} шт)')
-print(f'>>> #70 в покрытии? {"НЕТ — СНОС ПОДТВЕРЖДЁН" if 70 not in nums else "да — жив"}')
+for tid in (196556, 196578, 196544, 196563, 196562, 196576, 196575, 196574, 196572, 196425, 196561, 196560):
+    dump_thread(tid)
 
-# === Crios-ответы в 196435 (полный текст #132-133) ===
-fn = os.path.join(OUT, f'discussion_196435_near999999_{TS}.json')
-try:
-    d = json.load(open(os.path.join(OUT, fn)))
-    dd = d.get('data', {}).get('attributes', {}) if isinstance(d.get('data'), dict) else {}
-    print(f"\n196435 attrs: cc={dd.get('commentCount')} LPN={dd.get('lastPostNumber')} createdAt={dd.get('createdAt')}")
-    for p in posts_of(fn):
-        a = p.get('attributes', {})
-        if a.get('number') in (130, 131, 132, 133, 134):
-            print(f"  #{a.get('number')} {a.get('createdAt')} :: {head_text(p, 300)}")
-except Exception as e:
-    print(f'196435 fail {e}')
-
-print(f'\nTS_phase2={TS2}')
+print(f'\nTS={TS}')
