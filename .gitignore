@@ -1,4 +1,5 @@
 skills/
 node_modules/
-PAT_VAULT_LOCAL.md
+PAT_VAULT_LOCAL*
 .next/
+tools/__pycache__/
