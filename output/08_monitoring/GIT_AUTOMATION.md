@@ -113,11 +113,19 @@ fsck, ветка, creds, синхронизация origin+backup, гэп ком
 - Токен в чате = риск; хранится только в credential store ВМ. Отзыв: GitHub → Settings → Tokens.
 - Остановка: команда автора «Остановить автоматизацию» → удалить cron-задачу, отчитаться.
 
-## СТАТУС ЖИВОСТИ (обновляется при каждых руках агента; 16.10 01:10 UTC)
-- КРОН: 462533 активен (status=1, fixed_rate 3600), последний прогон SUCCESS (54-0, 00:34 UTC),
-  следующий запуск система планирует ~02:26 UTC / 05:26 МСК (якорь планировщика :26, может дрейфовать до часа)
-- ПУШ: работает — 34b2d72 (ссылки MEGA+GitHub в RESTORE_GUIDE) уехал на origin+backup 01:05 UTC;
-  healthcheck: local=origin=backup=34b2d72
+## СТАТУС ЖИВОСТИ (обновляется при каждых руках агента; 18.10 14:55 UTC)
+- КРОН: 462533 активен, последний прогон SUCCESS (54-61, ~14:50 UTC, ledger №106)
+- ПУШ: работает — 7eed26e уехал на origin+backup 14:50 UTC; healthcheck 14:36: 12/12
+- ВОССТАНОВЛЕНО ПОСЛЕ ОТКАТА ВМ №2 (18.10 ~13:30 UTC): creds из MEGACOPY-vault'а автора;
+  credential.helper=store переустановлен (слетел вместе с .gitconfig — если push падает
+  «could not read Username», первым делом проверить git config --global credential.helper)
+- ⚠️ РОТАЦИЯ PAT: валидный токен оказался на публичной MEGA-ссылке (инцидент 54-61,
+  RESTORE_GUIDE) — автору создать новый токен, раунд обновит creds
+- MEGA = новая линия восстановления: tools/mega_pull.py <url> [out] (новый /file/-формат:
+  AES-ключ XOR(key[:16],key[16:32]), CTR nonce=key[16:24], MAC ECB-condense; download-URL
+  только при {"a":"g","g":1,"p":<id>,"ssl":2}, URL одноразовый)
+- ЧИСТКА BUNDLE: шаблон `ls -t | tail -n +4 | xargs rm -f` работает только из /home/z/backups
+  (относительные пути!) — из другого CWD старые bundle не удаляются
 - САМОПРОВЕРКА АВТОРОМ: открыть https://github.com/TonkWasere/test/commits/sanity-monitor —
   свежий коммит от текущего часа = крон жив и в git пишет. Если свежего коммита нет >90 мин —
   смотреть worklog: там либо «push pending» (проблема токена), либо «round skipped» (сеть).
