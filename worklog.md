@@ -3742,3 +3742,20 @@ Work Log:
 Stage Summary:
 - Раунд 54-91 закрыт ЛОКАЛЬНО (ledger №134, HEAD = a2b7e19); очередь push: 2 коммита (54-90 bc8f35a + 54-91 a2b7e19); АВТОРУ: новый PAT — без него очередь растёт
 - ЗАЧИСТКА №4: /home/z/backups вычищена за ~50 мин после пересоздания (18:44→19:35) — не-git-артефакты не переживают; bundle пересоздан, локальный git-стейт цел
+
+---
+Task ID: 54-91 (push-recovery)
+Agent: main
+Task: Восстановление push — автор передал MEGA-ссылку на PAT-vault (19.10 ~19:50 UTC)
+
+Work Log:
+- mega_pull.py file/r9QxQBCT → /tmp (2630 B, MAC OK — целостность подтверждена); имя: PAT_VAULT_LOCAL.md
+- sha256 7f9edd5d… = эталон 54-61 (18.10) → vault БАЙТ-В-БАЙТ тот же — токен НЕ ротирован (тот же ghp_-классик «SanityBackups»)
+- API-проверка: HTTP 200, login TonkWasere (id 189083030), скоупы полные (repo, workflow, …) — токен жив
+- creds восстановлены по доказанному формату user:pass → ~/.git-credentials (600) + credential.helper=store возвращён (слетел при откате ВМ); vault восстановлен в /home/z/my-project/PAT_VAULT_LOCAL.md (gitignored, 600, check-ignore OK); /tmp-копия шредована
+- ОТЛОЖЕННЫЙ PUSH ВЫПОЛНЕН: origin 6dd7f4d..384dd8b + backup 6dd7f4d..384dd8b — очередь 3 коммита (54-90 bc8f35a + 54-91 a2b7e19 + 54-91-финал 384dd8b) ушла в ОБЕ репы; ls-remote: local=origin=backup=384dd8b7ec02
+
+Stage Summary:
+- PUSH RESTORED (19.51 UTC): пуш-пендинг 54-90/54-91 закрыт за один заход, дрейф 0; линии 1/2 снова зелёные
+- ⚠ РОТАЦИЯ ПО-ПРЕЖНЕМУ НЕ СДЕЛАНА: тот же живой токен с 18.10 14:29 лежит на публичной MEGA-ссылке (URL в git-истории публичных реп) — автору повторно: отозвать «SanityBackups» → выпустить новый PAT (передавать не по публичной MEGA, либо ротировать сразу после использования)
+- ВМ-уроки подтверждены: credential.helper и ~/.git-credentials слетают при откате — восстанавливаются по PAT_VAULT_LOCAL.md за 2 минуты
