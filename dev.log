@@ -23,3 +23,5 @@ https://nextjs.org/telemetry
  GET / 200 in 28ms (compile: 3ms, render: 25ms)
  GET / 200 in 26ms (compile: 1993µs, render: 24ms)
  GET / 200 in 35ms (compile: 2ms, render: 33ms)
+ GET / 200 in 31ms (compile: 3ms, render: 29ms)
+ GET / 200 in 27ms (compile: 2ms, render: 25ms)
