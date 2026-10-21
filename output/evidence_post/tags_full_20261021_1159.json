@@ -1,0 +1,2398 @@
+{
+ "data": [
+  {
+   "type": "tags",
+   "id": "10",
+   "attributes": {
+    "name": "Вопросы",
+    "description": "Даже у опытных бывают нерешимые задачи. Как хорошо, что у верных товарищей всегда можно узнать всё необходимое, но не забывайте помогать в ответ...",
+    "slug": "bar-experienced-questions",
+    "color": "#23acaf",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-question-circle",
+    "discussionCount": 33156,
+    "position": 0,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:57:00+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "72"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "11",
+   "attributes": {
+    "name": "Предложения",
+    "description": "Опытный на то и опытный, потому что знает достаточно. А если он знает достаточно, значит, сможет что-то предложить разработчикам. Ну, сделать это можно здесь.",
+    "slug": "bar-experienced-ideas",
+    "color": "#dc7a1e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-lightbulb",
+    "discussionCount": 30342,
+    "position": 3,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:57:15+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "72"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "12",
+   "attributes": {
+    "name": "Истории",
+    "description": "О, ещё один костёр. Ну, послушаем, что говорят бывалые представители этого чудесного места. Может быть, хоть анекдот интересный наконец-то расскажут.",
+    "slug": "bar-experienced-stories",
+    "color": "#128ce2",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-fire",
+    "discussionCount": 18552,
+    "position": 2,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:51:23+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "72"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "28",
+   "attributes": {
+    "name": "Кооперация",
+    "description": "Каждый опытный знает, что без напарника выживаемость значительно снижается. Поэтому только сегодня торопитесь, найдите себе напарника, чтобы выжить...",
+    "slug": "bar-experienced-cooperation",
+    "color": "#8554b0",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-hands-helping",
+    "discussionCount": 1596,
+    "position": 1,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:42:18+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "72"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "31",
+   "attributes": {
+    "name": "Курилка",
+    "description": "Вот эта ваша опасная зона уже порядком надоела. Хочется простого человеческого общения. Как хорошо, что здесь можно найти всё. Выбирайте любую тему!",
+    "slug": "smoking-room",
+    "color": "#949494",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-smoking",
+    "discussionCount": 11408,
+    "position": 13,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": true,
+    "lastPostedAt": "2026-10-21T10:20:29+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": null,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "34",
+   "attributes": {
+    "name": "Клубы",
+    "description": "Любите ВСС «Винторез»? Для вас есть клуб. Любите конкретного рупора? Для вас тоже есть клуб. В общем, вступайте или создавайте клубы по интересам прямо здесь.",
+    "slug": "smoking-room-clubs",
+    "color": "#8554b0",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-users",
+    "discussionCount": 407,
+    "position": 5,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": true,
+    "lastPostedAt": "2026-10-20T11:54:34+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "31"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "35",
+   "attributes": {
+    "name": "Аниме",
+    "description": "Что там у нас сегодня? «Наруто», «Ван Пис», «Евангелион». А, короче, здесь у нас обслуживают аниме. Всем любителям сюда. Проходим, не задерживаемся!",
+    "slug": "smoking-room-anime",
+    "color": "#c86ac8",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-grin-hearts",
+    "discussionCount": 181,
+    "position": 0,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": true,
+    "lastPostedAt": "2026-07-22T15:00:53+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "31"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "45",
+   "attributes": {
+    "name": "Artists",
+    "description": "Блог департамента «Artists» компании «EXBO». Помните, что позиция конкретных лиц может отличаться от позиции всей компании.",
+    "slug": "developers-artists",
+    "color": "#b575cc",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-palette",
+    "discussionCount": 13,
+    "position": 2,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T06:20:53+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "123"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "47",
+   "attributes": {
+    "name": "Прочее",
+    "description": "Если вы пришли сюда, значит, не нашли подходящего для себя раздела. Как хорошо, что здесь можно размещать всё остальное. Только не нарушайте правила...",
+    "slug": "smoking-room-other",
+    "color": "#8f8f8f",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-comment-dots",
+    "discussionCount": 7064,
+    "position": 6,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T10:20:29+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "31"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "48",
+   "attributes": {
+    "name": "Творчество",
+    "description": "Клуб различного творчества, посвящённого игре STALZONE. Здесь у нас видео, скриншоты, мемы, рассказы и рисунки. Как говорится, культурно проводим время.",
+    "slug": "creativity",
+    "color": "#824fcf",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-magic",
+    "discussionCount": 5981,
+    "position": 9,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:51:47+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "49",
+   "attributes": {
+    "name": "Видео",
+    "description": "Раздел для публикации различных видеороликов, посвящённых игре STALZONE. Помните, что у каждого пользователя может быть своё мнение. Уважайте друг друга!",
+    "slug": "creativity-videos",
+    "color": "#ee6d6d",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fab fa-youtube",
+    "discussionCount": 2948,
+    "position": 0,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T09:51:09+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "48"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "50",
+   "attributes": {
+    "name": "Скриншоты",
+    "description": "Раздел для публикации различных скриншотов, посвящённых игре STALZONE. Помните, что у каждого пользователя может быть своё мнение. Уважайте друг друга!",
+    "slug": "creativity-screenshots",
+    "color": "#128ce2",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-camera",
+    "discussionCount": 583,
+    "position": 1,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-03T12:05:08+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "48"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "51",
+   "attributes": {
+    "name": "Рассказы",
+    "description": "Раздел для публикации различных рассказов, посвящённых игре STALZONE. Помните, что у каждого пользователя может быть своё мнение. Уважайте друг друга!",
+    "slug": "creativity-stories",
+    "color": "#29c4c7",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-atlas",
+    "discussionCount": 561,
+    "position": 3,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-20T20:00:24+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "48"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "52",
+   "attributes": {
+    "name": "Рисунки",
+    "description": "Раздел для публикации различных рисунков, посвящённых игре STALZONE. Помните, что у каждого пользователя может быть своё мнение. Уважайте друг друга!",
+    "slug": "creativity-arts",
+    "color": "#d26acf",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-paint-brush",
+    "discussionCount": 1370,
+    "position": 4,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:27:00+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "48"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "65",
+   "attributes": {
+    "name": "Авторские",
+    "description": "Руководства от наших игроков, которые топчут зону не одну тысячу часов. Здесь у нас всё о заданиях, достижениях и даже о производительности игры.",
+    "slug": "guides-copyright",
+    "color": "#19a447",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-hiking",
+    "discussionCount": 1190,
+    "position": 0,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:24:10+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "121"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "67",
+   "attributes": {
+    "name": "Новости",
+    "description": "Все новости надёжно хранятся здесь и терпеливо ждут, когда вы их прочитаете. Кстати, это именно та категория, на которую стоит подписаться прямо сейчас.",
+    "slug": "news",
+    "color": "#c64e4e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-bell",
+    "discussionCount": 2529,
+    "position": 2,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:43:48+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "68",
+   "attributes": {
+    "name": "Объявления",
+    "description": "Так-с, у нас тут различного рода новости по различным интересным поводам. В общем, про кнопку «Подписка» помнят все! Не переживайте, будет интересно.",
+    "slug": "news-ads",
+    "color": "#dc7a1e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-bullhorn",
+    "discussionCount": 1462,
+    "position": 0,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:43:48+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "67"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "69",
+   "attributes": {
+    "name": "Обновления",
+    "description": "Вот вышло обновление в игре, а как узнать, что было добавлено? Очень просто, достаточно лишь найти в этом разделе нужный патчноут.",
+    "slug": "news-updates",
+    "color": "#19a447",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-tools",
+    "discussionCount": 417,
+    "position": 1,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T06:45:42+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "67"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "70",
+   "attributes": {
+    "name": "Конкурсы",
+    "description": "Конкурс рисунков, скриншотов, а вот и конкурс косплеев. Ну вы поняли, вся информация о конкурсах по нашей игре будет располагаться тут.",
+    "slug": "news-contests",
+    "color": "#8554b0",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-gamepad",
+    "discussionCount": 97,
+    "position": 3,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T09:44:38+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "67"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "71",
+   "attributes": {
+    "name": "Прочее",
+    "description": "Разносторонние новости, обзоры на снаряжение и фанатский контент. Дополнительные новости для тех, кто хочет быть в теме того самого STALZONE.",
+    "slug": "news-other",
+    "color": "#8f8f8f",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-image",
+    "discussionCount": 421,
+    "position": 6,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-09-10T04:54:34+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "67"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "72",
+   "attributes": {
+    "name": "Бар",
+    "description": "Территория бывалых обитателей зоны. Вижу множество опытных, и даже ветераны найдутся. Думаю, здесь можно узнать много интересного, но вряд ли бесплатно.",
+    "slug": "bar-experienced",
+    "color": "#2c7dce",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-radiation",
+    "discussionCount": 93992,
+    "position": 5,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:57:15+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": null,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "75",
+   "attributes": {
+    "name": "Top Management",
+    "description": "Блог топ-менеджеров компании «EXBO». Помните, что позиция конкретных лиц может отличаться от позиции всей компании.",
+    "slug": "developers-top-management",
+    "color": "#dc7a1e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-crown",
+    "discussionCount": 8,
+    "position": 0,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-09T12:18:34+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "123"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "80",
+   "attributes": {
+    "name": "Болота",
+    "description": "Территория новичков. Здесь как никогда чувствуется тяга к неизведанным тайнам зоны. Задавайте вопросы, делитесь информацией и просто общайтесь!",
+    "slug": "swamps-newbie",
+    "color": "#17d694",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-frog",
+    "discussionCount": 28542,
+    "position": 4,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:59:07+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": null,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "81",
+   "attributes": {
+    "name": "Вопросы",
+    "description": "Возникли проблемы с заданием? Или, может, нужна помощь со сборкой артефактов? Не беда, всегда можно узнать что угодно более опытных игроков в этом разделе.",
+    "slug": "swamps-newbie-questions",
+    "color": "#23acaf",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-question-circle",
+    "discussionCount": 9995,
+    "position": 0,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:58:45+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "80"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "84",
+   "attributes": {
+    "name": "Кузня-11",
+    "description": "Территория, на которой ошибки непростительны. Здесь каждый попытается тебя убить, ведь ничего кроме наживы их не интересует. Новичкам здесь не место...",
+    "slug": "smithy-masters",
+    "color": "#d28b19",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-skull-crossbones",
+    "discussionCount": 18724,
+    "position": 6,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:57:59+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": null,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "91",
+   "attributes": {
+    "name": "Медиа-партнёры ",
+    "description": "Медиа-партнёры — это своего рода митрополиты в медиа-пространстве. Именно здесь вы сможете найти ролики и личные заметки. И всё это от любимых блогеров.",
+    "slug": "media-partners",
+    "color": "#ea3939",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fab fa-youtube",
+    "discussionCount": 107,
+    "position": 10,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-09-23T04:27:34+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": null,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "92",
+   "attributes": {
+    "name": "Видео",
+    "description": "Новый ролик уже на канале! А здесь этих каналов несколько десятков. Смотрите и комментируйте ролики не выходя за пределы нашего форума.",
+    "slug": "media-partners-video",
+    "color": "#dd406f",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-play",
+    "discussionCount": 101,
+    "position": 0,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-09-23T04:27:34+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "91"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "94",
+   "attributes": {
+    "name": "Заметки",
+    "description": "Место, в котором медиа-партнёры выражают своё личное мнение по совершенно любым темам. Читайте, общайтесь, соглашайтесь или критикуйте. Выбор за вами!",
+    "slug": "media-partners-notes",
+    "color": "#dc7a1e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-comment-alt",
+    "discussionCount": 1,
+    "position": 1,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-01-29T11:36:16+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "91"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "96",
+   "attributes": {
+    "name": "Balance",
+    "description": "Блог отдела «Balance» компании «EXBO». Помните, что позиция конкретных лиц может отличаться от позиции всей компании.",
+    "slug": "developers-balance",
+    "color": "#5b9efb",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-balance-scale",
+    "discussionCount": 13,
+    "position": 3,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:31:49+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "123"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "107",
+   "attributes": {
+    "name": "Информация",
+    "description": "Здесь находятся различные материалы, которые позволят вам комфортно пользоваться нашим форумом. Рекомендуем ознакомиться со всеми дискуссиями.",
+    "slug": "information",
+    "color": "#22b7f7",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-info-circle",
+    "discussionCount": 4,
+    "position": 1,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-06-17T16:17:33+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": null,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "109",
+   "attributes": {
+    "name": "Предложения",
+    "description": "Новички всегда знают, что необходимо добавить в игру. Поэтому мы сделали этот раздел, чтобы каждый мог оставлять здесь свои идеи и пожелания.",
+    "slug": "swamps-newbie-ideas",
+    "color": "#dc7a1e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-lightbulb",
+    "discussionCount": 5996,
+    "position": 3,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T08:50:29+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "80"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "110",
+   "attributes": {
+    "name": "Истории",
+    "description": "Все мы любим посиделки у костра. А почему мы их любим? Правильно, за увлекательные истории. Как вы уже поняли, наш цифровой костёр находится здесь.",
+    "slug": "swamps-newbie-stories",
+    "color": "#128ce2",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-fire",
+    "discussionCount": 4917,
+    "position": 2,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:59:07+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "80"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "111",
+   "attributes": {
+    "name": "Кооперация",
+    "description": "Найти себе напарника может каждый, особенно в этом разделе. Зачем вам напарник? Ну, чтобы процент вашей выживаемости был равен хотя бы одному...",
+    "slug": "swamps-newbie-cooperation",
+    "color": "#8554b0",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-hands-helping",
+    "discussionCount": 246,
+    "position": 1,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T05:38:12+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "80"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "113",
+   "attributes": {
+    "name": "Вопросы",
+    "description": "Могут ли возникнуть какие-то вопросы у ветеранов или мастеров? Предполагаем, что могут. По этой причине мы создали данный раздел. Спрашивайте!",
+    "slug": "smithy-masters-questions",
+    "color": "#23acaf",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-question-circle",
+    "discussionCount": 6375,
+    "position": 0,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:09:40+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "84"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "114",
+   "attributes": {
+    "name": "Предложения",
+    "description": "Ветеран или мастер предлагают не то что бы идеи по игре, а целые статьи. По крайней мере, так принято считать. В общем, все идеи оставляем в этом разделе!",
+    "slug": "smithy-masters-ideas",
+    "color": "#dc7a1e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-lightbulb",
+    "discussionCount": 5424,
+    "position": 3,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:22:10+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "84"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "115",
+   "attributes": {
+    "name": "Истории",
+    "description": "Это место легендарно. Знаете почему? Только здесь можно услышать истории про Вива, Зуба, Химеру и про всякие журналы. Здесь нужно быть, как говорится, в теме.",
+    "slug": "smithy-masters-stories",
+    "color": "#128ce2",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-fire",
+    "discussionCount": 2269,
+    "position": 2,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:46:36+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "84"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "116",
+   "attributes": {
+    "name": "Кооперация",
+    "description": "Принято считать, что ветеран или мастер выживает в опасных ситуациях практически всегда. Предполагается, что выживать с напарником или отрядом в разы веселее.",
+    "slug": "smithy-masters-cooperation",
+    "color": "#8554b0",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-hands-helping",
+    "discussionCount": 221,
+    "position": 1,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T08:31:12+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "84"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "117",
+   "attributes": {
+    "name": "Торговля",
+    "description": "Подходите, оружие, костюмы, артефакты, да что душе угодно. А постоянным покупателям уважение от наших авторитетов. Только не забывайте смотреть на цены!",
+    "slug": "trading",
+    "color": "#1f9e49",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-store",
+    "discussionCount": 2965,
+    "position": 7,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-18T17:13:56+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "118",
+   "attributes": {
+    "name": "Покупка",
+    "description": "Здесь можно размещать объявления о покупке каких-либо предметов из игры. Пожалуйста, осуществляйте все сделки только через систему обмена.",
+    "slug": "trading-purchases",
+    "color": "#19a447",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-shopping-cart",
+    "discussionCount": 1035,
+    "position": 0,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-18T17:13:56+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "117"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "119",
+   "attributes": {
+    "name": "Продажа",
+    "description": "Здесь можно размещать объявления о продаже каких-либо предметов из игры. Пожалуйста, осуществляйте все сделки только через систему обмена.",
+    "slug": "trading-sale",
+    "color": "#d0495d",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-comments-dollar",
+    "discussionCount": 1500,
+    "position": 1,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-02T12:08:01+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "117"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "120",
+   "attributes": {
+    "name": "Обмен",
+    "description": "Здесь можно размещать объявления об обмене каких-либо предметов из игры. Пожалуйста, осуществляйте все сделки только через систему обмена.",
+    "slug": "trading-exchange",
+    "color": "#128ce2",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-sync-alt",
+    "discussionCount": 137,
+    "position": 2,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-13T22:53:06+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "117"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "121",
+   "attributes": {
+    "name": "Руководства",
+    "description": "Эй, новички, ветераны и мастера готовы поделиться с вами своим бесценным опытом. В общем, в данной категории можно найти много полезных руководств.",
+    "slug": "guides",
+    "color": "#e166c6",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-atlas",
+    "discussionCount": 870,
+    "position": 8,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:24:10+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "123",
+   "attributes": {
+    "name": "Разработка",
+    "description": "Сотрудников в нашей компании много, и каждый старается для вас. А здесь некоторые из них делятся подробностями по разработке игры STALZONE.",
+    "slug": "developers",
+    "color": "#22b7f7",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-code",
+    "discussionCount": 134,
+    "position": 11,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:31:49+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   }
+  },
+  {
+   "type": "tags",
+   "id": "124",
+   "attributes": {
+    "name": "Игры",
+    "description": "Наша команда обожает игры и приравнивает это к искусству. Почему бы не обсуждать этот вид искусства в данном разделе? В общем, вы всё поняли.",
+    "slug": "smoking-room-games",
+    "color": "#1bc7da",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-dice",
+    "discussionCount": 382,
+    "position": 1,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-19T16:19:28+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "31"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "125",
+   "attributes": {
+    "name": "Фильмы",
+    "description": "Знаете, я тоже своего рода учёный... А ещё ты невероятно быстр и силён... Обсуждение различных фильмов происходит прямо здесь и сейчас.",
+    "slug": "smoking-room-movies",
+    "color": "#128ce2",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-photo-video",
+    "discussionCount": 28,
+    "position": 2,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-06-23T19:48:05+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "31"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "126",
+   "attributes": {
+    "name": "Юмор",
+    "description": "По данным каких-то там учёных, хороший мем может сделать любой день хорошим. Давайте сделаем так, чтобы каждый наш день был хорошим!",
+    "slug": "smoking-room-humor",
+    "color": "#dc7a1e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-laugh-squint",
+    "discussionCount": 314,
+    "position": 3,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-19T13:02:58+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "31"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "127",
+   "attributes": {
+    "name": "Музыка",
+    "description": "Поп, рок, рэп и так далее. Сколько же жанров у музыки в наше время... Обсуждайте музыку, делитесь треками, отправляйте тексты и просто хорошо проводите время!",
+    "slug": "smoking-room-music",
+    "color": "#c64e4e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-guitar",
+    "discussionCount": 83,
+    "position": 4,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-20T17:29:49+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "31"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "139",
+   "attributes": {
+    "name": "Community",
+    "description": "Блог департамента «Community Team» компании «EXBO». Помните, что позиция конкретных лиц может отличаться от позиции всей компании.",
+    "slug": "developers-community",
+    "color": "#8554b0",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-globe",
+    "discussionCount": 24,
+    "position": 4,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-10T09:12:52+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "123"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "140",
+   "attributes": {
+    "name": "Sound Design",
+    "description": "Блог отдела «Sound Design» компании «EXBO». Помните, что позиция конкретных лиц может отличаться от позиции всей компании.",
+    "slug": "developers-sound-design",
+    "color": "#1bc7da",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-music",
+    "discussionCount": 12,
+    "position": 8,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-20T16:45:50+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "123"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "141",
+   "attributes": {
+    "name": "EXens",
+    "description": "Блог отдела «EXens» компании «EXBO». Помните, что позиция конкретных лиц может отличаться от позиции всей компании.",
+    "slug": "developers-exens",
+    "color": "#c64e4e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-bug",
+    "discussionCount": 4,
+    "position": 6,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-07-20T14:13:16+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "123"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "146",
+   "attributes": {
+    "name": "Фокус-группа",
+    "description": "Фокус-группа — это независимая команда игроков, которая тестирует различные обновления. Здесь её участники делятся разными заметками по игре STALZONE.",
+    "slug": "focus-group",
+    "color": "#dc7a1e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-user-friends",
+    "discussionCount": 104,
+    "position": 12,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-09-17T14:56:18+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "147",
+   "attributes": {
+    "name": "Баланс",
+    "description": "Заметки, предложения и критика по балансу игровых предметов из STALZONE.",
+    "slug": "focus-group-balance",
+    "color": "#f3b772",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-balance-scale",
+    "discussionCount": 30,
+    "position": 0,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2025-12-14T17:14:26+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "146"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "148",
+   "attributes": {
+    "name": "Подразделения",
+    "description": "Заметки, предложения и критика по подразделениям в STALZONE.",
+    "slug": "focus-group-division",
+    "color": "#1bc7da",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-users",
+    "discussionCount": 15,
+    "position": 1,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-01-24T17:00:38+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "146"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "149",
+   "attributes": {
+    "name": "Прочее",
+    "description": "Заметки, предложения и критика по различным аспектам игры STALZONE.",
+    "slug": "focus-group-other",
+    "color": "#8f8f8f",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-folder-open",
+    "discussionCount": 50,
+    "position": 2,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-09-17T14:56:18+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "146"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "150",
+   "attributes": {
+    "name": "Game Design",
+    "description": "Блог отдела «Game Design» компании «EXBO». Помните, что позиция конкретных лиц может отличаться от позиции всей компании.",
+    "slug": "developers-game-design",
+    "color": "#c24c76",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-dice-d20",
+    "discussionCount": 18,
+    "position": 7,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-09T06:46:17+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "123"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "159",
+   "attributes": {
+    "name": "Analytics",
+    "description": "Блог отдела «Analytics» компании «EXBO». Помните, что позиция конкретных лиц может отличаться от позиции всей компании.",
+    "slug": "developers-analytics",
+    "color": "#b561bd",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-chart-pie",
+    "discussionCount": 5,
+    "position": 1,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-19T15:00:29+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "123"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "160",
+   "attributes": {
+    "name": "Критика",
+    "description": "Почините бочки в деревне новичков! А с балансом у вас что?! В общем, вы поняли, оставлять критику по игре можно в этом разделе. А ещё у него красивая иконка.",
+    "slug": "swamps-newbie-criticism",
+    "color": "#c64e4e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-angry",
+    "discussionCount": 2859,
+    "position": 4,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:56:57+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "80"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "161",
+   "attributes": {
+    "name": "Критика",
+    "description": "Моё оружие не стреляет. И вообще, когда поднимут характеристики моего костюма?! А компенсация будет? В общем, всем опытным с критикой сюда.",
+    "slug": "bar-experienced-criticism",
+    "color": "#c64e4e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-angry",
+    "discussionCount": 2579,
+    "position": 4,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:23:31+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "72"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "162",
+   "attributes": {
+    "name": "Критика",
+    "description": "Срочно удалите это оружие, а также расформируйте все подразделения. А баланс-то будет сегодня? Надеюсь, вы уже подготовили весомую компенсацию, а иначе бунт!!!",
+    "slug": "smithy-masters-criticism",
+    "color": "#c64e4e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-angry",
+    "discussionCount": 3512,
+    "position": 4,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:57:59+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "84"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "163",
+   "attributes": {
+    "name": "Мемы",
+    "description": "Раздел для публикации различных мемов, посвящённых игре STALZONE. Помните, что у каждого пользователя может быть своё мнение. Уважайте друг друга!",
+    "slug": "creativity-memes",
+    "color": "#dc7a1e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-smile-beam",
+    "discussionCount": 151,
+    "position": 2,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-02T14:46:51+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "48"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "164",
+   "attributes": {
+    "name": "Статьи",
+    "description": "Все мы знаем, что когда много текста — читать необязательно. Можно даже так и написать: «Не читал». Если вам понадобится какая-то из статей, то все они здесь.",
+    "slug": "news-articles",
+    "color": "#128ce2",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-bookmark",
+    "discussionCount": 22,
+    "position": 2,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-08T05:22:47+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "67"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "165",
+   "attributes": {
+    "name": "Статус серверов",
+    "description": "Опять технические работы, чтобы залить патчноут в три строки? Скорее откройте сервера. В общем, вы всё поняли, здесь мы будем сообщать о технических работах.",
+    "slug": "status",
+    "color": "#008080",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-toggle-on",
+    "discussionCount": 114,
+    "position": 3,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T08:00:00+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "166",
+   "attributes": {
+    "name": "Новости «EXBO»",
+    "description": "В нашей компании много интересных разработчиков. Ответы на ваши вопросы им и интересные заметки компании будут появляться здесь! Не забудьте подписаться.",
+    "slug": "news-exbo",
+    "color": "#22b7f7",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fab fa-mixer",
+    "discussionCount": 4,
+    "position": 5,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-09-30T03:22:34+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "67"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "167",
+   "attributes": {
+    "name": "Бан-листы",
+    "description": "Многие люди нарушают правила, и мы это понимаем. Однако не каждое нарушение мы можем простить. Списки наказанных игроков будут публиковаться здесь.",
+    "slug": "news-ban-lists",
+    "color": "#ff2e2e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-ban",
+    "discussionCount": 13,
+    "position": 4,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-12T11:09:58+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "67"
+     }
+    }
+   }
+  },
+  {
+   "type": "tags",
+   "id": "168",
+   "attributes": {
+    "name": "Monetization",
+    "description": "Блог отдела «Monetization» компании «EXBO». Помните, что позиция конкретных лиц может отличаться от позиции всей компании.",
+    "slug": "developers-monetization",
+    "color": "#fdfbc8",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-coins",
+    "discussionCount": 0,
+    "position": 5,
+    "defaultSort": null,
+    "isChild": true,
+    "isHidden": false,
+    "lastPostedAt": null,
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   },
+   "relationships": {
+    "parent": {
+     "data": {
+      "type": "tags",
+      "id": "123"
+     }
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "tags",
+   "id": "72",
+   "attributes": {
+    "name": "Бар",
+    "description": "Территория бывалых обитателей зоны. Вижу множество опытных, и даже ветераны найдутся. Думаю, здесь можно узнать много интересного, но вряд ли бесплатно.",
+    "slug": "bar-experienced",
+    "color": "#2c7dce",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-radiation",
+    "discussionCount": 93992,
+    "position": 5,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:57:15+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": null,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "31",
+   "attributes": {
+    "name": "Курилка",
+    "description": "Вот эта ваша опасная зона уже порядком надоела. Хочется простого человеческого общения. Как хорошо, что здесь можно найти всё. Выбирайте любую тему!",
+    "slug": "smoking-room",
+    "color": "#949494",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-smoking",
+    "discussionCount": 11408,
+    "position": 13,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": true,
+    "lastPostedAt": "2026-10-21T10:20:29+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": null,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "123",
+   "attributes": {
+    "name": "Разработка",
+    "description": "Сотрудников в нашей компании много, и каждый старается для вас. А здесь некоторые из них делятся подробностями по разработке игры STALZONE.",
+    "slug": "developers",
+    "color": "#22b7f7",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-code",
+    "discussionCount": 134,
+    "position": 11,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:31:49+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": true,
+    "reminders": true
+   }
+  },
+  {
+   "type": "tags",
+   "id": "48",
+   "attributes": {
+    "name": "Творчество",
+    "description": "Клуб различного творчества, посвящённого игре STALZONE. Здесь у нас видео, скриншоты, мемы, рассказы и рисунки. Как говорится, культурно проводим время.",
+    "slug": "creativity",
+    "color": "#824fcf",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-magic",
+    "discussionCount": 5981,
+    "position": 9,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:51:47+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "121",
+   "attributes": {
+    "name": "Руководства",
+    "description": "Эй, новички, ветераны и мастера готовы поделиться с вами своим бесценным опытом. В общем, в данной категории можно найти много полезных руководств.",
+    "slug": "guides",
+    "color": "#e166c6",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-atlas",
+    "discussionCount": 870,
+    "position": 8,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:24:10+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "67",
+   "attributes": {
+    "name": "Новости",
+    "description": "Все новости надёжно хранятся здесь и терпеливо ждут, когда вы их прочитаете. Кстати, это именно та категория, на которую стоит подписаться прямо сейчас.",
+    "slug": "news",
+    "color": "#c64e4e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-bell",
+    "discussionCount": 2529,
+    "position": 2,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:43:48+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "80",
+   "attributes": {
+    "name": "Болота",
+    "description": "Территория новичков. Здесь как никогда чувствуется тяга к неизведанным тайнам зоны. Задавайте вопросы, делитесь информацией и просто общайтесь!",
+    "slug": "swamps-newbie",
+    "color": "#17d694",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-frog",
+    "discussionCount": 28542,
+    "position": 4,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:59:07+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": null,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "91",
+   "attributes": {
+    "name": "Медиа-партнёры ",
+    "description": "Медиа-партнёры — это своего рода митрополиты в медиа-пространстве. Именно здесь вы сможете найти ролики и личные заметки. И всё это от любимых блогеров.",
+    "slug": "media-partners",
+    "color": "#ea3939",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fab fa-youtube",
+    "discussionCount": 107,
+    "position": 10,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-09-23T04:27:34+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": null,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "84",
+   "attributes": {
+    "name": "Кузня-11",
+    "description": "Территория, на которой ошибки непростительны. Здесь каждый попытается тебя убить, ведь ничего кроме наживы их не интересует. Новичкам здесь не место...",
+    "slug": "smithy-masters",
+    "color": "#d28b19",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-skull-crossbones",
+    "discussionCount": 18724,
+    "position": 6,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-21T11:57:59+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": null,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "117",
+   "attributes": {
+    "name": "Торговля",
+    "description": "Подходите, оружие, костюмы, артефакты, да что душе угодно. А постоянным покупателям уважение от наших авторитетов. Только не забывайте смотреть на цены!",
+    "slug": "trading",
+    "color": "#1f9e49",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-store",
+    "discussionCount": 2965,
+    "position": 7,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-10-18T17:13:56+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  },
+  {
+   "type": "tags",
+   "id": "146",
+   "attributes": {
+    "name": "Фокус-группа",
+    "description": "Фокус-группа — это независимая команда игроков, которая тестирует различные обновления. Здесь её участники делятся разными заметками по игре STALZONE.",
+    "slug": "focus-group",
+    "color": "#dc7a1e",
+    "backgroundUrl": null,
+    "backgroundMode": null,
+    "icon": "fas fa-user-friends",
+    "discussionCount": 104,
+    "position": 12,
+    "defaultSort": null,
+    "isChild": false,
+    "isHidden": false,
+    "lastPostedAt": "2026-09-17T14:56:18+00:00",
+    "canStartDiscussion": false,
+    "canAddToDiscussion": false,
+    "subscription": null,
+    "richExcerpts": false,
+    "excerptLength": null,
+    "isQnA": false,
+    "reminders": false
+   }
+  }
+ ]
+}
