@@ -26,7 +26,7 @@ fsck, ветка, creds, синхронизация origin+backup, гэп ком
 - PAT аккаунта TonkWasere хранится локально в ~/.git-credentials (ВНЕ репо, chmod 600,
   credential.helper = store). Строка токена НИКОГДА не попадает в worklog/ledger/коммиты
   (публичный репо!) и в выводы логов.
-- СТАТУС (15.10 23:33 UTC): **PUSH ВОССТАНОВЛЕН.** Хронология: первый токен (fine-grained) дал push 403;
+- СТАТУС (21.10 19:52 UTC, после WIPE-7): **PUSH ВОССТАНОВЛЕН 4-Й РАЗ** (54-138b). WIPE-7 = откат ВМ к снапшоту 19.10 23:56: потеряны локально 81 коммит (54-96..54-137) + creds + vault + .gitconfig + /home/z/backups. Восстановление: fetch+reset --hard на remote 737b3da (Git-архив = единственный источник, все данные целы) → MEGA-vault перезалит автором (file-ID r9QxQBCT, новый ключ, MAC OK) → creds (user:pass, 600) + PAT_VAULT_LOCAL.md (600) → credential.helper=store ПЕРВЫМ ходом (WIPE сносит и .gitconfig!) → curl 200 → dual push 737b3da..07c869e обе репы → healthcheck 12/12. ЧЕК-ЛИСТ ВОССТАНОВЛЕНИЯ WIPE: (1) fetch+reset --hard origin/sanity-monitor; (2) creds из vault/MEGA от автора; (3) git config --global credential.helper store; (4) mkdir -p /home/z/backups; (5) curl verify → dual push → healthcheck.
   классический «SanityBackups» работал 19:15–22:30 UTC; в 22:48–22:50 UTC отозван GitHub'ом —
   ПРИЧИНА ПОДТВЕРЖДЕНА ПИСЬМОМ: «GitHub PAT found in gist» — секрет-сканинг поймал токен в содержимом
   СЕКРЕТНОГО gist'а (даже с base64-обфускацией). Gist dfe5c841 удалён 23:30 UTC. ХРАНИТЬ ТОКЕН НА GITHUB

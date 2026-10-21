@@ -5167,3 +5167,22 @@ Work Log:
 Stage Summary:
 - Финальный healthcheck 19:47: файлы/директории/fsck/ветка/гэп 0.0 ч/bundle 1946 = ОК; единственная реальная проблема = creds DEAD (PUSH PENDING, ожидаются от автора); DRIFT origin/backup = локальный e57c72b на 1 коммит впереди remote — уедет одним пушем при появлении токена (прецедент 54-90/91)
 - Раунд 54-138 закрыт: ledger №180 (WIPE-7 инцидент + восстановление, Пост Санити 6-й час, 196810 абус-тред, NEW 196817, арт-волна), снапы TS 1934/1944 в evidence_post
+---
+Task ID: 54-138b
+Agent: main (интерактив с автором, межраундовый)
+Task: Восстановление push-линии после WIPE-7 через перезалитую автором MEGA-ссылку (19:49-19:54 UTC 21.10)
+
+Work Log:
+- (0) стартовое здоровье: creds DEAD (WIPE-7), 2 локальных коммита в push pending (e57c72b раунд + 07c869e финал поверх восстановленного 737b3da)
+- (1) автор прислал ссылку mega.nz/file/r9QxQBCT#F4tjwiW8... — ТАЖЕ file-ID, что мёртвая в git-истории (инцидент 54-61: отдаёт чужой 93 МБ zip), но НОВЫЙ ключ; tools/mega_pull.py: скачано 2630 B, имя 'PAT_VAULT_LOCAL.md', MAC OK — ЦЕЛОСТНОСТЬ ПОДТВЕРЖДЕНА (тот же размер, что vault в истории; перезалито под тем же ID)
+- (2) восстановление молча (токен не печатался в лог): ~/.git-credentials (user:pass формат, 40-симв. классический PAT SanityBackups, chmod 600) + /home/z/my-project/PAT_VAULT_LOCAL.md (600, check-ignore OK — gitignore держит)
+- (3) верификация: curl api.github.com/user с токеном → 200 ЖИВОЙ; первый push всё равно упал «could not read Username» — WIPE-7 откатил и /home/z/.gitconfig (credential.helper пропал); git config --global credential.helper store восстановлен (урок 54-90 повторился: «helper ПЕРВЫМ ходом»)
+- (4) DUAL PUSH GREEN: 737b3da..07c869e → origin (TonkWasere/test) + backup (TonkWasere/sanity-monitor-backup) — push pending ликвидирован, remote синхронны
+- (5) финальный healthcheck 19:51: STATE HEALTHY 12/12 (creds 600, local=remote=07c869e обе репы, bundle 1946, гэп 0.1 ч)
+- (6) worklog 54-138b append + playbook статус обновлён → commit → dual push → bundle 1951 → чистка (осталось 3)
+
+Stage Summary:
+- ★★★ PUSH-ЛИНИЯ ВОССТАНОВЛЕНА ПОСЛЕ WIPE-7: MEGA-vault-канал отработал 4-й раз (54-60-MEGA → 54-61 → 54-65-INT → 54-138b) — автор перезалил vault под тем же file-ID с новым ключом;creds+vault+helper восстановлены, 2 pending-коммита уехали на ОБЕ репы, healthcheck 12/12
+- УРОК: WIPE-7 откатил ВСЁ окружение целиком (creds + .gitconfig/credential.helper + /home/z/backups) — чек-лист восстановления теперь: (1) fetch+reset --hard на remote HEAD, (2) creds из vault/MEGA, (3) credential.helper=store ПЕРВЫМ ходом, (4) mkdir /home/z/backups, (5) verify curl 200 → push → healthcheck
+- ⚠ РОТАЦИЯ PAT ПО-ПРЕЖНЕМУ НЕ СДЕЛАНА (с 15.10 23:25 UTC, «SanityBackups»): живой токен снова на ПУБЛИЧНОЙ MEGA-ссылке (URL в истории чата; file-ID r9QxQBCT в git-истории публичных реп) — решение автора 16.10 «приемлемый риск» в силе, но рекомендуется отозвать/перевыпустить при следующем интерактиве (ротация-напоминание №17 исполнено частично: push восстановлен, ротация нет)
+- Раунд 54-138 полностью закрыт: ledger №180 + обе записи worklog в remote
