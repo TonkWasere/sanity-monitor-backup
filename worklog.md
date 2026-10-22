@@ -5449,3 +5449,25 @@ Stage Summary:
 - ЧИСТО: 196411 канон #48 OK 23-Й ЧАС; флешмоб талонов 71-Й ЧАС (cc=30); ОТС ЧАС 81 итогов нет; контролы чисты; 404-контроли 58-Й ЧАС
 - ТГК: Спектрум 7943+ НЕТ (12-Й замер); stalzone 3224 НЕТ (16+ ч тишины)
 - АВТОРУ: push pending — нужен НОВЫЙ ТОКЕН (user:pass в ~/.git-credentials, helper=store на месте) или ПОЛНАЯ MEGA-ссылка с ключом ЦЕЛИКОМ; ротация PAT не сделана (17-е напоминание); локальная очередь: 65769bc + fc25eaf + 63d532e + 2221eed + 535b36b + 9bf4c63 + cc9667f + 660e02c (ahead 8); bundle — единственная живая линия бэкапа до токена
+
+---
+Task ID: 54-149-mega
+Agent: cron-agent-54 (внераундовый recovery, 06:53-07:05 UTC 22.10)
+Task: Автор прислал в чат ПОЛНУЮ MEGA-ссылку (file-ID r9QxQBCT, ключ ЦЕЛИКОМ) — восстановление push-линии после WIPE-8
+
+Work Log:
+- Входной контроль (урок 54-90, 5-й случай): git log e865e91 + ledger №191 + worklog 54-149 на месте — сводка считала 54-149 невыполненным, реальность: раунд ЗАВЕРШЁН; доверять только первичным источникам
+- Ссылка автора = ТОТ ЖЕ vault file-ID r9QxQBCT с новым ключом; tools/mega_pull.py → /home/z/vault/mega_vault.bin: 2630 B, имя PAT_VAULT_LOCAL.md, MAC OK
+- sha256 7f9edd5d…e97f = ЭТАЛОН 54-61 → vault байт-в-байт прежний → ТОКЕН НЕ РОТИРОВАН (классик ghp_ от 15.10, len=40)
+- ~/.git-credentials восстановлены из vault скриптом (user:pass, 600, токен не печатался); PAT_VAULT_LOCAL.md возвращён на штатное gitignored-место (600); credential.helper=store на месте
+- API verify: 200, login TonkWasere → токен ЖИВОЙ (WIPE снёс только ЛОКАЛЬНЫЕ creds, GitHub токен не отзывал)
+- DUAL PUSH: origin + backup, sanity-monitor 28b9c9e..e865e91 — ОБА ЗЕЛЁНЫЕ; очередь WIPE-8 из 9 коммитов (54-141..54-149) уехала целиком; ahead 0/0
+- mkdir -p /home/z/backups (урок 54-96) → bundle sanity_monitor_0653.bundle; в /home/z/backups 3 шт (0545/0641/0653)
+- state_healthcheck: 12/12 STATE HEALTHY (origin=backup=local e865e91, creds 600, bundle 0.4 ч)
+- GIT_AUTOMATION.md СТАТУС обновлён (22.10 07:03 UTC): PUSH ВОССТАНОВЛЕН 5-Й РАЗ, чек-лист WIPE без изменений
+
+Stage Summary:
+- ★ PUSH-ЛИНИЯ ВОССТАНОВЛЕНА 5-Й РАЗ (54-65 → 54-96 → 54-138b → 54-96b → 54-149-mega); git-канал жив, локальная очередь пуста, крон-цепь (следующий 54-150, 07:27 UTC) снова штатная: обход → ledger №192 → commit → DUAL PUSH зелёный
+- ★ ТОКЕН ПРЕЖНИЙ, РОТАЦИЯ ОПЯТЬ НЕ СДЕЛАНА — 24-Е НАПОМИНАНИЕ АВТОРУ: теперь КЛЮЧ MEGA-ссылки выслан в чат, т.е. живой PAT лежит на публичной MEGA-ссылке с известным ключом — риск выше прежнего; рекомендация: новый PAT → vault перезалить (новый токен + НОВЫЙ ключ) → старый отозвать
+- Ключ MEGA-ссылки в worklog/ledger/коммиты НЕ записан (секреты — только в чат автора)
+- Vault-копии: /home/z/vault/mega_vault.bin + /home/z/my-project/PAT_VAULT_LOCAL.md (обе 600, обе вне git)
