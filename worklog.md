@@ -5806,3 +5806,25 @@ Stage Summary:
 - МОДЕРАЦИЯ: чистки ВСЕ СТОП 5-Й ЧАС; 196411 d0 сносов нет 34-Й ЧАС + канон #48 ×2 OK; SEARCH-FIX OK
 - ТГК: 3227 НЕТ 3-Й ЧАС; Спектрум 7954 rx ❤53/5.25K РОСТ 4-Й ЧАС
 - Следующий крон 54-162 (19:28 UTC, ledger №203, окно 18:30..19:30, PREV_LPN 105 ключей /tmp/prev_lpn_162.json)
+- (6-финал) git: commit OK (локальный HEAD = 54-161), PUSH PENDING подтверждён (origin + backup: 'could not read Username' — ~/.git-credentials погиб при откате ВМ; коммиты 54-161 копятся локально до нового PAT); bundle sanity-monitor-20261022_1859.bundle пересоздан (mkdir -p /home/z/backups), keep-3; финальный healthcheck ниже
+
+---
+Task ID: 54-161-B
+Agent: Z.ai Code (interround, author request via MEGA link)
+Task: PAT-restore после отката ВМ — автор прислал MEGA-ссылку на PAT_VAULT_LOCAL.md (push был pending)
+
+Work Log:
+- Автор прислал MEGA-ссылку (mega.nz/file/r9QxQBCT#…) — метаданные через megajs 1.3.10 (raw API a:g,p → -2 даже для случайного хэндла = hashcash-эра; bun add megajs в /home/z/tools/mega), файл: PAT_VAULT_LOCAL.md, 2630 B
+- Строка «ТОКЕН:» = РЕАЛЬНЫЙ ghp_ (40 симв., автор НЕ редактировал); проверка API: HTTP 200, login=TonkWasere — токен жив
+- ~/.git-credentials пересоздан (printf username:password формат, chmod 600) — файл погиб при откате ВМ
+- НАЙДЕНО ВТОРОЕ последствие отката: git config --global credential.helper = MISSING → первый push всё ещё падал «could not read Username»; хелпер store возвращён — ПОСЛЕ ЭТОГО push зелёный
+- vault-файл на каноническое место /home/z/my-project/PAT_VAULT_LOCAL.md (chmod 600; .gitignore строка 3 PAT_VAULT_LOCAL* подтверждена — в staged не попадает); копию в /home/z/tools/mega удалил
+- PUSH FLUSHED: origin 68d34507..3e6d2753 + backup 68d34507..3e6d2753 — коммит раунда 54-161 доехал на ОБА ремоута, DRIFT снят
+- healthcheck после push: DRIFT origin/backup исчез, всё OK
+- Токен = СТАРЫЙ (выдан 15.10), ротации НЕ было; токен теперь и в чат-ссылке MEGA → напоминание о ротации В СИЛЕ
+
+Stage Summary:
+- Push-канал восстановлен полностью: оба ремоута синхронны на 3e6d2753
+- УРОК: откат ВМ убивает не только ~/.git-credentials, но и git config --global credential.helper; healthcheck видит только файл (600), хелпер не проверяет — при будущих creds-recovery проверять ОБА
+- PAT_VAULT_LOCAL.md на каноническом месте (600, gitignored); /home/z/tools/mega (megajs) оставлен как утилита для будущих MEGA-операций
+- Ротация токена не выполнена — 35-е напоминание актуально, awaiting автор
