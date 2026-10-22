@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Кувалда\nПерсональный предмет\nСкорость передвижения: 7%\nПрибавляемость: 20%\nШанс глубокого ранения: 50%\nБыстрый удар\nУрон: 103 ед\nСкорость ударов: 75 уд/мин\nДальностьность: 2,5 м\nОбычный удар\nУрон: 136 ед\nСкорость ударов: 75 уд/мин\nДальностьность: 2,5 м\nСильный удар\nУрон: 192 ед\nСкорость ударов: 40 уд/мин\nДальностьность: 2,5 м\nОсобенности\nУрон со спины: x1.7\nУрон по мутантам: x2.1\nУрон по стражникам: x5",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790768378,
+  "id": "20260930193935950dcdda52704163",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260930193935950dcdda52704163",
+  "usage": {
+    "completion_tokens": 180,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 416
+  }
+}

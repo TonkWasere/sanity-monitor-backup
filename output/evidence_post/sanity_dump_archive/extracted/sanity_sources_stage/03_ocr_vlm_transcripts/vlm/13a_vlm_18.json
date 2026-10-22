@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "На изображении показан интерьер деревянного бара или таверны в постапокалиптичном стиле, где персонаж в полном бронированном костюме с противогазом стоит за круглым столиком, на котором стоят кружки и бутылка.\n\n**Видимый текст:**\nПРОДОВОЛЬСТВИЕ",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790768340,
+  "id": "202609301938583bc2f1fe8e634a20",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202609301938583bc2f1fe8e634a20",
+  "usage": {
+    "completion_tokens": 76,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 889,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 965
+  }
+}

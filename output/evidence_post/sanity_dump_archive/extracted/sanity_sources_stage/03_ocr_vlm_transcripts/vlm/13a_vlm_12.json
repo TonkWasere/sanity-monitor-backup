@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "| События с НПС | События с мутантами | События с установками и протозагрядами |\n| :--- | :--- | :--- |\n| Сменный аккумулятор | Странный требень | Образцы |\n| Дорогие сигареты | Селезенка мутанта | Компоненты детекторов |\n| ППД с данными | Сердце мутанта |  |\n| Новый предмет: Антисептик | Новый предмет: Безоар |  |\n| Новый предмет: Обломки снаряжения\\ компоненты ППД | Новый предмет: Лимфа |  |",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790767932,
+  "id": "20260930193207a6f6f1d7e4c44d19",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260930193207a6f6f1d7e4c44d19",
+  "usage": {
+    "completion_tokens": 144,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 380,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 524
+  }
+}

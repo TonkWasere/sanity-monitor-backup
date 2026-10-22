@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "| Обощина | фракционный Север (Шахты, Приют) |\n| :--- | :--- |\n| Карманные деньги | Обломки снаряжения / компоненты ПДА |\n| | Жетон бойца |",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790767968,
+  "id": "202609301932475ca59f3da1d14d9b",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202609301932475ca59f3da1d14d9b",
+  "usage": {
+    "completion_tokens": 52,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 188,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 240
+  }
+}

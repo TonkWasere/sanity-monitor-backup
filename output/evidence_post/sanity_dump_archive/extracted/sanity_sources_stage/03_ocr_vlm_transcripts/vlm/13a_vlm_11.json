@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "| События с NPC | События с мутантами | События с установками и протозагрядами |\n| :--- | :--- | :--- |\n| Карманные деньги | Ког черепсти | Малый артефактный фрагмент |\n| Сигареты | Сломанный коготь | Обычный артефактный фрагмент |\n| Туалетная бумага | Зуб мутанта | Крупный артефактный фрагмент |\n| Зажигалка | Кожа мутанта | Огромный артефактный фрагмент |\n| Кубик Рубика | Кость мутанта |  |\n| Фильтр | Кишка мутанта |  |",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790767892,
+  "id": "20260930193130eeefb85283ac495c",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260930193130eeefb85283ac495c",
+  "usage": {
+    "completion_tokens": 168,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 380,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 548
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Подвижный Дрожащий «Перфоратор»: \nПерсональный при использовании\nКласс: Модули\nВес: 0,15 кг\nПри установке в оружие, улучшает его характеристики\nПодвижный: 91,72%\nСкорость: +1,42%\nДрожащий: 139,75%\nСкорость прицеливания: -6,52%\n«Перфоратор»: 121,67%\nУрон по прочности пластин: +53,1%",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790767445,
+  "id": "20260930192403c9764f8c12b84f52",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260930192403c9764f8c12b84f52",
+  "usage": {
+    "completion_tokens": 113,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 860,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 973
+  }
+}

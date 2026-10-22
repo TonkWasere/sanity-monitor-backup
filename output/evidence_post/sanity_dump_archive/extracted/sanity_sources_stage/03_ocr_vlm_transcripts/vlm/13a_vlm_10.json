@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "| | Слоты инвентаря | Вес, кг | Цена, тыс. |\n| :--- | :--- | :--- | :--- |\n| Без джекпота | 51 → 24 | 31 → 22 | 44 → 81 |\n| С джекпотом | 50 → 27 | 30 → 27 | 44 → 109 |",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790767435,
+  "id": "20260930192353b2c97978809c4241",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260930192353b2c97978809c4241",
+  "usage": {
+    "completion_tokens": 83,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 188,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 271
+  }
+}

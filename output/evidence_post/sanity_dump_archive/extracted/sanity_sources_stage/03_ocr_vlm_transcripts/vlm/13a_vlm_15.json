@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "| Предмет | Репутация |\n| :--- | :--- |\n| Антисептик | 2 |\n| Жетон бойца | 2 |\n| Лимфа | 3 |\n| Сменный аккумулятор | 4 |\n| Дорогие сигареты | 5 |\n| Компоненты детекторов | 6 |\n| Сердце мутанта | 7 |",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790768005,
+  "id": "20260930193323dae53709941b45c8",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260930193323dae53709941b45c8",
+  "usage": {
+    "completion_tokens": 88,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 380,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 468
+  }
+}

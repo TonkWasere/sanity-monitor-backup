@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Заряжения\nРадиация: -10\nТемпература: -10\nБиозаряжение: -10\nПси-излучение: -10\nПрочие эффекты\nКровотечение: -10\nХолод: -20",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790767446,
+  "id": "2026093019240587c982e39d5640d3",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "2026093019240587c982e39d5640d3",
+  "usage": {
+    "completion_tokens": 60,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 296
+  }
+}

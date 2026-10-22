@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "На изображении показан 3D-модель персонажа в полном защитном костюме с капюшоном и противогазом, стоящего на фоне размытого пейзажа Зоны.\n\nДозатор и интерфейс",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790767458,
+  "id": "202609301924116708e0a8f5144094",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202609301924116708e0a8f5144094",
+  "usage": {
+    "completion_tokens": 54,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 889,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 943
+  }
+}
