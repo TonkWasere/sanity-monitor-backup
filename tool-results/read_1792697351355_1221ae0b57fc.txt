@@ -1,0 +1,505 @@
+     1→# rescan54_161_fetch.py — Task 54-161: часовой cron-раунд ~18:28 UTC 22.10 (21:28 МСК) —
+     2→# ШТАТНЫЙ час после 54-160 (17:28-17:4x UTC, ledger №201) + ИНЦИДЕНТ-RECOVERY. Контекст 54-160:
+     3→# (1) ★★ CRIOS 8-Й ЧАС ВОЗВРАТ В ОФИЦ. РЕЖИМ ×4 ПОСТА: 191642 обвесы ×3 (16:53/17:10/17:38
+     4→# «не вижу смысла отвечать… рвёт шаблон с существования более/менее лимитированных вещей» —
+     5→# живой спор о стат-лимите легендарок: Викинг vs Шепот vs Дистония vs регфаб, Crios vs
+     6→# WindReaper/Shmendergar) + 196839 #36 16:56 (деспавн событий); при этом РЕЙТИ-ГНЕВ ИГНОРИРУЕТ
+     7→# ЦЕЛИКОМ: 196862 молчит с #10 16:42, интерактив-пинг KM_XEROX 16:46 без ответа, записки СТОП
+     8→# с 15:01, Санити НЕТ 6.5+ ч.
+     9→# (2) ★★ 191642 «разрабы забыли реранить обвесы?» РАЗГОН 265→294 (+29 за день) — добавлен
+    10→# в PREV_LPN + хвосты/retie этого раунда (следить #295+; опровергнет Shmendergar'а?).
+    11→# (3) ★ 196854 jlococen ОТВЕТИЛ OP: #64 17:08 «дружок-пирожок получил валюту от взломщика
+    12→# по цепочке передач… он тебя просто подставил» + #67 17:25 «фактически деньги получены
+    13→# тобой и списаны с тебя» — OP = жертва цепочки ворованной валюты; мод-пинг ego_fanak
+    14→# отработан за 1.5 ч; cc=69/LPN=69 (диалог продолжится? OP ждёт откат?).
+    15→# (4) ★ 196862 эскалация +8 (18): OP #14 «ебаная игра просто издевается надо мной», Bi1ly #16
+    16→# «зря ты 1класса напрямую процитировал» (намёк OP на будущее), NonFiesta «уделять рейтинговые
+    17→# режимы. Отовсюду»; ПЕРМАЧА НЕТ, тред ЖИВ, Crios молчит (OP = uid 1700553, warnings=5).
+    18→# (5) ★ Санити 28-Й ЧАС СТОП (14610, LordZoHbl 16:40 паки-спор последний); GG 18-Й ЧАС ВСЕ 5
+    19→# СТАБИЛЬНО (rx 33:3/33:1, mentionedBy=[] 29+ ч); 196856 +2 (41, cc=39 — те же 2 выреза);
+    20→# 196842 +4 (44 G36/MCX); 196810 +6 (87, 28-Й ЧАС БЕЗ офиц.); Арена +2 (29, 7-Й ЧАС);
+    21→# 196799 +1 (117); 196846 +1 (27, «Ап» — мод-ответа НЕТ); 196857 +1 (19); 196828 +1 (24).
+    22→# (6) ★ МОДЕРАЦИЯ ТОЧЕЧНАЯ: чистки 196752/196778/196805 ВСЕ СТОП 4-Й ЧАС; 196411 СНОСОВ НЕТ
+    23→# 33-Й ЧАС + канон #48 ×2 OK (off40-окно ВЕРНУЛОСЬ после смещения 54-159); NEW-окно ПУСТО
+    24→# (впервые за день).
+    25→# (7) ТГК: 3226 «Суматоха в Баре» последний — 3227 НЕТ 2-Й ЧАС; СПЕКТРУМ 7954 последний
+    26→# (7955 НЕТ; rx ❤23→36→46/views 3.91K→4.67K — РАСТУТ 3-й час).
+    27→# (8) ★★ ИНЦИДЕНТ-RECOVERY (54-160-B): ВМ ОТКАТИЛАСЬ к стейту 19.10 23:27 UTC (гэп 66.8 ч;
+    28→# локально HEAD=71c70b8/54-94, worklog до 54-94); ВСЁ цело на GitHub (обе репы = 68d34507 =
+    29→# 54-160) — recovery 18:31 UTC git fetch + reset --hard origin/sanity-monitor, история НЕ
+    30→# форкнулась; ~/.git-credentials + /home/z/backups (bundle) ПОГИБЛИ вместе с откатом →
+    31→# PUSH PENDING (коммиты копятся локально, нужен новый PAT от автора); /tmp сгорел —
+    32→# prev_lpn_161.json восстановлен из логов 54-160 (97 fast-rule + 404-ключи + 191642:294).
+    33→# (9) СТЕЙК ОВЕР: 35-е НАПОМИНАНИЕ РОТАЦИЯ PAT — токен с 15.10 на публичной MEGA-ссылке
+    34→# (ключ в git-истории И в чате); после отката creds погибли — новый PAT критичен для push.
+    35→# ПРИОРИТЕТ №1 = 196862 8-Й ЧАС ЭСКАЛАЦИИ (18+ при базе 18: пермач OP? второй снос? брут-
+    36→# посты? Crios ответит после игнора?); CRIOS 9-Й ЧАС: 191642 спор продолжится (#295+?
+    37→# опровергнет Shmendergar'а?); ВЕРНЁТСЯ ЛИ В САНИТИ 7+ ч (якоря #14590/#14591 игнорируются
+    38→# 29+ ч, mentionedBy=[])?; GG-ЯКОРЯ 19-Й ЧАС (база 18:30): ВСЕ 5 СТАБИЛЬНО 18-Й ЧАС —
+    39→# #69 rx{34:6} / #387 rx{35:1} / #48 likes=2 / #14590 rx{33:3} liked_by GetGood+Virusnyaga /
+    40→# #14591 rx{33:1} liked_by GetGood — ни разу не синхронно («шум читателей», НЕ прогулка).
+    41→# Разморозка? СИНХРОН по всем 5 = прогулка.
+    42→# КОНТЕКСТ 54-160 (17:28-17:4x, ledger №201): Crios ×4 офиц. (191642 ×3 + 196839 #36);
+    43→# 191642 разгон 294; 196854 jlococen диалог ворованная-валюта; 196862 +8 без пермача;
+    44→# Санити СТОП 14610; GG 18-й час стабильно; канон #48 ×2 OK off40 вернулся; NEW-окно ПУСТО.
+    45→# ЛОВУШКА 54-156: срез createdAt[:16] скрывает ДЕНЬ — сверять дату ЦЕЛИКОМ.
+    46→# Вне мониторинга: 195630 Бан Gex cc=1864/LPN=1889, 195809 Брелок cc=35/LPN=35.
+    47→# СЛЕДИТЬ (54-161, штатный): ★ 191642 обвесы (294+, спор стат-лимита Crios vs
+    48→# WindReaper/Shmendergar; #295+? Crios 4-й пост?); ★ 196854 (69+, OP ответил jlococen'у?
+    49→# «какой из друзей»? откат валюты?); ★ 196862 (18+, пермач/снос? брут-посты OP? Crios
+    50→# ответит?); ★ 196856 (41+, записки 2.5+ ч СТОП; KM_XEROX пинг без ответа; solved? тайник 7?
+    51→# награды-гнев?); ★ 196799 (117+, 4-й пост Crios? анонс планов?); ★ Санити 29-Й ЧАС (14610+,
+    52→# паки-спор LordZoHbl vs Химик; Crios вернётся? упоминание?); 196842 (44+); 196843
+    53→# ФРИДОМ-флейм → мод? (23+, 6-й час?); Арена 8-Й ЧАС? (29, Girodjet молчит 5+ ч); 196851
+    54→# титул снесут? (10); 196832 (99); 196810 офиц. 29-Й ЧАС? (87); 196839 (36); Жига 4-я
+    55→# волна? (18); 196846 мод-ответ? (27, «Ап»); чистки 196752/196778 5-Й ЧАС СТОП? + 196805
+    56→# (42/39); GG 19-Й ЧАС? (СИНХРОН = прогулка); ТГК 3227+/Спектрум 7955+ (3-Й ЧАС тишины?);
+    57→# МОДЕРАЦИЯ: сносы #92+ в 196411? (34-Й ЧАС канона; канон #48 sha256 e352e6a1…, cc 85/LPN 90,
+    58→# off40 ×2); ОТС ЧАС 93 (итоги?); флешмоб талонов 83-Й ЧАС (~213 ч); 196511 сутки 8 с 19:34
+    59→# UTC (31/39); 404-контроли 70-Й ЧАС (196707/196717) + 196840/196841 снос 6-Й ЧАС + 196860
+    60→# снос 3-Й ЧАС; 196796 возврат 25-Й ЧАС; search-parse-fix («легенда» parse fail — повторить).
+    61→# База №201 (TS 1730, 17:30-17:4x UTC): run1 EXIT=0 ТРИДЦАТЬ ВТОРОЙ раунд подряд (97
+    62→# fast-rule / FAIL×3 = 196840/196841 404-снос 5-Й ЧАС + 196860 404 2-Й ЧАС); fast-rule max
+    63→# delta 8 (196862 10→18) ≤15 — middle не нужен; NEW-окно ПУСТО (впервые за день); фаза-2 =
+    64→# Санити near=14610 (СТОП) + GG near=14590 (ВСЕ 5 СТАБИЛЬНО) + 196862 хвост +8 + 196856
+    65→# хвост+дыро (cc=39/LPN=41 — те же 2 выреза) + 191642 (cc=294/LPN=294 РАЗГОН, Crios ×3!) +
+    66→# хвосты 196854 (jlococen ДИАЛОГ!)/196799/196842/196846 + 196857/196838/196839/196844/
+    67→# 196851/196832/196810/196861 + чистки ВСЕ СТОП 4-Й ЧАС + 196795 дыро (2 старых скрытых) +
+    68→# канон #48 off20+off40 ОБА OK (окно ВЕРНУЛОСЬ); TG: 3226 последний (3227 НЕТ 2-Й ЧАС),
+    69→# Спектрум 7954 rx ❤46/4.67K РОСТ; git: remote 68d34507 обе репы (54-160), ПОСЛЕ раунда ВМ
+    70→# ОТКАТИЛАСЬ — recovery 18:31, creds/бандл погибли, push pending.
+    71→# УРОКИ 54-113..161 (несём дальше): обход делить сразу (foreground timeout 585с + доборы с
+    72→# фикс. TS и родным SKIP); фоновые запуски среда убивает молча; шапка заменяется ЦЕЛИКОМ
+    73→# по якорю начала строки (строка импорта json — 44-й раунд цепи; TS-якорь строковый; R4-
+    74→# якорь «Хвосты окна NNN (» — скобка, не двоеточие); 1-3 добора до EXIT=0; два TS-слоя —
+    75→# НОРМА; PREV_LPN по ВСЕМ замерам ledger прошлого раунда; при взрыве NEW — OP near=1 в
+    76→# фазе-2 (БЕЗ include — HTTP 400, урок 54-131); NEW-окно по lastPostedAt пропускает треды
+    77→# до катоффа (54-136) — перепроверка createdAt ВСЕГДА, вспухшие тихони маркировать
+    78→# (196822/196814/196802/196806/196843-образцы); near=1 с page[limit]=1 возвращает data-
+    79→# ОБЪЕКТ (54-148), near999999 тоже бывает data-DICT (54-151) — posts_of() держит ОБА
+    80→# формата; append только «cat FILE >> LOG» (54-151: повисший cat >> дописал мусор);
+    81→# модерация стирает треды целиком (196796/196707/196717) И ПОСТЫ ТОЧЕЧНО (54-146: cc-дырки
+    82→# НЕ рост, LPN и cc сверять РАЗДЕЛЬНО; 196856 cc=31 при LPN=33); авторство =
+    83→# relationships.user (54-137: head_text цитат начинается с имени цитируемого); NEW фаза-2 =
+    84→# near1 + near999999 ОБА; TG-верификация по сырому HTML data-post=; канон-чек #48 =
+    85→# ВНУТРЕННЯЯ sha256 из off20/off40; GG без синхронности = шум; ГОЛЫЙ near= гость
+    86→# ИГНОРИРУЕТ — page%5Bnear%5D=N (54-139b); near999999 = последняя СТРАНИЦА (~20 постов) —
+    87→# якоря добирать near=<номер> (54-135b); НЕ усекать ключи MEGA; саммари бывает УСТАРЕВШИМ
+    88→# — нумерацию сверять с worklog/ledger/git log (54-90, ВОСЕМЬ случаев); срез createdAt[:16]
+    89→# СКРЫВАЕТ ДЕНЬ — сверять дату ЦЕЛИКОМ (54-156); цитаты несут имя на момент сборки — автора
+    90→# цитируемого сверять по relationships.user (54-156-B: rename-ловушка LetoArbaletov→stm:…85);
+    91→# ★ RECOVERY 54-160-B: ВМ-откат → git fetch origin sanity-monitor + reset --hard origin/
+    92→# sanity-monitor (fsck OK = .git жив — clone+rsync не нужен, история НЕ форкнулась);
+    93→# state_healthcheck --recover НЕ триггерится на DRIFT/GAP (recover_needed ставится только
+    94→# DEAD файлам/git) — при откате recovery ВРУЧНУЮ; /tmp НЕ персистентен — prev_lpn_* восстанавливать
+    95→# из run1-лога (grep '[fast-rule]' X->Y) + фазе-2 значений + коммит-сообщений; creds/bundle
+    96→# живут вне репо и гибнут при откате — пересоздавать (bundle: mkdir -p /home/z/backups);
+    97→# WIPE-чек-лист: ff-merge → creds из MEGA → helper=store → mkdir /home/z/backups → dual
+    98→# push → hc (54-96/54-149/54-153); r9QxQBCT = рабочий vault-URL (n5QmRLaJ отдаёт ZIP — 54-153b).
+    99→import json, os, urllib.request, time, hashlib, datetime, re
+   100→
+   101→TS = '20261022_1830'  # фиксированный TS раунда 54-161 (SKIP-доборы переиспользуют файлы)
+   102→OUT = '/home/z/my-project/output/evidence_post'
+   103→UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36',
+   104→      'Accept': 'application/json'}
+   105→BASE = 'https://forum.exbo.net'
+   106→CANON48 = 'e352e6a1d81de147d8c330f6e5eeb46b0aeb276ea51d6ba67fe34aa57a7e5b0e'
+   107→
+   108→def get(url, name, validate_json=True):
+   109→    path = os.path.join(OUT, name)
+   110→    if os.path.exists(path):
+   111→        print(f'SKIP {name}'); return True
+   112→    try:
+   113→        req = urllib.request.Request(url, headers=UA)
+   114→        with urllib.request.urlopen(req, timeout=30) as r:
+   115→            body = r.read()
+   116→        open(path, 'wb').write(body)
+   117→        if validate_json:
+   118→            json.loads(body)
+   119→        print(f'OK {name} ({len(body)}B)')
+   120→        return True
+   121→    except Exception as e:
+   122→        print(f'FAIL {name}: {e}')
+   123→        return False
+   124→
+   125→def disc_items(fname):
+   126→    try:
+   127→        d = json.load(open(os.path.join(OUT, fname)))
+   128→    except Exception as e:
+   129→        print(f'PARSE FAIL {fname}: {e}'); return []
+   130→    out = []
+   131→    data = d.get('data')
+   132→    for i in (data if isinstance(data, list) else [data] if data else []):
+   133→        if isinstance(i, dict) and i.get('type') == 'discussions':
+   134→            out.append(i)
+   135→    for i in (d.get('included') or []):
+   136→        if isinstance(i, dict) and i.get('type') == 'discussions':
+   137→            out.append(i)
+   138→    return out
+   139→
+   140→def posts_of(fname):
+   141→    try:
+   142→        d = json.load(open(os.path.join(OUT, fname)))
+   143→    except Exception as e:
+   144→        print(f'PARSE FAIL {fname}: {e}'); return []
+   145→    data = d.get('data')
+   146→    items = data if isinstance(data, list) else [data] if data else []
+   147→    out = []
+   148→    for i in items:
+   149→        if isinstance(i, dict) and i.get('type') == 'posts':
+   150→            out.append(i)
+   151→    for i in (d.get('included') or []):
+   152→        if isinstance(i, dict) and i.get('type') == 'posts':
+   153→            out.append(i)
+   154→    return out
+   155→
+   156→def head_text(p, n=110):
+   157→    a = p.get('attributes', {})
+   158→    t = a.get('contentPlain') or a.get('content') or ''
+   159→    if not t:
+   160→        t = a.get('contentHtml') or ''
+   161→    if not isinstance(t, str):
+   162→        try: t = json.dumps(t, ensure_ascii=False)
+   163→        except Exception: t = str(type(t))
+   164→    t = re.sub(r'<[^>]+>', ' ', t)
+   165→    t = re.sub(r'\s+', ' ', t).strip()
+   166→    return t[:n]
+   167→
+   168→def thread_summary(tid, near='999999'):
+   169→    fn = f'discussion_{tid}_near{near}_{TS}.json'
+   170→    pp = posts_of(fn)
+   171→    try:
+   172→        dd = json.load(open(os.path.join(OUT, fn)))
+   173→        aa = dd.get('data', {}).get('attributes', {}) if isinstance(dd.get('data'), dict) else {}
+   174→        print(f"[{tid}] cc={aa.get('commentCount')} lastPostNumber={aa.get('lastPostNumber')} sticky={aa.get('sticky')} locked={aa.get('isLocked')}")
+   175→    except Exception as e:
+   176→        print(f'[{tid}] attrs fail {e}')
+   177→    tail = sorted(pp, key=lambda p: p.get('attributes', {}).get('number') or 0)[-6:]
+   178→    for p in tail:
+   179→        a = p.get('attributes', {})
+   180→        print(f"  #{a.get('number')} {a.get('createdAt')} :: {head_text(p)}")
+   181→    return pp
+   182→
+   183→# === ФАЗА 1: витрина новостей + фронт + ТГК ===
+   184→get(f'{BASE}/api/discussions?filter[tag]=news&sort=-lastPostedAt&page[size]=50&page[offset]=0', f'tagnews_off0_{TS}.json'); time.sleep(1)
+   185→get(f'{BASE}/api/discussions?page[offset]=0', f'frontindex_off0_{TS}.json'); time.sleep(1)
+   186→get('https://t.me/s/stalzone', f'tg_stalzone_page0_{TS}.html', validate_json=False); time.sleep(1)
+   187→get('https://t.me/s/spectrum_zone', f'tg_spectrum_page0_{TS}.html', validate_json=False); time.sleep(1)
+   188→get(f'{BASE}/api/discussions?filter[q]=%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0&page[offset]=0', f'search_legenda_{TS}.json'); time.sleep(1)
+   189→get(f'{BASE}/api/discussions/194758?page[near]=999999', f'discussion_194758_near999999_{TS}.json'); time.sleep(1)
+   190→
+   191→# === Ключевые линии ===
+   192→get(f'{BASE}/api/discussions/196452?page[near]=999999', f'discussion_196452_near999999_{TS}.json'); time.sleep(1)
+   193→get(f'{BASE}/api/discussions/196488?page[near]=999999', f'discussion_196488_near999999_{TS}.json'); time.sleep(1)
+   194→get(f'{BASE}/api/discussions/196480?page[near]=999999', f'discussion_196480_near999999_{TS}.json'); time.sleep(1)
+   195→get(f'{BASE}/api/discussions/196511?page[near]=999999', f'discussion_196511_near999999_{TS}.json'); time.sleep(1)
+   196→get(f'{BASE}/api/discussions/196524?page[near]=999999', f'discussion_196524_near999999_{TS}.json'); time.sleep(1)
+   197→get(f'{BASE}/api/discussions/196475?page[near]=999999', f'discussion_196475_near999999_{TS}.json'); time.sleep(1)
+   198→get(f'{BASE}/api/discussions/196521?page[near]=999999', f'discussion_196521_near999999_{TS}.json'); time.sleep(1)
+   199→get(f'{BASE}/api/discussions/196528?page[near]=999999', f'discussion_196528_near999999_{TS}.json'); time.sleep(1)
+   200→get(f'{BASE}/api/discussions/196518?page[near]=999999', f'discussion_196518_near999999_{TS}.json'); time.sleep(1)
+   201→get(f'{BASE}/api/discussions/196529?page[near]=999999', f'discussion_196529_near999999_{TS}.json'); time.sleep(1)
+   202→get(f'{BASE}/api/discussions/196530?page[near]=999999', f'discussion_196530_near999999_{TS}.json'); time.sleep(1)
+   203→get(f'{BASE}/api/discussions/196531?page[near]=999999', f'discussion_196531_near999999_{TS}.json'); time.sleep(1)
+   204→get(f'{BASE}/api/discussions/196532?page[near]=999999', f'discussion_196532_near999999_{TS}.json'); time.sleep(1)
+   205→get(f'{BASE}/api/discussions/196536?page[near]=999999', f'discussion_196536_near999999_{TS}.json'); time.sleep(1)
+   206→get(f'{BASE}/api/discussions/196533?page[near]=999999', f'discussion_196533_near999999_{TS}.json'); time.sleep(1)
+   207→get(f'{BASE}/api/discussions/196496?page[near]=999999', f'discussion_196496_near999999_{TS}.json'); time.sleep(1)
+   208→get(f'{BASE}/api/discussions/196260?page[near]=999999', f'discussion_196260_near999999_{TS}.json'); time.sleep(1)
+   209→get(f'{BASE}/api/discussions/196411?page[near]=999999', f'discussion_196411_near999999_{TS}.json'); time.sleep(1)
+   210→get(f'{BASE}/api/posts?filter[discussion]=196411&page[size]=20&page[offset]=0', f'postsindex_196411_off0_{TS}.json'); time.sleep(1)
+   211→get(f'{BASE}/api/posts?filter[discussion]=196411&page[size]=20&page[offset]=20', f'postsindex_196411_off20_{TS}.json'); time.sleep(1)
+   212→get(f'{BASE}/api/posts?filter[discussion]=196411&page[size]=20&page[offset]=40', f'postsindex_196411_off40_{TS}.json'); time.sleep(1)
+   213→# GETGOOD-якоря (54-135b): старые посты автора НЕ попадают в near999999 (последняя страница) —
+   214→# добор near=<номер>: #69 (195574), #387 (195660), #48 (196411)
+   215→get(f'{BASE}/api/discussions/195574?page[near]=69', f'discussion_195574_near69_{TS}.json'); time.sleep(1)
+   216→get(f'{BASE}/api/discussions/195660?page[near]=381', f'discussion_195660_near381_{TS}.json'); time.sleep(1)
+   217→get(f'{BASE}/api/discussions/196411?page[near]=48', f'discussion_196411_near48_{TS}.json'); time.sleep(1)
+   218→get(f'{BASE}/api/discussions/196424?page[near]=999999', f'discussion_196424_near999999_{TS}.json'); time.sleep(1)
+   219→get(f'{BASE}/api/discussions/196461?page[near]=999999', f'discussion_196461_near999999_{TS}.json'); time.sleep(1)
+   220→get(f'{BASE}/api/discussions/196435?page[near]=999999', f'discussion_196435_near999999_{TS}.json'); time.sleep(1)
+   221→get(f'{BASE}/api/discussions/196510?page[near]=999999', f'discussion_196510_near999999_{TS}.json'); time.sleep(1)
+   222→get(f'{BASE}/api/discussions/196520?page[near]=999999', f'discussion_196520_near999999_{TS}.json'); time.sleep(1)
+   223→get(f'{BASE}/api/discussions/196499?page[near]=999999', f'discussion_196499_near999999_{TS}.json'); time.sleep(1)
+   224→get(f'{BASE}/api/discussions/196516?page[near]=999999', f'discussion_196516_near999999_{TS}.json'); time.sleep(1)
+   225→get(f'{BASE}/api/discussions/196513?page[near]=999999', f'discussion_196513_near999999_{TS}.json'); time.sleep(1)
+   226→get(f'{BASE}/api/discussions/196522?page[near]=999999', f'discussion_196522_near999999_{TS}.json'); time.sleep(1)
+   227→get(f'{BASE}/api/discussions/196523?page[near]=999999', f'discussion_196523_near999999_{TS}.json'); time.sleep(1)
+   228→get(f'{BASE}/api/discussions/196428?page[near]=999999', f'discussion_196428_near999999_{TS}.json'); time.sleep(1)
+   229→get(f'{BASE}/api/discussions/196078?page[near]=999999', f'discussion_196078_near999999_{TS}.json'); time.sleep(1)
+   230→get(f'{BASE}/api/discussions/196062?page[near]=999999', f'discussion_196062_near999999_{TS}.json'); time.sleep(1)
+   231→get(f'{BASE}/api/discussions/196315?page[near]=999999', f'discussion_196315_near999999_{TS}.json'); time.sleep(1)
+   232→get(f'{BASE}/api/discussions/196415?page[near]=999999', f'discussion_196415_near999999_{TS}.json'); time.sleep(1)
+   233→get(f'{BASE}/api/discussions/196283?page[near]=999999', f'discussion_196283_near999999_{TS}.json'); time.sleep(1)
+   234→# --- хвосты: 196425/196552/196557 + 196537/196539 + младшие NEW 196551/196542/196543 ---
+   235→get(f'{BASE}/api/discussions/196425?page[near]=999999', f'discussion_196425_near999999_{TS}.json'); time.sleep(1)
+   236→get(f'{BASE}/api/discussions/196552?page[near]=999999', f'discussion_196552_near999999_{TS}.json'); time.sleep(1)
+   237→get(f'{BASE}/api/discussions/196557?page[near]=999999', f'discussion_196557_near999999_{TS}.json'); time.sleep(1)
+   238→get(f'{BASE}/api/discussions/196537?page[near]=999999', f'discussion_196537_near999999_{TS}.json'); time.sleep(1)
+   239→get(f'{BASE}/api/discussions/196539?page[near]=999999', f'discussion_196539_near999999_{TS}.json'); time.sleep(1)
+   240→get(f'{BASE}/api/discussions/196551?page[near]=999999', f'discussion_196551_near999999_{TS}.json'); time.sleep(1)
+   241→get(f'{BASE}/api/discussions/196542?page[near]=999999', f'discussion_196542_near999999_{TS}.json'); time.sleep(1)
+   242→get(f'{BASE}/api/discussions/196543?page[near]=999999', f'discussion_196543_near999999_{TS}.json'); time.sleep(1)
+   243→
+   244→# === РЕЗЮМЕ ===
+   245→KNOWN = {196452, 196488, 196480, 196411, 196428, 196078, 196062, 196315, 196415, 196283,
+   246→         196424, 196461, 196490, 196511, 196469, 196474, 196475, 188595, 196326, 195079,
+   247→         195660, 195574, 195773, 196497, 196505, 196506, 196509, 196501, 196500, 196498,
+   248→         196514, 196513, 196435, 196434, 196510, 196516, 196519, 196520, 196499,
+   249→         196522, 196523, 196524, 196525, 196521, 196526, 196527, 196528, 196518,
+   250→         196529, 196530, 196531, 196496, 196260, 196100, 196258, 196501, 196532, 196536, 196533, 196537, 196539,
+   251→         196425, 196551, 196541, 196542, 196543, 196552, 196557, 196559, 196548, 196560, 196561, 196563, 196558, 196567, 196562, 196570, 196568, 196576, 196575, 196574, 196572, 196556, 196578, 196544, 196577, 196582, 196573, 196569, 196585, 196584, 196583, 196581, 196586, 196593, 196592, 196571, 196605, 196596, 196626, 196627, 196620,
+   252→         196621, 196630, 196637, 196638, 196639, 196640, 196641, 196642, 196643, 196644,
+   253→         196646, 193777, 196564, 196588, 196610, 196611, 196612, 196618, 187993, 196623,
+   254→         196624, 196625, 196628, 196629, 196631, 196633, 196634, 196635, 196150, 174335,
+   255→         185811, 196427, 196223, 195082, 196434, 196652, 196650, 196655, 196613, 196653, 196657,
+   256→         196658, 196661, 196656, 196665, 196667, 196668, 196666, 196321, 196439, 196669, 196670, 196673, 196677, 196679, 196647, 196678, 196681, 196682, 196683, 196684, 196685, 196686, 196651, 196688, 196689, 196660, 196690, 196691, 196692, 196697, 196698, 196699, 196700, 196701, 196703, 196704, 196702, 196706, 196707, 196708, 196709, 196705, 196714, 196715, 196716, 196717, 196718, 196727, 196730, 196731, 196732, 196733, 196734, 196735, 196736, 196737, 196724, 196739, 196742, 196745, 196747, 196750, 196748, 196749, 196719, 196752, 196754, 196757, 196760, 196756, 196729, 196763, 196762, 196755, 196758, 196764, 196765, 196761, 196766, 196767, 196768, 196770, 196771, 196777, 196773, 196772, 196782, 196781, 196778, 196784, 196785, 196783, 196786, 196787, 196791, 196794, 196788, 196369, 174560, 196795, 196797, 196796, 196801, 196799, 196803, 196804, 196805, 196808, 196809, 196810, 196811, 196813, 196815, 196816, 196817, 196812, 196819, 196807, 196820, 196821, 196823, 196822, 196824, 196827, 196826, 196828, 196814, 196802, 196829, 196806, 196832, 196830, 196837, 196838, 196836, 196839, 196840, 196841, 196842, 196844, 196846, 196851, 196853, 196854, 196843, 196856, 196857, 196860, 196861, 196862}
+   257→
+   258→print('\n===== NEWS TAG INDEX (off0) =====')
+   259→news = disc_items(f'tagnews_off0_{TS}.json')
+   260→seen = set()
+   261→for i in news:
+   262→    a = i.get('attributes', {})
+   263→    did = i.get('id')
+   264→    if did in seen: continue
+   265→    seen.add(did)
+   266→    try: didn = int(did)
+   267→    except Exception: didn = -1
+   268→    mark = ' [NEW]' if (didn not in KNOWN and didn > 196400) else ''
+   269→    if a.get('lastPostedAt','') >= '2026-10-16' or mark:
+   270→        print(f"  [{did}] {a.get('lastPostedAt','?')[:16]} cc={a.get('commentCount')} :: {a.get('title','')[:88]}{mark}")
+   271→
+   272→print('\n===== FRONT INDEX (off0) — только живое/новое =====')
+   273→front = disc_items(f'frontindex_off0_{TS}.json')
+   274→seen2 = set()
+   275→new_front = []
+   276→for i in front:
+   277→    a = i.get('attributes', {})
+   278→    did = i.get('id')
+   279→    if did in seen2: continue
+   280→    seen2.add(did)
+   281→    try: didn = int(did)
+   282→    except Exception: didn = -1
+   283→    mark = ' [NEW]' if (didn not in KNOWN and didn > 196400) else ''
+   284→    if mark: new_front.append(didn)
+   285→    if a.get('lastPostedAt','') >= '2026-10-22T17:30' or mark:
+   286→        print(f"  [{did}] {a.get('lastPostedAt','?')[:16]} cc={a.get('commentCount')} :: {a.get('title','')[:80]}{mark}")
+   287→print(f'>>> NEW front threads to OP-fetch (phase 2): {new_front}')
+   288→
+   289→print('\n===== SEARCH «легенда» (волна клуб-запросов 194758-типа?) =====')
+   290→try:
+   291→    _sl = json.load(open(os.path.join(OUT, f'search_legenda_{TS}.json')))
+   292→    for _i in (_sl.get('data') or [])[:10]:
+   293→        _ia = _i.get('attributes', {})
+   294→        print(f"  [{_i.get('id')}] cc={_ia.get('commentCount')} last={_ia.get('lastPostedAt','?')[:16]} :: {_ia.get('title','')[:80]}")
+   295→except Exception as _e:
+   296→    print(f'search parse fail: {_e}')
+   297→
+   298→print('\n===== 194758 «Новый раздел для легенд» (cc=71; Pledik/Raonix ноют про клуб — движение?) =====')
+   299→thread_summary(194758)
+   300→
+   301→print('\n===== 196452 Талоны PvE (~213 ч офиц. молчания, флешмоб талонов 83-Й ЧАС?) =====')
+   302→thread_summary(196452)
+   303→
+   304→print('\n===== 196511 Хотфикс (жетоны-пропажа; был cc=31, 7-е сутки (УТОЧНЕНО: createdAt 15.10 19:34 UTC); ПАТЧ ВЫШЕЛ — чейнджлога нет нигде, 196511 молчит) =====')
+   305→thread_summary(196511)
+   306→
+   307→print('\n===== 196488 Кейс =====')
+   308→thread_summary(196488)
+   309→print('\n===== 196480 Кейс-шансы (был cc=171; Crios-тишина в кейсе ~124 ч — сам он 11:53 ЗАШЁЛ В САНИТИ #14601 (54-155), из кейса ушёл 21.10) =====')
+   310→thread_summary(196480)
+   311→
+   312→print('\n===== 196524 Глеб (был cc=1147 LOCKED) =====')
+   313→thread_summary(196524)
+   314→print('\n===== 196475 Амнистия (был cc=252) =====')
+   315→thread_summary(196475)
+   316→print('\n===== 196522 Штыриуса тред =====')
+   317→thread_summary(196522)
+   318→print('\n===== 196523 ОБРАЩЕНИЕ К EXBO =====')
+   319→thread_summary(196523)
+   320→
+   321→print('\n===== 196411 / #48 канон + union-карта (гэпы [15,33,63-78,88]; сносов нет 34-Й ЧАС?; ПОСЛЕ ПАТЧА следим #92+/зачистки) =====')
+   322→p411 = thread_summary(196411)
+   323→union = set()
+   324→for off in ('off0', 'off20', 'off40'):
+   325→    for p in posts_of(f'postsindex_196411_{off}_{TS}.json'):
+   326→        union.add(p.get('attributes', {}).get('number'))
+   327→for p in p411:
+   328→    union.add(p.get('attributes', {}).get('number'))
+   329→nums = sorted(n for n in union if n)
+   330→gaps = sorted(set(range(1, nums[-1] + 1)) - set(nums))
+   331→print(f'>>> union 196411 = 1..{nums[-1]}, гэпы: {gaps}')
+   332→for off in ('off20', 'off40'):
+   333→    fn = os.path.join(OUT, f'postsindex_196411_{off}_{TS}.json')
+   334→    try:
+   335→        d = json.load(open(fn))
+   336→        for i in (d.get('data') or []) + (d.get('included') or []):
+   337→            if isinstance(i, dict) and i.get('type') == 'posts' and i.get('attributes', {}).get('number') == 48:
+   338→                h = hashlib.sha256((i['attributes'].get('contentHtml') or '').encode()).hexdigest()
+   339→                print(f">>> #48 ({off}): sha256 {h[:16]}... {'CANON OK' if h == CANON48 else '!!! ИЗМЕНИЛСЯ'} rx={sum((i['attributes'].get('reactionCounts') or {}).values())}")
+   340→    except Exception as e:
+   341→        print(f'#48 {off} fail: {e}')
+   342→
+   343→print('\n===== 196532 Тирлист Завозов (был cc=343/LPN 344; стоит 359 после +14 в 54-133) =====')
+   344→thread_summary(196532)
+   345→print('\n===== 196536 Смена оружия (был cc=8) =====')
+   346→thread_summary(196536)
+   347→print('\n===== 196533 Американская гитара (был cc=2) =====')
+   348→thread_summary(196533)
+   349→
+   350→print('\n===== 196537 Мастерский детектор прикопов (был cc=35) =====')
+   351→thread_summary(196537)
+   352→print('\n===== 196539 Вылеты vs Передовой кейс (был cc=30) =====')
+   353→thread_summary(196539)
+   354→
+   355→print('\n===== 196424 ОТС (ЗАКРЫЛОСЬ 20:59 UTC, снят с закрепа 00:40, тишина 92.5+ ч, ЧАС 93, ИТОГИ так и не вышли ПОСЛЕ ПАТЧА; был cc=160) =====')
+   356→thread_summary(196424)
+   357→print('\n===== 196425 ОФИЦ. СБОР ФИДБЕКА ОТС (был cc=124; итоги ОТС = НЕ ВЫШЛИ 92.5+ ч, ЧАС 93) =====')
+   358→thread_summary(196425, near='999999')
+   359→
+   360→print('\n===== 196461 Раздутый ттк =====')
+   361→thread_summary(196461)
+   362→print('\n===== 196435 Колизей-калибровка (был cc=154) =====')
+   363→thread_summary(196435)
+   364→print('\n===== 196510 КАЛЛибровка-2 (ожил в 54-117, cc=36/LPN 37) =====')
+   365→thread_summary(196510)
+   366→print('\n===== 196520 Колизей кодекс =====')
+   367→thread_summary(196520)
+   368→print('\n===== 196499 =====')
+   369→thread_summary(196499)
+   370→print('\n===== 196516 Соло гемлпей (был cc=22) =====')
+   371→thread_summary(196516)
+   372→print('\n===== 196513 =====')
+   373→thread_summary(196513)
+   374→print('\n===== 196531 Лишняя информация на пердметах (был cc=21) =====')
+   375→thread_summary(196531)
+   376→print('\n===== 196496 Простой пример (был cc=103, соло-флейм волна) =====')
+   377→thread_summary(196496)
+   378→print('\n===== 196260 КАНОН СТАЛЗОН (был cc=59) =====')
+   379→thread_summary(196260)
+   380→print('\n===== 196428 =====')
+   381→thread_summary(196428)
+   382→print('\n===== 196078 (магпулы) =====')
+   383→thread_summary(196078)
+   384→print('\n===== 196062 =====')
+   385→thread_summary(196062)
+   386→print('\n===== КОНТРОЛЫ 196315/196415/196283 =====')
+   387→for tid in (196315, 196415, 196283):
+   388→    pp = posts_of(f'discussion_{tid}_near999999_{TS}.json')
+   389→    try:
+   390→        dd = json.load(open(os.path.join(OUT, f'discussion_{tid}_near999999_{TS}.json')))
+   391→        aa = dd.get('data', {}).get('attributes', {}) if isinstance(dd.get('data'), dict) else {}
+   392→        nums2 = sorted((p.get('attributes', {}).get('number') or 0) for p in pp)
+   393→        last = max((p.get('attributes', {}).get('createdAt') or '' for p in pp), default='')
+   394→        print(f"[{tid}] cc={aa.get('commentCount')} lastPostNumber={aa.get('lastPostNumber')} lastCreatedAt={last[:16]} tail={nums2[-3:] if nums2 else []}")
+   395→    except Exception as e:
+   396→        print(f'[{tid}] attrs fail {e}')
+   397→
+   398→print('\n===== ТГК stalzone page0 (3229?; 3227 НЕТ 3-Й ЧАС на 17:5x — 3226 «Суматоха в Баре» последний 15:00 (❤71/👎20); серия «Загадочный тайник» живая?) =====')
+   399→try:
+   400→    html = open(os.path.join(OUT, f'tg_stalzone_page0_{TS}.html'), encoding='utf-8', errors='ignore').read()
+   401→    msgs = []
+   402→    for m in re.finditer(r'data-post="stalzone/(\d+)"[\s\S]*?<time datetime="([^"]+)"[\s\S]*?(?:<div class="tgme_widget_message_text[^"]*"[^>]*>([\s\S]*?)</div>)?[\s\S]*?(?=data-post="stalzone/|</section>)', html):
+   403→        mid, ts, txt = m.group(1), m.group(2), m.group(3) or ''
+   404→        txt = re.sub(r'<br/?>', ' ', txt)
+   405→        txt = re.sub(r'<[^>]+>', '', txt)
+   406→        txt = re.sub(r'\s+', ' ', txt).strip()
+   407→        msgs.append((int(mid), ts[:16], txt))
+   408→    for mid, ts, txt in msgs[-6:]:
+   409→        print(f'  [{mid}] {ts} :: {txt[:110]}')
+   410→except Exception as e:
+   411→    print(f'TG parse fail: {e}')
+   412→
+   413→print('\n===== ТГК Спектрума spectrum_zone page0 (7943+?; последний 7942 21:02 — вспышка откровений 21:00-03 (7929/7939/7941/7942) стоит одна, лента in_feed=4 нештатно 23-Й замер; 7893/7894 + 7896-7928 ДЫРЫ ID; лиги 7939 (Истерзанность-Прозрение-Избавление) НЕ равны патчевым 7843) =====')
+   414→try:
+   415→    html2 = open(os.path.join(OUT, f'tg_spectrum_page0_{TS}.html'), encoding='utf-8', errors='ignore').read()
+   416→    msgs2 = []
+   417→    for m in re.finditer(r'data-post="spectrum_zone/(\d+)"[\s\S]*?<time datetime="([^"]+)"[\s\S]*?(?:<div class="tgme_widget_message_text[^"]*"[^>]*>([\s\S]*?)</div>)?[\s\S]*?(?=data-post="spectrum_zone/|</section>)', html2):
+   418→        mid2, ts2, txt2 = m.group(1), m.group(2), m.group(3) or ''
+   419→        txt2 = re.sub(r'<br/?>', ' ', txt2)
+   420→        txt2 = re.sub(r'<[^>]+>', '', txt2)
+   421→        txt2 = re.sub(r'\s+', ' ', txt2).strip()
+   422→        msgs2.append((int(mid2), ts2[:16], txt2))
+   423→    for mid2, ts2, txt2 in msgs2[-8:]:
+   424→        print(f'  [{mid2}] {ts2} :: {txt2[:130]}')
+   425→except Exception as e:
+   426→    print(f'TG-SPEC parse fail: {e}')
+   427→
+   428→print('\n===== Хвосты окна 54-161 (штатный час: дельты 17:30..18:30): ★★ 191642 разрабы забыли реранить обвесы (294 РАЗГОН +29/день, Crios ×3 16:53/17:10/17:38 «рвёт шаблон с существования более/менее лимитированных вещей» vs WindReaper/Shmendergar стат-лимит легендарок; #295+? Crios 4-й пост?) + ★ 196862 Почему бы и да (18, ЭСКАЛАЦИЯ OP снесённого 196860: OP #14 «игра издевается», Bi1ly #16 «зря 1класса процитировал», NonFiesta «удалить рейтинговые режимы»; ПЕРМАЧ? Crios МОЛЧИТ с #10 16:42) + ★ 196854 Вопрос по поводу - баланса (69, jlococen ДИАЛОГ #64 «дружок-пирожок… подставил» + #67 «деньги получены тобой и списаны»; OP ждёт откат? «какой из друзей»?) + ★ 196856 СУМАТОХА В БАРЕ (41 при cc 39 — те же 2 выреза; KM_XEROX пинг 16:46 без ответа; записки СТОП с 15:01 2.5+ ч; solved? тайник 7? награды-гнев продолжит?) + ★ 196799 Тихо шифером шурша (117, 3-й пост Crios #114 16:04 «планам свойственно меняться»; 4-Й ПОСТ? анонс?) + ★ Санити 159759 29-Й ЧАС (14610 СТОП, LordZoHbl 16:40 паки-спор последний; Crios НЕТ с 11:53 6.5+ ч — вернётся? упоминание?) + ★ 196842 Дождемся-ВЫЖИВШИЙ (44, +4 G36/MCX оружейный-флейм продолжит?) + ★ 196843 Есть желание задонить (23, ФРИДОМ-флейм — МОД-РЕАКЦИЯ НЕТ 5+ ч — 6-й?) + ★ 196838 АРЕНА МИТРОПОЛИТА (29, 7-Й ЧАС +2; 8-Й ЧАС? Girodjet молчит 5+ ч) + 196810 Разраб красава (87, +6, 28-Й ЧАС БЕЗ офиц. — 29-Й?) + 196839 А как БП фармить (36, Crios #36 16:56 деспавн) + 196846 Пятерочки (27, +1 «Ап»; мод-ответ НЕТ 3-Й ЧАС?) + 196851 Ебаный майкрософт (10, титул ЖИВ — снесут?) + 196832 Памагите пк (99) + 196844 Тима для нового рейтинга (33) + 196857 EBR (19) + 196861 А до какого тайники (2 — Crios «До конца сезона» тема закрыта?) + 196853 Прокачка инженерии (21) + 196805 Диггерские байки (42/cc 39 — тред Crios, чистка СТОП 4-Й ЧАС; 5-й?) + 196829 День сурка (41) + 196830 ПвП-ножи (18) + 196837 ВОЕННЫЕ ПРЕСТУПЛЕНИЯ (9) + 196802 талоны-вопрос (12) + 196806 НГ-2026 (59) + 196827 Ваукцион (7) + 196826 Продам хлам (6) + 196824 Двужушности (9) + 196822 Эталонная раздача (8) + 196820 Рейтинговая арена (40) + 196821 Дайте скин (16) + 196807 МОжно ли считать крафт (25) + 196812 10 лвл фейсита (12) + 196817 Культисты в Зоне (28, cc 27) + 196816 Кот на голубом шаре (27) + 196809 Я не могу выбрать (34) + 196811 ПАХАН БОРЬБА (5) + 196808 Долбаные текстуры (8) + 196803 Краш после загрузки мира (20) + 196804 OlderZ (4) + 196796 По-русски говори (КОНТРОЛЬ ВОЗВРАТА 25-Й ЧАС) + 196801 Как стакать запчасти (14) + 196795 Зона в кадре (16, 2 старых скрытых; #SZFRAGMENTS 28.10) + 196797 Штурму даром (45) + 196794 Гжель (25) + 196791 (58) + 196788 (45) + 196778 Цепь Распада (54 LPN/cc 52 — чистки СТОП 4-Й ЧАС, офиц. 28+ ч — 29+?) + 196784 Воздух (43) + 196785 Лаунчер (26) + 196783 (13)/196772 (41, тиры)/196782 (7 LOCKED)/196781 (4) + 196777 (66) + 196773 ГЛЕБ-ЛОР (97) + 196771 (16) + 196770 (133) + 196767 (35)/196763 (56, «корпы сосут»)/196761 Рейтинг Колизея (37) + 196757 техработы (1) + прямые замеры 191614 (7288 «Кот-на-арбузе»)/112917 (67723) + 196749 споты (51) + mamich-поток 196718 (115)/196721 (18) + 196755 «вася» (54)/196758 (25)/196760 (33) + вчерашние NEW 196756 (23)/196754 (11)/196752 Слухи (28 LPN/cc 24 — ЧИСТКА СТОП 4-Й ЧАС)/196750 (13)/196748 (45)/196747 (4)/196745 (14)/196739 (13)/196742 (13)/196734 (55)/196735 (38)/196732 (27)/196730 (32)/196727 (38) + stm-выжившие + 404-контроль (196707/196717 70-Й ЧАС; 196840/196841 снос 6-Й ЧАС; 196860 снос 3-Й ЧАС; 196796 = возврат 25-Й ЧАС?) =====')
+   429→for tid in (159759, 196828, 196814, 196802, 196829, 196806, 196832, 196830, 196837, 196838, 196836, 196839, 196840, 196841, 196842, 196844, 196846, 196851, 196853, 196854, 196843, 196856, 196857, 196860, 191642, 196861, 196862, 196827, 196826, 196824, 196822, 196820, 196823, 196821, 196807, 196819, 196803, 196804, 196805, 196808, 196809, 196810, 196811, 196812, 196813, 196815, 196816, 196817, 196796, 196801, 196799, 196795, 196797, 196791, 196794, 196788, 196778, 196784, 196785, 196783, 196786, 196787, 196772, 196782, 196781, 196777, 196773, 196771, 196770, 196768, 196767, 196766, 196757, 196764, 196765, 196761, 196763, 196762, 196755, 196758, 196760, 196756, 196754, 196752, 196750, 196749, 196748, 196747, 196745, 196739, 196742, 196737, 196734, 196735, 196736, 196732, 196733, 196730, 196731, 196727, 196725, 196724, 196722, 196721, 196720, 196718, 196655, 196705, 196714, 196715, 196716, 196717, 196702, 196706, 196709, 196707, 196708, 196701, 196704, 196703, 196692, 196688, 196699, 196700, 196698, 196689, 196667, 196697, 196686, 196548, 195080, 195081, 195083, 196690, 196646, 196661, 196621, 196108, 196688, 196692, 196673, 196641, 196661, 196686, 196627, 196678, 195083, 196501, 196668, 196681, 196643, 196684, 196683, 196682, 196665, 196452, 196658, 196679, 196626, 179952, 196677, 195249, 196669, 180244, 196610, 196439, 196321, 196424, 196425, 196657, 196620, 196653, 196652, 196650, 196613,
+   430→            196640, 196641, 196642, 196643, 196644, 196646, 196626, 196627, 196638,
+   431→            196621, 196548, 196561, 193777, 185811, 195080, 195081, 196630, 196624,
+   432→            196623, 196631, 196633, 196634, 196564, 196635, 196588, 196427, 196637,
+   433→            196639, 196625, 196628, 196629, 196610, 196150, 174335, 196612, 196618,
+   434→            196611, 187993, 196572, 196434, 196501, 196382, 179857, 195082, 196223, 191614, 112917):
+   435→    get(f'{BASE}/api/discussions/{tid}?page[near]=999999', f'discussion_{tid}_near999999_{TS}.json'); time.sleep(1)
+   436→    thread_summary(tid, near='999999')
+   437→
+   438→
+   439→print('\n===== GETGOOD-ДЕЛЬТА (54-135b: реакции на Санити-постах; маркер прогулки = СИНХРОННЫЙ прирост likes на якорях; база 18:30 UTC (54-160: ВСЕ 5 СТАБИЛЬНО 18-Й ЧАС — «шум читателей», ни разу не синхронно = НЕ прогулка; #14590/#14591 near=14590 одним снапом; РАЗМОРОЗКА? СИНХРОН по всем 5 = прогулка): #69 likes=1 rx{34:6}, #387 likes=1 rx{35:1}, #48 likes=2, #14590 likes=2 rx{33:3} liked_by GetGood+Virusnyaga, #14591 likes=1 rx{33:1} liked_by GetGood) =====')
+   440→def anchor_like(tid, near, pnum, base_likes, base_rx):
+   441→    fn = f'discussion_{tid}_near{near}_{TS}.json'
+   442→    try:
+   443→        d = json.load(open(os.path.join(OUT, fn)))
+   444→        items = d.get('data') if isinstance(d.get('data'), list) else []
+   445→        for i in items + (d.get('included') or []):
+   446→            if isinstance(i, dict) and i.get('type') == 'posts' and (i.get('attributes', {}) or {}).get('number') == pnum:
+   447→                a = i.get('attributes', {}) or {}
+   448→                rc = {k: v for k, v in (a.get('reactionCounts') or {}).items() if v}
+   449→                delta = (a.get('likesCount') != base_likes) or (rc != base_rx)
+   450→                print(f'  [anchor d/{tid} #{pnum}] likes={a.get("likesCount")} rx={rc} :: ' + ('ДЕЛЬТА!' if delta else 'стабильно'))
+   451→                return
+   452→        print(f'  [anchor d/{tid} #{pnum}] НЕ НАЙДЕН в окне near={near}')
+   453→    except Exception as e:
+   454→        print(f'  [anchor d/{tid} #{pnum}] fail: {e}')
+   455→anchor_like(195574, 69, 69, 1, {'34': 6})
+   456→anchor_like(195660, 381, 387, 1, {'35': 1})
+   457→anchor_like(196411, 48, 48, 2, {})
+   458→anchor_like(159759, 999999, 14590, 2, {'33': 3})
+   459→anchor_like(159759, 999999, 14591, 1, {'33': 1})
+   460→
+   461→print('\n===== RANKS (OP -> Flarum-группы; ГЕЙТ КУЗНИ ПОДТВЕРЖДЁН автором: sanity НЕ может создать тред, Болота открыты; порог <= Мастер) =====')
+   462→def op_rank(tid, near='999999'):
+   463→    try:
+   464→        d = json.load(open(os.path.join(OUT, f'discussion_{tid}_near{near}_{TS}.json')))
+   465→        groups = {i['id']: (i.get('attributes', {}) or {}).get('nameSingular') for i in (d.get('included') or []) if i.get('type') == 'groups'}
+   466→        users = {i['id']: i for i in (d.get('included') or []) if i.get('type') == 'users'}
+   467→        opid = ((d.get('data') or {}).get('relationships', {}) or {}).get('user', {}).get('data', {})
+   468→        opid = opid.get('id') if isinstance(opid, dict) else None
+   469→        u = users.get(opid) or {}
+   470→        a = u.get('attributes', {})
+   471→        gids = [x.get('id') for x in u.get('relationships', {}).get('groups', {}).get('data', [])]
+   472→        print(f"[rank {tid}] OP={a.get('username')} groups={[groups.get(g, g) for g in gids]} join={(a.get('joinTime') or '?')[:10]} cc={a.get('commentCount')}")
+   473→    except Exception as e:
+   474→        print(f'[rank {tid}] fail: {e}')
+   475→for _rt in (196828, 196814, 196802, 196829, 196806, 196832, 196830, 196837, 196838, 196836, 196839, 196840, 196841, 196842, 196844, 196846, 196851, 196853, 196854, 196843, 196856, 196857, 196860, 191642, 196861, 196862, 196827, 196826, 196824, 196822, 196820, 196823, 196821, 196807, 196819, 196812, 196817, 196813, 196815, 196816, 196805, 196808, 196809, 196810, 196811, 196803, 196804, 196801, 196799, 196795, 196797, 196794, 196791, 196788, 196778, 196785, 196783, 196786, 196787):
+   476→    op_rank(_rt)
+   477→
+   478→# === ПРАВИЛО «БЫСТРЫЙ ТРЕД — ТРИ СЛЕПКА» (урок 54-92 interim: дыра #22-41 у 196707) ===
+   479→# При приросте LPN >15 постов/час добираем середину near=(prevLPN+LPN)//2,
+   480→# иначе хвост (20 постов на страницу) + прошлый слепок оставят дыру в середине.
+   481→PREV_LPN = {159759: 14610, 196828: 24, 196814: 22, 196802: 12, 196829: 41, 196806: 59, 196827: 7, 196826: 6, 196824: 9, 196822: 8, 196820: 40, 196823: 19, 196821: 16, 196807: 25, 196819: 20, 196810: 87, 196813: 30, 191614: 7288, 196749: 51, 196755: 54, 196758: 25, 196770: 133, 196773: 97, 196777: 66, 196778: 54, 196794: 25, 196801: 14, 196803: 20, 196804: 4, 196805: 42, 196808: 8, 196809: 34, 196811: 5, 196812: 12, 196815: 11, 196816: 27, 196817: 28, 196761: 37, 112917: 67723, 187993: 1251, 195081: 1076, 196718: 115, 196721: 18, 196727: 38, 196730: 32, 196732: 27, 196734: 55, 196735: 38, 196739: 13, 196742: 13, 196745: 14, 196747: 4, 196748: 45, 196750: 13, 196752: 28, 196754: 11, 196756: 23, 196757: 1, 196760: 33, 196762: 4, 196763: 56, 196764: 11, 196765: 23, 196766: 1, 196767: 35, 196768: 8, 196771: 16, 196772: 41, 196781: 4, 196782: 7, 196783: 13, 196784: 43, 196785: 26, 196786: 38, 196787: 3, 196788: 45, 196791: 58, 196795: 16, 196797: 45, 196799: 117, 196832: 99, 196830: 18, 196837: 9, 196838: 29, 196836: 18, 196839: 36, 196840: 3, 196841: 3, 196842: 44, 196844: 33, 196846: 27, 196851: 10, 196853: 21, 196854: 69, 196843: 23, 196856: 41, 196857: 19, 196860: 6, 196861: 2, 196862: 18, 191642: 294 }  # 54-161 (база №201, 17:30..18:30): ★★ CRIOS 8-Й ЧАС ВОЗВРАТ В ОФИЦ. РЕЖИМ ×4 ПОСТА: 191642 обвесы ×3 (16:53/17:10/17:38 «рвёт шаблон с существования более/менее лимитированных вещей» — спор стат-лимита легендарок с WindReaper/Shmendergar) + 196839 #36 16:56 деспавн; рейти-гнев ИГНОР ЦЕЛИКОМ (196862 молчит с #10 16:42, KM_XEROX пинг 16:46 без ответа, записки СТОП с 15:01, Санити НЕТ 6.5+ ч); ★★ 191642 РАЗГОН 265→294 (+29/день) — добавлена в PREV_LPN/хвосты; ★ 196854 jlococen ДИАЛОГ: #64 17:08 «дружок-пирожок получил валюту от взломщика по цепочке… подставил» + #67 17:25 «деньги получены тобой и списаны» cc=69 (мод-пинг ego_fanak отработан 1.5 ч); ★ 196862 +8 18 (OP #14 «игра издевается», Bi1ly #16 «зря 1класса процитировал», NonFiesta «удалить рейтинговые режимы»; пермача НЕТ, тред ЖИВ); Санити 28-Й ЧАС СТОП 14610; GG 18-Й ЧАС ВСЕ 5 СТАБИЛЬНО (rx 33:3/33:1); 196856 +2 41 (cc=39/LPN=41, те же 2 выреза); 196842 +4 44; 196810 +6 87 (28-Й ЧАС БЕЗ офиц.); 196838 АРЕНА 7-Й ЧАС +2 29; 196799 +1 117; 196846 +1 27 («Ап»); 196857 +1 19; 196828 +1 24; 196795 16 (2 старых скрытых); ★ МОДЕРАЦИЯ: чистки 196752/196778/196805 ВСЕ СТОП 4-Й ЧАС; 196411 33-Й ЧАС канона cc=85 LPN=90 ×2 OK (гэпы [15,33,63-78,88], off40-окно ВЕРНУЛОСЬ); NEW-окно ПУСТО (впервые за день); 191614 +6 7288; 112917 +5 67723; ТГК 3227 НЕТ 2-Й ЧАС (3226 «Суматоха в Баре» последний); Спектрум 7954 rx ❤23→36→46/4.67K РОСТ 3-Й ЧАС; ★★ RECOVERY: ВМ откат к 19.10 23:27 (гэп 66.8 ч), fetch+reset 18:31 OK (68d34507), creds+bundle погибли — PUSH PENDING, PAT нужен (база №200, 16:30..17:30) (база №200, 16:30..17:30): ★★ 196860 Рейтинг говна СНЕСЕН (жил 15:24-16:2x; Crios #6 16:21 в NEW 196862 признал «разве что сам тред снесли») + ★ NEW 196862 OP = ТОТ ЖЕ автор uid 1700553 (мета-гнев «можно снести тему… пермачем захуярьте», warnings=5; Crios #6+#10 16:42 — 7-Й ЧАС офиц. режима); ★ Санити 28-Й ЧАС 14610 LordZoHbl 16:40 паки-спор (Crios НЕТ с 11:53, GG якоря mentionedBy=[] 28+ ч); ★ Crios офиц. ×2: 196854 #56 15:45 complaints@exbo.net (мод-пинг ответ) + 196799 #114 16:04 «планам свойственно меняться» (112→116, OP #113 «Спасибо что помогли достучатся❤️»); ★ 196856 интерактив +6 39 (награды-гнев «жирнее кассет тайфуна», записки СТОП после 15:01, cc=37/LPN=39 РАЗДЕЛЬНО — 2 выреза); 196842 +6 40 (G36/HK416); 196843 ФРИДОМ +2 23 (мод-реакции НЕТ 4+ ч); 196838 АРЕНА 6-Й ЧАС +2 27 (cc=25); 196810 +4 81 (27-Й ЧАС БЕЗ офиц.); 196832 +2 99; 196839 +3 35 (кланпак-советы); 196851 +2 10 (титул жив); 196857 +1 18; 196844 +1 33; 196861 d0 2; Жига d0 18; 196846 d0 26 (мод-ответа НЕТ 2-й час); ★ МОДЕРАЦИЯ ТОЧЕЧНАЯ: 196805 ТРЕТИЙ ВЫРЕЗ LPN=42 cc=39 (хвост 33-42 сплошной) + 196752 LPN=28 cc=24 + 196778 LPN=54 cc=52 (чистки СТОП 3-Й ЧАС); 196411 32-Й ЧАС канона cc=85 LPN=90 (гэпы [15,33,63-78,88], off40-окно сместилось); 191614 +7 7282; 112917 +2 67718; 196806 59; 196772 41; 196797 45; ТГК 3226 последний (3227 НЕТ 1-й час); Спектрум 7954 (7955 НЕТ, rx ❤36 👏7) (база №199, 15:30..16:30): ★★ NEW 196856 Суматоха в Баре = ОФИЦ. ИНТЕРАКТИВ Crios OP 14:38 синхрон ТГК 3226 15:00 (❤71 👎20) — взрывной старт cc=26 → LPN=33 к 15:30 (cc=31: 2 номера снесены/скрыты — LPN и cc сверять РАЗДЕЛЬНО, урок 54-146); ★ CRIOS 6-Й ЧАС СМЕНА РЕЖИМА: интерактив + офиц. ответы (196861 #2 «До конца сезона» = тайники ВРЕМЕННЫЕ; 196860 #3 рейтинг-механика Арены); ★ ТГК ОЖИЛ 3226 после 4-ч паузы + СПЕКТРУМ ВЕРНУЛСЯ 7952/7954 после 18-ч; ★ Санити 26-Й ЧАС 14607→14609 (#14608 ego_fanak [Q-медиа] + #14609 Bi1ly «соре запсиопил»; #14606 = LordZoHbl верифицировано rel.user; БЕЗ Crios с 11:53); ★ 196854 LPN 55 (+17 middle near=46, ego_fanak #55 «@jlococen разберись» МОД-ПИНГ, реакции НЕТ); ★ NEW: 196857 EBR (17) + 196860 Рейтинг говна (6, Crios ответил) + 196861 (2) + 196843 ВСПУХШИЙ ТИХОН (21, ФРИДОМ-флейм #19-21); 196853 +7 (21); АРЕНА 5-Й ЧАС 25 (#24 NotANigel + #25 rjxthuf офф-топ); 196799 d0 (112); 196846 d0 (26, жалобы без мод-ответа); чистки 196752/196778 СТОП 2-Й ЧАС (LPN/cc 28/24 и 54/52); 196839 +4 испр. (32 — поправка №198: база была 28, не 26); канон #48 OK 31-Й ЧАС (sha256 ×2, rx=0); GG ВСЕ 5 СТАБИЛЬНО 16-Й ЧАС (rx 33:3/33:1, near=14590 одним снапом 551KB — #14590/#14591 выпали из near999999-окна); ТГК 3226 первый за 4 ч; Спектрум 7952/7954 первые за 18 ч; LPN/cc РАЗДЕЛЬНО: 196752 LPN=28 cc=24, 196778 LPN=54 cc=52, 196805 LPN=40 cc=38, 196817 LPN=28 cc=27 (база №198, 14:30..15:30): ★ ПОСТ САНЕТИ 25-Й ЧАС ОЖИЛ СНОВА 14602→14607 (LordZoHbl ×3 «а не поменять бы задачу хотфиксом» + Bi1ly ×2 конструктив «половина паков поломана — закрыть на фулл можно за день»; баг-спор БЕЗ Crios); ★ 196799 РЕЙТИНГ-СПОР ОЖИЛ +13 99→112 (Bi1ly ×6, ego_fanak ×3, Crios ВЕРНУЛСЯ ×2 #104 «продуктовая ценность» + #108 «фактор учли в дэмэ» + масс-пинг Химик/NewGrafon/Lаytsyn/Adrian_Paul/ЧудоБелое — 5-й час Crios); ★★ МОДЕРАЦИЯ ВОЗВРАТ: 196752 Слухи чистка ВОЗОБНОВЛЕНА после СТОП cc 28→24 при LPN=28 (4 поста из истории #1-17) + 196778 Цепь cc 54→52 (2 поста; офиц. 26+ ч); ★ NEW ×3: 196854 ВСПЫШКА OP Leverset97 14:09 (cc=26→LPN=38; Bi1ly «первые жертвы по файлам Штырьштейна», kravv285 vs OP флейм) + 196851 Ебаный майкрософт (рейтинг-псиоп, kravv285 «@Модераторы название», cc=7) + 196853 Прокачка инженерии (Pledik, cc=11→14); 196846 +13 (26, МЕТА-ЖАЛОБЫ ego_fanak «@Модераторы за что снесли тред с аком» + «@baozi молю пересоздай»); 196844 ЗАТУХАЕТ +9 (31, вербовка OP ×3); АРЕНА 4-Й ЧАС +1 (23, медиа-капля stm 14:23); 196832 стагнация (96); Жига 3-Я ВОЛНА +3 (18); 196842 +2 (32); 196828 +2 (21); 191614 +4 (7268 «Кот-на-арбузе»); GG ВСЕ 5 СТАБИЛЬНО 15-Й ЧАС (rx 33:3/33:1, near=14590 одним снапом); канон #48 OK 30-Й ЧАС (sha256 ×2); ТГК 3225 последний (11:00) 4-Й ЧАС тишины; Спектрум НЕТ (19-Й замер); LPN/cc РАЗДЕЛЬНО: 196752 LPN=28 cc=24, 196778 LPN=54 cc=52 (чистки — cc-дырки НЕ рост)
+   482→print('\n===== FAST-RULE: середина для быстрорастущих (>15/час) =====')
+   483→for _tid, _plpn in PREV_LPN.items():
+   484→    try:
+   485→        _dd = json.load(open(os.path.join(OUT, f'discussion_{_tid}_near999999_{TS}.json')))
+   486→        _aa = _dd.get('data', {}).get('attributes', {}) if isinstance(_dd.get('data'), dict) else {}
+   487→        _lpn = _aa.get('lastPostNumber') or 0
+   488→        _delta = _lpn - _plpn
+   489→        if _delta > 15:
+   490→            _mid = (_plpn + _lpn) // 2
+   491→            get(f'{BASE}/api/discussions/{_tid}?page[near]={_mid}', f'discussion_{_tid}_near{_mid}_{TS}.json'); time.sleep(1)
+   492→            print(f'[fast-rule] {_tid}: LPN {_plpn}->{_lpn} (delta {_delta}) -> middle near={_mid}')
+   493→        else:
+   494→            print(f'[fast-rule] {_tid}: LPN {_plpn}->{_lpn} (delta {_delta}) <=15 — middle не нужен')
+   495→    except Exception as _e:
+   496→        print(f'[fast-rule] {_tid} fail: {_e}')
+   497→
+   498→print('\n===== БОЛЬШИЕ ТРЕДЫ (cc из front-атрибутов) =====')
+   499→for i in front:
+   500→    if str(i.get('id')) in ('112917', '164665', '167367', '186525', '187993'):
+   501→        a = i.get('attributes', {})
+   502→        print(f"  [{i.get('id')}] cc={a.get('commentCount')} last={a.get('lastPostedAt','?')[:16]} :: {a.get('title','')[:60]}")
+   503→
+   504→print(f'\nTS={TS}')
+   505→
