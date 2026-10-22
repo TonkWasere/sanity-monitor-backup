@@ -1,0 +1,12 @@
+img1_balance_thread.png
+URL: https://cdn.discordapp.com/attachments/1101396541169741875/1551006865557692556/image.png?ex=6adb3ff5&is=6ad9ee75&hm=85c4b6a6488f481d9aeff38256163d5a5f3fb187ec6f6d140becf42b7900a0f7&
+Downloaded: 2026-10-22 20:55:14 UTC (Task 54-163-B)
+Claim: profile view, hidden post from "Вопросы Балансу" thread (d/195192)
+
+img2_patchnote_3009.png
+URL: https://cdn.discordapp.com/attachments/1101396541169741875/1555620981328842814/image.png?backend=b2&ex=6adb8e6f&is=6ada3cef&hm=f8d046cf28afbea8fd291db3f1a60794bfb8508bbdcf6a10bee0f19323bd3aa2&
+Downloaded: 2026-10-22 20:55:14 UTC (Task 54-163-B)
+Claim: profile view, hidden post from 30-09 patchnote thread (d/195660)
+
+Author statement (22.10 ~20:5x UTC, verbatim RU):
+"2 Скрытых поста, отличия заметны с профиля, они видны "мутным" более бледным текстом, и их нужно вручную разворачивать, в отличие остальных Постов аккаунта, при этом, не видны никому Кроме самого постера, как только они стали "бледные"  один из темы Вопросов Балансу, второй с темы 30-09"
