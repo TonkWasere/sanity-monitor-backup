@@ -15,7 +15,9 @@
    "until_ts": "2026-10-23T22:24:41Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-23T20:26:58Z"
   },
   "196924": {
    "title": "распред в кализее",
@@ -28,7 +30,9 @@
    "until_ts": "2026-10-23T22:24:41Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-23T20:27:00Z"
   },
   "196923": {
    "title": "Справочник",
@@ -41,7 +45,9 @@
    "until_ts": "2026-10-23T22:24:41Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-23T20:27:02Z"
   },
   "196922": {
    "title": "Прикол",
@@ -54,7 +60,9 @@
    "until_ts": "2026-10-23T22:24:41Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-23T20:27:03Z"
   },
   "196921": {
    "title": "Реран мотивов с ящика эстета #",
@@ -67,7 +75,9 @@
    "until_ts": "2026-10-23T22:24:41Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-23T20:27:05Z"
   },
   "196920": {
    "title": "Грязина",
@@ -80,7 +90,9 @@
    "until_ts": "2026-10-23T22:24:41Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-23T20:27:07Z"
   },
   "196919": {
    "title": "Хоткеи для смены артефактов в сборке",
@@ -93,7 +105,9 @@
    "until_ts": "2026-10-23T22:24:41Z",
    "last_lpn": 8,
    "last_cc": 7,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-23T20:27:09Z"
   },
   "196918": {
    "title": "Нужна помощь с ОТС ",
@@ -106,7 +120,9 @@
    "until_ts": "2026-10-23T22:24:41Z",
    "last_lpn": 9,
    "last_cc": 8,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-23T20:27:11Z"
   },
   "196917": {
    "title": "Пнв",
@@ -119,7 +135,9 @@
    "until_ts": "2026-10-23T22:24:41Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-23T20:27:12Z"
   }
  },
  "graduated": {}
