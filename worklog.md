@@ -6546,3 +6546,26 @@ Work Log:
 
 Stage Summary:
 - Финал: HEAD = origin = backup; раунд 54-181 PUSHED; линия молодых (SNAP15/SNAP35) в production; 2-й час подряд без WIPE
+Task ID: 54-20-s15: SNAP15 20:40 UTC — 196925 «Не пускает на отс» lpn/cc 6/6→7/7 (+1, гэп 0 стабилен); остальные 8 молодых без дельт, recon_add=0, graduated=0
+
+Task ID: 54-21-s15: SNAP15 21:11 UTC — 196920 «Грязина» ВЫРЕЗ +1 (lpn/cc 4/4→4/3, гэп 0→1); остальные 8 молодых без дельт, recon_add=0, graduated=0
+
+---
+Task ID: 54-21-ext
+Agent: hourly-agent (внеочередная настройка, запрос автора)
+Task: Подключение внешних источников к часовому мониторингу (ТГК stalzone+spectrum_zone, Steam-новости RU/EN, VK-статьи группы -2677092)
+
+Work Log:
+- Автор: «из Источников таже представляет интерес t.me/stalzone и t.me/spectrum_zone... раз в час, обязательно, на предмет Новостей или потенциально ценной информации, а также сравнения» + Steam-новости RU/EN store.steampowered.com/news/app/1818450 + «статьи и посты» ВК-группы
+- Пробы доступности: spectrum_zone OK (3 свежих поста 18:35-18:45 UTC), Steam RSS RU+EN OK (10 items, топ «Старт ОТС события „Празднество"» 16:01 UTC — прямо про monitored ОТС), VK-статья OK гостем (cp1251!), VK-стена и хаб статей БЕЗ логина недоступны
+- Написан tools/ext_sources.py: ТГК×2 (tgme-превью, парс data-post+datetime+текст), Steam RSS×2 (guid, title, pubDate), VK-статьи (якорь @stalzone-start-ots-... + discovery цепочки /@stalzone-*, fp=sha256(dateModified+og:desc), события только <48ч/изменения, backfill истории тихо); state output/08_monitoring/ext_sources_state.json; снапы ext_* в evidence_post
+- Баг 1: tgme-блок начинается с кавычки после data-post= → re.match не бил; фикс r'"?([a-z0-9_]+)/(\d+)' + group(2)
+- Баг 2 (косметика): discovery цепочкой ходит по СТАРЫМ статьям → фейковые события; фикс: событие только published<48ч либо fp-change, старые = тихий backfill
+- 3 прогона: посев (TG last_id stalzone=3235, spectrum=7985) → стабилизация → events=0 тихо
+- GIT_AUTOMATION.md: раздел «Внешние источники — часовая линия EXT» (источники, события, state, ограничения)
+- Часовой cron 462533 будет пересоздан с шагом EXT в payload (этот же Task ID)
+
+Stage Summary:
+- EXT-линия работает: 5 источников, ~15 GET/час, события '>>> EXT' внутри часового резюме
+- Свежий сигнал на посеве: Steam «Старт ОТС события „Празднество"» (16:01 UTC) — сравнить с тредом 196424 в след. раунде
+- VK-стена без логина недоступна — мониторятся только статьи (автору помечено)

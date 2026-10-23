@@ -1,0 +1,81 @@
+{
+ "v": 1,
+ "tg": {
+  "stalzone": {
+   "last_id": 3235,
+   "last_dt": "2026-10-23T16:04:10+00:00"
+  },
+  "spectrum_zone": {
+   "last_id": 7985,
+   "last_dt": "2026-10-23T18:45:49+00:00"
+  }
+ },
+ "steam": {
+  "ru": {
+   "seen": [
+    "685268529568552462",
+    "685268529568552615",
+    "685268529568552544",
+    "685268529568551563",
+    "685268529568551478",
+    "685268529568549890",
+    "685268529568547644",
+    "685268529568546976",
+    "685268529568546995",
+    "677386595815394382"
+   ],
+   "last_ts": "Fri, 23 Oct 2026 16:01:16 +0000"
+  },
+  "en": {
+   "seen": [
+    "685268529568552462",
+    "685268529568552615",
+    "685268529568552544",
+    "685268529568551563",
+    "685268529568551478",
+    "685268529568549890",
+    "685268529568547644",
+    "685268529568546976",
+    "685268529568546995",
+    "677386595815394382"
+   ],
+   "last_ts": "Fri, 23 Oct 2026 16:01:16 +0000"
+  }
+ },
+ "vk": {
+  "articles": {
+   "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563": {
+    "title": "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563",
+    "published": "2026-10-23T17:30:20+03:00",
+    "modified": "2026-10-23T19:01:07+03:00",
+    "fp": "c5e3cbe064f0"
+   },
+   "stalzone-cep-raspada-nagrazhdenie-la170998": {
+    "title": "stalzone-cep-raspada-nagrazhdenie-la170998",
+    "published": "2026-10-21T10:36:55+03:00",
+    "modified": "2026-10-21T12:26:41+03:00",
+    "fp": "892a86089dc7"
+   },
+   "stalzone-otkrytie-testovogo-servera-16102026-1": {
+    "title": "stalzone-otkrytie-testovogo-servera-16102026-1",
+    "published": "2026-10-15T15:00:36+03:00",
+    "modified": "2026-10-16T21:08:53+03:00",
+    "fp": "9318c249c309"
+   },
+   "stalzone-ostanavlivauschee-deistvie": {
+    "title": "stalzone-ostanavlivauschee-deistvie",
+    "published": "2026-10-06T14:45:48+03:00",
+    "modified": "2026-10-06T15:29:55+03:00",
+    "fp": "d7ceca8d5096"
+   },
+   "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3": {
+    "title": "",
+    "published": "",
+    "modified": "",
+    "fp": "",
+    "discovered": "20261023_2114"
+   }
+  }
+ },
+ "updated": "2026-10-23T21:15:16+00:00"
+}
