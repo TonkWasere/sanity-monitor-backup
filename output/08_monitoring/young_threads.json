@@ -15,9 +15,9 @@
    "until_ts": "2026-10-24T00:21:40Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-23T22:56:03Z"
+   "last_checked": "2026-10-23T23:10:34Z"
   },
   "196928": {
    "title": "Здравствуйте Exbo ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-24T00:21:40Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-23T22:56:05Z"
+   "last_checked": "2026-10-23T23:10:51Z"
   },
   "196927": {
    "title": "Очередная халтура",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-23T22:21:57Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-24T00:21:40Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 1,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-23T22:56:07Z"
+   "last_checked": "2026-10-23T23:10:53Z"
   },
   "196926": {
    "title": "ЩА ПОФАРМИМ",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-23T22:21:57Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-24T00:21:40Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 1,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-23T22:56:09Z"
+   "last_checked": "2026-10-23T23:10:54Z"
   },
   "196930": {
    "title": "Как получить этот облик на аошку ?",
@@ -75,6 +75,21 @@
    "until_ts": "2026-10-24T00:56:02Z",
    "last_lpn": 3,
    "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-23T23:10:56Z"
+  },
+  "196931": {
+   "title": "аш нужен встроенный перк охотник или че я хз бля",
+   "slug": "196931-ash-nuzhen-vstroennyy-perk-ohotnik-ili-che-ya-hz-blya",
+   "createdAt": "2026-10-23T23:04:56+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-23T23:10:59Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T01:10:17Z",
+   "last_lpn": 1,
+   "last_cc": 1,
    "checks": 0
   }
  },
