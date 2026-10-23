@@ -9,8 +9,11 @@ ext_sources.py — часовая линия внешних источников
   3. Steam RSS RU  cc=ru&l=russian  app/1818450 — рус. посты разработчиков
   4. Steam RSS EN  cc=us&l=english  app/1818450 — англ. посты (сравнение RU/EN)
   5. VK статьи группы -2677092 (stalzone): якорная статья + discovery ссылок
-     /@stalzone-* на страницах статей (prev/next). Стена (посты) без логина
-     недоступна — ограничение задокументировано в GIT_AUTOMATION.md.
+     /@stalzone-* на страницах статей (prev/next). Стена (посты) — через
+     vk.com/wall-2677092 (ДОСТУПНА гостем: полный HTML 2.3МБ; vk.ru отдаёт
+     логин-стену; заголовок Accept триггерит JS-оболочку — не слать,
+     стандартного UA+Accept-Language достаточно; тексты постов лежат в
+     JS-payload снапшота, мониторинг по ID постов).
 
 События: строки '>>> EXT ...' (новые посты ТГК, новые Steam-новости RU/EN,
 новые/изменённые VK-статьи). Первый запуск — посев state, без событий.
@@ -37,6 +40,10 @@ UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
 
 VK_ANCHOR = 'stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563'
 VK_SEED_DISCOVERED = ['stalzone-cep-raspada-nagrazhdenie-la170998']
+VK_WALL = 'https://vk.com/wall-2677092'   # именно vk.com: vk.ru = логин-стена ботам
+VK_WALL_OWNER = '2677092'
+MAX_WALL_SEEN = 200
+MAX_WALL_EVENT = 5
 STEAM_URL = ('https://store.steampowered.com/feeds/news/app/1818450/?cc={cc}&l={lang}')
 TG_URLS = {
     'stalzone': 'https://t.me/s/stalzone',
@@ -83,7 +90,7 @@ def load_state():
                 return json.load(f)
         except Exception:
             pass
-    return {'v': 1, 'tg': {}, 'steam': {}, 'vk': {'articles': {}}}
+    return {'v': 1, 'tg': {}, 'steam': {}, 'vk': {'articles': {}, 'wall': {}}}
 
 
 def save_state(st):
@@ -253,6 +260,49 @@ def run_vk(st):
     return events
 
 
+# ---------------- VK стена (посты) ----------------
+
+def run_vk_wall(st):
+    """Посты стены vk.com/wall-2677092 по ID (тексты — в JS-payload снапшота).
+    Анти-бот вариативен: иногда отдаёт JS-оболочку без постов (~150КБ) —
+    один ретрай через 3с, затем тихий пропуск до следующего часа."""
+    wall = st['vk'].get('wall', {})
+    seen = list(wall.get('seen', []))
+    data, ids = None, []
+    for attempt in (1, 2):
+        data = fetch(VK_WALL, f'ext_vk_wall_{TS}.html')
+        if data is not None:
+            html = data.decode('cp1251', errors='replace')
+            ids = []
+            for m in re.finditer(r'wall-' + VK_WALL_OWNER + r'_(\d+)', html):
+                i = int(m.group(1))
+                if i not in ids:
+                    ids.append(i)
+            if ids:
+                break
+        if attempt == 1:
+            log('.. vk_wall: оболочка без постов (анти-бот), ретрай через 3с')
+            time.sleep(3)
+    if data is None or not ids:
+        log('WARN vk_wall: посты не извлечены (оболочка/логин-стена) — пропуск часа')
+        return 0
+    events = 0
+    if not seen:
+        log(f'>> EXT vk_wall: посев, {len(ids)} id на странице, top={max(ids)} (без событий)')
+    else:
+        fresh = [i for i in ids if i not in seen]
+        for i in sorted(fresh, reverse=True)[:MAX_WALL_EVENT]:
+            log(f'>>> EXT VK стена новый пост: wall-{VK_WALL_OWNER}_{i} '
+                f'https://vk.com/wall-{VK_WALL_OWNER}_{i}')
+            events += 1
+        if len(fresh) > MAX_WALL_EVENT:
+            log(f'>>> EXT VK стена: ещё {len(fresh)-MAX_WALL_EVENT} новых (см. снап ext_vk_wall_{TS}.html)')
+            events += 1
+    st['vk']['wall'] = {'seen': (ids + seen)[:MAX_WALL_SEEN], 'top': max(ids),
+                        'last_check': TS}
+    return events
+
+
 def main():
     os.makedirs(OUTDIR, exist_ok=True)
     st = load_state()
@@ -267,6 +317,8 @@ def main():
     total += run_steam(st, 'en')
     time.sleep(1)
     total += run_vk(st)
+    time.sleep(1)
+    total += run_vk_wall(st)
     save_state(st)
     log(f'>>> итог EXT: events={total}{" (посев)" if seed else ""}')
     log(f'DONE EXT_SOURCES: events={total}')
