@@ -204,3 +204,10 @@ https://vk.ru/@-2677092-start-ots-sobytiya-prazdnestvo-afdfvs4563».
   spectrum_zone top=7985; Steam RU/EN по 10 items — топ RU: «Старт ОТС события „Празднество"»
   16:01 UTC, «Что скрывается за карточками?» 15:19 UTC (прямо про monitored ОТС!); VK: 4 статьи
   в state + itogi-konkursa в очереди discovery
+- КОНСОЛИДАЦИЯ 21:1x UTC: параллельный tools/sources_hourly.py (написан часовым раундом 54-181)
+  ВЫВЕДЕН — канонический инструмент EXT-линии: tools/ext_sources.py (у него: spectrum парсился,
+  VK cp1251 без mojibake, RU/EN Steam раздельно, классификация fresh<48ч/backfill). Из него
+  забраны просмотры ТГК (tgme_widget_message_views — прокси охвата, пишутся в state+события).
+  Артефакты sources_state.json / SOURCES_JOURNAL.md удалены (их state: spectrum отсутствовал,
+  vk-заголовок mojibake). Git-история хранит файл. Снапы sources_* от прогона 54-181 остаются
+  в evidence_post как доказательства.
