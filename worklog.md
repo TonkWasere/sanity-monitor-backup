@@ -6583,3 +6583,4 @@ Work Log:
 
 Stage Summary:
 - ОДИН канонический EXT-инструмент: tools/ext_sources.py; дубль выведен; cron-полезная нагрузка будет указывать на него
+- CRON-SWAP 54-21-ext: hourly 462533 удалён → 472526 создан (fixed_rate 3600, priority 10) с шагом (1b) ВНЕШНИЕ ИСТОЧНИКИ = python3 tools/ext_sources.py (события '>>> EXT' → в ledger-резюме); lite-линии 472472/472471 не тронуты; первый прогон нового cron ≈ 22:19 UTC
