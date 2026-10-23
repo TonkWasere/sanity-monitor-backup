@@ -97,17 +97,19 @@ def save_state(st):
 # ---------------- Telegram ----------------
 
 def tg_parse(html):
-    """[(id:int, dt:str, text:str)] из tgme-превью."""
+    """[(id:int, dt:str, text:str, views:str)] из tgme-превью."""
     out = []
-    blocks = re.split(r'<div[^>]*class="tgme_widget_message[^"]*"\s+data-post=', html)
+    blocks = re.split(r'<div[^>]*class="tgme_widget_message[^\"]*"\s+data-post=', html)
     for b in blocks[1:]:
         m_id = re.match(r'"?([a-z0-9_]+)/(\d+)', b)  # блок начинается с '"channel/id' (после 'data-post=')
         m_dt = re.search(r'datetime="([^"]+)"', b)
+        m_vw = re.search(r'tgme_widget_message_views">([^<]+)<', b)  # просмотры — прокси охвата
         m_tx = re.search(r'<div[^>]*class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>', b, re.S)
         if not m_id:
             continue
         out.append((int(m_id.group(2)), m_dt.group(1) if m_dt else '',
-                    strip_tags(m_tx.group(1))[:180] if m_tx else ''))
+                    strip_tags(m_tx.group(1))[:180] if m_tx else '',
+                    m_vw.group(1).strip() if m_vw else ''))
     return out
 
 
@@ -130,13 +132,15 @@ def run_tg(st, name):
     else:
         fresh = [m for m in msgs if m[0] > last]
         fresh.sort()
-        for mid, dt, tx in fresh[:MAX_TG_EVENT]:
-            log(f'>>> EXT TG {name} новый пост #{mid} ({dt}): {tx}')
+        for mid, dt, tx, vw in fresh[:MAX_TG_EVENT]:
+            log(f'>>> EXT TG {name} новый пост #{mid} ({dt}, views {vw or "?"}): {tx}')
             events += 1
         if len(fresh) > MAX_TG_EVENT:
             log(f'>>> EXT TG {name}: ещё {len(fresh)-MAX_TG_EVENT} постов (см. снап)')
             events += 1
-    st['tg'][name] = {'last_id': top, 'last_dt': next((m[1] for m in reversed(msgs) if m[0] == top), '')}
+    st['tg'][name] = {'last_id': top,
+                      'last_dt': next((m[1] for m in reversed(msgs) if m[0] == top), ''),
+                      'last_views': next((m[3] for m in reversed(msgs) if m[0] == top), '')}
     return events
 
 

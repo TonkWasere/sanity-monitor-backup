@@ -52,13 +52,16 @@ UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
 SLEEP = 1.5
 
 TG_CHANNELS = [('stalzone', 'https://t.me/s/stalzone'),
-               ('spectrum', 'https://t.me/s/spectrum_zone')]
+               ('spectrum_zone', 'https://t.me/s/spectrum_zone')]
+# NB: ключ = РЕАЛЬНЫЙ хэндл канала (data-post="<handle>/<id>") — иначе регулярка парсера пуста.
 STEAM_APP = 1818450
 STEAM_API = ('https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/'
              f'?appid={STEAM_APP}&count=25&maxlength=400&format=json')
 STEAM_DETAIL = 'https://store.steampowered.com/news/app/{app}/detail/{gid}?l={lang}'
 VK_ARTICLE = 'https://vk.ru/@-2677092-start-ots-sobytiya-prazdnestvo-afdfvs4563?subtype=primary'
-VK_WALL = 'https://vk.ru/wall-2677092'
+# Стена: vk.ru отдаёт логин-стену ботам, а vk.com — полный HTML (2.3 МБ, посты в payload);
+# статья через vk.com, наоборот, таймаутится — поэтому разные хосты, проверено 23.10 21:2x UTC.
+VK_WALL = 'https://vk.com/wall-2677092'
 VK_OWNER = '-2677092'
 
 MAX_TG_NEW = 10
@@ -118,6 +121,17 @@ def snap(data, name):
         return None
 
 
+def smart_decode(raw):
+    """HTML-декод с учётом charset: ВК отдаёт windows-1251, остальные UTF-8."""
+    head = raw[:16384].lower()
+    if b'windows-1251' in head:
+        return raw.decode('cp1251', 'replace')
+    try:
+        return raw.decode('utf-8')
+    except UnicodeDecodeError:
+        return raw.decode('cp1251', 'replace')
+
+
 def strip_tags(s):
     s = re.sub(r'<[^>]+>', ' ', s)
     s = s.replace('&nbsp;', ' ').replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
@@ -149,10 +163,7 @@ def do_tg(chan, url, state, seed):
         print(f'>>> SKIP tg/{chan}: сеть')
         return
     snap(raw, f'sources_tg_{chan}.html')
-    try:
-        html_text = raw.decode('utf-8', 'replace')
-    except Exception:
-        html_text = ''
+    html_text = smart_decode(raw)
     msgs = parse_tg(html_text, chan)
     if not msgs:
         journal(f'{UTC_NOW} SKIP tg/{chan}: страница без сообщений (тг заблокировал?)')
@@ -247,7 +258,7 @@ def do_vk_article(state, seed):
         print('>>> SKIP vk/статья: сеть')
         return
     snap(raw, 'sources_vk_article.html')
-    html_text = raw.decode('utf-8', 'replace')
+    html_text = smart_decode(raw)
     title = og_meta(html_text, 'title')
     desc = og_meta(html_text, 'description')
     if not title:
@@ -271,17 +282,29 @@ def do_vk_article(state, seed):
 
 
 def do_vk_wall(state, seed):
-    raw = http_get(VK_WALL)
+    ids = []
+    raw = None
+    for attempt in (1, 2):
+        raw = http_get(VK_WALL)
+        if raw is None:
+            break
+        snap(raw, 'sources_vk_wall.html')
+        html_text = smart_decode(raw)
+        ids = []
+        for m in re.finditer(r'wall' + re.escape(VK_OWNER) + r'_(\d+)', html_text):
+            if int(m.group(1)) not in ids:
+                ids.append(int(m.group(1)))
+        if ids:
+            break
+        if attempt == 1:
+            # VK отдаёт либо полный HTML (2+ МБ, посты в payload), либо JS-оболочку
+            # без постов (~150 КБ, анти-бот вариация) — один ретрай, потом SKIP.
+            print('>>> vk/стена: оболочка без постов, ретрай через 3с')
+            time.sleep(3)
     if raw is None:
         journal(f'{UTC_NOW} SKIP vk/стена: сеть/недоступен')
         print('>>> SKIP vk/стена: сеть')
         return
-    snap(raw, 'sources_vk_wall.html')
-    html_text = raw.decode('utf-8', 'replace')
-    ids = []
-    for m in re.finditer(r'wall' + re.escape(VK_OWNER) + r'_(\d+)', html_text):
-        if int(m.group(1)) not in ids:
-            ids.append(int(m.group(1)))
     if not ids:
         journal(f'{UTC_NOW} SKIP vk/стена: посты не извлечены (логин-стена/анти-бот)')
         print('>>> SKIP vk/стена: 0 постов извлечено')

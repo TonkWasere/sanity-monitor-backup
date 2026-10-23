@@ -6569,3 +6569,17 @@ Stage Summary:
 - EXT-линия работает: 5 источников, ~15 GET/час, события '>>> EXT' внутри часового резюме
 - Свежий сигнал на посеве: Steam «Старт ОТС события „Празднество"» (16:01 UTC) — сравнить с тредом 196424 в след. раунде
 - VK-стена без логина недоступна — мониторятся только статьи (автору помечено)
+
+---
+Task ID: 54-21-ext-b
+Agent: hourly-agent (консолидация дубля)
+Task: Устранение дублирования EXT-инструментов (ext_sources.py vs sources_hourly.py)
+
+Work Log:
+- Часовой раунд 54-181 (efb95c88) параллельно написал tools/sources_hourly.py и прогнал в 21:14 UTC (SEED stalzone 3235, steam 25 gids; SKIP spectrum «0 сообщений» — их парсер не взял; vk-заголовок mojibake — нет cp1251)
+- Выбран канонический: tools/ext_sources.py (все 5 источников работают, RU/EN раздельно, fresh/backfill классификация); из sources_hourly.py забраны просмотры ТГК → state (stalzone 19K, spectrum 5.7K) и строки событий
+- git rm sources_hourly.py + sources_state.json + SOURCES_JOURNAL.md; пометка в GIT_AUTOMATION.md
+- Прогон после консолидации: events=0 тихо, discovery в очереди 6-я статья (Q&A с отделом разработки II)
+
+Stage Summary:
+- ОДИН канонический EXT-инструмент: tools/ext_sources.py; дубль выведен; cron-полезная нагрузка будет указывать на него

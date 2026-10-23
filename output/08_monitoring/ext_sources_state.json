@@ -3,11 +3,13 @@
  "tg": {
   "stalzone": {
    "last_id": 3235,
-   "last_dt": "2026-10-23T16:04:10+00:00"
+   "last_dt": "2026-10-23T16:04:10+00:00",
+   "last_views": "19K"
   },
   "spectrum_zone": {
    "last_id": 7985,
-   "last_dt": "2026-10-23T18:45:49+00:00"
+   "last_dt": "2026-10-23T18:45:49+00:00",
+   "last_views": "5.7K"
   }
  },
  "steam": {
@@ -69,13 +71,19 @@
     "fp": "d7ceca8d5096"
    },
    "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3": {
+    "title": "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3",
+    "published": "2026-10-02T19:41:26+03:00",
+    "modified": "2026-10-11T18:32:25+03:00",
+    "fp": "a891f4c9dedc"
+   },
+   "stalzone-vopros-otvet-s-otdelom-razrabotki-ii-12412afdf": {
     "title": "",
     "published": "",
     "modified": "",
     "fp": "",
-    "discovered": "20261023_2114"
+    "discovered": "20261023_2117"
    }
   }
  },
- "updated": "2026-10-23T21:15:16+00:00"
+ "updated": "2026-10-23T21:18:12+00:00"
 }
