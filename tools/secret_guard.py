@@ -33,14 +33,22 @@ def scan(text, src):
 def main():
     hits = []
     # 1) staged diff (то, что реально уйдёт в коммит)
-    diff = subprocess.run(['git', 'diff', '--cached', '-U0'], capture_output=True, text=True)
+    # ВАЖНО (фикс 54-190, ПОВТОРЁН 54-193 — WIPE уносит!): VK/старые снапы в cp1251 дают
+    # не-UTF8 байты; с text=True git diff падает UnicodeDecodeError. Читаем байты и
+    # декодируем с errors='replace'.
+    _d = subprocess.run(['git', 'diff', '--cached', '-U0'], capture_output=True)
+    class _D: pass
+    diff = _D(); diff.returncode = _d.returncode
+    diff.stdout = (_d.stdout or b'').decode('utf-8', errors='replace')
     if diff.returncode == 0 and diff.stdout:
         for line in diff.stdout.splitlines():
             if line.startswith('+') and not line.startswith('+++'):
                 hits += scan(line[1:], 'staged-diff')
     # 2) опционально всё рабочее дерево (трекнутые файлы)
     if '--head' in sys.argv:
-        ls = subprocess.run(['git', 'ls-files'], capture_output=True, text=True)
+        _l = subprocess.run(['git', 'ls-files'], capture_output=True)  # cp1251-стойко (54-193)
+        class _L: pass
+        ls = _L(); ls.stdout = (_l.stdout or b'').decode('utf-8', errors='replace')
         for f in ls.stdout.splitlines():
             try:
                 content = open(f, encoding='utf-8', errors='ignore').read()
