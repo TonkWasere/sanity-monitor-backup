@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "196942": {
-   "title": "Будет ли возможность отлючать облики на снаряжении?",
-   "slug": "196942-budet-li-vozmozhnost-otlyuchat-obliki-na-snaryazhenii",
-   "createdAt": "2026-10-24T06:35:20+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-24T07:11:37Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-24T09:11:32Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 2,
-   "fails": 0,
-   "last_checked": "2026-10-24T08:40:12Z"
-  },
-  "196941": {
-   "title": "Qol красок и обликов",
-   "slug": "196941-qol-krasok-i-oblikov",
-   "createdAt": "2026-10-24T06:15:37+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-24T07:11:37Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-24T09:11:32Z",
-   "last_lpn": 4,
-   "last_cc": 3,
-   "checks": 2,
-   "fails": 0,
-   "last_checked": "2026-10-24T08:40:13Z"
-  },
   "196946": {
    "title": "Желание уделить время распреду",
    "slug": "196946-zhelanie-udelit-vremya-raspredu",
@@ -43,11 +13,11 @@
    "discovered_at": "2026-10-24T08:11:50Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-24T10:11:43Z",
-   "last_lpn": 16,
-   "last_cc": 16,
-   "checks": 1,
+   "last_lpn": 24,
+   "last_cc": 24,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-24T08:40:15Z"
+   "last_checked": "2026-10-24T09:13:54Z"
   },
   "196945": {
    "title": "Помогите с квестом",
@@ -60,9 +30,9 @@
    "until_ts": "2026-10-24T10:11:43Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-24T08:40:16Z"
+   "last_checked": "2026-10-24T09:13:56Z"
   },
   "196944": {
    "title": "Новые ДшД и ассортимент Грозного ",
@@ -75,9 +45,9 @@
    "until_ts": "2026-10-24T10:11:43Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-24T08:40:18Z"
+   "last_checked": "2026-10-24T09:13:58Z"
   },
   "196943": {
    "title": "Рейтинг празднества",
@@ -88,11 +58,11 @@
    "discovered_at": "2026-10-24T08:11:50Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-24T10:11:43Z",
-   "last_lpn": 43,
-   "last_cc": 42,
-   "checks": 1,
+   "last_lpn": 45,
+   "last_cc": 44,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-24T08:40:20Z"
+   "last_checked": "2026-10-24T09:14:00Z"
   },
   "196947": {
    "title": "Ура! Убежку обновили!",
@@ -103,11 +73,37 @@
    "discovered_at": "2026-10-24T08:37:22Z",
    "source": "snap35",
    "until_ts": "2026-10-24T10:37:22Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-24T09:14:01Z"
+  },
+  "196949": {
+   "title": "10ЫЙ раз нерфят арт а он все дороже и дороже....",
+   "slug": "196949-10yy-raz-nerfyat-art-a-on-vse-dorozhe-i-dorozhe",
+   "createdAt": "2026-10-24T08:52:21+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T09:14:04Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T11:13:53Z",
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 0
+  },
+  "196948": {
+   "title": "Назовите мне бюджетную связку видюха+проц ",
+   "slug": "196948-nazovite-mne-byudzhetnuyu-svyazku-vidyuhaprots",
+   "createdAt": "2026-10-24T08:50:15+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T09:14:04Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T11:13:53Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 1,
-   "fails": 0,
-   "last_checked": "2026-10-24T08:40:21Z"
+   "checks": 0
   }
  },
  "graduated": {
@@ -500,6 +496,40 @@
    "fails": 0,
    "last_checked": "2026-10-24T07:11:33Z",
    "graduated_at": "2026-10-24T08:11:43Z",
+   "checks_done": 2
+  },
+  "196941": {
+   "title": "Qol красок и обликов",
+   "slug": "196941-qol-krasok-i-oblikov",
+   "createdAt": "2026-10-24T06:15:37+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T07:11:37Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T09:11:32Z",
+   "last_lpn": 4,
+   "last_cc": 3,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-24T08:40:13Z",
+   "graduated_at": "2026-10-24T09:13:53Z",
+   "checks_done": 2
+  },
+  "196942": {
+   "title": "Будет ли возможность отлючать облики на снаряжении?",
+   "slug": "196942-budet-li-vozmozhnost-otlyuchat-obliki-na-snaryazhenii",
+   "createdAt": "2026-10-24T06:35:20+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T07:11:37Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T09:11:32Z",
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-24T08:40:12Z",
+   "graduated_at": "2026-10-24T09:13:53Z",
    "checks_done": 2
   }
  }
