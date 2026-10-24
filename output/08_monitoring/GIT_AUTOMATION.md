@@ -12,6 +12,9 @@
 3. **origin** ветка **sanity-monitor-mirror** (зеркало основной ветки; защита от кривого push/force в основную)
 4. **Локальный bundle** /home/z/backups/sanity-monitor-*.bundle (вне репо; защита от порчи GitHub-репозиториев;
    обновлять каждый раунд; восстановление: git clone sanity-monitor-*.bundle recovered)
+5. **КРОН-СПЕКА на гите** (решение автора 24.10 08:4x UTC): output/08_monitoring/cron_specs/jobs.json —
+   эталон всех 3 cron-задач (hourly/SNAP15/SNAP35: расписание + промпт + sha256). Сверка каждый раунд
+   (шаг 0c); при пропаже/несовпадении — пересоздание из спеки. Правила: cron_specs/README.md.
 Каждый раунд пушит В ОБА remote: `git push origin sanity-monitor && git push backup sanity-monitor`.
 Health-check каждый раунд (шаг 0): `python3 tools/state_healthcheck.py` (12 проверок: файлы/директории,
 fsck, ветка, creds, синхронизация origin+backup, гэп коммитов >3 ч, свежесть bundle).
@@ -48,6 +51,13 @@ fsck, ветка, creds, синхронизация origin+backup, гэп ком
    Если файлы/репо мертвы → `python3 tools/state_healthcheck.py --recover` (вытяжка с Гита) и продолжить раунд.
    Если гэп коммитов >3 ч (ВМ/cron ушёл погулять) → продолжить раунд, дельты за гэп покрыть одним резюме
    с пометкой «гэп N ч». Если credentials пропали → работать локально, «push pending», просить токен.
+0c. **КРОН-СВЕРКА** (решение автора 24.10 — «при несовпадениях само подтягивает с Гитхаба»):
+   `cron list` против эталона output/08_monitoring/cron_specs/jobs.json (3 задачи: hourly/SNAP15/SNAP35;
+   сверять name+schedule+sha256(payload.message), job_id справочный). 3/3 ok — тишина; задача отсутствует
+   или разошлась — удалить/пересоздать ИЗ СПЕКИ (hourly с params.priority=10), помета в worklog
+   «cron restored from spec»; спека устарела (автор менял промпт) — сначала перегенерировать спеку
+   (scripts/build_cron_specs.py), закоммитить, потом чинить крон. Полный чек-лист: cron_specs/README.md.
+   Задачи вне спеки (авторские) не трогать.
 1. Прочитать хвост /home/z/my-project/worklog.md (последние 2-3 задачи) — не повторять уже сделанное.
 2. Обход forum.exbo.net (гостевые GET, UA Chrome, sleep 1с, JSON-валидация):
    - news-витрина: /api/discussions?filter[tag]=news&sort=-lastPostedAt&page[size]=50&page[offset]=0
