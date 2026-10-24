@@ -13,9 +13,11 @@
    "discovered_at": "2026-10-24T02:24:51Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-24T04:24:49Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-24T03:10:11Z"
   },
   "196934": {
    "title": "Зачем люди носят паки вне ивента?",
@@ -28,7 +30,9 @@
    "until_ts": "2026-10-24T04:24:49Z",
    "last_lpn": 0,
    "last_cc": 1,
-   "checks": 0
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-24T03:10:12Z"
   },
   "196933": {
    "title": "Зачем люди носят паки, вне ивента?",
@@ -41,7 +45,24 @@
    "until_ts": "2026-10-24T04:24:49Z",
    "last_lpn": 0,
    "last_cc": 1,
-   "checks": 0
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-24T03:10:14Z"
+  },
+  "196936": {
+   "title": "Реворк Операций: Валюта и Награды",
+   "slug": "196936-revork-operatsiy-valyuta-i-nagrady",
+   "createdAt": "2026-10-24T02:26:20+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T02:57:40Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T04:57:33Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-24T03:10:15Z"
   }
  },
  "graduated": {
