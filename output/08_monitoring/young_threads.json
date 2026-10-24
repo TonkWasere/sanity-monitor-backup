@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "196938": {
-   "title": "Я не верю в это",
-   "slug": "196938-ya-ne-veryu-v-eto",
-   "createdAt": "2026-10-24T03:28:52+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-24T04:11:27Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-24T06:11:18Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-10-24T06:10:19Z"
-  },
-  "196937": {
-   "title": "Авторизация: из EXBO Launcher в Steam",
-   "slug": "196937-avtorizatsiya-iz-exbo-launcher-v-steam",
-   "createdAt": "2026-10-24T03:11:33+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-24T04:11:27Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-24T06:11:18Z",
-   "last_lpn": 12,
-   "last_cc": 11,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-10-24T06:10:22Z"
-  },
   "196940": {
    "title": "Не заходит на отс ",
    "slug": "196940-ne-zahodit-na-ots",
@@ -45,9 +15,9 @@
    "until_ts": "2026-10-24T07:57:58Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-24T06:10:23Z"
+   "last_checked": "2026-10-24T07:11:33Z"
   },
   "196939": {
    "title": "Сборояка на кровоток  взверобой под снап позицию",
@@ -58,11 +28,37 @@
    "discovered_at": "2026-10-24T05:58:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-24T07:57:58Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 1,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-24T06:10:25Z"
+   "last_checked": "2026-10-24T07:11:35Z"
+  },
+  "196942": {
+   "title": "Будет ли возможность отлючать облики на снаряжении?",
+   "slug": "196942-budet-li-vozmozhnost-otlyuchat-obliki-na-snaryazhenii",
+   "createdAt": "2026-10-24T06:35:20+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T07:11:37Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T09:11:32Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 0
+  },
+  "196941": {
+   "title": "Qol красок и обликов",
+   "slug": "196941-qol-krasok-i-oblikov",
+   "createdAt": "2026-10-24T06:15:37+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T07:11:37Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T09:11:32Z",
+   "last_lpn": 4,
+   "last_cc": 3,
+   "checks": 0
   }
  },
  "graduated": {
@@ -388,6 +384,40 @@
    "last_checked": "2026-10-24T04:11:24Z",
    "graduated_at": "2026-10-24T05:11:23Z",
    "checks_done": 2
+  },
+  "196937": {
+   "title": "Авторизация: из EXBO Launcher в Steam",
+   "slug": "196937-avtorizatsiya-iz-exbo-launcher-v-steam",
+   "createdAt": "2026-10-24T03:11:33+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T04:11:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T06:11:18Z",
+   "last_lpn": 12,
+   "last_cc": 11,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-10-24T06:10:22Z",
+   "graduated_at": "2026-10-24T07:11:32Z",
+   "checks_done": 3
+  },
+  "196938": {
+   "title": "Я не верю в это",
+   "slug": "196938-ya-ne-veryu-v-eto",
+   "createdAt": "2026-10-24T03:28:52+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T04:11:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T06:11:18Z",
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-10-24T06:10:19Z",
+   "graduated_at": "2026-10-24T07:11:32Z",
+   "checks_done": 3
   }
  }
 }
