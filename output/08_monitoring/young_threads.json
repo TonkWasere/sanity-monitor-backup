@@ -4,66 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "196935": {
-   "title": "Новый ивент (ГГ потеряли).",
-   "slug": "196935-novyy-ivent-gg-poteryali",
-   "createdAt": "2026-10-24T02:07:30+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-24T02:24:51Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-24T04:24:49Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-10-24T04:11:20Z"
-  },
-  "196934": {
-   "title": "Зачем люди носят паки вне ивента?",
-   "slug": "196934-zachem-lyudi-nosyat-paki-vne-iventa",
-   "createdAt": "2026-10-24T00:52:50+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-24T02:24:51Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-24T04:24:49Z",
-   "last_lpn": 0,
-   "last_cc": 1,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-10-24T04:11:21Z"
-  },
-  "196933": {
-   "title": "Зачем люди носят паки, вне ивента?",
-   "slug": "196933-zachem-lyudi-nosyat-paki-vne-iventa",
-   "createdAt": "2026-10-24T00:49:15+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-24T02:24:51Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-24T04:24:49Z",
-   "last_lpn": 0,
-   "last_cc": 1,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-10-24T04:11:22Z"
-  },
-  "196936": {
-   "title": "Реворк Операций: Валюта и Награды",
-   "slug": "196936-revork-operatsiy-valyuta-i-nagrady",
-   "createdAt": "2026-10-24T02:26:20+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-24T02:57:40Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-24T04:57:33Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 2,
-   "fails": 0,
-   "last_checked": "2026-10-24T04:11:24Z"
-  },
   "196938": {
    "title": "Я не верю в это",
    "slug": "196938-ya-ne-veryu-v-eto",
@@ -73,9 +13,11 @@
    "discovered_at": "2026-10-24T04:11:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-24T06:11:18Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 0
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-24T05:11:25Z"
   },
   "196937": {
    "title": "Авторизация: из EXBO Launcher в Steam",
@@ -88,7 +30,9 @@
    "until_ts": "2026-10-24T06:11:18Z",
    "last_lpn": 10,
    "last_cc": 9,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-24T05:11:27Z"
   }
  },
  "graduated": {
@@ -346,6 +290,74 @@
    "last_checked": "2026-10-24T00:10:18Z",
    "graduated_at": "2026-10-24T02:24:49Z",
    "checks_done": 3
+  },
+  "196933": {
+   "title": "Зачем люди носят паки, вне ивента?",
+   "slug": "196933-zachem-lyudi-nosyat-paki-vne-iventa",
+   "createdAt": "2026-10-24T00:49:15+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T02:24:51Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T04:24:49Z",
+   "last_lpn": 0,
+   "last_cc": 1,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-10-24T04:11:22Z",
+   "graduated_at": "2026-10-24T05:11:23Z",
+   "checks_done": 3
+  },
+  "196934": {
+   "title": "Зачем люди носят паки вне ивента?",
+   "slug": "196934-zachem-lyudi-nosyat-paki-vne-iventa",
+   "createdAt": "2026-10-24T00:52:50+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T02:24:51Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T04:24:49Z",
+   "last_lpn": 0,
+   "last_cc": 1,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-10-24T04:11:21Z",
+   "graduated_at": "2026-10-24T05:11:23Z",
+   "checks_done": 3
+  },
+  "196935": {
+   "title": "Новый ивент (ГГ потеряли).",
+   "slug": "196935-novyy-ivent-gg-poteryali",
+   "createdAt": "2026-10-24T02:07:30+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T02:24:51Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T04:24:49Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-10-24T04:11:20Z",
+   "graduated_at": "2026-10-24T05:11:23Z",
+   "checks_done": 3
+  },
+  "196936": {
+   "title": "Реворк Операций: Валюта и Награды",
+   "slug": "196936-revork-operatsiy-valyuta-i-nagrady",
+   "createdAt": "2026-10-24T02:26:20+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T02:57:40Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T04:57:33Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-24T04:11:24Z",
+   "graduated_at": "2026-10-24T05:11:23Z",
+   "checks_done": 2
   }
  }
 }
