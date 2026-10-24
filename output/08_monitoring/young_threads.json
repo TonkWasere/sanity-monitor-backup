@@ -15,9 +15,9 @@
    "until_ts": "2026-10-24T06:11:18Z",
    "last_lpn": 15,
    "last_cc": 15,
-   "checks": 1,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-24T05:11:25Z"
+   "last_checked": "2026-10-24T06:10:19Z"
   },
   "196937": {
    "title": "Авторизация: из EXBO Launcher в Steam",
@@ -28,11 +28,41 @@
    "discovered_at": "2026-10-24T04:11:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-24T06:11:18Z",
-   "last_lpn": 10,
-   "last_cc": 9,
+   "last_lpn": 12,
+   "last_cc": 11,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-10-24T06:10:22Z"
+  },
+  "196940": {
+   "title": "Не заходит на отс ",
+   "slug": "196940-ne-zahodit-na-ots",
+   "createdAt": "2026-10-24T05:39:18+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T05:58:04Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T07:57:58Z",
+   "last_lpn": 4,
+   "last_cc": 4,
    "checks": 1,
    "fails": 0,
-   "last_checked": "2026-10-24T05:11:27Z"
+   "last_checked": "2026-10-24T06:10:23Z"
+  },
+  "196939": {
+   "title": "Сборояка на кровоток  взверобой под снап позицию",
+   "slug": "196939-sboroyaka-na-krovotok-vzveroboy-pod-snap-pozitsiyu",
+   "createdAt": "2026-10-24T05:27:40+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-24T05:58:04Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-24T07:57:58Z",
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-24T06:10:25Z"
   }
  },
  "graduated": {
