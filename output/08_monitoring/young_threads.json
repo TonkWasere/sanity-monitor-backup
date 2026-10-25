@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-25T15:47:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-25T17:47:26Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 1,
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-25T15:55:19Z"
+   "last_checked": "2026-10-25T16:11:14Z"
   },
   "197008": {
    "title": "Поманили косточкой",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-25T17:47:26Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-25T15:55:20Z"
+   "last_checked": "2026-10-25T16:11:16Z"
   },
   "197007": {
    "title": "Ексбо теперь наши слоны???",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-25T15:47:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-25T17:47:26Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 1,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-25T15:55:22Z"
+   "last_checked": "2026-10-25T16:11:17Z"
   },
   "197006": {
    "title": "⚔️ Сразитесь или страдайте!",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-25T15:47:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-25T17:47:26Z",
-   "last_lpn": 20,
-   "last_cc": 18,
-   "checks": 1,
+   "last_lpn": 24,
+   "last_cc": 22,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-25T15:55:24Z"
+   "last_checked": "2026-10-25T16:11:19Z"
   },
   "197005": {
    "title": "отс",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-25T17:47:26Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-25T15:55:25Z"
+   "last_checked": "2026-10-25T16:11:21Z"
   },
   "197004": {
    "title": "Предложение по цепи распада",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-25T17:47:26Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-25T15:55:27Z"
+   "last_checked": "2026-10-25T16:11:23Z"
   },
   "197003": {
    "title": "А собственно где? ",
@@ -105,9 +105,9 @@
    "until_ts": "2026-10-25T17:47:26Z",
    "last_lpn": 31,
    "last_cc": 30,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-25T15:55:29Z"
+   "last_checked": "2026-10-25T16:11:24Z"
   },
   "197002": {
    "title": "Откровенно не логичная ху...",
@@ -118,11 +118,24 @@
    "discovered_at": "2026-10-25T15:47:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-25T17:47:26Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 1,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-25T15:55:31Z"
+   "last_checked": "2026-10-25T16:11:26Z"
+  },
+  "197010": {
+   "title": "Регистрация урона и калькуляция его в игре для меня всё ещё закадка.",
+   "slug": "197010-registratsiya-urona-i-kalkulyatsiya-ego-v-igre-dlya-menya-vsyo-eschyo-zakadka",
+   "createdAt": "2026-10-25T16:09:27+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-25T16:11:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-25T18:11:13Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
