@@ -274,10 +274,23 @@ def run_vk_wall(st):
         if data is not None:
             html = data.decode('cp1251', errors='replace')
             ids = []
-            for m in re.finditer(r'wall-' + VK_WALL_OWNER + r'_(\d+)', html):
-                i = int(m.group(1))
-                if i not in ids:
-                    ids.append(i)
+            # v2 (урок FP#2 25.10 №271): реальные верхние посты стены = div c
+            # id="post-<owner>_<id>" и class="...page_block...". Dived-ответы тоже
+            # несут class="_post" и свои wall--<owner>_<reply_id> — старый паттерн
+            # примазывал их (FP 1146702 ×2). page_block = ровно топы фида (20/стр).
+            owner_digits = VK_WALL_OWNER.lstrip('-')
+            for m in re.finditer(r'<div\b[^>]*>', html):
+                tag = m.group(0)
+                mi = re.search(r'id="post-' + owner_digits + r'_(\d+)"', tag)
+                if mi and 'page_block' in tag:
+                    i = int(mi.group(1))
+                    if i not in ids:
+                        ids.append(i)
+            if not ids:  # fallback: старый паттерн (на случай смены вёрстки)
+                for m in re.finditer(r'wall-' + VK_WALL_OWNER + r'_(\d+)', html):
+                    i = int(m.group(1))
+                    if i not in ids:
+                        ids.append(i)
             if ids:
                 break
         if attempt == 1:
