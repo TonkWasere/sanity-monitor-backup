@@ -15,9 +15,9 @@
    "until_ts": "2026-10-25T21:57:42Z",
    "last_lpn": 28,
    "last_cc": 26,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-25T21:54:40Z"
+   "last_checked": "2026-10-25T21:55:53Z"
   },
   "197021": {
    "title": "Правда про «Общество Распила Зоны» + ОХОТА!",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-25T21:57:42Z",
    "last_lpn": 124,
    "last_cc": 124,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-25T21:54:42Z"
+   "last_checked": "2026-10-25T21:55:55Z"
   },
   "197025": {
    "title": "Ладно в этот раз пойду на отс",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-25T23:16:17Z",
    "last_lpn": 17,
    "last_cc": 17,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-25T21:54:43Z"
+   "last_checked": "2026-10-25T21:55:57Z"
   },
   "197024": {
    "title": "Календарь",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-25T23:16:17Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-25T21:54:45Z"
+   "last_checked": "2026-10-25T21:55:58Z"
   },
   "197023": {
    "title": "Fn Fal теперь онли у Барона?",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-25T23:16:17Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-25T21:54:47Z"
+   "last_checked": "2026-10-25T21:56:05Z"
   }
  },
  "graduated": {
