@@ -260,3 +260,4 @@ https://vk.ru/@-2677092-start-ots-sobytiya-prazdnestvo-afdfvs4563».
   Артефакты sources_state.json / SOURCES_JOURNAL.md удалены (их state: spectrum отсутствовал,
   vk-заголовок mojibake). Git-история хранит файл. Снапы sources_* от прогона 54-181 остаются
   в evidence_post как доказательства.
+- ⚠️ УРОК WIPE-43 (25.10 18:2x): в recovery полный SHA для reset --hard брать ТОЛЬКО через `git reset --hard $(git rev-parse origin/sanity-monitor)` — вручную набранный/восстановленный по памяти хвост SHA даёт «fatal: Could not parse object» (безвредно, но теряется время). Плюс: вывод ext_sources.py сохранять в /tmp/ext_out.txt целиком (деталь events=1 была потеряна при tail -4 — событие осталось неклассифицируемым).
