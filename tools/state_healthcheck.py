@@ -68,13 +68,21 @@ print(f"  [{'OK' if cred_ok else 'DEAD'}] ~/.git-credentials (600)")
 if not cred_ok:
     problems.append('credentials missing/perm — push будет 401, нужен токен от автора')
 
+# C2. credential.helper = store (слетает при чистках ВМ — урок 54-212:
+# файл creds жив, а push падает «could not read Username», т.к. helper не настроен)
+rc_h, out_h = sh('git config --global credential.helper')
+helper_ok = (rc_h == 0 and out_h.strip() == 'store')
+print(f"  [{'OK' if helper_ok else 'DEAD'}] credential.helper = store ({out_h.strip() or 'НЕ ЗАДАН'})")
+if not helper_ok:
+    problems.append('credential.helper != store — push «could not read Username»; лечится: git config --global credential.helper store')
+
 # D. Remote-синхронизация (ls-remote, не жрёт API rate limit; оба remote)
 rc, head_local = sh('git rev-parse --short=12 HEAD')
 head_local = head_local.strip()[:12]
 for remote in ('origin', 'backup'):
     try:
         rc, out = sh(f'git ls-remote {remote} refs/heads/{BRANCH}', timeout=30)
-        head_remote = out.strip().split('	')[0][:12] if rc == 0 and out.strip() else ''
+        head_remote = out.strip().split('       ')[0][:12] if rc == 0 and out.strip() else ''
         if rc != 0 or not head_remote:
             print(f'  [SKIP] {remote} unreachable: {out[:80]}')
         else:
