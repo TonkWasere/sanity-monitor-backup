@@ -46,3 +46,12 @@
 - v1 (2026-10-24 08:45 UTC, коммит 24.10 ~08:5x): снято с живого cron list (3/3 succeeded):
   hourly id=472526 sha256 b3b443a1…; snap15 id=472472 sha256 b9ec0777…; snap35 id=472471
   sha256 ca301d6a….
+- v2 (2026-10-25 19:5x UTC, 54-19-hotfix — ахтунг автора: тихие skip lite после WIPE-44,
+  «пофиксило только на часовом шаге»): SNAP15/SNAP35 +шаг (0a) САМОЛЕЧЕНИЕ (lite-скрипт
+  отсутствует → `mkdir -p tools && git fetch origin sanity-monitor && git show
+  origin/sanity-monitor:tools/<скрипт> > tools/<скрипт>` — читающие git-операции lite
+  РАЗРЕШЕНЫ, репо публичный) +шаг (2a) ПРОТОКОЛ [SKIP] (любой skip = one-liner в worklog +
+  строка в чат); hourly +шаг (0b) LITE-АУДИТ ([SKIP]-маркеры сводятся в ledger; после
+  recovery — проверка трекинга lite-скриптов). Пересозданы сразу snap15+snap35; hourly НЕ
+  пересоздавался вручную — раунд 20:20 сам увидит sha-mismatch в 0c и восстановит из спеки
+  (первый боевой случай ветки «спека обновлена осознанно → кроны механически из спеки»).
