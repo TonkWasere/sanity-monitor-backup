@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-25T19:44:11Z",
    "source": "snap35",
    "until_ts": "2026-10-25T21:44:11Z",
-   "last_lpn": 4,
-   "last_cc": 3,
-   "checks": 2,
+   "last_lpn": 11,
+   "last_cc": 10,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-25T19:57:44Z"
+   "last_checked": "2026-10-25T20:10:36Z"
   },
   "197016": {
    "title": "А когда ап гаусса уже ?",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-25T21:44:13Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 2,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-25T19:57:45Z"
+   "last_checked": "2026-10-25T20:10:38Z"
   },
   "197015": {
    "title": "Рабочий стол",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-25T21:44:14Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 2,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-25T19:57:47Z"
+   "last_checked": "2026-10-25T20:10:40Z"
   },
   "197013": {
    "title": "балансные правки ОТСа (оружие)",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-25T21:44:16Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 2,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-25T19:57:48Z"
+   "last_checked": "2026-10-25T20:10:42Z"
   },
   "197020": {
    "title": "Скорпион эво III",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-10-25T19:45:53Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-25T21:45:43Z",
-   "last_lpn": 21,
-   "last_cc": 21,
-   "checks": 1,
+   "last_lpn": 22,
+   "last_cc": 22,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-25T19:57:50Z"
+   "last_checked": "2026-10-25T20:10:44Z"
   },
   "197018": {
    "title": "Обновление Прикопов",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-25T21:45:43Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 1,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-25T19:57:52Z"
+   "last_checked": "2026-10-25T20:10:46Z"
   },
   "197017": {
    "title": "Урон ВССМ \"Винторез\" ",
@@ -103,11 +103,11 @@
    "discovered_at": "2026-10-25T19:45:53Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-25T21:45:43Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-25T19:57:53Z"
+   "last_checked": "2026-10-25T20:10:47Z"
   },
   "197014": {
    "title": "Почему L96A1 плохая снайпа?",
@@ -120,9 +120,9 @@
    "until_ts": "2026-10-25T21:45:43Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 1,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-25T19:57:55Z"
+   "last_checked": "2026-10-25T20:10:49Z"
   },
   "197012": {
    "title": "Проблема с продажей \"талонных\" вещей",
@@ -135,9 +135,9 @@
    "until_ts": "2026-10-25T21:45:43Z",
    "last_lpn": 16,
    "last_cc": 16,
-   "checks": 1,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-25T19:57:57Z"
+   "last_checked": "2026-10-25T20:10:51Z"
   },
   "197022": {
    "title": "Правда про «Общество Распила Зоны» + ОХОТА!",
@@ -148,9 +148,11 @@
    "discovered_at": "2026-10-25T19:58:00Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-25T21:57:42Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-25T20:10:53Z"
   },
   "197021": {
    "title": "Правда про «Общество Распила Зоны» + ОХОТА!",
@@ -161,9 +163,11 @@
    "discovered_at": "2026-10-25T19:58:00Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-25T21:57:42Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-25T20:10:55Z"
   }
  },
  "graduated": {
