@@ -3,53 +3,7 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {
-  "196997": {
-   "title": "Хроники форумного рейджбайта. Выпуск №1. Хамстеркомбат",
-   "slug": "196997-hroniki-forumnogo-reydzhbayta-vypusk-1-hamsterkombat",
-   "createdAt": "2026-10-25T11:06:17+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-25T11:10:37Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-25T13:10:19Z",
-   "last_lpn": 19,
-   "last_cc": 19,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-10-25T13:10:08Z"
-  },
-  "196999": {
-   "title": "Добавление доп. оповещение при выставление лота",
-   "slug": "196999-dobavlenie-dop-opoveschenie-pri-vystavlenie-lota",
-   "createdAt": "2026-10-25T11:27:16+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-25T11:57:35Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-25T13:57:25Z",
-   "last_lpn": 16,
-   "last_cc": 16,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-10-25T13:10:10Z"
-  },
-  "196998": {
-   "title": "⚙️ Изменения на ОТС",
-   "slug": "196998-izmeneniya-na-ots",
-   "createdAt": "2026-10-25T11:26:03+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-25T11:57:35Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-25T13:57:25Z",
-   "last_lpn": 16,
-   "last_cc": 14,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-10-25T13:10:11Z"
-  }
- },
+ "threads": {},
  "graduated": {
   "196917": {
    "title": "Пнв",
@@ -793,6 +747,57 @@
    "fails": 0,
    "last_checked": "2026-10-25T12:58:44Z",
    "graduated_at": "2026-10-25T13:10:06Z",
+   "checks_done": 4
+  },
+  "196997": {
+   "title": "Хроники форумного рейджбайта. Выпуск №1. Хамстеркомбат",
+   "slug": "196997-hroniki-forumnogo-reydzhbayta-vypusk-1-hamsterkombat",
+   "createdAt": "2026-10-25T11:06:17+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-25T11:10:37Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-25T13:10:19Z",
+   "last_lpn": 19,
+   "last_cc": 19,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-10-25T13:10:08Z",
+   "graduated_at": "2026-10-25T13:56:45Z",
+   "checks_done": 4
+  },
+  "196998": {
+   "title": "⚙️ Изменения на ОТС",
+   "slug": "196998-izmeneniya-na-ots",
+   "createdAt": "2026-10-25T11:26:03+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-25T11:57:35Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-25T13:57:25Z",
+   "last_lpn": 19,
+   "last_cc": 17,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-10-25T13:56:49Z",
+   "graduated_at": "2026-10-25T14:10:20Z",
+   "checks_done": 4
+  },
+  "196999": {
+   "title": "Добавление доп. оповещение при выставление лота",
+   "slug": "196999-dobavlenie-dop-opoveschenie-pri-vystavlenie-lota",
+   "createdAt": "2026-10-25T11:27:16+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-25T11:57:35Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-25T13:57:25Z",
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-10-25T13:56:47Z",
+   "graduated_at": "2026-10-25T14:10:20Z",
    "checks_done": 4
   }
  }
