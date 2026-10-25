@@ -104,9 +104,20 @@ fsck, ветка, creds, синхронизация origin+backup, гэп ком
      young-очередь (TTL 2h) → дальше SNAP15 гоняет его каждые 15 мин.
 - **State**: output/08_monitoring/young_threads.json (threads/graduated, атомарная запись) +
   output/08_monitoring/YOUNG_JOURNAL.md (append-only журнал lite-событий).
-- **Правила коллизий**: lite-джобы НЕ трогают git вообще (фиксация только в часовых раундах,
-  git add -A подхватит journal/state/снапы); расписание lite (:10/:25/:40/:55/:35) вне окна
-  раунда :26-:36 — параллельных записей в worklog нет; снапы *_SNAP15_*/*_SNAP35_* в evidence_post.
+- **LITE-КОММИТ (v3, 54-21-hotfix 25.10 ~21:50 UTC — по решению автора: «откаты ВМ могут
+  спокойно зохавать нАбранных бэклогов кратких-снапов»)**: lite-джоба ПОСЛЕ прогона/записи
+  worklog-строки обязана сдать данные на git (и при тихом прогоне — если state/снапы менялись):
+  `cd /home/z/my-project && git add worklog.md output/evidence_post
+  output/08_monitoring/young_threads.json output/08_monitoring/YOUNG_JOURNAL.md &&
+  python3 tools/secret_guard.py && git commit -m 'lite s15/s35 <HH:MM> UTC: <кратко>' &&
+  git push origin sanity-monitor && git push backup sanity-monitor`.
+  Push отклонён (non-FF после часового коммита) → `git pull --rebase origin sanity-monitor` →
+  повторить push. Push упал (сеть/403) → тик НЕ провален: пометка «push pending» в чат,
+  данные локальны, следующий тик добьёт. Коммитить нечего → шаг пропускается молча.
+- **Правила коллизий (v3)**: расписание lite (:10/:25/:40/:55/:35) вне окна
+  раунда :26-:36 — параллельных записей в worklog нет; снапы *_SNAP15_*/*_SNAP35_* в evidence_post;
+  bundle/stash lite НЕ делает (только часовой раунд); часовой `git add -A` добирает всё,
+  что lite не успел закоммитить (push-pending и т.п.).
 - **Отчёт lite-агента**: worklog one-liner (Task ID: 54-<час>-s15 / 54-<час>-s35) ТОЛЬКО при
   событиях (NEW/ВЫРЕЗ/VANISH/GRADUATED отслеживаемого); тихий прогон — только печать.
 - **WIPE-устойчивость (v2, 54-19-hotfix 25.10)**: lite-джоба при мёртвом репо сначала `python3
