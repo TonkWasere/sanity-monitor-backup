@@ -7400,4 +7400,4 @@ Work Log:
 - (3) ledger №255 append + ГИТ-ФИКСАЦИЯ, worklog 54-215 + финал → round commit 272ed790 → dual push ЗЕЛЁНЫЙ ab107004..272ed790 (ОБЕ репы, 06:3x UTC) → bundle → чистка → финальный healthcheck
 
 Stage Summary:
-- Раунд 54-215 закрыт PUSHED — WIPE-32 recovery (5-й автономный) + полный обход; финальный healthcheck STATE HEALTHY 13/13 ожидается ниже по циклу
+- Финальный healthcheck: STATE HEALTHY 13/13 (e6084830 = обеим репам, bundle 0633 288МБ; helper store GLOBAL восстановлен после вайп-стирания config); раунд 54-215 закрыт PUSHED — WIPE-32 recovery (5-й автономный) + полный обход
