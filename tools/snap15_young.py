@@ -5,11 +5,13 @@
 #   - VANISH (404/снос) и isHidden детект;
 #   - reconcile-пасс: треды с createdAt <= 2.5h, отсутствующие в очереди/graduated
 #     (включая найденные часовым раундом) → автопостановка в young-очередь.
-#   - НЕПРЕРЫВНОСТЬ ТИКОВ (форензика 25.10 54-23: тики 21:25 и 22:25 UTC шедулер
+#   - НЕПРЕРЫВНОСТЬ ТИКОВ v2 (форензика 25.10 54-23: тики 21:25 и 22:25 UTC шедулер
 #     ЗАПУСКАЛ (run_count), но агент-ходы потеряны в часовой петле — ноль следов:
-#     ни снапов, ни коммита, ни [SKIP]): нет evidence-файла последнего слота перед
-#     запуском → '>>> TICK-LOST' (попадает в events → worklog-строка по протоколу).
-#     Ложные срабатывания возможны сразу после вайпа/рекавери до restore файлов.
+#     ни снапов, ни коммита, ни [SKIP]): последний ЗАВЕРШЁННЫЙ прогон (новейший
+#     newlist-снап) обязан быть свежее 22 мин (= слот 15 мин + допуск 7 мин на
+#     поздний ход); разрыв больше → '>>> TICK-LOST' (events → worklog → ledger 0b).
+#     v1 сверяла имя файла со слотом (якорь now-5мин) и самофлаговала поздний
+#     прогон — FP 23:16 UTC 25.10 (forensic-ход съел 6 мин, слот вошёл в якорь).
 # Принципы: ГОСТЕВОЙ read-only GET; НЕ ходит в git; НЕ пишет ledger/worklog (это делает
 # lite-агент по факту событий); state = output/08_monitoring/young_threads.json;
 # журнал = output/08_monitoring/YOUNG_JOURNAL.md; снапы = evidence_post/*_SNAP15_*.json.
@@ -115,20 +117,31 @@ def main():
     now = datetime.now(timezone.utc)
     events = []
 
-    # 0) НЕПРЕРЫВНОСТЬ ТИКОВ: evidence-файл последнего слота (:10/:25/:40/:55) перед
-    #    текущим запуском обязан существовать (каждый прогон пишет newlist с TS слота;
-    #    якорь = now-5мин прощает поздний запуск текущего слота; ручные/внеплановые
-    #    запуски между слотами проверяют предыдущий слот — безопасно).
+    # 0) НЕПРЕРЫВНОСТЬ ТИКОВ v2: последний ЗАВЕРШЁННЫЙ прогон = новейший
+    #    newlist_created30_SNAP15_*.json (имя = TS фактического прогона); обязан быть
+    #    свежее 22 мин (слот 15 + допуск 7 на поздний ход). Разрыв >22 мин = минимум
+    #    один слот без единого артефакта. Иммунно к поздним прогонам ≤7 мин (v1
+    #    самофлаговала их — FP 23:16 UTC 25.10) и внеплановым запускам между слотами;
+    #    ловит пропуск слота на СЛЕДУЮЩЕМ тике (задержка детекта ≤1 слот).
     anchor = now - timedelta(minutes=5)
     day0 = anchor.replace(hour=0, minute=0, second=0, microsecond=0)
     cands = [day0 + timedelta(minutes=h * 60 + s) for h in range(24) for s in (10, 25, 40, 55)]
     prior = [dt for dt in cands if dt < anchor]
     prev_dt = max(prior) if prior else (day0 - timedelta(minutes=5))
-    prev_name = f'newlist_created30_SNAP15_{prev_dt.strftime("%Y%m%d_%H%M")}.json'
-    if not os.path.exists(os.path.join(OUT, prev_name)):
-        lost_min = int((now - prev_dt).total_seconds() // 60)
-        line = (f'TICK-LOST {prev_dt.strftime("%H:%M")} UTC (нет evidence {prev_name} — '
-                f'пред. тик не выполнялся/потерян, слепая зона ~{lost_min} мин)')
+    snaps = sorted(glob.glob(os.path.join(OUT, 'newlist_created30_SNAP15_*.json')))
+    last_dt = None
+    if snaps:
+        m = re.search(r'SNAP15_(\d{8})_(\d{4})\.json$', snaps[-1])
+        if m:
+            try:
+                last_dt = datetime.strptime(m.group(1) + m.group(2), '%Y%m%d%H%M').replace(tzinfo=timezone.utc)
+            except ValueError:
+                last_dt = None
+    if last_dt is None or (now - last_dt).total_seconds() > 22 * 60:
+        last_str = last_dt.strftime('%H:%M') if last_dt else 'НЕТ СНАПОВ'
+        gap_min = int((now - last_dt).total_seconds() // 60) if last_dt else -1
+        line = (f'TICK-LOST ~{prev_dt.strftime("%H:%M")} UTC (последний завершённый прогон {last_str}, '
+                f'разрыв {gap_min} мин > 22 — слот без единого артефакта)')
         print(f'>>> {line}')
         journal(line)
         events.append(line)
