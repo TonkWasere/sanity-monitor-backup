@@ -15,9 +15,9 @@
    "until_ts": "2026-10-25T01:50:22Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-25T00:10:12Z"
+   "last_checked": "2026-10-25T01:16:50Z"
   },
   "196982": {
    "title": "Корея - Итоги",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-25T01:50:22Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-25T00:10:14Z"
+   "last_checked": "2026-10-25T01:16:51Z"
   },
   "196979": {
    "title": "калибровка",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-25T01:50:22Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-25T00:10:15Z"
+   "last_checked": "2026-10-25T01:16:52Z"
   },
   "196984": {
    "title": "Кибербезопастность U2F (Universal 2nd Factor)",
@@ -58,9 +58,11 @@
    "discovered_at": "2026-10-25T00:10:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-25T02:10:11Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 6,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-25T01:16:55Z"
   }
  },
  "graduated": {
