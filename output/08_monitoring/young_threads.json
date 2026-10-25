@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197022": {
-   "title": "Правда про «Общество Распила Зоны» + ОХОТА!",
-   "slug": "197022-pravda-pro-obschestvo-raspila-zony-ohota",
-   "createdAt": "2026-10-25T19:55:19+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-25T19:58:00Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-25T21:57:42Z",
-   "last_lpn": 28,
-   "last_cc": 26,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-25T21:55:53Z"
-  },
-  "197021": {
-   "title": "Правда про «Общество Распила Зоны» + ОХОТА!",
-   "slug": "197021-pravda-pro-obschestvo-raspila-zony-ohota",
-   "createdAt": "2026-10-25T19:54:12+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-25T19:58:00Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-25T21:57:42Z",
-   "last_lpn": 124,
-   "last_cc": 124,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-25T21:55:55Z"
-  },
   "197025": {
    "title": "Ладно в этот раз пойду на отс",
    "slug": "197025-ladno-v-etot-raz-poydu-na-ots",
@@ -45,9 +15,9 @@
    "until_ts": "2026-10-25T23:16:17Z",
    "last_lpn": 17,
    "last_cc": 17,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-25T21:55:57Z"
+   "last_checked": "2026-10-25T22:10:16Z"
   },
   "197024": {
    "title": "Календарь",
@@ -60,9 +30,9 @@
    "until_ts": "2026-10-25T23:16:17Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-25T21:55:58Z"
+   "last_checked": "2026-10-25T22:10:19Z"
   },
   "197023": {
    "title": "Fn Fal теперь онли у Барона?",
@@ -75,9 +45,22 @@
    "until_ts": "2026-10-25T23:16:17Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-25T21:56:05Z"
+   "last_checked": "2026-10-25T22:10:20Z"
+  },
+  "197026": {
+   "title": "Изменение обвесов для АШ-12",
+   "slug": "197026-izmenenie-obvesov-dlya-ash-12",
+   "createdAt": "2026-10-25T22:06:10+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-25T22:10:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T00:10:14Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
@@ -1179,6 +1162,40 @@
    "last_checked": "2026-10-25T21:43:56Z",
    "graduated_at": "2026-10-25T21:54:38Z",
    "checks_done": 6
+  },
+  "197021": {
+   "title": "Правда про «Общество Распила Зоны» + ОХОТА!",
+   "slug": "197021-pravda-pro-obschestvo-raspila-zony-ohota",
+   "createdAt": "2026-10-25T19:54:12+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-25T19:58:00Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-25T21:57:42Z",
+   "last_lpn": 124,
+   "last_cc": 124,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-25T21:55:55Z",
+   "graduated_at": "2026-10-25T22:10:14Z",
+   "checks_done": 7
+  },
+  "197022": {
+   "title": "Правда про «Общество Распила Зоны» + ОХОТА!",
+   "slug": "197022-pravda-pro-obschestvo-raspila-zony-ohota",
+   "createdAt": "2026-10-25T19:55:19+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-25T19:58:00Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-25T21:57:42Z",
+   "last_lpn": 28,
+   "last_cc": 26,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-25T21:55:53Z",
+   "graduated_at": "2026-10-25T22:10:14Z",
+   "checks_done": 7
   }
  }
 }
