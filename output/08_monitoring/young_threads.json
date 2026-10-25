@@ -15,9 +15,9 @@
    "until_ts": "2026-10-25T11:44:35Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-25T10:10:16Z"
+   "last_checked": "2026-10-25T11:10:21Z"
   },
   "196993": {
    "title": "Блек маркет",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-25T09:46:10Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-25T11:46:06Z",
-   "last_lpn": 36,
-   "last_cc": 36,
-   "checks": 2,
+   "last_lpn": 52,
+   "last_cc": 52,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-25T10:10:18Z"
+   "last_checked": "2026-10-25T11:10:23Z"
   },
   "196991": {
    "title": "А ведь интересно",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-25T11:46:06Z",
    "last_lpn": 26,
    "last_cc": 26,
-   "checks": 2,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-25T10:10:20Z"
+   "last_checked": "2026-10-25T11:10:25Z"
   },
   "196990": {
    "title": "Проблема с доставкой Посылок/Рюкзаков/Паков.",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-25T11:46:06Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 2,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-25T10:10:22Z"
+   "last_checked": "2026-10-25T11:10:27Z"
   },
   "196989": {
    "title": "Накипело!",
@@ -73,11 +73,69 @@
    "discovered_at": "2026-10-25T09:46:10Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-25T11:46:06Z",
-   "last_lpn": 22,
-   "last_cc": 21,
-   "checks": 2,
+   "last_lpn": 23,
+   "last_cc": 22,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-25T10:10:23Z"
+   "last_checked": "2026-10-25T11:10:28Z"
+  },
+  "196996": {
+   "title": "🎟️Событие скоро закончится",
+   "slug": "196996-sobytie-skoro-zakonchitsya",
+   "createdAt": "2026-10-25T10:37:52+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-25T11:02:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-25T13:02:02Z",
+   "last_lpn": 5,
+   "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-25T11:10:30Z"
+  },
+  "196995": {
+   "title": "Точка кипения КАЛизея",
+   "slug": "196995-tochka-kipeniya-kalizeya",
+   "createdAt": "2026-10-25T10:37:24+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-25T11:02:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-25T13:02:02Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-25T11:10:33Z"
+  },
+  "196994": {
+   "title": "Рубеж в себя поверил?",
+   "slug": "196994-rubezh-v-sebya-poveril",
+   "createdAt": "2026-10-25T10:30:11+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-25T11:02:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-25T13:02:02Z",
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-25T11:10:34Z"
+  },
+  "196997": {
+   "title": "Хроники форумного рейджбайта. Выпуск №1. Хамстеркомбат",
+   "slug": "196997-hroniki-forumnogo-reydzhbayta-vypusk-1-hamsterkombat",
+   "createdAt": "2026-10-25T11:06:17+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-25T11:10:37Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-25T13:10:19Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
   }
  },
  "graduated": {
