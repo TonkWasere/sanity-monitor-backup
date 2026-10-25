@@ -5,6 +5,11 @@
 #   - VANISH (404/снос) и isHidden детект;
 #   - reconcile-пасс: треды с createdAt <= 2.5h, отсутствующие в очереди/graduated
 #     (включая найденные часовым раундом) → автопостановка в young-очередь.
+#   - НЕПРЕРЫВНОСТЬ ТИКОВ (форензика 25.10 54-23: тики 21:25 и 22:25 UTC шедулер
+#     ЗАПУСКАЛ (run_count), но агент-ходы потеряны в часовой петле — ноль следов:
+#     ни снапов, ни коммита, ни [SKIP]): нет evidence-файла последнего слота перед
+#     запуском → '>>> TICK-LOST' (попадает в events → worklog-строка по протоколу).
+#     Ложные срабатывания возможны сразу после вайпа/рекавери до restore файлов.
 # Принципы: ГОСТЕВОЙ read-only GET; НЕ ходит в git; НЕ пишет ledger/worklog (это делает
 # lite-агент по факту событий); state = output/08_monitoring/young_threads.json;
 # журнал = output/08_monitoring/YOUNG_JOURNAL.md; снапы = evidence_post/*_SNAP15_*.json.
@@ -108,6 +113,25 @@ def main():
     threads = y.setdefault('threads', {})
     graduated = y.setdefault('graduated', {})
     now = datetime.now(timezone.utc)
+    events = []
+
+    # 0) НЕПРЕРЫВНОСТЬ ТИКОВ: evidence-файл последнего слота (:10/:25/:40/:55) перед
+    #    текущим запуском обязан существовать (каждый прогон пишет newlist с TS слота;
+    #    якорь = now-5мин прощает поздний запуск текущего слота; ручные/внеплановые
+    #    запуски между слотами проверяют предыдущий слот — безопасно).
+    anchor = now - timedelta(minutes=5)
+    day0 = anchor.replace(hour=0, minute=0, second=0, microsecond=0)
+    cands = [day0 + timedelta(minutes=h * 60 + s) for h in range(24) for s in (10, 25, 40, 55)]
+    prior = [dt for dt in cands if dt < anchor]
+    prev_dt = max(prior) if prior else (day0 - timedelta(minutes=5))
+    prev_name = f'newlist_created30_SNAP15_{prev_dt.strftime("%Y%m%d_%H%M")}.json'
+    if not os.path.exists(os.path.join(OUT, prev_name)):
+        lost_min = int((now - prev_dt).total_seconds() // 60)
+        line = (f'TICK-LOST {prev_dt.strftime("%H:%M")} UTC (нет evidence {prev_name} — '
+                f'пред. тик не выполнялся/потерян, слепая зона ~{lost_min} мин)')
+        print(f'>>> {line}')
+        journal(line)
+        events.append(line)
 
     # 1) выпуск отслуживших (> TTL) — дальше их накрывает часовой раунд (WATCH/prev_lpn)
     for tid in sorted(list(threads.keys())):
@@ -121,7 +145,6 @@ def main():
     print(f'young активных: {len(threads)}, graduated всего: {len(graduated)}')
 
     # 2) проверка молодых (near=999999: cc/lpn + хвост постов)
-    events = []
     ordered = sorted(threads.keys(), key=lambda t: threads[t].get('discovered_at') or '')
     for tid in ordered[:MAX_THREADS]:
         e = threads[tid]
