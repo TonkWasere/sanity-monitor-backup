@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-26T05:56:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T07:56:21Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 4,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T06:56:27Z"
+   "last_checked": "2026-10-26T07:10:29Z"
   },
   "197037": {
    "title": "Отвратительная работа модерации внутриигрового чата",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-26T08:40:12Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T06:56:29Z"
+   "last_checked": "2026-10-26T07:10:31Z"
   },
   "197038": {
    "title": "Предложение: переименовать патроны.",
@@ -43,9 +43,11 @@
    "discovered_at": "2026-10-26T06:56:31Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T08:56:25Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 0
+   "last_lpn": 16,
+   "last_cc": 16,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T07:10:32Z"
   }
  },
  "graduated": {
