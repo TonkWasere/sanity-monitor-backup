@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-26T13:10:24Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T15:10:13Z",
-   "last_lpn": 39,
-   "last_cc": 39,
-   "checks": 5,
+   "last_lpn": 45,
+   "last_cc": 45,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T14:26:22Z"
+   "last_checked": "2026-10-26T14:40:09Z"
   },
   "197059": {
    "title": "Облики за колизей",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-26T13:26:34Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T15:26:20Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 4,
+   "last_lpn": 14,
+   "last_cc": 13,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T14:26:24Z"
+   "last_checked": "2026-10-26T14:40:11Z"
   },
   "197060": {
    "title": "Лучшее видео по распреду",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-26T15:40:09Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T14:26:26Z"
+   "last_checked": "2026-10-26T14:40:13Z"
   },
   "197061": {
    "title": "СТС",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-26T13:56:38Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T15:56:23Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 2,
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-26T14:26:28Z"
+   "last_checked": "2026-10-26T14:40:15Z"
   },
   "197062": {
    "title": "Сколько нужно регена для перехила студня?",
@@ -73,9 +73,11 @@
    "discovered_at": "2026-10-26T14:26:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T16:26:20Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T14:40:17Z"
   }
  },
  "graduated": {
