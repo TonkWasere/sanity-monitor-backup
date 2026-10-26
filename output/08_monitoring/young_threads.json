@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197036": {
-   "title": "Обновление арсенала Спартака",
-   "slug": "197036-obnovlenie-arsenala-spartaka",
-   "createdAt": "2026-10-26T05:44:30+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T05:56:27Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T07:56:21Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-26T07:40:55Z"
-  },
   "197037": {
    "title": "Отвратительная работа модерации внутриигрового чата",
    "slug": "197037-otvratitelnaya-rabota-moderatsii-vnutriigrovogo-chata",
@@ -30,9 +15,9 @@
    "until_ts": "2026-10-26T08:40:12Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T07:40:58Z"
+   "last_checked": "2026-10-26T07:56:54Z"
   },
   "197038": {
    "title": "Предложение: переименовать патроны.",
@@ -43,11 +28,11 @@
    "discovered_at": "2026-10-26T06:56:31Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T08:56:25Z",
-   "last_lpn": 59,
-   "last_cc": 58,
-   "checks": 3,
+   "last_lpn": 80,
+   "last_cc": 79,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T07:40:59Z"
+   "last_checked": "2026-10-26T07:56:56Z"
   },
   "197039": {
    "title": "Как вы бы оценили персонажа с украинскими репликами",
@@ -58,11 +43,11 @@
    "discovered_at": "2026-10-26T07:37:18Z",
    "source": "snap35",
    "until_ts": "2026-10-26T09:37:18Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 1,
+   "last_lpn": 21,
+   "last_cc": 21,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T07:41:01Z"
+   "last_checked": "2026-10-26T07:56:58Z"
   }
  },
  "graduated": {
@@ -1367,6 +1352,23 @@
    "fails": 0,
    "last_checked": "2026-10-26T06:26:23Z",
    "graduated_at": "2026-10-26T06:40:12Z",
+   "checks_done": 7
+  },
+  "197036": {
+   "title": "Обновление арсенала Спартака",
+   "slug": "197036-obnovlenie-arsenala-spartaka",
+   "createdAt": "2026-10-26T05:44:30+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T05:56:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T07:56:21Z",
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-26T07:40:55Z",
+   "graduated_at": "2026-10-26T07:56:53Z",
    "checks_done": 7
   }
  }
