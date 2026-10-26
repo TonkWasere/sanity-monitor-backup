@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-26T04:40:11Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T06:40:07Z",
-   "last_lpn": 25,
-   "last_cc": 25,
-   "checks": 6,
+   "last_lpn": 27,
+   "last_cc": 27,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T06:10:23Z"
+   "last_checked": "2026-10-26T06:26:23Z"
   },
   "197036": {
    "title": "Обновление арсенала Спартака",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-26T07:56:21Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T06:10:25Z"
+   "last_checked": "2026-10-26T06:26:25Z"
   }
  },
  "graduated": {
