@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197034": {
-   "title": "Части лег. шмота. ",
-   "slug": "197034-chasti-leg-shmota",
-   "createdAt": "2026-10-26T03:53:28+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T03:57:25Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T05:57:21Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-26T05:56:22Z"
-  },
   "197035": {
    "title": "Обсуждение ",
    "slug": "197035-obsuzhdenie",
@@ -30,9 +15,9 @@
    "until_ts": "2026-10-26T06:40:07Z",
    "last_lpn": 25,
    "last_cc": 25,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T05:56:24Z"
+   "last_checked": "2026-10-26T06:10:23Z"
   },
   "197036": {
    "title": "Обновление арсенала Спартака",
@@ -43,9 +28,11 @@
    "discovered_at": "2026-10-26T05:56:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T07:56:21Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T06:10:25Z"
   }
  },
  "graduated": {
@@ -1317,6 +1304,23 @@
    "last_checked": "2026-10-26T04:10:12Z",
    "graduated_at": "2026-10-26T04:26:23Z",
    "checks_done": 7
+  },
+  "197034": {
+   "title": "Части лег. шмота. ",
+   "slug": "197034-chasti-leg-shmota",
+   "createdAt": "2026-10-26T03:53:28+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T03:57:25Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T05:57:21Z",
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-26T05:56:22Z",
+   "graduated_at": "2026-10-26T06:10:21Z",
+   "checks_done": 8
   }
  }
 }
