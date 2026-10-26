@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197054": {
-   "title": "Вопрос к котлеру ",
-   "slug": "197054-vopros-k-kotleru",
-   "createdAt": "2026-10-26T12:07:27+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T12:10:31Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T14:10:10Z",
-   "last_lpn": 20,
-   "last_cc": 20,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-26T13:56:25Z"
-  },
   "197057": {
    "title": "Сборка в ксм",
    "slug": "197057-sborka-v-ksm",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-10-26T12:25:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T14:25:12Z",
-   "last_lpn": 17,
-   "last_cc": 17,
-   "checks": 6,
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T13:56:27Z"
+   "last_checked": "2026-10-26T14:10:24Z"
   },
   "197056": {
    "title": "Опускание в зоне, нерф соло игры",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-26T14:25:12Z",
    "last_lpn": 21,
    "last_cc": 20,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T13:56:29Z"
+   "last_checked": "2026-10-26T14:10:26Z"
   },
   "197055": {
    "title": "Решение проблемы с долгим запуском \"Сталкерских\" сессионок ",
@@ -60,9 +45,9 @@
    "until_ts": "2026-10-26T14:25:12Z",
    "last_lpn": 3,
    "last_cc": 2,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T13:56:31Z"
+   "last_checked": "2026-10-26T14:10:27Z"
   },
   "197058": {
    "title": "Вопрос по мышкам",
@@ -73,11 +58,11 @@
    "discovered_at": "2026-10-26T13:10:24Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T15:10:13Z",
-   "last_lpn": 29,
-   "last_cc": 29,
-   "checks": 3,
+   "last_lpn": 36,
+   "last_cc": 36,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T13:56:32Z"
+   "last_checked": "2026-10-26T14:10:30Z"
   },
   "197059": {
    "title": "Облики за колизей",
@@ -90,9 +75,9 @@
    "until_ts": "2026-10-26T15:26:20Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-26T13:56:34Z"
+   "last_checked": "2026-10-26T14:10:32Z"
   },
   "197060": {
    "title": "Лучшее видео по распреду",
@@ -103,11 +88,11 @@
    "discovered_at": "2026-10-26T13:40:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T15:40:09Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 1,
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T13:56:35Z"
+   "last_checked": "2026-10-26T14:10:33Z"
   },
   "197061": {
    "title": "СТС",
@@ -118,9 +103,11 @@
    "discovered_at": "2026-10-26T13:56:38Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T15:56:23Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T14:10:35Z"
   }
  },
  "graduated": {
@@ -1732,6 +1719,23 @@
    "last_checked": "2026-10-26T13:26:23Z",
    "graduated_at": "2026-10-26T13:40:09Z",
    "checks_done": 8
+  },
+  "197054": {
+   "title": "Вопрос к котлеру ",
+   "slug": "197054-vopros-k-kotleru",
+   "createdAt": "2026-10-26T12:07:27+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T12:10:31Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T14:10:10Z",
+   "last_lpn": 20,
+   "last_cc": 20,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-26T13:56:25Z",
+   "graduated_at": "2026-10-26T14:10:22Z",
+   "checks_done": 7
   }
  }
 }
