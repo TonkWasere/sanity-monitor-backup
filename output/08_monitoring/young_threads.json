@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-26T00:16:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T02:16:50Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 7,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-26T01:55:16Z"
+   "last_checked": "2026-10-26T02:10:27Z"
   },
   "197032": {
    "title": "Система Рейтинга и сам Колизея в частности",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-26T00:37:16Z",
    "source": "snap35",
    "until_ts": "2026-10-26T02:37:16Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 6,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T01:55:18Z"
+   "last_checked": "2026-10-26T02:10:29Z"
   }
  },
  "graduated": {
