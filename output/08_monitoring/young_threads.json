@@ -15,9 +15,22 @@
    "until_ts": "2026-10-26T04:25:10Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T03:40:43Z"
+   "last_checked": "2026-10-26T03:57:23Z"
+  },
+  "197034": {
+   "title": "Части лег. шмота. ",
+   "slug": "197034-chasti-leg-shmota",
+   "createdAt": "2026-10-26T03:53:28+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T03:57:25Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T05:57:21Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
