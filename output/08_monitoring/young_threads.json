@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-26T03:57:25Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T05:57:21Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 7,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-26T05:40:10Z"
+   "last_checked": "2026-10-26T05:56:22Z"
   },
   "197035": {
    "title": "Обсуждение ",
@@ -30,9 +30,22 @@
    "until_ts": "2026-10-26T06:40:07Z",
    "last_lpn": 25,
    "last_cc": 25,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T05:40:12Z"
+   "last_checked": "2026-10-26T05:56:24Z"
+  },
+  "197036": {
+   "title": "Обновление арсенала Спартака",
+   "slug": "197036-obnovlenie-arsenala-spartaka",
+   "createdAt": "2026-10-26T05:44:30+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T05:56:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T07:56:21Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
