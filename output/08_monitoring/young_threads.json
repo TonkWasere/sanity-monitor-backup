@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197038": {
-   "title": "Предложение: переименовать патроны.",
-   "slug": "197038-predlozhenie-pereimenovat-patrony",
-   "createdAt": "2026-10-26T06:48:25+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T06:56:31Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T08:56:25Z",
-   "last_lpn": 98,
-   "last_cc": 97,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-26T08:56:24Z"
-  },
   "197039": {
    "title": "Как вы бы оценили персонажа с украинскими репликами",
    "slug": "197039-kak-vy-by-otsenili-personazha-s-ukrainskimi-replikami",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-10-26T07:37:18Z",
    "source": "snap35",
    "until_ts": "2026-10-26T09:37:18Z",
-   "last_lpn": 45,
-   "last_cc": 45,
-   "checks": 6,
+   "last_lpn": 46,
+   "last_cc": 46,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T08:56:26Z"
+   "last_checked": "2026-10-26T09:10:29Z"
   },
   "197040": {
    "title": "малая заселённость серверов начальной территории ",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-26T10:27:11Z",
    "last_lpn": 24,
    "last_cc": 24,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-26T08:56:27Z"
+   "last_checked": "2026-10-26T09:10:31Z"
   },
   "197041": {
    "title": "Новый обман",
@@ -58,8 +43,23 @@
    "discovered_at": "2026-10-26T08:56:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T10:56:22Z",
-   "last_lpn": 8,
-   "last_cc": 8,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T09:10:33Z"
+  },
+  "197042": {
+   "title": "Время выдачи отс",
+   "slug": "197042-vremya-vydachi-ots",
+   "createdAt": "2026-10-26T08:58:55+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T09:10:35Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T11:10:27Z",
+   "last_lpn": 3,
+   "last_cc": 3,
    "checks": 0
   }
  },
@@ -1400,6 +1400,23 @@
    "last_checked": "2026-10-26T08:27:12Z",
    "graduated_at": "2026-10-26T08:40:19Z",
    "checks_done": 7
+  },
+  "197038": {
+   "title": "Предложение: переименовать патроны.",
+   "slug": "197038-predlozhenie-pereimenovat-patrony",
+   "createdAt": "2026-10-26T06:48:25+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T06:56:31Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T08:56:25Z",
+   "last_lpn": 98,
+   "last_cc": 97,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-26T08:56:24Z",
+   "graduated_at": "2026-10-26T09:10:27Z",
+   "checks_done": 8
   }
  }
 }
