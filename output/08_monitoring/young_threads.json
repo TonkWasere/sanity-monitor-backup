@@ -15,9 +15,9 @@
    "until_ts": "2026-10-26T10:56:22Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-26T10:40:15Z"
+   "last_checked": "2026-10-26T10:55:13Z"
   },
   "197042": {
    "title": "Время выдачи отс",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-26T11:10:27Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T10:40:16Z"
+   "last_checked": "2026-10-26T10:55:15Z"
   },
   "197043": {
    "title": "А ВОТ STALZONE УМИРАЕТ!!!",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-26T09:25:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T11:25:20Z",
-   "last_lpn": 46,
-   "last_cc": 46,
-   "checks": 5,
+   "last_lpn": 49,
+   "last_cc": 49,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T10:40:18Z"
+   "last_checked": "2026-10-26T10:55:16Z"
   },
   "197047": {
    "title": "Бораль на постоянку",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-26T12:10:14Z",
    "last_lpn": 0,
    "last_cc": 1,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-26T10:40:20Z"
+   "last_checked": "2026-10-26T10:55:18Z"
   },
   "197046": {
    "title": "Бораль на постоянку",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-26T12:10:14Z",
    "last_lpn": 0,
    "last_cc": 1,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-26T10:40:22Z"
+   "last_checked": "2026-10-26T10:55:19Z"
   },
   "197045": {
    "title": "когда выдадут награду за отс?",
@@ -91,7 +91,7 @@
    "last_lpn": 0,
    "last_cc": 1,
    "checks": 0,
-   "fails": 2,
+   "fails": 3,
    "last_error": "404"
   },
   "197044": {
@@ -103,11 +103,11 @@
    "discovered_at": "2026-10-26T10:10:24Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T12:10:14Z",
-   "last_lpn": 8,
-   "last_cc": 7,
-   "checks": 2,
+   "last_lpn": 9,
+   "last_cc": 8,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-26T10:40:25Z"
+   "last_checked": "2026-10-26T10:55:22Z"
   },
   "197049": {
    "title": "когда выдадут награду за отс?",
@@ -121,7 +121,7 @@
    "last_lpn": 0,
    "last_cc": 1,
    "checks": 0,
-   "fails": 1,
+   "fails": 2,
    "last_error": "404"
   },
   "197048": {
@@ -133,11 +133,24 @@
    "discovered_at": "2026-10-26T10:25:34Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T12:25:19Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-26T10:55:25Z"
+  },
+  "197050": {
+   "title": "Идея для медиек ",
+   "slug": "197050-ideya-dlya-mediek",
+   "createdAt": "2026-10-26T10:40:41+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T10:55:28Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T12:55:10Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 1,
-   "fails": 0,
-   "last_checked": "2026-10-26T10:40:28Z"
+   "checks": 0
   }
  },
  "graduated": {
