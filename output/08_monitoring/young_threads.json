@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-26T08:27:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T10:27:11Z",
-   "last_lpn": 26,
-   "last_cc": 26,
-   "checks": 7,
+   "last_lpn": 27,
+   "last_cc": 27,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-26T10:10:16Z"
+   "last_checked": "2026-10-26T10:25:20Z"
   },
   "197041": {
    "title": "Новый обман",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-26T10:56:22Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T10:10:17Z"
+   "last_checked": "2026-10-26T10:25:22Z"
   },
   "197042": {
    "title": "Время выдачи отс",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-26T11:10:27Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T10:10:19Z"
+   "last_checked": "2026-10-26T10:25:24Z"
   },
   "197043": {
    "title": "А ВОТ STALZONE УМИРАЕТ!!!",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-26T09:25:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T11:25:20Z",
-   "last_lpn": 36,
-   "last_cc": 36,
-   "checks": 3,
+   "last_lpn": 46,
+   "last_cc": 46,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T10:10:21Z"
+   "last_checked": "2026-10-26T10:25:26Z"
   },
   "197047": {
    "title": "Бораль на постоянку",
@@ -75,7 +75,9 @@
    "until_ts": "2026-10-26T12:10:14Z",
    "last_lpn": 0,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T10:25:27Z"
   },
   "197046": {
    "title": "Бораль на постоянку",
@@ -88,7 +90,9 @@
    "until_ts": "2026-10-26T12:10:14Z",
    "last_lpn": 0,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T10:25:29Z"
   },
   "197045": {
    "title": "когда выдадут награду за отс?",
@@ -101,7 +105,9 @@
    "until_ts": "2026-10-26T12:10:14Z",
    "last_lpn": 0,
    "last_cc": 1,
-   "checks": 0
+   "checks": 0,
+   "fails": 1,
+   "last_error": "404"
   },
   "197044": {
    "title": "☝️ Прокачка на Арене",
@@ -112,6 +118,34 @@
    "discovered_at": "2026-10-26T10:10:24Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T12:10:14Z",
+   "last_lpn": 8,
+   "last_cc": 7,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T10:25:32Z"
+  },
+  "197049": {
+   "title": "когда выдадут награду за отс?",
+   "slug": "197049-kogda-vydadut-nagradu-za-ots",
+   "createdAt": "2026-10-26T10:18:49+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T10:25:34Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T12:25:19Z",
+   "last_lpn": 0,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197048": {
+   "title": "Бораль навсегда",
+   "slug": "197048-boral-navsegda",
+   "createdAt": "2026-10-26T10:12:24+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T10:25:34Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T12:25:19Z",
    "last_lpn": 1,
    "last_cc": 1,
    "checks": 0
