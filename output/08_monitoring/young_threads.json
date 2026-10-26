@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197033": {
-   "title": "РАЗОБРАЛИ АККАУНТ! #паникс #чота_не_дабл_ю 2.0",
-   "slug": "197033-razobrali-akkaunt-paniks-chota-ne-dabl-yu-20",
-   "createdAt": "2026-10-26T02:12:16+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T02:25:14Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T04:25:10Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-26T04:10:12Z"
-  },
   "197034": {
    "title": "Части лег. шмота. ",
    "slug": "197034-chasti-leg-shmota",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-10-26T03:57:25Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T05:57:21Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T04:10:14Z"
+   "last_checked": "2026-10-26T04:26:25Z"
   }
  },
  "graduated": {
@@ -1287,6 +1272,23 @@
    "last_checked": "2026-10-26T02:25:12Z",
    "graduated_at": "2026-10-26T02:40:21Z",
    "checks_done": 8
+  },
+  "197033": {
+   "title": "РАЗОБРАЛИ АККАУНТ! #паникс #чота_не_дабл_ю 2.0",
+   "slug": "197033-razobrali-akkaunt-paniks-chota-ne-dabl-yu-20",
+   "createdAt": "2026-10-26T02:12:16+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T02:25:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T04:25:10Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-26T04:10:12Z",
+   "graduated_at": "2026-10-26T04:26:23Z",
+   "checks_done": 7
   }
  }
 }
