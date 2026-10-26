@@ -15,9 +15,9 @@
    "until_ts": "2026-10-26T00:10:14Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-25T23:42:06Z"
+   "last_checked": "2026-10-25T23:59:59Z"
   },
   "197028": {
    "title": "Брелок-счётчик артефактов",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-26T00:40:13Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-25T23:42:07Z"
+   "last_checked": "2026-10-26T00:00:01Z"
   }
  },
  "graduated": {
