@@ -4,51 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197057": {
-   "title": "Сборка в ксм",
-   "slug": "197057-sborka-v-ksm",
-   "createdAt": "2026-10-26T12:23:08+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T12:25:27Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T14:25:12Z",
-   "last_lpn": 18,
-   "last_cc": 18,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-26T14:10:24Z"
-  },
-  "197056": {
-   "title": "Опускание в зоне, нерф соло игры",
-   "slug": "197056-opuskanie-v-zone-nerf-solo-igry",
-   "createdAt": "2026-10-26T12:11:43+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T12:25:27Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T14:25:12Z",
-   "last_lpn": 21,
-   "last_cc": 20,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-26T14:10:26Z"
-  },
-  "197055": {
-   "title": "Решение проблемы с долгим запуском \"Сталкерских\" сессионок ",
-   "slug": "197055-reshenie-problemy-s-dolgim-zapuskom-stalkerskih-sessionok",
-   "createdAt": "2026-10-26T12:10:54+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T12:25:27Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T14:25:12Z",
-   "last_lpn": 3,
-   "last_cc": 2,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-26T14:10:27Z"
-  },
   "197058": {
    "title": "Вопрос по мышкам",
    "slug": "197058-vopros-po-myshkam",
@@ -58,11 +13,11 @@
    "discovered_at": "2026-10-26T13:10:24Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T15:10:13Z",
-   "last_lpn": 36,
-   "last_cc": 36,
-   "checks": 4,
+   "last_lpn": 39,
+   "last_cc": 39,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T14:10:30Z"
+   "last_checked": "2026-10-26T14:26:22Z"
   },
   "197059": {
    "title": "Облики за колизей",
@@ -75,9 +30,9 @@
    "until_ts": "2026-10-26T15:26:20Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T14:10:32Z"
+   "last_checked": "2026-10-26T14:26:24Z"
   },
   "197060": {
    "title": "Лучшее видео по распреду",
@@ -90,9 +45,9 @@
    "until_ts": "2026-10-26T15:40:09Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-26T14:10:33Z"
+   "last_checked": "2026-10-26T14:26:26Z"
   },
   "197061": {
    "title": "СТС",
@@ -103,11 +58,24 @@
    "discovered_at": "2026-10-26T13:56:38Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T15:56:23Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 1,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T14:10:35Z"
+   "last_checked": "2026-10-26T14:26:28Z"
+  },
+  "197062": {
+   "title": "Сколько нужно регена для перехила студня?",
+   "slug": "197062-skolko-nuzhno-regena-dlya-perehila-studnya",
+   "createdAt": "2026-10-26T14:26:09+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T14:26:30Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T16:26:20Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
@@ -1735,6 +1703,57 @@
    "fails": 0,
    "last_checked": "2026-10-26T13:56:25Z",
    "graduated_at": "2026-10-26T14:10:22Z",
+   "checks_done": 7
+  },
+  "197055": {
+   "title": "Решение проблемы с долгим запуском \"Сталкерских\" сессионок ",
+   "slug": "197055-reshenie-problemy-s-dolgim-zapuskom-stalkerskih-sessionok",
+   "createdAt": "2026-10-26T12:10:54+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T12:25:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T14:25:12Z",
+   "last_lpn": 3,
+   "last_cc": 2,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-26T14:10:27Z",
+   "graduated_at": "2026-10-26T14:26:20Z",
+   "checks_done": 7
+  },
+  "197056": {
+   "title": "Опускание в зоне, нерф соло игры",
+   "slug": "197056-opuskanie-v-zone-nerf-solo-igry",
+   "createdAt": "2026-10-26T12:11:43+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T12:25:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T14:25:12Z",
+   "last_lpn": 21,
+   "last_cc": 20,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-26T14:10:26Z",
+   "graduated_at": "2026-10-26T14:26:20Z",
+   "checks_done": 7
+  },
+  "197057": {
+   "title": "Сборка в ксм",
+   "slug": "197057-sborka-v-ksm",
+   "createdAt": "2026-10-26T12:23:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T12:25:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T14:25:12Z",
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-26T14:10:24Z",
+   "graduated_at": "2026-10-26T14:26:20Z",
    "checks_done": 7
   }
  }
