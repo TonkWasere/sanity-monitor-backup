@@ -15,9 +15,9 @@
    "until_ts": "2026-10-26T05:57:21Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T05:26:18Z"
+   "last_checked": "2026-10-26T05:40:10Z"
   },
   "197035": {
    "title": "Обсуждение ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-26T06:40:07Z",
    "last_lpn": 25,
    "last_cc": 25,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T05:26:20Z"
+   "last_checked": "2026-10-26T05:40:12Z"
   }
  },
  "graduated": {
