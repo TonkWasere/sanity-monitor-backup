@@ -4,66 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197047": {
-   "title": "Бораль на постоянку",
-   "slug": "197047-boral-na-postoyanku",
-   "createdAt": "2026-10-26T10:03:21+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T10:10:24Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T12:10:14Z",
-   "last_lpn": 0,
-   "last_cc": 1,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-26T12:10:12Z"
-  },
-  "197046": {
-   "title": "Бораль на постоянку",
-   "slug": "197046-boral-na-postoyanku",
-   "createdAt": "2026-10-26T10:02:11+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T10:10:24Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T12:10:14Z",
-   "last_lpn": 0,
-   "last_cc": 1,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-26T12:10:14Z"
-  },
-  "197045": {
-   "title": "когда выдадут награду за отс?",
-   "slug": "197045-kogda-vydadut-nagradu-za-ots",
-   "createdAt": "2026-10-26T09:59:07+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T10:10:24Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T12:10:14Z",
-   "last_lpn": 0,
-   "last_cc": 1,
-   "checks": 0,
-   "fails": 8,
-   "last_error": "404"
-  },
-  "197044": {
-   "title": "☝️ Прокачка на Арене",
-   "slug": "197044-prokachka-na-arene",
-   "createdAt": "2026-10-26T09:31:19+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T10:10:24Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T12:10:14Z",
-   "last_lpn": 14,
-   "last_cc": 13,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-26T12:10:17Z"
-  },
   "197049": {
    "title": "когда выдадут награду за отс?",
    "slug": "197049-kogda-vydadut-nagradu-za-ots",
@@ -76,7 +16,7 @@
    "last_lpn": 0,
    "last_cc": 1,
    "checks": 0,
-   "fails": 7,
+   "fails": 8,
    "last_error": "404"
   },
   "197048": {
@@ -90,9 +30,9 @@
    "until_ts": "2026-10-26T12:25:19Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-26T12:10:22Z"
+   "last_checked": "2026-10-26T12:25:16Z"
   },
   "197050": {
    "title": "Идея для медиек ",
@@ -105,9 +45,9 @@
    "until_ts": "2026-10-26T12:55:10Z",
    "last_lpn": 15,
    "last_cc": 15,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T12:10:23Z"
+   "last_checked": "2026-10-26T12:25:18Z"
   },
   "197052": {
    "title": "Уведомления в игре",
@@ -120,9 +60,9 @@
    "until_ts": "2026-10-26T13:10:11Z",
    "last_lpn": 16,
    "last_cc": 15,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T12:10:25Z"
+   "last_checked": "2026-10-26T12:25:19Z"
   },
   "197051": {
    "title": "Добавить гром палку в ап через Арсена",
@@ -135,9 +75,9 @@
    "until_ts": "2026-10-26T13:10:11Z",
    "last_lpn": 22,
    "last_cc": 22,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T12:10:27Z"
+   "last_checked": "2026-10-26T12:25:21Z"
   },
   "197053": {
    "title": "60 минут, а потом 1 час 0 минут. Есть ли лорное обоснование?",
@@ -148,11 +88,11 @@
    "discovered_at": "2026-10-26T11:35:59Z",
    "source": "snap35",
    "until_ts": "2026-10-26T13:35:59Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 3,
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T12:10:29Z"
+   "last_checked": "2026-10-26T12:25:23Z"
   },
   "197054": {
    "title": "Вопрос к котлеру ",
@@ -163,8 +103,49 @@
    "discovered_at": "2026-10-26T12:10:31Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T14:10:10Z",
+   "last_lpn": 19,
+   "last_cc": 19,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T12:25:25Z"
+  },
+  "197057": {
+   "title": "Сборка в ксм",
+   "slug": "197057-sborka-v-ksm",
+   "createdAt": "2026-10-26T12:23:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T12:25:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T14:25:12Z",
    "last_lpn": 3,
    "last_cc": 3,
+   "checks": 0
+  },
+  "197056": {
+   "title": "Опускание в зоне, нерф соло игры",
+   "slug": "197056-opuskanie-v-zone-nerf-solo-igry",
+   "createdAt": "2026-10-26T12:11:43+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T12:25:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T14:25:12Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 0
+  },
+  "197055": {
+   "title": "Решение проблемы с долгим запуском \"Сталкерских\" сессионок ",
+   "slug": "197055-reshenie-problemy-s-dolgim-zapuskom-stalkerskih-sessionok",
+   "createdAt": "2026-10-26T12:10:54+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T12:25:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T14:25:12Z",
+   "last_lpn": 1,
+   "last_cc": 1,
    "checks": 0
   }
  },
@@ -1607,6 +1588,74 @@
    "last_checked": "2026-10-26T11:10:14Z",
    "graduated_at": "2026-10-26T11:26:42Z",
    "checks_done": 7
+  },
+  "197044": {
+   "title": "☝️ Прокачка на Арене",
+   "slug": "197044-prokachka-na-arene",
+   "createdAt": "2026-10-26T09:31:19+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T10:10:24Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T12:10:14Z",
+   "last_lpn": 14,
+   "last_cc": 13,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-26T12:10:17Z",
+   "graduated_at": "2026-10-26T12:25:12Z",
+   "checks_done": 8
+  },
+  "197045": {
+   "title": "когда выдадут награду за отс?",
+   "slug": "197045-kogda-vydadut-nagradu-za-ots",
+   "createdAt": "2026-10-26T09:59:07+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T10:10:24Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T12:10:14Z",
+   "last_lpn": 0,
+   "last_cc": 1,
+   "checks": 0,
+   "fails": 8,
+   "last_error": "404",
+   "graduated_at": "2026-10-26T12:25:12Z",
+   "checks_done": 0
+  },
+  "197046": {
+   "title": "Бораль на постоянку",
+   "slug": "197046-boral-na-postoyanku",
+   "createdAt": "2026-10-26T10:02:11+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T10:10:24Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T12:10:14Z",
+   "last_lpn": 0,
+   "last_cc": 1,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-26T12:10:14Z",
+   "graduated_at": "2026-10-26T12:25:12Z",
+   "checks_done": 8
+  },
+  "197047": {
+   "title": "Бораль на постоянку",
+   "slug": "197047-boral-na-postoyanku",
+   "createdAt": "2026-10-26T10:03:21+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T10:10:24Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T12:10:14Z",
+   "last_lpn": 0,
+   "last_cc": 1,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-26T12:10:12Z",
+   "graduated_at": "2026-10-26T12:25:12Z",
+   "checks_done": 8
   }
  }
 }
