@@ -48,6 +48,19 @@
    "checks": 2,
    "fails": 0,
    "last_checked": "2026-10-26T07:29:01Z"
+  },
+  "197039": {
+   "title": "Как вы бы оценили персонажа с украинскими репликами",
+   "slug": "197039-kak-vy-by-otsenili-personazha-s-ukrainskimi-replikami",
+   "createdAt": "2026-10-26T07:35:54+00:00",
+   "op_user": "Dralogin",
+   "stm": false,
+   "discovered_at": "2026-10-26T07:37:18Z",
+   "source": "snap35",
+   "until_ts": "2026-10-26T09:37:18Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
