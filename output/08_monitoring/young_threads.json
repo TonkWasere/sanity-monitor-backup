@@ -15,9 +15,9 @@
    "until_ts": "2026-10-26T05:57:21Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T04:40:09Z"
+   "last_checked": "2026-10-26T04:56:22Z"
   },
   "197035": {
    "title": "Обсуждение ",
@@ -28,9 +28,11 @@
    "discovered_at": "2026-10-26T04:40:11Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T06:40:07Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 0
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T04:56:24Z"
   }
  },
  "graduated": {
