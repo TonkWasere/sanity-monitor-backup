@@ -138,6 +138,19 @@
    "checks": 1,
    "fails": 0,
    "last_checked": "2026-10-26T11:26:58Z"
+  },
+  "197053": {
+   "title": "60 минут, а потом 1 час 0 минут. Есть ли лорное обоснование?",
+   "slug": "197053-60-minut-a-potom-1-chas-0-minut-est-li-lornoe-obosnovanie",
+   "createdAt": "2026-10-26T11:33:29+00:00",
+   "op_user": "stm:76561198122614837",
+   "stm": true,
+   "discovered_at": "2026-10-26T11:35:59Z",
+   "source": "snap35",
+   "until_ts": "2026-10-26T13:35:59Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
   }
  },
  "graduated": {
