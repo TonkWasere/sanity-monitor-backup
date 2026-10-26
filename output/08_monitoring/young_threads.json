@@ -15,9 +15,9 @@
    "until_ts": "2026-10-26T07:56:21Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T07:28:58Z"
+   "last_checked": "2026-10-26T07:40:55Z"
   },
   "197037": {
    "title": "Отвратительная работа модерации внутриигрового чата",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-26T08:40:12Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T07:28:59Z"
+   "last_checked": "2026-10-26T07:40:58Z"
   },
   "197038": {
    "title": "Предложение: переименовать патроны.",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-26T06:56:31Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T08:56:25Z",
-   "last_lpn": 44,
-   "last_cc": 44,
-   "checks": 2,
+   "last_lpn": 59,
+   "last_cc": 58,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-26T07:29:01Z"
+   "last_checked": "2026-10-26T07:40:59Z"
   },
   "197039": {
    "title": "Как вы бы оценили персонажа с украинскими репликами",
@@ -58,9 +58,11 @@
    "discovered_at": "2026-10-26T07:37:18Z",
    "source": "snap35",
    "until_ts": "2026-10-26T09:37:18Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T07:41:01Z"
   }
  },
  "graduated": {
