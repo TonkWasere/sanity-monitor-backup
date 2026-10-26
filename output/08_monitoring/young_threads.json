@@ -15,9 +15,9 @@
    "until_ts": "2026-10-26T12:10:14Z",
    "last_lpn": 0,
    "last_cc": 1,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T11:26:43Z"
+   "last_checked": "2026-10-26T11:40:12Z"
   },
   "197046": {
    "title": "Бораль на постоянку",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-26T12:10:14Z",
    "last_lpn": 0,
    "last_cc": 1,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T11:26:46Z"
+   "last_checked": "2026-10-26T11:40:14Z"
   },
   "197045": {
    "title": "когда выдадут награду за отс?",
@@ -46,7 +46,7 @@
    "last_lpn": 0,
    "last_cc": 1,
    "checks": 0,
-   "fails": 5,
+   "fails": 6,
    "last_error": "404"
   },
   "197044": {
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-26T12:10:14Z",
    "last_lpn": 14,
    "last_cc": 13,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T11:26:49Z"
+   "last_checked": "2026-10-26T11:40:17Z"
   },
   "197049": {
    "title": "когда выдадут награду за отс?",
@@ -76,7 +76,7 @@
    "last_lpn": 0,
    "last_cc": 1,
    "checks": 0,
-   "fails": 4,
+   "fails": 5,
    "last_error": "404"
   },
   "197048": {
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-26T12:25:19Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T11:26:53Z"
+   "last_checked": "2026-10-26T11:40:20Z"
   },
   "197050": {
    "title": "Идея для медиек ",
@@ -103,11 +103,11 @@
    "discovered_at": "2026-10-26T10:55:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T12:55:10Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 2,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-26T11:26:54Z"
+   "last_checked": "2026-10-26T11:40:22Z"
   },
   "197052": {
    "title": "Уведомления в игре",
@@ -118,11 +118,11 @@
    "discovered_at": "2026-10-26T11:10:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T13:10:11Z",
-   "last_lpn": 14,
-   "last_cc": 13,
-   "checks": 1,
+   "last_lpn": 15,
+   "last_cc": 14,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T11:26:56Z"
+   "last_checked": "2026-10-26T11:40:23Z"
   },
   "197051": {
    "title": "Добавить гром палку в ап через Арсена",
@@ -133,11 +133,11 @@
    "discovered_at": "2026-10-26T11:10:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T13:10:11Z",
-   "last_lpn": 16,
-   "last_cc": 16,
-   "checks": 1,
+   "last_lpn": 20,
+   "last_cc": 20,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T11:26:58Z"
+   "last_checked": "2026-10-26T11:40:25Z"
   },
   "197053": {
    "title": "60 минут, а потом 1 час 0 минут. Есть ли лорное обоснование?",
@@ -148,9 +148,11 @@
    "discovered_at": "2026-10-26T11:35:59Z",
    "source": "snap35",
    "until_ts": "2026-10-26T13:35:59Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T11:40:27Z"
   }
  },
  "graduated": {
