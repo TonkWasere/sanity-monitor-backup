@@ -15,9 +15,9 @@
    "until_ts": "2026-10-26T14:10:10Z",
    "last_lpn": 20,
    "last_cc": 20,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T13:40:11Z"
+   "last_checked": "2026-10-26T13:56:25Z"
   },
   "197057": {
    "title": "Сборка в ксм",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-26T14:25:12Z",
    "last_lpn": 17,
    "last_cc": 17,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T13:40:13Z"
+   "last_checked": "2026-10-26T13:56:27Z"
   },
   "197056": {
    "title": "Опускание в зоне, нерф соло игры",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-26T14:25:12Z",
    "last_lpn": 21,
    "last_cc": 20,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T13:40:14Z"
+   "last_checked": "2026-10-26T13:56:29Z"
   },
   "197055": {
    "title": "Решение проблемы с долгим запуском \"Сталкерских\" сессионок ",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-26T12:25:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T14:25:12Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 5,
+   "last_lpn": 3,
+   "last_cc": 2,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T13:40:16Z"
+   "last_checked": "2026-10-26T13:56:31Z"
   },
   "197058": {
    "title": "Вопрос по мышкам",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-10-26T13:10:24Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T15:10:13Z",
-   "last_lpn": 18,
-   "last_cc": 18,
-   "checks": 2,
+   "last_lpn": 29,
+   "last_cc": 29,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-26T13:40:17Z"
+   "last_checked": "2026-10-26T13:56:32Z"
   },
   "197059": {
    "title": "Облики за колизей",
@@ -88,11 +88,11 @@
    "discovered_at": "2026-10-26T13:26:34Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T15:26:20Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 1,
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T13:40:19Z"
+   "last_checked": "2026-10-26T13:56:34Z"
   },
   "197060": {
    "title": "Лучшее видео по распреду",
@@ -103,8 +103,23 @@
    "discovered_at": "2026-10-26T13:40:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T15:40:09Z",
-   "last_lpn": 2,
-   "last_cc": 2,
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T13:56:35Z"
+  },
+  "197061": {
+   "title": "СТС",
+   "slug": "197061-sts",
+   "createdAt": "2026-10-26T13:46:04+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T13:56:38Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T15:56:23Z",
+   "last_lpn": 3,
+   "last_cc": 3,
    "checks": 0
   }
  },
