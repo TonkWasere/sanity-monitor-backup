@@ -15,9 +15,9 @@
    "until_ts": "2026-10-26T09:37:18Z",
    "last_lpn": 46,
    "last_cc": 46,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-26T09:10:29Z"
+   "last_checked": "2026-10-26T09:25:22Z"
   },
   "197040": {
    "title": "малая заселённость серверов начальной территории ",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-26T08:27:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T10:27:11Z",
-   "last_lpn": 24,
-   "last_cc": 24,
-   "checks": 3,
+   "last_lpn": 25,
+   "last_cc": 25,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T09:10:31Z"
+   "last_checked": "2026-10-26T09:25:24Z"
   },
   "197041": {
    "title": "Новый обман",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-26T08:56:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T10:56:22Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 1,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T09:10:33Z"
+   "last_checked": "2026-10-26T09:25:26Z"
   },
   "197042": {
    "title": "Время выдачи отс",
@@ -60,6 +60,21 @@
    "until_ts": "2026-10-26T11:10:27Z",
    "last_lpn": 3,
    "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T09:25:27Z"
+  },
+  "197043": {
+   "title": "А ВОТ STALZONE УМИРАЕТ!!!",
+   "slug": "197043-a-vot-stalzone-umiraet",
+   "createdAt": "2026-10-26T09:19:32+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T09:25:30Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T11:25:20Z",
+   "last_lpn": 8,
+   "last_cc": 8,
    "checks": 0
   }
  },
