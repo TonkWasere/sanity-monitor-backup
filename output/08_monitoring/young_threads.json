@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197042": {
-   "title": "Время выдачи отс",
-   "slug": "197042-vremya-vydachi-ots",
-   "createdAt": "2026-10-26T08:58:55+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T09:10:35Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T11:10:27Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-26T11:10:12Z"
-  },
-  "197043": {
-   "title": "А ВОТ STALZONE УМИРАЕТ!!!",
-   "slug": "197043-a-vot-stalzone-umiraet",
-   "createdAt": "2026-10-26T09:19:32+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T09:25:30Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T11:25:20Z",
-   "last_lpn": 52,
-   "last_cc": 52,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-26T11:10:14Z"
-  },
   "197047": {
    "title": "Бораль на постоянку",
    "slug": "197047-boral-na-postoyanku",
@@ -45,9 +15,9 @@
    "until_ts": "2026-10-26T12:10:14Z",
    "last_lpn": 0,
    "last_cc": 1,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T11:10:16Z"
+   "last_checked": "2026-10-26T11:26:43Z"
   },
   "197046": {
    "title": "Бораль на постоянку",
@@ -60,9 +30,9 @@
    "until_ts": "2026-10-26T12:10:14Z",
    "last_lpn": 0,
    "last_cc": 1,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T11:10:17Z"
+   "last_checked": "2026-10-26T11:26:46Z"
   },
   "197045": {
    "title": "когда выдадут награду за отс?",
@@ -76,7 +46,7 @@
    "last_lpn": 0,
    "last_cc": 1,
    "checks": 0,
-   "fails": 4,
+   "fails": 5,
    "last_error": "404"
   },
   "197044": {
@@ -88,11 +58,11 @@
    "discovered_at": "2026-10-26T10:10:24Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T12:10:14Z",
-   "last_lpn": 11,
-   "last_cc": 10,
-   "checks": 4,
+   "last_lpn": 14,
+   "last_cc": 13,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T11:10:20Z"
+   "last_checked": "2026-10-26T11:26:49Z"
   },
   "197049": {
    "title": "когда выдадут награду за отс?",
@@ -106,7 +76,7 @@
    "last_lpn": 0,
    "last_cc": 1,
    "checks": 0,
-   "fails": 3,
+   "fails": 4,
    "last_error": "404"
   },
   "197048": {
@@ -120,9 +90,9 @@
    "until_ts": "2026-10-26T12:25:19Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T11:10:23Z"
+   "last_checked": "2026-10-26T11:26:53Z"
   },
   "197050": {
    "title": "Идея для медиек ",
@@ -133,11 +103,11 @@
    "discovered_at": "2026-10-26T10:55:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T12:55:10Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 1,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T11:10:25Z"
+   "last_checked": "2026-10-26T11:26:54Z"
   },
   "197052": {
    "title": "Уведомления в игре",
@@ -148,9 +118,11 @@
    "discovered_at": "2026-10-26T11:10:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T13:10:11Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 0
+   "last_lpn": 14,
+   "last_cc": 13,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T11:26:56Z"
   },
   "197051": {
    "title": "Добавить гром палку в ап через Арсена",
@@ -161,9 +133,11 @@
    "discovered_at": "2026-10-26T11:10:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T13:10:11Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 16,
+   "last_cc": 16,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T11:26:58Z"
   }
  },
  "graduated": {
@@ -1571,6 +1545,40 @@
    "last_checked": "2026-10-26T10:55:13Z",
    "graduated_at": "2026-10-26T11:10:11Z",
    "checks_done": 8
+  },
+  "197042": {
+   "title": "Время выдачи отс",
+   "slug": "197042-vremya-vydachi-ots",
+   "createdAt": "2026-10-26T08:58:55+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T09:10:35Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T11:10:27Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-26T11:10:12Z",
+   "graduated_at": "2026-10-26T11:26:42Z",
+   "checks_done": 8
+  },
+  "197043": {
+   "title": "А ВОТ STALZONE УМИРАЕТ!!!",
+   "slug": "197043-a-vot-stalzone-umiraet",
+   "createdAt": "2026-10-26T09:19:32+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T09:25:30Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T11:25:20Z",
+   "last_lpn": 52,
+   "last_cc": 52,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-26T11:10:14Z",
+   "graduated_at": "2026-10-26T11:26:42Z",
+   "checks_done": 7
   }
  }
 }
