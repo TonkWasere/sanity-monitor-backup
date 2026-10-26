@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197032": {
-   "title": "Система Рейтинга и сам Колизея в частности",
-   "slug": "197032-sistema-reytinga-i-sam-kolizeya-v-chastnosti",
-   "createdAt": "2026-10-26T00:32:25+00:00",
-   "op_user": "Mars1k1k",
-   "stm": false,
-   "discovered_at": "2026-10-26T00:37:16Z",
-   "source": "snap35",
-   "until_ts": "2026-10-26T02:37:16Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-26T02:25:12Z"
-  },
   "197033": {
    "title": "РАЗОБРАЛИ АККАУНТ! #паникс #чота_не_дабл_ю 2.0",
    "slug": "197033-razobrali-akkaunt-paniks-chota-ne-dabl-yu-20",
@@ -28,9 +13,11 @@
    "discovered_at": "2026-10-26T02:25:14Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T04:25:10Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T02:40:23Z"
   }
  },
  "graduated": {
@@ -1267,6 +1254,23 @@
    "fails": 0,
    "last_checked": "2026-10-26T02:10:27Z",
    "graduated_at": "2026-10-26T02:25:10Z",
+   "checks_done": 8
+  },
+  "197032": {
+   "title": "Система Рейтинга и сам Колизея в частности",
+   "slug": "197032-sistema-reytinga-i-sam-kolizeya-v-chastnosti",
+   "createdAt": "2026-10-26T00:32:25+00:00",
+   "op_user": "Mars1k1k",
+   "stm": false,
+   "discovered_at": "2026-10-26T00:37:16Z",
+   "source": "snap35",
+   "until_ts": "2026-10-26T02:37:16Z",
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-26T02:25:12Z",
+   "graduated_at": "2026-10-26T02:40:21Z",
    "checks_done": 8
   }
  }
