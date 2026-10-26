@@ -15,9 +15,9 @@
    "until_ts": "2026-10-26T08:40:12Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T08:10:14Z"
+   "last_checked": "2026-10-26T08:27:12Z"
   },
   "197038": {
    "title": "Предложение: переименовать патроны.",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-26T06:56:31Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T08:56:25Z",
-   "last_lpn": 92,
-   "last_cc": 91,
-   "checks": 5,
+   "last_lpn": 97,
+   "last_cc": 96,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T08:10:16Z"
+   "last_checked": "2026-10-26T08:27:14Z"
   },
   "197039": {
    "title": "Как вы бы оценили персонажа с украинскими репликами",
@@ -43,11 +43,24 @@
    "discovered_at": "2026-10-26T07:37:18Z",
    "source": "snap35",
    "until_ts": "2026-10-26T09:37:18Z",
-   "last_lpn": 25,
-   "last_cc": 25,
-   "checks": 3,
+   "last_lpn": 33,
+   "last_cc": 33,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-26T08:10:18Z"
+   "last_checked": "2026-10-26T08:27:16Z"
+  },
+  "197040": {
+   "title": "малая заселённость серверов начальной территории ",
+   "slug": "197040-malaya-zaselyonnost-serverov-nachalnoy-territorii",
+   "createdAt": "2026-10-26T08:19:36+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T08:27:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T10:27:11Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 0
   }
  },
  "graduated": {
