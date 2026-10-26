@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197039": {
-   "title": "Как вы бы оценили персонажа с украинскими репликами",
-   "slug": "197039-kak-vy-by-otsenili-personazha-s-ukrainskimi-replikami",
-   "createdAt": "2026-10-26T07:35:54+00:00",
-   "op_user": "Dralogin",
-   "stm": false,
-   "discovered_at": "2026-10-26T07:37:18Z",
-   "source": "snap35",
-   "until_ts": "2026-10-26T09:37:18Z",
-   "last_lpn": 46,
-   "last_cc": 46,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-26T09:25:22Z"
-  },
   "197040": {
    "title": "малая заселённость серверов начальной территории ",
    "slug": "197040-malaya-zaselyonnost-serverov-nachalnoy-territorii",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-10-26T08:27:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T10:27:11Z",
-   "last_lpn": 25,
-   "last_cc": 25,
-   "checks": 4,
+   "last_lpn": 26,
+   "last_cc": 26,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T09:25:24Z"
+   "last_checked": "2026-10-26T09:40:16Z"
   },
   "197041": {
    "title": "Новый обман",
@@ -43,11 +28,11 @@
    "discovered_at": "2026-10-26T08:56:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T10:56:22Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 2,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-26T09:25:26Z"
+   "last_checked": "2026-10-26T09:40:18Z"
   },
   "197042": {
    "title": "Время выдачи отс",
@@ -60,9 +45,9 @@
    "until_ts": "2026-10-26T11:10:27Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T09:25:27Z"
+   "last_checked": "2026-10-26T09:40:19Z"
   },
   "197043": {
    "title": "А ВОТ STALZONE УМИРАЕТ!!!",
@@ -73,9 +58,11 @@
    "discovered_at": "2026-10-26T09:25:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T11:25:20Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 0
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T09:40:21Z"
   }
  },
  "graduated": {
@@ -1431,6 +1418,23 @@
    "fails": 0,
    "last_checked": "2026-10-26T08:56:24Z",
    "graduated_at": "2026-10-26T09:10:27Z",
+   "checks_done": 8
+  },
+  "197039": {
+   "title": "Как вы бы оценили персонажа с украинскими репликами",
+   "slug": "197039-kak-vy-by-otsenili-personazha-s-ukrainskimi-replikami",
+   "createdAt": "2026-10-26T07:35:54+00:00",
+   "op_user": "Dralogin",
+   "stm": false,
+   "discovered_at": "2026-10-26T07:37:18Z",
+   "source": "snap35",
+   "until_ts": "2026-10-26T09:37:18Z",
+   "last_lpn": 46,
+   "last_cc": 46,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-26T09:25:22Z",
+   "graduated_at": "2026-10-26T09:40:14Z",
    "checks_done": 8
   }
  }
