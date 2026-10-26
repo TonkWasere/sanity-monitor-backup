@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197049": {
-   "title": "когда выдадут награду за отс?",
-   "slug": "197049-kogda-vydadut-nagradu-za-ots",
-   "createdAt": "2026-10-26T10:18:49+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T10:25:34Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T12:25:19Z",
-   "last_lpn": 0,
-   "last_cc": 1,
-   "checks": 0,
-   "fails": 8,
-   "last_error": "404"
-  },
-  "197048": {
-   "title": "Бораль навсегда",
-   "slug": "197048-boral-navsegda",
-   "createdAt": "2026-10-26T10:12:24+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-26T10:25:34Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-26T12:25:19Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-26T12:25:16Z"
-  },
   "197050": {
    "title": "Идея для медиек ",
    "slug": "197050-ideya-dlya-mediek",
@@ -43,11 +13,11 @@
    "discovered_at": "2026-10-26T10:55:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T12:55:10Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 6,
+   "last_lpn": 16,
+   "last_cc": 16,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-26T12:25:18Z"
+   "last_checked": "2026-10-26T12:40:13Z"
   },
   "197052": {
    "title": "Уведомления в игре",
@@ -60,9 +30,9 @@
    "until_ts": "2026-10-26T13:10:11Z",
    "last_lpn": 16,
    "last_cc": 15,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T12:25:19Z"
+   "last_checked": "2026-10-26T12:40:15Z"
   },
   "197051": {
    "title": "Добавить гром палку в ап через Арсена",
@@ -75,9 +45,9 @@
    "until_ts": "2026-10-26T13:10:11Z",
    "last_lpn": 22,
    "last_cc": 22,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-26T12:25:21Z"
+   "last_checked": "2026-10-26T12:40:17Z"
   },
   "197053": {
    "title": "60 минут, а потом 1 час 0 минут. Есть ли лорное обоснование?",
@@ -90,9 +60,9 @@
    "until_ts": "2026-10-26T13:35:59Z",
    "last_lpn": 17,
    "last_cc": 17,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-26T12:25:23Z"
+   "last_checked": "2026-10-26T12:40:18Z"
   },
   "197054": {
    "title": "Вопрос к котлеру ",
@@ -103,11 +73,11 @@
    "discovered_at": "2026-10-26T12:10:31Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T14:10:10Z",
-   "last_lpn": 19,
-   "last_cc": 19,
-   "checks": 1,
+   "last_lpn": 20,
+   "last_cc": 20,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-26T12:25:25Z"
+   "last_checked": "2026-10-26T12:40:20Z"
   },
   "197057": {
    "title": "Сборка в ксм",
@@ -118,9 +88,11 @@
    "discovered_at": "2026-10-26T12:25:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T14:25:12Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T12:40:22Z"
   },
   "197056": {
    "title": "Опускание в зоне, нерф соло игры",
@@ -131,9 +103,11 @@
    "discovered_at": "2026-10-26T12:25:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-26T14:25:12Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 0
+   "last_lpn": 18,
+   "last_cc": 17,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T12:40:24Z"
   },
   "197055": {
    "title": "Решение проблемы с долгим запуском \"Сталкерских\" сессионок ",
@@ -146,7 +120,9 @@
    "until_ts": "2026-10-26T14:25:12Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-26T12:40:25Z"
   }
  },
  "graduated": {
@@ -1656,6 +1632,40 @@
    "last_checked": "2026-10-26T12:10:12Z",
    "graduated_at": "2026-10-26T12:25:12Z",
    "checks_done": 8
+  },
+  "197048": {
+   "title": "Бораль навсегда",
+   "slug": "197048-boral-navsegda",
+   "createdAt": "2026-10-26T10:12:24+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T10:25:34Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T12:25:19Z",
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-26T12:25:16Z",
+   "graduated_at": "2026-10-26T12:40:11Z",
+   "checks_done": 8
+  },
+  "197049": {
+   "title": "когда выдадут награду за отс?",
+   "slug": "197049-kogda-vydadut-nagradu-za-ots",
+   "createdAt": "2026-10-26T10:18:49+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-26T10:25:34Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-26T12:25:19Z",
+   "last_lpn": 0,
+   "last_cc": 1,
+   "checks": 0,
+   "fails": 8,
+   "last_error": "404",
+   "graduated_at": "2026-10-26T12:40:11Z",
+   "checks_done": 0
   }
  }
 }
