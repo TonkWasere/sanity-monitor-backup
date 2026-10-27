@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197117": {
-   "title": "Предложение к будущим механикам и возможностям",
-   "slug": "197117-predlozhenie-k-buduschim-mehanikam-i-vozmozhnostyam",
-   "createdAt": "2026-10-27T17:51:07+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-27T17:55:25Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-27T19:55:16Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-27T19:40:07Z"
-  },
   "197120": {
    "title": "КАЛизей лоботомия мод",
    "slug": "197120-kalizey-lobotomiya-mod",
@@ -30,9 +15,9 @@
    "until_ts": "2026-10-27T20:29:11Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-27T19:40:09Z"
+   "last_checked": "2026-10-27T19:56:55Z"
   },
   "197119": {
    "title": "Есть такая темя в Warframe",
@@ -43,11 +28,11 @@
    "discovered_at": "2026-10-27T18:29:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T20:29:11Z",
-   "last_lpn": 48,
-   "last_cc": 48,
-   "checks": 5,
+   "last_lpn": 50,
+   "last_cc": 49,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-27T19:40:11Z"
+   "last_checked": "2026-10-27T19:56:57Z"
   },
   "197118": {
    "title": "Хайповый флудотред ",
@@ -58,11 +43,11 @@
    "discovered_at": "2026-10-27T18:29:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T20:29:11Z",
-   "last_lpn": 18,
-   "last_cc": 16,
-   "checks": 5,
+   "last_lpn": 19,
+   "last_cc": 17,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-27T19:40:12Z"
+   "last_checked": "2026-10-27T19:56:59Z"
   },
   "197121": {
    "title": "Редактор карт для игроков SZ",
@@ -75,9 +60,9 @@
    "until_ts": "2026-10-27T20:40:41Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-27T19:40:14Z"
+   "last_checked": "2026-10-27T19:57:00Z"
   },
   "197122": {
    "title": "В преддверии празднества.",
@@ -90,9 +75,9 @@
    "until_ts": "2026-10-27T20:57:39Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T19:40:16Z"
+   "last_checked": "2026-10-27T19:57:02Z"
   },
   "197123": {
    "title": "Жужжание на БП",
@@ -105,9 +90,9 @@
    "until_ts": "2026-10-27T21:10:11Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-27T19:40:18Z"
+   "last_checked": "2026-10-27T19:57:04Z"
   },
   "197124": {
    "title": "EXBO, у меня вопрос",
@@ -118,9 +103,11 @@
    "discovered_at": "2026-10-27T19:40:20Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T21:40:05Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 0
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T19:57:05Z"
   }
  },
  "graduated": {
@@ -2208,6 +2195,23 @@
    "last_checked": "2026-10-27T19:25:09Z",
    "graduated_at": "2026-10-27T19:40:05Z",
    "checks_done": 8
+  },
+  "197117": {
+   "title": "Предложение к будущим механикам и возможностям",
+   "slug": "197117-predlozhenie-k-buduschim-mehanikam-i-vozmozhnostyam",
+   "createdAt": "2026-10-27T17:51:07+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T17:55:25Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T19:55:16Z",
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-27T19:40:07Z",
+   "graduated_at": "2026-10-27T19:56:53Z",
+   "checks_done": 7
   }
  }
 }
