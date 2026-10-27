@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197115": {
-   "title": "Игроки, вопрос",
-   "slug": "197115-igroki-vopros",
-   "createdAt": "2026-10-27T16:44:40+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-27T16:55:13Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-27T18:55:08Z",
-   "last_lpn": 34,
-   "last_cc": 34,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-27T18:40:42Z"
-  },
   "197116": {
    "title": "Немного QoL для аванпостов",
    "slug": "197116-nemnogo-qol-dlya-avanpostov",
@@ -30,9 +15,9 @@
    "until_ts": "2026-10-27T19:25:14Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-27T18:40:44Z"
+   "last_checked": "2026-10-27T18:57:41Z"
   },
   "197117": {
    "title": "Предложение к будущим механикам и возможностям",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-27T19:55:16Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T18:40:46Z"
+   "last_checked": "2026-10-27T18:57:43Z"
   },
   "197120": {
    "title": "КАЛизей лоботомия мод",
@@ -60,9 +45,9 @@
    "until_ts": "2026-10-27T20:29:11Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T18:40:47Z"
+   "last_checked": "2026-10-27T18:57:44Z"
   },
   "197119": {
    "title": "Есть такая темя в Warframe",
@@ -73,11 +58,11 @@
    "discovered_at": "2026-10-27T18:29:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T20:29:11Z",
-   "last_lpn": 24,
-   "last_cc": 24,
-   "checks": 1,
+   "last_lpn": 34,
+   "last_cc": 34,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T18:40:49Z"
+   "last_checked": "2026-10-27T18:57:46Z"
   },
   "197118": {
    "title": "Хайповый флудотред ",
@@ -88,11 +73,11 @@
    "discovered_at": "2026-10-27T18:29:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T20:29:11Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 1,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T18:40:51Z"
+   "last_checked": "2026-10-27T18:57:48Z"
   },
   "197121": {
    "title": "Редактор карт для игроков SZ",
@@ -105,6 +90,21 @@
    "until_ts": "2026-10-27T20:40:41Z",
    "last_lpn": 5,
    "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T18:57:49Z"
+  },
+  "197122": {
+   "title": "В преддверии празднества.",
+   "slug": "197122-v-preddverii-prazdnestva",
+   "createdAt": "2026-10-27T18:53:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T18:57:53Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T20:57:39Z",
+   "last_lpn": 3,
+   "last_cc": 3,
    "checks": 0
   }
  },
@@ -2158,6 +2158,23 @@
    "fails": 0,
    "last_checked": "2026-10-27T18:29:13Z",
    "graduated_at": "2026-10-27T18:40:41Z",
+   "checks_done": 7
+  },
+  "197115": {
+   "title": "Игроки, вопрос",
+   "slug": "197115-igroki-vopros",
+   "createdAt": "2026-10-27T16:44:40+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T16:55:13Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T18:55:08Z",
+   "last_lpn": 34,
+   "last_cc": 34,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-27T18:40:42Z",
+   "graduated_at": "2026-10-27T18:57:39Z",
    "checks_done": 7
   }
  }
