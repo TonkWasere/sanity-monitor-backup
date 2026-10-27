@@ -15,9 +15,9 @@
    "until_ts": "2026-10-27T19:25:14Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-27T19:10:13Z"
+   "last_checked": "2026-10-27T19:25:09Z"
   },
   "197117": {
    "title": "Предложение к будущим механикам и возможностям",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-27T19:55:16Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-27T19:10:15Z"
+   "last_checked": "2026-10-27T19:25:10Z"
   },
   "197120": {
    "title": "КАЛизей лоботомия мод",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-27T20:29:11Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T19:10:16Z"
+   "last_checked": "2026-10-27T19:25:12Z"
   },
   "197119": {
    "title": "Есть такая темя в Warframe",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-27T18:29:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T20:29:11Z",
-   "last_lpn": 42,
-   "last_cc": 42,
-   "checks": 3,
+   "last_lpn": 47,
+   "last_cc": 47,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T19:10:18Z"
+   "last_checked": "2026-10-27T19:25:14Z"
   },
   "197118": {
    "title": "Хайповый флудотред ",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-10-27T18:29:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T20:29:11Z",
-   "last_lpn": 12,
-   "last_cc": 11,
-   "checks": 3,
+   "last_lpn": 18,
+   "last_cc": 16,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T19:10:20Z"
+   "last_checked": "2026-10-27T19:25:15Z"
   },
   "197121": {
    "title": "Редактор карт для игроков SZ",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-27T20:40:41Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-27T19:10:21Z"
+   "last_checked": "2026-10-27T19:25:17Z"
   },
   "197122": {
    "title": "В преддверии празднества.",
@@ -105,9 +105,9 @@
    "until_ts": "2026-10-27T20:57:39Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T19:10:23Z"
+   "last_checked": "2026-10-27T19:25:19Z"
   },
   "197123": {
    "title": "Жужжание на БП",
@@ -118,9 +118,11 @@
    "discovered_at": "2026-10-27T19:10:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T21:10:11Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 0
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T19:25:21Z"
   }
  },
  "graduated": {
