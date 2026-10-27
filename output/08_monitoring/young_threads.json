@@ -149,6 +149,32 @@
    "last_lpn": 1,
    "last_cc": 1,
    "checks": 0
+  },
+  "197107": {
+   "title": "Каждый год 1 и тоже ",
+   "slug": "197107-kazhdyy-god-1-i-tozhe",
+   "createdAt": "2026-10-27T13:38:39+00:00",
+   "op_user": "stm:76561199270940682",
+   "stm": true,
+   "discovered_at": "2026-10-27T13:39:25Z",
+   "source": "snap35",
+   "until_ts": "2026-10-27T15:39:25Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197106": {
+   "title": "Глюк системы или сломанный распред",
+   "slug": "197106-glyuk-sistemy-ili-slomannyy-raspred",
+   "createdAt": "2026-10-27T13:34:28+00:00",
+   "op_user": "firsovtechnology",
+   "stm": false,
+   "discovered_at": "2026-10-27T13:39:27Z",
+   "source": "snap35",
+   "until_ts": "2026-10-27T15:39:27Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
