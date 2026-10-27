@@ -134,6 +134,19 @@
    "last_lpn": 6,
    "last_cc": 6,
    "checks": 0
+  },
+  "197128": {
+   "title": "Рассказы",
+   "slug": "197128-rasskazy",
+   "createdAt": "2026-10-27T20:34:23+00:00",
+   "op_user": "stm:76561198115334850",
+   "stm": true,
+   "discovered_at": "2026-10-27T20:35:26Z",
+   "source": "snap35",
+   "until_ts": "2026-10-27T22:35:26Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
