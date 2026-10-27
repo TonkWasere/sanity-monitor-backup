@@ -13,9 +13,11 @@
    "discovered_at": "2026-10-27T13:00:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T15:00:49Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T13:10:55Z"
   },
   "197102": {
    "title": "А ЧТО С НАГРАДАМИ ЗА РЕЙТИНГ",
@@ -26,9 +28,11 @@
    "discovered_at": "2026-10-27T13:00:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T15:00:49Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 0
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T13:10:57Z"
   },
   "197101": {
    "title": "Аш12. Палач или снайпер",
@@ -41,7 +45,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 30,
    "last_cc": 30,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T13:10:59Z"
   },
   "197100": {
    "title": "Лига типа так работать будет? ",
@@ -54,7 +60,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T13:11:01Z"
   },
   "197099": {
    "title": "ну типо ",
@@ -67,7 +75,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T13:11:04Z"
   },
   "197098": {
    "title": "Награды за лиги \"Празднества\"",
@@ -78,9 +88,11 @@
    "discovered_at": "2026-10-27T13:00:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T15:00:49Z",
-   "last_lpn": 110,
-   "last_cc": 110,
-   "checks": 0
+   "last_lpn": 117,
+   "last_cc": 117,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T13:11:06Z"
   },
   "197097": {
    "title": "Концепт для ивента ",
@@ -93,7 +105,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T13:11:08Z"
   },
   "197095": {
    "title": "Больные?",
@@ -106,7 +120,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 30,
    "last_cc": 30,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T13:11:11Z"
   }
  },
  "graduated": {
