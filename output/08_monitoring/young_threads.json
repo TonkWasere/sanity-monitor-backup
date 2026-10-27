@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {},
+ "threads": {
+  "197131": {
+   "title": "разобрали",
+   "slug": "197131-razobrali",
+   "createdAt": "2026-10-27T23:28:38+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T23:41:07Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T01:41:04Z",
+   "last_lpn": 6,
+   "last_cc": 5,
+   "checks": 0
+  }
+ },
  "graduated": {
   "196917": {
    "title": "Пнв",
