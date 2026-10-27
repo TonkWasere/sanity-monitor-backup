@@ -15,9 +15,9 @@
    "until_ts": "2026-10-27T22:26:33Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-27T21:40:17Z"
+   "last_checked": "2026-10-27T21:56:34Z"
   },
   "197126": {
    "title": "Наградные SIX12 и Micro UZI просьба сохранить историческую идентичность наград",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-27T22:26:33Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-27T21:40:18Z"
+   "last_checked": "2026-10-27T21:56:35Z"
   },
   "197128": {
    "title": "Рассказы",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-27T22:35:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-27T21:40:20Z"
+   "last_checked": "2026-10-27T21:56:37Z"
   },
   "197130": {
    "title": "Лучшая в мире система рейтинга",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-27T22:56:28Z",
    "last_lpn": 16,
    "last_cc": 16,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T21:40:22Z"
+   "last_checked": "2026-10-27T21:56:39Z"
   },
   "197129": {
    "title": "Цыганские фокусы коллизея",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-27T22:56:28Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T21:40:23Z"
+   "last_checked": "2026-10-27T21:56:40Z"
   }
  },
  "graduated": {
