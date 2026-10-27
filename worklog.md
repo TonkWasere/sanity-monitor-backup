@@ -8008,3 +8008,4 @@ Task ID: 54-270: sweep 15 NEW-POSTS + NEW-THREAD 197112 «Технические
 Task ID: 54-16-s15: 16:10 UTC — RECONCILE-ADD 197112 «🚧 Технические работы» (createdAt 15:36, lpn/cc 1/1) → young(2h); 197109/110 без дельт; active=3
 Task ID: AUTHOR-NOTE-16-UTC: автор закрыл вопрос «Тишины» — путаница Пн/Вт (недельный цикл, без активной игры) → ОТС-тишина ~33ч БЕНАН, не цензура; завтра тех.работы 05:30-10:00 UTC — план [SKIP]/VANISH-глушение в ledger (доп. к №310)
 Task ID: 54-271: sweep 15 NEW-POSTS + NEW-THREAD 197114 (stm-автор, 2-й за день), INTEGRITY PASS (canon #48 + GG×4), 197098 плато +1 гэп 4, 197108 +7, 187993 гэп 6→7, EXT 0, deep 1 [197114], prev_lpn_274
+Task ID: 54-16-s15: 16:40 UTC — RECONCILE-ADD 197114 «Так вот почему у нас ру - это корейское ММО» (stm, createdAt 16:29) lpn/cc 7/7 (+4 с верефая) → young(2h); 197109/197110 >2h ВЫПУСК (graduated=119); 197112 1/1 без дельт; active=2
