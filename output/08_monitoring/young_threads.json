@@ -15,9 +15,9 @@
    "until_ts": "2026-10-27T18:10:58Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-27T17:55:17Z"
+   "last_checked": "2026-10-27T18:10:11Z"
   },
   "197114": {
    "title": "Так вот почему у нас ру - это корейское ММО",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-27T18:40:13Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-27T17:55:19Z"
+   "last_checked": "2026-10-27T18:10:13Z"
   },
   "197115": {
    "title": "Игроки, вопрос",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-27T18:55:08Z",
    "last_lpn": 34,
    "last_cc": 34,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-27T17:55:21Z"
+   "last_checked": "2026-10-27T18:10:14Z"
   },
   "197116": {
    "title": "Немного QoL для аванпостов",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-27T17:25:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T19:25:14Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 2,
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-27T17:55:22Z"
+   "last_checked": "2026-10-27T18:10:16Z"
   },
   "197117": {
    "title": "Предложение к будущим механикам и возможностям",
@@ -73,9 +73,11 @@
    "discovered_at": "2026-10-27T17:55:25Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T19:55:16Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T18:10:18Z"
   }
  },
  "graduated": {
