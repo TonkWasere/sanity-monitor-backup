@@ -15,9 +15,9 @@
    "until_ts": "2026-10-27T16:25:11Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-27T15:56:03Z"
+   "last_checked": "2026-10-27T16:11:00Z"
   },
   "197109": {
    "title": "Колизей (Рейтинг и геймплей)",
@@ -30,9 +30,22 @@
    "until_ts": "2026-10-27T16:25:11Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-27T15:56:05Z"
+   "last_checked": "2026-10-27T16:11:01Z"
+  },
+  "197112": {
+   "title": "🚧 Технические работы",
+   "slug": "197112-tehnicheskie-raboty",
+   "createdAt": "2026-10-27T15:36:35+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T16:11:04Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T18:10:58Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
