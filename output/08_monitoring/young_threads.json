@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197122": {
-   "title": "В преддверии празднества.",
-   "slug": "197122-v-preddverii-prazdnestva",
-   "createdAt": "2026-10-27T18:53:08+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-27T18:57:53Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-27T20:57:39Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-27T20:56:29Z"
-  },
-  "197123": {
-   "title": "Жужжание на БП",
-   "slug": "197123-zhuzhzhanie-na-bp",
-   "createdAt": "2026-10-27T19:00:47+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-27T19:10:26Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-27T21:10:11Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-27T20:56:31Z"
-  },
   "197124": {
    "title": "EXBO, у меня вопрос",
    "slug": "197124-exbo-u-menya-vopros",
@@ -43,11 +13,11 @@
    "discovered_at": "2026-10-27T19:40:20Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T21:40:05Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 4,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-27T20:56:33Z"
+   "last_checked": "2026-10-27T21:10:14Z"
   },
   "197127": {
    "title": "Обуз колизея считается нормой?",
@@ -58,11 +28,11 @@
    "discovered_at": "2026-10-27T20:26:47Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T22:26:33Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 2,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-27T20:56:35Z"
+   "last_checked": "2026-10-27T21:10:16Z"
   },
   "197126": {
    "title": "Наградные SIX12 и Micro UZI просьба сохранить историческую идентичность наград",
@@ -73,11 +43,11 @@
    "discovered_at": "2026-10-27T20:26:47Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T22:26:33Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 2,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-27T20:56:37Z"
+   "last_checked": "2026-10-27T21:10:18Z"
   },
   "197128": {
    "title": "Рассказы",
@@ -90,9 +60,9 @@
    "until_ts": "2026-10-27T22:35:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-27T20:56:38Z"
+   "last_checked": "2026-10-27T21:10:19Z"
   },
   "197130": {
    "title": "Лучшая в мире система рейтинга",
@@ -103,9 +73,11 @@
    "discovered_at": "2026-10-27T20:56:41Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T22:56:28Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 16,
+   "last_cc": 16,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T21:10:21Z"
   },
   "197129": {
    "title": "Цыганские фокусы коллизея",
@@ -118,7 +90,9 @@
    "until_ts": "2026-10-27T22:56:28Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T21:10:22Z"
   }
  },
  "graduated": {
@@ -2291,6 +2265,40 @@
    "last_checked": "2026-10-27T20:40:11Z",
    "graduated_at": "2026-10-27T20:56:28Z",
    "checks_done": 7
+  },
+  "197122": {
+   "title": "В преддверии празднества.",
+   "slug": "197122-v-preddverii-prazdnestva",
+   "createdAt": "2026-10-27T18:53:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T18:57:53Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T20:57:39Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-27T20:56:29Z",
+   "graduated_at": "2026-10-27T21:10:12Z",
+   "checks_done": 7
+  },
+  "197123": {
+   "title": "Жужжание на БП",
+   "slug": "197123-zhuzhzhanie-na-bp",
+   "createdAt": "2026-10-27T19:00:47+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T19:10:26Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T21:10:11Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-27T20:56:31Z",
+   "graduated_at": "2026-10-27T21:10:12Z",
+   "checks_done": 6
   }
  }
 }
