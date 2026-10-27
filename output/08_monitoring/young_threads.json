@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197116": {
-   "title": "Немного QoL для аванпостов",
-   "slug": "197116-nemnogo-qol-dlya-avanpostov",
-   "createdAt": "2026-10-27T17:11:41+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-27T17:25:21Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-27T19:25:14Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-27T19:25:09Z"
-  },
   "197117": {
    "title": "Предложение к будущим механикам и возможностям",
    "slug": "197117-predlozhenie-k-buduschim-mehanikam-i-vozmozhnostyam",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-10-27T17:55:25Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T19:55:16Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 6,
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-27T19:25:10Z"
+   "last_checked": "2026-10-27T19:40:07Z"
   },
   "197120": {
    "title": "КАЛизей лоботомия мод",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-27T20:29:11Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-27T19:25:12Z"
+   "last_checked": "2026-10-27T19:40:09Z"
   },
   "197119": {
    "title": "Есть такая темя в Warframe",
@@ -58,11 +43,11 @@
    "discovered_at": "2026-10-27T18:29:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T20:29:11Z",
-   "last_lpn": 47,
-   "last_cc": 47,
-   "checks": 4,
+   "last_lpn": 48,
+   "last_cc": 48,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-27T19:25:14Z"
+   "last_checked": "2026-10-27T19:40:11Z"
   },
   "197118": {
    "title": "Хайповый флудотред ",
@@ -75,9 +60,9 @@
    "until_ts": "2026-10-27T20:29:11Z",
    "last_lpn": 18,
    "last_cc": 16,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-27T19:25:15Z"
+   "last_checked": "2026-10-27T19:40:12Z"
   },
   "197121": {
    "title": "Редактор карт для игроков SZ",
@@ -90,9 +75,9 @@
    "until_ts": "2026-10-27T20:40:41Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T19:25:17Z"
+   "last_checked": "2026-10-27T19:40:14Z"
   },
   "197122": {
    "title": "В преддверии празднества.",
@@ -105,9 +90,9 @@
    "until_ts": "2026-10-27T20:57:39Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-27T19:25:19Z"
+   "last_checked": "2026-10-27T19:40:16Z"
   },
   "197123": {
    "title": "Жужжание на БП",
@@ -118,11 +103,24 @@
    "discovered_at": "2026-10-27T19:10:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T21:10:11Z",
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-27T19:40:18Z"
+  },
+  "197124": {
+   "title": "EXBO, у меня вопрос",
+   "slug": "197124-exbo-u-menya-vopros",
+   "createdAt": "2026-10-27T19:30:35+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T19:40:20Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T21:40:05Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 1,
-   "fails": 0,
-   "last_checked": "2026-10-27T19:25:21Z"
+   "checks": 0
   }
  },
  "graduated": {
@@ -2193,6 +2191,23 @@
    "last_checked": "2026-10-27T18:40:42Z",
    "graduated_at": "2026-10-27T18:57:39Z",
    "checks_done": 7
+  },
+  "197116": {
+   "title": "Немного QoL для аванпостов",
+   "slug": "197116-nemnogo-qol-dlya-avanpostov",
+   "createdAt": "2026-10-27T17:11:41+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T17:25:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T19:25:14Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-27T19:25:09Z",
+   "graduated_at": "2026-10-27T19:40:05Z",
+   "checks_done": 8
   }
  }
 }
