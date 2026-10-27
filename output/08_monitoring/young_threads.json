@@ -15,9 +15,9 @@
    "until_ts": "2026-10-27T18:10:58Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-27T17:10:14Z"
+   "last_checked": "2026-10-27T17:25:15Z"
   },
   "197114": {
    "title": "Так вот почему у нас ру - это корейское ММО",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-27T18:40:13Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-27T17:10:16Z"
+   "last_checked": "2026-10-27T17:25:17Z"
   },
   "197115": {
    "title": "Игроки, вопрос",
@@ -43,11 +43,24 @@
    "discovered_at": "2026-10-27T16:55:13Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T18:55:08Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 1,
+   "last_lpn": 21,
+   "last_cc": 21,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T17:10:18Z"
+   "last_checked": "2026-10-27T17:25:19Z"
+  },
+  "197116": {
+   "title": "Немного QoL для аванпостов",
+   "slug": "197116-nemnogo-qol-dlya-avanpostov",
+   "createdAt": "2026-10-27T17:11:41+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T17:25:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T19:25:14Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
