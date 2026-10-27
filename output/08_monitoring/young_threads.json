@@ -15,9 +15,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:15Z"
+   "last_checked": "2026-10-27T13:55:18Z"
   },
   "197102": {
    "title": "А ЧТО С НАГРАДАМИ ЗА РЕЙТИНГ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 18,
    "last_cc": 18,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:17Z"
+   "last_checked": "2026-10-27T13:55:20Z"
   },
   "197101": {
    "title": "Аш12. Палач или снайпер",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 33,
    "last_cc": 33,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:19Z"
+   "last_checked": "2026-10-27T13:55:23Z"
   },
   "197100": {
    "title": "Лига типа так работать будет? ",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:22Z"
+   "last_checked": "2026-10-27T13:55:31Z"
   },
   "197099": {
    "title": "ну типо ",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:25Z"
+   "last_checked": "2026-10-27T13:55:33Z"
   },
   "197098": {
    "title": "Награды за лиги \"Празднества\"",
@@ -88,11 +88,11 @@
    "discovered_at": "2026-10-27T13:00:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T15:00:49Z",
-   "last_lpn": 142,
-   "last_cc": 142,
-   "checks": 3,
+   "last_lpn": 150,
+   "last_cc": 150,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:28Z"
+   "last_checked": "2026-10-27T13:55:35Z"
   },
   "197097": {
    "title": "Концепт для ивента ",
@@ -105,9 +105,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:30Z"
+   "last_checked": "2026-10-27T13:55:37Z"
   },
   "197095": {
    "title": "Больные?",
@@ -120,9 +120,9 @@
    "until_ts": "2026-10-27T15:00:49Z",
    "last_lpn": 30,
    "last_cc": 30,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:36Z"
+   "last_checked": "2026-10-27T13:55:41Z"
   },
   "197105": {
    "title": "«Артефакты-синергии: дополнительные эффекты за комбинацию предметов в сборке»",
@@ -135,9 +135,9 @@
    "until_ts": "2026-10-27T15:25:19Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:40Z"
+   "last_checked": "2026-10-27T13:55:44Z"
   },
   "197104": {
    "title": "Куплю облик \"Укротитель Бурана\"",
@@ -150,9 +150,9 @@
    "until_ts": "2026-10-27T15:25:19Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:42Z"
+   "last_checked": "2026-10-27T13:55:45Z"
   },
   "197107": {
    "title": "Каждый год 1 и тоже ",
@@ -165,9 +165,9 @@
    "until_ts": "2026-10-27T15:39:25Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:44Z"
+   "last_checked": "2026-10-27T13:55:47Z"
   },
   "197106": {
    "title": "Глюк системы или сломанный распред",
@@ -178,11 +178,11 @@
    "discovered_at": "2026-10-27T13:39:27Z",
    "source": "snap35",
    "until_ts": "2026-10-27T15:39:27Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 1,
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T13:40:48Z"
+   "last_checked": "2026-10-27T13:55:53Z"
   },
   "197108": {
    "title": "Это. Просто. Оху....гениально.",
