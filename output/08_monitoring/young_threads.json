@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197121": {
-   "title": "Редактор карт для игроков SZ",
-   "slug": "197121-redaktor-kart-dlya-igrokov-sz",
-   "createdAt": "2026-10-27T18:30:34+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-27T18:40:54Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-27T20:40:41Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-27T20:40:11Z"
-  },
   "197122": {
    "title": "В преддверии празднества.",
    "slug": "197122-v-preddverii-prazdnestva",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-10-27T18:57:53Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T20:57:39Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 6,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-27T20:40:13Z"
+   "last_checked": "2026-10-27T20:56:29Z"
   },
   "197123": {
    "title": "Жужжание на БП",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-27T21:10:11Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-27T20:40:15Z"
+   "last_checked": "2026-10-27T20:56:31Z"
   },
   "197124": {
    "title": "EXBO, у меня вопрос",
@@ -58,11 +43,11 @@
    "discovered_at": "2026-10-27T19:40:20Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T21:40:05Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 3,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-27T20:40:16Z"
+   "last_checked": "2026-10-27T20:56:33Z"
   },
   "197127": {
    "title": "Обуз колизея считается нормой?",
@@ -73,11 +58,11 @@
    "discovered_at": "2026-10-27T20:26:47Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T22:26:33Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T20:40:18Z"
+   "last_checked": "2026-10-27T20:56:35Z"
   },
   "197126": {
    "title": "Наградные SIX12 и Micro UZI просьба сохранить историческую идентичность наград",
@@ -90,9 +75,9 @@
    "until_ts": "2026-10-27T22:26:33Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T20:40:20Z"
+   "last_checked": "2026-10-27T20:56:37Z"
   },
   "197128": {
    "title": "Рассказы",
@@ -105,9 +90,35 @@
    "until_ts": "2026-10-27T22:35:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T20:40:21Z"
+   "last_checked": "2026-10-27T20:56:38Z"
+  },
+  "197130": {
+   "title": "Лучшая в мире система рейтинга",
+   "slug": "197130-luchshaya-v-mire-sistema-reytinga",
+   "createdAt": "2026-10-27T20:54:18+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T20:56:41Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T22:56:28Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197129": {
+   "title": "Цыганские фокусы коллизея",
+   "slug": "197129-tsyganskie-fokusy-kollizeya",
+   "createdAt": "2026-10-27T20:49:50+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T20:56:41Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T22:56:28Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
   }
  },
  "graduated": {
@@ -2262,6 +2273,23 @@
    "fails": 0,
    "last_checked": "2026-10-27T20:26:34Z",
    "graduated_at": "2026-10-27T20:40:10Z",
+   "checks_done": 7
+  },
+  "197121": {
+   "title": "Редактор карт для игроков SZ",
+   "slug": "197121-redaktor-kart-dlya-igrokov-sz",
+   "createdAt": "2026-10-27T18:30:34+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T18:40:54Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T20:40:41Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-27T20:40:11Z",
+   "graduated_at": "2026-10-27T20:56:28Z",
    "checks_done": 7
   }
  }
