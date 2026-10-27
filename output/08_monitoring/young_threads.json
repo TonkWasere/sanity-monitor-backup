@@ -4,51 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197120": {
-   "title": "КАЛизей лоботомия мод",
-   "slug": "197120-kalizey-lobotomiya-mod",
-   "createdAt": "2026-10-27T18:18:16+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-27T18:29:21Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-27T20:29:11Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-27T20:26:34Z"
-  },
-  "197119": {
-   "title": "Есть такая темя в Warframe",
-   "slug": "197119-est-takaya-temya-v-warframe",
-   "createdAt": "2026-10-27T18:18:00+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-27T18:29:21Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-27T20:29:11Z",
-   "last_lpn": 50,
-   "last_cc": 49,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-27T20:26:36Z"
-  },
-  "197118": {
-   "title": "Хайповый флудотред ",
-   "slug": "197118-haypovyy-fludotred",
-   "createdAt": "2026-10-27T18:12:32+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-27T18:29:21Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-27T20:29:11Z",
-   "last_lpn": 19,
-   "last_cc": 17,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-27T20:26:38Z"
-  },
   "197121": {
    "title": "Редактор карт для игроков SZ",
    "slug": "197121-redaktor-kart-dlya-igrokov-sz",
@@ -60,9 +15,9 @@
    "until_ts": "2026-10-27T20:40:41Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-27T20:26:40Z"
+   "last_checked": "2026-10-27T20:40:11Z"
   },
   "197122": {
    "title": "В преддверии празднества.",
@@ -75,9 +30,9 @@
    "until_ts": "2026-10-27T20:57:39Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-27T20:26:41Z"
+   "last_checked": "2026-10-27T20:40:13Z"
   },
   "197123": {
    "title": "Жужжание на БП",
@@ -90,9 +45,9 @@
    "until_ts": "2026-10-27T21:10:11Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-27T20:26:43Z"
+   "last_checked": "2026-10-27T20:40:15Z"
   },
   "197124": {
    "title": "EXBO, у меня вопрос",
@@ -105,9 +60,9 @@
    "until_ts": "2026-10-27T21:40:05Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-27T20:26:45Z"
+   "last_checked": "2026-10-27T20:40:16Z"
   },
   "197127": {
    "title": "Обуз колизея считается нормой?",
@@ -120,7 +75,9 @@
    "until_ts": "2026-10-27T22:26:33Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T20:40:18Z"
   },
   "197126": {
    "title": "Наградные SIX12 и Micro UZI просьба сохранить историческую идентичность наград",
@@ -131,9 +88,11 @@
    "discovered_at": "2026-10-27T20:26:47Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T22:26:33Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 0
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T20:40:20Z"
   },
   "197128": {
    "title": "Рассказы",
@@ -146,7 +105,9 @@
    "until_ts": "2026-10-27T22:35:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-27T20:40:21Z"
   }
  },
  "graduated": {
@@ -2250,6 +2211,57 @@
    "fails": 0,
    "last_checked": "2026-10-27T19:40:07Z",
    "graduated_at": "2026-10-27T19:56:53Z",
+   "checks_done": 7
+  },
+  "197118": {
+   "title": "Хайповый флудотред ",
+   "slug": "197118-haypovyy-fludotred",
+   "createdAt": "2026-10-27T18:12:32+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T18:29:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T20:29:11Z",
+   "last_lpn": 19,
+   "last_cc": 17,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-27T20:26:38Z",
+   "graduated_at": "2026-10-27T20:40:10Z",
+   "checks_done": 7
+  },
+  "197119": {
+   "title": "Есть такая темя в Warframe",
+   "slug": "197119-est-takaya-temya-v-warframe",
+   "createdAt": "2026-10-27T18:18:00+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T18:29:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T20:29:11Z",
+   "last_lpn": 50,
+   "last_cc": 49,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-27T20:26:36Z",
+   "graduated_at": "2026-10-27T20:40:10Z",
+   "checks_done": 7
+  },
+  "197120": {
+   "title": "КАЛизей лоботомия мод",
+   "slug": "197120-kalizey-lobotomiya-mod",
+   "createdAt": "2026-10-27T18:18:16+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T18:29:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T20:29:11Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-27T20:26:34Z",
+   "graduated_at": "2026-10-27T20:40:10Z",
    "checks_done": 7
   }
  }
