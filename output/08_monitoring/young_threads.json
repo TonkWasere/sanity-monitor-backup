@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197105": {
-   "title": "«Артефакты-синергии: дополнительные эффекты за комбинацию предметов в сборке»",
-   "slug": "197105-artefakty-sinergii-dopolnitelnye-effekty-za-kombinatsiyu-predmetov-v-sborke",
-   "createdAt": "2026-10-27T13:13:48+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-27T13:25:39Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-27T15:25:19Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-27T15:12:38Z"
-  },
-  "197104": {
-   "title": "Куплю облик \"Укротитель Бурана\"",
-   "slug": "197104-kuplyu-oblik-ukrotitel-burana",
-   "createdAt": "2026-10-27T13:11:40+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-27T13:25:39Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-27T15:25:19Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-27T15:12:39Z"
-  },
   "197107": {
    "title": "Каждый год 1 и тоже ",
    "slug": "197107-kazhdyy-god-1-i-tozhe",
@@ -45,9 +15,9 @@
    "until_ts": "2026-10-27T15:39:25Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-27T15:12:41Z"
+   "last_checked": "2026-10-27T15:25:34Z"
   },
   "197106": {
    "title": "Глюк системы или сломанный распред",
@@ -60,9 +30,9 @@
    "until_ts": "2026-10-27T15:39:27Z",
    "last_lpn": 13,
    "last_cc": 11,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-27T15:12:42Z"
+   "last_checked": "2026-10-27T15:25:36Z"
   },
   "197108": {
    "title": "Это. Просто. Оху....гениально.",
@@ -73,11 +43,11 @@
    "discovered_at": "2026-10-27T13:40:52Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-27T15:40:13Z",
-   "last_lpn": 28,
-   "last_cc": 26,
-   "checks": 1,
+   "last_lpn": 32,
+   "last_cc": 30,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T15:12:44Z"
+   "last_checked": "2026-10-27T15:25:37Z"
   },
   "197110": {
    "title": "Кинореклама",
@@ -90,9 +60,9 @@
    "until_ts": "2026-10-27T16:25:11Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T15:12:46Z"
+   "last_checked": "2026-10-27T15:25:39Z"
   },
   "197109": {
    "title": "Колизей (Рейтинг и геймплей)",
@@ -105,9 +75,9 @@
    "until_ts": "2026-10-27T16:25:11Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-27T15:12:48Z"
+   "last_checked": "2026-10-27T15:25:41Z"
   }
  },
  "graduated": {
@@ -2008,6 +1978,40 @@
    "last_checked": "2026-10-27T14:55:19Z",
    "graduated_at": "2026-10-27T15:12:36Z",
    "checks_done": 8
+  },
+  "197104": {
+   "title": "Куплю облик \"Укротитель Бурана\"",
+   "slug": "197104-kuplyu-oblik-ukrotitel-burana",
+   "createdAt": "2026-10-27T13:11:40+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T13:25:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T15:25:19Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-27T15:12:39Z",
+   "graduated_at": "2026-10-27T15:25:30Z",
+   "checks_done": 7
+  },
+  "197105": {
+   "title": "«Артефакты-синергии: дополнительные эффекты за комбинацию предметов в сборке»",
+   "slug": "197105-artefakty-sinergii-dopolnitelnye-effekty-za-kombinatsiyu-predmetov-v-sborke",
+   "createdAt": "2026-10-27T13:13:48+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-27T13:25:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-27T15:25:19Z",
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-27T15:12:38Z",
+   "graduated_at": "2026-10-27T15:25:30Z",
+   "checks_done": 7
   }
  }
 }
