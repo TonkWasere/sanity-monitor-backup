@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197150": {
-   "title": "Ну чё, пацаны, вайбкод?",
-   "slug": "197150-nu-chyo-patsany-vaybkod",
-   "createdAt": "2026-10-28T07:22:41+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T07:26:57Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T09:26:41Z",
-   "last_lpn": 151,
-   "last_cc": 149,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-28T09:10:15Z"
-  },
   "197152": {
    "title": "Слив наград за рейтинг ",
    "slug": "197152-sliv-nagrad-za-reyting",
@@ -30,9 +15,9 @@
    "until_ts": "2026-10-28T09:56:51Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T09:10:17Z"
+   "last_checked": "2026-10-28T09:41:05Z"
   },
   "197153": {
    "title": "долг говно бесполезное!!!!11!!!",
@@ -46,7 +31,7 @@
    "last_lpn": 4,
    "last_cc": 4,
    "checks": 0,
-   "fails": 3,
+   "fails": 4,
    "last_error": "404"
   },
   "197157": {
@@ -61,7 +46,7 @@
    "last_lpn": 5,
    "last_cc": 5,
    "checks": 0,
-   "fails": 3,
+   "fails": 4,
    "last_error": "404"
   },
   "197156": {
@@ -76,7 +61,7 @@
    "last_lpn": 4,
    "last_cc": 4,
    "checks": 0,
-   "fails": 3,
+   "fails": 4,
    "last_error": "404"
   },
   "197155": {
@@ -91,7 +76,7 @@
    "last_lpn": 5,
    "last_cc": 5,
    "checks": 0,
-   "fails": 3,
+   "fails": 4,
    "last_error": "404"
   },
   "197154": {
@@ -103,11 +88,11 @@
    "discovered_at": "2026-10-28T08:37:33Z",
    "source": "snap35",
    "until_ts": "2026-10-28T10:37:33Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 3,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T09:10:24Z"
+   "last_checked": "2026-10-28T09:42:17Z"
   },
   "197158": {
    "title": "Сталкрафт на макбуке ",
@@ -120,9 +105,9 @@
    "until_ts": "2026-10-28T10:57:01Z",
    "last_lpn": 19,
    "last_cc": 18,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T09:10:26Z"
+   "last_checked": "2026-10-28T09:42:24Z"
   },
   "197159": {
    "title": "Продление техработ 28.10.2026 ",
@@ -135,7 +120,9 @@
    "until_ts": "2026-10-28T11:10:13Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T09:42:30Z"
   },
   "197149": {
    "title": "🗒️ Патчноут [28.10.2026]",
@@ -146,9 +133,11 @@
    "discovered_at": "2026-10-28T09:10:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T11:10:13Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 13,
+   "last_cc": 11,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T09:42:35Z"
   }
  },
  "graduated": {
@@ -2711,6 +2700,23 @@
    "fails": 0,
    "last_checked": "2026-10-28T08:40:22Z",
    "graduated_at": "2026-10-28T08:57:01Z",
+   "checks_done": 6
+  },
+  "197150": {
+   "title": "Ну чё, пацаны, вайбкод?",
+   "slug": "197150-nu-chyo-patsany-vaybkod",
+   "createdAt": "2026-10-28T07:22:41+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T07:26:57Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T09:26:41Z",
+   "last_lpn": 151,
+   "last_cc": 149,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-28T09:10:15Z",
+   "graduated_at": "2026-10-28T09:40:34Z",
    "checks_done": 6
   }
  }
