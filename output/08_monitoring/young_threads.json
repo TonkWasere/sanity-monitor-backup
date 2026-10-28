@@ -3,7 +3,34 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {},
+ "threads": {
+  "197139": {
+   "title": "Всех с днем вайпа на сервере сталкрафт шизофрения!",
+   "slug": "197139-vseh-s-dnem-vaypa-na-servere-stalkraft-shizofreniya",
+   "createdAt": "2026-10-28T05:26:10+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T05:26:32Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T07:26:29Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197138": {
+   "title": "Какого чёрта?",
+   "slug": "197138-kakogo-chyorta",
+   "createdAt": "2026-10-28T05:12:53+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T05:26:32Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T07:26:29Z",
+   "last_lpn": 20,
+   "last_cc": 19,
+   "checks": 0
+  }
+ },
  "graduated": {
   "196917": {
    "title": "Пнв",
