@@ -15,9 +15,9 @@
    "until_ts": "2026-10-28T15:55:09Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T15:25:12Z"
+   "last_checked": "2026-10-28T15:44:01Z"
   },
   "197199": {
    "title": "Арена гангрена",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-28T15:55:09Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T15:25:14Z"
+   "last_checked": "2026-10-28T15:44:03Z"
   },
   "197197": {
    "title": "Арена Метрополита. Первые впечатления после трёх матчей",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-28T13:55:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:55:09Z",
-   "last_lpn": 34,
-   "last_cc": 34,
-   "checks": 6,
+   "last_lpn": 45,
+   "last_cc": 45,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T15:25:15Z"
+   "last_checked": "2026-10-28T15:44:05Z"
   },
   "197196": {
    "title": "Забыли добавить адекватные различия краске за 10% и топ-240",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-28T15:55:09Z",
    "last_lpn": 34,
    "last_cc": 34,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T15:25:17Z"
+   "last_checked": "2026-10-28T15:44:07Z"
   },
   "197190": {
    "title": "🎬 Твой клип, твои правила, твои трофеи",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-28T15:55:09Z",
    "last_lpn": 8,
    "last_cc": 7,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T15:25:19Z"
+   "last_checked": "2026-10-28T15:44:09Z"
   },
   "197202": {
    "title": "Магазин 5.45 (награды ивента)",
@@ -88,11 +88,11 @@
    "discovered_at": "2026-10-28T14:25:44Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T16:25:19Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 3,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T15:25:21Z"
+   "last_checked": "2026-10-28T15:44:10Z"
   },
   "197201": {
    "title": "Шансы выпадение на уровнях магазины",
@@ -105,9 +105,9 @@
    "until_ts": "2026-10-28T16:25:19Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T15:25:23Z"
+   "last_checked": "2026-10-28T15:44:12Z"
   },
   "197204": {
    "title": "Ивент",
@@ -118,11 +118,11 @@
    "discovered_at": "2026-10-28T14:56:05Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T16:55:38Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 3,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T15:25:25Z"
+   "last_checked": "2026-10-28T15:44:14Z"
   },
   "197203": {
    "title": "Новая активность на диком севере?",
@@ -133,11 +133,11 @@
    "discovered_at": "2026-10-28T14:56:05Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T16:55:38Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 1,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T15:25:27Z"
+   "last_checked": "2026-10-28T15:44:16Z"
   },
   "197205": {
    "title": "Долгожданная Арена",
@@ -148,11 +148,11 @@
    "discovered_at": "2026-10-28T15:10:49Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:10:25Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 1,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T15:25:28Z"
+   "last_checked": "2026-10-28T15:44:18Z"
   },
   "197206": {
    "title": "А где стикеры лиги?",
@@ -163,11 +163,11 @@
    "discovered_at": "2026-10-28T15:16:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:16:30Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T15:25:30Z"
+   "last_checked": "2026-10-28T15:44:23Z"
   },
   "197207": {
    "title": "Ивент провоцирует зависть.",
@@ -178,8 +178,36 @@
    "discovered_at": "2026-10-28T15:25:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:25:10Z",
+   "last_lpn": 33,
+   "last_cc": 33,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T15:44:24Z"
+  },
+  "197209": {
+   "title": "Мутанты слишком умные",
+   "slug": "197209-mutanty-slishkom-umnye",
+   "createdAt": "2026-10-28T15:43:58+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T15:44:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T17:43:59Z",
    "last_lpn": 1,
    "last_cc": 1,
+   "checks": 0
+  },
+  "197208": {
+   "title": "Зачем (ПП и дробовики на ивенте)",
+   "slug": "197208-zachem-pp-i-droboviki-na-ivente",
+   "createdAt": "2026-10-28T15:31:00+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T15:44:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T17:43:59Z",
+   "last_lpn": 5,
+   "last_cc": 5,
    "checks": 0
   }
  },
