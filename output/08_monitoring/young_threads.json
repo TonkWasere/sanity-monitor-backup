@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197152": {
-   "title": "Слив наград за рейтинг ",
-   "slug": "197152-sliv-nagrad-za-reyting",
-   "createdAt": "2026-10-28T07:44:26+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T07:57:04Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T09:56:51Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-28T09:41:05Z"
-  },
   "197153": {
    "title": "долг говно бесполезное!!!!11!!!",
    "slug": "197153-dolg-govno-bespoleznoe11",
@@ -31,7 +16,7 @@
    "last_lpn": 4,
    "last_cc": 4,
    "checks": 0,
-   "fails": 4,
+   "fails": 5,
    "last_error": "404"
   },
   "197157": {
@@ -46,7 +31,7 @@
    "last_lpn": 5,
    "last_cc": 5,
    "checks": 0,
-   "fails": 4,
+   "fails": 5,
    "last_error": "404"
   },
   "197156": {
@@ -61,7 +46,7 @@
    "last_lpn": 4,
    "last_cc": 4,
    "checks": 0,
-   "fails": 4,
+   "fails": 5,
    "last_error": "404"
   },
   "197155": {
@@ -76,7 +61,7 @@
    "last_lpn": 5,
    "last_cc": 5,
    "checks": 0,
-   "fails": 4,
+   "fails": 5,
    "last_error": "404"
   },
   "197154": {
@@ -90,9 +75,9 @@
    "until_ts": "2026-10-28T10:37:33Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T09:42:17Z"
+   "last_checked": "2026-10-28T09:57:27Z"
   },
   "197158": {
    "title": "Сталкрафт на макбуке ",
@@ -105,9 +90,9 @@
    "until_ts": "2026-10-28T10:57:01Z",
    "last_lpn": 19,
    "last_cc": 18,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T09:42:24Z"
+   "last_checked": "2026-10-28T09:57:28Z"
   },
   "197159": {
    "title": "Продление техработ 28.10.2026 ",
@@ -118,11 +103,11 @@
    "discovered_at": "2026-10-28T09:10:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T11:10:13Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 1,
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T09:42:30Z"
+   "last_checked": "2026-10-28T09:57:30Z"
   },
   "197149": {
    "title": "🗒️ Патчноут [28.10.2026]",
@@ -133,11 +118,76 @@
    "discovered_at": "2026-10-28T09:10:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T11:10:13Z",
-   "last_lpn": 13,
-   "last_cc": 11,
-   "checks": 1,
+   "last_lpn": 49,
+   "last_cc": 47,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T09:42:35Z"
+   "last_checked": "2026-10-28T09:57:32Z"
+  },
+  "197164": {
+   "title": "Потенциал для намеренного руина. ",
+   "slug": "197164-potentsial-dlya-namerennogo-ruina",
+   "createdAt": "2026-10-28T09:47:38+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:57:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:57:18Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
+  },
+  "197163": {
+   "title": "краски.награды.уникальность.",
+   "slug": "197163-kraskinagradyunikalnost",
+   "createdAt": "2026-10-28T09:45:03+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:57:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:57:18Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197162": {
+   "title": "Двойной нерф скорпа",
+   "slug": "197162-dvoynoy-nerf-skorpa",
+   "createdAt": "2026-10-28T09:44:28+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:57:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:57:18Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 0
+  },
+  "197161": {
+   "title": "Новый режим",
+   "slug": "197161-novyy-rezhim",
+   "createdAt": "2026-10-28T09:44:00+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:57:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:57:18Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 0
+  },
+  "197160": {
+   "title": "🚀 Запуск игровых серверов",
+   "slug": "197160-zapusk-igrovyh-serverov",
+   "createdAt": "2026-10-28T09:43:02+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:57:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:57:18Z",
+   "last_lpn": 4,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
@@ -2718,6 +2768,23 @@
    "last_checked": "2026-10-28T09:10:15Z",
    "graduated_at": "2026-10-28T09:40:34Z",
    "checks_done": 6
+  },
+  "197152": {
+   "title": "Слив наград за рейтинг ",
+   "slug": "197152-sliv-nagrad-za-reyting",
+   "createdAt": "2026-10-28T07:44:26+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T07:57:04Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T09:56:51Z",
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-28T09:41:05Z",
+   "graduated_at": "2026-10-28T09:57:18Z",
+   "checks_done": 5
   }
  }
 }
