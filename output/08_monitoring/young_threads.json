@@ -4,51 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197205": {
-   "title": "Долгожданная Арена",
-   "slug": "197205-dolgozhdannaya-arena",
-   "createdAt": "2026-10-28T15:02:42+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T15:10:49Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T17:10:25Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T17:10:12Z"
-  },
-  "197206": {
-   "title": "А где стикеры лиги?",
-   "slug": "197206-a-gde-stikery-ligi",
-   "createdAt": "2026-10-28T15:15:51+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T15:16:54Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T17:16:30Z",
-   "last_lpn": 23,
-   "last_cc": 23,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T17:10:14Z"
-  },
-  "197207": {
-   "title": "Ивент провоцирует зависть.",
-   "slug": "197207-ivent-provotsiruet-zavist",
-   "createdAt": "2026-10-28T15:24:20+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T15:25:33Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T17:25:10Z",
-   "last_lpn": 70,
-   "last_cc": 70,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-28T17:10:15Z"
-  },
   "197209": {
    "title": "Мутанты слишком умные",
    "slug": "197209-mutanty-slishkom-umnye",
@@ -60,9 +15,9 @@
    "until_ts": "2026-10-28T17:43:59Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T17:10:17Z"
+   "last_checked": "2026-10-28T17:27:01Z"
   },
   "197208": {
    "title": "Зачем (ПП и дробовики на ивенте)",
@@ -75,9 +30,9 @@
    "until_ts": "2026-10-28T17:43:59Z",
    "last_lpn": 25,
    "last_cc": 25,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T17:10:19Z"
+   "last_checked": "2026-10-28T17:27:03Z"
   },
   "197214": {
    "title": "Ставлю жопу",
@@ -90,9 +45,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 13,
    "last_cc": 11,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T17:10:21Z"
+   "last_checked": "2026-10-28T17:27:05Z"
   },
   "197213": {
    "title": "ПКП и склера",
@@ -105,9 +60,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T17:10:23Z"
+   "last_checked": "2026-10-28T17:27:07Z"
   },
   "197212": {
    "title": "Почему Разработчики (О великий отдел баланса) не любят клановые оружия ?",
@@ -120,9 +75,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T17:10:24Z"
+   "last_checked": "2026-10-28T17:27:08Z"
   },
   "197211": {
    "title": "Никто не ожидал, что будет настолько плохо, жестко накипело.",
@@ -135,9 +90,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T17:10:26Z"
+   "last_checked": "2026-10-28T17:27:10Z"
   },
   "197210": {
    "title": "переферия",
@@ -150,9 +105,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T17:10:28Z"
+   "last_checked": "2026-10-28T17:27:12Z"
   },
   "197217": {
    "title": "Рекламные интеграции во время игры ",
@@ -165,9 +120,9 @@
    "until_ts": "2026-10-28T18:40:25Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T17:10:29Z"
+   "last_checked": "2026-10-28T17:27:13Z"
   },
   "197216": {
    "title": "визуальный баг кс 23",
@@ -180,9 +135,9 @@
    "until_ts": "2026-10-28T18:41:06Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T17:10:31Z"
+   "last_checked": "2026-10-28T17:27:15Z"
   },
   "197215": {
    "title": "Штурм офиса exbo ",
@@ -193,9 +148,11 @@
    "discovered_at": "2026-10-28T16:41:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:41:06Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 0
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T17:27:17Z"
   },
   "197218": {
    "title": "РКН добрался до stalzone",
@@ -206,9 +163,11 @@
    "discovered_at": "2026-10-28T16:58:31Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:58:07Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T17:27:19Z"
   },
   "197220": {
    "title": "Что это бля",
@@ -219,9 +178,11 @@
    "discovered_at": "2026-10-28T17:10:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T19:10:10Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T17:27:20Z"
   },
   "197219": {
    "title": "⚙ Компенсация за награды ОТС",
@@ -234,6 +195,45 @@
    "until_ts": "2026-10-28T19:10:10Z",
    "last_lpn": 5,
    "last_cc": 3,
+   "checks": 0
+  },
+  "197223": {
+   "title": "Арена",
+   "slug": "197223-arena",
+   "createdAt": "2026-10-28T17:25:09+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T17:27:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T19:26:58Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
+  },
+  "197222": {
+   "title": "Ивенты",
+   "slug": "197222-iventy",
+   "createdAt": "2026-10-28T17:23:43+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T17:27:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T19:26:58Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197221": {
+   "title": "А че с наградами в арене ?",
+   "slug": "197221-a-che-s-nagradami-v-arene",
+   "createdAt": "2026-10-28T17:11:20+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T17:27:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T19:26:58Z",
+   "last_lpn": 1,
+   "last_cc": 1,
    "checks": 0
   }
  },
@@ -3682,6 +3682,57 @@
    "last_checked": "2026-10-28T16:41:08Z",
    "graduated_at": "2026-10-28T16:58:07Z",
    "checks_done": 7
+  },
+  "197205": {
+   "title": "Долгожданная Арена",
+   "slug": "197205-dolgozhdannaya-arena",
+   "createdAt": "2026-10-28T15:02:42+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T15:10:49Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T17:10:25Z",
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T17:10:12Z",
+   "graduated_at": "2026-10-28T17:26:59Z",
+   "checks_done": 7
+  },
+  "197206": {
+   "title": "А где стикеры лиги?",
+   "slug": "197206-a-gde-stikery-ligi",
+   "createdAt": "2026-10-28T15:15:51+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T15:16:54Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T17:16:30Z",
+   "last_lpn": 23,
+   "last_cc": 23,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T17:10:14Z",
+   "graduated_at": "2026-10-28T17:26:59Z",
+   "checks_done": 7
+  },
+  "197207": {
+   "title": "Ивент провоцирует зависть.",
+   "slug": "197207-ivent-provotsiruet-zavist",
+   "createdAt": "2026-10-28T15:24:20+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T15:25:33Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T17:25:10Z",
+   "last_lpn": 70,
+   "last_cc": 70,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-28T17:10:15Z",
+   "graduated_at": "2026-10-28T17:26:59Z",
+   "checks_done": 6
   }
  }
 }
