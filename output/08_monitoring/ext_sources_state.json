@@ -4,12 +4,12 @@
   "stalzone": {
    "last_id": 3250,
    "last_dt": "2026-10-27T16:00:11+00:00",
-   "last_views": "22.1K"
+   "last_views": "22.4K"
   },
   "spectrum_zone": {
    "last_id": 8022,
    "last_dt": "2026-10-27T14:07:35+00:00",
-   "last_views": "8.44K"
+   "last_views": "8.49K"
   }
  },
  "steam": {
@@ -54,9 +54,9 @@
    },
    "stalzone-cep-raspada-nagrazhdenie-la170998": {
     "title": "stalzone-cep-raspada-nagrazhdenie-la170998",
-    "published": "2026-10-21T10:36:55+03:00",
-    "modified": "2026-10-21T12:26:41+03:00",
-    "fp": "892a86089dc7"
+    "published": "",
+    "modified": "",
+    "fp": "cbe5cfdf7c21"
    },
    "stalzone-otkrytie-testovogo-servera-16102026-1": {
     "title": "stalzone-otkrytie-testovogo-servera-16102026-1",
@@ -306,8 +306,8 @@
     1147772
    ],
    "top": 1148907,
-   "last_check": "20261028_0204"
+   "last_check": "20261028_0235"
   }
  },
- "updated": "2026-10-28T02:05:25+00:00"
+ "updated": "2026-10-28T02:36:39+00:00"
 }
