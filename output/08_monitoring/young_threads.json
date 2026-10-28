@@ -15,9 +15,9 @@
    "until_ts": "2026-10-28T14:57:41Z",
    "last_lpn": 19,
    "last_cc": 19,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:31Z"
+   "last_checked": "2026-10-28T14:55:41Z"
   },
   "197189": {
    "title": "Мега новый квест",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-28T14:57:41Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:33Z"
+   "last_checked": "2026-10-28T14:55:43Z"
   },
   "197180": {
    "title": "Когда добавят смену ника в игре?",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-28T14:57:41Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:34Z"
+   "last_checked": "2026-10-28T14:55:44Z"
   },
   "197194": {
    "title": "а у скорпа точно только 0.1 забрали?",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-28T13:19:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:19:01Z",
-   "last_lpn": 22,
-   "last_cc": 22,
-   "checks": 4,
+   "last_lpn": 23,
+   "last_cc": 23,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:37Z"
+   "last_checked": "2026-10-28T14:55:46Z"
   },
   "197193": {
    "title": "А что с наградами?",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-28T15:19:01Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:39Z"
+   "last_checked": "2026-10-28T14:55:48Z"
   },
   "197192": {
    "title": "Кейсы",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-28T15:19:01Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:41Z"
+   "last_checked": "2026-10-28T14:55:50Z"
   },
   "197195": {
    "title": "А где праздник и награды ?",
@@ -103,11 +103,11 @@
    "discovered_at": "2026-10-28T13:25:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:25:06Z",
-   "last_lpn": 48,
-   "last_cc": 48,
-   "checks": 3,
+   "last_lpn": 58,
+   "last_cc": 58,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:43Z"
+   "last_checked": "2026-10-28T14:55:51Z"
   },
   "197200": {
    "title": "???",
@@ -120,9 +120,9 @@
    "until_ts": "2026-10-28T15:55:09Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:45Z"
+   "last_checked": "2026-10-28T14:55:54Z"
   },
   "197199": {
    "title": "Арена гангрена",
@@ -135,9 +135,9 @@
    "until_ts": "2026-10-28T15:55:09Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:46Z"
+   "last_checked": "2026-10-28T14:55:56Z"
   },
   "197197": {
    "title": "Арена Метрополита. Первые впечатления после трёх матчей",
@@ -148,11 +148,11 @@
    "discovered_at": "2026-10-28T13:55:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:55:09Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 2,
+   "last_lpn": 23,
+   "last_cc": 23,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:48Z"
+   "last_checked": "2026-10-28T14:55:58Z"
   },
   "197196": {
    "title": "Забыли добавить адекватные различия краске за 10% и топ-240",
@@ -163,11 +163,11 @@
    "discovered_at": "2026-10-28T13:55:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:55:09Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 2,
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:50Z"
+   "last_checked": "2026-10-28T14:56:00Z"
   },
   "197190": {
    "title": "🎬 Твой клип, твои правила, твои трофеи",
@@ -180,9 +180,9 @@
    "until_ts": "2026-10-28T15:55:09Z",
    "last_lpn": 8,
    "last_cc": 7,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T14:43:52Z"
+   "last_checked": "2026-10-28T14:56:02Z"
   },
   "197202": {
    "title": "Магазин 5.45 (награды ивента)",
@@ -206,6 +206,32 @@
    "discovered_at": "2026-10-28T14:25:44Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T16:25:19Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197204": {
+   "title": "Ивент",
+   "slug": "197204-ivent",
+   "createdAt": "2026-10-28T14:55:36+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T14:56:05Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T16:55:38Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197203": {
+   "title": "Новая активность на диком севере?",
+   "slug": "197203-novaya-aktivnost-na-dikom-severe",
+   "createdAt": "2026-10-28T14:53:45+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T14:56:05Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T16:55:38Z",
    "last_lpn": 1,
    "last_cc": 1,
    "checks": 0
