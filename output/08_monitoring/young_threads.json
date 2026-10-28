@@ -15,9 +15,9 @@
    "until_ts": "2026-10-28T04:41:27Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-28T04:26:28Z"
+   "last_checked": "2026-10-28T04:40:10Z"
   },
   "197137": {
    "title": "Снова неделю ждать награды за колизей ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-28T05:01:31Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T04:26:30Z"
+   "last_checked": "2026-10-28T04:40:11Z"
   },
   "197136": {
    "title": "Кто украл мой рейтинг",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-28T05:01:31Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T04:26:32Z"
+   "last_checked": "2026-10-28T04:40:13Z"
   }
  },
  "graduated": {
