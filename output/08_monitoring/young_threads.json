@@ -4,81 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197164": {
-   "title": "Потенциал для намеренного руина. ",
-   "slug": "197164-potentsial-dlya-namerennogo-ruina",
-   "createdAt": "2026-10-28T09:47:38+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T09:57:36Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T11:57:18Z",
-   "last_lpn": 15,
-   "last_cc": 14,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-28T11:55:12Z"
-  },
-  "197163": {
-   "title": "краски.награды.уникальность.",
-   "slug": "197163-kraskinagradyunikalnost",
-   "createdAt": "2026-10-28T09:45:03+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T09:57:36Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T11:57:18Z",
-   "last_lpn": 38,
-   "last_cc": 38,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-28T11:55:15Z"
-  },
-  "197162": {
-   "title": "Двойной нерф скорпа",
-   "slug": "197162-dvoynoy-nerf-skorpa",
-   "createdAt": "2026-10-28T09:44:28+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T09:57:36Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T11:57:18Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-28T11:55:16Z"
-  },
-  "197161": {
-   "title": "Новый режим",
-   "slug": "197161-novyy-rezhim",
-   "createdAt": "2026-10-28T09:44:00+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T09:57:36Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T11:57:18Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-28T11:55:18Z"
-  },
-  "197160": {
-   "title": "🚀 Запуск игровых серверов",
-   "slug": "197160-zapusk-igrovyh-serverov",
-   "createdAt": "2026-10-28T09:43:02+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T09:57:36Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T11:57:18Z",
-   "last_lpn": 5,
-   "last_cc": 3,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-28T11:55:20Z"
-  },
   "197168": {
    "title": "А Что когда награды за колизец ",
    "slug": "197168-a-chto-kogda-nagrady-za-kolizets",
@@ -90,9 +15,9 @@
    "until_ts": "2026-10-28T12:12:43Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T11:55:21Z"
+   "last_checked": "2026-10-28T12:10:12Z"
   },
   "197167": {
    "title": "Братство СБЭУ Комаров АШ-12",
@@ -103,11 +28,11 @@
    "discovered_at": "2026-10-28T10:13:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:12:43Z",
-   "last_lpn": 46,
-   "last_cc": 46,
-   "checks": 6,
+   "last_lpn": 56,
+   "last_cc": 56,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T11:55:23Z"
+   "last_checked": "2026-10-28T12:10:14Z"
   },
   "197166": {
    "title": "Говнецо?",
@@ -120,9 +45,9 @@
    "until_ts": "2026-10-28T12:12:43Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T11:55:25Z"
+   "last_checked": "2026-10-28T12:10:15Z"
   },
   "197170": {
    "title": "Стоит ли скачивать сосалзон ради ивента?",
@@ -135,9 +60,9 @@
    "until_ts": "2026-10-28T12:25:31Z",
    "last_lpn": 47,
    "last_cc": 47,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T11:55:28Z"
+   "last_checked": "2026-10-28T12:10:18Z"
   },
   "197169": {
    "title": "Балансер не компетентен, Ср3м это доказывает",
@@ -150,9 +75,9 @@
    "until_ts": "2026-10-28T12:25:31Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T11:55:29Z"
+   "last_checked": "2026-10-28T12:10:19Z"
   },
   "197174": {
    "title": "А что с ценой",
@@ -165,9 +90,9 @@
    "until_ts": "2026-10-28T12:40:13Z",
    "last_lpn": 34,
    "last_cc": 34,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T11:55:31Z"
+   "last_checked": "2026-10-28T12:10:21Z"
   },
   "197173": {
    "title": "Ну хоть смешно и не критично",
@@ -180,9 +105,9 @@
    "until_ts": "2026-10-28T12:40:13Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T11:55:33Z"
+   "last_checked": "2026-10-28T12:10:23Z"
   },
   "197172": {
    "title": "Так называемый ивент",
@@ -195,7 +120,9 @@
    "until_ts": "2026-10-28T12:40:13Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:10:24Z"
   },
   "197171": {
    "title": "Награды какащк ",
@@ -206,9 +133,11 @@
    "discovered_at": "2026-10-28T10:40:38Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:40:13Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:10:26Z"
   },
   "197179": {
    "title": "И что это? (апдейт 28.10.26)",
@@ -219,9 +148,11 @@
    "discovered_at": "2026-10-28T10:55:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:55:14Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 27,
+   "last_cc": 26,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:10:28Z"
   },
   "197178": {
    "title": "Эксбо, введите реран маст обвесов!",
@@ -232,9 +163,11 @@
    "discovered_at": "2026-10-28T10:55:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:55:14Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 0
+   "last_lpn": 11,
+   "last_cc": 10,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:10:30Z"
   },
   "197177": {
    "title": "Награды за лиги и ивент магазин",
@@ -247,7 +180,9 @@
    "until_ts": "2026-10-28T12:55:14Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:10:31Z"
   },
   "197176": {
    "title": "Я СВОБОДЕН",
@@ -338,6 +273,19 @@
    "until_ts": "2026-10-28T13:40:07Z",
    "last_lpn": 6,
    "last_cc": 6,
+   "checks": 0
+  },
+  "197187": {
+   "title": "Я хочу, чтобы вы посмотрели...",
+   "slug": "197187-ya-hochu-chtoby-vy-posmotreli",
+   "createdAt": "2026-10-28T11:49:45+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T12:10:34Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T14:10:10Z",
+   "last_lpn": 11,
+   "last_cc": 9,
    "checks": 0
   }
  },
@@ -3072,6 +3020,91 @@
    "last_checked": "2026-10-28T10:55:17Z",
    "graduated_at": "2026-10-28T11:13:27Z",
    "checks_done": 6
+  },
+  "197160": {
+   "title": "🚀 Запуск игровых серверов",
+   "slug": "197160-zapusk-igrovyh-serverov",
+   "createdAt": "2026-10-28T09:43:02+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:57:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:57:18Z",
+   "last_lpn": 5,
+   "last_cc": 3,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-28T11:55:20Z",
+   "graduated_at": "2026-10-28T12:10:10Z",
+   "checks_done": 6
+  },
+  "197161": {
+   "title": "Новый режим",
+   "slug": "197161-novyy-rezhim",
+   "createdAt": "2026-10-28T09:44:00+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:57:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:57:18Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-28T11:55:18Z",
+   "graduated_at": "2026-10-28T12:10:10Z",
+   "checks_done": 8
+  },
+  "197162": {
+   "title": "Двойной нерф скорпа",
+   "slug": "197162-dvoynoy-nerf-skorpa",
+   "createdAt": "2026-10-28T09:44:28+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:57:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:57:18Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-28T11:55:16Z",
+   "graduated_at": "2026-10-28T12:10:10Z",
+   "checks_done": 8
+  },
+  "197163": {
+   "title": "краски.награды.уникальность.",
+   "slug": "197163-kraskinagradyunikalnost",
+   "createdAt": "2026-10-28T09:45:03+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:57:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:57:18Z",
+   "last_lpn": 38,
+   "last_cc": 38,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-28T11:55:15Z",
+   "graduated_at": "2026-10-28T12:10:10Z",
+   "checks_done": 8
+  },
+  "197164": {
+   "title": "Потенциал для намеренного руина. ",
+   "slug": "197164-potentsial-dlya-namerennogo-ruina",
+   "createdAt": "2026-10-28T09:47:38+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:57:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:57:18Z",
+   "last_lpn": 15,
+   "last_cc": 14,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-28T11:55:12Z",
+   "graduated_at": "2026-10-28T12:10:10Z",
+   "checks_done": 8
   }
  }
 }
