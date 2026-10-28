@@ -15,9 +15,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 15,
    "last_cc": 14,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:09Z"
+   "last_checked": "2026-10-28T11:55:12Z"
   },
   "197163": {
    "title": "краски.награды.уникальность.",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-28T09:57:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T11:57:18Z",
-   "last_lpn": 37,
-   "last_cc": 37,
-   "checks": 7,
+   "last_lpn": 38,
+   "last_cc": 38,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:11Z"
+   "last_checked": "2026-10-28T11:55:15Z"
   },
   "197162": {
    "title": "Двойной нерф скорпа",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:12Z"
+   "last_checked": "2026-10-28T11:55:16Z"
   },
   "197161": {
    "title": "Новый режим",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:14Z"
+   "last_checked": "2026-10-28T11:55:18Z"
   },
   "197160": {
    "title": "🚀 Запуск игровых серверов",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 5,
    "last_cc": 3,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:15Z"
+   "last_checked": "2026-10-28T11:55:20Z"
   },
   "197168": {
    "title": "А Что когда награды за колизец ",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-28T12:12:43Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:17Z"
+   "last_checked": "2026-10-28T11:55:21Z"
   },
   "197167": {
    "title": "Братство СБЭУ Комаров АШ-12",
@@ -103,11 +103,11 @@
    "discovered_at": "2026-10-28T10:13:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:12:43Z",
-   "last_lpn": 31,
-   "last_cc": 31,
-   "checks": 5,
+   "last_lpn": 46,
+   "last_cc": 46,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:19Z"
+   "last_checked": "2026-10-28T11:55:23Z"
   },
   "197166": {
    "title": "Говнецо?",
@@ -120,9 +120,9 @@
    "until_ts": "2026-10-28T12:12:43Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:21Z"
+   "last_checked": "2026-10-28T11:55:25Z"
   },
   "197170": {
    "title": "Стоит ли скачивать сосалзон ради ивента?",
@@ -133,11 +133,11 @@
    "discovered_at": "2026-10-28T10:25:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:25:31Z",
-   "last_lpn": 46,
-   "last_cc": 46,
-   "checks": 5,
+   "last_lpn": 47,
+   "last_cc": 47,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:23Z"
+   "last_checked": "2026-10-28T11:55:28Z"
   },
   "197169": {
    "title": "Балансер не компетентен, Ср3м это доказывает",
@@ -148,11 +148,11 @@
    "discovered_at": "2026-10-28T10:25:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:25:31Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 3,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:25Z"
+   "last_checked": "2026-10-28T11:55:29Z"
   },
   "197174": {
    "title": "А что с ценой",
@@ -165,9 +165,9 @@
    "until_ts": "2026-10-28T12:40:13Z",
    "last_lpn": 34,
    "last_cc": 34,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:26Z"
+   "last_checked": "2026-10-28T11:55:31Z"
   },
   "197173": {
    "title": "Ну хоть смешно и не критично",
@@ -180,9 +180,9 @@
    "until_ts": "2026-10-28T12:40:13Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T11:40:28Z"
+   "last_checked": "2026-10-28T11:55:33Z"
   },
   "197172": {
    "title": "Так называемый ивент",
