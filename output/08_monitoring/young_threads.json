@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-28T05:26:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:26:29Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T05:40:31Z"
+   "last_checked": "2026-10-28T05:56:47Z"
   },
   "197138": {
    "title": "Какого чёрта?",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-28T05:26:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:26:29Z",
-   "last_lpn": 24,
-   "last_cc": 23,
-   "checks": 1,
+   "last_lpn": 28,
+   "last_cc": 27,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T05:40:33Z"
+   "last_checked": "2026-10-28T05:56:49Z"
   },
   "197141": {
    "title": "Мамонт недели",
@@ -43,9 +43,11 @@
    "discovered_at": "2026-10-28T05:40:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:40:29Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 0
+   "last_lpn": 24,
+   "last_cc": 24,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T05:56:51Z"
   },
   "197140": {
    "title": "Чего брать на талоны?",
@@ -56,9 +58,11 @@
    "discovered_at": "2026-10-28T05:40:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:40:29Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 0
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T05:56:52Z"
   }
  },
  "graduated": {
