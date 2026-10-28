@@ -4,66 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197174": {
-   "title": "А что с ценой",
-   "slug": "197174-a-chto-s-tsenoy",
-   "createdAt": "2026-10-28T10:37:19+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T10:40:38Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T12:40:13Z",
-   "last_lpn": 37,
-   "last_cc": 37,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-28T12:25:45Z"
-  },
-  "197173": {
-   "title": "Ну хоть смешно и не критично",
-   "slug": "197173-nu-hot-smeshno-i-ne-kritichno",
-   "createdAt": "2026-10-28T10:31:08+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T10:40:38Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T12:40:13Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-28T12:25:46Z"
-  },
-  "197172": {
-   "title": "Так называемый ивент",
-   "slug": "197172-tak-nazyvaemyy-ivent",
-   "createdAt": "2026-10-28T10:30:20+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T10:40:38Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T12:40:13Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 2,
-   "fails": 0,
-   "last_checked": "2026-10-28T12:25:48Z"
-  },
-  "197171": {
-   "title": "Награды какащк ",
-   "slug": "197171-nagrady-kakaschk",
-   "createdAt": "2026-10-28T10:29:10+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T10:40:38Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T12:40:13Z",
-   "last_lpn": 20,
-   "last_cc": 20,
-   "checks": 2,
-   "fails": 0,
-   "last_checked": "2026-10-28T12:25:50Z"
-  },
   "197179": {
    "title": "И что это? (апдейт 28.10.26)",
    "slug": "197179-i-chto-eto-apdeyt-281026",
@@ -75,9 +15,9 @@
    "until_ts": "2026-10-28T12:55:14Z",
    "last_lpn": 27,
    "last_cc": 26,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T12:25:52Z"
+   "last_checked": "2026-10-28T12:40:29Z"
   },
   "197178": {
    "title": "Эксбо, введите реран маст обвесов!",
@@ -90,9 +30,9 @@
    "until_ts": "2026-10-28T12:55:14Z",
    "last_lpn": 13,
    "last_cc": 12,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T12:25:54Z"
+   "last_checked": "2026-10-28T12:40:31Z"
   },
   "197177": {
    "title": "Награды за лиги и ивент магазин",
@@ -105,9 +45,9 @@
    "until_ts": "2026-10-28T12:55:14Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T12:25:55Z"
+   "last_checked": "2026-10-28T12:40:33Z"
   },
   "197176": {
    "title": "Я СВОБОДЕН",
@@ -120,9 +60,9 @@
    "until_ts": "2026-10-28T12:55:14Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T12:25:57Z"
+   "last_checked": "2026-10-28T12:40:34Z"
   },
   "197175": {
    "title": "Когда награды за кАлизей",
@@ -135,9 +75,9 @@
    "until_ts": "2026-10-28T12:55:14Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T12:25:58Z"
+   "last_checked": "2026-10-28T12:40:36Z"
   },
   "197182": {
    "title": "Вопрос к бывалым ",
@@ -150,9 +90,9 @@
    "until_ts": "2026-10-28T13:13:27Z",
    "last_lpn": 15,
    "last_cc": 15,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T12:26:00Z"
+   "last_checked": "2026-10-28T12:40:38Z"
   },
   "197181": {
    "title": "Скип ивента получается",
@@ -165,9 +105,9 @@
    "until_ts": "2026-10-28T13:13:27Z",
    "last_lpn": 16,
    "last_cc": 16,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T12:26:02Z"
+   "last_checked": "2026-10-28T12:40:39Z"
   },
   "197184": {
    "title": "Гем/кредит ?",
@@ -178,11 +118,11 @@
    "discovered_at": "2026-10-28T11:25:43Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T13:25:18Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 1,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T12:26:04Z"
+   "last_checked": "2026-10-28T12:40:41Z"
   },
   "197183": {
    "title": "Ивент",
@@ -193,9 +133,11 @@
    "discovered_at": "2026-10-28T11:25:43Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T13:25:18Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 21,
+   "last_cc": 21,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:40:43Z"
   },
   "197185": {
    "title": "Где награда за ОТС \"Празднества\" ?",
@@ -208,7 +150,9 @@
    "until_ts": "2026-10-28T13:40:07Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:40:45Z"
   },
   "197187": {
    "title": "Я хочу, чтобы вы посмотрели...",
@@ -219,7 +163,22 @@
    "discovered_at": "2026-10-28T12:10:34Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T14:10:10Z",
-   "last_lpn": 11,
+   "last_lpn": 19,
+   "last_cc": 17,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:40:47Z"
+  },
+  "197188": {
+   "title": "ваш профиль",
+   "slug": "197188-vash-profil",
+   "createdAt": "2026-10-28T12:27:34+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T12:40:49Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T14:40:27Z",
+   "last_lpn": 9,
    "last_cc": 9,
    "checks": 0
   }
@@ -3125,6 +3084,74 @@
    "last_checked": "2026-10-28T12:10:18Z",
    "graduated_at": "2026-10-28T12:25:43Z",
    "checks_done": 7
+  },
+  "197171": {
+   "title": "Награды какащк ",
+   "slug": "197171-nagrady-kakaschk",
+   "createdAt": "2026-10-28T10:29:10+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:40:38Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:40:13Z",
+   "last_lpn": 20,
+   "last_cc": 20,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:25:50Z",
+   "graduated_at": "2026-10-28T12:40:27Z",
+   "checks_done": 2
+  },
+  "197172": {
+   "title": "Так называемый ивент",
+   "slug": "197172-tak-nazyvaemyy-ivent",
+   "createdAt": "2026-10-28T10:30:20+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:40:38Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:40:13Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:25:48Z",
+   "graduated_at": "2026-10-28T12:40:27Z",
+   "checks_done": 2
+  },
+  "197173": {
+   "title": "Ну хоть смешно и не критично",
+   "slug": "197173-nu-hot-smeshno-i-ne-kritichno",
+   "createdAt": "2026-10-28T10:31:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:40:38Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:40:13Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:25:46Z",
+   "graduated_at": "2026-10-28T12:40:27Z",
+   "checks_done": 6
+  },
+  "197174": {
+   "title": "А что с ценой",
+   "slug": "197174-a-chto-s-tsenoy",
+   "createdAt": "2026-10-28T10:37:19+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:40:38Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:40:13Z",
+   "last_lpn": 37,
+   "last_cc": 37,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:25:45Z",
+   "graduated_at": "2026-10-28T12:40:27Z",
+   "checks_done": 6
   }
  }
 }
