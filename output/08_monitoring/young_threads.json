@@ -13,9 +13,11 @@
    "discovered_at": "2026-10-28T05:26:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:26:29Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T05:40:31Z"
   },
   "197138": {
    "title": "Какого чёрта?",
@@ -26,8 +28,36 @@
    "discovered_at": "2026-10-28T05:26:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:26:29Z",
-   "last_lpn": 20,
-   "last_cc": 19,
+   "last_lpn": 24,
+   "last_cc": 23,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T05:40:33Z"
+  },
+  "197141": {
+   "title": "Мамонт недели",
+   "slug": "197141-mamont-nedeli",
+   "createdAt": "2026-10-28T05:29:10+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T05:40:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T07:40:29Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 0
+  },
+  "197140": {
+   "title": "Чего брать на талоны?",
+   "slug": "197140-chego-brat-na-talony",
+   "createdAt": "2026-10-28T05:27:45+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T05:40:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T07:40:29Z",
+   "last_lpn": 10,
+   "last_cc": 10,
    "checks": 0
   }
  },
