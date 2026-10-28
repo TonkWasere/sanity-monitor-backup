@@ -627,3 +627,7 @@
 - 2026-10-28T08:26:50Z snap15 197150 «Ну чё, пацаны, вайбкод?» lpn/cc 40/39→83/82: +43
 - 2026-10-28T08:26:52Z snap15 197152 «Слив наград за рейтинг » lpn/cc 11/11→14/14: +3
 - 2026-10-28T08:26:54Z snap15 197153 RECONCILE-ADD «долг говно бесполезное!!!!11!!!» createdAt 2026-10-28T08:24:03+00:00 lpn/cc 4/4 → young(2h)
+- 2026-10-28T08:37:28Z snap35 NEW 197157 «Прицелы (мастерские)» OP Lord_Floppa createdAt 2026-10-28T08:35:00+00:00 lpn/cc 5/5 → young(2h)
+- 2026-10-28T08:37:30Z snap35 NEW 197156 «Прицелы » OP Lord_Floppa createdAt 2026-10-28T08:34:29+00:00 lpn/cc 4/4 → young(2h)
+- 2026-10-28T08:37:31Z snap35 NEW 197155 «Прицелы » OP Lord_Floppa createdAt 2026-10-28T08:33:09+00:00 lpn/cc 5/5 → young(2h)
+- 2026-10-28T08:37:33Z snap35 NEW 197154 «Прицелы » OP Lord_Floppa createdAt 2026-10-28T08:32:41+00:00 lpn/cc 4/4 → young(2h)
