@@ -4,4 +4,17 @@ PAT_VAULT_LOCAL*
 .next/
 tools/__pycache__/
 video_tmp/
-video_tmp/
+# WIPE-45 aftermath (54-331): untracked-мусор, ронявший git add -A (35k файлов) и secret_guard (OOM)
+backup_home_root_20261002/
+mini-services/
+examples/
+.zscripts/
+mega-dl-tmp.mjs
+mega-dl.mjs
+# permission-denied каталоги для процесса агента (нечитаемы — не могут коммититься)
+output/evidence_video/
+output/tools/
+output/sanity_sources_stage/
+tests/
+# массивные старые снап-хранилища вне evidence_post (никогда не коммичены, 30k+ файлов)
+output/02_api_snapshots/
