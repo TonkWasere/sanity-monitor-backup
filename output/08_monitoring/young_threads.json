@@ -173,6 +173,19 @@
    "last_lpn": 5,
    "last_cc": 5,
    "checks": 0
+  },
+  "197217": {
+   "title": "Рекламные интеграции во время игры ",
+   "slug": "197217-reklamnye-integratsii-vo-vremya-igry",
+   "createdAt": "2026-10-28T16:36:55+00:00",
+   "op_user": "Laska1",
+   "stm": false,
+   "discovered_at": "2026-10-28T16:40:25Z",
+   "source": "snap35",
+   "until_ts": "2026-10-28T18:40:25Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
