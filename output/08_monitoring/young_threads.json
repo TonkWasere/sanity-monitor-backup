@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-28T01:40:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T03:40:17Z",
-   "last_lpn": 20,
-   "last_cc": 20,
-   "checks": 4,
+   "last_lpn": 24,
+   "last_cc": 24,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T03:10:16Z"
+   "last_checked": "2026-10-28T03:26:58Z"
   },
   "197133": {
    "title": "Рейтинговый сезон колизея-ПРОВАЛ",
@@ -31,7 +31,7 @@
    "last_lpn": 1,
    "last_cc": 1,
    "checks": 0,
-   "fails": 3,
+   "fails": 4,
    "last_error": "404"
   },
   "197135": {
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-28T04:41:27Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T03:10:19Z"
+   "last_checked": "2026-10-28T03:27:03Z"
   },
   "197137": {
    "title": "Снова неделю ждать награды за колизей ",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-28T03:01:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T05:01:31Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 1,
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T03:10:20Z"
+   "last_checked": "2026-10-28T03:27:05Z"
   },
   "197136": {
    "title": "Кто украл мой рейтинг",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-28T05:01:31Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T03:10:22Z"
+   "last_checked": "2026-10-28T03:27:06Z"
   }
  },
  "graduated": {
