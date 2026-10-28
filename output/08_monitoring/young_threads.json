@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197135": {
-   "title": "Рейтинговый сезон колизея-ПРОВАЛ",
-   "slug": "197135-reytingovyy-sezon-kolizeya-proval",
-   "createdAt": "2026-10-28T02:18:45+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T02:41:33Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T04:41:27Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-28T04:40:10Z"
-  },
   "197137": {
    "title": "Снова неделю ждать награды за колизей ",
    "slug": "197137-snova-nedelyu-zhdat-nagrady-za-kolizey",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-10-28T03:01:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T05:01:31Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 7,
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-28T04:40:11Z"
+   "last_checked": "2026-10-28T04:56:36Z"
   },
   "197136": {
    "title": "Кто украл мой рейтинг",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-28T05:01:31Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-28T04:40:13Z"
+   "last_checked": "2026-10-28T04:56:38Z"
   }
  },
  "graduated": {
@@ -2407,6 +2392,23 @@
    "last_error": "404",
    "graduated_at": "2026-10-28T04:26:26Z",
    "checks_done": 0
+  },
+  "197135": {
+   "title": "Рейтинговый сезон колизея-ПРОВАЛ",
+   "slug": "197135-reytingovyy-sezon-kolizeya-proval",
+   "createdAt": "2026-10-28T02:18:45+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T02:41:33Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T04:41:27Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-28T04:40:10Z",
+   "graduated_at": "2026-10-28T04:56:34Z",
+   "checks_done": 8
   }
  }
 }
