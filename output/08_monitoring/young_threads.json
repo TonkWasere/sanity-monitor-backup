@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197187": {
-   "title": "Я хочу, чтобы вы посмотрели...",
-   "slug": "197187-ya-hochu-chtoby-vy-posmotreli",
-   "createdAt": "2026-10-28T11:49:45+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T12:10:34Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T14:10:10Z",
-   "last_lpn": 25,
-   "last_cc": 23,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-28T13:55:11Z"
-  },
   "197188": {
    "title": "ваш профиль",
    "slug": "197188-vash-profil",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-10-28T12:40:49Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T14:40:27Z",
-   "last_lpn": 20,
-   "last_cc": 20,
-   "checks": 4,
+   "last_lpn": 32,
+   "last_cc": 32,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T13:55:13Z"
+   "last_checked": "2026-10-28T14:25:21Z"
   },
   "197191": {
    "title": "Журнал со снегуркой в профиль ",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-28T14:57:41Z",
    "last_lpn": 19,
    "last_cc": 19,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T13:55:15Z"
+   "last_checked": "2026-10-28T14:25:23Z"
   },
   "197189": {
    "title": "Мега новый квест",
@@ -60,9 +45,9 @@
    "until_ts": "2026-10-28T14:57:41Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T13:55:17Z"
+   "last_checked": "2026-10-28T14:25:25Z"
   },
   "197180": {
    "title": "Когда добавят смену ника в игре?",
@@ -75,9 +60,9 @@
    "until_ts": "2026-10-28T14:57:41Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T13:55:19Z"
+   "last_checked": "2026-10-28T14:25:26Z"
   },
   "197194": {
    "title": "а у скорпа точно только 0.1 забрали?",
@@ -88,11 +73,11 @@
    "discovered_at": "2026-10-28T13:19:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:19:01Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 2,
+   "last_lpn": 21,
+   "last_cc": 21,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T13:55:21Z"
+   "last_checked": "2026-10-28T14:25:28Z"
   },
   "197193": {
    "title": "А что с наградами?",
@@ -103,11 +88,11 @@
    "discovered_at": "2026-10-28T13:19:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:19:01Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 2,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T13:55:23Z"
+   "last_checked": "2026-10-28T14:25:30Z"
   },
   "197192": {
    "title": "Кейсы",
@@ -120,9 +105,9 @@
    "until_ts": "2026-10-28T15:19:01Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T13:55:24Z"
+   "last_checked": "2026-10-28T14:25:32Z"
   },
   "197195": {
    "title": "А где праздник и награды ?",
@@ -133,11 +118,11 @@
    "discovered_at": "2026-10-28T13:25:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:25:06Z",
-   "last_lpn": 24,
-   "last_cc": 24,
-   "checks": 1,
+   "last_lpn": 39,
+   "last_cc": 39,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T13:55:26Z"
+   "last_checked": "2026-10-28T14:25:34Z"
   },
   "197200": {
    "title": "???",
@@ -148,9 +133,11 @@
    "discovered_at": "2026-10-28T13:55:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:55:09Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T14:25:36Z"
   },
   "197199": {
    "title": "Арена гангрена",
@@ -161,9 +148,11 @@
    "discovered_at": "2026-10-28T13:55:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:55:09Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T14:25:38Z"
   },
   "197197": {
    "title": "Арена Метрополита. Первые впечатления после трёх матчей",
@@ -174,9 +163,11 @@
    "discovered_at": "2026-10-28T13:55:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:55:09Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 0
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T14:25:39Z"
   },
   "197196": {
    "title": "Забыли добавить адекватные различия краске за 10% и топ-240",
@@ -189,7 +180,9 @@
    "until_ts": "2026-10-28T15:55:09Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T14:25:41Z"
   },
   "197190": {
    "title": "🎬 Твой клип, твои правила, твои трофеи",
@@ -202,6 +195,32 @@
    "until_ts": "2026-10-28T15:55:09Z",
    "last_lpn": 5,
    "last_cc": 4,
+   "checks": 0
+  },
+  "197202": {
+   "title": "Магазин 5.45 (награды ивента)",
+   "slug": "197202-magazin-545-nagrady-iventa",
+   "createdAt": "2026-10-28T14:23:35+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T14:25:44Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T16:25:19Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
+  },
+  "197201": {
+   "title": "Шансы выпадение на уровнях магазины",
+   "slug": "197201-shansy-vypadenie-na-urovnyah-magaziny",
+   "createdAt": "2026-10-28T14:11:17+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T14:25:44Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T16:25:19Z",
+   "last_lpn": 1,
+   "last_cc": 1,
    "checks": 0
   }
  },
@@ -3344,6 +3363,23 @@
    "last_checked": "2026-10-28T13:25:11Z",
    "graduated_at": "2026-10-28T13:55:09Z",
    "checks_done": 4
+  },
+  "197187": {
+   "title": "Я хочу, чтобы вы посмотрели...",
+   "slug": "197187-ya-hochu-chtoby-vy-posmotreli",
+   "createdAt": "2026-10-28T11:49:45+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T12:10:34Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T14:10:10Z",
+   "last_lpn": 25,
+   "last_cc": 23,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-28T13:55:11Z",
+   "graduated_at": "2026-10-28T14:25:19Z",
+   "checks_done": 5
   }
  }
 }
