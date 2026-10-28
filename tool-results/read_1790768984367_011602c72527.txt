@@ -1,0 +1,658 @@
+     1→# STALZONE (Steam, AppID 1818450) — Patch Notes [30.09.2026] — полный текст патчноута
+     2→
+     3→- Steam-игра: **STALZONE** (dev/publisher **EXBO**) — идентификатор, соответствующий STALCRAFT: X (обоснование: 13b_appid.txt)
+     4→- Заголовок: **Patch Notes [30.09.2026]**
+     5→- Дата публикации: **2026-09-30 08:30:31 UTC**
+     6→- Канонический URL: https://steamcommunity.com/games/1818450/announcements/detail/708910525152493611
+     7→- URL из API (externalpost-зеркало): https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656376749
+     8→- GID: 1845383656376749 | Автор: oh_yeah | Источник: Community Announcements
+     9→- Язык: английский — API-запросы `l=russian` и `l=english` возвращают побайтно одинаковый текст (2026-09-30 08:30:31 UTC)
+    10→- Формат оригинала: BBCode Steam Community Announcement; числовые таблицы — ТЕКСТ (BBCode [table]), не картинки. Баннеры-скриншоты `{STEAM_CLAN_IMAGE}/41581512/*.png` оставлены как есть и помечены `![screenshot]`.
+    11→- Объём исходника: 31223 символов BBCode. Извлечено 2026-09-30 ~11:30 UTC агентом 13-b (только GET-запросы).
+    12→
+    13→---
+    14→
+    15→![screenshot]({STEAM_CLAN_IMAGE}/41581512/237f92facdbf44ba70bfc1b09d60c1bdc25374ca.png)
+    16→
+    17→## Content
+    18→
+    19→- Ticketopia Event
+    20→- End of Electrostorm
+    21→- Working Man’s Cut on NA server
+    22→- 1000 level style — Air Seller
+    23→- New quest — Shock wave
+    24→- Economy, rewards and progression
+    25→- Modification window update
+    26→- Making Safe Zone more lively
+    27→- Balance changes
+    28→- Other changes and fixes
+    29→
+    30→## Ticketopia Event
+    31→
+    32→![screenshot]({STEAM_CLAN_IMAGE}/41581512/a9fbab5406ab5493254a1eab1edbd05220fd90fa.png)
+    33→
+    34→In autumn, not only leaves fall from the trees, but also Act Tickets, which can be obtained for PvE challenges or for challenges in the Coliseum. The event will run from October 14 to 28.
+    35→
+    36→There will be 16 challenges in the event, 8 for each format. You can complete them in any combination: either 8 in PvE, or 8 in the Coliseum, or 4 and 4.
+    37→
+    38→#### Locations to complete PvE challenges
+    39→
+    40→They are only available in the North, Wild North and Lyubech-3. Challenges will not be completed in the peaceful South. Also, the reward does not depend on the selected location.
+    41→
+    42→#### What challenges will there be
+    43→
+    44→- PvE: only open-world activities not tied to direct competition with other players. Outposts, airdrops, and installations in the Wild North do not count.
+    45→- Coliseum: destroying enemy squads, capturing installations, activating rifts, and other tasks.
+    46→
+    47→The remaining challenges will be announced when the event begins.
+    48→
+    49→#### Rewards
+    50→
+    51→For each completed challenge, a small reward is given. Larger rewards are granted for reaching certain milestones of completed challenges:
+    52→
+    53→- 2 challenges: 100 Act Tickets
+    54→- 4 challenges: 150 Act Tickets
+    55→- 6 challenges: Veil style for Albatross Interceptor.
+    56→
+    57→![screenshot]({STEAM_CLAN_IMAGE}/41581512/ed413b6d3ad14b1b6d1736cec72067dc8d891111.png)
+    58→
+    59→- 8 challenges: 250 Act Tickets
+    60→
+    61→To claim the main prizes, you only need to complete any 8 out of 16 challenges, freely mixing both formats.
+    62→
+    63→## End of Electrostorm
+    64→
+    65→The event has come to an end. The styles that were obtainable during the event can now be sold to Zen in exchange for season currency.
+    66→
+    67→## Working Man’s Cut on NA server
+    68→
+    69→Honest workers deserve honest rewards. A new event where ordinary North hard workers can get everything they're owed for the work they do every day.
+    70→
+    71→At Mines, Inflow, Black Detour and Reflection events yield 20% more income — signals and stashes appear 20% more frequently as well. And don't forget about deliveries: even light cargo is valued three times higher.
+    72→
+    73→Challenges can only be completed at Mines, Inflow, Black Detour and Reflection.
+    74→
+    75→![screenshot]({STEAM_CLAN_IMAGE}/41581512/699b46c88139282efe897fe430fb2118387b1340.png)
+    76→
+    77→Completing challenges rewards you with anomalous serum and other valuable resources. This event is planned to run regularly, and your activity and feedback can influence this.
+    78→
+    79→## 1000 level style — Air Seller
+    80→
+    81→![screenshot]({STEAM_CLAN_IMAGE}/41581512/48ad7774614fe63d06512b7500b7f65cdf78c87c.png)
+    82→
+    83→It's unknown how much the crafter loved Belyaev's books, but that's exactly what he named his creation.
+    84→
+    85→The gun reliably produces an air base, enough to subdue enemies without using gunpowder. Those lucky ones who held it says it coughs slightly — something the gunsmith always denies.
+    86→
+    87→## New quest — Shock wave
+    88→
+    89→Gunfire can be heard near the base — right at the walls! Who could it be? The answer to this question will drag you into a whirlwind of industrial espionage and intrigues among the big players. And as everyone knows, the most unpleasant secrets are hidden under the biggest carpet. Like what happened at Forge-11 when the sky began to fall...
+    90→
+    91→## Economy, rewards and progression
+    92→
+    93→We've reworked the reward system and economy to make progression across locations more tangible and strengthen the position of the Faction North. Certain activities have also received a significant reward buff.
+    94→
+    95→**Now you're farming more than before. **Here's why:
+    96→
+    97→Previously, inventories got clogged with junk — small items took up space and were worth almost nothing.
+    98→
+    99→According to the analytics data, players did not claim nearly half of the event rewards due to their low value and excess inventory space.
+   100→
+   101→We've reworked rewards on the Faction North, aligning them ideologically with Wild North rewards. Fillers now take up less space and are worth more — the value of a player's inventory relative to its weight has increased.
+   102→
+   103→**Let's show the numbers using Mines as an example: **
+   104→
+   105→Let’s say you came to a location and cleared 100 events: previously, just under half of the items awarded as rewards for clearing events were of extremely low value. As a result, receiving them was often seen more as a burden than a useful reward: players frequently sent such items to the Trash to avoid taking up inventory space.
+   106→
+   107→With the update to the reward pool, the value of the items awarded will increase, making it worthwhile for players to collect each one.
+   108→
+   109→The tables below show the results of our calculations for two scenarios: under current player behavior, where low-value items are not collected, and after the reward system is changed, when players will collect all awarded items.
+   110→
+   111→**Mutants** — previously loot occupied 66 inventory slots and was worth 152 thousand. Now it takes 49 slots and is worth 351 thousand. Less space, more money.
+   112→
+   113→|  | **Inventory slots ** | **Weight, kg ** | **Price, thousands** |
+   114→| --- | --- | --- | --- |
+   115→| All spots | 66 → 49 | 47 → 80 | 152 → 352 |
+   116→
+   117→**Faction events — **was 89 slots and 263 thousand, now 73 slots and 407 thousand.** **
+   118→
+   119→|  | **Inventory slots** | **Weight, kg** | **Price, thousands** |
+   120→| --- | --- | --- | --- |
+   121→| Without jackpot | 89 → 73 | 87 → 88 | 263 → 407 |
+   122→| With jackpot | 89 → 75 | 87 → 90 | 263 → 430 |
+   123→
+   124→**Caches**
+   125→
+   126→|  | **Inventory slots** | **Weight, kg** | **Price, thousands** |
+   127→| --- | --- | --- | --- |
+   128→| Without jackpot | 51 → 24 | 31 → 22 | 44 → 81 |
+   129→| With jackpot | 50 → 27 | 30 → 27 | 44 → 109 |
+   130→
+   131→Caches changes are additionally described below.
+   132→
+   133→**Important**: We will also update the randomization of final rewards for event clearing in the near future. The current system is outdated and sometimes leads to situations where players receive unreasonably low rewards for completing difficult events. After the update, you will always receive 100% of the base reward, with a chance to get an increased amount.
+   134→
+   135→#### Compensation
+   136→
+   137→Since the price of Fighter Tokens and PDA with Data has changed, these items will be removed from inventories and compensated in rubles:
+   138→
+   139→- 140 ₽ for each fighter token;
+   140→- 5 000 ₽ for each PDA with data.
+   141→
+   142→---
+   143→
+   144→### Loot pool changes
+   145→
+   146→We've split item groups so they match progression across locations.
+   147→
+   148→**Southern locations now drop:**
+   149→
+   150→| **Events with NPCs** | **Events with mutants** | **Events with installation and proto-discharge clusters** |
+   151→| --- | --- | --- |
+   152→| Pocket money | Hair ball | Small artifact fragment |
+   153→| Cigarettes | Broken claw | Common artifact fragment |
+   154→| Toilet paper | Mutant's tooth | Large artifact fragment |
+   155→| Lighter | Mutant's skin | Huge artifact fragment |
+   156→| Rubik's cube | Mutant's bone |  |
+   157→| Filter | Mutant's intestines |  |
+   158→
+   159→**The Faction North retains more expensive items and introduces new ones:**
+   160→
+   161→| **Events with NPCs** | **Events with mutants** | **Events with installation and proto-discharge clusters** |
+   162→| --- | --- | --- |
+   163→| Replacement battery | Strange crest | Samples |
+   164→| Expensive cigarettes | Mutant's spleen | Detector components |
+   165→| PDA with data | Mutant's heart |  |
+   166→| New item: Antiseptic | New item: Bezoar |  |
+   167→| New item: Equipment fragments | New item: Lymph |  |
+   168→
+   169→---
+   170→
+   171→### Changes to item characteristics
+   172→
+   173→We've reviewed the weight, stack size, and price of several items to better fit the new economy.
+   174→
+   175→| **Item name** | **Max. stack (before → now)** | **Weight (before → now)** | **Price** |
+   176→| --- | --- | --- | --- |
+   177→| Strange crest | 2 → 7 | 0.4 → 0.25 | Unchanged |
+   178→| Mutant's spleen | 1 → 2 | 0.8 → 0.55 | Unchanged |
+   179→| Mutant's heart | 1 → 4 | 0.6 → 0.55 | Unchanged |
+   180→| Replacement battery | 2 → 7 | 0.5 → 0.3 | Unchanged |
+   181→| Expensive cigarettes | 2 → 3 | 0.3 → 0.28 | Unchanged |
+   182→| PDA with data | 2 → 1 | 1.5 → 2.0 | 10 000 |
+   183→| Fighter tokens | 100 → 100 | 0.2 → 0.08 | 1 400 |
+   184→| Failsafe | 8 → 50 | 0.05 → 0.02 | Unchanged |
+   185→| Triac | 6 → 25 | 0.1 → 0.04 | Unchanged |
+   186→| Resonator | 6 → 20 | 0.1 → 0.05 | Unchanged |
+   187→| Thermistor | 8 → 10 | 0.2 → 0.08 | Unchanged |
+   188→| Copper coil | 7 → 12 | 0.3 → 0.12 | Unchanged |
+   189→| Transformer | 4 → 10 | 0.3 → 0.12 | Unchanged |
+   190→| Solenoid | 2 → 8 | 0.4 → 0.2 | Unchanged |
+   191→
+   192→---
+   193→
+   194→### Locations and events
+   195→
+   196→#### Caches and Jackpots
+   197→
+   198→- The total reward for all caches in the Faction North increased by **75%**.
+   199→- In the chaches of Faction North, there is a small chance of finding a **Lithium Reactor** (15 000 ₽).
+   200→- When clearing faction events, you may receive **Laptop with Data** (50 000 ₽).
+   201→
+   202→*The more dangerous the location and event, the higher the chance of finding these items.*
+   203→
+   204→#### Wild North
+   205→
+   206→- Murmur Psy-Emitter now drops as an additional reward for clearing any Murmur event in the Wild North. The chance of dropping depends on the difficulty of the event.
+   207→- When you defeat a Ghoul in the Wild North, you now receive **Strong Ghoul's Tentacle** (previously Ghoul's Tentacle).
+   208→
+   209→#### Faction crates
+   210→
+   211→- The average total prize amount in rubles per crate increased by **30%**.
+   212→- **Removed from the crates:** armor-piercing rounds (5.45, 5.56, 7.62, 12.7 mm), incendiary rounds (5.45, 5.56, 9, 7.62 mm), Analog components, and Changedust.
+   213→
+   214→#### Outposts
+   215→
+   216→**Rewards for participating in the capture of the Outpost:**
+   217→
+   218→| **Roadside** | **Faction North (Mines, Inflow)** |
+   219→| --- | --- |
+   220→| Pocket Money | Equipment parts / PDA components |
+   221→|  | Fighter Tokens |
+   222→
+   223→#### Signal dungeons
+   224→
+   225→- Rewards for Rare, Exclusive, and Legendary dungeons updated to reflect the current progression.
+   226→- The reward pool in the Wild North is completely updated: you can no longer find items there that are supposed to drop only in the South.
+   227→
+   228→---
+   229→
+   230→### Arsenal
+   231→
+   232→**Arsen began accepting new goods:**
+   233→
+   234→| **Item** | **Reputation** |
+   235→| --- | --- |
+   236→| Antiseptic | 2 |
+   237→| Fighter Tokens | 2 |
+   238→| Lymph | 3 |
+   239→| Replacement Battery | 4 |
+   240→| Expensive Cigarettes | 5 |
+   241→| Detector components | 6 |
+   242→| Mutant's Heart | 7 |
+   243→
+   244→**The following items will be removed from sale at the start of the winter season:** Filter, Small/Common/Large/Huge Artifact Fragment, Mutant's Bone, Crate of Parts, Laptop, Small/Common/Big Crate of Rations, Box of Spare Parts.
+   245→
+   246→---
+   247→
+   248→### Other changes
+   249→
+   250→**Artist's Vision task changes** The requirements are now for more advanced trophies:
+   251→
+   252→- Before: Mutant's Bone (1), Broken Claw (3), Hair Ball (7).
+   253→- *Now:* Strange Crest (2), Mutants Spleen (2), Mutant's Heart (2).
+   254→
+   255→## Coliseum adjustments
+   256→
+   257→#### Balance changes
+   258→
+   259→**Tranquilizer**
+   260→
+   261→- Hip-fire spread: 2 → 15
+   262→- Draw time: 150 ms → 300 ms
+   263→- Holster time: 100 ms → 200 ms
+   264→- Aiming time: 150 ms → 250 ms
+   265→- Movement spread modifier: 1.2 → 2
+   266→- Swaying is increased by 2 times
+   267→
+   268→#### Respawn and respawn markers
+   269→
+   270→- Improved respawn via marker. Increased the area where the marker determines the respawn location.
+   271→- Abilities and their cooldown times are now retained when you respawn via a marker or token. When reconnecting to the match, they are still reset.
+   272→- Fixed a bug where abilities were reset while waiting to respawn, right before respawning at the marker.
+   273→- Added new sounds for respawn markers.
+   274→
+   275→#### Match confirmation screen
+   276→
+   277→- Updated the Coliseum match confirmation screen. Now you can see your marker, the player classes highlighted in different colors, and the ready icon.
+   278→- Fixed bugs related to the display of stakes and the selection of class icons.
+   279→
+   280→#### Map and interface
+   281→
+   282→- Health bars and ally markers are now smaller.
+   283→- The markers for players who are far away are now displayed differently.
+   284→- Icons now scale, and when you hover over Rift and Installation, their transparency changes smoothly.
+   285→- Fixed a bug where the healing interface remained on the screen after death.
+   286→
+   287→#### Gameplay and objects
+   288→
+   289→- Auras are no longer interrupted when switching items.
+   290→- Fixed the display of character outlines when under the invisibility effect.
+   291→- The collision area around the batteries is reduced. Collisions while walking have been disabled for experimental charges, and you can now walk through them.
+   292→- Fixed a bug related to the selection of markers, batteries, and charges.
+   293→
+   294→## Modification window update
+   295→
+   296→Reworked modification window: you can now modify your equipped gear without having to unequip it.![screenshot]({STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png)
+   297→
+   298→![screenshot]({STEAM_CLAN_IMAGE}/41581512/19a045b3fe00ee3e6f23d6de06eb2bc101ed7f9d.png)![screenshot]({STEAM_CLAN_IMAGE}/41581512/5c03e58d78426b49b5cfea20661fd3c2c5f4e8ca.png)
+   299→
+   300→## Making Safe Zone more lively
+   301→
+   302→We're continuing to work on refreshing NPCs in save zones. Fire Station, Village School, and the Digger bases were reworked, and Ataman's HQ and the Boathouse were supplemented.
+   303→
+   304→Now the NPCs have more activities of their own: some are cooking, working in the warehouse or workshop, some are guarding the base and patrolling the surrounding area, and others are passing the time playing the guitar. Safe zones are gradually turning into places that are truly bustling with life: stalkers work, relax, socialize, and go about their business.
+   305→
+   306→▶ Встроенное YouTube-видео: https://www.youtube.com/watch?v=BQl4-_tCukE
+   307→
+   308→## Balance changes
+   309→
+   310→### Melee weapon
+   311→
+   312→**Main change:** removed the spread of damage values. Melee weapon damage is now fixed.
+   313→
+   314→#### Complete list of final damage values
+   315→
+   316→| **Weapon** | **Quick attack** | **Common attack** | **Strong attack** |
+   317→| --- | --- | --- | --- |
+   318→| Hunter's Knife | 35 | 38 | 82 |
+   319→| Object 6x4 | 25 | 28 | 60 |
+   320→| Crowbar | 57 | 75 | 84 |
+   321→| OTs-04 | 30 | 40 | 108 |
+   322→| Glock Feldmesser 78 | 28 | 38 | 101 |
+   323→| Gerber Downrange Tomahawk | 77 | 79 | 113 |
+   324→| KO-1 | 24 | 32 | 84 |
+   325→| Kurkri | 54 | 68 | 113 |
+   326→| Jagdkommando | 32 | 43 | 115 |
+   327→| Sapper’s Shovel | 40 | 52 | 74 |
+   328→| Tanto with a Ring | 36 | 48 | 123 |
+   329→| Hunter's Machete | 40 | 55 | 101 |
+   330→| Russian Bayonet | 30 | 49 | 106 |
+   331→| Ice Pick | 28 | 38 | 101 |
+   332→| Hatchet | 46 | 46 | 66 |
+   333→| Hammer | 29 | 39 | 65 |
+   334→| EMChes Machete | 43 | 54 | 90 |
+   335→| M9 Bayonet | 44 | 48 | 105 |
+   336→| M48 Tomahawk | 69 | 71 | 101 |
+   337→| Telescopic Baton | 42 | 56 | 93 |
+   338→| Nail Bat | 46 | 61 | 103 |
+   339→| Aluminum Club | 46 | 61 | 103 |
+   340→| Cleaver | 36 | 50 | 91 |
+   341→| Survival SP8 Ontario Machete | 40 | 55 | 102 |
+   342→| Piece of Pipe | 27 | 36 | 96 |
+   343→| Old Sickle | 28 | 36 | 61 |
+   344→| Razor | 47 | 63 | 136 |
+   345→| Frost Razor | 52 | 69 | 149 |
+   346→| Fire Razor | 47 | 63 | 136 |
+   347→| Acid Razor | 47 | 63 | 136 |
+   348→| Cauterizer | 44 | 62 | 114 |
+   349→| Shiv | 34 | 45 | 127 |
+   350→| Icy Kukri | 48 | 60 | 100 |
+   351→| Frozen Ice Pick | 28 | 38 | 101 |
+   352→| Military Stalkers' Cleaver | 38 | 57 | 151 |
+   353→| Twitcher | 44 | 60 | 105 |
+   354→| 6x9 Knife | 27 | 30 | 65 |
+   355→| UVSR | 48 | 60 | 100 |
+   356→| NR-43 | 28 | 38 | 101 |
+   357→| Diversionary Knife | 28 | 38 | 67 |
+   358→| Claw Karambit | 36 | 48 | 123 |
+   359→| Spiked Club | 42 | 56 | 93 |
+   360→| Cryomancer | 44 | 62 | 114 |
+   361→| Swamp Dweller's Friend | 27 | 30 | 65 |
+   362→| Classic M9 | 36 | 43 | 135 |
+   363→| Butcher's Knife | 51 | 68 | 91 |
+   364→| Reverse-Grip Knife | 40 | 54 | 90 |
+   365→| Corrosive Saw | 48 | 60 | 100 |
+   366→| Flesh-tearer | 51 | 68 | 91 |
+   367→| Butcher's Hook | 28 | 36 | 97 |
+   368→| Icicle (option 1) | 12 | 16 | 41 |
+   369→| Icicle (option 2) | 23 | 31 | 81 |
+   370→| Phantom's Knife | 25 | 28 | 60 |
+   371→| Fists | 17 | 23 | 54 |
+   372→| Ritual Hatchet | 63 | 64 | 92 |
+   373→| Fiery Greeting | 27 | 36 | 85 |
+   374→| Bone Knife | 40 | 55 | 101 |
+   375→| Misericorde | 32 | 43 | 115 |
+   376→| Steel Tiger Karambit | 40 | 53 | 135 |
+   377→| Katran-1 Combat Knife | 44 | 62 | 114 |
+   378→| Cossack Shashka | 54 | 68 | 113 |
+   379→| Ka-Bar BKR3 Tactical Knife | 36 | 50 | 91 |
+   380→| Gift for the Chosen One | 54 | 68 | 113 |
+   381→| Endgame | 49 | 61 | 101 |
+   382→| Fluorite | 44 | 48 | 105 |
+   383→| Old Shovel | 28 | 38 | 53 |
+   384→| Gladius | 38 | 57 | 151 |
+   385→| Golden Knuckles | 34 | 18 | 107 |
+   386→| Friendship | 69 | 92 | 102 |
+   387→| Shinobigatana | 58 | 77 | 116 |
+   388→| Tactical Katana | 42 | 56 | 135 |
+   389→| Sledgehammer | 103 | 136 | 192 |
+   390→| PTRD-Melee | 103 | 136 | 192 |
+   391→| ZIVCAS Valor | 48 | 64 | 107 |
+   392→| Antiterror | 36 | 48 | 128 |
+   393→| Summit | 31 | 40 | 108 |
+   394→| Black digger | 44 | 59 | 82 |
+   395→| Slavs Battle Axe | 71 | 71 | 102 |
+   396→| ZIVCAS Zeus-77 | 40 | 53 | 143 |
+   397→| Petal | 31 | 40 | 102 |
+   398→| Trailblazer Tanto | 50 | 66 | 105 |
+   399→| Scissors | 54 | 64 | 126 |
+   400→| Caretaker's Knife | 43 | 54 | 100 |
+   401→
+   402→Changes to the melee weapon specifications card
+   403→
+   404→- The correct damage values for the quick strike were added to the stats card (previously, the data for the normal strike was incorrectly duplicated there).
+   405→- Added the Attack speed parameter (equivalent to rate of fire), which shows the number of strikes per minute for each attack type.
+   406→
+   407→![screenshot]({STEAM_CLAN_IMAGE}/41581512/992fe4b1cda843c03d23a169e0c5022020872c5d.png)
+   408→
+   409→### Armor
+   410→
+   411→A new visual parameter, **Size**, was added to the armor stats, displaying the size of the equipment's hitbox. The mechanics and hitbox sizes themselves remain unchanged. The change applies only to the interface.![screenshot]({STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png)
+   412→
+   413→![screenshot]({STEAM_CLAN_IMAGE}/41581512/afbc86782bc30eaf204085d82af5d03db8e0dc7c.png)
+   414→
+   415→### Weapons and interface
+   416→
+   417→- The **Type** parameter, which specifies the slot for mounting the weapon, was added to the basic characteristics.
+   418→
+   419→![screenshot]({STEAM_CLAN_IMAGE}/41581512/6d8f654a9a6eda0b33d363eb3d6bcd0b657149d5.png)
+   420→
+   421→- Removed the redundant button for switching between base and summary metrics. Instead, a convenient toggle was added to the full stats card, which displays all previously hidden parameters (these are affected by installed attachments, anomalous modules, the upgrade level, and the type of ammunition).
+   422→
+   423→![screenshot]({STEAM_CLAN_IMAGE}/41581512/2504a3136470b7db15a0bc51d1d072ea5d64d30f.png)
+   424→
+   425→- In the Codex comparison, you can now choose to compare weapons based on **all** their characteristics.
+   426→
+   427→![screenshot]({STEAM_CLAN_IMAGE}/41581512/52a3be811ba66cc38e714c0f0ab4646824eeacd8.png)
+   428→
+   429→- The visual part of the comparison is updated: compact, easy-to-read arrows are now used instead of bulky scales.
+   430→
+   431→![screenshot]({STEAM_CLAN_IMAGE}/41581512/221ad723dc0d00a735336304b8aaa53cded6fe76.png)
+   432→
+   433→- The display of anomalous modules in the general characteristics is now more compact, and the design of the module cards themselves is also updated.![screenshot]({STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png)
+   434→
+   435→![screenshot]({STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png)![screenshot]({STEAM_CLAN_IMAGE}/41581512/ae9d2985c5a8d1a3897e3cd0e5005e7ab0c8006a.png)
+   436→
+   437→![screenshot]({STEAM_CLAN_IMAGE}/41581512/5b312faf5320cab466bd4e4fba7c1376963bbd0e.png)
+   438→
+   439→### Containers and infections
+   440→
+   441→- The container properties now display infection limits. Once these limits are exceeded, infections begin to accumulate. The system's logic remained unchanged: the limit depends on the character's base protection and the container's internal protection.
+   442→
+   443→![screenshot]({STEAM_CLAN_IMAGE}/41581512/9489e008d244de435df340d9a2c02dbf2df0bd27.png)
+   444→
+   445→### Display of infections
+   446→
+   447→For convenience and ease of understanding, the baseline infection rates are adjusted to -10. All damage, including armor and medical item damage, is multiplied by 20.
+   448→
+   449→The logic behind how the parameters work has not changed in any way.
+   450→
+   451→There is no need to reassemble the builds, the changes are purely visual.![screenshot]({STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png)
+   452→
+   453→![screenshot]({STEAM_CLAN_IMAGE}/41581512/72822374fba75744c1cfad8449edc5be6fa53eec.png)
+   454→
+   455→Consequently, the threshold value for preventing the accumulation of infection in the container is now 10 instead of 0.5, and 20 instead of 1 for cold.
+   456→
+   457→## Other changes and fixes
+   458→
+   459→- Added charm mount to the SPAS-15.
+   460→- Now, when you drag and drop attachments in the inventory, the weapons they can be equipped on are highlighted.
+   461→- Reworked the first-person animation system. If you notice that animations are behaving incorrectly or that sounds are missing from actions where they should be present, please report this to[Support team.](https://support.exbo.games/)
+   462→- Adjusted the hand position on the AEK-965 with the grip installed.
+   463→- Fixed a delay in the crosshair's movement when entering aim mode.
+   464→- Added the ability to install grips on the MP-155 Ultima.
+   465→- Fixed an issue that prevented users from retrieving multiple emails at once using the Claim Selected button.
+   466→- Corrected several minor localization bugs in all languages.
+   467→
+   468→---
+   469→
+   470→# Приложение A. «Open world economy update» (28.09.2026) — анонс, реализованный патчем 30.09
+   471→
+   472→- Заголовок: **Open world economy update**
+   473→- Дата публикации: **2026-09-28 13:57:14 UTC**
+   474→- Канонический URL: https://steamcommunity.com/games/1818450/announcements/detail/668377496357439545
+   475→- URL из API (externalpost-зеркало): https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498231589
+   476→- GID: 1844751498231589 | Автор: Vibeeeee | Источник: Community Announcements
+   477→
+   478→![screenshot]({STEAM_CLAN_IMAGE}/41581512/034865b85f2a81d0fc774ce702f40843fe29b16a.png)
+   479→
+   480→You’ve been waiting, we’ve been waiting, everyone’s been waiting, and finally, the time has come! An update to the open-world economy!
+   481→
+   482→In this wall of text, we’ll tell you about the rework of rewards from events, caches, faction containers, protoartifacts, and even gear repairs.
+   483→
+   484→Important! Due to this update, old junk items may be removed and compensated with rubles. Details on this matter will be published separately on our social media.
+   485→
+   486→### Contents
+   487→
+   488→• Faction North
+   489→
+   490→• Events
+   491→
+   492→• Outposts
+   493→
+   494→• Abandoned Installation, Arthunters and Scientists
+   495→
+   496→• Caches
+   497→
+   498→• Jackpots
+   499→
+   500→• Faction containers
+   501→
+   502→• South and Wild North
+   503→
+   504→• Protoartifacts
+   505→
+   506→• Proto-Discharge Cluster and Anomalous Rift
+   507→
+   508→• Gear repairs
+   509→
+   510→## Faction North
+   511→
+   512→![screenshot]({STEAM_CLAN_IMAGE}/41581512/b82d029a4aa5ff73c512f6ea03356b56132b9a3c.png)
+   513→
+   514→### Events
+   515→
+   516→Let’s start with the main thing. Right now, the rewards for clearing events in the Faction North don’t feel valuable enough. Some of the items seem more like junk than a reward for completing an activity in a more dangerous area compared to the South.
+   517→
+   518→To straighten things out, we’ll add new items for sale, while some existing items will receive more convenient characteristics: larger stack sizes, lower weight, and higher value.
+   519→
+   520→Thanks to this, your inventory will fill up more slowly, encumbrance will occur later, and it will become more profitable to take all the items after clearing events.
+   521→
+   522→And, of course, extracting with a full backpack of loot will become more profitable as well!
+   523→
+   524→#### Outposts
+   525→
+   526→![screenshot]({STEAM_CLAN_IMAGE}/41581512/872ff3169ef1e974936210e967fc4594d38691a9.png)
+   527→
+   528→Separately, we’d like to note that we will be changing Outposts rewards. Items sold to Arsenal will become more convenient, but the amount of Arsenal reputation that can be framed will remain at roughly the same level. **
+   529→**
+   530→
+   531→#### Abandoned Installation, Arthunters, and Scientists
+   532→
+   533→![screenshot]({STEAM_CLAN_IMAGE}/41581512/009054f265c18c36bd4139e4ef33a3c453c223c8.png)
+   534→
+   535→The contents of the Abandoned Installation, Arthunters, and Scientists events will also be reworked so that their rewards better correspond to the type of activity.
+   536→
+   537→### Caches
+   538→
+   539→![screenshot]({STEAM_CLAN_IMAGE}/41581512/498e4f827a2f26456dbcea43f393962fdff2887a.png)
+   540→
+   541→Right now caches are an extremely unprofitable and even dangerous activity that forces you to put your weapon away.
+   542→
+   543→Therefore, we will significantly increase the rewards from caches in the Faction North and revise the items that can be obtained from them. They will take up fewer inventory slots and weigh less.
+   544→
+   545→### Jackpots
+   546→
+   547→We’ll also introduce a “jackpot” mechanic to make caches and NPC events feel less like chores and more like activities that can pleasantly surprise you.
+   548→
+   549→The logic is simple: the more dangerous the location, the higher the chance of getting a jackpot. This will apply especially to the gold NPC events.
+   550→
+   551→### Faction Containers
+   552→
+   553→![screenshot]({STEAM_CLAN_IMAGE}/41581512/dd17725cdc7756cc4ac73c05ea4198127d5f8642.png)
+   554→
+   555→You’ve fought your way through half of the North and finally made it to the enemy’s home territory to loot a faction container? Enjoy your well-deserved bag of doritos…
+   556→
+   557→We’ll remove some of the junk items and increase the average income from faction containers.
+   558→
+   559→### South and Wild North
+   560→
+   561→![screenshot]({STEAM_CLAN_IMAGE}/41581512/b41514fedbec19210d78a92c8fc55f9f25833630.png)
+   562→
+   563→As for the South, we’ll separately put in order its existing loot pool so that it better matches the challenge of the area and doesn’t overlap with northern rewards.
+   564→
+   565→In the Wild North, loot will receive minor updates as part of the overall system so that rewards remain consistent with the progression: South → Faction North → Wild North.
+   566→
+   567→## Protoartifacts
+   568→
+   569→![screenshot]({STEAM_CLAN_IMAGE}/41581512/2ae7abe736a7227743eb525456f3edda0c5a9b1c.png)
+   570→
+   571→Does anyone remember where those several legendary protoartifacts in their stash came from? Neither do we, because right now there is almost no location-based progression when farming protoartifacts: they can be obtained in the South at roughly the same rate as in the North.
+   572→
+   573→### Proto-Discharge Cluster and Anomalous Rift
+   574→
+   575→![screenshot]({STEAM_CLAN_IMAGE}/41581512/9edbef78bcac23f9be95e5c5ac30b284054d7604.png)
+   576→
+   577→Because of this, the northern Proto-Discharge Cluster and Anomalous Rift events remain unpopular, while exclusive and legendary quality protoartifacts have almost disappeared from the economy.
+   578→
+   579→We will introduce location-based progression for farming protoartifacts. Northern territories will become more relevant as a source of rare protoartifacts, but at the same time we will carefully monitor their value so as not to devalue the existing economy.
+   580→
+   581→### Gear Repairs
+   582→
+   583→![screenshot]({STEAM_CLAN_IMAGE}/41581512/2697891a0b7bea6e2ad544bab7438fb33475c928.png)
+   584→
+   585→As the icing on the cake, we’re also planning to take a separate look at repair costs. And this isn’t about removing money from the economy.
+   586→
+   587→Right now, repairs don’t always seem logical: an armor of a higher rank can sometimes be cheaper to repair, gear of the same tier can have significantly different repair costs, and weapons of the same tier can have different operating costs depending on their caliber.
+   588→
+   589→We’ll review the cost and durability of gear and create a clearer repair calculation model that takes into account the gear type, tier, caliber, and other parameters.
+   590→
+   591→That’s all for now. If anything changes or new details emerge, we’ll be sure to keep you informed, so stay tuned for the news!
+   592→
+   593→---
+   594→
+   595→# Приложение B. Служебные новости 29–30.09.2026
+   596→
+   597→## B1. Server maintenance is completed
+   598→- Заголовок: **Server maintenance is completed**
+   599→- Дата публикации: **2026-09-30 11:02:17 UTC**
+   600→- Канонический URL: https://steamcommunity.com/games/1818450/announcements/detail/708910525152493626
+   601→- URL из API (externalpost-зеркало): https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656377166
+   602→- GID: 1845383656377166 | Автор: Girodjet | Источник: Community Announcements
+   603→
+   604→![screenshot]({STEAM_CLAN_IMAGE}/41581512/ba448a63ac444d99bf54737a875daf1fc349d7e9.png)
+   605→
+   606→Game servers are back online. Good luck hunting in the Zone!
+   607→
+   608→*Respectfully,*
+   609→
+   610→*EXBO Team*
+   611→
+   612→
+   613→## B2. Server Maintenance
+   614→- Заголовок: **Server Maintenance**
+   615→- Дата публикации: **2026-09-29 15:55:08 UTC**
+   616→- Канонический URL: https://steamcommunity.com/games/1818450/announcements/detail/668377496357440017
+   617→- URL из API (externalpost-зеркало): https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498234706
+   618→- GID: 1844751498234706 | Автор: GoblinLootLord | Источник: Community Announcements
+   619→
+   620→![screenshot]({STEAM_CLAN_IMAGE}/41581512/725b4d03560bcc03e6e0e1c6cd8050c1f80cab36.png)
+   621→
+   622→We will be performing server maintenance in the EU, NA, SEA and NEA regions: 
+   623→
+   624→> ** 30 September, 2026**
+   625→> 
+   626→> 08:00 - 12:00 (CEST)
+   627→> 02:00 AM - 06:00 AM (EDT)
+   628→> 02:00 PM - 06:00 PM (GMT+8)
+   629→> 03:00 PM - 07:00 PM (KST)
+   630→
+   631→Schedules may change due to unexpected problems.
+   632→
+   633→STALZONE servers will be unavailable during maintenance. We apologise for any inconvenience this may cause, and we thank you in advance for your understanding and patience.
+   634→
+   635→Respectfully,
+   636→EXBO Team
+   637→
+   638→---
+   639→
+   640→## Метрика (13-b)
+   641→
+   642→Считано из полного текста Steam-новости «Patch Notes [30.09.2026]» (31223 символов BBCode):
+   643→
+   644→- Пар вида **X → Y** (было → стало, включая ячейки таблиц): **48**
+   645→- Отдельных числовых значений внутри этих пар: **96**
+   646→- Числовых упоминаний процентов: **5** (уникальные значения: 100, 75, 30, 20)
+   647→- Скалярные «множители/замены» текстом: **5** — multiplied by_20; x-times_2; instead_of_10_0.5; instead_of_20_1; x-times-word_three times higher
+   648→- Всего числовых литералов в тексте (включая таблицу финального урона ближнего боя, где значения даны без «было/стало»): **517**
+   649→
+   650→Блоки, где числа даны ТЕКСТОМ (эквивалент на форуме EXBO — картинками):
+   651→1. «Changes to item characteristics» — таблица 14 предметов: Max. stack и Weight в формате «было → стало» + Price;
+   652→2. «Complete list of final damage values» — финальный урон ближнего боя, 83 наименований × 3 типа атаки (числа текстом);
+   653→3. Таблицы примера «Mines» (Mutants / Faction events / Caches): slots, weight, price «было → стало»;
+   654→4. «Arsenal» — репутация за новые товары (7 предметов);
+   655→5. Компенсации и цены: 140 ₽/Fighter token, 5 000 ₽/PDA, 10 000 ₽ PDA, 1 400 ₽ Fighter tokens;
+   656→6. Coliseum «Tranquilizer»: 5 параметров «было → стало» (spread 2 → 15, draw 150 → 300 ms, holster 100 → 200 ms, aim 150 → 250 ms, movement spread 1.2 → 2);
+   657→7. Пороги инфекций: шкала −10, множитель ×20, пороги «10 вместо 0.5» и «20 вместо 1».
+   658→
