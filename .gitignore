@@ -3,3 +3,5 @@ node_modules/
 PAT_VAULT_LOCAL*
 .next/
 tools/__pycache__/
+video_tmp/
+video_tmp/
