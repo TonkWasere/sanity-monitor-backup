@@ -655,3 +655,15 @@
 - 2026-10-28T09:10:26Z snap15 197158 «Сталкрафт на макбуке » lpn/cc 7/6→19/18: +12
 - 2026-10-28T09:10:30Z snap15 197159 RECONCILE-ADD «Продление техработ 28.10.2026 » createdAt 2026-10-28T09:09:26+00:00 lpn/cc 1/1 → young(2h)
 - 2026-10-28T09:10:30Z snap15 197149 RECONCILE-ADD «🗒️ Патчноут [28.10.2026]» createdAt 2026-10-28T07:21:11+00:00 lpn/cc 1/1 → young(2h)
+- 2026-10-28T09:25:41Z snap15 197150 CHECK FAIL x1 (The read operation timed out)
+- 2026-10-28T09:26:12Z snap15 197152 CHECK FAIL x1 (The read operation timed out)
+- 2026-10-28T09:26:43Z snap15 197153 CHECK FAIL x4 (The read operation timed out) — VANISH? (2+ подряд; title: долг говно бесполезное!!!!11!!!)
+- 2026-10-28T09:27:14Z snap15 197157 CHECK FAIL x4 (The read operation timed out) — VANISH? (2+ подряд; title: Прицелы (мастерские))
+- 2026-10-28T09:27:45Z snap15 197156 CHECK FAIL x4 (The read operation timed out) — VANISH? (2+ подряд; title: Прицелы )
+- 2026-10-28T09:28:19Z snap15 197150 GRADUATED (2h отслужил, checks=6) — накрывает часовой раунд
+- 2026-10-28T09:28:50Z snap15 197152 CHECK FAIL x1 (The read operation timed out)
+- 2026-10-28T09:29:21Z snap15 197153 CHECK FAIL x4 (The read operation timed out) — VANISH? (2+ подряд; title: долг говно бесполезное!!!!11!!!)
+- 2026-10-28T09:29:53Z snap15 197157 CHECK FAIL x4 (The read operation timed out) — VANISH? (2+ подряд; title: Прицелы (мастерские))
+- 2026-10-28T09:30:24Z snap15 197156 CHECK FAIL x4 (The read operation timed out) — VANISH? (2+ подряд; title: Прицелы )
+- 2026-10-28T09:30:55Z snap15 197155 CHECK FAIL x4 (The read operation timed out) — VANISH? (2+ подряд; title: Прицелы )
+- 2026-10-28T09:31:26Z snap15 197154 CHECK FAIL x1 (The read operation timed out)
