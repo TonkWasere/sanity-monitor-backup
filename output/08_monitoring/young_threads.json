@@ -3,38 +3,7 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {
-  "197137": {
-   "title": "Снова неделю ждать награды за колизей ",
-   "slug": "197137-snova-nedelyu-zhdat-nagrady-za-kolizey",
-   "createdAt": "2026-10-28T02:59:44+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T03:01:39Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T05:01:31Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-28T04:56:36Z"
-  },
-  "197136": {
-   "title": "Кто украл мой рейтинг",
-   "slug": "197136-kto-ukral-moy-reyting",
-   "createdAt": "2026-10-28T02:46:52+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T03:01:39Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T05:01:31Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-28T04:56:38Z"
-  }
- },
+ "threads": {},
  "graduated": {
   "196917": {
    "title": "Пнв",
@@ -2408,6 +2377,40 @@
    "fails": 0,
    "last_checked": "2026-10-28T04:40:10Z",
    "graduated_at": "2026-10-28T04:56:34Z",
+   "checks_done": 8
+  },
+  "197136": {
+   "title": "Кто украл мой рейтинг",
+   "slug": "197136-kto-ukral-moy-reyting",
+   "createdAt": "2026-10-28T02:46:52+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T03:01:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T05:01:31Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-28T04:56:38Z",
+   "graduated_at": "2026-10-28T05:10:18Z",
+   "checks_done": 8
+  },
+  "197137": {
+   "title": "Снова неделю ждать награды за колизей ",
+   "slug": "197137-snova-nedelyu-zhdat-nagrady-za-kolizey",
+   "createdAt": "2026-10-28T02:59:44+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T03:01:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T05:01:31Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-28T04:56:36Z",
+   "graduated_at": "2026-10-28T05:10:18Z",
    "checks_done": 8
   }
  }
