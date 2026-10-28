@@ -4,12 +4,12 @@
   "stalzone": {
    "last_id": 3256,
    "last_dt": "2026-10-28T17:00:11+00:00",
-   "last_views": "21.9K"
+   "last_views": "22.1K"
   },
   "spectrum_zone": {
    "last_id": 8087,
    "last_dt": "2026-10-28T15:59:02+00:00",
-   "last_views": "7.19K"
+   "last_views": "7.25K"
   }
  },
  "steam": {
@@ -59,18 +59,23 @@
     "fp": "892a86089dc7"
    },
    "stalzone-patchnout-28102026-ergsekrnv": {
-    "title": "",
-    "published": "",
-    "modified": "",
-    "fp": "",
-    "discovered": "20261028_2312"
+    "title": "stalzone-patchnout-28102026-ergsekrnv",
+    "published": "2026-10-28T11:09:01+03:00",
+    "modified": "2026-10-28T16:12:54+03:00",
+    "fp": "a5743d170933"
    },
    "stalzone-otkrytie-testovogo-servera-16102026-1": {
+    "title": "stalzone-otkrytie-testovogo-servera-16102026-1",
+    "published": "2026-10-15T15:00:36+03:00",
+    "modified": "2026-10-16T21:08:53+03:00",
+    "fp": "9318c249c309"
+   },
+   "stalzone-ostanavlivauschee-deistvie": {
     "title": "",
     "published": "",
     "modified": "",
     "fp": "",
-    "discovered": "20261028_2312"
+    "discovered": "20261028_2340"
    }
   },
   "wall": {
@@ -94,15 +99,51 @@
     1148325,
     1148305,
     1148272,
+    1148161,
+    1136421,
+    1149449,
+    1149393,
+    1149371,
+    1149323,
+    1149204,
+    1149106,
+    1148907,
+    1148847,
+    1148839,
+    1148721,
+    1148614,
+    1148591,
+    1148584,
+    1148509,
+    1148437,
+    1148325,
+    1148305,
+    1148272,
     1148161
    ],
    "top": 1149449,
-   "last_check": "20261028_2312"
+   "last_check": "20261028_2340"
   }
  },
  "youtube": {
-  "seen": [],
-  "last_ts": ""
+  "seen": [
+   "SNATERPaAbM",
+   "LIVEx5_BSGk",
+   "iwrmzYi6Xn0",
+   "jgTalBHsIng",
+   "PFNm36DR6TQ",
+   "LU-lUJAjU5A",
+   "lWdaceQ_5YQ",
+   "Mk-SCPmy2Lk",
+   "dftfnrWKQeQ",
+   "4b0fZ8vs3Y4",
+   "iaCBgIEhr4g",
+   "dO1oBpnLK20",
+   "2JnGJeP8emQ",
+   "dxJJt5J7cYw",
+   "RRg3GilL5-A"
+  ],
+  "last_ts": "2026-10-28T12:03:20+00:00"
  },
- "updated": "2026-10-28T23:13:05+00:00"
+ "updated": "2026-10-28T23:40:38+00:00"
 }
