@@ -4,81 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197168": {
-   "title": "А Что когда награды за колизец ",
-   "slug": "197168-a-chto-kogda-nagrady-za-kolizets",
-   "createdAt": "2026-10-28T10:07:35+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T10:13:06Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T12:12:43Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T12:10:12Z"
-  },
-  "197167": {
-   "title": "Братство СБЭУ Комаров АШ-12",
-   "slug": "197167-bratstvo-sbeu-komarov-ash-12",
-   "createdAt": "2026-10-28T10:02:40+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T10:13:06Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T12:12:43Z",
-   "last_lpn": 56,
-   "last_cc": 56,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T12:10:14Z"
-  },
-  "197166": {
-   "title": "Говнецо?",
-   "slug": "197166-govnetso",
-   "createdAt": "2026-10-28T10:01:07+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T10:13:06Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T12:12:43Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T12:10:15Z"
-  },
-  "197170": {
-   "title": "Стоит ли скачивать сосалзон ради ивента?",
-   "slug": "197170-stoit-li-skachivat-sosalzon-radi-iventa",
-   "createdAt": "2026-10-28T10:23:49+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T10:25:54Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T12:25:31Z",
-   "last_lpn": 47,
-   "last_cc": 47,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T12:10:18Z"
-  },
-  "197169": {
-   "title": "Балансер не компетентен, Ср3м это доказывает",
-   "slug": "197169-balanser-ne-kompetenten-sr3m-eto-dokazyvaet",
-   "createdAt": "2026-10-28T10:20:26+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T10:25:54Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T12:25:31Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-28T12:10:19Z"
-  },
   "197174": {
    "title": "А что с ценой",
    "slug": "197174-a-chto-s-tsenoy",
@@ -88,11 +13,11 @@
    "discovered_at": "2026-10-28T10:40:38Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:40:13Z",
-   "last_lpn": 34,
-   "last_cc": 34,
-   "checks": 5,
+   "last_lpn": 37,
+   "last_cc": 37,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T12:10:21Z"
+   "last_checked": "2026-10-28T12:25:45Z"
   },
   "197173": {
    "title": "Ну хоть смешно и не критично",
@@ -105,9 +30,9 @@
    "until_ts": "2026-10-28T12:40:13Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T12:10:23Z"
+   "last_checked": "2026-10-28T12:25:46Z"
   },
   "197172": {
    "title": "Так называемый ивент",
@@ -120,9 +45,9 @@
    "until_ts": "2026-10-28T12:40:13Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T12:10:24Z"
+   "last_checked": "2026-10-28T12:25:48Z"
   },
   "197171": {
    "title": "Награды какащк ",
@@ -133,11 +58,11 @@
    "discovered_at": "2026-10-28T10:40:38Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:40:13Z",
-   "last_lpn": 17,
-   "last_cc": 17,
-   "checks": 1,
+   "last_lpn": 20,
+   "last_cc": 20,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T12:10:26Z"
+   "last_checked": "2026-10-28T12:25:50Z"
   },
   "197179": {
    "title": "И что это? (апдейт 28.10.26)",
@@ -150,9 +75,9 @@
    "until_ts": "2026-10-28T12:55:14Z",
    "last_lpn": 27,
    "last_cc": 26,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T12:10:28Z"
+   "last_checked": "2026-10-28T12:25:52Z"
   },
   "197178": {
    "title": "Эксбо, введите реран маст обвесов!",
@@ -163,11 +88,11 @@
    "discovered_at": "2026-10-28T10:55:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:55:14Z",
-   "last_lpn": 11,
-   "last_cc": 10,
-   "checks": 1,
+   "last_lpn": 13,
+   "last_cc": 12,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T12:10:30Z"
+   "last_checked": "2026-10-28T12:25:54Z"
   },
   "197177": {
    "title": "Награды за лиги и ивент магазин",
@@ -180,9 +105,9 @@
    "until_ts": "2026-10-28T12:55:14Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T12:10:31Z"
+   "last_checked": "2026-10-28T12:25:55Z"
   },
   "197176": {
    "title": "Я СВОБОДЕН",
@@ -193,9 +118,11 @@
    "discovered_at": "2026-10-28T10:55:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:55:14Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 0
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:25:57Z"
   },
   "197175": {
    "title": "Когда награды за кАлизей",
@@ -208,7 +135,9 @@
    "until_ts": "2026-10-28T12:55:14Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:25:58Z"
   },
   "197182": {
    "title": "Вопрос к бывалым ",
@@ -219,9 +148,11 @@
    "discovered_at": "2026-10-28T11:13:53Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T13:13:27Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:26:00Z"
   },
   "197181": {
    "title": "Скип ивента получается",
@@ -232,9 +163,11 @@
    "discovered_at": "2026-10-28T11:13:53Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T13:13:27Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 16,
+   "last_cc": 16,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:26:02Z"
   },
   "197184": {
    "title": "Гем/кредит ?",
@@ -245,9 +178,11 @@
    "discovered_at": "2026-10-28T11:25:43Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T13:25:18Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:26:04Z"
   },
   "197183": {
    "title": "Ивент",
@@ -3105,6 +3040,91 @@
    "last_checked": "2026-10-28T11:55:12Z",
    "graduated_at": "2026-10-28T12:10:10Z",
    "checks_done": 8
+  },
+  "197166": {
+   "title": "Говнецо?",
+   "slug": "197166-govnetso",
+   "createdAt": "2026-10-28T10:01:07+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:13:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:12:43Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:10:15Z",
+   "graduated_at": "2026-10-28T12:25:43Z",
+   "checks_done": 7
+  },
+  "197167": {
+   "title": "Братство СБЭУ Комаров АШ-12",
+   "slug": "197167-bratstvo-sbeu-komarov-ash-12",
+   "createdAt": "2026-10-28T10:02:40+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:13:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:12:43Z",
+   "last_lpn": 56,
+   "last_cc": 56,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:10:14Z",
+   "graduated_at": "2026-10-28T12:25:43Z",
+   "checks_done": 7
+  },
+  "197168": {
+   "title": "А Что когда награды за колизец ",
+   "slug": "197168-a-chto-kogda-nagrady-za-kolizets",
+   "createdAt": "2026-10-28T10:07:35+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:13:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:12:43Z",
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:10:12Z",
+   "graduated_at": "2026-10-28T12:25:43Z",
+   "checks_done": 7
+  },
+  "197169": {
+   "title": "Балансер не компетентен, Ср3м это доказывает",
+   "slug": "197169-balanser-ne-kompetenten-sr3m-eto-dokazyvaet",
+   "createdAt": "2026-10-28T10:20:26+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:25:54Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:25:31Z",
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:10:19Z",
+   "graduated_at": "2026-10-28T12:25:43Z",
+   "checks_done": 5
+  },
+  "197170": {
+   "title": "Стоит ли скачивать сосалзон ради ивента?",
+   "slug": "197170-stoit-li-skachivat-sosalzon-radi-iventa",
+   "createdAt": "2026-10-28T10:23:49+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:25:54Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:25:31Z",
+   "last_lpn": 47,
+   "last_cc": 47,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T12:10:18Z",
+   "graduated_at": "2026-10-28T12:25:43Z",
+   "checks_done": 7
   }
  }
 }
