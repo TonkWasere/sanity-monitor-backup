@@ -14,6 +14,14 @@ ext_sources.py — часовая линия внешних источников
      логин-стену; заголовок Accept триггерит JS-оболочку — не слать,
      стандартного UA+Accept-Language достаточно; тексты постов лежат в
      JS-payload снапшота, мониторинг по ID постов).
+  6. YouTube-канал @stalzone_rus (офф, UCrUwKTGY6wTghmcvzgmRJ2w) — RSS-фид,
+     ТОЛЬКО факт выхода новых роликов (решение автора 28.10.2026: «если только
+     на предмет наличия новых видео, то можно, но нет смысла дальше факта
+     выхода новых роликов»; полное видео из песочницы недоступно — YouTube
+     бот-чек на IP датацентра, только cookies авторизованного браузера;
+     разбор контента — ad hoc по файлу от автора, skill video-understand + ASR).
+     История: канал найден автором 28.10 (ролик found-footage «Тойота» 12:03,
+     синхронно со Steam 12:02 — канал был слепой зоной).
 
 События: строки '>>> EXT ...' (новые посты ТГК, новые Steam-новости RU/EN,
 новые/изменённые VK-статьи). Первый запуск — посев state, без событий.
@@ -52,6 +60,9 @@ TG_URLS = {
 MAX_SEEN = 40
 MAX_VK_FETCH = 8
 MAX_TG_EVENT = 6
+YT_FEED = ('https://www.youtube.com/feeds/videos.xml?'
+           'channel_id=UCrUwKTGY6wTghmcvzgmRJ2w')  # @stalzone_rus офф.
+MAX_YT_EVENT = 5
 
 
 def log(msg):
@@ -90,7 +101,8 @@ def load_state():
                 return json.load(f)
         except Exception:
             pass
-    return {'v': 1, 'tg': {}, 'steam': {}, 'vk': {'articles': {}, 'wall': {}}}
+    return {'v': 1, 'tg': {}, 'steam': {}, 'vk': {'articles': {}, 'wall': {}},
+            'youtube': {'seen': [], 'last_ts': ''}}
 
 
 def save_state(st):
@@ -192,6 +204,46 @@ def run_steam(st, lang):
                 events += 1
     new_seen = [g for g, _, _ in parsed][:MAX_SEEN]
     st['steam'][lang] = {'seen': new_seen, 'last_ts': parsed[0][2] if parsed else ''}
+    return events
+
+
+# ---------------- YouTube (только факт выхода) ----------------
+
+def run_youtube(st):
+    """RSS-фид канала @stalzone_rus: событие = НОВЫЙ РОЛИК (title+date+URL).
+    Контент видео не качается и не разбирается (решение автора 28.10.2026).
+    """
+    y = st.setdefault('youtube', {'seen': [], 'last_ts': ''})
+    data = fetch(YT_FEED, f'ext_youtube_{TS}.xml')
+    if data is None:
+        return 0
+    xml = data.decode('utf-8', errors='replace')
+    entries = re.findall(r'<entry>(.*?)</entry>', xml, re.S)
+    parsed = []
+    for it in entries:
+        m_id = re.search(r'<yt:videoId>(.*?)</yt:videoId>', it)
+        m_t = re.search(r'<title>(.*?)</title>', it)
+        m_p = re.search(r'<published>(.*?)</published>', it)
+        if m_id and m_t:
+            parsed.append((m_id.group(1).strip(), m_t.group(1).strip(),
+                           m_p.group(1).strip() if m_p else ''))
+    if not parsed:
+        log('WARN youtube: 0 entries (RSS разметка?)')
+        return 0
+    seen = set(y.get('seen', []))
+    events = 0
+    if not seen:
+        log(f'>> EXT youtube: посев, {len(parsed)} роликов, топ: '
+            f'«{parsed[0][1][:60]}» ({parsed[0][2]})')
+    else:
+        for vid, title, pub in parsed:
+            if vid not in seen:
+                log(f'>>> EXT YOUTUBE новый ролик: «{title}» ({pub}) '
+                    f'https://www.youtube.com/watch?v={vid}')
+                events += 1
+    new_seen = [v for v, _, _ in parsed][:MAX_SEEN]
+    y['seen'] = new_seen
+    y['last_ts'] = parsed[0][2] if parsed else y.get('last_ts', '')
     return events
 
 
@@ -332,6 +384,8 @@ def main():
     total += run_vk(st)
     time.sleep(1)
     total += run_vk_wall(st)
+    time.sleep(1)
+    total += run_youtube(st)
     save_state(st)
     log(f'>>> итог EXT: events={total}{" (посев)" if seed else ""}')
     log(f'DONE EXT_SOURCES: events={total}')
