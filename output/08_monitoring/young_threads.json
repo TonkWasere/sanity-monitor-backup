@@ -4,81 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197200": {
-   "title": "???",
-   "slug": "197200",
-   "createdAt": "2026-10-28T13:49:04+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T13:55:29Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T15:55:09Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T15:44:01Z"
-  },
-  "197199": {
-   "title": "Арена гангрена",
-   "slug": "197199-arena-gangrena",
-   "createdAt": "2026-10-28T13:48:33+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T13:55:29Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T15:55:09Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T15:44:03Z"
-  },
-  "197197": {
-   "title": "Арена Метрополита. Первые впечатления после трёх матчей",
-   "slug": "197197-arena-metropolita-pervye-vpechatleniya-posle-tryoh-matchey",
-   "createdAt": "2026-10-28T13:45:08+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T13:55:29Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T15:55:09Z",
-   "last_lpn": 45,
-   "last_cc": 45,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T15:44:05Z"
-  },
-  "197196": {
-   "title": "Забыли добавить адекватные различия краске за 10% и топ-240",
-   "slug": "197196-zabyli-dobavit-adekvatnye-razlichiya-kraske-za-10-i-top-240",
-   "createdAt": "2026-10-28T13:42:27+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T13:55:29Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T15:55:09Z",
-   "last_lpn": 34,
-   "last_cc": 34,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T15:44:07Z"
-  },
-  "197190": {
-   "title": "🎬 Твой клип, твои правила, твои трофеи",
-   "slug": "197190-tvoy-klip-tvoi-pravila-tvoi-trofei",
-   "createdAt": "2026-10-28T12:54:41+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T13:55:29Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T15:55:09Z",
-   "last_lpn": 8,
-   "last_cc": 7,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-28T15:44:09Z"
-  },
   "197202": {
    "title": "Магазин 5.45 (награды ивента)",
    "slug": "197202-magazin-545-nagrady-iventa",
@@ -90,9 +15,9 @@
    "until_ts": "2026-10-28T16:25:19Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T15:44:10Z"
+   "last_checked": "2026-10-28T15:58:08Z"
   },
   "197201": {
    "title": "Шансы выпадение на уровнях магазины",
@@ -105,9 +30,9 @@
    "until_ts": "2026-10-28T16:25:19Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T15:44:12Z"
+   "last_checked": "2026-10-28T15:58:09Z"
   },
   "197204": {
    "title": "Ивент",
@@ -120,9 +45,9 @@
    "until_ts": "2026-10-28T16:55:38Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T15:44:14Z"
+   "last_checked": "2026-10-28T15:58:12Z"
   },
   "197203": {
    "title": "Новая активность на диком севере?",
@@ -133,11 +58,11 @@
    "discovered_at": "2026-10-28T14:56:05Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T16:55:38Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 2,
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T15:44:16Z"
+   "last_checked": "2026-10-28T15:58:14Z"
   },
   "197205": {
    "title": "Долгожданная Арена",
@@ -148,11 +73,11 @@
    "discovered_at": "2026-10-28T15:10:49Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:10:25Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 2,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T15:44:18Z"
+   "last_checked": "2026-10-28T15:58:16Z"
   },
   "197206": {
    "title": "А где стикеры лиги?",
@@ -163,11 +88,11 @@
    "discovered_at": "2026-10-28T15:16:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:16:30Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 2,
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T15:44:23Z"
+   "last_checked": "2026-10-28T15:58:18Z"
   },
   "197207": {
    "title": "Ивент провоцирует зависть.",
@@ -178,11 +103,11 @@
    "discovered_at": "2026-10-28T15:25:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:25:10Z",
-   "last_lpn": 33,
-   "last_cc": 33,
-   "checks": 1,
+   "last_lpn": 51,
+   "last_cc": 51,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T15:44:24Z"
+   "last_checked": "2026-10-28T15:58:20Z"
   },
   "197209": {
    "title": "Мутанты слишком умные",
@@ -193,9 +118,11 @@
    "discovered_at": "2026-10-28T15:44:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:43:59Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T15:58:21Z"
   },
   "197208": {
    "title": "Зачем (ПП и дробовики на ивенте)",
@@ -206,9 +133,11 @@
    "discovered_at": "2026-10-28T15:44:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:43:59Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 0
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T15:58:23Z"
   }
  },
  "graduated": {
@@ -3503,6 +3432,91 @@
    "last_checked": "2026-10-28T15:16:37Z",
    "graduated_at": "2026-10-28T15:25:10Z",
    "checks_done": 6
+  },
+  "197190": {
+   "title": "🎬 Твой клип, твои правила, твои трофеи",
+   "slug": "197190-tvoy-klip-tvoi-pravila-tvoi-trofei",
+   "createdAt": "2026-10-28T12:54:41+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T13:55:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T15:55:09Z",
+   "last_lpn": 8,
+   "last_cc": 7,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-28T15:44:09Z",
+   "graduated_at": "2026-10-28T15:58:06Z",
+   "checks_done": 6
+  },
+  "197196": {
+   "title": "Забыли добавить адекватные различия краске за 10% и топ-240",
+   "slug": "197196-zabyli-dobavit-adekvatnye-razlichiya-kraske-za-10-i-top-240",
+   "createdAt": "2026-10-28T13:42:27+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T13:55:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T15:55:09Z",
+   "last_lpn": 34,
+   "last_cc": 34,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T15:44:07Z",
+   "graduated_at": "2026-10-28T15:58:06Z",
+   "checks_done": 7
+  },
+  "197197": {
+   "title": "Арена Метрополита. Первые впечатления после трёх матчей",
+   "slug": "197197-arena-metropolita-pervye-vpechatleniya-posle-tryoh-matchey",
+   "createdAt": "2026-10-28T13:45:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T13:55:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T15:55:09Z",
+   "last_lpn": 45,
+   "last_cc": 45,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T15:44:05Z",
+   "graduated_at": "2026-10-28T15:58:06Z",
+   "checks_done": 7
+  },
+  "197199": {
+   "title": "Арена гангрена",
+   "slug": "197199-arena-gangrena",
+   "createdAt": "2026-10-28T13:48:33+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T13:55:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T15:55:09Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T15:44:03Z",
+   "graduated_at": "2026-10-28T15:58:06Z",
+   "checks_done": 7
+  },
+  "197200": {
+   "title": "???",
+   "slug": "197200",
+   "createdAt": "2026-10-28T13:49:04+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T13:55:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T15:55:09Z",
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T15:44:01Z",
+   "graduated_at": "2026-10-28T15:58:06Z",
+   "checks_done": 7
   }
  }
 }
