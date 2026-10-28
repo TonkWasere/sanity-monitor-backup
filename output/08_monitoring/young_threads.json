@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197139": {
-   "title": "Всех с днем вайпа на сервере сталкрафт шизофрения!",
-   "slug": "197139-vseh-s-dnem-vaypa-na-servere-stalkraft-shizofreniya",
-   "createdAt": "2026-10-28T05:26:10+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T05:26:32Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T07:26:29Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T07:10:13Z"
-  },
-  "197138": {
-   "title": "Какого чёрта?",
-   "slug": "197138-kakogo-chyorta",
-   "createdAt": "2026-10-28T05:12:53+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T05:26:32Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T07:26:29Z",
-   "last_lpn": 33,
-   "last_cc": 32,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T07:10:15Z"
-  },
   "197141": {
    "title": "Мамонт недели",
    "slug": "197141-mamont-nedeli",
@@ -43,11 +13,11 @@
    "discovered_at": "2026-10-28T05:40:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:40:29Z",
-   "last_lpn": 46,
-   "last_cc": 46,
-   "checks": 6,
+   "last_lpn": 74,
+   "last_cc": 74,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T07:10:17Z"
+   "last_checked": "2026-10-28T07:26:43Z"
   },
   "197140": {
    "title": "Чего брать на талоны?",
@@ -60,9 +30,9 @@
    "until_ts": "2026-10-28T07:40:29Z",
    "last_lpn": 18,
    "last_cc": 18,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T07:10:18Z"
+   "last_checked": "2026-10-28T07:26:45Z"
   },
   "197143": {
    "title": "эргомаг на 45пт",
@@ -75,9 +45,9 @@
    "until_ts": "2026-10-28T08:10:09Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T07:10:20Z"
+   "last_checked": "2026-10-28T07:26:46Z"
   },
   "197145": {
    "title": "Пластинка празднества",
@@ -90,9 +60,9 @@
    "until_ts": "2026-10-28T08:27:11Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T07:10:22Z"
+   "last_checked": "2026-10-28T07:26:48Z"
   },
   "197144": {
    "title": "Фракционный бонусы",
@@ -103,11 +73,11 @@
    "discovered_at": "2026-10-28T06:27:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T08:27:11Z",
-   "last_lpn": 19,
-   "last_cc": 19,
-   "checks": 3,
+   "last_lpn": 23,
+   "last_cc": 23,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T07:10:23Z"
+   "last_checked": "2026-10-28T07:26:50Z"
   },
   "197146": {
    "title": "Философия Мудрого волка о ивенте",
@@ -118,11 +88,11 @@
    "discovered_at": "2026-10-28T06:40:25Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T08:40:10Z",
-   "last_lpn": 21,
-   "last_cc": 21,
-   "checks": 2,
+   "last_lpn": 28,
+   "last_cc": 28,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T07:10:26Z"
+   "last_checked": "2026-10-28T07:26:52Z"
   },
   "197148": {
    "title": "VOIP на дикий север",
@@ -133,11 +103,24 @@
    "discovered_at": "2026-10-28T06:56:49Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T08:56:32Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 1,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T07:10:28Z"
+   "last_checked": "2026-10-28T07:26:53Z"
+  },
+  "197150": {
+   "title": "Ну чё, пацаны, вайбкод?",
+   "slug": "197150-nu-chyo-patsany-vaybkod",
+   "createdAt": "2026-10-28T07:22:41+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T07:26:57Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T09:26:41Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
   }
  },
  "graduated": {
@@ -2548,6 +2531,40 @@
    "last_checked": "2026-10-28T04:56:36Z",
    "graduated_at": "2026-10-28T05:10:18Z",
    "checks_done": 8
+  },
+  "197138": {
+   "title": "Какого чёрта?",
+   "slug": "197138-kakogo-chyorta",
+   "createdAt": "2026-10-28T05:12:53+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T05:26:32Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T07:26:29Z",
+   "last_lpn": 33,
+   "last_cc": 32,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T07:10:15Z",
+   "graduated_at": "2026-10-28T07:26:41Z",
+   "checks_done": 7
+  },
+  "197139": {
+   "title": "Всех с днем вайпа на сервере сталкрафт шизофрения!",
+   "slug": "197139-vseh-s-dnem-vaypa-na-servere-stalkraft-shizofreniya",
+   "createdAt": "2026-10-28T05:26:10+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T05:26:32Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T07:26:29Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T07:10:13Z",
+   "graduated_at": "2026-10-28T07:26:41Z",
+   "checks_done": 7
   }
  }
 }
