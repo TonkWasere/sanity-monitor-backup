@@ -15,9 +15,9 @@
    "until_ts": "2026-10-28T07:26:29Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T05:56:47Z"
+   "last_checked": "2026-10-28T06:10:11Z"
   },
   "197138": {
    "title": "Какого чёрта?",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-28T05:26:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:26:29Z",
-   "last_lpn": 28,
-   "last_cc": 27,
-   "checks": 2,
+   "last_lpn": 29,
+   "last_cc": 28,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T05:56:49Z"
+   "last_checked": "2026-10-28T06:10:13Z"
   },
   "197141": {
    "title": "Мамонт недели",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-28T05:40:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:40:29Z",
-   "last_lpn": 24,
-   "last_cc": 24,
-   "checks": 1,
+   "last_lpn": 27,
+   "last_cc": 27,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T05:56:51Z"
+   "last_checked": "2026-10-28T06:10:14Z"
   },
   "197140": {
    "title": "Чего брать на талоны?",
@@ -58,11 +58,24 @@
    "discovered_at": "2026-10-28T05:40:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:40:29Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 1,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T05:56:52Z"
+   "last_checked": "2026-10-28T06:10:16Z"
+  },
+  "197143": {
+   "title": "эргомаг на 45пт",
+   "slug": "197143-ergomag-na-45pt",
+   "createdAt": "2026-10-28T06:04:15+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T06:10:19Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T08:10:09Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 0
   }
  },
  "graduated": {
