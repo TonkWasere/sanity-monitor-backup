@@ -15,9 +15,9 @@
    "until_ts": "2026-10-28T10:57:01Z",
    "last_lpn": 25,
    "last_cc": 24,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:15Z"
+   "last_checked": "2026-10-28T10:55:16Z"
   },
   "197159": {
    "title": "Продление техработ 28.10.2026 ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-28T11:10:13Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:17Z"
+   "last_checked": "2026-10-28T10:55:17Z"
   },
   "197149": {
    "title": "🗒️ Патчноут [28.10.2026]",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-28T09:10:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T11:10:13Z",
-   "last_lpn": 74,
-   "last_cc": 71,
-   "checks": 5,
+   "last_lpn": 79,
+   "last_cc": 76,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:19Z"
+   "last_checked": "2026-10-28T10:55:19Z"
   },
   "197164": {
    "title": "Потенциал для намеренного руина. ",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 15,
    "last_cc": 14,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:21Z"
+   "last_checked": "2026-10-28T10:55:21Z"
   },
   "197163": {
    "title": "краски.награды.уникальность.",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-10-28T09:57:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T11:57:18Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 3,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:22Z"
+   "last_checked": "2026-10-28T10:55:23Z"
   },
   "197162": {
    "title": "Двойной нерф скорпа",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:24Z"
+   "last_checked": "2026-10-28T10:55:25Z"
   },
   "197161": {
    "title": "Новый режим",
@@ -105,9 +105,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:26Z"
+   "last_checked": "2026-10-28T10:55:27Z"
   },
   "197160": {
    "title": "🚀 Запуск игровых серверов",
@@ -120,9 +120,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 5,
    "last_cc": 3,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:28Z"
+   "last_checked": "2026-10-28T10:55:28Z"
   },
   "197168": {
    "title": "А Что когда награды за колизец ",
@@ -133,11 +133,11 @@
    "discovered_at": "2026-10-28T10:13:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:12:43Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:29Z"
+   "last_checked": "2026-10-28T10:55:30Z"
   },
   "197167": {
    "title": "Братство СБЭУ Комаров АШ-12",
@@ -148,11 +148,11 @@
    "discovered_at": "2026-10-28T10:13:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:12:43Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 1,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:31Z"
+   "last_checked": "2026-10-28T10:55:33Z"
   },
   "197166": {
    "title": "Говнецо?",
@@ -165,9 +165,9 @@
    "until_ts": "2026-10-28T12:12:43Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:33Z"
+   "last_checked": "2026-10-28T10:55:34Z"
   },
   "197170": {
    "title": "Стоит ли скачивать сосалзон ради ивента?",
@@ -178,11 +178,11 @@
    "discovered_at": "2026-10-28T10:25:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:25:31Z",
-   "last_lpn": 20,
-   "last_cc": 20,
-   "checks": 1,
+   "last_lpn": 32,
+   "last_cc": 32,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T10:40:35Z"
+   "last_checked": "2026-10-28T10:55:36Z"
   },
   "197169": {
    "title": "Балансер не компетентен, Ср3м это доказывает",
@@ -247,6 +247,71 @@
    "until_ts": "2026-10-28T12:40:13Z",
    "last_lpn": 2,
    "last_cc": 2,
+   "checks": 0
+  },
+  "197179": {
+   "title": "И что это? (апдейт 28.10.26)",
+   "slug": "197179-i-chto-eto-apdeyt-281026",
+   "createdAt": "2026-10-28T10:50:19+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:55:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:55:14Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197178": {
+   "title": "Эксбо, введите реран маст обвесов!",
+   "slug": "197178-eksbo-vvedite-reran-mast-obvesov",
+   "createdAt": "2026-10-28T10:49:21+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:55:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:55:14Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 0
+  },
+  "197177": {
+   "title": "Награды за лиги и ивент магазин",
+   "slug": "197177-nagrady-za-ligi-i-ivent-magazin",
+   "createdAt": "2026-10-28T10:45:44+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:55:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:55:14Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
+  },
+  "197176": {
+   "title": "Я СВОБОДЕН",
+   "slug": "197176-ya-svoboden",
+   "createdAt": "2026-10-28T10:42:21+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:55:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:55:14Z",
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 0
+  },
+  "197175": {
+   "title": "Когда награды за кАлизей",
+   "slug": "197175-kogda-nagrady-za-kalizey",
+   "createdAt": "2026-10-28T10:40:58+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T10:55:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T12:55:14Z",
+   "last_lpn": 3,
+   "last_cc": 3,
    "checks": 0
   }
  },
