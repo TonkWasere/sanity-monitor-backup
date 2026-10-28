@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197133": {
-   "title": "Рейтинговый сезон колизея-ПРОВАЛ",
-   "slug": "197133-reytingovyy-sezon-kolizeya-proval",
-   "createdAt": "2026-10-28T02:10:11+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T02:10:25Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T04:10:21Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0,
-   "fails": 7,
-   "last_error": "404"
-  },
   "197135": {
    "title": "Рейтинговый сезон колизея-ПРОВАЛ",
    "slug": "197135-reytingovyy-sezon-kolizeya-proval",
@@ -30,9 +15,9 @@
    "until_ts": "2026-10-28T04:41:27Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T04:10:16Z"
+   "last_checked": "2026-10-28T04:26:28Z"
   },
   "197137": {
    "title": "Снова неделю ждать награды за колизей ",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-28T05:01:31Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T04:10:18Z"
+   "last_checked": "2026-10-28T04:26:30Z"
   },
   "197136": {
    "title": "Кто украл мой рейтинг",
@@ -60,9 +45,9 @@
    "until_ts": "2026-10-28T05:01:31Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T04:10:19Z"
+   "last_checked": "2026-10-28T04:26:32Z"
   }
  },
  "graduated": {
@@ -2405,6 +2390,23 @@
    "last_checked": "2026-10-28T03:40:10Z",
    "graduated_at": "2026-10-28T03:56:40Z",
    "checks_done": 6
+  },
+  "197133": {
+   "title": "Рейтинговый сезон колизея-ПРОВАЛ",
+   "slug": "197133-reytingovyy-sezon-kolizeya-proval",
+   "createdAt": "2026-10-28T02:10:11+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T02:10:25Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T04:10:21Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0,
+   "fails": 7,
+   "last_error": "404",
+   "graduated_at": "2026-10-28T04:26:26Z",
+   "checks_done": 0
   }
  }
 }
