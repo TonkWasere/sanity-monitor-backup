@@ -15,9 +15,9 @@
    "until_ts": "2026-10-28T17:43:59Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:01Z"
+   "last_checked": "2026-10-28T17:40:15Z"
   },
   "197208": {
    "title": "Зачем (ПП и дробовики на ивенте)",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-28T15:44:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:43:59Z",
-   "last_lpn": 25,
-   "last_cc": 25,
-   "checks": 6,
+   "last_lpn": 26,
+   "last_cc": 26,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:03Z"
+   "last_checked": "2026-10-28T17:40:17Z"
   },
   "197214": {
    "title": "Ставлю жопу",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 13,
    "last_cc": 11,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:05Z"
+   "last_checked": "2026-10-28T17:40:19Z"
   },
   "197213": {
    "title": "ПКП и склера",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:07Z"
+   "last_checked": "2026-10-28T17:40:21Z"
   },
   "197212": {
    "title": "Почему Разработчики (О великий отдел баланса) не любят клановые оружия ?",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:08Z"
+   "last_checked": "2026-10-28T17:40:23Z"
   },
   "197211": {
    "title": "Никто не ожидал, что будет настолько плохо, жестко накипело.",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:10Z"
+   "last_checked": "2026-10-28T17:40:24Z"
   },
   "197210": {
    "title": "переферия",
@@ -105,9 +105,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:12Z"
+   "last_checked": "2026-10-28T17:40:26Z"
   },
   "197217": {
    "title": "Рекламные интеграции во время игры ",
@@ -120,9 +120,9 @@
    "until_ts": "2026-10-28T18:40:25Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:13Z"
+   "last_checked": "2026-10-28T17:40:27Z"
   },
   "197216": {
    "title": "визуальный баг кс 23",
@@ -135,9 +135,9 @@
    "until_ts": "2026-10-28T18:41:06Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:15Z"
+   "last_checked": "2026-10-28T17:40:29Z"
   },
   "197215": {
    "title": "Штурм офиса exbo ",
@@ -148,11 +148,11 @@
    "discovered_at": "2026-10-28T16:41:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:41:06Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 1,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:17Z"
+   "last_checked": "2026-10-28T17:40:31Z"
   },
   "197218": {
    "title": "РКН добрался до stalzone",
@@ -163,11 +163,11 @@
    "discovered_at": "2026-10-28T16:58:31Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:58:07Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 1,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:19Z"
+   "last_checked": "2026-10-28T17:40:32Z"
   },
   "197220": {
    "title": "Что это бля",
@@ -178,11 +178,11 @@
    "discovered_at": "2026-10-28T17:10:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T19:10:10Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T17:27:20Z"
+   "last_checked": "2026-10-28T17:40:34Z"
   },
   "197219": {
    "title": "⚙ Компенсация за награды ОТС",
