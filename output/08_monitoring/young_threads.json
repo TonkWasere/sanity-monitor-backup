@@ -15,9 +15,9 @@
    "until_ts": "2026-10-28T16:55:38Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T16:27:20Z"
+   "last_checked": "2026-10-28T16:41:08Z"
   },
   "197203": {
    "title": "Новая активность на диком севере?",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-28T16:55:38Z",
    "last_lpn": 17,
    "last_cc": 17,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T16:27:21Z"
+   "last_checked": "2026-10-28T16:41:10Z"
   },
   "197205": {
    "title": "Долгожданная Арена",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-28T17:10:25Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T16:27:23Z"
+   "last_checked": "2026-10-28T16:41:12Z"
   },
   "197206": {
    "title": "А где стикеры лиги?",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-28T15:16:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:16:30Z",
-   "last_lpn": 21,
-   "last_cc": 21,
-   "checks": 4,
+   "last_lpn": 22,
+   "last_cc": 22,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T16:27:25Z"
+   "last_checked": "2026-10-28T16:41:13Z"
   },
   "197207": {
    "title": "Ивент провоцирует зависть.",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-10-28T15:25:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:25:10Z",
-   "last_lpn": 60,
-   "last_cc": 60,
-   "checks": 3,
+   "last_lpn": 64,
+   "last_cc": 64,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T16:27:27Z"
+   "last_checked": "2026-10-28T16:41:15Z"
   },
   "197209": {
    "title": "Мутанты слишком умные",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-28T17:43:59Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T16:27:29Z"
+   "last_checked": "2026-10-28T16:41:17Z"
   },
   "197208": {
    "title": "Зачем (ПП и дробовики на ивенте)",
@@ -103,11 +103,11 @@
    "discovered_at": "2026-10-28T15:44:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:43:59Z",
-   "last_lpn": 18,
-   "last_cc": 18,
-   "checks": 2,
+   "last_lpn": 20,
+   "last_cc": 20,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T16:27:31Z"
+   "last_checked": "2026-10-28T16:41:19Z"
   },
   "197214": {
    "title": "Ставлю жопу",
@@ -118,9 +118,11 @@
    "discovered_at": "2026-10-28T16:27:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:27:18Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T16:41:21Z"
   },
   "197213": {
    "title": "ПКП и склера",
@@ -133,7 +135,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T16:41:22Z"
   },
   "197212": {
    "title": "Почему Разработчики (О великий отдел баланса) не любят клановые оружия ?",
@@ -144,9 +148,11 @@
    "discovered_at": "2026-10-28T16:27:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:27:18Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 0
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T16:41:24Z"
   },
   "197211": {
    "title": "Никто не ожидал, что будет настолько плохо, жестко накипело.",
@@ -157,9 +163,11 @@
    "discovered_at": "2026-10-28T16:27:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:27:18Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T16:41:25Z"
   },
   "197210": {
    "title": "переферия",
@@ -172,7 +180,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T16:41:27Z"
   },
   "197217": {
    "title": "Рекламные интеграции во время игры ",
@@ -185,6 +195,32 @@
    "until_ts": "2026-10-28T18:40:25Z",
    "last_lpn": 2,
    "last_cc": 2,
+   "checks": 0
+  },
+  "197216": {
+   "title": "визуальный баг кс 23",
+   "slug": "197216-vizualnyy-bag-ks-23",
+   "createdAt": "2026-10-28T16:32:20+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T16:41:30Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T18:41:06Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
+  },
+  "197215": {
+   "title": "Штурм офиса exbo ",
+   "slug": "197215-shturm-ofisa-exbo",
+   "createdAt": "2026-10-28T16:30:27+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T16:41:30Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T18:41:06Z",
+   "last_lpn": 6,
+   "last_cc": 6,
    "checks": 0
   }
  },
