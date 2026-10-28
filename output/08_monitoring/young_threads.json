@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197204": {
-   "title": "Ивент",
-   "slug": "197204-ivent",
-   "createdAt": "2026-10-28T14:55:36+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T14:56:05Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T16:55:38Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T16:41:08Z"
-  },
-  "197203": {
-   "title": "Новая активность на диком севере?",
-   "slug": "197203-novaya-aktivnost-na-dikom-severe",
-   "createdAt": "2026-10-28T14:53:45+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T14:56:05Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T16:55:38Z",
-   "last_lpn": 17,
-   "last_cc": 17,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-28T16:41:10Z"
-  },
   "197205": {
    "title": "Долгожданная Арена",
    "slug": "197205-dolgozhdannaya-arena",
@@ -45,9 +15,9 @@
    "until_ts": "2026-10-28T17:10:25Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T16:41:12Z"
+   "last_checked": "2026-10-28T16:58:09Z"
   },
   "197206": {
    "title": "А где стикеры лиги?",
@@ -58,11 +28,11 @@
    "discovered_at": "2026-10-28T15:16:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:16:30Z",
-   "last_lpn": 22,
-   "last_cc": 22,
-   "checks": 5,
+   "last_lpn": 23,
+   "last_cc": 23,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T16:41:13Z"
+   "last_checked": "2026-10-28T16:58:10Z"
   },
   "197207": {
    "title": "Ивент провоцирует зависть.",
@@ -73,11 +43,11 @@
    "discovered_at": "2026-10-28T15:25:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:25:10Z",
-   "last_lpn": 64,
-   "last_cc": 64,
-   "checks": 4,
+   "last_lpn": 67,
+   "last_cc": 67,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T16:41:15Z"
+   "last_checked": "2026-10-28T16:58:12Z"
   },
   "197209": {
    "title": "Мутанты слишком умные",
@@ -90,9 +60,9 @@
    "until_ts": "2026-10-28T17:43:59Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T16:41:17Z"
+   "last_checked": "2026-10-28T16:58:14Z"
   },
   "197208": {
    "title": "Зачем (ПП и дробовики на ивенте)",
@@ -103,11 +73,11 @@
    "discovered_at": "2026-10-28T15:44:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:43:59Z",
-   "last_lpn": 20,
-   "last_cc": 20,
-   "checks": 3,
+   "last_lpn": 22,
+   "last_cc": 22,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T16:41:19Z"
+   "last_checked": "2026-10-28T16:58:16Z"
   },
   "197214": {
    "title": "Ставлю жопу",
@@ -118,11 +88,11 @@
    "discovered_at": "2026-10-28T16:27:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:27:18Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 1,
+   "last_lpn": 12,
+   "last_cc": 10,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T16:41:21Z"
+   "last_checked": "2026-10-28T16:58:18Z"
   },
   "197213": {
    "title": "ПКП и склера",
@@ -133,11 +103,11 @@
    "discovered_at": "2026-10-28T16:27:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:27:18Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 1,
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T16:41:22Z"
+   "last_checked": "2026-10-28T16:58:20Z"
   },
   "197212": {
    "title": "Почему Разработчики (О великий отдел баланса) не любят клановые оружия ?",
@@ -150,9 +120,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T16:41:24Z"
+   "last_checked": "2026-10-28T16:58:22Z"
   },
   "197211": {
    "title": "Никто не ожидал, что будет настолько плохо, жестко накипело.",
@@ -163,11 +133,11 @@
    "discovered_at": "2026-10-28T16:27:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:27:18Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 1,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T16:41:25Z"
+   "last_checked": "2026-10-28T16:58:24Z"
   },
   "197210": {
    "title": "переферия",
@@ -178,11 +148,11 @@
    "discovered_at": "2026-10-28T16:27:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:27:18Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T16:41:27Z"
+   "last_checked": "2026-10-28T16:58:26Z"
   },
   "197217": {
    "title": "Рекламные интеграции во время игры ",
@@ -193,9 +163,11 @@
    "discovered_at": "2026-10-28T16:40:25Z",
    "source": "snap35",
    "until_ts": "2026-10-28T18:40:25Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T16:58:27Z"
   },
   "197216": {
    "title": "визуальный баг кс 23",
@@ -206,9 +178,11 @@
    "discovered_at": "2026-10-28T16:41:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:41:06Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T16:58:29Z"
   },
   "197215": {
    "title": "Штурм офиса exbo ",
@@ -221,6 +195,19 @@
    "until_ts": "2026-10-28T18:41:06Z",
    "last_lpn": 6,
    "last_cc": 6,
+   "checks": 0
+  },
+  "197218": {
+   "title": "РКН добрался до stalzone",
+   "slug": "197218-rkn-dobralsya-do-stalzone",
+   "createdAt": "2026-10-28T16:49:33+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T16:58:31Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T18:58:07Z",
+   "last_lpn": 3,
+   "last_cc": 3,
    "checks": 0
   }
  },
@@ -3635,6 +3622,40 @@
    "last_checked": "2026-10-28T15:58:08Z",
    "graduated_at": "2026-10-28T16:27:18Z",
    "checks_done": 5
+  },
+  "197203": {
+   "title": "Новая активность на диком севере?",
+   "slug": "197203-novaya-aktivnost-na-dikom-severe",
+   "createdAt": "2026-10-28T14:53:45+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T14:56:05Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T16:55:38Z",
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-28T16:41:10Z",
+   "graduated_at": "2026-10-28T16:58:07Z",
+   "checks_done": 5
+  },
+  "197204": {
+   "title": "Ивент",
+   "slug": "197204-ivent",
+   "createdAt": "2026-10-28T14:55:36+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T14:56:05Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T16:55:38Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T16:41:08Z",
+   "graduated_at": "2026-10-28T16:58:07Z",
+   "checks_done": 7
   }
  }
 }
