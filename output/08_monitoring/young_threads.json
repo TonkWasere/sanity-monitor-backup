@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197148": {
-   "title": "VOIP на дикий север",
-   "slug": "197148-voip-na-dikiy-sever",
-   "createdAt": "2026-10-28T06:45:43+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T06:56:49Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T08:56:32Z",
-   "last_lpn": 17,
-   "last_cc": 17,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-28T08:40:22Z"
-  },
   "197150": {
    "title": "Ну чё, пацаны, вайбкод?",
    "slug": "197150-nu-chyo-patsany-vaybkod",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-10-28T07:26:57Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T09:26:41Z",
-   "last_lpn": 101,
-   "last_cc": 99,
-   "checks": 4,
+   "last_lpn": 131,
+   "last_cc": 129,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T08:40:25Z"
+   "last_checked": "2026-10-28T08:57:04Z"
   },
   "197152": {
    "title": "Слив наград за рейтинг ",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-28T09:56:51Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T08:40:27Z"
+   "last_checked": "2026-10-28T08:57:06Z"
   },
   "197153": {
    "title": "долг говно бесполезное!!!!11!!!",
@@ -61,7 +46,7 @@
    "last_lpn": 4,
    "last_cc": 4,
    "checks": 0,
-   "fails": 1,
+   "fails": 2,
    "last_error": "404"
   },
   "197157": {
@@ -76,7 +61,7 @@
    "last_lpn": 5,
    "last_cc": 5,
    "checks": 0,
-   "fails": 1,
+   "fails": 2,
    "last_error": "404"
   },
   "197156": {
@@ -91,7 +76,7 @@
    "last_lpn": 4,
    "last_cc": 4,
    "checks": 0,
-   "fails": 1,
+   "fails": 2,
    "last_error": "404"
   },
   "197155": {
@@ -106,7 +91,7 @@
    "last_lpn": 5,
    "last_cc": 5,
    "checks": 0,
-   "fails": 1,
+   "fails": 2,
    "last_error": "404"
   },
   "197154": {
@@ -118,11 +103,24 @@
    "discovered_at": "2026-10-28T08:37:33Z",
    "source": "snap35",
    "until_ts": "2026-10-28T10:37:33Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T08:40:34Z"
+   "last_checked": "2026-10-28T08:57:13Z"
+  },
+  "197158": {
+   "title": "Сталкрафт на макбуке ",
+   "slug": "197158-stalkraft-na-makbuke",
+   "createdAt": "2026-10-28T08:51:34+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T08:57:16Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T10:57:01Z",
+   "last_lpn": 7,
+   "last_cc": 6,
+   "checks": 0
   }
  },
  "graduated": {
@@ -2668,6 +2666,23 @@
    "fails": 0,
    "last_checked": "2026-10-28T08:26:46Z",
    "graduated_at": "2026-10-28T08:40:20Z",
+   "checks_done": 6
+  },
+  "197148": {
+   "title": "VOIP на дикий север",
+   "slug": "197148-voip-na-dikiy-sever",
+   "createdAt": "2026-10-28T06:45:43+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T06:56:49Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T08:56:32Z",
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-28T08:40:22Z",
+   "graduated_at": "2026-10-28T08:57:01Z",
    "checks_done": 6
   }
  }
