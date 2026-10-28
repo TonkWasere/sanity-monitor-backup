@@ -4,51 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197184": {
-   "title": "Гем/кредит ?",
-   "slug": "197184-gemkredit",
-   "createdAt": "2026-10-28T11:25:15+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T11:25:43Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T13:25:18Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-28T13:25:08Z"
-  },
-  "197183": {
-   "title": "Ивент",
-   "slug": "197183-ivent",
-   "createdAt": "2026-10-28T11:16:37+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T11:25:43Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T13:25:18Z",
-   "last_lpn": 24,
-   "last_cc": 24,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-10-28T13:25:09Z"
-  },
-  "197185": {
-   "title": "Где награда за ОТС \"Празднества\" ?",
-   "slug": "197185-gde-nagrada-za-ots-prazdnestva",
-   "createdAt": "2026-10-28T11:27:42+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T11:40:32Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T13:40:07Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-10-28T13:25:11Z"
-  },
   "197187": {
    "title": "Я хочу, чтобы вы посмотрели...",
    "slug": "197187-ya-hochu-chtoby-vy-posmotreli",
@@ -58,11 +13,11 @@
    "discovered_at": "2026-10-28T12:10:34Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T14:10:10Z",
-   "last_lpn": 23,
-   "last_cc": 21,
-   "checks": 4,
+   "last_lpn": 25,
+   "last_cc": 23,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T13:25:13Z"
+   "last_checked": "2026-10-28T13:55:11Z"
   },
   "197188": {
    "title": "ваш профиль",
@@ -73,11 +28,11 @@
    "discovered_at": "2026-10-28T12:40:49Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T14:40:27Z",
-   "last_lpn": 16,
-   "last_cc": 16,
-   "checks": 3,
+   "last_lpn": 20,
+   "last_cc": 20,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T13:25:15Z"
+   "last_checked": "2026-10-28T13:55:13Z"
   },
   "197191": {
    "title": "Журнал со снегуркой в профиль ",
@@ -88,11 +43,11 @@
    "discovered_at": "2026-10-28T12:57:57Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T14:57:41Z",
-   "last_lpn": 17,
-   "last_cc": 17,
-   "checks": 2,
+   "last_lpn": 19,
+   "last_cc": 19,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T13:25:17Z"
+   "last_checked": "2026-10-28T13:55:15Z"
   },
   "197189": {
    "title": "Мега новый квест",
@@ -105,9 +60,9 @@
    "until_ts": "2026-10-28T14:57:41Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T13:25:19Z"
+   "last_checked": "2026-10-28T13:55:17Z"
   },
   "197180": {
    "title": "Когда добавят смену ника в игре?",
@@ -120,9 +75,9 @@
    "until_ts": "2026-10-28T14:57:41Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T13:25:21Z"
+   "last_checked": "2026-10-28T13:55:19Z"
   },
   "197194": {
    "title": "а у скорпа точно только 0.1 забрали?",
@@ -133,11 +88,11 @@
    "discovered_at": "2026-10-28T13:19:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:19:01Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 1,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T13:25:22Z"
+   "last_checked": "2026-10-28T13:55:21Z"
   },
   "197193": {
    "title": "А что с наградами?",
@@ -148,11 +103,11 @@
    "discovered_at": "2026-10-28T13:19:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:19:01Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T13:25:25Z"
+   "last_checked": "2026-10-28T13:55:23Z"
   },
   "197192": {
    "title": "Кейсы",
@@ -165,9 +120,9 @@
    "until_ts": "2026-10-28T15:19:01Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T13:25:27Z"
+   "last_checked": "2026-10-28T13:55:24Z"
   },
   "197195": {
    "title": "А где праздник и награды ?",
@@ -178,8 +133,75 @@
    "discovered_at": "2026-10-28T13:25:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T15:25:06Z",
-   "last_lpn": 1,
-   "last_cc": 1,
+   "last_lpn": 24,
+   "last_cc": 24,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T13:55:26Z"
+  },
+  "197200": {
+   "title": "???",
+   "slug": "197200",
+   "createdAt": "2026-10-28T13:49:04+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T13:55:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T15:55:09Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
+  },
+  "197199": {
+   "title": "Арена гангрена",
+   "slug": "197199-arena-gangrena",
+   "createdAt": "2026-10-28T13:48:33+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T13:55:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T15:55:09Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
+  },
+  "197197": {
+   "title": "Арена Метрополита. Первые впечатления после трёх матчей",
+   "slug": "197197-arena-metropolita-pervye-vpechatleniya-posle-tryoh-matchey",
+   "createdAt": "2026-10-28T13:45:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T13:55:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T15:55:09Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 0
+  },
+  "197196": {
+   "title": "Забыли добавить адекватные различия краске за 10% и топ-240",
+   "slug": "197196-zabyli-dobavit-adekvatnye-razlichiya-kraske-za-10-i-top-240",
+   "createdAt": "2026-10-28T13:42:27+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T13:55:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T15:55:09Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 0
+  },
+  "197190": {
+   "title": "🎬 Твой клип, твои правила, твои трофеи",
+   "slug": "197190-tvoy-klip-tvoi-pravila-tvoi-trofei",
+   "createdAt": "2026-10-28T12:54:41+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T13:55:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T15:55:09Z",
+   "last_lpn": 5,
+   "last_cc": 4,
    "checks": 0
   }
  },
@@ -3271,6 +3293,57 @@
    "last_checked": "2026-10-28T12:57:43Z",
    "graduated_at": "2026-10-28T13:19:01Z",
    "checks_done": 3
+  },
+  "197183": {
+   "title": "Ивент",
+   "slug": "197183-ivent",
+   "createdAt": "2026-10-28T11:16:37+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T11:25:43Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T13:25:18Z",
+   "last_lpn": 24,
+   "last_cc": 24,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-10-28T13:25:09Z",
+   "graduated_at": "2026-10-28T13:55:09Z",
+   "checks_done": 4
+  },
+  "197184": {
+   "title": "Гем/кредит ?",
+   "slug": "197184-gemkredit",
+   "createdAt": "2026-10-28T11:25:15+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T11:25:43Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T13:25:18Z",
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-28T13:25:08Z",
+   "graduated_at": "2026-10-28T13:55:09Z",
+   "checks_done": 5
+  },
+  "197185": {
+   "title": "Где награда за ОТС \"Празднества\" ?",
+   "slug": "197185-gde-nagrada-za-ots-prazdnestva",
+   "createdAt": "2026-10-28T11:27:42+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T11:40:32Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T13:40:07Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-10-28T13:25:11Z",
+   "graduated_at": "2026-10-28T13:55:09Z",
+   "checks_done": 4
   }
  }
 }
