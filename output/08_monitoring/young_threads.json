@@ -4,51 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197158": {
-   "title": "Сталкрафт на макбуке ",
-   "slug": "197158-stalkraft-na-makbuke",
-   "createdAt": "2026-10-28T08:51:34+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T08:57:16Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T10:57:01Z",
-   "last_lpn": 25,
-   "last_cc": 24,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-28T10:55:16Z"
-  },
-  "197159": {
-   "title": "Продление техработ 28.10.2026 ",
-   "slug": "197159-prodlenie-tehrabot-28102026",
-   "createdAt": "2026-10-28T09:09:26+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T09:10:29Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T11:10:13Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-28T10:55:17Z"
-  },
-  "197149": {
-   "title": "🗒️ Патчноут [28.10.2026]",
-   "slug": "197149-patchnout-28102026",
-   "createdAt": "2026-10-28T07:21:11+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T09:10:30Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-28T11:10:13Z",
-   "last_lpn": 79,
-   "last_cc": 76,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-28T10:55:19Z"
-  },
   "197164": {
    "title": "Потенциал для намеренного руина. ",
    "slug": "197164-potentsial-dlya-namerennogo-ruina",
@@ -60,9 +15,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 15,
    "last_cc": 14,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T10:55:21Z"
+   "last_checked": "2026-10-28T11:13:29Z"
   },
   "197163": {
    "title": "краски.награды.уникальность.",
@@ -73,11 +28,11 @@
    "discovered_at": "2026-10-28T09:57:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T11:57:18Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 4,
+   "last_lpn": 23,
+   "last_cc": 23,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T10:55:23Z"
+   "last_checked": "2026-10-28T11:13:31Z"
   },
   "197162": {
    "title": "Двойной нерф скорпа",
@@ -90,9 +45,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T10:55:25Z"
+   "last_checked": "2026-10-28T11:13:32Z"
   },
   "197161": {
    "title": "Новый режим",
@@ -105,9 +60,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T10:55:27Z"
+   "last_checked": "2026-10-28T11:13:34Z"
   },
   "197160": {
    "title": "🚀 Запуск игровых серверов",
@@ -120,9 +75,9 @@
    "until_ts": "2026-10-28T11:57:18Z",
    "last_lpn": 5,
    "last_cc": 3,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T10:55:28Z"
+   "last_checked": "2026-10-28T11:13:37Z"
   },
   "197168": {
    "title": "А Что когда награды за колизец ",
@@ -135,9 +90,9 @@
    "until_ts": "2026-10-28T12:12:43Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T10:55:30Z"
+   "last_checked": "2026-10-28T11:13:38Z"
   },
   "197167": {
    "title": "Братство СБЭУ Комаров АШ-12",
@@ -148,11 +103,11 @@
    "discovered_at": "2026-10-28T10:13:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:12:43Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 2,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T10:55:33Z"
+   "last_checked": "2026-10-28T11:13:40Z"
   },
   "197166": {
    "title": "Говнецо?",
@@ -163,11 +118,11 @@
    "discovered_at": "2026-10-28T10:13:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:12:43Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 2,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T10:55:34Z"
+   "last_checked": "2026-10-28T11:13:42Z"
   },
   "197170": {
    "title": "Стоит ли скачивать сосалзон ради ивента?",
@@ -178,11 +133,11 @@
    "discovered_at": "2026-10-28T10:25:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:25:31Z",
-   "last_lpn": 32,
-   "last_cc": 32,
-   "checks": 2,
+   "last_lpn": 41,
+   "last_cc": 41,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T10:55:36Z"
+   "last_checked": "2026-10-28T11:13:44Z"
   },
   "197169": {
    "title": "Балансер не компетентен, Ср3м это доказывает",
@@ -193,9 +148,11 @@
    "discovered_at": "2026-10-28T10:25:54Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:25:31Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T11:13:46Z"
   },
   "197174": {
    "title": "А что с ценой",
@@ -206,9 +163,11 @@
    "discovered_at": "2026-10-28T10:40:38Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:40:13Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 0
+   "last_lpn": 28,
+   "last_cc": 28,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T11:13:48Z"
   },
   "197173": {
    "title": "Ну хоть смешно и не критично",
@@ -219,9 +178,11 @@
    "discovered_at": "2026-10-28T10:40:38Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T12:40:13Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T11:13:49Z"
   },
   "197172": {
    "title": "Так называемый ивент",
@@ -312,6 +273,32 @@
    "until_ts": "2026-10-28T12:55:14Z",
    "last_lpn": 3,
    "last_cc": 3,
+   "checks": 0
+  },
+  "197182": {
+   "title": "Вопрос к бывалым ",
+   "slug": "197182-vopros-k-byvalym",
+   "createdAt": "2026-10-28T11:09:20+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T11:13:53Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T13:13:27Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
+  },
+  "197181": {
+   "title": "Скип ивента получается",
+   "slug": "197181-skip-iventa-poluchaetsya",
+   "createdAt": "2026-10-28T10:59:40+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T11:13:53Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T13:13:27Z",
+   "last_lpn": 4,
+   "last_cc": 4,
    "checks": 0
   }
  },
@@ -2995,6 +2982,57 @@
    "last_error": "404",
    "graduated_at": "2026-10-28T10:40:13Z",
    "checks_done": 0
+  },
+  "197149": {
+   "title": "🗒️ Патчноут [28.10.2026]",
+   "slug": "197149-patchnout-28102026",
+   "createdAt": "2026-10-28T07:21:11+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:10:30Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:10:13Z",
+   "last_lpn": 79,
+   "last_cc": 76,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-28T10:55:19Z",
+   "graduated_at": "2026-10-28T11:13:27Z",
+   "checks_done": 6
+  },
+  "197158": {
+   "title": "Сталкрафт на макбуке ",
+   "slug": "197158-stalkraft-na-makbuke",
+   "createdAt": "2026-10-28T08:51:34+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T08:57:16Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T10:57:01Z",
+   "last_lpn": 25,
+   "last_cc": 24,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-28T10:55:16Z",
+   "graduated_at": "2026-10-28T11:13:27Z",
+   "checks_done": 7
+  },
+  "197159": {
+   "title": "Продление техработ 28.10.2026 ",
+   "slug": "197159-prodlenie-tehrabot-28102026",
+   "createdAt": "2026-10-28T09:09:26+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:10:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:10:13Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-28T10:55:17Z",
+   "graduated_at": "2026-10-28T11:13:27Z",
+   "checks_done": 6
   }
  }
 }
