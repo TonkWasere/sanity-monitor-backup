@@ -667,3 +667,4 @@
 - 2026-10-28T09:30:24Z snap15 197156 CHECK FAIL x4 (The read operation timed out) — VANISH? (2+ подряд; title: Прицелы )
 - 2026-10-28T09:30:55Z snap15 197155 CHECK FAIL x4 (The read operation timed out) — VANISH? (2+ подряд; title: Прицелы )
 - 2026-10-28T09:31:26Z snap15 197154 CHECK FAIL x1 (The read operation timed out)
+- 2026-10-28T09:38:33Z snap35 SKIP: сеть/форум недоступны (newlist FAIL)
