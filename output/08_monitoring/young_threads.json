@@ -15,9 +15,9 @@
    "until_ts": "2026-10-28T07:26:29Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T06:27:13Z"
+   "last_checked": "2026-10-28T06:40:12Z"
   },
   "197138": {
    "title": "Какого чёрта?",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-28T05:26:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:26:29Z",
-   "last_lpn": 29,
-   "last_cc": 28,
-   "checks": 4,
+   "last_lpn": 31,
+   "last_cc": 30,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T06:27:15Z"
+   "last_checked": "2026-10-28T06:40:14Z"
   },
   "197141": {
    "title": "Мамонт недели",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-28T05:40:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T07:40:29Z",
-   "last_lpn": 29,
-   "last_cc": 29,
-   "checks": 3,
+   "last_lpn": 31,
+   "last_cc": 31,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T06:27:16Z"
+   "last_checked": "2026-10-28T06:40:15Z"
   },
   "197140": {
    "title": "Чего брать на талоны?",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-28T07:40:29Z",
    "last_lpn": 16,
    "last_cc": 16,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T06:27:18Z"
+   "last_checked": "2026-10-28T06:40:17Z"
   },
   "197143": {
    "title": "эргомаг на 45пт",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-28T08:10:09Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T06:27:20Z"
+   "last_checked": "2026-10-28T06:40:19Z"
   },
   "197145": {
    "title": "Пластинка празднества",
@@ -88,9 +88,11 @@
    "discovered_at": "2026-10-28T06:27:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T08:27:11Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T06:40:21Z"
   },
   "197144": {
    "title": "Фракционный бонусы",
@@ -101,8 +103,23 @@
    "discovered_at": "2026-10-28T06:27:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T08:27:11Z",
-   "last_lpn": 9,
-   "last_cc": 9,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T06:40:23Z"
+  },
+  "197146": {
+   "title": "Философия Мудрого волка о ивенте",
+   "slug": "197146-filosofiya-mudrogo-volka-o-ivente",
+   "createdAt": "2026-10-28T06:31:01+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T06:40:25Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T08:40:10Z",
+   "last_lpn": 6,
+   "last_cc": 6,
    "checks": 0
   }
  },
