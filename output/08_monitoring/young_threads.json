@@ -15,9 +15,9 @@
    "until_ts": "2026-10-28T17:10:25Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:09Z"
+   "last_checked": "2026-10-28T17:10:12Z"
   },
   "197206": {
    "title": "А где стикеры лиги?",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-28T17:16:30Z",
    "last_lpn": 23,
    "last_cc": 23,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:10Z"
+   "last_checked": "2026-10-28T17:10:14Z"
   },
   "197207": {
    "title": "Ивент провоцирует зависть.",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-28T15:25:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:25:10Z",
-   "last_lpn": 67,
-   "last_cc": 67,
-   "checks": 5,
+   "last_lpn": 70,
+   "last_cc": 70,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:12Z"
+   "last_checked": "2026-10-28T17:10:15Z"
   },
   "197209": {
    "title": "Мутанты слишком умные",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-28T17:43:59Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:14Z"
+   "last_checked": "2026-10-28T17:10:17Z"
   },
   "197208": {
    "title": "Зачем (ПП и дробовики на ивенте)",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-10-28T15:44:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T17:43:59Z",
-   "last_lpn": 22,
-   "last_cc": 22,
-   "checks": 4,
+   "last_lpn": 25,
+   "last_cc": 25,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:16Z"
+   "last_checked": "2026-10-28T17:10:19Z"
   },
   "197214": {
    "title": "Ставлю жопу",
@@ -88,11 +88,11 @@
    "discovered_at": "2026-10-28T16:27:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:27:18Z",
-   "last_lpn": 12,
-   "last_cc": 10,
-   "checks": 2,
+   "last_lpn": 13,
+   "last_cc": 11,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:18Z"
+   "last_checked": "2026-10-28T17:10:21Z"
   },
   "197213": {
    "title": "ПКП и склера",
@@ -105,9 +105,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:20Z"
+   "last_checked": "2026-10-28T17:10:23Z"
   },
   "197212": {
    "title": "Почему Разработчики (О великий отдел баланса) не любят клановые оружия ?",
@@ -120,9 +120,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:22Z"
+   "last_checked": "2026-10-28T17:10:24Z"
   },
   "197211": {
    "title": "Никто не ожидал, что будет настолько плохо, жестко накипело.",
@@ -135,9 +135,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:24Z"
+   "last_checked": "2026-10-28T17:10:26Z"
   },
   "197210": {
    "title": "переферия",
@@ -150,9 +150,9 @@
    "until_ts": "2026-10-28T18:27:18Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:26Z"
+   "last_checked": "2026-10-28T17:10:28Z"
   },
   "197217": {
    "title": "Рекламные интеграции во время игры ",
@@ -165,9 +165,9 @@
    "until_ts": "2026-10-28T18:40:25Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:27Z"
+   "last_checked": "2026-10-28T17:10:29Z"
   },
   "197216": {
    "title": "визуальный баг кс 23",
@@ -180,9 +180,9 @@
    "until_ts": "2026-10-28T18:41:06Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-28T16:58:29Z"
+   "last_checked": "2026-10-28T17:10:31Z"
   },
   "197215": {
    "title": "Штурм офиса exbo ",
@@ -207,6 +207,32 @@
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T18:58:07Z",
    "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197220": {
+   "title": "Что это бля",
+   "slug": "197220-chto-eto-blya",
+   "createdAt": "2026-10-28T16:58:38+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T17:10:33Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T19:10:10Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
+  },
+  "197219": {
+   "title": "⚙ Компенсация за награды ОТС",
+   "slug": "197219-kompensatsiya-za-nagrady-ots",
+   "createdAt": "2026-10-28T16:49:58+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T17:10:33Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T19:10:10Z",
+   "last_lpn": 5,
    "last_cc": 3,
    "checks": 0
   }
