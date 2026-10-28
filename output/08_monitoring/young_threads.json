@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-28T07:26:57Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T09:26:41Z",
-   "last_lpn": 131,
-   "last_cc": 129,
-   "checks": 5,
+   "last_lpn": 151,
+   "last_cc": 149,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-28T08:57:04Z"
+   "last_checked": "2026-10-28T09:10:15Z"
   },
   "197152": {
    "title": "Слив наград за рейтинг ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-28T09:56:51Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-28T08:57:06Z"
+   "last_checked": "2026-10-28T09:10:17Z"
   },
   "197153": {
    "title": "долг говно бесполезное!!!!11!!!",
@@ -46,7 +46,7 @@
    "last_lpn": 4,
    "last_cc": 4,
    "checks": 0,
-   "fails": 2,
+   "fails": 3,
    "last_error": "404"
   },
   "197157": {
@@ -61,7 +61,7 @@
    "last_lpn": 5,
    "last_cc": 5,
    "checks": 0,
-   "fails": 2,
+   "fails": 3,
    "last_error": "404"
   },
   "197156": {
@@ -76,7 +76,7 @@
    "last_lpn": 4,
    "last_cc": 4,
    "checks": 0,
-   "fails": 2,
+   "fails": 3,
    "last_error": "404"
   },
   "197155": {
@@ -91,7 +91,7 @@
    "last_lpn": 5,
    "last_cc": 5,
    "checks": 0,
-   "fails": 2,
+   "fails": 3,
    "last_error": "404"
   },
   "197154": {
@@ -105,9 +105,9 @@
    "until_ts": "2026-10-28T10:37:33Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-28T08:57:13Z"
+   "last_checked": "2026-10-28T09:10:24Z"
   },
   "197158": {
    "title": "Сталкрафт на макбуке ",
@@ -118,8 +118,36 @@
    "discovered_at": "2026-10-28T08:57:16Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-28T10:57:01Z",
-   "last_lpn": 7,
-   "last_cc": 6,
+   "last_lpn": 19,
+   "last_cc": 18,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-28T09:10:26Z"
+  },
+  "197159": {
+   "title": "Продление техработ 28.10.2026 ",
+   "slug": "197159-prodlenie-tehrabot-28102026",
+   "createdAt": "2026-10-28T09:09:26+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:10:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:10:13Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197149": {
+   "title": "🗒️ Патчноут [28.10.2026]",
+   "slug": "197149-patchnout-28102026",
+   "createdAt": "2026-10-28T07:21:11+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T09:10:30Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-28T11:10:13Z",
+   "last_lpn": 1,
+   "last_cc": 1,
    "checks": 0
   }
  },
