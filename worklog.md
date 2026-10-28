@@ -8054,3 +8054,5 @@ Task ID: 54-0-s15 (интеграция push-pending 874bdfe6 часовым р�
 Task ID: 54-287: sweep 4 сигнатуры + INTEGRITY PASS (канон MATCH, GG×3), EXT 1 (VK-статья экономики изменена — первое движение официоза за >8.5ч), deep 0; WIPE#74 recovery, lite 54-0-s15 интеграция
 Task ID: 54-0-s15 (интеграция push-pending cb3393b2 часовым раундом): WIPE#75 (~00:5x) → self-heal; TICK-LOST 00:40 ЛОЖНЫЙ (прогон 00:40 запушен 538a0499 до вайпа); 197131 stm RECONCILE-ADD повторно 6/5, active=1; дельт нет; снап 0055 сохранён
 Task ID: 54-288: sweep 1 сигнатура (197066 +1, ночной штиль), EXT 1 (VK-статья экономики откатена обратно — правка+реверт за 30 мин), deep 0; WIPE#75 recovery, lite 54-0-s15 интеграция
+Task ID: 54-1-s15 (интеграция push-pending 15e4ede4 часовым раундом): WIPE#76 (~01:2x) → self-heal; TICK-LOST 01:10 ЛОЖНЫЙ (прогон 01:10 запушен 18c1422b до вайпа); 197131 stm RECONCILE-ADD повторно 6/5, active=1; дельт нет; снап 0126 сохранён
+Task ID: 54-289: sweep 1 сигнатура + NEW-THREAD 197132 stm (7-й за сутки, новый аккаунт), EXT 0, deep [197132]; WIPE#76 recovery, lite 54-1-s15 интеграция
