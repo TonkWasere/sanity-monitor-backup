@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "STAL\nZONE\n\nЭТАЛОННАЯ РАЗДАЧА!\n\nОсенью с деревьев падают не только листья — талоны можно получить через PvE-активности или в Колизее.\n\nСобытие будет в игре с 14 по 28 октября.\nВсего 16 испытаний: по 8 на каждый формат.\nПроходите в любом сочетании — хоть 8 в PvE, хоть 8 в Колизее, хоть 4 через 4.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1791314090,
+  "id": "202610070314473919e7e951694ae3",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202610070314473919e7e951694ae3",
+  "usage": {
+    "completion_tokens": 105,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1671,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 1776
+  }
+}
