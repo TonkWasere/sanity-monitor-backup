@@ -967,3 +967,6 @@
 - 2026-10-28T17:57:11Z snap15 197226 RECONCILE-ADD «Краткий фидбек по Арене» createdAt 2026-10-28T17:51:50+00:00 lpn/cc 3/3 → young(2h)
 - 2026-10-28T17:57:11Z snap15 197225 RECONCILE-ADD «Худший ивент» createdAt 2026-10-28T17:43:48+00:00 lpn/cc 7/7 → young(2h)
 - 2026-10-28T17:57:11Z snap15 197224 RECONCILE-ADD «Забалансили » createdAt 2026-10-28T17:41:04+00:00 lpn/cc 3/3 → young(2h)
+- 2026-10-28T18:10:35Z snap15 197229 RECONCILE-ADD «Почему ивент такое д.рьмище ?» createdAt 2026-10-28T18:09:09+00:00 lpn/cc 0/1 → young(2h)
+- 2026-10-28T18:10:35Z snap15 197228 RECONCILE-ADD «Ехидные собаки» createdAt 2026-10-28T18:08:06+00:00 lpn/cc 1/1 → young(2h)
+- 2026-10-28T18:10:35Z snap15 197227 RECONCILE-ADD «Почему ивент такое дерьмище ?» createdAt 2026-10-28T18:07:30+00:00 lpn/cc 0/1 → young(2h)
