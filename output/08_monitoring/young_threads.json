@@ -3,38 +3,7 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {
-  "197249": {
-   "title": "Фидбек по ивенту",
-   "slug": "197249-fidbek-po-iventu",
-   "createdAt": "2026-10-28T23:13:56+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T23:15:49Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T01:15:37Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-29T00:58:02Z"
-  },
-  "197248": {
-   "title": "Фидбек по арене",
-   "slug": "197248-fidbek-po-arene",
-   "createdAt": "2026-10-28T23:05:40+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-28T23:15:49Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T01:15:37Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-29T00:58:04Z"
-  }
- },
+ "threads": {},
  "graduated": {
   "196917": {
    "title": "Пнв",
@@ -3990,6 +3959,40 @@
    "fails": 0,
    "last_checked": "2026-10-29T00:25:08Z",
    "graduated_at": "2026-10-29T00:58:01Z",
+   "checks_done": 6
+  },
+  "197248": {
+   "title": "Фидбек по арене",
+   "slug": "197248-fidbek-po-arene",
+   "createdAt": "2026-10-28T23:05:40+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T23:15:49Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T01:15:37Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-29T00:58:04Z",
+   "graduated_at": "2026-10-29T01:27:18Z",
+   "checks_done": 6
+  },
+  "197249": {
+   "title": "Фидбек по ивенту",
+   "slug": "197249-fidbek-po-iventu",
+   "createdAt": "2026-10-28T23:13:56+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-28T23:15:49Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T01:15:37Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-29T00:58:02Z",
+   "graduated_at": "2026-10-29T01:27:18Z",
    "checks_done": 6
   }
  }
