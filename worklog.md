@@ -8206,3 +8206,5 @@ Task ID: 54-0-s15 — 00:55 UTC (WIPE-59 recovery): 197248 «Фидбек по �
 Task ID: 54-1-s15 — 01:25 UTC (WIPE-60 recovery, третий вайп за 2.5ч): TICK-LOST 01:10 (слот вайпа; long30 01:02 тоже потерян слотом); выпуск >2h ×2 (197248, 197249 → graduated 234→236), active=0 — young-очередь пуста; recovery: reset на origin d344b456, vault MAC OK sha 7f9edd5d, creds восстановлены.
 
 Task ID: 54-357: sweep 6 сигнатур (NEW-POSTS ×6: 197205 Арена +4 15→19 — разгон; 197233 твинки +2; 197241 поздравь +2; 197010 закадка +1; 197207 зависть +1; 197248 арена-фидбек +1), EXT 0 (официоз молчит ~8.4ч; YT RSS 404 тех-варн; vk-discovery патчноут-3009 в очереди), deep 0, OWW 253 (проверено 20); VANISH 197142/153 404×2 = 20-й раунд; WIPE-60 ~01:25 (3-й за 2.5ч): слоты 01:02 long30 / 01:10 s15 потеряны (TICK-LOST), данные целы, recovery OK; [SKIP]-маркеров нет
+
+Task ID: 54-1-s15 — 01:55 UTC (WIPE-61 recovery, 4-й вайп за 3ч, интервалы сжались до ~30 мин): TICK-LOST 01:40 (слот вайпа); young пуста (active=0, graduated=236); recovery ~3 мин: reset на origin e383e16d, vault MAC OK sha 7f9edd5d, creds восстановлены; потери ноль.
