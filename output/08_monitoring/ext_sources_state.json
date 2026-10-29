@@ -4,12 +4,12 @@
   "stalzone": {
    "last_id": 3256,
    "last_dt": "2026-10-28T17:00:11+00:00",
-   "last_views": "22.3K"
+   "last_views": "22.6K"
   },
   "spectrum_zone": {
    "last_id": 8087,
    "last_dt": "2026-10-28T15:59:02+00:00",
-   "last_views": "7.33K"
+   "last_views": "7.41K"
   }
  },
  "steam": {
@@ -77,11 +77,17 @@
     "fp": "d7ceca8d5096"
    },
    "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3": {
+    "title": "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3",
+    "published": "2026-10-02T19:41:26+03:00",
+    "modified": "2026-10-11T18:32:25+03:00",
+    "fp": "a891f4c9dedc"
+   },
+   "stalzone-vopros-otvet-s-otdelom-razrabotki-ii-12412afdf": {
     "title": "",
     "published": "",
     "modified": "",
     "fp": "",
-    "discovered": "20261029_0003"
+    "discovered": "20261029_0033"
    }
   },
   "wall": {
@@ -145,10 +151,30 @@
     1148325,
     1148305,
     1148272,
+    1148161,
+    1136421,
+    1149449,
+    1149393,
+    1149371,
+    1149323,
+    1149204,
+    1149106,
+    1148907,
+    1148847,
+    1148839,
+    1148721,
+    1148614,
+    1148591,
+    1148584,
+    1148509,
+    1148437,
+    1148325,
+    1148305,
+    1148272,
     1148161
    ],
    "top": 1149449,
-   "last_check": "20261029_0003"
+   "last_check": "20261029_0033"
   }
  },
  "youtube": {
@@ -171,5 +197,5 @@
   ],
   "last_ts": "2026-10-28T12:03:20+00:00"
  },
- "updated": "2026-10-29T00:04:18+00:00"
+ "updated": "2026-10-29T00:33:47+00:00"
 }
