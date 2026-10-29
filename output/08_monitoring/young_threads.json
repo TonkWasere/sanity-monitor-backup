@@ -121,6 +121,19 @@
    "last_lpn": 1,
    "last_cc": 1,
    "checks": 0
+  },
+  "197283": {
+   "title": "Изменения",
+   "slug": "197283-izmeneniya",
+   "createdAt": "2026-10-29T15:34:39+00:00",
+   "op_user": "bandosvoron",
+   "stm": false,
+   "discovered_at": "2026-10-29T15:39:56Z",
+   "source": "snap35",
+   "until_ts": "2026-10-29T17:39:56Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
