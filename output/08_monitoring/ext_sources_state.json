@@ -4,12 +4,12 @@
   "stalzone": {
    "last_id": 3256,
    "last_dt": "2026-10-28T17:00:11+00:00",
-   "last_views": "27.7K"
+   "last_views": "28.2K"
   },
   "spectrum_zone": {
    "last_id": 8087,
    "last_dt": "2026-10-28T15:59:02+00:00",
-   "last_views": "8.49K"
+   "last_views": "8.59K"
   }
  },
  "steam": {
@@ -54,21 +54,21 @@
    },
    "stalzone-cep-raspada-nagrazhdenie-la170998": {
     "title": "stalzone-cep-raspada-nagrazhdenie-la170998",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-21T10:36:55+03:00",
+    "modified": "2026-10-21T12:26:41+03:00",
+    "fp": "892a86089dc7"
    },
    "stalzone-patchnout-28102026-ergsekrnv": {
     "title": "stalzone-patchnout-28102026-ergsekrnv",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-28T11:09:01+03:00",
+    "modified": "2026-10-28T16:12:54+03:00",
+    "fp": "a5743d170933"
    },
    "stalzone-otkrytie-testovogo-servera-16102026-1": {
     "title": "stalzone-otkrytie-testovogo-servera-16102026-1",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-15T15:00:36+03:00",
+    "modified": "2026-10-16T21:08:53+03:00",
+    "fp": "9318c249c309"
    },
    "stalzone-ostanavlivauschee-deistvie": {
     "title": "stalzone-ostanavlivauschee-deistvie",
@@ -306,7 +306,7 @@
     1148161
    ],
    "top": 1149449,
-   "last_check": "20261029_0705"
+   "last_check": "20261029_0736"
   }
  },
  "youtube": {
@@ -329,5 +329,5 @@
   ],
   "last_ts": "2026-10-28T12:03:20+00:00"
  },
- "updated": "2026-10-29T07:06:08+00:00"
+ "updated": "2026-10-29T07:37:12+00:00"
 }
