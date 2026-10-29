@@ -15,9 +15,9 @@
    "until_ts": "2026-10-29T07:27:09Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T06:58:03Z"
+   "last_checked": "2026-10-29T07:11:18Z"
   },
   "197254": {
    "title": "Чё ты недоволен наградой да? ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-29T07:56:57Z",
    "last_lpn": 18,
    "last_cc": 18,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T06:58:05Z"
+   "last_checked": "2026-10-29T07:11:20Z"
   },
   "197253": {
    "title": "Чуть чуть про арену ",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-29T07:56:57Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T06:58:06Z"
+   "last_checked": "2026-10-29T07:11:22Z"
   },
   "197255": {
    "title": "Мой глазик увидел алмазик",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-29T06:27:20Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T08:27:11Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 2,
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T06:58:08Z"
+   "last_checked": "2026-10-29T07:11:23Z"
   },
   "197256": {
    "title": "Скидки на бартер в событии",
@@ -73,9 +73,11 @@
    "discovered_at": "2026-10-29T06:58:11Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T08:58:01Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T07:11:25Z"
   }
  },
  "graduated": {
