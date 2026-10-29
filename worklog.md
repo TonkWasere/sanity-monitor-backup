@@ -8214,3 +8214,5 @@ Task ID: 54-358: sweep 5 сигнатур (MIX-SIG 197205 Арена: lpn 20 / c
 Task ID: 54-2-s15 — 02:25 UTC (WIPE-62 recovery, 5-й вайп, цикл ~30 мин): TICK-LOST 02:10; young пуста (active=0, graduated=236); recovery ~4 мин (mega_pull с 1-й попытки таймаут, повтор OK, MAC/sha эталон); потери ноль.
 
 Task ID: 54-359: sweep 8 сигнатур (NEW-POSTS ×8: 197201 шансы-дропа +5 2→7 — новый магнит; 197247 мыльно +1 после 3.5ч паузы; 197243 ивент-фидбек +2 5→7; 197238 +1 гэп 1 держ.; 197195 праздник +1 104; 197228 +1; 197010 +1; 197244 +1), EXT 0 (официоз молчит ~9.4ч; YT RSS 404 x3; vk-discovery патчноут-3009 скачан), deep 0, OWW 253 (проверено 20); VANISH 197142/153 404×2 = 22-й раунд; INTEGRITY pass#96 PASS (канон #48 MATCH, GG×4 живы); WIPE-62 ~02:25 (5-й, цикл ~30 мин, потери 0); [SKIP]-маркеров нет
+
+Task ID: 54-2-s15 — 02:55 UTC (WIPE-63 recovery, 6-й вайп): RECONCILE-ADD 197250 «Агрессивный фидбек по ивент.» createdAt 02:45, 4/4 за 11 мин — быстрый старт, → young 2h; young active=1; recovery ~3 мин (reset на origin b7a298ef, vault MAC OK, creds).

@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {},
+ "threads": {
+  "197250": {
+   "title": "Агрессивный фидбек по ивенту. ",
+   "slug": "197250-agressivnyy-fidbek-po-iventu",
+   "createdAt": "2026-10-29T02:45:11+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T02:56:57Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T04:56:54Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
+  }
+ },
  "graduated": {
   "196917": {
    "title": "Пнв",
