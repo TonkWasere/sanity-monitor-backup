@@ -15,9 +15,9 @@
    "until_ts": "2026-10-29T07:56:57Z",
    "last_lpn": 22,
    "last_cc": 22,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T07:27:22Z"
+   "last_checked": "2026-10-29T07:41:09Z"
   },
   "197253": {
    "title": "Чуть чуть про арену ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-29T07:56:57Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T07:27:24Z"
+   "last_checked": "2026-10-29T07:41:11Z"
   },
   "197255": {
    "title": "Мой глазик увидел алмазик",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-29T08:27:11Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T07:27:26Z"
+   "last_checked": "2026-10-29T07:41:12Z"
   },
   "197256": {
    "title": "Скидки на бартер в событии",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-29T08:58:01Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T07:27:27Z"
+   "last_checked": "2026-10-29T07:41:14Z"
   },
   "197257": {
    "title": "Страшная очень страшна!1!11!",
@@ -73,8 +73,23 @@
    "discovered_at": "2026-10-29T07:27:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T09:27:20Z",
-   "last_lpn": 3,
-   "last_cc": 3,
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T07:41:16Z"
+  },
+  "197258": {
+   "title": "Идея для добавление в ивент нового оружие для разнообразия",
+   "slug": "197258-ideya-dlya-dobavlenie-v-ivent-novogo-oruzhie-dlya-raznoobraziya",
+   "createdAt": "2026-10-29T07:28:22+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T07:41:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T09:41:07Z",
+   "last_lpn": 1,
+   "last_cc": 1,
    "checks": 0
   }
  },
