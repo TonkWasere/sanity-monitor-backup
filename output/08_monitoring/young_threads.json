@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-29T13:10:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T15:10:17Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 2,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T13:40:30Z"
+   "last_checked": "2026-10-29T13:55:14Z"
   },
   "197271": {
    "title": "Майнеры Эксбо",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-29T15:10:17Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T13:40:32Z"
+   "last_checked": "2026-10-29T13:55:15Z"
   },
   "197273": {
    "title": "Квест ассистента забагался  ",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-29T13:36:36Z",
    "source": "snap35",
    "until_ts": "2026-10-29T15:36:36Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T13:40:34Z"
+   "last_checked": "2026-10-29T13:55:18Z"
   }
  },
  "graduated": {
