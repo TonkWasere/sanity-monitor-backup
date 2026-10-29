@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197282": {
-   "title": "Обновление API",
-   "slug": "197282-obnovlenie-api",
-   "createdAt": "2026-10-29T15:27:42+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T15:28:09Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T17:27:55Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-29T17:10:59Z"
-  },
-  "197283": {
-   "title": "Изменения",
-   "slug": "197283-izmeneniya",
-   "createdAt": "2026-10-29T15:34:39+00:00",
-   "op_user": "bandosvoron",
-   "stm": false,
-   "discovered_at": "2026-10-29T15:39:56Z",
-   "source": "snap35",
-   "until_ts": "2026-10-29T17:39:56Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-29T17:11:01Z"
-  },
   "197286": {
    "title": "Мнение об ивенте спустя 3 игры",
    "slug": "197286-mnenie-ob-ivente-spustya-3-igry",
@@ -45,9 +15,9 @@
    "until_ts": "2026-10-29T17:57:01Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T17:11:02Z"
+   "last_checked": "2026-10-29T17:43:20Z"
   },
   "197285": {
    "title": "Буст колизея",
@@ -60,9 +30,9 @@
    "until_ts": "2026-10-29T17:57:01Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 3,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T17:11:04Z"
+   "last_checked": "2026-10-29T17:43:22Z"
   },
   "197284": {
    "title": "ЛЦУ и Рукоять, а также что они не поделили между собой",
@@ -75,9 +45,9 @@
    "until_ts": "2026-10-29T17:57:01Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 3,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T17:11:06Z"
+   "last_checked": "2026-10-29T17:43:24Z"
   },
   "197289": {
    "title": "Трапеция (может быть красивой)",
@@ -88,11 +58,11 @@
    "discovered_at": "2026-10-29T16:39:51Z",
    "source": "snap35",
    "until_ts": "2026-10-29T18:39:51Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 3,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T17:11:08Z"
+   "last_checked": "2026-10-29T17:43:26Z"
   },
   "197288": {
    "title": "Быстрый гайд по экономике в Празднестве для новичков ",
@@ -105,9 +75,9 @@
    "until_ts": "2026-10-29T18:41:31Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 2,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T17:11:09Z"
+   "last_checked": "2026-10-29T17:43:28Z"
   },
   "197287": {
    "title": "В 4 человека лежать пкшить паки - прекрасно",
@@ -120,9 +90,9 @@
    "until_ts": "2026-10-29T18:41:31Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 2,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T17:11:11Z"
+   "last_checked": "2026-10-29T17:43:29Z"
   },
   "197291": {
    "title": "жоска срем ивент, потому что хейтить - это хайповааа",
@@ -133,9 +103,11 @@
    "discovered_at": "2026-10-29T17:11:14Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T19:10:57Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-29T17:43:31Z"
   }
  },
  "graduated": {
@@ -4620,6 +4592,40 @@
    "fails": 0,
    "last_checked": "2026-10-29T16:57:06Z",
    "graduated_at": "2026-10-29T17:10:57Z",
+   "checks_done": 5
+  },
+  "197282": {
+   "title": "Обновление API",
+   "slug": "197282-obnovlenie-api",
+   "createdAt": "2026-10-29T15:27:42+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T15:28:09Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T17:27:55Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-29T17:10:59Z",
+   "graduated_at": "2026-10-29T17:42:34Z",
+   "checks_done": 5
+  },
+  "197283": {
+   "title": "Изменения",
+   "slug": "197283-izmeneniya",
+   "createdAt": "2026-10-29T15:34:39+00:00",
+   "op_user": "bandosvoron",
+   "stm": false,
+   "discovered_at": "2026-10-29T15:39:56Z",
+   "source": "snap35",
+   "until_ts": "2026-10-29T17:39:56Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-29T17:11:01Z",
+   "graduated_at": "2026-10-29T17:42:34Z",
    "checks_done": 5
   }
  }
