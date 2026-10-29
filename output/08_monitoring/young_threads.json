@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197251": {
-   "title": "Форумные пожалуйста нойте лучше и быстрее",
-   "slug": "197251-forumnye-pozhaluysta-noyte-luchshe-i-bystree",
-   "createdAt": "2026-10-29T04:44:17+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T04:57:06Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T06:57:02Z",
-   "last_lpn": 14,
-   "last_cc": 12,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-29T06:40:25Z"
-  },
   "197252": {
    "title": "Фидбек по празднеству...",
    "slug": "197252-fidbek-po-prazdnestvu",
@@ -30,9 +15,9 @@
    "until_ts": "2026-10-29T07:27:09Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T06:40:26Z"
+   "last_checked": "2026-10-29T06:58:03Z"
   },
   "197254": {
    "title": "Чё ты недоволен наградой да? ",
@@ -43,11 +28,11 @@
    "discovered_at": "2026-10-29T05:57:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T07:56:57Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 2,
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T06:40:28Z"
+   "last_checked": "2026-10-29T06:58:05Z"
   },
   "197253": {
    "title": "Чуть чуть про арену ",
@@ -60,9 +45,9 @@
    "until_ts": "2026-10-29T07:56:57Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T06:40:30Z"
+   "last_checked": "2026-10-29T06:58:06Z"
   },
   "197255": {
    "title": "Мой глазик увидел алмазик",
@@ -75,9 +60,22 @@
    "until_ts": "2026-10-29T08:27:11Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T06:40:31Z"
+   "last_checked": "2026-10-29T06:58:08Z"
+  },
+  "197256": {
+   "title": "Скидки на бартер в событии",
+   "slug": "197256-skidki-na-barter-v-sobytii",
+   "createdAt": "2026-10-29T06:50:34+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T06:58:11Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T08:58:01Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
@@ -4086,6 +4084,23 @@
    "fails": 0,
    "last_checked": "2026-10-29T04:40:29Z",
    "graduated_at": "2026-10-29T04:57:03Z",
+   "checks_done": 6
+  },
+  "197251": {
+   "title": "Форумные пожалуйста нойте лучше и быстрее",
+   "slug": "197251-forumnye-pozhaluysta-noyte-luchshe-i-bystree",
+   "createdAt": "2026-10-29T04:44:17+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T04:57:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T06:57:02Z",
+   "last_lpn": 14,
+   "last_cc": 12,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-29T06:40:25Z",
+   "graduated_at": "2026-10-29T06:58:01Z",
    "checks_done": 6
   }
  }
