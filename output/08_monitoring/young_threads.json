@@ -4,51 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197286": {
-   "title": "Мнение об ивенте спустя 3 игры",
-   "slug": "197286-mnenie-ob-ivente-spustya-3-igry",
-   "createdAt": "2026-10-29T15:53:29+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T15:57:18Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T17:57:01Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-29T17:43:20Z"
-  },
-  "197285": {
-   "title": "Буст колизея",
-   "slug": "197285-bust-kolizeya",
-   "createdAt": "2026-10-29T15:52:54+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T15:57:18Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T17:57:01Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-29T17:43:22Z"
-  },
-  "197284": {
-   "title": "ЛЦУ и Рукоять, а также что они не поделили между собой",
-   "slug": "197284-ltsu-i-rukoyat-a-takzhe-chto-oni-ne-podelili-mezhdu-soboy",
-   "createdAt": "2026-10-29T15:44:51+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T15:57:18Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T17:57:01Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-29T17:43:24Z"
-  },
   "197289": {
    "title": "Трапеция (может быть красивой)",
    "slug": "197289-trapetsiya-mozhet-byt-krasivoy",
@@ -58,11 +13,11 @@
    "discovered_at": "2026-10-29T16:39:51Z",
    "source": "snap35",
    "until_ts": "2026-10-29T18:39:51Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 5,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T17:43:26Z"
+   "last_checked": "2026-10-29T18:03:59Z"
   },
   "197288": {
    "title": "Быстрый гайд по экономике в Празднестве для новичков ",
@@ -75,9 +30,9 @@
    "until_ts": "2026-10-29T18:41:31Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T17:43:28Z"
+   "last_checked": "2026-10-29T18:04:01Z"
   },
   "197287": {
    "title": "В 4 человека лежать пкшить паки - прекрасно",
@@ -90,9 +45,9 @@
    "until_ts": "2026-10-29T18:41:31Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T17:43:29Z"
+   "last_checked": "2026-10-29T18:04:02Z"
   },
   "197291": {
    "title": "жоска срем ивент, потому что хейтить - это хайповааа",
@@ -105,9 +60,35 @@
    "until_ts": "2026-10-29T19:10:57Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T17:43:31Z"
+   "last_checked": "2026-10-29T18:04:04Z"
+  },
+  "197293": {
+   "title": "Чат Джибити перегружен",
+   "slug": "197293-chat-dzhibiti-peregruzhen",
+   "createdAt": "2026-10-29T17:49:20+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T18:04:07Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T20:03:57Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197292": {
+   "title": "Арена митрополита и почему оно не нужно ",
+   "slug": "197292-arena-mitropolita-i-pochemu-ono-ne-nuzhno",
+   "createdAt": "2026-10-29T17:45:15+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T18:04:07Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T20:03:57Z",
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 0
   }
  },
  "graduated": {
@@ -4626,6 +4607,57 @@
    "fails": 0,
    "last_checked": "2026-10-29T17:11:01Z",
    "graduated_at": "2026-10-29T17:42:34Z",
+   "checks_done": 5
+  },
+  "197284": {
+   "title": "ЛЦУ и Рукоять, а также что они не поделили между собой",
+   "slug": "197284-ltsu-i-rukoyat-a-takzhe-chto-oni-ne-podelili-mezhdu-soboy",
+   "createdAt": "2026-10-29T15:44:51+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T15:57:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T17:57:01Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-29T17:43:24Z",
+   "graduated_at": "2026-10-29T18:03:57Z",
+   "checks_done": 5
+  },
+  "197285": {
+   "title": "Буст колизея",
+   "slug": "197285-bust-kolizeya",
+   "createdAt": "2026-10-29T15:52:54+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T15:57:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T17:57:01Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-29T17:43:22Z",
+   "graduated_at": "2026-10-29T18:03:57Z",
+   "checks_done": 5
+  },
+  "197286": {
+   "title": "Мнение об ивенте спустя 3 игры",
+   "slug": "197286-mnenie-ob-ivente-spustya-3-igry",
+   "createdAt": "2026-10-29T15:53:29+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T15:57:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T17:57:01Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-29T17:43:20Z",
+   "graduated_at": "2026-10-29T18:03:57Z",
    "checks_done": 5
   }
  }
