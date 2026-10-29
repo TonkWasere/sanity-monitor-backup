@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197273": {
-   "title": "Квест ассистента забагался  ",
-   "slug": "197273-kvest-assistenta-zabagalsya",
-   "createdAt": "2026-10-29T13:36:10+00:00",
-   "op_user": "Link9067",
-   "stm": false,
-   "discovered_at": "2026-10-29T13:36:36Z",
-   "source": "snap35",
-   "until_ts": "2026-10-29T15:36:36Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-29T15:27:57Z"
-  },
   "197275": {
    "title": "Бекфид арены ",
    "slug": "197275-bekfid-areny",
@@ -30,9 +15,9 @@
    "until_ts": "2026-10-29T16:10:12Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T15:27:59Z"
+   "last_checked": "2026-10-29T15:40:52Z"
   },
   "197274": {
    "title": "🎃 «Празднество» x Twitch Drops",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-29T16:40:08Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T15:28:00Z"
+   "last_checked": "2026-10-29T15:40:54Z"
   },
   "197280": {
    "title": "Босс Праздненства",
@@ -58,11 +43,11 @@
    "discovered_at": "2026-10-29T14:58:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T16:58:05Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 2,
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T15:28:02Z"
+   "last_checked": "2026-10-29T15:40:56Z"
   },
   "197279": {
    "title": "Кто в храме насрал? ",
@@ -73,11 +58,11 @@
    "discovered_at": "2026-10-29T14:58:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T16:58:05Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 2,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T15:28:04Z"
+   "last_checked": "2026-10-29T15:40:57Z"
   },
   "197281": {
    "title": "Пластинка празднества",
@@ -88,11 +73,11 @@
    "discovered_at": "2026-10-29T15:10:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T17:10:15Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 1,
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T15:28:05Z"
+   "last_checked": "2026-10-29T15:40:59Z"
   },
   "197278": {
    "title": "🤑 Побеждай разработчиков на стриме и получай Сталкоины",
@@ -105,9 +90,9 @@
    "until_ts": "2026-10-29T17:10:15Z",
    "last_lpn": 10,
    "last_cc": 8,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T15:28:07Z"
+   "last_checked": "2026-10-29T15:41:00Z"
   },
   "197282": {
    "title": "Обновление API",
@@ -118,9 +103,11 @@
    "discovered_at": "2026-10-29T15:28:09Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T17:27:55Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T15:41:02Z"
   },
   "197283": {
    "title": "Изменения",
@@ -133,7 +120,9 @@
    "until_ts": "2026-10-29T17:39:56Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T15:41:04Z"
   }
  },
  "graduated": {
@@ -4499,6 +4488,23 @@
    "fails": 0,
    "last_checked": "2026-10-29T15:10:17Z",
    "graduated_at": "2026-10-29T15:27:55Z",
+   "checks_done": 8
+  },
+  "197273": {
+   "title": "Квест ассистента забагался  ",
+   "slug": "197273-kvest-assistenta-zabagalsya",
+   "createdAt": "2026-10-29T13:36:10+00:00",
+   "op_user": "Link9067",
+   "stm": false,
+   "discovered_at": "2026-10-29T13:36:36Z",
+   "source": "snap35",
+   "until_ts": "2026-10-29T15:36:36Z",
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-29T15:27:57Z",
+   "graduated_at": "2026-10-29T15:40:50Z",
    "checks_done": 8
   }
  }
