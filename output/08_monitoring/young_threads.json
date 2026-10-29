@@ -15,9 +15,9 @@
    "until_ts": "2026-10-29T12:26:57Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-29T12:10:13Z"
+   "last_checked": "2026-10-29T12:25:14Z"
   },
   "197267": {
    "title": "я рад!!!",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-29T12:26:57Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-29T12:10:15Z"
+   "last_checked": "2026-10-29T12:25:16Z"
   },
   "197269": {
    "title": "Новый моб - паук пакоед",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-29T11:27:42Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T13:27:29Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 3,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T12:10:16Z"
+   "last_checked": "2026-10-29T12:25:18Z"
   },
   "197270": {
    "title": "Когда извинения Piv?",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-29T11:40:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T13:40:08Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 2,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T12:10:18Z"
+   "last_checked": "2026-10-29T12:25:20Z"
   }
  },
  "graduated": {
