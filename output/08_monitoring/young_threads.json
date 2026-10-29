@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197254": {
-   "title": "Чё ты недоволен наградой да? ",
-   "slug": "197254-chyo-ty-nedovolen-nagradoy-da",
-   "createdAt": "2026-10-29T05:47:59+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T05:57:04Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T07:56:57Z",
-   "last_lpn": 22,
-   "last_cc": 22,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-29T07:41:09Z"
-  },
-  "197253": {
-   "title": "Чуть чуть про арену ",
-   "slug": "197253-chut-chut-pro-arenu",
-   "createdAt": "2026-10-29T05:41:44+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T05:57:04Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T07:56:57Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-29T07:41:11Z"
-  },
   "197255": {
    "title": "Мой глазик увидел алмазик",
    "slug": "197255-moy-glazik-uvidel-almazik",
@@ -45,9 +15,9 @@
    "until_ts": "2026-10-29T08:27:11Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T07:41:12Z"
+   "last_checked": "2026-10-29T07:59:58Z"
   },
   "197256": {
    "title": "Скидки на бартер в событии",
@@ -58,11 +28,11 @@
    "discovered_at": "2026-10-29T06:58:11Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T08:58:01Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 3,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T07:41:14Z"
+   "last_checked": "2026-10-29T08:00:00Z"
   },
   "197257": {
    "title": "Страшная очень страшна!1!11!",
@@ -73,11 +43,11 @@
    "discovered_at": "2026-10-29T07:27:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T09:27:20Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T07:41:16Z"
+   "last_checked": "2026-10-29T08:00:02Z"
   },
   "197258": {
    "title": "Идея для добавление в ивент нового оружие для разнообразия",
@@ -88,8 +58,36 @@
    "discovered_at": "2026-10-29T07:41:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T09:41:07Z",
-   "last_lpn": 1,
-   "last_cc": 1,
+   "last_lpn": 12,
+   "last_cc": 11,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T08:00:03Z"
+  },
+  "197260": {
+   "title": "Ударная волна 2",
+   "slug": "197260-udarnaya-volna-2",
+   "createdAt": "2026-10-29T07:50:39+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T08:00:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T09:59:57Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 0
+  },
+  "197259": {
+   "title": "Ивент",
+   "slug": "197259-ivent",
+   "createdAt": "2026-10-29T07:46:48+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T08:00:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T09:59:57Z",
+   "last_lpn": 8,
+   "last_cc": 8,
    "checks": 0
   }
  },
@@ -4133,6 +4131,40 @@
    "fails": 0,
    "last_checked": "2026-10-29T07:11:18Z",
    "graduated_at": "2026-10-29T07:27:20Z",
+   "checks_done": 6
+  },
+  "197253": {
+   "title": "Чуть чуть про арену ",
+   "slug": "197253-chut-chut-pro-arenu",
+   "createdAt": "2026-10-29T05:41:44+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T05:57:04Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T07:56:57Z",
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-29T07:41:11Z",
+   "graduated_at": "2026-10-29T07:59:57Z",
+   "checks_done": 6
+  },
+  "197254": {
+   "title": "Чё ты недоволен наградой да? ",
+   "slug": "197254-chyo-ty-nedovolen-nagradoy-da",
+   "createdAt": "2026-10-29T05:47:59+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T05:57:04Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T07:56:57Z",
+   "last_lpn": 22,
+   "last_cc": 22,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-29T07:41:09Z",
+   "graduated_at": "2026-10-29T07:59:57Z",
    "checks_done": 6
   }
  }
