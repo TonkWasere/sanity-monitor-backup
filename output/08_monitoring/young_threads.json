@@ -4,20 +4,18 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197250": {
-   "title": "Агрессивный фидбек по ивенту. ",
-   "slug": "197250-agressivnyy-fidbek-po-iventu",
-   "createdAt": "2026-10-29T02:45:11+00:00",
+  "197251": {
+   "title": "Форумные пожалуйста нойте лучше и быстрее",
+   "slug": "197251-forumnye-pozhaluysta-noyte-luchshe-i-bystree",
+   "createdAt": "2026-10-29T04:44:17+00:00",
    "op_user": "?",
    "stm": false,
-   "discovered_at": "2026-10-29T02:56:57Z",
+   "discovered_at": "2026-10-29T04:57:06Z",
    "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T04:56:54Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-29T04:40:29Z"
+   "until_ts": "2026-10-29T06:57:02Z",
+   "last_lpn": 5,
+   "last_cc": 4,
+   "checks": 0
   }
  },
  "graduated": {
@@ -4009,6 +4007,23 @@
    "fails": 0,
    "last_checked": "2026-10-29T00:58:02Z",
    "graduated_at": "2026-10-29T01:27:18Z",
+   "checks_done": 6
+  },
+  "197250": {
+   "title": "Агрессивный фидбек по ивенту. ",
+   "slug": "197250-agressivnyy-fidbek-po-iventu",
+   "createdAt": "2026-10-29T02:45:11+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T02:56:57Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T04:56:54Z",
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-29T04:40:29Z",
+   "graduated_at": "2026-10-29T04:57:03Z",
    "checks_done": 6
   }
  }
