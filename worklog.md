@@ -8296,3 +8296,4 @@ Task ID: 54-382: sweep 21×NEW-POSTS (197225 +7→186 ре-ускорение, 1
 Task ID: 54-14-s15: 14:10 NEW 197275 «Бекфид арены» createdAt 14:07 lpn/cc 2/2 → young(2h), 197272 +2 →12/12, 197273 +2 →13/13 (продолжает расти); 197271 без дельт; active=4
 Task ID: 54-14-s15: 14:25 197272 «Смерть ивентов...» +7 →19/19 (сильный разгон), 197275 «Бекфид арены» +6 →8/8 (8 постов за 18 мин), 197273 без дельт (13/13); active=4
 Task ID: 54-383: sweep 11×NEW-POSTS + NEW-THREAD 197276 (deep OK), GG-integrity PASS (canon #48 + якоря), 197270 +18→39, EXT 2 (Steam Twitch Drops RU+EN 14:31), deep 197276
+Task ID: 54-14-s15: 14:10 NEW 197274 «Празднество x Twitch Drops» createdAt 14:03 lpn/cc 2/2 → young(2h) — оф.тред-близнец Steam-новости 14:31; остальное без дельт; active=5
