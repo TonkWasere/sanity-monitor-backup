@@ -15,9 +15,9 @@
    "until_ts": "2026-10-29T00:56:27Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T00:10:07Z"
+   "last_checked": "2026-10-29T00:25:08Z"
   },
   "197246": {
    "title": "патерны каллезей ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-29T00:56:27Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T00:10:09Z"
+   "last_checked": "2026-10-29T00:25:10Z"
   },
   "197245": {
    "title": "Очень сильные лаги в SZ + 1 фпс",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-29T00:56:27Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T00:10:10Z"
+   "last_checked": "2026-10-29T00:25:11Z"
   },
   "197244": {
    "title": "Где находиться старт квеста \"Пламя и пепел\" для рубежа на локации Барьер?",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-29T00:56:27Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T00:10:12Z"
+   "last_checked": "2026-10-29T00:25:13Z"
   },
   "197243": {
    "title": "Фидбек по новому ивенту, как он там, эээ.. \"Празднество\" ",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-29T00:56:27Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T00:10:14Z"
+   "last_checked": "2026-10-29T00:25:15Z"
   },
   "197241": {
    "title": "Яромир,поздравь",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-29T00:56:27Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T00:10:15Z"
+   "last_checked": "2026-10-29T00:25:16Z"
   },
   "197249": {
    "title": "Фидбек по ивенту",
@@ -103,11 +103,11 @@
    "discovered_at": "2026-10-28T23:15:49Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T01:15:37Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 4,
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T00:10:17Z"
+   "last_checked": "2026-10-29T00:25:18Z"
   },
   "197248": {
    "title": "Фидбек по арене",
@@ -120,9 +120,9 @@
    "until_ts": "2026-10-29T01:15:37Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T00:10:19Z"
+   "last_checked": "2026-10-29T00:25:20Z"
   }
  },
  "graduated": {
