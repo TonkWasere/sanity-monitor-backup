@@ -93,6 +93,19 @@
    "checks": 1,
    "fails": 0,
    "last_checked": "2026-10-29T09:27:04Z"
+  },
+  "197266": {
+   "title": "Схроны",
+   "slug": "197266-shrony",
+   "createdAt": "2026-10-29T09:34:32+00:00",
+   "op_user": "AwaTop",
+   "stm": false,
+   "discovered_at": "2026-10-29T09:36:49Z",
+   "source": "snap35",
+   "until_ts": "2026-10-29T11:36:49Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
