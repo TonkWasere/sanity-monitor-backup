@@ -13,11 +13,24 @@
    "discovered_at": "2026-10-29T04:57:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T06:57:02Z",
-   "last_lpn": 6,
-   "last_cc": 5,
-   "checks": 1,
+   "last_lpn": 9,
+   "last_cc": 8,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T05:10:11Z"
+   "last_checked": "2026-10-29T05:27:11Z"
+  },
+  "197252": {
+   "title": "Фидбек по празднеству...",
+   "slug": "197252-fidbek-po-prazdnestvu",
+   "createdAt": "2026-10-29T05:21:10+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T05:27:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T07:27:09Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
