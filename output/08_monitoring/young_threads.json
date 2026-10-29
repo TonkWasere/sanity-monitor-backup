@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197262": {
-   "title": "Арбитр Первопроходца ",
-   "slug": "197262-arbitr-pervoprohodtsa",
-   "createdAt": "2026-10-29T08:44:50+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T08:57:17Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T10:57:05Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-29T10:56:52Z"
-  },
-  "197261": {
-   "title": "По здравляю Бабую на кузнецком",
-   "slug": "197261-po-zdravlyayu-babuyu-na-kuznetskom",
-   "createdAt": "2026-10-29T08:43:00+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T08:57:17Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T10:57:05Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-29T10:56:53Z"
-  },
   "197266": {
    "title": "Схроны",
    "slug": "197266-shrony",
@@ -43,11 +13,11 @@
    "discovered_at": "2026-10-29T09:36:49Z",
    "source": "snap35",
    "until_ts": "2026-10-29T11:36:49Z",
-   "last_lpn": 76,
-   "last_cc": 76,
-   "checks": 6,
+   "last_lpn": 91,
+   "last_cc": 91,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-29T10:56:55Z"
+   "last_checked": "2026-10-29T11:27:31Z"
   },
   "197265": {
    "title": "ивентек",
@@ -58,11 +28,11 @@
    "discovered_at": "2026-10-29T09:40:38Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T11:40:23Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 5,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T10:56:57Z"
+   "last_checked": "2026-10-29T11:27:33Z"
   },
   "197264": {
    "title": "Все врут, лудка хорошо!",
@@ -75,9 +45,9 @@
    "until_ts": "2026-10-29T11:40:23Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T10:56:59Z"
+   "last_checked": "2026-10-29T11:27:35Z"
   },
   "197268": {
    "title": "А я ради удовольствия в ивенты сталкрафтикса играю debiloid 🥴 ",
@@ -90,9 +60,9 @@
    "until_ts": "2026-10-29T12:26:57Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T10:57:01Z"
+   "last_checked": "2026-10-29T11:27:37Z"
   },
   "197267": {
    "title": "я рад!!!",
@@ -105,9 +75,22 @@
    "until_ts": "2026-10-29T12:26:57Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T10:57:03Z"
+   "last_checked": "2026-10-29T11:27:39Z"
+  },
+  "197269": {
+   "title": "Новый моб - паук пакоед",
+   "slug": "197269-novyy-mob-pauk-pakoed",
+   "createdAt": "2026-10-29T11:27:37+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T11:27:42Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T13:27:29Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
@@ -4286,6 +4269,40 @@
    "fails": 0,
    "last_checked": "2026-10-29T09:58:26Z",
    "graduated_at": "2026-10-29T10:10:09Z",
+   "checks_done": 7
+  },
+  "197261": {
+   "title": "По здравляю Бабую на кузнецком",
+   "slug": "197261-po-zdravlyayu-babuyu-na-kuznetskom",
+   "createdAt": "2026-10-29T08:43:00+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T08:57:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T10:57:05Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-29T10:56:53Z",
+   "graduated_at": "2026-10-29T11:27:29Z",
+   "checks_done": 7
+  },
+  "197262": {
+   "title": "Арбитр Первопроходца ",
+   "slug": "197262-arbitr-pervoprohodtsa",
+   "createdAt": "2026-10-29T08:44:50+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T08:57:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T10:57:05Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-29T10:56:52Z",
+   "graduated_at": "2026-10-29T11:27:29Z",
    "checks_done": 7
   }
  }
