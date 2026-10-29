@@ -1179,3 +1179,4 @@
 - 2026-10-29T15:57:18Z snap15 197286 RECONCILE-ADD «Мнение об ивенте спустя 3 игры» createdAt 2026-10-29T15:53:29+00:00 lpn/cc 1/1 → young(2h)
 - 2026-10-29T15:57:18Z snap15 197285 RECONCILE-ADD «Буст колизея» createdAt 2026-10-29T15:52:54+00:00 lpn/cc 3/3 → young(2h)
 - 2026-10-29T15:57:18Z snap15 197284 RECONCILE-ADD «ЛЦУ и Рукоять, а также что они не поделили м» createdAt 2026-10-29T15:44:51+00:00 lpn/cc 6/6 → young(2h)
+- 2026-10-29T16:39:51Z snap35 NEW 197289 «Трапеция (может быть красивой)» OP Lord_Floppa createdAt 2026-10-29T16:37:37+00:00 lpn/cc 1/1 → young(2h)

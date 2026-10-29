@@ -162,6 +162,19 @@
    "last_lpn": 6,
    "last_cc": 6,
    "checks": 0
+  },
+  "197289": {
+   "title": "Трапеция (может быть красивой)",
+   "slug": "197289-trapetsiya-mozhet-byt-krasivoy",
+   "createdAt": "2026-10-29T16:37:37+00:00",
+   "op_user": "Lord_Floppa",
+   "stm": false,
+   "discovered_at": "2026-10-29T16:39:51Z",
+   "source": "snap35",
+   "until_ts": "2026-10-29T18:39:51Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
