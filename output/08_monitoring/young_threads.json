@@ -63,6 +63,19 @@
    "checks": 1,
    "fails": 0,
    "last_checked": "2026-10-29T13:25:23Z"
+  },
+  "197273": {
+   "title": "Квест ассистента забагался  ",
+   "slug": "197273-kvest-assistenta-zabagalsya",
+   "createdAt": "2026-10-29T13:36:10+00:00",
+   "op_user": "Link9067",
+   "stm": false,
+   "discovered_at": "2026-10-29T13:36:36Z",
+   "source": "snap35",
+   "until_ts": "2026-10-29T15:36:36Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
