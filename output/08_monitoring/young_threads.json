@@ -15,9 +15,9 @@
    "until_ts": "2026-10-29T18:39:51Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-29T18:03:59Z"
+   "last_checked": "2026-10-29T18:15:54Z"
   },
   "197288": {
    "title": "Быстрый гайд по экономике в Празднестве для новичков ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-29T18:41:31Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T18:04:01Z"
+   "last_checked": "2026-10-29T18:15:56Z"
   },
   "197287": {
    "title": "В 4 человека лежать пкшить паки - прекрасно",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-29T18:41:31Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T18:04:02Z"
+   "last_checked": "2026-10-29T18:15:57Z"
   },
   "197291": {
    "title": "жоска срем ивент, потому что хейтить - это хайповааа",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-29T19:10:57Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T18:04:04Z"
+   "last_checked": "2026-10-29T18:15:59Z"
   },
   "197293": {
    "title": "Чат Джибити перегружен",
@@ -75,7 +75,9 @@
    "until_ts": "2026-10-29T20:03:57Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T18:16:00Z"
   },
   "197292": {
    "title": "Арена митрополита и почему оно не нужно ",
@@ -86,9 +88,11 @@
    "discovered_at": "2026-10-29T18:04:07Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T20:03:57Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 0
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T18:16:02Z"
   }
  },
  "graduated": {
