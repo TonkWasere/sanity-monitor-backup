@@ -15,9 +15,9 @@
    "until_ts": "2026-10-29T06:57:02Z",
    "last_lpn": 9,
    "last_cc": 8,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T05:27:11Z"
+   "last_checked": "2026-10-29T05:40:15Z"
   },
   "197252": {
    "title": "Фидбек по празднеству...",
@@ -30,7 +30,9 @@
    "until_ts": "2026-10-29T07:27:09Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T05:40:17Z"
   }
  },
  "graduated": {
