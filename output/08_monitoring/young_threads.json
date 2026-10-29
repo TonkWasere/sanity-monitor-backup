@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197260": {
-   "title": "Ударная волна 2",
-   "slug": "197260-udarnaya-volna-2",
-   "createdAt": "2026-10-29T07:50:39+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T08:00:06Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T09:59:57Z",
-   "last_lpn": 31,
-   "last_cc": 31,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-29T09:58:26Z"
-  },
-  "197259": {
-   "title": "Ивент",
-   "slug": "197259-ivent",
-   "createdAt": "2026-10-29T07:46:48+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T08:00:06Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T09:59:57Z",
-   "last_lpn": 55,
-   "last_cc": 55,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-29T09:58:28Z"
-  },
   "197262": {
    "title": "Арбитр Первопроходца ",
    "slug": "197262-arbitr-pervoprohodtsa",
@@ -43,11 +13,11 @@
    "discovered_at": "2026-10-29T08:57:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T10:57:05Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 3,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T09:58:30Z"
+   "last_checked": "2026-10-29T10:10:11Z"
   },
   "197261": {
    "title": "По здравляю Бабую на кузнецком",
@@ -60,9 +30,9 @@
    "until_ts": "2026-10-29T10:57:05Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T09:58:32Z"
+   "last_checked": "2026-10-29T10:10:12Z"
   },
   "197266": {
    "title": "Схроны",
@@ -73,11 +43,11 @@
    "discovered_at": "2026-10-29T09:36:49Z",
    "source": "snap35",
    "until_ts": "2026-10-29T11:36:49Z",
-   "last_lpn": 25,
-   "last_cc": 25,
-   "checks": 2,
+   "last_lpn": 41,
+   "last_cc": 41,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T09:58:33Z"
+   "last_checked": "2026-10-29T10:10:14Z"
   },
   "197265": {
    "title": "ивентек",
@@ -88,11 +58,11 @@
    "discovered_at": "2026-10-29T09:40:38Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T11:40:23Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 1,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T09:58:35Z"
+   "last_checked": "2026-10-29T10:10:16Z"
   },
   "197264": {
    "title": "Все врут, лудка хорошо!",
@@ -105,9 +75,9 @@
    "until_ts": "2026-10-29T11:40:23Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T09:58:37Z"
+   "last_checked": "2026-10-29T10:10:18Z"
   }
  },
  "graduated": {
@@ -4252,6 +4222,40 @@
    "fails": 0,
    "last_checked": "2026-10-29T09:40:25Z",
    "graduated_at": "2026-10-29T09:58:25Z",
+   "checks_done": 7
+  },
+  "197259": {
+   "title": "Ивент",
+   "slug": "197259-ivent",
+   "createdAt": "2026-10-29T07:46:48+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T08:00:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T09:59:57Z",
+   "last_lpn": 55,
+   "last_cc": 55,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-29T09:58:28Z",
+   "graduated_at": "2026-10-29T10:10:09Z",
+   "checks_done": 7
+  },
+  "197260": {
+   "title": "Ударная волна 2",
+   "slug": "197260-udarnaya-volna-2",
+   "createdAt": "2026-10-29T07:50:39+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T08:00:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T09:59:57Z",
+   "last_lpn": 31,
+   "last_cc": 31,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-29T09:58:26Z",
+   "graduated_at": "2026-10-29T10:10:09Z",
    "checks_done": 7
   }
  }
