@@ -15,9 +15,9 @@
    "until_ts": "2026-10-29T13:27:29Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-29T13:10:18Z"
+   "last_checked": "2026-10-29T13:25:18Z"
   },
   "197270": {
    "title": "Когда извинения Piv?",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-29T11:40:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T13:40:08Z",
-   "last_lpn": 16,
-   "last_cc": 16,
-   "checks": 5,
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T13:10:20Z"
+   "last_checked": "2026-10-29T13:25:19Z"
   },
   "197272": {
    "title": "Смерть ивентов...",
@@ -43,9 +43,11 @@
    "discovered_at": "2026-10-29T13:10:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T15:10:17Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T13:25:21Z"
   },
   "197271": {
    "title": "Майнеры Эксбо",
@@ -56,9 +58,11 @@
    "discovered_at": "2026-10-29T13:10:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T15:10:17Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T13:25:23Z"
   }
  },
  "graduated": {
