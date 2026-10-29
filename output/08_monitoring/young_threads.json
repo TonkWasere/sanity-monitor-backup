@@ -15,9 +15,9 @@
    "until_ts": "2026-10-29T08:58:01Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-29T08:27:32Z"
+   "last_checked": "2026-10-29T08:40:09Z"
   },
   "197257": {
    "title": "Страшная очень страшна!1!11!",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-29T07:27:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T09:27:20Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 4,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T08:27:34Z"
+   "last_checked": "2026-10-29T08:40:10Z"
   },
   "197258": {
    "title": "Идея для добавление в ивент нового оружие для разнообразия",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-29T09:41:07Z",
    "last_lpn": 14,
    "last_cc": 13,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T08:27:36Z"
+   "last_checked": "2026-10-29T08:40:12Z"
   },
   "197260": {
    "title": "Ударная волна 2",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-29T08:00:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T09:59:57Z",
-   "last_lpn": 17,
-   "last_cc": 17,
-   "checks": 2,
+   "last_lpn": 24,
+   "last_cc": 24,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T08:27:38Z"
+   "last_checked": "2026-10-29T08:40:14Z"
   },
   "197259": {
    "title": "Ивент",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-10-29T08:00:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T09:59:57Z",
-   "last_lpn": 26,
-   "last_cc": 26,
-   "checks": 2,
+   "last_lpn": 35,
+   "last_cc": 35,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T08:27:39Z"
+   "last_checked": "2026-10-29T08:40:16Z"
   }
  },
  "graduated": {
