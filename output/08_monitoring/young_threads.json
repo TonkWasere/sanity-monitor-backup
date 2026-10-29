@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197268": {
-   "title": "А я ради удовольствия в ивенты сталкрафтикса играю debiloid 🥴 ",
-   "slug": "197268-a-ya-radi-udovolstviya-v-iventy-stalkraftiksa-igrayu-debiloid",
-   "createdAt": "2026-10-29T10:24:44+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T10:27:09Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T12:26:57Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-29T12:25:14Z"
-  },
-  "197267": {
-   "title": "я рад!!!",
-   "slug": "197267-ya-rad",
-   "createdAt": "2026-10-29T10:18:04+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T10:27:09Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T12:26:57Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-29T12:25:16Z"
-  },
   "197269": {
    "title": "Новый моб - паук пакоед",
    "slug": "197269-novyy-mob-pauk-pakoed",
@@ -43,11 +13,11 @@
    "discovered_at": "2026-10-29T11:27:42Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T13:27:29Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 4,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T12:25:18Z"
+   "last_checked": "2026-10-29T12:55:15Z"
   },
   "197270": {
    "title": "Когда извинения Piv?",
@@ -58,11 +28,11 @@
    "discovered_at": "2026-10-29T11:40:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T13:40:08Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 3,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T12:25:20Z"
+   "last_checked": "2026-10-29T12:55:17Z"
   }
  },
  "graduated": {
@@ -4326,6 +4296,40 @@
    "fails": 0,
    "last_checked": "2026-10-29T11:40:10Z",
    "graduated_at": "2026-10-29T11:57:23Z",
+   "checks_done": 7
+  },
+  "197267": {
+   "title": "я рад!!!",
+   "slug": "197267-ya-rad",
+   "createdAt": "2026-10-29T10:18:04+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T10:27:09Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T12:26:57Z",
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-29T12:25:16Z",
+   "graduated_at": "2026-10-29T12:55:13Z",
+   "checks_done": 7
+  },
+  "197268": {
+   "title": "А я ради удовольствия в ивенты сталкрафтикса играю debiloid 🥴 ",
+   "slug": "197268-a-ya-radi-udovolstviya-v-iventy-stalkraftiksa-igrayu-debiloid",
+   "createdAt": "2026-10-29T10:24:44+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T10:27:09Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T12:26:57Z",
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-29T12:25:14Z",
+   "graduated_at": "2026-10-29T12:55:13Z",
    "checks_done": 7
   }
  }
