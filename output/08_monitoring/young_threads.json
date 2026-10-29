@@ -15,9 +15,9 @@
    "until_ts": "2026-10-29T15:10:17Z",
    "last_lpn": 19,
    "last_cc": 19,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-29T14:58:07Z"
+   "last_checked": "2026-10-29T15:10:17Z"
   },
   "197271": {
    "title": "Майнеры Эксбо",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-29T15:10:17Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-29T14:58:10Z"
+   "last_checked": "2026-10-29T15:10:19Z"
   },
   "197273": {
    "title": "Квест ассистента забагался  ",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-29T15:36:36Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-29T14:58:12Z"
+   "last_checked": "2026-10-29T15:10:21Z"
   },
   "197275": {
    "title": "Бекфид арены ",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-29T16:10:12Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T14:58:14Z"
+   "last_checked": "2026-10-29T15:10:24Z"
   },
   "197274": {
    "title": "🎃 «Празднество» x Twitch Drops",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-29T16:40:08Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T14:58:15Z"
+   "last_checked": "2026-10-29T15:10:26Z"
   },
   "197280": {
    "title": "Босс Праздненства",
@@ -88,9 +88,11 @@
    "discovered_at": "2026-10-29T14:58:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T16:58:05Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T15:10:27Z"
   },
   "197279": {
    "title": "Кто в храме насрал? ",
@@ -103,6 +105,34 @@
    "until_ts": "2026-10-29T16:58:05Z",
    "last_lpn": 7,
    "last_cc": 7,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T15:10:29Z"
+  },
+  "197281": {
+   "title": "Пластинка празднества",
+   "slug": "197281-plastinka-prazdnestva",
+   "createdAt": "2026-10-29T15:00:39+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T15:10:32Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T17:10:15Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197278": {
+   "title": "🤑 Побеждай разработчиков на стриме и получай Сталкоины",
+   "slug": "197278-pobezhday-razrabotchikov-na-strime-i-poluchay-stalkoiny",
+   "createdAt": "2026-10-29T14:33:13+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T15:10:32Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T17:10:15Z",
+   "last_lpn": 8,
+   "last_cc": 6,
    "checks": 0
   }
  },
