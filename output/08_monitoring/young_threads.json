@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-29T04:57:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T06:57:02Z",
-   "last_lpn": 12,
-   "last_cc": 11,
-   "checks": 4,
+   "last_lpn": 14,
+   "last_cc": 12,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T05:56:59Z"
+   "last_checked": "2026-10-29T06:27:13Z"
   },
   "197252": {
    "title": "Фидбек по празднеству...",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-29T07:27:09Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-29T05:57:00Z"
+   "last_checked": "2026-10-29T06:27:15Z"
   },
   "197254": {
    "title": "Чё ты недоволен наградой да? ",
@@ -43,9 +43,11 @@
    "discovered_at": "2026-10-29T05:57:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T07:56:57Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T06:27:16Z"
   },
   "197253": {
    "title": "Чуть чуть про арену ",
@@ -56,8 +58,23 @@
    "discovered_at": "2026-10-29T05:57:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T07:56:57Z",
-   "last_lpn": 6,
-   "last_cc": 6,
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T06:27:18Z"
+  },
+  "197255": {
+   "title": "Мой глазик увидел алмазик",
+   "slug": "197255-moy-glazik-uvidel-almazik",
+   "createdAt": "2026-10-29T05:59:26+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T06:27:20Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T08:27:11Z",
+   "last_lpn": 4,
+   "last_cc": 4,
    "checks": 0
   }
  },
