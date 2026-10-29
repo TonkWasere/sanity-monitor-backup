@@ -113,6 +113,19 @@
    "last_lpn": 4,
    "last_cc": 4,
    "checks": 0
+  },
+  "197303": {
+   "title": "Че вы с лазерами сделали",
+   "slug": "197303-che-vy-s-lazerami-sdelali",
+   "createdAt": "2026-10-29T19:35:26+00:00",
+   "op_user": "stm:76561199229863593",
+   "stm": true,
+   "discovered_at": "2026-10-29T19:36:33Z",
+   "source": "snap35",
+   "until_ts": "2026-10-29T21:36:33Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {

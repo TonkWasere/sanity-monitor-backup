@@ -1231,3 +1231,4 @@
 - 2026-10-29T19:27:09Z snap15 197298 RECONCILE-ADD «А че, норм.» createdAt 2026-10-29T19:11:06+00:00 lpn/cc 5/5 → young(2h)
 - 2026-10-29T19:27:09Z snap15 197297 RECONCILE-ADD «Гаранты в кейсах ивента» createdAt 2026-10-29T19:08:33+00:00 lpn/cc 9/9 → young(2h)
 - 2026-10-29T19:27:09Z snap15 197296 RECONCILE-ADD «Празднество» createdAt 2026-10-29T19:07:05+00:00 lpn/cc 4/4 → young(2h)
+- 2026-10-29T19:36:33Z snap35 NEW 197303 «Че вы с лазерами сделали» OP stm:76561199229863593 [STM-ТВИНК] createdAt 2026-10-29T19:35:26+00:00 lpn/cc 2/2 → young(2h)
