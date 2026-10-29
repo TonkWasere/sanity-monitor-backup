@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197252": {
-   "title": "Фидбек по празднеству...",
-   "slug": "197252-fidbek-po-prazdnestvu",
-   "createdAt": "2026-10-29T05:21:10+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-29T05:27:14Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-29T07:27:09Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-29T07:11:18Z"
-  },
   "197254": {
    "title": "Чё ты недоволен наградой да? ",
    "slug": "197254-chyo-ty-nedovolen-nagradoy-da",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-10-29T05:57:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T07:56:57Z",
-   "last_lpn": 18,
-   "last_cc": 18,
-   "checks": 4,
+   "last_lpn": 22,
+   "last_cc": 22,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T07:11:20Z"
+   "last_checked": "2026-10-29T07:27:22Z"
   },
   "197253": {
    "title": "Чуть чуть про арену ",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-29T07:56:57Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T07:11:22Z"
+   "last_checked": "2026-10-29T07:27:24Z"
   },
   "197255": {
    "title": "Мой глазик увидел алмазик",
@@ -60,9 +45,9 @@
    "until_ts": "2026-10-29T08:27:11Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T07:11:23Z"
+   "last_checked": "2026-10-29T07:27:26Z"
   },
   "197256": {
    "title": "Скидки на бартер в событии",
@@ -73,11 +58,24 @@
    "discovered_at": "2026-10-29T06:58:11Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T08:58:01Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T07:11:25Z"
+   "last_checked": "2026-10-29T07:27:27Z"
+  },
+  "197257": {
+   "title": "Страшная очень страшна!1!11!",
+   "slug": "197257-strashnaya-ochen-strashna111",
+   "createdAt": "2026-10-29T07:20:23+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T07:27:30Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T09:27:20Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
   }
  },
  "graduated": {
@@ -4103,6 +4101,23 @@
    "fails": 0,
    "last_checked": "2026-10-29T06:40:25Z",
    "graduated_at": "2026-10-29T06:58:01Z",
+   "checks_done": 6
+  },
+  "197252": {
+   "title": "Фидбек по празднеству...",
+   "slug": "197252-fidbek-po-prazdnestvu",
+   "createdAt": "2026-10-29T05:21:10+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-29T05:27:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-29T07:27:09Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-29T07:11:18Z",
+   "graduated_at": "2026-10-29T07:27:20Z",
    "checks_done": 6
   }
  }
