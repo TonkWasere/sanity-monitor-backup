@@ -15,9 +15,9 @@
    "until_ts": "2026-10-29T06:57:02Z",
    "last_lpn": 14,
    "last_cc": 12,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-29T06:27:13Z"
+   "last_checked": "2026-10-29T06:40:25Z"
   },
   "197252": {
    "title": "Фидбек по празднеству...",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-29T07:27:09Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T06:27:15Z"
+   "last_checked": "2026-10-29T06:40:26Z"
   },
   "197254": {
    "title": "Чё ты недоволен наградой да? ",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-29T05:57:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T07:56:57Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 1,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T06:27:16Z"
+   "last_checked": "2026-10-29T06:40:28Z"
   },
   "197253": {
    "title": "Чуть чуть про арену ",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-29T07:56:57Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-29T06:27:18Z"
+   "last_checked": "2026-10-29T06:40:30Z"
   },
   "197255": {
    "title": "Мой глазик увидел алмазик",
@@ -75,7 +75,9 @@
    "until_ts": "2026-10-29T08:27:11Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T06:40:31Z"
   }
  },
  "graduated": {
