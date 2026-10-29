@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-29T13:10:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T15:10:17Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 4,
+   "last_lpn": 19,
+   "last_cc": 19,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T14:10:14Z"
+   "last_checked": "2026-10-29T14:25:14Z"
   },
   "197271": {
    "title": "Майнеры Эксбо",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-29T15:10:17Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-29T14:10:16Z"
+   "last_checked": "2026-10-29T14:25:17Z"
   },
   "197273": {
    "title": "Квест ассистента забагался  ",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-29T15:36:36Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-29T14:10:18Z"
+   "last_checked": "2026-10-29T14:25:19Z"
   },
   "197275": {
    "title": "Бекфид арены ",
@@ -58,9 +58,11 @@
    "discovered_at": "2026-10-29T14:10:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-29T16:10:12Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-29T14:25:21Z"
   }
  },
  "graduated": {
