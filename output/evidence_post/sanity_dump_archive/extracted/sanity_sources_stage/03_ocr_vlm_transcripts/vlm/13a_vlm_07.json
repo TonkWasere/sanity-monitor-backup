@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "На изображении показана винтовка с уникальным скином в стиле «постапокалипсиса» (деревянная ложа, обмотанная бинтами, и перфорированный ствол) на размытом фоне Зоны. В правом нижнем углу виден небольшой текст, указывающий на источник.\n\nТекста нет",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790767459,
+  "id": "2026093019241635f8d7e09efb45e3",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "2026093019241635f8d7e09efb45e3",
+  "usage": {
+    "completion_tokens": 81,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 889,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 970
+  }
+}

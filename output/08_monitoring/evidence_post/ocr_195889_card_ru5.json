@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "STALCRAFT\nZONE\n\nКОЛИЗЕЙ\n\nКАКИЕ ИСПЫТАНИЯ?\n\nВ PvP: никаких аванпостов, аирдропов и установок Дикого Севера — только активности открытого мира, не завязанные на прямой конкуренции с другими игроками.\n\nВ Колизее: уничтожить отряды противников, захватить установки, активировать разломы. Это лишь часть из 16 испытаний события, остальное узнаете 14 октября.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1791314104,
+  "id": "20261007031501b7954d1004b34416",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261007031501b7954d1004b34416",
+  "usage": {
+    "completion_tokens": 108,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1671,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1779
+  }
+}

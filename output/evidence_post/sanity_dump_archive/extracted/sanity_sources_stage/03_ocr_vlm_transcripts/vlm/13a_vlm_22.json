@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "| Танто | 50 | 66 | 105 |\n| :--- | :---: | :---: | :---: |\n| Первопроходца | | | |\n| Ножницы | 54 | 64 | 126 |\n| Нож Смотрителя | 43 | 54 | 100 |",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790768169,
+  "id": "2026093019360738a3e5afff2d4fa3",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "2026093019360738a3e5afff2d4fa3",
+  "usage": {
+    "completion_tokens": 70,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 188,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 258
+  }
+}

@@ -1,0 +1,108 @@
+{
+ "appid": 1818450,
+ "patch30": {
+  "gid": "1845383656376749",
+  "title": "Patch Notes [30.09.2026]",
+  "date_utc": "2026-09-30T08:30:31+00:00",
+  "bbcode_chars": 31223,
+  "arrow_pairs": 48,
+  "numbers_in_pairs": 96,
+  "percent_mentions": 5,
+  "percent_values": [
+   "100",
+   "75",
+   "30",
+   "20"
+  ],
+  "scalars": [
+   [
+    "multiplied by",
+    "20"
+   ],
+   [
+    "x-times",
+    "2"
+   ],
+   [
+    "instead_of",
+    "10",
+    "0.5"
+   ],
+   [
+    "instead_of",
+    "20",
+    "1"
+   ],
+   [
+    "x-times-word",
+    "three times higher"
+   ]
+  ],
+  "all_numeric_literals": 517,
+  "sections": [
+   "## Content",
+   "## Ticketopia Event",
+   "#### Locations to complete PvE challenges",
+   "#### What challenges will there be",
+   "#### Rewards",
+   "## End of Electrostorm",
+   "## Working Man’s Cut on NA server",
+   "## 1000 level style — Air Seller",
+   "## New quest — Shock wave",
+   "## Economy, rewards and progression",
+   "#### Compensation",
+   "### Loot pool changes",
+   "### Changes to item characteristics",
+   "### Locations and events",
+   "#### Caches and Jackpots",
+   "#### Wild North",
+   "#### Faction crates",
+   "#### Outposts",
+   "#### Signal dungeons",
+   "### Arsenal",
+   "### Other changes",
+   "## Coliseum adjustments",
+   "#### Balance changes",
+   "#### Respawn and respawn markers",
+   "#### Match confirmation screen",
+   "#### Map and interface",
+   "#### Gameplay and objects",
+   "## Modification window update",
+   "## Making Safe Zone more lively",
+   "## Balance changes",
+   "### Melee weapon",
+   "#### Complete list of final damage values",
+   "### Armor",
+   "### Weapons and interface",
+   "### Containers and infections",
+   "### Display of infections",
+   "## Other changes and fixes"
+  ]
+ },
+ "econ28": {
+  "gid": "1844751498231589",
+  "title": "Open world economy update",
+  "date_utc": "2026-09-28T13:57:14+00:00",
+  "bbcode_chars": 6401,
+  "sections": [
+   "### Contents",
+   "## Faction North",
+   "### Events",
+   "#### Outposts",
+   "#### Abandoned Installation, Arthunters, and Scientists",
+   "### Caches",
+   "### Jackpots",
+   "### Faction Containers",
+   "### South and Wild North",
+   "## Protoartifacts",
+   "### Proto-Discharge Cluster and Anomalous Rift",
+   "### Gear Repairs"
+  ]
+ },
+ "canon_urls": {
+  "1845383656376749": "https://steamcommunity.com/games/1818450/announcements/detail/708910525152493611",
+  "1844751498231589": "https://steamcommunity.com/games/1818450/announcements/detail/668377496357439545",
+  "1845383656377166": "https://steamcommunity.com/games/1818450/announcements/detail/708910525152493626",
+  "1844751498234706": "https://steamcommunity.com/games/1818450/announcements/detail/668377496357440017"
+ }
+}

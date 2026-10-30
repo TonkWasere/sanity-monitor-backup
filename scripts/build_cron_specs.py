@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+# build_cron_specs.py — строит output/08_monitoring/cron_specs/jobs.json (эталон 3 cron-задач)
+# Спека v3 = живое состояние на 25.10 ~23:5x UTC (cron list, все succeeded):
+#   - сетка переделана решением автора (54-23-grid): hourly (472526, fixed_rate 3600) →
+#     LONG30 :02/:32 UTC + счётчиковый свип counter_sweep.py;
+#   - s15/s35 тексты синхронизированы с живыми v3-промптами (474328/474327, lite-коммит v3) —
+#     устранён латентный дрейф: v2-спека отставала от живых промптов, автодоставка из неё
+#     даунгрейдила бы линии.
+# job_id в спеке — «последний известный», НЕ авторитетный: авторитетны name+schedule+payload.
+# Запуск: python3 scripts/build_cron_specs.py (перезапись после ЛЮБОГО изменения промптов кронов).
+import json, hashlib, os
+
+LONG30_MSG = "Длинный шаг LONG30 v4 мониторинга forum.exbo.net (каждые 30 мин в :02/:32 UTC; решение автора 25.10: «длинный шаг → 30 мин, по счётчикам Фларум ходить по всему диапазону, не заглядывая внутрь каждого треда»; регламент: /home/z/my-project/output/08_monitoring/GIT_AUTOMATION.md, раздел «Длинный шаг v4 — LONG30»; бюджет прохода ≤7 мин). (0) если /home/z/my-project/worklog.md или репо мертвы — сначала python3 tools/state_healthcheck.py --recover. (0a) САМОЛЕЧЕНИЕ: если tools/counter_sweep.py отсутствует — cd /home/z/my-project && mkdir -p tools && git fetch origin sanity-monitor && git show origin/sanity-monitor:tools/counter_sweep.py > tools/counter_sweep.py && echo SELFHEAL-OK — читающие git-операции fetch/show/rev-parse разрешены (репо публичный); сбой сети/GitHub → [SKIP]-протокол шага (2a). (1) cd /home/z/my-project && python3 tools/counter_sweep.py — скрипт сам: list-only свип диапазона (6 GET: top-250 по -lastPostedAt + 50 по -createdAt), диф lpn/cc против свежайшего prev_lpn_*.json → сигнатуры (NEW-POSTS / DEL-SIG = СНОС постов по cc↓ при lpn= / MIX-SIG / UNHIDE-SIG / ROLLBACK / OUT-OF-WINDOW / VANISH / NEW-THREAD), глубокий заход ТОЛЬКО флагнутым (≤8 тредов), KEY-треды вне окна свипа — целевой GET, канон #48 (196411 sha256 e352e6a1…) + GG-якоря каждый 4-й проход или по DEL-SIG, сам пишет prev_lpn_<N+1>.json (+lpa, state_snapshots keep 2) и long30_state.json; события — строки '>>> ...'. (1b) cd /home/z/my-project && python3 tools/ext_sources.py — ТГК t.me/s/stalzone (офф) + t.me/s/spectrum_zone (фан), Steam-новости RU+EN app/1818450, VK-статьи группы -2677092; события '>>> EXT ...' включить в ledger-резюме с коротким сравнением (RU↔EN, ТГК↔форум, скорость реакции); state output/08_monitoring/ext_sources_state.json руками не трогать. (2) резюме: append в output/08_monitoring/ledger.md (очередной №; полный штиль — номер с пометкой [SWEEP-CLEAN]); append ОДНУ строку в /home/z/my-project/worklog.md 'Task ID: 54-<NNN>: sweep <сигнатуры|штиль>, EXT <n>, deep <ids|0>' (NNN = последний числовой Task ID 54-<N> в worklog +1, сквозная нумерация); [SKIP]-маркеры lite-линий (s15/s35) в хвосте worklog — каждый упомянуть в ledger-строке (0b-аудит). (2a) ПРОТОКОЛ SKIP: любой пропуск (self-heal failed, сеть/форум недоступны, скрипт упал) — append 'Task ID: 54-<NNN>: [SKIP] <причина>' + строка в чат, завершиться без ошибок. (2b) GIT КАЖДЫЙ ПРОХОД (v3-наследие, окно вайп-потерь ≤30 мин): cd /home/z/my-project && git add -A && python3 tools/secret_guard.py && git commit -m 'long30 <HH:MM> UTC: <кратко>' && git push origin sanity-monitor 2>&1 | tail -1 && git push backup sanity-monitor 2>&1 | tail -1 && git bundle create /home/z/backups/sanity-monitor-$(date -u +%Y%m%d_%H%M).bundle sanity-monitor && ls -t /home/z/backups | tail -n +4 | xargs -r rm -f; push отклонён (non-FF) → git pull --rebase origin sanity-monitor и повторить push; push 403/401 → 'push pending' (коммит локален, проход НЕ провален, следующий добьёт). НИКОГДА не записывать строку токена в файлы/логи/коммиты. (3) ЗАПРЕЩЕНО: ЛЮБЫЕ записи на форум (read-only), менять output/08_monitoring/young_threads.json / YOUNG_JOURNAL.md (линия s15/s35 — только читать), трогать /tmp-стейджи чужих процессов, удалять/менять lite-cron-задачи (SNAP15 :10/:25/:40/:55, SNAP35 :35). Если автор сказал «Остановить автоматизацию» — удалить эту cron-задачу (и только её) и отчитаться. Если сеть/форум недоступны — worklog '[SKIP] сеть недоступна' и завершиться без ошибок."
+
+SNAP15_MSG = "Lite-линия SNAP15 мониторинга forum.exbo.net (молодые треды раз в 15 мин — решение автора «в первые 1-2ч нового Треда проверка раз в 15мин»; регламент: /home/z/my-project/output/08_monitoring/GIT_AUTOMATION.md, раздел «Линия молодых тредов», пункт LITE-КОММИТ v3). Действия СТРОГО минимальные: (0) если /home/z/my-project/worklog.md или репо мертвы — сначала python3 tools/state_healthcheck.py --recover. (0a) САМОЛЕЧЕНИЕ (урок 54-19-hotfix 25.10.2026: после WIPE-44 lite-скрипт отсутствовал в 18:55 и 19:10 UTC — тихие skip до часового раунда дали слепую зону ~40 мин): если tools/snap15_young.py отсутствует — cd /home/z/my-project && mkdir -p tools && git fetch origin sanity-monitor && git show origin/sanity-monitor:tools/snap15_young.py > tools/snap15_young.py && echo SELFHEAL-OK — ЧИТАЮЩИЕ git-операции fetch/show/rev-parse разрешены (репо публичный); сбой сети/GitHub → SKIP по протоколу (2a). (1) cd /home/z/my-project && python3 tools/snap15_young.py — скрипт сам: дельты LPN/cc молодых тредов (ВЫРЕЗЫ = рост гэпа), VANISH (404 x2), isHidden, reconcile свежих createdAt в очередь, выпуск >2h в graduated. (2) Если вывод содержит события (строки '>>> ...' с NEW RECONCILE-ADD / ВЫРЕЗ / VANISH / GRADUATED) — append ОДНУ строку в /home/z/my-project/worklog.md в формате 'Task ID: 54-<час UTC>-s15' + одна строка сути; тихий прогон — НИЧЕГО не писать в worklog. (2a) ПРОТОКОЛ SKIP (аудит-след обязателен — урок тихого skip 19:10 UTC 25.10): ЛЮБОЙ пропуск — self-heal failed, сеть/форум недоступны, скрипт упал — append ОДНУ строку в worklog.md 'Task ID: 54-<час UTC>-s15: [SKIP] <причина>' + одна строка в чат, затем завершиться без ошибок; часовой раунд сводит [SKIP]-маркеры в ledger (шаг 0b). (2b) LITE-КОММИТ (v3, 54-21-hotfix 25.10 — РЕШЕНИЕ АВТОРА: защита бэклогов от ВМ-вайпов, окно потерь ≤15 мин; выполняется ВСЕГДА после (1), включая тихие прогоны и [SKIP]): cd /home/z/my-project && git add worklog.md output/evidence_post output/08_monitoring/young_threads.json output/08_monitoring/YOUNG_JOURNAL.md && python3 tools/secret_guard.py && git commit -m 'lite s15 <HH:MM> UTC: <кратко (events=N / SKIP / тихий)>' && git push origin sanity-monitor && git push backup sanity-monitor; коммитить нечего (пустой стейдж) — шаг пропустить молча; push отклонён (non-FF после часового коммита) → git pull --rebase origin sanity-monitor и повторить push; push упал (сеть/403) → тик НЕ провален: пометка 'push pending' в чат, данные локальны, следующий тик добьёт. (3) ЗАПРЕЩЕНО: git bundle и git stash (только часовой раунд), записи в ledger.md, полный обход форума, ЛЮБЫЕ записи на форум (read-only), трогать /tmp-стейджи, публиковать токены; git-операции — только шаг (2b) и читающие fetch/show/rev-parse/status для self-heal/диагностики. Если автор сказал «Остановить автоматизацию» — удалить эту cron-задачу и отчитаться."
+
+SNAP35_MSG = "Lite-линия SNAP35 мониторинга forum.exbo.net (снап в :35 UTC = 5 мин после часового обхода ~:28, чисто на предмет новых тредов, рождённых «очень близко» к окну обхода — решение автора; регламент: /home/z/my-project/output/08_monitoring/GIT_AUTOMATION.md, раздел «Линия молодых тредов», пункт LITE-КОММИТ v3). Действия СТРОГО минимальные: (0) если репо мёртв — сначала python3 tools/state_healthcheck.py --recover. (0a) САМОЛЕЧЕНИЕ (урок 54-19-hotfix 25.10.2026: после вайпа lite-скрипт отсутствовал до часового раунда — слепая зона недопустима): если tools/snapnew35.py отсутствует — cd /home/z/my-project && mkdir -p tools && git fetch origin sanity-monitor && git show origin/sanity-monitor:tools/snapnew35.py > tools/snapnew35.py && echo SELFHEAL-OK — ЧИТАЮЩИЕ git-операции fetch/show/rev-parse разрешены (репо публичный); сбой сети/GitHub → SKIP по протоколу (2a). (1) cd /home/z/my-project && python3 tools/snapnew35.py — скрипт сам: newlist sort=-createdAt, NEW = createdAt ≤3h вне KNOWN (union prev_lpn + rescan-KNOWN + young), верификация near=1, stm-твинк-детект (username 'stm:*'), постановка в young-очередь (TTL 2h — дальше их сопровождает SNAP15 каждые 15 мин). (2) Если скрипт напечатал строки '>>> NEW <id> ...' — append ОДНУ строку в /home/z/my-project/worklog.md в формате 'Task ID: 54-<час UTC>-s35: NEW <id> «title» OP <user> [STM] lpn/cc X/Y → young 2h'; если new=0 — НИЧЕГО не писать в worklog. (2a) ПРОТОКОЛ SKIP (аудит-след обязателен — урок тихого skip 19:10 UTC 25.10): ЛЮБОЙ пропуск — self-heal failed, сеть/форум недоступны, скрипт упал — append ОДНУ строку в worklog.md 'Task ID: 54-<час UTC>-s35: [SKIP] <причина>' + одна строка в чат, затем завершиться без ошибок; часовой раунд сводит [SKIP]-маркеры в ledger (шаг 0b). (2b) LITE-КОММИТ (v3, 54-21-hotfix 25.10 — РЕШЕНИЕ АВТОРА: защита бэклогов от ВМ-вайпов; выполняется ВСЕГДА после (1), включая new=0 и [SKIP]): cd /home/z/my-project && git add worklog.md output/evidence_post output/08_monitoring/young_threads.json output/08_monitoring/YOUNG_JOURNAL.md && python3 tools/secret_guard.py && git commit -m 'lite s35 <HH:MM> UTC: <кратко (NEW <id> / new=0 / SKIP)>' && git push origin sanity-monitor && git push backup sanity-monitor; коммитить нечего (пустой стейдж) — шаг пропустить молча; push отклонён (non-FF после часового коммита) → git pull --rebase origin sanity-monitor и повторить push; push упал (сеть/403) → тик НЕ провален: пометка 'push pending' в чат, данные локальны, следующий тик добьёт. (3) ЗАПРЕЩЕНО: git bundle и git stash (только часовой раунд), записи в ledger.md, полный обход форума, ЛЮБЫЕ записи на форум (read-only), трогать /tmp-стейджи, публиковать токены; git-операции — только шаг (2b) и читающие fetch/show/rev-parse/status для self-heal/диагностики. Если автор сказал «Остановить автоматизацию» — удалить эту cron-задачу и отчитаться."
+
+JOBS = [
+    {
+        "key": "long30",
+        "last_known_job_id": 474391,  # создана 25.10 ~23:58 UTC (замена hourly 472526)
+        "name": "forum.exbo.net LONG30: counter-sweep range pass every 30min (v4)",
+        "schedule": {"kind": "cron", "expr": "0 2,32 * * * ?", "tz": "UTC"},
+        "payload": {"kind": "agentTurn", "message": LONG30_MSG},
+        "priority": 10,
+        "notes": "priority 10 (наследие hourly, пересоздавать с params.priority=10); v4 25.10: сетка переделана решением автора (54-23-grid) — hourly → LONG30 :02/:32 + counter_sweep.py; окна :02-:09/:32-:39 не содержат s15-слотов",
+    },
+    {
+        "key": "snap15",
+        "last_known_job_id": 474328,
+        "name": "forum.exbo.net SNAP15: young threads every 15min (first 1-2h)",
+        "schedule": {"kind": "cron", "expr": "0 10,25,40,55 * * * ?", "tz": "UTC"},
+        "payload": {"kind": "agentTurn", "message": SNAP15_MSG},
+        "priority": None,
+        "notes": "v3 lite-коммит; пересоздана 25.10 21:52 UTC (54-21-hotfix); текст синхронизирован с живым промптом 474328; +TICK-LOST v2 внутри snap15_young.py (не в промпте)",
+    },
+    {
+        "key": "snap35",
+        "last_known_job_id": 474327,
+        "name": "forum.exbo.net SNAP35: new-thread snap 5min after hourly round",
+        "schedule": {"kind": "cron", "expr": "0 35 * * * ?", "tz": "UTC"},
+        "payload": {"kind": "agentTurn", "message": SNAP35_MSG},
+        "priority": None,
+        "notes": "v3 lite-коммит; пересоздана 25.10 21:52 UTC; текст синхронизирован с живым промптом 474327; при v4 снап :35 = ~3 мин после старта LONG30 :32 (описание «5 мин после обхода ~:28» историческое, логика прежняя)",
+    },
+]
+
+OUT = '/home/z/my-project/output/08_monitoring/cron_specs/jobs.json'
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+spec = {
+    "_meta": {
+        "purpose": "Эталон cron-задач мониторинга forum.exbo.net (решение автора 24.10: хранить настройки кронов на гите; при несовпадении живых кронов со спекой — самовосстановление из неё, шаг 0c раунда, см. GIT_AUTOMATION.md)",
+        "spec_version": 3,
+        "captured_utc": "2026-10-25T23:58",
+        "verified_by": "v1: cron list 24.10 08:4x UTC 3/3; v2: 25.10 19:5x (54-19-hotfix); v3: 25.10 ~23:5x (54-23-grid, решение автора): hourly 472526 удалён → LONG30 474391 :02/:32 + counter_sweep.py; s15/s35 тексты синхронизированы с живыми v3-промптами 474328/474327 (v2-спека отставала — латентный дрейф устранён)",
+        "authority": "АВТОРИТЕТНЫ name+schedule+payload.message; job_id и run_count — справочные (меняются при пересоздании)",
+        "secret_check": "промпты не содержат токенов (только пути/команды); гит публичный",
+        "update_rule": "после ЛЮБОГО изменения промпта/расписания крона — перегенерировать: python3 scripts/build_cron_specs.py",
+    },
+    "jobs": [],
+}
+for j in JOBS:
+    e = dict(j)
+    e["message_sha256"] = hashlib.sha256(j["payload"]["message"].encode('utf-8')).hexdigest()
+    e["message_len"] = len(j["payload"]["message"])
+    spec["jobs"].append(e)
+
+json.dump(spec, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print(f"OK: {OUT}")
+for j in spec["jobs"]:
+    print(f"  {j['key']}: id={j['last_known_job_id']} sha256={j['message_sha256'][:12]}… len={j['message_len']}")

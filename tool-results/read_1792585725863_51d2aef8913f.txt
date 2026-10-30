@@ -1,0 +1,418 @@
+     1→# rescan54_130_fetch.py — Task 54-130: часовой cron-раунд ~11:30 UTC 21.10 (14:30 МСК 21.10) —
+     2→# ШТАТНЫЙ, патч-последействие. ПАТЧ 1.3 ГБ вышел утром (ТГК 3220@08:30 «Запуск игровых серверов»);
+     3→# чейнджлога НЕТ нигде (196411 стоит LPN 90, 196511 10-е сутки, ИТОГИ ОТС час 62?), единственный
+     4→# déta — ТГК Спектрума (7880 краски / 7882 наборы / 7891 ТИЗЕР АРЕНЫ МИТРОПОЛИТА — ВЫХОД 28.10 /
+     5→# 7892 награды Цепи Распада пришли).
+     6→# НОВОЕ В 54-130: колонка РАНГОВ — API отдаёт ранги как Flarum-группы (7 Ветеран / 8 Мастер /
+     7→# 9 Легенда(кубок) / 58 Рупор / 76 RU+EU / Новичок-Опытный-Проводник / команда-модератор);
+     8→# op_rank() печатает OP->группы для патч-тредов; гипотеза АВТОРА (ранг прилетает со Steam-линка,
+     9→# а не с форумной активности) проверена ростером Легенд: cc 21..26440, SSO-волна 2025-12-10/11
+    10→# (6 stm-профилей одной волной — все Легенда, у stm:...63206373 cc=21!), массовые join-батчи-импорт.
+    11→# «Илитный клуб»: 194758 «Новый раздел для легенд» (Pledik/Raonix ноют) + dev-кластер [123] с тегом
+    12→# «Легенды» — прямой замер 194758 добавлен; search «легенда» добавлен в фазу-1.
+    13→# База = 54-129 финал + note-коммиты (54-patchcheck-1022, 54-rankmap-1110), обе репы = b336751.
+    14→# creds/vault/bundle на месте — ТОКЕН ПО-ПРЕЖНЕМУ НЕ РОТИРОВАН (10-е напоминание, живой ghp_ на публичной MEGA).
+    15→# УРОКИ 54-113..129: обход делить сразу (foreground timeout 585с + sed-finisher с фикс. TS и родным SKIP);
+    16→# фоновые запуски среда убивает молча; шапка заменяется ЦЕЛИКОМ по якорю «import json» (13 раундов без сбоев);
+    17→# 1-3 добора до EXIT=0; два TS-слоя — НОРМА; R10 PREV_LPN по ВСЕМ замерам ledger прошлого раунда (урок 54-122);
+    18→# при взрыве NEW-треда — OP near=1 в фазе-2, затем в голову кортежа (196791/196794/196788 добавлены в 54-130).
+    19→# Блок fast-rule: при delta LPN >15/час добирается середина; PREV_LPN={195081:1076, 196718:115, 196721:18,
+    20→# 196727:38, 196730:32, 196732:27, 196734:53, 196735:38, 196739:13, 196742:13, 196745:14, 196747:4,
+    21→# 196748:36, 196749:18, 196750:13, 196752:23, 196754:11, 196757:1, 196760:32, 196756:23, 196763:48,
+    22→# 196762:4, 196755:33, 196758:21, 196764:11, 196765:14, 196761:27, 196766:1, 196767:33, 196768:8,
+    23→# 196770:108, 196771:14, 196777:48, 196773:14, 187993:1230, 159759:14587, 112917:67690, 191614:7117,
+    24→# 196772:30, 196782:5, 196781:4, 196785:15, 196783:12, 196786:16, 196787:3, 196778:28, 196784:38,
+    25→# 196791:21, 196794:8, 196788:23}.
+    26→# СЛЕДИТЬ (54-130): 196791 «Отвратительно.» (21 — патч-критика: десинк/пикинг, MG3, Crios в хвосте;
+    27→# OP=Мастер при cc=68/профиль 7 недель); 196778 награждение (28, fast-rule НА ГРАНИ — жалоба
+    28→# «достягу не дали» #28 + критика «уникалка одному» #27; OP Fitasuon = Легенда при cc=401!);
+    29→# 196784 «Воздухан» (38 — патч-оружие: «Старый Гаусс с задержкой»); 196794 Гжель-скины (8);
+    30→# 196788 идеи (23); 196770 8-Й ЧАС? (108, Crios «фоновые перепроверки 4.1.1»); 196411 сносы ПОСЛЕ
+    31→# ПАТЧА? (#92+, гэпы [15,33,63-78,88], канон #48); 159759 Комната патча (14587 — «Жди 30 число»
+    32→# vs Арена 28.10); 196424/196425 ИТОГИ ОТС час 62?; ТГК 3222/3223 + Спектрума 7893+; Арена
+    33→# Митрополита 28.10 — тизер-треды?; 196757 техработы (снят с закрепа — активность?); флешмоб
+    34→# талонов 52-Й ЧАС (~181 ч); Crios ~91 ч; 196511 10-е сутки; клан-жалоба 22-Й ЧАС; 404-контроли 39-Й ЧАС.
+    35→# База №171 (TS 1038, 10:38-10:50 UTC): run1 EXIT=0 второй раунд подряд (195 OK, FAIL×2 = 404-контроли);
+    36→# ПАТЧ-ВОЛНА: 196791 «Отвратительно.» разгон (cc=21 за 45 мин), 196794 Гжель за 100 паттернов,
+    37→# 196788 идеи; 196778 награждение 14->28 (+14); 196770 замедлился 106->108; ТГК Спектрума =
+    38→# единственный чейнджлог; 196411 сносов НЕТ 3-й час; 196757 СНЯТ С ЗАКРЕПА (синхронно с серверами).
+    39→
+    40→import json, os, urllib.request, time, hashlib, datetime, re
+    41→
+    42→TS = datetime.datetime.now(datetime.UTC).strftime('%Y%m%d_%H%M')
+    43→OUT = '/home/z/my-project/output/evidence_post'
+    44→UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36',
+    45→      'Accept': 'application/json'}
+    46→BASE = 'https://forum.exbo.net'
+    47→CANON48 = 'e352e6a1d81de147d8c330f6e5eeb46b0aeb276ea51d6ba67fe34aa57a7e5b0e'
+    48→
+    49→def get(url, name, validate_json=True):
+    50→    path = os.path.join(OUT, name)
+    51→    if os.path.exists(path):
+    52→        print(f'SKIP {name}'); return True
+    53→    try:
+    54→        req = urllib.request.Request(url, headers=UA)
+    55→        with urllib.request.urlopen(req, timeout=30) as r:
+    56→            body = r.read()
+    57→        open(path, 'wb').write(body)
+    58→        if validate_json:
+    59→            json.loads(body)
+    60→        print(f'OK {name} ({len(body)}B)')
+    61→        return True
+    62→    except Exception as e:
+    63→        print(f'FAIL {name}: {e}')
+    64→        return False
+    65→
+    66→def disc_items(fname):
+    67→    try:
+    68→        d = json.load(open(os.path.join(OUT, fname)))
+    69→    except Exception as e:
+    70→        print(f'PARSE FAIL {fname}: {e}'); return []
+    71→    out = []
+    72→    data = d.get('data')
+    73→    for i in (data if isinstance(data, list) else [data] if data else []):
+    74→        if isinstance(i, dict) and i.get('type') == 'discussions':
+    75→            out.append(i)
+    76→    for i in (d.get('included') or []):
+    77→        if isinstance(i, dict) and i.get('type') == 'discussions':
+    78→            out.append(i)
+    79→    return out
+    80→
+    81→def posts_of(fname):
+    82→    try:
+    83→        d = json.load(open(os.path.join(OUT, fname)))
+    84→    except Exception as e:
+    85→        print(f'PARSE FAIL {fname}: {e}'); return []
+    86→    data = d.get('data')
+    87→    items = data if isinstance(data, list) else [data] if data else []
+    88→    out = []
+    89→    for i in items:
+    90→        if isinstance(i, dict) and i.get('type') == 'posts':
+    91→            out.append(i)
+    92→    for i in (d.get('included') or []):
+    93→        if isinstance(i, dict) and i.get('type') == 'posts':
+    94→            out.append(i)
+    95→    return out
+    96→
+    97→def head_text(p, n=110):
+    98→    a = p.get('attributes', {})
+    99→    t = a.get('contentPlain') or a.get('content') or ''
+   100→    if not t:
+   101→        t = a.get('contentHtml') or ''
+   102→    if not isinstance(t, str):
+   103→        try: t = json.dumps(t, ensure_ascii=False)
+   104→        except Exception: t = str(type(t))
+   105→    t = re.sub(r'<[^>]+>', ' ', t)
+   106→    t = re.sub(r'\s+', ' ', t).strip()
+   107→    return t[:n]
+   108→
+   109→def thread_summary(tid, near='999999'):
+   110→    fn = f'discussion_{tid}_near{near}_{TS}.json'
+   111→    pp = posts_of(fn)
+   112→    try:
+   113→        dd = json.load(open(os.path.join(OUT, fn)))
+   114→        aa = dd.get('data', {}).get('attributes', {}) if isinstance(dd.get('data'), dict) else {}
+   115→        print(f"[{tid}] cc={aa.get('commentCount')} lastPostNumber={aa.get('lastPostNumber')} sticky={aa.get('sticky')} locked={aa.get('isLocked')}")
+   116→    except Exception as e:
+   117→        print(f'[{tid}] attrs fail {e}')
+   118→    tail = sorted(pp, key=lambda p: p.get('attributes', {}).get('number') or 0)[-6:]
+   119→    for p in tail:
+   120→        a = p.get('attributes', {})
+   121→        print(f"  #{a.get('number')} {a.get('createdAt')} :: {head_text(p)}")
+   122→    return pp
+   123→
+   124→# === ФАЗА 1: витрина новостей + фронт + ТГК ===
+   125→get(f'{BASE}/api/discussions?filter[tag]=news&sort=-lastPostedAt&page[size]=50&page[offset]=0', f'tagnews_off0_{TS}.json'); time.sleep(1)
+   126→get(f'{BASE}/api/discussions?page[offset]=0', f'frontindex_off0_{TS}.json'); time.sleep(1)
+   127→get('https://t.me/s/stalzone', f'tg_stalzone_page0_{TS}.html', validate_json=False); time.sleep(1)
+   128→get('https://t.me/s/spectrum_zone', f'tg_spectrum_page0_{TS}.html', validate_json=False); time.sleep(1)
+   129→get(f'{BASE}/api/discussions?filter[q]=%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0&page[offset]=0', f'search_legenda_{TS}.json'); time.sleep(1)
+   130→get(f'{BASE}/api/discussions/194758?page[near]=999999', f'discussion_194758_near999999_{TS}.json'); time.sleep(1)
+   131→
+   132→# === Ключевые линии ===
+   133→get(f'{BASE}/api/discussions/196452?page[near]=999999', f'discussion_196452_near999999_{TS}.json'); time.sleep(1)
+   134→get(f'{BASE}/api/discussions/196488?page[near]=999999', f'discussion_196488_near999999_{TS}.json'); time.sleep(1)
+   135→get(f'{BASE}/api/discussions/196480?page[near]=999999', f'discussion_196480_near999999_{TS}.json'); time.sleep(1)
+   136→get(f'{BASE}/api/discussions/196511?page[near]=999999', f'discussion_196511_near999999_{TS}.json'); time.sleep(1)
+   137→get(f'{BASE}/api/discussions/196524?page[near]=999999', f'discussion_196524_near999999_{TS}.json'); time.sleep(1)
+   138→get(f'{BASE}/api/discussions/196475?page[near]=999999', f'discussion_196475_near999999_{TS}.json'); time.sleep(1)
+   139→get(f'{BASE}/api/discussions/196521?page[near]=999999', f'discussion_196521_near999999_{TS}.json'); time.sleep(1)
+   140→get(f'{BASE}/api/discussions/196528?page[near]=999999', f'discussion_196528_near999999_{TS}.json'); time.sleep(1)
+   141→get(f'{BASE}/api/discussions/196518?page[near]=999999', f'discussion_196518_near999999_{TS}.json'); time.sleep(1)
+   142→get(f'{BASE}/api/discussions/196529?page[near]=999999', f'discussion_196529_near999999_{TS}.json'); time.sleep(1)
+   143→get(f'{BASE}/api/discussions/196530?page[near]=999999', f'discussion_196530_near999999_{TS}.json'); time.sleep(1)
+   144→get(f'{BASE}/api/discussions/196531?page[near]=999999', f'discussion_196531_near999999_{TS}.json'); time.sleep(1)
+   145→get(f'{BASE}/api/discussions/196532?page[near]=999999', f'discussion_196532_near999999_{TS}.json'); time.sleep(1)
+   146→get(f'{BASE}/api/discussions/196536?page[near]=999999', f'discussion_196536_near999999_{TS}.json'); time.sleep(1)
+   147→get(f'{BASE}/api/discussions/196533?page[near]=999999', f'discussion_196533_near999999_{TS}.json'); time.sleep(1)
+   148→get(f'{BASE}/api/discussions/196496?page[near]=999999', f'discussion_196496_near999999_{TS}.json'); time.sleep(1)
+   149→get(f'{BASE}/api/discussions/196260?page[near]=999999', f'discussion_196260_near999999_{TS}.json'); time.sleep(1)
+   150→get(f'{BASE}/api/discussions/196411?page[near]=999999', f'discussion_196411_near999999_{TS}.json'); time.sleep(1)
+   151→get(f'{BASE}/api/posts?filter[discussion]=196411&page[size]=20&page[offset]=0', f'postsindex_196411_off0_{TS}.json'); time.sleep(1)
+   152→get(f'{BASE}/api/posts?filter[discussion]=196411&page[size]=20&page[offset]=20', f'postsindex_196411_off20_{TS}.json'); time.sleep(1)
+   153→get(f'{BASE}/api/posts?filter[discussion]=196411&page[size]=20&page[offset]=40', f'postsindex_196411_off40_{TS}.json'); time.sleep(1)
+   154→get(f'{BASE}/api/discussions/196424?page[near]=999999', f'discussion_196424_near999999_{TS}.json'); time.sleep(1)
+   155→get(f'{BASE}/api/discussions/196461?page[near]=999999', f'discussion_196461_near999999_{TS}.json'); time.sleep(1)
+   156→get(f'{BASE}/api/discussions/196435?page[near]=999999', f'discussion_196435_near999999_{TS}.json'); time.sleep(1)
+   157→get(f'{BASE}/api/discussions/196510?page[near]=999999', f'discussion_196510_near999999_{TS}.json'); time.sleep(1)
+   158→get(f'{BASE}/api/discussions/196520?page[near]=999999', f'discussion_196520_near999999_{TS}.json'); time.sleep(1)
+   159→get(f'{BASE}/api/discussions/196499?page[near]=999999', f'discussion_196499_near999999_{TS}.json'); time.sleep(1)
+   160→get(f'{BASE}/api/discussions/196516?page[near]=999999', f'discussion_196516_near999999_{TS}.json'); time.sleep(1)
+   161→get(f'{BASE}/api/discussions/196513?page[near]=999999', f'discussion_196513_near999999_{TS}.json'); time.sleep(1)
+   162→get(f'{BASE}/api/discussions/196522?page[near]=999999', f'discussion_196522_near999999_{TS}.json'); time.sleep(1)
+   163→get(f'{BASE}/api/discussions/196523?page[near]=999999', f'discussion_196523_near999999_{TS}.json'); time.sleep(1)
+   164→get(f'{BASE}/api/discussions/196428?page[near]=999999', f'discussion_196428_near999999_{TS}.json'); time.sleep(1)
+   165→get(f'{BASE}/api/discussions/196078?page[near]=999999', f'discussion_196078_near999999_{TS}.json'); time.sleep(1)
+   166→get(f'{BASE}/api/discussions/196062?page[near]=999999', f'discussion_196062_near999999_{TS}.json'); time.sleep(1)
+   167→get(f'{BASE}/api/discussions/196315?page[near]=999999', f'discussion_196315_near999999_{TS}.json'); time.sleep(1)
+   168→get(f'{BASE}/api/discussions/196415?page[near]=999999', f'discussion_196415_near999999_{TS}.json'); time.sleep(1)
+   169→get(f'{BASE}/api/discussions/196283?page[near]=999999', f'discussion_196283_near999999_{TS}.json'); time.sleep(1)
+   170→# --- хвосты: 196425/196552/196557 + 196537/196539 + младшие NEW 196551/196542/196543 ---
+   171→get(f'{BASE}/api/discussions/196425?page[near]=999999', f'discussion_196425_near999999_{TS}.json'); time.sleep(1)
+   172→get(f'{BASE}/api/discussions/196552?page[near]=999999', f'discussion_196552_near999999_{TS}.json'); time.sleep(1)
+   173→get(f'{BASE}/api/discussions/196557?page[near]=999999', f'discussion_196557_near999999_{TS}.json'); time.sleep(1)
+   174→get(f'{BASE}/api/discussions/196537?page[near]=999999', f'discussion_196537_near999999_{TS}.json'); time.sleep(1)
+   175→get(f'{BASE}/api/discussions/196539?page[near]=999999', f'discussion_196539_near999999_{TS}.json'); time.sleep(1)
+   176→get(f'{BASE}/api/discussions/196551?page[near]=999999', f'discussion_196551_near999999_{TS}.json'); time.sleep(1)
+   177→get(f'{BASE}/api/discussions/196542?page[near]=999999', f'discussion_196542_near999999_{TS}.json'); time.sleep(1)
+   178→get(f'{BASE}/api/discussions/196543?page[near]=999999', f'discussion_196543_near999999_{TS}.json'); time.sleep(1)
+   179→
+   180→# === РЕЗЮМЕ ===
+   181→KNOWN = {196452, 196488, 196480, 196411, 196428, 196078, 196062, 196315, 196415, 196283,
+   182→         196424, 196461, 196490, 196511, 196469, 196474, 196475, 188595, 196326, 195079,
+   183→         195660, 195574, 195773, 196497, 196505, 196506, 196509, 196501, 196500, 196498,
+   184→         196514, 196513, 196435, 196434, 196510, 196516, 196519, 196520, 196499,
+   185→         196522, 196523, 196524, 196525, 196521, 196526, 196527, 196528, 196518,
+   186→         196529, 196530, 196531, 196496, 196260, 196100, 196258, 196501, 196532, 196536, 196533, 196537, 196539,
+   187→         196425, 196551, 196541, 196542, 196543, 196552, 196557, 196559, 196548, 196560, 196561, 196563, 196558, 196567, 196562, 196570, 196568, 196576, 196575, 196574, 196572, 196556, 196578, 196544, 196577, 196582, 196573, 196569, 196585, 196584, 196583, 196581, 196586, 196593, 196592, 196571, 196605, 196596, 196626, 196627, 196620,
+   188→         196621, 196630, 196637, 196638, 196639, 196640, 196641, 196642, 196643, 196644,
+   189→         196646, 193777, 196564, 196588, 196610, 196611, 196612, 196618, 187993, 196623,
+   190→         196624, 196625, 196628, 196629, 196631, 196633, 196634, 196635, 196150, 174335,
+   191→         185811, 196427, 196223, 195082, 196434, 196652, 196650, 196655, 196613, 196653, 196657,
+   192→         196658, 196661, 196656, 196665, 196667, 196668, 196666, 196321, 196439, 196669, 196670, 196673, 196677, 196679, 196647, 196678, 196681, 196682, 196683, 196684, 196685, 196686, 196651, 196688, 196689, 196660, 196690, 196691, 196692, 196697, 196698, 196699, 196700, 196701, 196703, 196704, 196702, 196706, 196707, 196708, 196709, 196705, 196714, 196715, 196716, 196717, 196718, 196727, 196730, 196731, 196732, 196733, 196734, 196735, 196736, 196737, 196724, 196739, 196742, 196745, 196747, 196750, 196748, 196749, 196719, 196752, 196754, 196757, 196760, 196756, 196729, 196763, 196762, 196755, 196758, 196764, 196765, 196761, 196766, 196767, 196768, 196770, 196771, 196777, 196773, 196772, 196782, 196781, 196778, 196784, 196785, 196783, 196786, 196787, 196791, 196794, 196788, 196369, 174560}
+   193→
+   194→print('\n===== NEWS TAG INDEX (off0) =====')
+   195→news = disc_items(f'tagnews_off0_{TS}.json')
+   196→seen = set()
+   197→for i in news:
+   198→    a = i.get('attributes', {})
+   199→    did = i.get('id')
+   200→    if did in seen: continue
+   201→    seen.add(did)
+   202→    try: didn = int(did)
+   203→    except Exception: didn = -1
+   204→    mark = ' [NEW]' if (didn not in KNOWN and didn > 196400) else ''
+   205→    if a.get('lastPostedAt','') >= '2026-10-16' or mark:
+   206→        print(f"  [{did}] {a.get('lastPostedAt','?')[:16]} cc={a.get('commentCount')} :: {a.get('title','')[:88]}{mark}")
+   207→
+   208→print('\n===== FRONT INDEX (off0) — только живое/новое =====')
+   209→front = disc_items(f'frontindex_off0_{TS}.json')
+   210→seen2 = set()
+   211→new_front = []
+   212→for i in front:
+   213→    a = i.get('attributes', {})
+   214→    did = i.get('id')
+   215→    if did in seen2: continue
+   216→    seen2.add(did)
+   217→    try: didn = int(did)
+   218→    except Exception: didn = -1
+   219→    mark = ' [NEW]' if (didn not in KNOWN and didn > 196400) else ''
+   220→    if mark: new_front.append(didn)
+   221→    if a.get('lastPostedAt','') >= '2026-10-21T10:38' or mark:
+   222→        print(f"  [{did}] {a.get('lastPostedAt','?')[:16]} cc={a.get('commentCount')} :: {a.get('title','')[:80]}{mark}")
+   223→print(f'>>> NEW front threads to OP-fetch (phase 2): {new_front}')
+   224→
+   225→print('\n===== SEARCH «легенда» (волна клуб-запросов 194758-типа?) =====')
+   226→try:
+   227→    _sl = json.load(open(os.path.join(OUT, f'search_legenda_{TS}.json')))
+   228→    for _i in (_sl.get('data') or [])[:10]:
+   229→        _ia = _i.get('attributes', {})
+   230→        print(f"  [{_i.get('id')}] cc={_ia.get('commentCount')} last={_ia.get('lastPostedAt','?')[:16]} :: {_ia.get('title','')[:80]}")
+   231→except Exception as _e:
+   232→    print(f'search parse fail: {_e}')
+   233→
+   234→print('\n===== 194758 «Новый раздел для легенд» (cc=71; Pledik/Raonix ноют про клуб — движение?) =====')
+   235→thread_summary(194758)
+   236→
+   237→print('\n===== 196452 Талоны PvE (~181 ч офиц. молчания, флешмоб 52-Й ЧАС?) =====')
+   238→thread_summary(196452)
+   239→
+   240→print('\n===== 196511 Хотфикс (жетоны-пропажа; был cc=31, 10-е сутки; ПАТЧ ВЫШЕЛ — чейнджлога нет, 196511 молчит) =====')
+   241→thread_summary(196511)
+   242→
+   243→print('\n===== 196488 Кейс =====')
+   244→thread_summary(196488)
+   245→print('\n===== 196480 Кейс-шансы (был cc=171; Crios-тишина ~91 ч) =====')
+   246→thread_summary(196480)
+   247→
+   248→print('\n===== 196524 Глеб (был cc=1147 LOCKED) =====')
+   249→thread_summary(196524)
+   250→print('\n===== 196475 Амнистия (был cc=252) =====')
+   251→thread_summary(196475)
+   252→print('\n===== 196522 Штыриуса тред =====')
+   253→thread_summary(196522)
+   254→print('\n===== 196523 ОБРАЩЕНИЕ К EXBO =====')
+   255→thread_summary(196523)
+   256→
+   257→print('\n===== 196411 / #48 канон + union-карта (гэпы [15,33,63-78,88]; сносов нет 3-Й ЧАС; ПОСЛЕ ПАТЧА следим #92+/зачистки) =====')
+   258→p411 = thread_summary(196411)
+   259→union = set()
+   260→for off in ('off0', 'off20', 'off40'):
+   261→    for p in posts_of(f'postsindex_196411_{off}_{TS}.json'):
+   262→        union.add(p.get('attributes', {}).get('number'))
+   263→for p in p411:
+   264→    union.add(p.get('attributes', {}).get('number'))
+   265→nums = sorted(n for n in union if n)
+   266→gaps = sorted(set(range(1, nums[-1] + 1)) - set(nums))
+   267→print(f'>>> union 196411 = 1..{nums[-1]}, гэпы: {gaps}')
+   268→for off in ('off20', 'off40'):
+   269→    fn = os.path.join(OUT, f'postsindex_196411_{off}_{TS}.json')
+   270→    try:
+   271→        d = json.load(open(fn))
+   272→        for i in (d.get('data') or []) + (d.get('included') or []):
+   273→            if isinstance(i, dict) and i.get('type') == 'posts' and i.get('attributes', {}).get('number') == 48:
+   274→                h = hashlib.sha256((i['attributes'].get('contentHtml') or '').encode()).hexdigest()
+   275→                print(f">>> #48 ({off}): sha256 {h[:16]}... {'CANON OK' if h == CANON48 else '!!! ИЗМЕНИЛСЯ'} rx={sum((i['attributes'].get('reactionCounts') or {}).values())}")
+   276→    except Exception as e:
+   277→        print(f'#48 {off} fail: {e}')
+   278→
+   279→print('\n===== 196532 Тирлист Завозов (ожил +5, cc=343/LPN 344) =====')
+   280→thread_summary(196532)
+   281→print('\n===== 196536 Смена оружия (был cc=8) =====')
+   282→thread_summary(196536)
+   283→print('\n===== 196533 Американская гитара (был cc=2) =====')
+   284→thread_summary(196533)
+   285→
+   286→print('\n===== 196537 Мастерский детектор прикопов (был cc=35) =====')
+   287→thread_summary(196537)
+   288→print('\n===== 196539 Вылеты vs Передовой кейс (был cc=30) =====')
+   289→thread_summary(196539)
+   290→
+   291→print('\n===== 196424 ОТС (ЗАКРЫЛОСЬ 20:59 UTC, снят с закрепа 00:40, тишина 61.5+ ч, ЧАС 62, ИТОГИ так и не вышли ПОСЛЕ ПАТЧА; был cc=160) =====')
+   292→thread_summary(196424)
+   293→print('\n===== 196425 ОФИЦ. СБОР ФИДБЕКА ОТС (был cc=124; итоги ОТС = НЕ ВЫШЛИ 61.5+ ч, ЧАС 62) =====')
+   294→thread_summary(196425, near='999999')
+   295→
+   296→print('\n===== 196461 Раздутый ттк =====')
+   297→thread_summary(196461)
+   298→print('\n===== 196435 Колизей-калибровка (был cc=154) =====')
+   299→thread_summary(196435)
+   300→print('\n===== 196510 КАЛЛибровка-2 (ожил в 54-117, cc=36/LPN 37) =====')
+   301→thread_summary(196510)
+   302→print('\n===== 196520 Колизей кодекс =====')
+   303→thread_summary(196520)
+   304→print('\n===== 196499 =====')
+   305→thread_summary(196499)
+   306→print('\n===== 196516 Соло гемлпей (был cc=22) =====')
+   307→thread_summary(196516)
+   308→print('\n===== 196513 =====')
+   309→thread_summary(196513)
+   310→print('\n===== 196531 Лишняя информация на пердметах (был cc=21) =====')
+   311→thread_summary(196531)
+   312→print('\n===== 196496 Простой пример (был cc=103, соло-флейм волна) =====')
+   313→thread_summary(196496)
+   314→print('\n===== 196260 КАНОН СТАЛЗОН (был cc=59) =====')
+   315→thread_summary(196260)
+   316→print('\n===== 196428 =====')
+   317→thread_summary(196428)
+   318→print('\n===== 196078 (магпулы) =====')
+   319→thread_summary(196078)
+   320→print('\n===== 196062 =====')
+   321→thread_summary(196062)
+   322→print('\n===== КОНТРОЛЫ 196315/196415/196283 =====')
+   323→for tid in (196315, 196415, 196283):
+   324→    pp = posts_of(f'discussion_{tid}_near999999_{TS}.json')
+   325→    try:
+   326→        dd = json.load(open(os.path.join(OUT, f'discussion_{tid}_near999999_{TS}.json')))
+   327→        aa = dd.get('data', {}).get('attributes', {}) if isinstance(dd.get('data'), dict) else {}
+   328→        nums2 = sorted((p.get('attributes', {}).get('number') or 0) for p in pp)
+   329→        last = max((p.get('attributes', {}).get('createdAt') or '' for p in pp), default='')
+   330→        print(f"[{tid}] cc={aa.get('commentCount')} lastPostNumber={aa.get('lastPostNumber')} lastCreatedAt={last[:16]} tail={nums2[-3:] if nums2 else []}")
+   331→    except Exception as e:
+   332→        print(f'[{tid}] attrs fail {e}')
+   333→
+   334→print('\n===== ТГК stalzone page0 (3222/3223?; последний 3221 медиа 09:25; 3220@08:30 = «Запуск игровых серверов») =====')
+   335→try:
+   336→    html = open(os.path.join(OUT, f'tg_stalzone_page0_{TS}.html'), encoding='utf-8', errors='ignore').read()
+   337→    msgs = []
+   338→    for m in re.finditer(r'data-post="stalzone/(\d+)"[\s\S]*?<time datetime="([^"]+)"[\s\S]*?(?:<div class="tgme_widget_message_text[^"]*"[^>]*>([\s\S]*?)</div>)?[\s\S]*?(?=data-post="stalzone/|</section>)', html):
+   339→        mid, ts, txt = m.group(1), m.group(2), m.group(3) or ''
+   340→        txt = re.sub(r'<br/?>', ' ', txt)
+   341→        txt = re.sub(r'<[^>]+>', '', txt)
+   342→        txt = re.sub(r'\s+', ' ', txt).strip()
+   343→        msgs.append((int(mid), ts[:16], txt))
+   344→    for mid, ts, txt in msgs[-6:]:
+   345→        print(f'  [{mid}] {ts} :: {txt[:110]}')
+   346→except Exception as e:
+   347→    print(f'TG parse fail: {e}')
+   348→
+   349→print('\n===== ТГК Спектрума spectrum_zone page0 (7893+?; 7891 Арена Митрополита 28.10; 7880 краски/7882 наборы; 7892 награды пришли) =====')
+   350→try:
+   351→    html2 = open(os.path.join(OUT, f'tg_spectrum_page0_{TS}.html'), encoding='utf-8', errors='ignore').read()
+   352→    msgs2 = []
+   353→    for m in re.finditer(r'data-post="spectrum_zone/(\d+)"[\s\S]*?<time datetime="([^"]+)"[\s\S]*?(?:<div class="tgme_widget_message_text[^"]*"[^>]*>([\s\S]*?)</div>)?[\s\S]*?(?=data-post="spectrum_zone/|</section>)', html2):
+   354→        mid2, ts2, txt2 = m.group(1), m.group(2), m.group(3) or ''
+   355→        txt2 = re.sub(r'<br/?>', ' ', txt2)
+   356→        txt2 = re.sub(r'<[^>]+>', '', txt2)
+   357→        txt2 = re.sub(r'\s+', ' ', txt2).strip()
+   358→        msgs2.append((int(mid2), ts2[:16], txt2))
+   359→    for mid2, ts2, txt2 in msgs2[-8:]:
+   360→        print(f'  [{mid2}] {ts2} :: {txt2[:130]}')
+   361→except Exception as e:
+   362→    print(f'TG-SPEC parse fail: {e}')
+   363→
+   364→print('\n===== Хвосты окна 54-130: ПАТЧ-ХВОСТ — 196791 Отвратительно (21, патч-критика) + 196794 Гжель (8) + 196788 идеи (23) + 196778 награждение (28, fast-rule на грани) + 196784 Воздухан (38) + 196785 Лаунчер (15) + NEW-хвост 196791/196794/196788 в голове + 196772 (30)/196782 (5)/196781 (4) + 196777 (48) + 196770 8-Й ЧАС? (108) + 196767/196763/196761 + 196757 техработы (снят с закрепа) + прямые замеры 191614/112917/159759 (в КОНЦЕ кортежа) + mamich-поток 196718/196721 + 196755/196758/196760 + вчерашние NEW 196756/196754/196752/196750/196749/196748/196747/196745/196739/196742/196737/196734/196735/196736/196732/196733/196730/196731/196727 + stm-выжившие + 404-контроль =====')
+   365→for tid in (196791, 196794, 196788, 196778, 196784, 196785, 196783, 196786, 196787, 196772, 196782, 196781, 196777, 196773, 196771, 196770, 196768, 196767, 196766, 196757, 196764, 196765, 196761, 196763, 196762, 196755, 196758, 196760, 196756, 196754, 196752, 196750, 196749, 196748, 196747, 196745, 196739, 196742, 196737, 196734, 196735, 196736, 196732, 196733, 196730, 196731, 196727, 196725, 196724, 196722, 196721, 196720, 196718, 196655, 196705, 196714, 196715, 196716, 196717, 196702, 196706, 196709, 196707, 196708, 196701, 196704, 196703, 196692, 196688, 196699, 196700, 196698, 196689, 196667, 196697, 196686, 196548, 195080, 195081, 195083, 196690, 196646, 196661, 196621, 196108, 196688, 196692, 196673, 196641, 196661, 196686, 196627, 196678, 195083, 196501, 196668, 196681, 196643, 196684, 196683, 196682, 196665, 196452, 196658, 196679, 196626, 179952, 196677, 195249, 196669, 180244, 196610, 196439, 196321, 196424, 196425, 196657, 196620, 196653, 196652, 196650, 196613,
+   366→            196640, 196641, 196642, 196643, 196644, 196646, 196626, 196627, 196638,
+   367→            196621, 196548, 196561, 193777, 185811, 195080, 195081, 196630, 196624,
+   368→            196623, 196631, 196633, 196634, 196564, 196635, 196588, 196427, 196637,
+   369→            196639, 196625, 196628, 196629, 196610, 196150, 174335, 196612, 196618,
+   370→            196611, 187993, 196572, 196434, 196501, 196382, 179857, 195082, 196223, 191614, 112917, 159759):
+   371→    get(f'{BASE}/api/discussions/{tid}?page[near]=999999', f'discussion_{tid}_near999999_{TS}.json'); time.sleep(1)
+   372→    thread_summary(tid, near='999999')
+   373→
+   374→print('\n===== RANKS (OP -> Flarum-группы; гипотеза: ранг прилетает со Steam-линка/игры) =====')
+   375→def op_rank(tid, near='999999'):
+   376→    try:
+   377→        d = json.load(open(os.path.join(OUT, f'discussion_{tid}_near{near}_{TS}.json')))
+   378→        groups = {i['id']: (i.get('attributes', {}) or {}).get('nameSingular') for i in (d.get('included') or []) if i.get('type') == 'groups'}
+   379→        users = {i['id']: i for i in (d.get('included') or []) if i.get('type') == 'users'}
+   380→        opid = ((d.get('data') or {}).get('relationships', {}) or {}).get('user', {}).get('data', {})
+   381→        opid = opid.get('id') if isinstance(opid, dict) else None
+   382→        u = users.get(opid) or {}
+   383→        a = u.get('attributes', {})
+   384→        gids = [x.get('id') for x in u.get('relationships', {}).get('groups', {}).get('data', [])]
+   385→        print(f"[rank {tid}] OP={a.get('username')} groups={[groups.get(g, g) for g in gids]} join={(a.get('joinTime') or '?')[:10]} cc={a.get('commentCount')}")
+   386→    except Exception as e:
+   387→        print(f'[rank {tid}] fail: {e}')
+   388→for _rt in (196791, 196794, 196788, 196778, 196784, 196785, 196783, 196786, 196787):
+   389→    op_rank(_rt)
+   390→
+   391→# === ПРАВИЛО «БЫСТРЫЙ ТРЕД — ТРИ СЛЕПКА» (урок 54-92 interim: дыра #22-41 у 196707) ===
+   392→# При приросте LPN >15 постов/час добираем середину near=(prevLPN+LPN)//2,
+   393→# иначе хвост (20 постов на страницу) + прошлый слепок оставят дыру в середине.
+   394→PREV_LPN = {195081: 1076, 196718: 115, 196721: 18, 196727: 38, 196730: 32, 196732: 27, 196734: 53, 196735: 38, 196739: 13, 196742: 13, 196745: 14, 196747: 4, 196748: 36, 196749: 18, 196750: 13, 196752: 23, 196754: 11, 196757: 1, 196760: 32, 196756: 23, 196763: 48, 196762: 4, 196755: 33, 196758: 21, 196764: 11, 196765: 14, 196761: 27, 196766: 1, 196767: 33, 196768: 8, 196770: 108, 196771: 14, 196777: 48, 196773: 14, 187993: 1230, 159759: 14587, 112917: 67690, 191614: 7117, 196772: 30, 196782: 5, 196781: 4, 196785: 15, 196783: 12, 196786: 16, 196787: 3, 196778: 28, 196784: 38, 196791: 21, 196794: 8, 196788: 23}  # 54-129: 196778 РАЗГОН 2-Й ЧАС 14->28 (+14, жалоба «достягу не дали» #28 + критика «уникалка одному» #27); 196784 Воздухан 30->38 (Гаусс перекован патчем); 196791 Отвратительно cc=21 разгон 45 мин; 196770 ЗАМЕДЛИЛСЯ 106->108 (Crios #105 «фоновые перепроверки 4.1.1»); 196786 +9 (16); 196767 казино +6 (33); 196772 +1 (30); 196782 +1 (5); 159759 ВСТАЛА (14587, «Жди 30 число»); 191614 +5 (7117)
+   395→print('\n===== FAST-RULE: середина для быстрорастущих (>15/час) =====')
+   396→for _tid, _plpn in PREV_LPN.items():
+   397→    try:
+   398→        _dd = json.load(open(os.path.join(OUT, f'discussion_{_tid}_near999999_{TS}.json')))
+   399→        _aa = _dd.get('data', {}).get('attributes', {}) if isinstance(_dd.get('data'), dict) else {}
+   400→        _lpn = _aa.get('lastPostNumber') or 0
+   401→        _delta = _lpn - _plpn
+   402→        if _delta > 15:
+   403→            _mid = (_plpn + _lpn) // 2
+   404→            get(f'{BASE}/api/discussions/{_tid}?page[near]={_mid}', f'discussion_{_tid}_near{_mid}_{TS}.json'); time.sleep(1)
+   405→            print(f'[fast-rule] {_tid}: LPN {_plpn}->{_lpn} (delta {_delta}) -> middle near={_mid}')
+   406→        else:
+   407→            print(f'[fast-rule] {_tid}: LPN {_plpn}->{_lpn} (delta {_delta}) <=15 — middle не нужен')
+   408→    except Exception as _e:
+   409→        print(f'[fast-rule] {_tid} fail: {_e}')
+   410→
+   411→print('\n===== БОЛЬШИЕ ТРЕДЫ (cc из front-атрибутов) =====')
+   412→for i in front:
+   413→    if str(i.get('id')) in ('112917', '164665', '167367', '186525', '187993'):
+   414→        a = i.get('attributes', {})
+   415→        print(f"  [{i.get('id')}] cc={a.get('commentCount')} last={a.get('lastPostedAt','?')[:16]} :: {a.get('title','')[:60]}")
+   416→
+   417→print(f'\nTS={TS}')
+   418→

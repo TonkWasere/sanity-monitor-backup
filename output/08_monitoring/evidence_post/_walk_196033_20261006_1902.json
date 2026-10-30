@@ -1,0 +1,508 @@
+{
+ "posts": {
+  "1": {
+   "id": "4691212",
+   "uid": "630382",
+   "createdAt": "2026-10-06T11:50:33+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 9,
+   "contentHtml": "<p><img class=\"FoFUpload--Upl-Image-Preview\" src=\"https://forum-cdn.exbo.net//2026-10-06/1791287271-857508-1920x1080-ru.png\" title=\"1920x1080-ru.png\" alt=\"\" data-id=\"36f4a6eb-f3bb-48a9-99f0-4575224f57c5\" loading=\"lazy\" width=\"1920\" height=\"1080\"></p>\n\n<p>Постой! Нет, правда, постой, хотя бы просто потому, что идти дальше ты и не сможешь — всю твою скорость «съело» останавливающее действие! А, 1,25 секунды уже прошло? Ну ладно, но статью прочитать всё равно стоит — полезно знать, как работает «останова», что она может сделать и как от неё защититься.</p>\n\n<h2>Что такое останавливающее действие</h2>\n\n<p>Останавливающее действие — негативный эффект, накладываемый при получении урона от пуль или взрыва.</p>\n\n<p>Оно накладывает следующие штрафы: </p>\n\n<ul><li>Восстановление выносливости: до -30%;</li>\n<li>Скорость передвижения: до -60%.</li></ul>\n\n<p>Работу останавливающего действия можно представить на примере заражения: на игрока накладываются «очки» заражения, и чем их больше, тем сильнее штрафы. Максимальное количество очков останавливающего действия, которое игрок может накопить, — 200.</p>\n\n<p>За 1 секунду выводится 60% «очков» останавливающего действия. Полностью они выводятся за 1,25 секунды без наложения нового останавливающего действия.</p>\n\n<p>Также останавливающее действие увеличивает урон, получаемый мутантами, по формуле:</p>\n\n<p><strong>0,9 + (0,5 × ОД) / 100</strong></p>\n\n<p>Например, при стрельбе по мутантам из LR-300 + 15 бронебойными патронами они получат следующий урон:</p>\n\n<p><strong>43 x (0,9 + (0,5 × 40) / 100) = 47,3</strong></p>\n\n<p>Именно «очки» останавливающего действия, а не урон, сбивают применение способностей противников в Операциях.</p>\n\n<h2>Что такое стойкость</h2>\n\n<p>Стойкость — параметр, снижающий получаемое останавливающее действие.</p>\n\n<p>Итоговое снижение останавливающего действия зависит от двух параметров:</p>\n\n<ul><li>защиты от разрыва;</li>\n<li>стойкости.</li></ul>\n\n<p>Снижение рассчитывается по формуле:</p>\n\n<p><strong>(1 − (100 / (100 + Защита от разрыва)) × (1 − Стойкость / 100)) × 100</strong></p>\n\n<p>Рассмотрим подробнее на примере «Центуриона».</p>\n\n<p>По умолчанию у него 20% стойкости и 193 защиты от разрыва. Его снижение получаемого останавливающего действия будет рассчитываться так:</p>\n\n<p><strong>(1 − (100 / (100 + 193)) × (1 − 20 / 100)) × 100 = 72,69</strong></p>\n\n<p>Это означает, что всё входящее останавливающее действие будет снижено на 72,7%.</p>\n\n<h2>Из чего складывается останавливающее действие</h2>\n\n<p>Накладываемое останавливающее действие рассчитывается по формуле:</p>\n\n<p><strong>Урон от попадания x (ОД патрона + ОД оружия) / 100</strong></p>\n\n<p>Для примера возьмём WA-2000 + 15 со снаряжённым СБП-патроном:</p>\n\n<ul><li>останавливающее действие патрона — 40;</li>\n<li>останавливающее действие WA-2000 — 0;</li>\n<li>урон WA-2000 — 139,5.</li></ul>\n\n<p>Предположим, что у игрока нет пластины и многогранника.</p>\n\n<p>Тогда выстрел наложит <strong>(139,5 x (40 + 0)) / 100 = 55,8</strong> «очков» останавливающего действия.</p>\n\n<p>При попадании в голову будет наложено <strong>55,8 × 1,4 = 78,12</strong> «очков».</p>\n\n<p>Урон, поглощаемый многогранником и пластиной, снижает накладываемое останавливающее действие. В свою очередь, поглощение урона пулестойкостью или защитой от взрыва останавливающее действие снижать не будет.</p>\n\n<p>Для расчёта полученных «очков» останавливающего действия используется формула:</p>\n\n<p><strong>ОД попадания x (1</strong> − <strong>итоговая стойкость / 100)</strong></p>\n\n<p>Предположим, что игрок в «Центурионе» получит выстрел в тело из вышеупомянутой WA-2000, тогда он получит следующее количество «очков» останавливающего действия:</p>\n\n<p><strong>55,8 × (1 − 72,69 / 100) = 15,23</strong></p>\n\n<h2>Таблица штрафов по уровням</h2>\n<p><img class=\"FoFUpload--Upl-Image-Preview\" src=\"https://forum-cdn.exbo.net//2026-10-06/1791287414-613283-image.png\" title=\"image.png\" alt=\"\" data-id=\"16a8a4b6-a321-43db-ac0c-2370f507cf04\" loading=\"lazy\" width=\"832\" height=\"451\"></p>\n\n<h2>Заключение</h2>\n\n<p>Хоть замедление уже давно спало и можно было уйти, ты всё равно прочитал эту статью и теперь знаешь немного больше. Спасибо, что уделил время! </p>\n\n<p>Кстати, эта статья появилась в Кодексе раньше, чем была выложена здесь, пусть там она и в несколько сокращённом виде, без наглядных примеров. Заглядывать в него бывает полезно.</p>"
+  },
+  "2": {
+   "id": "4691272",
+   "uid": "630382",
+   "createdAt": "2026-10-06T12:30:13+00:00",
+   "editedAt": null,
+   "contentType": "discussionTagged",
+   "likesCount": 0,
+   "contentHtml": ""
+  },
+  "3": {
+   "id": "4691274",
+   "uid": "630382",
+   "createdAt": "2026-10-06T12:30:37+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p>Застопило меня…</p>"
+  },
+  "4": {
+   "id": "4691279",
+   "uid": "1028219",
+   "createdAt": "2026-10-06T12:35:32+00:00",
+   "editedAt": "2026-10-06T12:35:48+00:00",
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/1\" class=\"PostMention\" data-id=\"4691212\">Simera</a> очень полезно, спасибо. Даже я со своими 12к часами подтвердил догадки и узнал чуть нового</p>"
+  },
+  "5": {
+   "id": "4691281",
+   "uid": "17695",
+   "createdAt": "2026-10-06T12:36:34+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/3\" class=\"PostMention\" data-id=\"4691274\">Simera</a> Вкопало гаусом</p>"
+  },
+  "6": {
+   "id": "4691282",
+   "uid": "1701441",
+   "createdAt": "2026-10-06T12:36:49+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/1\" class=\"PostMention\" data-id=\"4691212\">Simera</a> в кодекс</p>"
+  },
+  "7": {
+   "id": "4691284",
+   "uid": "1700586",
+   "createdAt": "2026-10-06T12:38:30+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 8,
+   "contentHtml": "<p>12 лет скрытия стат, решили закончиться</p>"
+  },
+  "8": {
+   "id": "4691288",
+   "uid": "1676086",
+   "createdAt": "2026-10-06T12:41:45+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p>Интересный обзор на костыль который спасает от плохих балансерских решений</p>"
+  },
+  "9": {
+   "id": "4691293",
+   "uid": "1692644",
+   "createdAt": "2026-10-06T12:43:54+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p>и даже не закреп, шок</p>"
+  },
+  "10": {
+   "id": "4691297",
+   "uid": "1685100",
+   "createdAt": "2026-10-06T12:46:23+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p>привет вместо того чтобы писать вот это может ее удалить? Она только руинит и абсолютно ненужная механика из за которой новички отваливаются а мастера ее ненавидят всем сердцем</p>"
+  },
+  "11": {
+   "id": "4691306",
+   "uid": "630382",
+   "createdAt": "2026-10-06T12:49:37+00:00",
+   "editedAt": null,
+   "contentType": "discussionStickied",
+   "likesCount": 0,
+   "contentHtml": ""
+  },
+  "12": {
+   "id": "4691308",
+   "uid": "1396845",
+   "createdAt": "2026-10-06T12:49:44+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p>Я новичок, останова случайно не накладывается когда рядом стреляют?</p>"
+  },
+  "14": {
+   "id": "4691313",
+   "uid": "630382",
+   "createdAt": "2026-10-06T12:51:15+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 1,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/12\" class=\"PostMention\" data-id=\"4691308\">quantumWebX</a></p> \n\n<p>Это уже другая механика. В инструкциях справочника есть много чего полезного</p>\n\n<p><img class=\"FoFUpload--Upl-Image-Preview\" src=\"https://forum-cdn.exbo.net//2026-10-06/1791291040-981390-image.png\" title=\"image.png\" alt=\"\" data-id=\"cb552a38-2711-4118-9ae1-ade0f2d27a04\" loading=\"lazy\" width=\"860\" height=\"682\"></p>\n"
+  },
+  "15": {
+   "id": "4691314",
+   "uid": "1700819",
+   "createdAt": "2026-10-06T12:51:39+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 1,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/12\" class=\"PostMention\" data-id=\"4691308\">quantumWebX</a> Это подавление</p>"
+  },
+  "16": {
+   "id": "4691316",
+   "uid": "1676401",
+   "createdAt": "2026-10-06T12:53:22+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p>Когда рядом стреляют персонаж в штаны подливу подливит и из за этого не может двигаться, очевидно же. Подавление.</p> "
+  },
+  "17": {
+   "id": "4691323",
+   "uid": "1710074",
+   "createdAt": "2026-10-06T12:56:03+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<blockquote class=\"uncited\"><div><p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/1\" class=\"PostMention\" data-id=\"4691212\">Simera</a> Скорость передвижения: до -60%.</p></div></blockquote>\n\n<p>А разве там штраф плоский, а не зависящий от скорости, которой обладает персонаж без наложенной остановы?</p>"
+  },
+  "18": {
+   "id": "4691324",
+   "uid": "1692644",
+   "createdAt": "2026-10-06T12:56:18+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/9\" class=\"PostMention\" data-id=\"4691293\">СерегаАвтосервис</a> <a href=\"https://forum.exbo.net/u/Simera\" class=\"UserMention\">@Simera</a> то то же, а теперь открепи “осенний сезон стартовал”, буду вам закрепы теперь балансить</p>"
+  },
+  "19": {
+   "id": "4691333",
+   "uid": "1700493",
+   "createdAt": "2026-10-06T13:01:07+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/1\" class=\"PostMention\" data-id=\"4691212\">Simera</a> <br>\nЯ ничего не понял, объясните вкратце, что скупать - вехотки, розы изнанки или гелии? Или продавать? Хз</p>"
+  },
+  "20": {
+   "id": "4691344",
+   "uid": "1710074",
+   "createdAt": "2026-10-06T13:05:22+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/17\" class=\"PostMention\" data-id=\"4691323\">Foxkisser</a> <span class=\"GroupMention GroupMention--colored\" style=\"--color:#23acaf;\"><span class=\"GroupMention-name\">@Рупоры</span><i class=\"icon fas fa-bullhorn\"></i></span> здравствуйте, это правда?</p>"
+  },
+  "21": {
+   "id": "4691347",
+   "uid": "560125",
+   "createdAt": "2026-10-06T13:06:40+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<blockquote class=\"uncited\"><div><p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/1\" class=\"PostMention\" data-id=\"4691212\">Simera</a> За 1 секунду выводится 60% «очков» останавливающего действия. Полностью они выводятся за 1,25 секунды без наложения нового останавливающего действия.</p></div></blockquote>\n\n<p>За 1 секунду 60%, а потом за 0.25с 40%? Че с математикой</p>"
+  },
+  "22": {
+   "id": "4691349",
+   "uid": "1700520",
+   "createdAt": "2026-10-06T13:07:31+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/19\" class=\"PostMention\" data-id=\"4691333\">D_IV</a>  Говорили же на последнем стриме, нужно брать кисели</p>\n"
+  },
+  "23": {
+   "id": "4691358",
+   "uid": "1710074",
+   "createdAt": "2026-10-06T13:11:46+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/21\" class=\"PostMention\" data-id=\"4691347\">DOOMKNIGHT</a> просто после 1,25 секунд без наложения остановы она сбрасывается, по идее так</p>\n"
+  },
+  "24": {
+   "id": "4691368",
+   "uid": "630382",
+   "createdAt": "2026-10-06T13:16:43+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/6\" class=\"PostMention\" data-id=\"4691282\">ZaZaZaika</a></p> \n\n<blockquote class=\"uncited\"><div><p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/1\" class=\"PostMention\" data-id=\"4691212\">Simera</a> Кстати, эта статья появилась в Кодексе раньше, чем была выложена здесь, пусть там она и в несколько сокращённом виде, без наглядных примеров. Заглядывать в него бывает полезно.</p></div></blockquote>\n\n<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/17\" class=\"PostMention\" data-id=\"4691323\">Foxkisser</a></p> \n\n<p>Да, отнимается именно процент от скорости персонажа. Т.е. имея 90 скорости и 4 уровень остановы с -20% скорости, игрок в итоге будет иметь 72 скорости, а не 70. Передал коллеге, подумает, как можно будет запихнуть в справочник</p>\n\n<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/18\" class=\"PostMention\" data-id=\"4691324\">СерегаАвтосервис</a></p> \n\n<p>Уже отбалансил, открепил анонс жаркой недели</p>"
+  },
+  "25": {
+   "id": "4691408",
+   "uid": "1712966",
+   "createdAt": "2026-10-06T13:45:25+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p>останова это ровна та механика, которая играется полностью на личных ощущениях.<br>\n<img class=\"FoFUpload--Upl-Image-Preview\" src=\"https://forum-cdn.exbo.net//2026-08-29/1787999694-792777-18fe22368340263f25064d65b707bdd6.jpg\" title=\"18fe22368340263f25064d65b707bdd6.jpg\" alt=\"\" data-id=\"158c6483-5137-4f4f-9c00-4b4959122b3e\" loading=\"lazy\" width=\"736\" height=\"1040\"></p>"
+  },
+  "26": {
+   "id": "4691424",
+   "uid": "922122",
+   "createdAt": "2026-10-06T13:56:46+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 4,
+   "contentHtml": "<p>Спасибо, статья супер<br>\nТолько сама механика говно</p>"
+  },
+  "27": {
+   "id": "4691448",
+   "uid": "1697552",
+   "createdAt": "2026-10-06T14:22:14+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p>покупайте арты на стойкость пока кала панчикс не обручил опять рынок</p>\n"
+  },
+  "28": {
+   "id": "4691450",
+   "uid": "1704471",
+   "createdAt": "2026-10-06T14:22:51+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p>Статья супер, только как это работает на лег модуле на останову? если тип 20 пуль с фамаса даст с этим модулем, то клавиатура отключится у жертвы?</p>"
+  },
+  "29": {
+   "id": "4691477",
+   "uid": "1595237",
+   "createdAt": "2026-10-06T14:40:51+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/1\" class=\"PostMention\" data-id=\"4691212\">Simera</a> расскажите зачем баффнули мерков</p>"
+  },
+  "30": {
+   "id": "4691482",
+   "uid": "1700924",
+   "createdAt": "2026-10-06T14:43:56+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p>Лучшая механика, жаль что только на некоторых немногих ганах нормально работает</p> "
+  },
+  "31": {
+   "id": "4691484",
+   "uid": "1700946",
+   "createdAt": "2026-10-06T14:46:51+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 1,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/1\" class=\"PostMention\" data-id=\"4691212\">Simera</a> о. Это та самая механика, которая либо не работает, либо вкапывает тебя в землю?</p>"
+  },
+  "32": {
+   "id": "4691509",
+   "uid": "1700685",
+   "createdAt": "2026-10-06T15:06:50+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<blockquote class=\"uncited\"><div><p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/1\" class=\"PostMention\" data-id=\"4691212\">Simera</a> Урон от попадания</p></div></blockquote>\n\n<p>мб всё-таки базовый урон оружия? потому что на урон от попадния пулестой влияет</p>"
+  },
+  "33": {
+   "id": "4691535",
+   "uid": "236340",
+   "createdAt": "2026-10-06T15:44:05+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<blockquote class=\"uncited\"><div><p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/1\" class=\"PostMention\" data-id=\"4691212\">Simera</a> Нет, правда, постой, хотя бы просто потому, что идти дальше ты и не сможешь</p></div></blockquote>\n\n<p>Извини но нет, давай хуйню не неси и чеши от сюда</p> "
+  },
+  "34": {
+   "id": "4691602",
+   "uid": "1701314",
+   "createdAt": "2026-10-06T16:55:45+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/1\" class=\"PostMention\" data-id=\"4691212\">Simera</a> крутая статья. теперь удаляем механику.</p>\n "
+  },
+  "35": {
+   "id": "4691643",
+   "uid": "1703316",
+   "createdAt": "2026-10-06T17:27:30+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p>Кто-нибудь знает где глянуть ответы на вопросы про баланс, которые собирали недавно?</p>"
+  },
+  "36": {
+   "id": "4691671",
+   "uid": "564978",
+   "createdAt": "2026-10-06T17:45:32+00:00",
+   "editedAt": null,
+   "contentType": "comment",
+   "likesCount": 0,
+   "contentHtml": "<p><a href=\"https://forum.exbo.net/d/196033-ostanavlivayuschee-deystvie/35\" class=\"PostMention\" data-id=\"4691643\">Med0</a> еще не ответили</p>"
+  }
+ },
+ "users": {
+  "630382": {
+   "username": "Simera",
+   "displayName": "Simera",
+   "joinedAt": null
+  },
+  "1028219": {
+   "username": "KolkaMaroder",
+   "displayName": "Колян_Сиплый",
+   "joinedAt": null
+  },
+  "1701441": {
+   "username": "stm:76561198156742774",
+   "displayName": "ZaZaZaika",
+   "joinedAt": null
+  },
+  "1710074": {
+   "username": "stm:76561198801297305",
+   "displayName": "Foxkisser",
+   "joinedAt": null
+  },
+  "1700493": {
+   "username": "stm:76561199701286693",
+   "displayName": "D_IV",
+   "joinedAt": null
+  },
+  "1041311": {
+   "username": "_Karapuzik_",
+   "displayName": "Карапузик",
+   "joinedAt": null
+  },
+  "1373653": {
+   "username": "DementiyRezak",
+   "displayName": "DementiyRezak",
+   "joinedAt": null
+  },
+  "1392078": {
+   "username": "_zybili_1",
+   "displayName": "_zybili_1",
+   "joinedAt": null
+  },
+  "17695": {
+   "username": "MiDaS",
+   "displayName": "MiDaS",
+   "joinedAt": null
+  },
+  "1700586": {
+   "username": "stm:76561198850553039",
+   "displayName": "n_slava",
+   "joinedAt": null
+  },
+  "559948": {
+   "username": "NewGrafon",
+   "displayName": "NewGrafon",
+   "joinedAt": null
+  },
+  "956294": {
+   "username": "Meduzich",
+   "displayName": "Meduzich",
+   "joinedAt": null
+  },
+  "1021092": {
+   "username": "ego_fanak",
+   "displayName": "ego_fanak",
+   "joinedAt": null
+  },
+  "1676086": {
+   "username": "Kolbasavyalaya",
+   "displayName": "Kolbasavyalaya",
+   "joinedAt": null
+  },
+  "1692644": {
+   "username": "Zavod4AN1N",
+   "displayName": "СерегаАвтосервис",
+   "joinedAt": null
+  },
+  "1685100": {
+   "username": "Sellfness",
+   "displayName": "Selfness",
+   "joinedAt": null
+  },
+  "1396845": {
+   "username": "quantumWebX",
+   "displayName": "quantumWebX",
+   "joinedAt": null
+  },
+  "1700819": {
+   "username": "stm:76561198093764424",
+   "displayName": "X1_",
+   "joinedAt": null
+  },
+  "1676401": {
+   "username": "Comyl",
+   "displayName": "Comyl",
+   "joinedAt": null
+  },
+  "1700520": {
+   "username": "stm:76561198180483361",
+   "displayName": "NoiseGork",
+   "joinedAt": null
+  },
+  "560125": {
+   "username": "DOOMKNIGHT",
+   "displayName": "DOOMKNIGHT",
+   "joinedAt": null
+  },
+  "1712966": {
+   "username": "Yanagi_fan",
+   "displayName": "Yanagi_fan",
+   "joinedAt": null
+  },
+  "922122": {
+   "username": "Ebaldar",
+   "displayName": "Ebaldar",
+   "joinedAt": null
+  },
+  "1700499": {
+   "username": "stm:76561198149959177",
+   "displayName": "STEAM_0194846724",
+   "joinedAt": null
+  },
+  "1700628": {
+   "username": "stm:76561199178712890",
+   "displayName": "ArturBoronecki",
+   "joinedAt": null
+  },
+  "1697552": {
+   "username": "ProZarR",
+   "displayName": "ProZarR",
+   "joinedAt": null
+  },
+  "1704471": {
+   "username": "stm:76561198120966204",
+   "displayName": "Saint444",
+   "joinedAt": null
+  },
+  "1595237": {
+   "username": "Neon_SD",
+   "displayName": "Neon_SD",
+   "joinedAt": null
+  },
+  "1700924": {
+   "username": "stm:76561199090033984",
+   "displayName": "БорисБубликович",
+   "joinedAt": null
+  },
+  "1700946": {
+   "username": "stm:76561198025765718",
+   "displayName": "Jencent",
+   "joinedAt": null
+  },
+  "1701180": {
+   "username": "stm:76561199079956018",
+   "displayName": "tплюсТет",
+   "joinedAt": null
+  },
+  "1700685": {
+   "username": "stm:76561198106874052",
+   "displayName": "Мелкоастец",
+   "joinedAt": null
+  },
+  "236340": {
+   "username": "Pledik",
+   "displayName": "Finria1l",
+   "joinedAt": null
+  },
+  "1701314": {
+   "username": "stm:76561199221732736",
+   "displayName": "qwerqrwe",
+   "joinedAt": null
+  },
+  "1703316": {
+   "username": "stm:76561198015503965",
+   "displayName": "Med0",
+   "joinedAt": null
+  },
+  "564978": {
+   "username": "Amantia",
+   "displayName": "Jeffrey_E",
+   "joinedAt": null
+  }
+ },
+ "missing": [
+  13
+ ],
+ "range": [
+  1,
+  36
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "video": "SNATERPaAbM",
+ "title": "Новый Ивент! Арена Митрополита и Мир в Сосании | STALZONE",
+ "channel": "STALZONE | RUS (@stalzone_rus)",
+ "channel_id": "UCrUwKTGY6wTghmcvzgmRJ2w",
+ "published": "2026-10-28T12:03:20+00:00",
+ "youtube_url": "https://www.youtube.com/watch?v=SNATERPaAbM",
+ "mega_source": "https://mega.nz/file/Lh5x1BbI#tLCbpEdcWK8mdcnDFw6ADqd4fvLCGGpeQuMsgYawxEM (залил автор, свой способ)",
+ "sha256": "a910d445b548710cce23ef622b2f812fd1482bb0dad329cebcc2ee730f977cf9",
+ "duration_s": 420.97,
+ "resolution": "1280x720 h264+aac",
+ "size_bytes": 134831980,
+ "ts_analyzed": "2026-10-28T12:5x UTC",
+ "method": "ASR (15×29s chunks) + vision на 4 контактных листах 3x3 (кадр/12с) + хоррор-финал покадрово",
+ "evidence": [
+  "yt_video_SNATERPaAbM_transcript.txt",
+  "yt_video_SNATERPaAbM_vu_sheets.txt",
+  "yt_frame_0424_win.jpg",
+  "yt_frame_0536_horror.jpg",
+  "yt_frame_0612_horror.jpg"
+ ]
+}

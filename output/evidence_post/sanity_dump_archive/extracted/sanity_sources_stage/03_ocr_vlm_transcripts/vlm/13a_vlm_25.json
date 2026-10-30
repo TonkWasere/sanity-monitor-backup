@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "LR-300 () +15\nПерсональный при использовании:\nРанг: Мастер\nКласс: Автомат\nТТХ: []\nВес: 3,05 кг\nПрочность: 89,57%\nМакс. прочность: 100%",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790767436,
+  "id": "2026093019235584899d64699c453b",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "2026093019235584899d64699c453b",
+  "usage": {
+    "completion_tokens": 60,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 124,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 184
+  }
+}

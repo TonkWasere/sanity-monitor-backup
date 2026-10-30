@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "https://mega.nz/file/awBVlLTQ#qb10TOSKrMZG-A9pUTpufSY8O7ivQt00MgviodIseOc\n\n**Handle (8 символов):**\na w B V l L T Q\n\n**Ключ:**\nq b 1 0 T O S K r M Z G - A 9 p U T p u f S Y 8 O 7 i v Q t 0 0 M g v i o d I s e O c",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1792703096,
+  "id": "20261023050452762382ce12004eb4",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261023050452762382ce12004eb4",
+  "usage": {
+    "completion_tokens": 113,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 3757,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3870
+  }
+}

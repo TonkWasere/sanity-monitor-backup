@@ -1,0 +1,9 @@
+# CDN-бекап медиа ТГК stalzone/3195 «🚧 Технические работы» (13.10 2026 16:00:09 UTC)
+# Скачано TS 20261013_2015 (~23:16 МСК) из свежего снапа t.me/s/stalzone — правило №20.1 (telesco.pe-окно в минутах)
+# Канон-формат sha256sum -c; URL-привязка в комментариях (вещдочная цепочка: байты -> SHA256 -> CDN-URL -> пост/время)
+# m1 = tg_stalzone_3195_m1_tehworks_20261013_2015.jpg — JPEG 160x160, 12504 Б (мини-превью)
+#   URL m1: https://cdn4.telesco.pe/file/hVW0rAAMmQSNAfrJw1feJtRb7KRGQF1rRVH7aZWQ0Vscw52oo9wwy9E7TOU34TdWyjdoFcUHUtJVorenAvA4A7Sck1v0ZOBrStxAdyYPioEhnn8QCuxsQYYCbcRkMzAeKAVJvesnFOuKtexnnJVKW0zxDxGoiqqMoar6vdnsVrp0NYqJpvPdCG4kHD-xRT_EE2YTigL5_ksZb7lLD3C_CFipT_icDGA1mqLNGsvmW56kUHGq3P8IB1DGn12tglrg1Tm9nw-m37509jwMoMSuDeIBGdS0TGMfMVFU7f4OzURSGj__H0_c3bCYhuIfjzXDIiVcVc78FQZ649b1BgMTwA.jpg
+# m2 = tg_stalzone_3195_m2_tehworks_20261013_2015.jpg — JPEG 800x450, 71552 Б (баннер техработ)
+#   URL m2: https://cdn4.telesco.pe/file/X7e_XJCguF3ZGNFlrKyGlXMFsNSsYVTUjQevUuvqaIFGWc666y9fPxYKElA6pSN7A92rhcHbbWBLZqBnX2ydJTrV6EsJQ0I7Vwksc2g1E4mvmJj8uyMo4Fzn7HVEMnePARbTWQB4movPtKw771AfCDWI3OK_pOan7Ac0yxhpWTUE4xGpA9dRTDoknMRAyhPGCJbbmHg76PgqOBCuCOxHRO3cNf_hLMnGw5P1tRvHk6s3y29ReDHwLFCj0ZAuZEoaXe3fQ5htn48Vzo_WvrnJ1uJGOxrzH5QRPehjhs48P-tBHOdWwpTkA0PB25LedHK3iYoHYa-h0C6x3bSsylMvUw.jpg
+8f0586e6b526e58f1b82412692efaf416f038bfdd292a9a4ca5e6655dfd1c515  tg_stalzone_3195_m1_tehworks_20261013_2015.jpg
+de4c105af063c073fdb51a528761b00d8032650bf2a4ca183b1785f8dfad58c2  tg_stalzone_3195_m2_tehworks_20261013_2015.jpg

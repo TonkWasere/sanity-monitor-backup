@@ -1,0 +1,2002 @@
+     1→# Патчноут [28.10.2026] — тексты всех источников (задача автора, 2026-10-28 09:53 UTC)
+     2→
+     3→> Контекст: патчноут опубликован официально 28.10.2026 09:10 UTC (ТГК 09:10:21, Steam 09:10:42,
+     4→> VK-статья ~09:10-09:11); форумный тред **197149 «🗒️ Патчноут [28.10.2026]»** создан 07:21:11 (скрытым),
+     5→> стал видим 09:10; форум лёг на техработы ~09:12-09:38 (даунтайм 26 мин), техработы 8:30-13:00 МСК
+     6→> (расширены до ~12:00 UTC — «Продление техработ» 197159 в 09:09).
+     7→> Подозрение автора подтверждается частично: даунтайм совпал с публикацией патчноута (пик нагрузки).
+     8→
+     9→## 0. Источники и тайминги
+    10→
+    11→| Источник | Время (UTC) | Полнота | Статус извлечения |
+    12→|---|---|---|---|
+    13→| Форум 197149 post#1 | createdAt 07:21:11 (виден с 09:10) | ПОЛНЫЙ (RU, 28 033 симв. HTML) | ✅ извлечён |
+    14→| Steam новость (view 719046160957833527) | 09:10:42 | ПОЛНАЯ (EN, 28 818 BBCode) | ✅ извлечена (ISteamNews API gid 1847920302230198) |
+    15→| Steam RU | 09:10:42 | только тизер 368 симв. (meta) | ⚠️ AJAX-тело закрыто; RU-версия ≈ форумный текст |
+    16→| ТГК stalzone #3251 | 09:10:21 | краткое оглавление + интро | ✅ извлечён (views 12.7K за 24 мин) |
+    17→| VK-статья @stalzone-patchnout-28102026-ergsekrnv | ~09:10 | ПОЛНАЯ (RU, 23 049 симв.) | ✅ извлечена через m.vk.com (SSR); vk.ru отдаёт антибот-шелл; **16 797 views / 33 shares на 10:00** |
+    18→| Бонус: Steam «maintenance completed» пост | ~09:45 | промокод **SZ-FESTIVITY-2026** (до декабря, 1 раз/аккаунт) | ✅ захвачен |
+    19→
+    20→## 1. Форум 197149 post#1 — полный текст (RU, первоисточник)
+    21→
+    22→```text
+    23→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172066-282314-patc.png]
+    24→
+    25→## Содержание
+    26→
+    27→- «Празднество»
+    28→
+    29→- Оформление безопасных зон
+    30→
+    31→- Новые сезонные задания
+    32→
+    33→- Правки экономики
+    34→
+    35→- Витрина достижений
+    36→
+    37→- Интерфейс и управление
+    38→
+    39→- Правки баланса
+    40→
+    41→- Прочее
+    42→
+    43→# «Празднество»
+    44→
+    45→«Празднество» — это PvPvE-событие, где команде из пяти игроков предстоит защищать свою Реликвию от волн мутантов и зомбированных, сражаться с боссами и противостоять другой команде. Участники начинают матч без снаряжения и прокачиваются прямо по ходу игры, приобретая и улучшая экипировку.
+    46→
+    47→Доступ к «Празднеству» открывается со 2 уровня репутации Бара.
+    48→
+    49→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172228-116106-image.png]
+    50→
+    51→## Как играть?
+    52→
+    53→Основная цель команды — защитить Реликвию, расположенную в центре PvE-арены.
+    54→
+    55→Матч разделён на раунды, которые проходят в следующем порядке:
+    56→
+    57→- Три PvE-раунда, где вам предстоит сражаться с волнами мутантов и зомбированных. Максимальный урон, который может получить ваша Реликвия за один раунд — 15%.
+    58→
+    59→- Раунд с боссом. Каждый босс имеет свои уникальные способности, поэтому будьте внимательны!
+    60→
+    61→- PvP-раунд, где вы встретитесь с командой противников. Победит та команда, которая нанесёт больше урона Алтарю — строению в центре карты. Проигравшая сторона получит 10% урона по Реликвии.
+    62→
+    63→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172250-921178-image.png]
+    64→
+    65→Важная особенность PvP-арены — биозаражение на нижнем этаже локации.
+    66→
+    67→Только игроки в научной броне смогут находиться в области с биозаражением 4 уровня.
+    68→
+    69→Игроки в комбинированной броне смогут находиться только в области с биозаражением 2 и 3 уровня. Остальным придётся атаковать Алтарь с верхней позиции.
+    70→
+    71→Максимальное количество раундов в матче: 25.
+    72→
+    73→Начиная с 6 раунда в матче действуют модификаторы, которые меняются каждый раунд и усложняют вам жизнь.
+    74→
+    75→Начиная с 11 раунда одновременно действуют два модификатора.
+    76→
+    77→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172354-322084-image.png]
+    78→
+    79→Матч завершится, если:
+    80→
+    81→- Реликвия одной из команд будет полностью разрушена;
+    82→
+    83→- Игроки достигнут 25 раунда. В таком случае победит команда с наибольшей прочностью Реликвии;
+    84→
+    85→- Одна из сторон сдастся. Кнопка «Сдаться» доступна после 15 раунда. При её активации запускается голосование. Если все члены команды соглашаются, то команде засчитывается поражение.
+    86→
+    87→ Кнопку можно найти в левом нижнем углу при открытии статистики матча, нажатием клавиши «~».
+    88→
+    89→## Магазин и снаряжение
+    90→
+    91→Все игроки начинают матч с ножом, пистолетом и 100 монетами. Эта валюта называется «Явь» и используется в магазине для покупки брони, оружия и Оберегов, а также для улучшения и обновления магазина.
+    92→
+    93→Явь можно получить за прохождение раундов. Количество получаемых монет зависит от нескольких факторов:
+    94→
+    95→- В обычном PvE-раунде — от количества потерянной прочности Реликвии;
+    96→
+    97→- В раунде с боссом и PvP-раунде — от победы или поражения;
+    98→
+    99→- От количества оставшихся монет на руках в прошлом раунде.
+   100→
+   101→ 
+   102→ 
+   103→Чем больше Яви останется у вас перед началом следующего раунда, тем больше дополнительных монет вы получите. В конце раунда за каждые 10 монет на руках вы будете получать 1 дополнительную монету, но не более 30 монет.
+   104→
+   105→ Информацию о бонусных монетах можно увидеть, если навести курсор на значок Яви в инвентаре.
+   106→
+   107→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172395-43580-image.png]
+   108→
+   109→ 
+   110→Перед началом каждого раунда вам даётся время на подготовку и покупки в магазине. Магазин совмещён с вашим инвентарём. Открыть его можно клавишей «E».
+   111→
+   112→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172420-703977-image.png]
+   113→
+   114→На выбор доступны несколько веток брони и оружия. У каждого типа брони есть свои особенности:
+   115→
+   116→- Боевая броня — отлично подходит для сдерживания напора противников, не позволяет спускаться на нижний этаж PvP-арены и использует осколочные гранаты.
+   117→
+   118→- Комбинированная броня — справляется с биозаражением 2 и 3 уровня (при более высоких рангах брони) на части нижнего этажа PvP-арены и использует исцеляющие гранаты.
+   119→
+   120→- Научная броня — позволяет спускаться к Алтарю и выживать при биозаражении 4 уровня, а также использует гранату-щит, не пропускающую пули.
+   121→
+   122→### Улучшение снаряжения
+   123→
+   124→Чтобы собрать снаряжение более высокого ранга, необходимо купить три его части.
+   125→
+   126→Части, соответствующие вашему текущему снаряжению, подсвечиваются в магазине.
+   127→
+   128→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172445-904164-image.png]
+   129→
+   130→Все предметы в магазине ограничены по количеству и берутся из общего списка. Если вы покупаете одну из частей, она исчезает из общего списка, даже если вы впоследствии продадите её.
+   131→
+   132→Части снаряжения также можно использовать для улучшения брони или оружия на +5 и +10. Для этого купите нужную часть и нажмите Shift + ЛКМ или перетащите её из инвентаря в окно экипировки.
+   133→
+   134→После покупки третьей части снаряжение автоматически повысится до следующего ранга.
+   135→
+   136→Помните, что повышать ранг снаряжения можно только в правильном порядке — от Отмычки или Новичка до Мастера. Сразу улучшить броню или оружие ранга Новичок до ранга Мастер, пропустив ранг Сталкера и Ветерана, не получится!
+   137→
+   138→Максимальный доступный ранг брони и основного оружия — Мастер.
+   139→
+   140→Максимальный доступный ранг вторичного оружия — Легендарный.
+   141→
+   142→Если в магазине нет нужных предметов, его можно обновить за 10 Яви.
+   143→
+   144→Если нужный предмет появился в магазине, но вы пока не можете его купить, заблокируйте магазин, нажав на иконку замка в правом верхнем углу. В этом случае текущий набор предметов сохранится и будет перенесён в следующий раунд.
+   145→
+   146→### Улучшение магазина
+   147→
+   148→Явь можно тратить не только на снаряжение, но и на повышение уровня магазина. Чем выше его уровень, тем выше шанс найти части экипировки более высокого ранга и тем больше Оберегов можно надеть.
+   149→
+   150→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172474-916846-image.png]
+   151→
+   152→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172486-135474-image.png]
+   153→
+   154→### Обереги
+   155→
+   156→Обереги — это артефакты с особыми характеристиками, которые можно купить в магазине.
+   157→
+   158→Каждый Оберег относится к одному из сетов: Шнырь, Бестия, Упырь, Крыса или Мультисет.
+   159→
+   160→Сет состоит из трёх разных артефактов и даёт дополнительные бонусы.
+   161→
+   162→Подробнее об эффектах каждого сета можно узнать в специальных вкладках инвентаря.
+   163→
+   164→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172509-535549-image.png]
+   165→
+   166→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172522-10780-image.png]
+   167→
+   168→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172532-855476-image.png]
+   169→
+   170→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172547-352967-image.png]
+   171→
+   172→Важно! Сет работает только с разными артефактами из одного набора. Если купить два абсолютно одинаковых Оберега, дополнительный эффект от сета не активируется.
+   173→
+   174→Мультисет — это особый Оберег «Ять», который может работать с любым другим сетом.
+   175→
+   176→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172570-598584-image.png]
+   177→
+   178→Обереги можно улучшить до +15. Для этого нужно найти и купить ещё один идентичный Оберег и объединить его с первым.
+   179→
+   180→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172584-254527-image.png]
+   181→
+   182→## Награды
+   183→
+   184→В конце матча вы получите рубли и Хризменники — валюту события.
+   185→
+   186→Хризменники можно потратить в магазине события на различные награды, включая:
+   187→
+   188→- Увеличенный магазин 5.45;
+   189→
+   190→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172611-447706-image.png]
+   191→
+   192→- Охотничий нож «Атам»;
+   193→
+   194→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172624-256303-image.png]
+   195→
+   196→- Облики «Миро», «Гибельный звон», «Багряный»;
+   197→
+   198→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172637-831235-image.png]
+   199→
+   200→- Декорации для убежища;
+   201→
+   202→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172654-450699-image.png]
+   203→
+   204→- Кейс события «Утварь»;
+   205→
+   206→Магазин, нож, декор и облики можно при желании продать Дзену за валюту события.
+   207→
+   208→- Различные расходники.
+   209→
+   210→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172669-799735-image.png]
+   211→
+   212→## Прогрессия
+   213→
+   214→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172681-49517-image.png]
+   215→
+   216→Режим с прогрессией откроется 4 ноября после технических работ и будет активен до конца события — 18 ноября.
+   217→
+   218→Режим с прогрессией будет доступен с 10:00 (МСК) по 00:00 (МСК).
+   219→
+   220→Прогрессия состоит из лиг. До лиги «Прозрение» вы будете получать очки как за победы, так и за поражения, но за проигрыш — меньше.
+   221→
+   222→В пяти первых лигах награды можно получить сразу после перехода из одной лиги в другую.
+   223→
+   224→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172845-798412-image.png]
+   225→
+   226→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172853-241004-image.png]
+   227→
+   228→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172865-498863-image.png]
+   229→
+   230→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172877-632153-image.png]
+   231→
+   232→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172932-276400-image.png]
+   233→
+   234→Кроме наград за достижение лиг вы также будете получать дополнительные Хризменники за определённое количество очков.
+   235→
+   236→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172953-23266-image.png]
+   237→
+   238→В лигах «Прозрение» и «Избавление» очки за поражение будут сниматься. Награды за нахождение в этих лигах выдаются только после окончания события.
+   239→
+   240→В лигу «Прозрение» войдёт только 10% от игроков, достигших пятой лиги, а в лигу «Избавление» — 250 игроков с наибольшим количеством очков.
+   241→
+   242→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172965-496632-image.png]
+   243→
+   244→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172974-574989-image.png]
+   245→
+   246→Кейс с персональными обликами прошлых Арен — одна из наград в лигах «Прозрение» и «Избавление».
+   247→
+   248→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793172984-864977-image.png]
+   249→
+   250→Награду в кейсе можно заменить до восьми раз. Стоимость одной замены — 5 млн. рублей. Дубликаты предметов выпадать не будут, таким образом вы точно сможете получить любой желаемый облик.
+   251→
+   252→## Жетоны
+   253→
+   254→Жетоны двойной прогрессии позволят быстрее продвигаться по лигам. Их можно приобрести в магазине или получить из кейсов события «Утварь».
+   255→
+   256→Но в лигах «Прозрение» и «Избавление» использовать их стоит с умом: вместе с возможной наградой возрастает и риск потерять больше очков!
+   257→
+   258→Всего за матч можно использовать до трёх жетонов. В зависимости от их количества применяется следующий множитель к получаемым очкам:
+   259→
+   260→- 1 жетон — ×2;
+   261→
+   262→- 2 жетона — ×2,6;
+   263→
+   264→- 3 жетона — ×3.
+   265→
+   266→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793173002-273335-image.png]
+   267→
+   268→В «Празднестве» жетоны будут действовать только в рамках события, а по его завершении конвертируются в обменные монеты. Это поможет сохранить честную конкуренцию и баланс каждого режима.
+   269→
+   270→## Испытания
+   271→
+   272→Испытания события «Празднество» были добавлены в Сезонный Пропуск.
+   273→
+   274→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793173012-629905-image.png]
+   275→
+   276→Ещё больше испытаний и наград можно найти в специальной вкладке события.
+   277→
+   278→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793173023-930850-image.png]
+   279→
+   280→## Проводите выходные на «Празднестве»!
+   281→
+   282→С 7 ноября, 05:00 (МСК) по 9 ноября, 05:00 (МСК), а также с 14 ноября, 05:00 (МСК) по 16 ноября, 05:00 (МСК) матчи будут приносить на 30% больше рублей и Хризменников.
+   283→
+   284→Не упустите момент, когда Зона милостива и вознаграждает за страдание.
+   285→
+   286→# Оформление безопасных зон
+   287→
+   288→Обитатели безопасных зон начали украшать привычные запустелые углы своими особыми методами… Заходите поглазеть!
+   289→
+   290→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793173052-814484-image.png]
+   291→
+   292→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793173056-791929-image.png]
+   293→
+   294→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793173065-844758-image.png]
+   295→
+   296→# Новые сезонные задания
+   297→
+   298→Задания сезона «тульпа!»
+   299→
+   300→Этой осенью Зона впервые столкнулась с первобытным ужасом. Каждая группировка идёт собственным путём в надежде справиться с ним: кто-то ищет спасения в науке, а кто-то — в ритуалах. Задания «Пламя и пепел», «Спаси и сохрани», «Две тысячи ярдов» и «Deus ex machina» расскажут о том, как далеко готовы зайти люди, чтобы не остаться один на один с собственными страхами.
+   301→
+   302→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793176091-130022-image.png]
+   303→
+   304→Задание «Ударная волна», часть 2
+   305→
+   306→Рысь наконец-то нашёл, где прячется Клемма. А значит, план Лива по стравливанию Чёрного Рынка и «Тайфуна» получил продолжение. Кто выйдет победителем из этой опасной игры?
+   307→
+   308→# Правки экономики
+   309→
+   310→## Рандомизация наград за зачистку событий
+   311→
+   312→Ранее мы сообщали, что мы обновим систему рандомизации итоговых наград за зачистку событий.
+   313→
+   314→Текущая система устарела и иногда приводит к ситуациям, когда за сложное событие вы получаете неоправданно мало. После обновления вы всегда будете получать 100% базовой награды, а с некоторым шансом — увеличенную.
+   315→
+   316→## Сравнение наград
+   317→
+   318→Важно учитывать, что в данном сравнении представлены минимальные награды, которые можно получить с разными системами рандомизации (старой и новой).
+   319→
+   320→Если оценивать продолжительный фарм, то вы заметите, что получаемый доход, если и увеличился, то ненамного. 
+   321→
+   322→Основная задача обновлённой системы — решить проблему несправедливой награды. 
+   323→
+   324→Например, когда:
+   325→
+   326→- За сложное и большое событие вы получали неоправданно мало;
+   327→
+   328→- За легкое событие вы получали неоправданно много.
+   329→
+   330→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793175156-947738-image.png]
+   331→
+   332→## Прочее
+   333→
+   334→- Изменён лимит продажи предмета «Компоненты детекторов» у Арсена: 165 → 170.
+   335→
+   336→# Витрина достижений
+   337→
+   338→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793173155-989708-image.png]
+   339→
+   340→Правый блок в профиле изменён и теперь называется «Витрина достижений». Вся настройка закреплённой статистики и достижений перенесена в кастомизацию профиля, в новую вкладку между визиткой и музыкой.
+   341→
+   342→Внутри «Статистики и достижений» остаются только просмотр и управление приватностью для других игроков. Сама настройка витрины стала гибкой: вы можете настроить каждую строку отдельно и менять их местами в любом порядке.
+   343→
+   344→Добавлена возможность закреплять предметы в витрине достижений. В строке может быть два пункта статистики, одно достижение или три предмета. Менять количество элементов внутри строки нельзя: например, сделать два или четыре предмета вместо трёх. Закреплять можно только персональные предметы. В список подтягиваются предметы из инвентаря и персонального склада, если вы находитесь в безопасной зоне.
+   345→
+   346→# Интерфейс и управление
+   347→
+   348→- Меню взаимодействия с игроками: теперь появляющееся меню не блокирует управление и не перехватывает курсор мыши. Вы по-прежнему можете двигаться и стрелять. Для выбора действия необходимо использовать указанные на кнопках горячие клавиши.
+   349→
+   350→- Магазин: при клике ЛКМ по предметам в разделе «Подходит для» на странице облика или мотива 3D-модель меняется и показывает выбранный предмет с экипированным мотивом или обликом. Также исправлены мелкие недочёты взаимодействия с ячейками предметов в наборах.
+   351→
+   352→- Сезонный пропуск: при повышении уровня теперь показывается уведомление. Обновлены значки и подсказки на наградах.
+   353→
+   354→- Журнал заданий: добавлена возможность закрепления рецептов обмена.
+   355→
+   356→- HUD: добавлена подсветка событий, необходимых для выполнения активных квестов.
+   357→
+   358→- Убежище: если для открытия объекта нужен другой объект, подсказка теперь указывает, какой именно.
+   359→
+   360→- Осмотр оружия: вынесен на отдельную клавишу в настройках.
+   361→
+   362→## Правки карты
+   363→
+   364→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793173256-970854-image.png]
+   365→
+   366→- Карта теперь соответствует палитре текущего сезона.
+   367→
+   368→- Исправлены мелкие баги в отображении карты.
+   369→
+   370→- Объекты в мире теперь отображаются и на карте.
+   371→
+   372→# Благодать Празднества
+   373→
+   374→У Зоны свои представления о праздниках. Вместо открыток — содержимое тайников, вместо праздничного стола — припасы на чёрный день. Но разве сталкер не заслужил немного благодати?
+   375→
+   376→«Благодать Празднества» уже доступна во внутриигровом магазине! Ивентовая валюта, кейсы, сезонные ящики, уровни и Перегрузки — всё для встречи Празднества во всеоружии.
+   377→
+   378→А для тех, кому благословения мало — скидки до 75% на первые шесть покупок.
+   379→
+   380→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793173264-798367-image.png]
+   381→
+   382→# Справочник
+   383→
+   384→- Добавлены статьи о сейфах, лутинге, игровом чате, арсенале, обмене с игроками и использовании обвесов.
+   385→
+   386→- Дополнены и переведены статьи о заражениях, торговцах базы, битвах подразделений, аномалиях и побочных эффектах.
+   387→
+   388→- Добавлен раздел «Взаимодействие и коммуникация». В него входят статьи: «Игровой чат», «Отряд», «Обмен с игроком» и «Подразделение».
+   389→
+   390→- Улучшено форматирование статей для более удобного чтения.
+   391→
+   392→# Правки баланса
+   393→
+   394→### Штурмовые винтовки
+   395→
+   396→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793175310-590041-image.png]
+   397→
+   398→### Пулемёты
+   399→
+   400→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793175326-260511-image.png]
+   401→
+   402→### Снайперские винтовки
+   403→
+   404→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793175343-5046-image.png]
+   405→
+   406→### Пистолеты-пулемёты
+   407→
+   408→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793175353-903349-image.png]
+   409→
+   410→### Пистолеты
+   411→
+   412→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793175365-674598-image.png]
+   413→
+   414→### Дробовики
+   415→
+   416→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793175374-348284-image.png]
+   417→
+   418→### Обвесы
+   419→
+   420→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793175383-100254-image.png]
+   421→
+   422→### Броня
+   423→
+   424→[IMG: https://forum-cdn.exbo.net//2026-10-28/1793175391-121429-image.png]
+   425→
+   426→# Прочее
+   427→
+   428→- Доработана квестовая цепочка на старте игры.
+   429→
+   430→- Изменено звуковое оформление ЧАЭС: добавлены звуки окружения и новая музыка.
+   431→
+   432→- Инъекторы теперь открываются по мере прохождения обучения и доступны к покупке у торговца на всех безопасных зонах.
+   433→
+   434→- Исправлена отправка личных сообщений игрокам с ником, в котором присутствует большое количество подчёркиваний подряд.
+   435→
+   436→- Добавлены звуковые эффекты при заточке брони и оружия.
+   437→
+   438→- Скорректировано положение сумки «Тюк» на спине: теперь она расположена немного выше.
+   439→
+   440→- Исправлены задачи на убийство с требованием конкретного оружия.
+   441→
+   442→- Исправлена ошибка, при которой персонаж мог застревать при залезании на препятствие, что приводило к его замедлению и некорректной регистрации урона.
+   443→
+   444→- Исправлены вылеты на драйверах AMD новее версии 26.8.1.
+   445→
+   446→- Исправлена ошибка, из-за которой в некоторых случаях не применялся штраф к разбросу при прыжках.
+   447→
+   448→- Исправлено некорректное обновление внешнего вида предметов в радиальном меню при их замене или заточке.
+   449→
+   450→- Обновлены модель и анимации РШ-12, текстуры его мотивов, а также скорректирован визуал патронов в обликах.
+   451→
+   452→- Бонус фракции к цене продажи теперь действует и у скупщика в Пьяном Гейгере. 
+   453→
+   454→- Исправлено отсутствие Близнецов в сигнальном данже. 
+   455→
+   456→- Исправлен вылет игры при открытии ключницы во время обмена с игроком.
+   457→```
+   458→
+   459→## 2. Steam — полный текст (EN)
+   460→
+   461→```text
+   462→[IMG: {STEAM_CLAN_IMAGE}/41581512/1fcaba130feaaede2266ee774d65aae455b18708.png]
+   463→
+   464→# Festivity
+   465→
+   466→Festivity is a PvPvE event in which a team of five players must defend their Relic from waves of mutants and zombies, fight bosses, and face off against another team. Everyone starts the match with no gear and levels up as they go, buying and upgrading equipment along the way.
+   467→
+   468→The event is available to players who have reached Bar reputation level 2.
+   469→
+   470→[IMG: {STEAM_CLAN_IMAGE}/41581512/eaadc1a6be8a65f43b207dda85c9ad4f82e392ca.png]
+   471→
+   472→## How to play?
+   473→
+   474→The team's main objective is to defend the Relic, which stands in the center of the PvE Arena.
+   475→
+   476→A match is divided into rounds that play out in the following order:
+   477→
+   478→- 
+   479→3 PvE rounds, in which you fight waves of mutants and zombies. The maximum damage your Relic can take during one round is 15%.
+   480→[/*]- 
+   481→A boss round. Every boss has unique abilities, so stay alert!
+   482→[/*]- 
+   483→A PvP round, in which you face the opposing team. The team that deals more damage to the Altar, the structure in the center of the map, wins. The losing side's Relic takes 10% damage.
+   484→
+   485→[IMG: {STEAM_CLAN_IMAGE}/41581512/7275a238ba39bc96efd96dff6ddcb81490594e10.png]
+   486→
+   487→[/*]
+   488→
+   489→An important feature of the PvP arena is bioinfection on the lower floor of the location. Only players in Scientist armor can stay in areas with level 4 bioinfection. Players in Combo armor can only stay in areas with level 2 and 3 bioinfection. Everyone else will have to attack the Altar from the upper position.
+   490→
+   491→The maximum number of rounds in a match is **25**.
+   492→
+   493→From round 6 onward, modifiers are active in the match. They change every round and make your life harder.
+   494→From round 11 onward, two modifiers are active at the same time.
+   495→
+   496→[IMG: {STEAM_CLAN_IMAGE}/41581512/384a74045d1deca42d254847b20e4a48f9c7728e.png]
+   497→The match ends if:
+   498→
+   499→- 
+   500→One team's Relic is completely destroyed;
+   501→[/*]- 
+   502→The players reach round 25. In that case, the team whose Relic has more durability remaining wins;
+   503→[/*]- 
+   504→One of the teams surrenders. Surrender button becomes available after round 15. Activating it starts a vote. If all team members agree, the team is defeated.
+   505→The button can be found in the bottom left corner when you open the match statistics with ~ key.
+   506→[/*]
+   507→
+   508→## Shop and gear
+   509→
+   510→All players start the match with a knife, a pistol, and 100 coins. This currency is called Yav. It's used in the shop to buy armor, weapons, and Amulets, as well as to upgrade and refresh the shop.
+   511→
+   512→Yav is earned by completing rounds. The amount you receive depends on several factors:
+   513→
+   514→- 
+   515→In a regular PvE round: how much Relic durability was lost;
+   516→[/*]- 
+   517→In a boss round and in a PvP round: whether you win or lose;
+   518→[/*]- 
+   519→How many coins you have from the previous round. 
+   520→
+   521→The more Yav you have before the next round starts, the more bonus coins you'll get. For every 10 coins in hand at the end of a round, you receive +1 coin, up to a maximum of 30 coins.
+   522→You can see the bonus coin details by hovering over the Yav icon in your inventory.
+   523→
+   524→[IMG: {STEAM_CLAN_IMAGE}/41581512/9ce83486428a9514884aaf8f2e0f3d1c3cf70277.png]
+   525→
+   526→[/*]
+   527→
+   528→Before each round, you get time to prepare and shop. The shop is built into your inventory. You can open it with the E key.
+   529→
+   530→[IMG: {STEAM_CLAN_IMAGE}/41581512/12b09c8d4733dae143305cb9d66a9084ebae240a.png]
+   531→
+   532→Several armor and weapon branches are available. Each armor type has its own characteristics:
+   533→
+   534→- 
+   535→Combat armor is great for holding back enemy attacks, but prevents you from going down to the lower level of the PvP arena. It uses fragmentation grenades.
+   536→[/*]- 
+   537→Combo armor can withstand level 2 and 3 bioinfection (at higher armor ranks) in parts of the lower level of the PvP arena. It uses healing grenades.
+   538→[/*]- 
+   539→Scientist armor allows you to go down to the Altar and survive level 4 bioinfection. It also uses a shield grenade that blocks bullets.
+   540→[/*]
+   541→
+   542→### Gear upgrade
+   543→
+   544→To assemble higher rank gear, you need to purchase three of its blueprints.
+   545→
+   546→Blueprints matching your current gear are highlighted in the shop.
+   547→
+   548→[IMG: {STEAM_CLAN_IMAGE}/41581512/f6eac306f56586ffa0c8e1f2067ccbcd231834bc.png]
+   549→All items in the shop are limited in quantity and are drawn from a shared pool. If you purchase one of the blueprints, it disappears from the shared pool, even if you sell it later.
+   550→
+   551→Gear blueprints can also be used to upgrade armor or weapons to +5 and +10. To do this, purchase the required blueprint, then press Shift + LMB or drag it from your inventory into the equipment window.
+   552→
+   553→After purchasing the third blueprint, the gear will automatically upgrade to the next rank.
+   554→
+   555→Keep in mind that gear can only be upgraded in the correct order — from Picklock or Newbie to Master. You cannot upgrade Newbie armor or weapons straight to Master rank, skipping the Stalker and Veteran ranks!
+   556→
+   557→- 
+   558→The maximum available rank for armor and primary weapons is Master.
+   559→[/*]- 
+   560→The maximum available rank for secondary weapons is Legendary.
+   561→[/*]
+   562→
+   563→If there is no items you need in the shop, you can refresh it for 10 Yav.
+   564→
+   565→If the item you need appears in the shop but you can’t afford it yet, lock the shop by clicking the lock icon in the upper-right corner. In this case, the current set of items will be saved and carried over to the next round.
+   566→
+   567→### Shop upgrade
+   568→
+   569→Yav can be spent not only on gear, but also on increasing the shop’s level. The higher its level, the higher the chance of finding higher-rank gear blueprints and the more Amulets you can equip.
+   570→[IMG: {STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png]
+   571→
+   572→[IMG: {STEAM_CLAN_IMAGE}/41581512/c8208a2cf1d6468880b4b57c11bf4aaf6d668935.png]
+   573→
+   574→[IMG: {STEAM_CLAN_IMAGE}/41581512/890062afef04ea2a1a1e3474ccf0bbb3fa24b40a.png]
+   575→
+   576→### Amulets
+   577→
+   578→Amulets — are artifacts with special stats that can be purchased in the shop.
+   579→
+   580→Each Amulets belongs to one of the following sets: Skitter, Fiend, Ghoul, Rat, or Multiset.
+   581→
+   582→A set consists of three different artifacts and provides additional bonuses.
+   583→
+   584→You can learn more about each set’s effects in the dedicated inventory tabs.
+   585→[IMG: {STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png]
+   586→
+   587→[IMG: {STEAM_CLAN_IMAGE}/41581512/6243f04c6535e9f1c7af1cc1555a546a0d1fdc61.png]
+   588→
+   589→[IMG: {STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png]
+   590→
+   591→[IMG: {STEAM_CLAN_IMAGE}/41581512/31139d19ead854973672dc4a41ffb45d236756f2.png]
+   592→
+   593→[IMG: {STEAM_CLAN_IMAGE}/41581512/cd689d5e3f1e1b0f348c1ed2580440fc62ba6793.png]
+   594→
+   595→[IMG: {STEAM_CLAN_IMAGE}/41581512/720046a6420b45290d5158ace74221f88d1f8601.png]
+   596→
+   597→**Note!** A set only works with **different** artifacts from the same collection. If you buy two completely **identical** Amulets, the set's additional effect will not activate.
+   598→
+   599→Multiset is a special Eti Amulet, that can work with any other set.
+   600→[IMG: {STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png]
+   601→
+   602→[IMG: {STEAM_CLAN_IMAGE}/41581512/882d46bbfeee0fa7ddf24d69b80d727b4a9d5b8f.png]
+   603→
+   604→Amulets can be upgraded up to **+15**. To do this, find and buy another identical Amulet and combine it with the first one.
+   605→
+   606→[IMG: {STEAM_CLAN_IMAGE}/41581512/05991f2810ad1a7c9558d263ef6a111a7ba5692b.png]
+   607→
+   608→## Rewards
+   609→
+   610→At the end of a match, you'll receive rubles and Chrismites, the event currency.
+   611→
+   612→Chrismites can be spent in the event shop on various rewards, including: 
+   613→
+   614→- 
+   615→5.45 Extended Magazine;
+   616→[/*]
+   617→
+   618→[IMG: {STEAM_CLAN_IMAGE}/41581512/5aab02cf296e1f77a3d36d609dba0ff78c6dd171.png]
+   619→
+   620→- 
+   621→Athame hunter's knife;
+   622→[/*]
+   623→
+   624→[IMG: {STEAM_CLAN_IMAGE}/41581512/f98ab947c10d06c37b7a881406208d460520722f.png]
+   625→
+   626→[previewyoutube="BMAaGJ5Oab4;full"][/previewyoutube]
+   627→- 
+   628→Myron, Death Knell, Crimson styles;
+   629→[/*]
+   630→
+   631→[IMG: {STEAM_CLAN_IMAGE}/41581512/2a92267d5b2eabdb915c24b5316493ea45d24e01.png]
+   632→
+   633→- 
+   634→Hideout decorations;
+   635→[/*]
+   636→
+   637→[IMG: {STEAM_CLAN_IMAGE}/41581512/77efeb0e502aaa671fe12a97a162b129f479d9c0.png]
+   638→
+   639→- 
+   640→Implements event case;
+   641→[/*]
+   642→
+   643→[IMG: {STEAM_CLAN_IMAGE}/41581512/966350e30a2572ff280e331fb3b543443dc296d8.png]
+   644→
+   645→ Magazine, knife, decor and styles can be sold to Zen for event currency.
+   646→
+   647→- 
+   648→Various consumables.
+   649→[/*]
+   650→
+   651→[IMG: {STEAM_CLAN_IMAGE}/41581512/398b314303a97e83093800aaff904c29fb83022f.png]
+   652→
+   653→## Progression[img src="{STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png"]
+   654→
+   655→[IMG: {STEAM_CLAN_IMAGE}/41581512/8b481260ff6bf9210a6ac23271c52c5b7ed1f759.png]
+   656→
+   657→Access to the progression mode will open on **November 4** after maintenance, and it will remain active until the end of the event on November 18. 
+   658→
+   659→Progression mode will be available from 10:00 **(server time)** to 00:00 **(server time)**.
+   660→
+   661→Progression consists of leagues. Up to the Epiphany league, you'll earn points for both wins and losses, but fewer for a loss.
+   662→
+   663→Rewards can be claimed immediately after you move from one league to the next. 
+   664→[IMG: {STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png]
+   665→
+   666→[carousel]
+   667→[IMG: {STEAM_CLAN_IMAGE}/41581512/03b7e688710e0f0293840847b8810aea1a63f668.png]
+   668→
+   669→[IMG: {STEAM_CLAN_IMAGE}/41581512/c1c6994f97d7f907e2cf89a0d7d5e7cf36dbb079.png]
+   670→
+   671→[IMG: {STEAM_CLAN_IMAGE}/41581512/66525e12a800234bb48b9e50286621df2a315d03.png]
+   672→
+   673→[IMG: {STEAM_CLAN_IMAGE}/41581512/9d887572f7ed388f3d3ab300ecdd928864c55b0e.png]
+   674→
+   675→[IMG: {STEAM_CLAN_IMAGE}/41581512/74be5fb16b37e9a9be96a379c16cede4fd1c30ec.png]
+   676→[/carousel]
+   677→
+   678→[IMG: {STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png]
+   679→
+   680→[IMG: {STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png]
+   681→In addition to rewards for reaching new leagues, you’ll also receive extra Chrismites for reaching certain milestones.
+   682→
+   683→[IMG: {STEAM_CLAN_IMAGE}/41581512/9c28bcbbe8ca6f894a40e08117babd7244942fef.png]
+   684→
+   685→In the Epiphany and Deliverance leagues, points are deducted for a loss. Rewards for reaching these leagues are only issued **after the event ends**.
+   686→
+   687→Only 10% of players who reach league 5 will enter the Epiphany league, while the Deliverance league will include limited number of players with the highest number of points:
+   688→
+   689→- 
+   690→EU — 90,
+   691→[/*]- 
+   692→NA — 15,
+   693→[/*]- 
+   694→SEA — 10,
+   695→[/*]- 
+   696→NEA — 10.
+   697→[IMG: {STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png]
+   698→
+   699→[/*]
+   700→
+   701→[IMG: {STEAM_CLAN_IMAGE}/41581512/243dec6cc2fc35ea3bbe8402c37be110e0a647f5.png]
+   702→
+   703→[IMG: {STEAM_CLAN_IMAGE}/41581512/555006d6cb8cd936288e3c0aaab01442afdb53a9.png]
+   704→
+   705→A case containing personal styles from previous Arenas is one of the rewards in the Epiphany and Deliverance leagues.
+   706→
+   707→[IMG: {STEAM_CLAN_IMAGE}/41581512/9ff6e1e23d99086b71dc3f4fe9b4a05cb1310aef.png]
+   708→
+   709→The reward in the case can be rerolled up to 8 times. Each reroll costs 5 million rubles. Duplicate items will not drop, so you are guaranteed to receive any style you want.
+   710→
+   711→## Tokens
+   712→
+   713→[IMG: {STEAM_CLAN_IMAGE}/41581512/fc94f172997db0b0a56a625dab8f482347b70cb4.png]
+   714→
+   715→Double progression tokens will let you climb the leagues faster. They can be purchased in the shop or obtained from Implements event case.
+   716→
+   717→However, use them wisely in the Epiphany and Deliverance leagues: alongside the potential reward, the risk of losing more points also increases!
+   718→
+   719→You can use up to 3 tokens per match. Depending on how many you use, the following multiplier is applied to the points you earn:
+   720→
+   721→- 
+   722→1 token: ×2;
+   723→[/*]- 
+   724→2 tokens: ×2.6;
+   725→[/*]- 
+   726→3 tokens: ×3
+   727→[/*]
+   728→
+   729→In the Festivity event, tokens will only be active during the event and will be converted into Trade coins once it ends. This will help maintain fair competition and balance in each mode.
+   730→
+   731→## Challenges
+   732→
+   733→Added Festivity challenges to the Season Pass.
+   734→[IMG: {STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png]
+   735→
+   736→[IMG: {STEAM_CLAN_IMAGE}/41581512/50bd6a84bc1b567a02244389750a16e2fd01612d.png]
+   737→You can find even more challenges and rewards in the event's dedicated tab.
+   738→[IMG: {STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png]
+   739→
+   740→[IMG: {STEAM_CLAN_IMAGE}/41581512/702f8b66850188310b2f3c5e3ed8501c4f8d4f64.png]
+   741→
+   742→## Spend your weekends at Festivity!
+   743→
+   744→From November 7, 05:00 (server time) to November 9, 05:00 (server time), and from November 14, 05:00 (server time) to November 16, 05:00 (server time), matches will earn **30% more rubles and Chrismites**.
+   745→
+   746→Don't miss the moment when the Zone is merciful and rewards suffering.
+   747→
+   748→# Safe Zones decorations
+   749→
+   750→Residents of safe zones have started putting their own spin on the usual deserted corners… Come take a look!
+   751→[carousel]
+   752→[IMG: {STEAM_CLAN_IMAGE}/41581512/173ab8cd15751b57c0f641bb1fc3b81233d0d136.png]
+   753→
+   754→[IMG: {STEAM_CLAN_IMAGE}/41581512/95133e75b88bfda0e3eb792693cbbb22825fea2f.png]
+   755→
+   756→[IMG: {STEAM_CLAN_IMAGE}/41581512/1e57a9b3d578c1d75700e1788adaa8a3431c4972.png]
+   757→[/carousel]
+   758→
+   759→# New season quests
+   760→
+   761→### tulpa! season quests
+   762→
+   763→This fall, the Zone faced a primal horror for the first time. Each faction follows its own path in the hope of defeating it: some seek salvation in science, while others seek it in rituals. **Fire and Ash**, **Save and Protect**, **Two Thousand Yards**, and **Deus Ex Machina **quests explore just how far people are willing to go to avoid being left alone with their own fears.
+   764→[table equalcells="1" colwidth=",,"]
+   765→
+   766→**Faction**
+   767→
+   768→**Quest name**
+   769→
+   770→**How to get?**
+   771→
+   772→Mercenaries
+   773→
+   774→Two Thousand Yards
+   775→
+   776→Talk with Wentz and Bitok
+   777→
+   778→Rise
+   779→
+   780→Deus Ex Machina
+   781→
+   782→Talk to Sitnikov
+   783→
+   784→Covenant
+   785→
+   786→Save and Protect
+   787→
+   788→Find the place at Temple Swamp
+   789→
+   790→Frontier
+   791→
+   792→Fire and Ash
+   793→
+   794→Find the place at Barrier
+   795→
+   796→### Shock wave part 2
+   797→
+   798→Lynx finally found where Cleat was hiding. This means that Liv's plan to pit the Black Market against Typhoon is still underway. Who will win this dangerous game?
+   799→
+   800→# Economic adjustments
+   801→
+   802→## Randomization of rewards for completing events
+   803→
+   804→We previously announced that we would be updating the randomization system for the final rewards earned from completing events.
+   805→
+   806→The current system is outdated and sometimes results in situations where you receive an unreasonably small reward for a complex event. After the update, you will always receive 100% of the base reward, and there’s a chance you’ll receive an increased reward.
+   807→
+   808→## Comparison of rewards
+   809→
+   810→It is important to note that this comparison shows the minimum rewards that can be earned using the different randomization systems (the old and the new).
+   811→
+   812→If you look at the long-term farm, you'll notice that the income you earn, if it has increased at all, has only increased slightly.
+   813→
+   814→The main goal of the updated system is to address the issue of unfair rewards.
+   815→
+   816→For example, when:
+   817→
+   818→- 
+   819→For a complex and large event, you were paid unreasonably little;
+   820→[/*]
+   821→
+   822→- 
+   823→For an easy event, you received an unreasonably large amount.
+   824→[/*]
+   825→[table equalcells="1" colwidth=",,"]
+   826→
+   827→[p align="center"]**Event**
+   828→
+   829→[p align="center"]**Before**
+   830→
+   831→[p align="center"]**Now**
+   832→
+   833→Event at Mines/Inflow
+   834→
+   835→[p align="center"]~3899 rubles
+   836→
+   837→[p align="center"]~5130 rubles
+   838→
+   839→Event at Forge-11
+   840→
+   841→[p align="center"]~7642 rubles
+   842→
+   843→[p align="center"]~10 055 rubles
+   844→
+   845→Event at Stillwaters
+   846→
+   847→[p align="center"]~20 520 rubles
+   848→
+   849→[p align="center"]~27 000 rubles
+   850→
+   851→### Other adjustments
+   852→
+   853→- 
+   854→Changed the sales limit for the Detector Components item at Arsen: 165 → 170.
+   855→[/*]
+   856→
+   857→# Achievement Showcase[img src="{STEAM_CLAN_IMAGE}/41581512/38ca219048e780e37af31d1348c441dd5fce26a6.png"]
+   858→
+   859→[IMG: {STEAM_CLAN_IMAGE}/41581512/915f734d146c283bea17612129357055dfce9602.png]
+   860→The right-hand column in the profile is changed and is now called Achievement Showcase. All settings for pinned statistics and achievements are now located in the profile customization section, in a new tab between the profile card and music.
+   861→
+   862→Within Statistics and Achievements, the only features remaining are viewing and managing privacy settings for other players. The settings for the showcase itself are now flexible: you can customize each row individually and rearrange them in any order.
+   863→
+   864→Added the ability to pin items in the Achievements Showcase. A line can contain 2 statistics, 1 achievement, or 3 items. You cannot change the number of elements within a row (for example, changing the number of elements from 3 to 2 or 4). You can only pin personal items. Items from your inventory and personal storage are added to the list if you are in a safe zone.
+   865→
+   866→[IMG: {STEAM_CLAN_IMAGE}/41581512/0488fbe61cdadd53664fe0f70645fc8804de26cf.png]
+   867→
+   868→# Interface and controls
+   869→
+   870→- 
+   871→**Player interactions menu:** the menu that appears now does not block controls or capture the mouse cursor. You can still move and shoot. To select an action, use the hotkeys indicated on the buttons.
+   872→[/*]- 
+   873→**Shop:** when you left-click on an item in the Suitable for section on the style/motif page, the 3D model changes to show the selected item equipped with the style/motif. Minor issues with interactions involving item slots in sets are also fixed.
+   874→[/*]- 
+   875→**Season Pass:** a notification now appears when the level increases. Updated icons and tooltips for rewards.
+   876→[/*]- 
+   877→**Task log:** added the ability to pin exchange recipes.
+   878→[/*]- 
+   879→**HUD:** added highlighting for events required to complete active quests.
+   880→[/*]- 
+   881→**Hideout:** if another object is required to open an object, the tooltip now specifies which one.
+   882→[/*]- 
+   883→**Weapon examination:** now has its own button in the settings.
+   884→[/*]
+   885→
+   886→## Map changes
+   887→
+   888→[IMG: {STEAM_CLAN_IMAGE}/41581512/f0021bb079d24d5d752eb0b2b77a246190bb0226.png]
+   889→
+   890→- 
+   891→The map now matches the current season's color palette.
+   892→[/*]- 
+   893→Fixed minor bugs in the map display.
+   894→[/*]- 
+   895→Objects in the world are now displayed on the map as well.
+   896→[/*]
+   897→
+   898→## Grace of Festivity
+   899→
+   900→The new bundle is now available in the in-game store! It includes event currency, cases, seasonal crates, season levels, and Overdrives.
+   901→
+   902→The first six purchases come with discounts of up to 75%. Now’s a good time to stock up!
+   903→
+   904→[IMG: {STEAM_CLAN_IMAGE}/41581512/dd683e850d797d72a7d9c65ac751411536c89d2c.png]
+   905→
+   906→# Guide
+   907→
+   908→- 
+   909→Added articles on safes, looting, in-game chat, Arsenal, trading with other players, and using attachments.
+   910→[/*]- 
+   911→Added and translated articles on infections, base traders, subdivision battles, anomalies, and side effects.
+   912→[/*]- 
+   913→Added Interaction and Communication section. It includes the following articles: In-Game Chat, Squad, Player Exchange, and Subdivision.
+   914→[/*]- 
+   915→Improved article formatting for easier reading.
+   916→[/*]
+   917→
+   918→# Balance adjustments
+   919→[table equalcells="1" colwidth="344,"]
+   920→
+   921→[p align="center"]**Item**
+   922→
+   923→[p align="center"]**Changes**
+   924→
+   925→Assault Rifles
+   926→
+   927→FN Scar-H (A)
+   928→
+   929→Damage: 47 → 46.5
+   930→
+   931→FN Scar-H
+   932→
+   933→Damage: 45.1 → 44.6
+   934→
+   935→_The FN Scar-H is slightly weakened (by half of the last buff), as it became too effective after many recent adjustments._
+   936→
+   937→HK417 (A)
+   938→
+   939→Damage: 45.2 → 45.5
+   940→
+   941→HK417
+   942→
+   943→Damage: 43.4 → 43.6
+   944→
+   945→_The HK417 is slightly bto compete more fairly with other similar rifles._
+   946→
+   947→K2C1
+   948→
+   949→Damage: 39 → 39.3
+   950→
+   951→K2
+   952→
+   953→Damage: 34 → 34.3
+   954→
+   955→AK-15
+   956→
+   957→Damage: 47.5 → 47.8
+   958→
+   959→AK-203
+   960→
+   961→Damage: 38.4 → 39
+   962→
+   963→AUG A3 (A)
+   964→
+   965→Damage: 41.3 → 41.8
+   966→
+   967→Steyr AUG A3
+   968→
+   969→Damage: 36.3 → 36.5
+   970→
+   971→ASM Serval
+   972→
+   973→Damage: 37.5 → 37.1
+   974→
+   975→AMB-17
+   976→
+   977→Damage: 42 → 41.8
+   978→
+   979→X95 (A)
+   980→
+   981→Damage: 32.2 → 32.4
+   982→
+   983→IWI Tavor X95
+   984→
+   985→Damage: 30.9 → 31
+   986→
+   987→FN F2000 Tactical
+   988→
+   989→Minimum damage: 31.9 → 32.3
+   990→
+   991→HK G36C
+   992→
+   993→Damage: 34.8 → 35.5
+   994→
+   995→TKB-0146M
+   996→
+   997→Damage: 36.6 → 37.5
+   998→
+   999→QBZ-191 Thunderbird
+  1000→
+  1001→Damage: 37.6 → 37.7
+  1002→
+  1003→AK-12
+  1004→
+  1005→Damage: 37.5 → 38
+  1006→
+  1007→AK-12 (A)
+  1008→
+  1009→Damage: 43 → 43.5
+  1010→
+  1011→Comment
+  1012→
+  1013→_Less popular assault rifles and ones that lag behind their counterparts are now stronger, while overly effective assault rifles designed for close combat are now weaker._
+  1014→
+  1015→Machine guns
+  1016→
+  1017→DSA RPD
+  1018→
+  1019→Damage: 39.3 → 39.8
+  1020→
+  1021→M60
+  1022→
+  1023→Damage: 51 → 51.2
+  1024→
+  1025→PKP Pecheneg
+  1026→
+  1027→Damage: 45.3 → 45.5
+  1028→
+  1029→Worn PKP
+  1030→
+  1031→Damage: 39.8 → 40
+  1032→
+  1033→RPL-20
+  1034→
+  1035→Damage: 44 → 44.5
+  1036→
+  1037→Comment
+  1038→
+  1039→_Slightly buffed the machine guns that were less effective in terms of PvP._
+  1040→
+  1041→Sniper rifles
+  1042→
+  1043→OTL-03 Karbach
+  1044→
+  1045→Headshot damage: 1.5 → 1.54
+  1046→
+  1047→Cheytac M300
+  1048→
+  1049→Headshot damage: 1.15 → 1.18
+  1050→
+  1051→FN Scar SSR
+  1052→
+  1053→Damage and minimum damage: 71.5 → 72
+  1054→
+  1055→_It was lightly behind the MK14 in terms of PvP effectiveness._
+  1056→
+  1057→Submachine guns
+  1058→
+  1059→Scorpion EVO III
+  1060→
+  1061→Damage: 30.6 → 30.5
+  1062→
+  1063→TDI Kriss Vector
+  1064→
+  1065→Damage: 34.8 → 34.6
+  1066→
+  1067→Minimum damage: 19.3 → 19.1
+  1068→
+  1069→SR-3M
+  1070→
+  1071→Damage: 33.1 → 32.8
+  1072→
+  1073→Recoil: 0.51° → 0.59°
+  1074→
+  1075→Maximum damage range: 16 → 15
+  1076→
+  1077→SR-3 Vikhr
+  1078→
+  1079→Damage: 29 → 28.9
+  1080→
+  1081→Recoil: 0.45° → 0.56°
+  1082→
+  1083→Maximum damage range: 16 → 15
+  1084→
+  1085→SIG MPX
+  1086→
+  1087→Minimum damage: 21.3 → 21.5
+  1088→
+  1089→PPK-20
+  1090→
+  1091→Vityaz-SN
+  1092→
+  1093→PP-19-01 Vityaz
+  1094→
+  1095→Rate of fire: 750 → 760
+  1096→
+  1097→Comment
+  1098→
+  1099→_Excessively powerful submachine guns are weakened, and less popular ones are slightly strengthened.
+  1100→The SR-3M and Vector lead the pack in terms of the number of kills and, at the same time, boast a very high kill efficiency._
+  1101→
+  1102→Pistols
+  1103→
+  1104→Sig Sauer P320
+  1105→
+  1106→Damage: 75 → 74
+  1107→
+  1108→_The SIG Sauer P320 stands out from other pistols because of its great versatility: its massive damage per magazine and high comfort make it the preferred choice in far too many situations._
+  1109→
+  1110→Magpul FMG-9
+  1111→
+  1112→Recoil: 0.3° → 0.25°
+  1113→
+  1114→Horizontal recoil: 0.26° → 0.25°
+  1115→
+  1116→_Increased FMG-9's comfort, as its high recoil was reducing this pistol's effectiveness too much._
+  1117→
+  1118→Shotguns
+  1119→
+  1120→AEK-965
+  1121→
+  1122→The recoil after firing is slightly reduced.
+  1123→
+  1124→_Now, almost immediately after firing a shot, the shooter experiences a minimal level of stopping power._
+  1125→
+  1126→Attachments
+  1127→
+  1128→ASh-12 Extended Magazine
+  1129→
+  1130→Reload: 3 sec → 3.25 sec
+  1131→
+  1132→Tactical Reload: 2.4 sec → 2.6 sec
+  1133→
+  1134→Added Recoil: -5%
+  1135→
+  1136→Added Horizontal recoil: -5%
+  1137→
+  1138→Added Recoil increase: -10%
+  1139→
+  1140→_ASh-12 Extended Magazine was at a significant disadvantage in terms of ergonomics, since the weapon's base damage is high enough for it to perform perfectly well even with a 25-round magazine.
+  1141→ However, since the weapon isn't particularly effective even with a high-capacity, ergonomic magazine, it won't be weakened. Instead, the underpowered magazine will be upgraded._
+  1142→
+  1143→Armor
+  1144→
+  1145→Aurora Jumpsuit
+  1146→
+  1147→Bullet resistance: 39 → 42
+  1148→
+  1149→Added Speed: 1%
+  1150→
+  1151→Carry weight: 5 kg → 7 kg
+  1152→
+  1153→Bleeding Protection: 35% → 25%
+  1154→
+  1155→Seekers Exoskeleton
+  1156→
+  1157→Morgues Exoskeleton
+  1158→
+  1159→Removed Stamina: -15%
+  1160→
+  1161→Bullet resistance: 158 → 151
+  1162→
+  1163→Now compatible with any containers
+  1164→
+  1165→Arc Jumpsuit
+  1166→
+  1167→Fixed incorrect sizes: small → medium
+  1168→
+  1169→# Other changes and fixes
+  1170→
+  1171→- 
+  1172→Refined the quest chain at the start of the game.
+  1173→[/*]- 
+  1174→Changed sound design for Chernobyl Nuclear Power Plant: added ambient sounds and new music.
+  1175→[/*]- 
+  1176→Injectors are now unlocked as you progress through the tutorial and are available for purchase from merchants in all safe zones.
+  1177→[/*]- 
+  1178→Fixed an issue with sending private messages to players whose usernames contain a large number of consecutive underscores.
+  1179→[/*]- 
+  1180→Added sound effects when upgrading armor and weapons.
+  1181→[/*]- 
+  1182→Adjusted the position of the Bale bag on the back: it is now positioned slightly higher.
+  1183→[/*]- 
+  1184→Fixed kill tasks that required a specific weapon.
+  1185→[/*]- 
+  1186→Fixed a bug where a character could get stuck while climbing an obstacle, causing the character to slow down and damage to be incorrectly applied.
+  1187→[/*]- 
+  1188→Fixed game crashes with AMD drivers newer than version 26.8.1.
+  1189→[/*]- 
+  1190→Fixed a bug that prevented penalties to be added to spread in jumps in some cases.
+  1191→[/*]- 
+  1192→Fixed an issue where the appearance of items in the radial menu was not updated correctly when they were replaced or upgraded.
+  1193→[/*]- 
+  1194→Updated the model and animations of the RSh-12, as well as the textures of its motifs, and adjusted the visuals of cartridges in skins.
+  1195→[/*]- 
+  1196→The faction bonus to the selling price now also applies to the Fence in the Drunken Geiger Bar.
+  1197→[/*]- 
+  1198→Fixed the Twins being absent from the Signal dungeon.
+  1199→[/*]- 
+  1200→Fixed a game crash that occurred when opening the key holder during a trade with another player.
+  1201→[/*]
+  1202→```
+  1203→
+  1204→## 3. ТГК #3251 — краткая версия (RU)
+  1205→
+  1206→```text
+  1207→📰 Патчноут [28.10.2026]
+  1208→
+  1209→Технические работы в самом разгаре! После их завершения в игре вас будут ожидать следующие изменения:
+  1210→
+  1211→• «Празднество»
+  1212→• Оформление безопасных зон
+  1213→• Новые сезонные задания
+  1214→• Правки экономики
+  1215→• Витрина достижений
+  1216→• Интерфейс и управление
+  1217→• Правки баланса
+  1218→• Прочее
+  1219→
+  1220→🔗 Подробности в статье: 
+  1221→💬 ВКонтакте | 🤙 Форум EXBO
+  1222→
+  1223→🤍 STALZONE
+  1224→```
+  1225→
+  1226→## 1b. VK-статья — полный текст (RU, via m.vk.com)
+  1227→
+  1228→> Извлечена 10:00 UTC из m.vk.com SSR (769КБ HTML). Совпадает с форумным post#1 дословно
+  1229→> (диффоров-level: расхождение только в промо-блоке — см. §6). 16 797 views, 33 shares.
+  1230→
+  1231→```text
+  1232→## Патчноут [28.10.2026]
+  1233→STALZONE·час назад
+  1234→
+  1235→ 
+  1236→ 
+  1237→[IMG alt=Патчноут [28.10.2026], изображение №1]
+  1238→
+  1239→ 
+  1240→
+  1241→ 
+  1242→
+  1243→## Содержание
+  1244→
+  1245→• «Празднество»
+  1246→
+  1247→• Оформление безопасных зон
+  1248→
+  1249→• Новые сезонные задания
+  1250→
+  1251→• Правки экономики
+  1252→
+  1253→• Витрина достижений
+  1254→
+  1255→• Интерфейс и управление
+  1256→
+  1257→• Правки баланса
+  1258→
+  1259→• Прочее
+  1260→
+  1261→## «Празднество»
+  1262→«Празднество» — это PvPvE-событие, где команде из пяти игроков предстоит защищать свою Реликвию от волн мутантов и зомбированных, сражаться с боссами и противостоять другой команде. Участники начинают матч без снаряжения и прокачиваются прямо по ходу игры, приобретая и улучшая экипировку.
+  1263→Доступ к «Празднеству» открывается со 2 уровня репутации Бара.
+  1264→
+  1265→ 
+  1266→ 
+  1267→[IMG alt=Патчноут [28.10.2026], изображение №2]
+  1268→
+  1269→ 
+  1270→
+  1271→ 
+  1272→
+  1273→## Как играть?
+  1274→Основная цель команды — защитить Реликвию, расположенную в центре PvE-арены.
+  1275→Матч разделён на раунды, которые проходят в следующем порядке:
+  1276→
+  1277→• Три PvE-раунда, где вам предстоит сражаться с волнами мутантов и зомбированных. Максимальный урон, который может получить ваша Реликвия за один раунд — 15%.
+  1278→
+  1279→• Раунд с боссом. Каждый босс имеет свои уникальные способности, поэтому будьте внимательны!
+  1280→
+  1281→• PvP-раунд, где вы встретитесь с командой противников. Победит та команда, которая нанесёт больше урона Алтарю — строению в центре карты. Проигравшая сторона получит 10% урона по Реликвии.
+  1282→
+  1283→ 
+  1284→
+  1285→[IMG alt=Патчноут [28.10.2026], изображение №3]
+  1286→
+  1287→ 
+  1288→
+  1289→ 
+  1290→Важная особенность PvP-арены — биозаражение на нижнем этаже локации.
+  1291→Только игроки в научной броне смогут находиться в области с биозаражением 4 уровня.
+  1292→Игроки в комбинированной броне смогут находиться только в области с биозаражением 2 и 3 уровня. Остальным придётся атаковать Алтарь с верхней позиции.Максимальное количество раундов в матче: 25.
+  1293→Начиная с 6 раунда в матче действуют модификаторы, которые меняются каждый раунд и усложняют вам жизнь.
+  1294→Начиная с 11 раунда одновременно действуют два модификатора.
+  1295→
+  1296→ 
+  1297→ 
+  1298→[IMG alt=Патчноут [28.10.2026], изображение №4]
+  1299→
+  1300→ 
+  1301→
+  1302→ 
+  1303→Матч завершится, если:
+  1304→
+  1305→• Реликвия одной из команд будет полностью разрушена;
+  1306→
+  1307→• Игроки достигнут 25 раунда. В таком случае победит команда с наибольшей прочностью Реликвии;
+  1308→
+  1309→• Одна из сторон сдастся. Кнопка «Сдаться» доступна после 15 раунда. При её активации запускается голосование. Если все члены команды соглашаются, то команде засчитывается поражение.
+  1310→Кнопку можно найти в левом нижнем углу при открытии статистики матча, нажатием клавиши «~».
+  1311→
+  1312→## Магазин и снаряжение
+  1313→Все игроки начинают матч с ножом, пистолетом и 100 монетами. Эта валюта называется «Явь» и используется в магазине для покупки брони, оружия и Оберегов, а также для улучшения и обновления магазина.
+  1314→Явь можно получить за прохождение раундов. Количество получаемых монет зависит от нескольких факторов:
+  1315→
+  1316→• В обычном PvE-раунде — от количества потерянной прочности Реликвии;
+  1317→
+  1318→• В раунде с боссом и PvP-раунде — от победы или поражения;
+  1319→
+  1320→• От количества оставшихся монет на руках в прошлом раунде.
+  1321→
+  1322→Чем больше Яви останется у вас перед началом следующего раунда, тем больше дополнительных монет вы получите. В конце раунда за каждые 10 монет на руках вы будете получать 1 дополнительную монету, но не более 30 монет.
+  1323→Информацию о бонусных монетах можно увидеть, если навести курсор на значок Яви в инвентаре.
+  1324→
+  1325→ 
+  1326→ 
+  1327→[IMG alt=Патчноут [28.10.2026], изображение №5]
+  1328→
+  1329→ 
+  1330→
+  1331→ 
+  1332→Перед началом каждого раунда вам даётся время на подготовку и покупки в магазине. Магазин совмещён с вашим инвентарём. Открыть его можно клавишей «E».
+  1333→
+  1334→ 
+  1335→ 
+  1336→[IMG alt=Патчноут [28.10.2026], изображение №6]
+  1337→
+  1338→ 
+  1339→
+  1340→ 
+  1341→На выбор доступны несколько веток брони и оружия. У каждого типа брони есть свои особенности:
+  1342→
+  1343→• Боевая броня — отлично подходит для сдерживания напора противников, не позволяет спускаться на нижний этаж PvP-арены и использует осколочные гранаты.
+  1344→
+  1345→• Комбинированная броня — справляется с биозаражением 2 и 3 уровня (при более высоких рангах брони) на части нижнего этажа PvP-арены и использует исцеляющие гранаты.
+  1346→
+  1347→• Научная броня — позволяет спускаться к Алтарю и выживать при биозаражении 4 уровня, а также использует гранату-щит, не пропускающую пули.
+  1348→
+  1349→## Улучшение снаряжения
+  1350→Чтобы собрать снаряжение более высокого ранга, необходимо купить три его части.
+  1351→Части, соответствующие вашему текущему снаряжению, подсвечиваются в магазине.
+  1352→
+  1353→ 
+  1354→ 
+  1355→[IMG alt=Патчноут [28.10.2026], изображение №7]
+  1356→
+  1357→ 
+  1358→
+  1359→ 
+  1360→Все предметы в магазине ограничены по количеству и берутся из общего списка. Если вы покупаете одну из частей, она исчезает из общего списка, даже если вы впоследствии продадите её.
+  1361→Части снаряжения также можно использовать для улучшения брони или оружия на +5 и +10. Для этого купите нужную часть и нажмите Shift + ЛКМ или перетащите её из инвентаря в окно экипировки.
+  1362→После покупки третьей части снаряжение автоматически повысится до следующего ранга.
+  1363→Помните, что повышать ранг снаряжения можно только в правильном порядке — от Отмычки или Новичка до Мастера. Сразу улучшить броню или оружие ранга Новичок до ранга Мастер, пропустив ранг Сталкера и Ветерана, не получится!Максимальный доступный ранг брони и основного оружия — Мастер.
+  1364→Максимальный доступный ранг вторичного оружия — Легендарный.
+  1365→Если в магазине нет нужных предметов, его можно обновить за 10 Яви.
+  1366→Если нужный предмет появился в магазине, но вы пока не можете его купить, заблокируйте магазин, нажав на иконку замка в правом верхнем углу. В этом случае текущий набор предметов сохранится и будет перенесён в следующий раунд.
+  1367→
+  1368→## Улучшение магазина
+  1369→Явь можно тратить не только на снаряжение, но и на повышение уровня магазина. Чем выше его уровень, тем выше шанс найти части экипировки более высокого ранга и тем больше Оберегов можно надеть.
+  1370→
+  1371→ 
+  1372→ 
+  1373→[IMG alt=Патчноут [28.10.2026], изображение №8]
+  1374→
+  1375→ 
+  1376→
+  1377→ 
+  1378→
+  1379→ 
+  1380→ 
+  1381→[IMG alt=Патчноут [28.10.2026], изображение №9]
+  1382→
+  1383→ 
+  1384→
+  1385→ 
+  1386→
+  1387→## Обереги
+  1388→Обереги — это артефакты с особыми характеристиками, которые можно купить в магазине.
+  1389→Каждый Оберег относится к одному из сетов: Шнырь, Бестия, Упырь, Крыса или Мультисет.
+  1390→Сет состоит из трёх разных артефактов и даёт дополнительные бонусы.
+  1391→Подробнее об эффектах каждого сета можно узнать в специальных вкладках инвентаря.
+  1392→
+  1393→ 
+  1394→ 
+  1395→[IMG alt=Патчноут [28.10.2026], изображение №10]
+  1396→
+  1397→[IMG alt=Патчноут [28.10.2026], изображение №11]
+  1398→
+  1399→[IMG alt=Патчноут [28.10.2026], изображение №12]
+  1400→
+  1401→[IMG alt=Патчноут [28.10.2026], изображение №13]
+  1402→
+  1403→ 
+  1404→ 1 из 4
+  1405→
+  1406→ 
+  1407→
+  1408→ 
+  1409→
+  1410→ 
+  1411→
+  1412→ 
+  1413→Важно! Сет работает только с разными артефактами из одного набора. Если купить два абсолютно одинаковых Оберега, дополнительный эффект от сета не активируется.Мультисет — это особый Оберег «Ять», который может работать с любым другим сетом.
+  1414→
+  1415→ 
+  1416→ 
+  1417→[IMG alt=Патчноут [28.10.2026], изображение №14]
+  1418→
+  1419→ 
+  1420→
+  1421→ 
+  1422→Обереги можно улучшить до +15. Для этого нужно найти и купить ещё один идентичный Оберег и объединить его с первым.
+  1423→
+  1424→ 
+  1425→ 
+  1426→[IMG alt=Патчноут [28.10.2026], изображение №15]
+  1427→
+  1428→ 
+  1429→
+  1430→ 
+  1431→
+  1432→## Награды
+  1433→В конце матча вы получите рубли и Хризменники — валюту события.
+  1434→Хризменники можно потратить в магазине события на различные награды, включая:
+  1435→
+  1436→• Увеличенный магазин 5.45;
+  1437→
+  1438→• Охотничий нож «Атам»;
+  1439→
+  1440→ 
+  1441→
+  1442→ 
+  1443→
+  1444→ 
+  1445→
+  1446→• Облики «Миро», «Гибельный звон», «Багряный»;
+  1447→
+  1448→• Декорации для убежища;
+  1449→
+  1450→• Кейс события «Утварь»;
+  1451→
+  1452→• Различные расходники.
+  1453→
+  1454→Магазин, нож, декор и облики можно при желании продать Дзену за валюту события.
+  1455→
+  1456→ 
+  1457→ 
+  1458→[IMG alt=Патчноут [28.10.2026], изображение №16]
+  1459→
+  1460→[IMG alt=Патчноут [28.10.2026], изображение №17]
+  1461→
+  1462→[IMG alt=Патчноут [28.10.2026], изображение №18]
+  1463→
+  1464→[IMG alt=Патчноут [28.10.2026], изображение №19]
+  1465→
+  1466→[IMG alt=Патчноут [28.10.2026], изображение №20]
+  1467→
+  1468→ 
+  1469→ 1 из 5
+  1470→
+  1471→ 
+  1472→
+  1473→ 
+  1474→
+  1475→ 
+  1476→
+  1477→ 
+  1478→
+  1479→## Прогрессия
+  1480→
+  1481→ 
+  1482→ 
+  1483→[IMG alt=Патчноут [28.10.2026], изображение №21]
+  1484→
+  1485→ 
+  1486→
+  1487→ 
+  1488→Режим с прогрессией откроется 4 ноября после технических работ и будет активен до конца события — 18 ноября.
+  1489→Режим с прогрессией будет доступен с 10:00 (МСК) по 00:00 (МСК).
+  1490→Прогрессия состоит из лиг. До лиги «Прозрение» вы будете получать очки как за победы, так и за поражения, но за проигрыш — меньше.
+  1491→В пяти первых лигах награды можно получить сразу после перехода из одной лиги в другую.
+  1492→
+  1493→ 
+  1494→ 
+  1495→[IMG alt=Патчноут [28.10.2026], изображение №22]
+  1496→
+  1497→[IMG alt=Патчноут [28.10.2026], изображение №23]
+  1498→
+  1499→[IMG alt=Патчноут [28.10.2026], изображение №24]
+  1500→
+  1501→[IMG alt=Патчноут [28.10.2026], изображение №25]
+  1502→
+  1503→[IMG alt=Патчноут [28.10.2026], изображение №26]
+  1504→
+  1505→ 
+  1506→ 1 из 5
+  1507→
+  1508→ 
+  1509→
+  1510→ 
+  1511→
+  1512→ 
+  1513→
+  1514→ 
+  1515→Кроме наград за достижение лиг вы также будете получать дополнительные Хризменники за определённое количество очков.
+  1516→
+  1517→ 
+  1518→ 
+  1519→[IMG alt=Патчноут [28.10.2026], изображение №27]
+  1520→
+  1521→ 
+  1522→
+  1523→ 
+  1524→В лигах «Прозрение» и «Избавление» очки за поражение будут сниматься. Награды за нахождение в этих лигах выдаются только после окончания события.
+  1525→В лигу «Прозрение» войдёт только 10% от игроков, достигших пятой лиги, а в лигу «Избавление» — 250 игроков с наибольшим количеством очков.
+  1526→
+  1527→ 
+  1528→ 
+  1529→[IMG alt=Патчноут [28.10.2026], изображение №28]
+  1530→
+  1531→[IMG alt=Патчноут [28.10.2026], изображение №29]
+  1532→
+  1533→ 
+  1534→ 1 из 2
+  1535→
+  1536→ 
+  1537→
+  1538→ 
+  1539→
+  1540→ 
+  1541→
+  1542→ 
+  1543→Кейс с персональными обликами прошлых Арен — одна из наград в лигах «Прозрение» и «Избавление».
+  1544→
+  1545→ 
+  1546→ 
+  1547→[IMG alt=Патчноут [28.10.2026], изображение №30]
+  1548→
+  1549→ 
+  1550→
+  1551→ 
+  1552→Награду в кейсе можно заменить до восьми раз. Стоимость одной замены — 5 млн. рублей. Дубликаты предметов выпадать не будут, таким образом вы точно сможете получить любой желаемый облик.
+  1553→
+  1554→## Жетоны
+  1555→Жетоны двойной прогрессии позволят быстрее продвигаться по лигам. Их можно приобрести в магазине или получить из кейсов события «Утварь».
+  1556→Но в лигах «Прозрение» и «Избавление» использовать их стоит с умом: вместе с возможной наградой возрастает и риск потерять больше очков!
+  1557→Всего за матч можно использовать до трёх жетонов. В зависимости от их количества применяется следующий множитель к получаемым очкам:
+  1558→
+  1559→• 1 жетон — ×2;
+  1560→
+  1561→• 2 жетона — ×2,6;
+  1562→
+  1563→• 3 жетона — ×3.
+  1564→
+  1565→ 
+  1566→
+  1567→[IMG alt=Патчноут [28.10.2026], изображение №31]
+  1568→
+  1569→ 
+  1570→
+  1571→ 
+  1572→В «Празднестве» жетоны будут действовать только в рамках события, а по его завершении конвертируются в обменные монеты. Это поможет сохранить честную конкуренцию и баланс каждого режима.
+  1573→
+  1574→## Испытания
+  1575→Испытания события «Празднество» были добавлены в Сезонный Пропуск.
+  1576→
+  1577→ 
+  1578→ 
+  1579→[IMG alt=Патчноут [28.10.2026], изображение №32]
+  1580→
+  1581→ 
+  1582→
+  1583→ 
+  1584→Ещё больше испытаний и наград можно найти в специальной вкладке события.
+  1585→
+  1586→ 
+  1587→ 
+  1588→[IMG alt=Патчноут [28.10.2026], изображение №33]
+  1589→
+  1590→ 
+  1591→
+  1592→ 
+  1593→
+  1594→## Проводите выходные на «Празднестве»!
+  1595→С 7 ноября, 05:00 (МСК) по 9 ноября, 05:00 (МСК), а также с 14 ноября, 05:00 (МСК) по 16 ноября, 05:00 (МСК) матчи будут приносить на 30% больше рублей и Хризменников.
+  1596→Не упустите момент, когда Зона милостива и вознаграждает за страдание.
+  1597→
+  1598→## Оформление безопасных зон
+  1599→Обитатели безопасных зон начали украшать привычные запустелые углы своими особыми методами… Заходите поглазеть!
+  1600→
+  1601→ 
+  1602→ 
+  1603→[IMG alt=Патчноут [28.10.2026], изображение №34]
+  1604→
+  1605→[IMG alt=Патчноут [28.10.2026], изображение №35]
+  1606→
+  1607→[IMG alt=Патчноут [28.10.2026], изображение №36]
+  1608→
+  1609→ 
+  1610→ 1 из 3
+  1611→
+  1612→ 
+  1613→
+  1614→ 
+  1615→
+  1616→ 
+  1617→
+  1618→ 
+  1619→
+  1620→## Новые сезонные задания
+  1621→Задания сезона «тульпа!»
+  1622→Этой осенью Зона впервые столкнулась с первобытным ужасом. Каждая группировка идёт собственным путём в надежде справиться с ним: кто-то ищет спасения в науке, а кто-то — в ритуалах. Задания «Пламя и пепел», «Спаси и сохрани», «Две тысячи ярдов» и «Deus ex machina» расскажут о том, как далеко готовы зайти люди, чтобы не остаться один на один с собственными страхами.
+  1623→
+  1624→ 
+  1625→
+  1626→ 
+  1627→ 
+  1628→ Фракция
+  1629→
+  1630→ 
+  1631→
+  1632→ 
+  1633→
+  1634→ 
+  1635→
+  1636→ 
+  1637→
+  1638→ | 
+  1639→ 
+  1640→ Название задания
+  1641→
+  1642→ 
+  1643→
+  1644→ 
+  1645→
+  1646→ 
+  1647→
+  1648→ 
+  1649→
+  1650→ | 
+  1651→ 
+  1652→ Как получить
+  1653→
+  1654→ 
+  1655→
+  1656→ 
+  1657→
+  1658→ | 
+  1659→
+  1660→ 
+  1661→ 
+  1662→ Наёмники
+  1663→
+  1664→ 
+  1665→
+  1666→ 
+  1667→
+  1668→ 
+  1669→
+  1670→ 
+  1671→
+  1672→ | 
+  1673→ 
+  1674→ Две тысячи ярдов
+  1675→
+  1676→ 
+  1677→
+  1678→ 
+  1679→
+  1680→ 
+  1681→
+  1682→ 
+  1683→
+  1684→ | 
+  1685→ 
+  1686→ Поговорить с Венцем и Битком
+  1687→
+  1688→ 
+  1689→
+  1690→ 
+  1691→
+  1692→ | 
+  1693→
+  1694→ 
+  1695→ 
+  1696→ Заря
+  1697→
+  1698→ 
+  1699→
+  1700→ 
+  1701→
+  1702→ 
+  1703→
+  1704→ 
+  1705→
+  1706→ | 
+  1707→ 
+  1708→ Deus ex machina
+  1709→
+  1710→ 
+  1711→
+  1712→ 
+  1713→
+  1714→ 
+  1715→
+  1716→ 
+  1717→
+  1718→ | 
+  1719→ 
+  1720→ Поговорить с Ситниковым
+  1721→
+  1722→ 
+  1723→
+  1724→ 
+  1725→
+  1726→ | 
+  1727→
+  1728→ 
+  1729→ 
+  1730→ Завет
+  1731→
+  1732→ 
+  1733→
+  1734→ 
+  1735→
+  1736→ 
+  1737→
+  1738→ 
+  1739→
+  1740→ | 
+  1741→ 
+  1742→ Спаси и сохрани
+  1743→
+  1744→ 
+  1745→
+  1746→ 
+  1747→
+  1748→ 
+  1749→
+  1750→ 
+  1751→
+  1752→ | 
+  1753→ 
+  1754→ Найти место на Храмовой Топи
+  1755→
+  1756→ 
+  1757→
+  1758→ 
+  1759→
+  1760→ | 
+  1761→
+  1762→ 
+  1763→ 
+  1764→ Рубеж
+  1765→
+  1766→ 
+  1767→
+  1768→ 
+  1769→
+  1770→ 
+  1771→ | 
+  1772→ 
+  1773→ Пламя и пепел
+  1774→
+  1775→ 
+  1776→
+  1777→ 
+  1778→
+  1779→ 
+  1780→ | 
+  1781→ 
+  1782→ Найти место на Барьере
+  1783→
+  1784→ 
+  1785→ 
+  1786→ | 
+  1787→
+  1788→ 
+  1789→
+  1790→ 
+  1791→
+  1792→Задание «Ударная волна», часть 2
+  1793→Рысь наконец-то нашёл, где прячется Клемма. А значит, план Лива по стравливанию Чёрного Рынка и «Тайфуна» получил продолжение. Кто выйдет победителем из этой опасной игры?
+  1794→
+  1795→## Правки экономики
+  1796→
+  1797→## Рандомизация наград за зачистку событий
+  1798→Ранее мы сообщали, что мы обновим систему рандомизации итоговых наград за зачистку событий.
+  1799→Текущая система устарела и иногда приводит к ситуациям, когда за сложное событие вы получаете неоправданно мало. После обновления вы всегда будете получать 100% базовой награды, а с некоторым шансом — увеличенную.
+  1800→
+  1801→## Сравнение наград
+  1802→Важно учитывать, что в данном сравнении представлены минимальные награды, которые можно получить с разными системами рандомизации (старой и новой).
+  1803→Если оценивать продолжительный фарм, то вы заметите, что получаемый доход, если и увеличился, то ненамного. Основная задача обновлённой системы — решить проблему несправедливой награды. Например, когда:За сложное и большое событие вы получали неоправданно мало;За легкое событие вы получали неоправданно много.
+  1804→
+  1805→ 
+  1806→
+  1807→ 
+  1808→ Событие
+  1809→
+  1810→ 
+  1811→
+  1812→ 
+  1813→
+  1814→ 
+  1815→
+  1816→ 
+  1817→
+  1818→ | 
+  1819→ 
+  1820→ Было
+  1821→
+  1822→ 
+  1823→
+  1824→ 
+  1825→
+  1826→ 
+  1827→
+  1828→ 
+  1829→
+  1830→ | 
+  1831→ 
+  1832→ Стало
+  1833→
+  1834→ 
+  1835→
+  1836→ 
+  1837→
+  1838→ | 
+  1839→
+  1840→ 
+  1841→ 
+  1842→ Событие на Шахтах/Притоке
+  1843→
+  1844→ 
+  1845→
+  1846→ 
+  1847→
+  1848→ 
+  1849→
+  1850→ 
+  1851→
+  1852→ | 
+  1853→ 
+  1854→ ~3899 руб.
+  1855→
+  1856→ 
+  1857→
+  1858→ 
+  1859→
+  1860→ 
+  1861→
+  1862→ 
+  1863→
+  1864→ | 
+  1865→ 
+  1866→ ~5130 руб.
+  1867→
+  1868→ 
+  1869→
+  1870→ 
+  1871→
+  1872→ | 
+  1873→
+  1874→ 
+  1875→ 
+  1876→ Событие на Кузне
+  1877→
+  1878→ 
+  1879→
+  1880→ 
+  1881→
+  1882→ 
+  1883→
+  1884→ 
+  1885→
+  1886→ | 
+  1887→ 
+  1888→ ~7642 руб.
+  1889→
+  1890→ 
+  1891→
+  1892→ 
+  1893→
+  1894→ 
+  1895→
+  1896→ 
+  1897→
+  1898→ | 
+  1899→ 
+  1900→ ~10 055 руб.
+  1901→
+  1902→ 
+  1903→
+  1904→ 
+  1905→
+  1906→ | 
+  1907→
+  1908→ 
+  1909→ 
+  1910→ Событие на Тихой заводи
+  1911→
+  1912→ 
+  1913→
+  1914→ 
+  1915→
+  1916→ 
+  1917→ | 
+  1918→ 
+  1919→ ~20 520 руб.
+  1920→
+  1921→ 
+  1922→
+  1923→ 
+  1924→
+  1925→ 
+  1926→ | 
+  1927→ 
+  1928→ ~27 000 руб.
+  1929→
+  1930→ 
+  1931→ 
+  1932→ | 
+  1933→
+  1934→ 
+  1935→
+  1936→ 
+  1937→
+  1938→## Прочее
+  1939→Изменён лимит продажи предмета «Компоненты детекторов» у Арсена: 165 → 170.
+  1940→
+  1941→## Витрина достижений
+  1942→
+  1943→ 
+  1944→ 
+  1945→[IMG alt=Патчноут [28.10.2026], изображение №37]
+  1946→
+  1947→ 
+  1948→
+  1949→ 
+  1950→Правый блок в профиле изменён и теперь называется «Витрина достижений». Вся настройка закреплённой статистики и достижений перенесена в кастомизацию профиля, в новую вкладку между визиткой и музыкой.
+  1951→Внутри «Статистики и достижений» остаются только просмотр и управление приватностью для других игроков. Сама настройка витрины стала гибкой: вы можете настроить каждую строку отдельно и менять их местами в любом порядке.
+  1952→Добавлена возможность закреплять предметы в витрине достижений. В строке может быть два пункта статистики, одно достижение или три предмета. Менять количество элементов внутри строки нельзя: например, сделать два или четыре предмета вместо трёх. Закреплять можно только персональные предметы. В список подтягиваются предметы из инвентаря и персонального склада, если вы находитесь в безопасной зоне.
+  1953→
+  1954→## Интерфейс и управление
+  1955→
+  1956→• Меню взаимодействия с игроками: теперь появляющееся меню не блокирует управление и не перехватывает курсор мыши. Вы по-прежнему можете двигаться и стрелять. Для выбора действия необходимо использовать указанные на кнопках горячие клавиши.
+  1957→
+  1958→• Магазин: при клике ЛКМ по предметам в разделе «Подходит для» на странице облика или мотива 3D-модель меняется и показывает выбранный предмет с экипированным мотивом или обликом. Также исправлены мелкие недочёты взаимодействия с ячейками предметов в наборах.
+  1959→
+  1960→• Сезонный пропуск: при повышении уровня теперь показывается уведомление. Обновлены значки и подсказки на наградах.
+  1961→
+  1962→• Журнал заданий: добавлена возможность закрепления рецептов обмена.
+  1963→
+  1964→• HUD: добавлена подсветка событий, необходимых для выполнения активных квестов.
+  1965→
+  1966→• Убежище: если для открытия объекта нужен другой объект, подсказка теперь указывает, какой именно.
+  1967→
+  1968→• Осмотр оружия: вынесен на отдельную клавишу в настройках.
+  1969→
+  1970→## Правки карты
+  1971→
+  1972→ 
+  1973→ 
+  1974→[IMG alt=Патчноут [28.10.2026], изображение №38]
+  1975→
+  1976→ 
+  1977→
+  1978→ 
+  1979→
+  1980→• Карта теперь соответствует палитре текущего сезона.
+  1981→
+  1982→• Исправлены мелкие баги в отображении карты.
+  1983→
+  1984→• Объекты в мире теперь отображаются и на карте.
+  1985→
+  1986→## Благодать Празднества
+  1987→У Зоны свои представления о праздниках. Вместо поздравительных открыток — содержимое тайников, вместо праздничного стола — припасы на чёрный день. Но кто сказал, что сталкер не заслужил немного благодати?
+  1988→«Благодать Празднества» уже доступна во внутриигровом магазине! Сезонная валюта, кейсы, сезонные ящики, уровни и Перегрузки — всё, что поможет встретить Празднество во всеоружии.А для тех, кому благословения мало, припасены скидки до 75% на первые покупки. Похоже, в этот раз Зона решила быть чуточку щедрее обычного.
+  1989→
+  1990→ 
+  1991→ 
+  1992→[IMG alt=Патчноут [28.10.2026], изображение №39]
+  1993→
+  1994→ 
+  1995→
+  1996→ 
+  1997→
+  1998→## Справочник
+  1999→
+  2000→• Добавлены статьи о сейфах, лутинге, игровом чате, арсенале, обмене с игроками и использовании обвесов.
+
+[showing lines 1-2000 of 3350; use offset=2001 with limit to continue reading]
