@@ -4,51 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197345": {
-   "title": "куплю артефакт бритва особой/необычной/обычной редкости",
-   "slug": "197345-kuplyu-artefakt-britva-osoboyneobychnoyobychnoy-redkosti",
-   "createdAt": "2026-10-30T14:58:01+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T15:10:21Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T17:10:10Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-30T16:57:36Z"
-  },
-  "197347": {
-   "title": "STALZONE STORE",
-   "slug": "197347-stalzone-store",
-   "createdAt": "2026-10-30T15:17:12+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T15:27:47Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T17:27:36Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-10-30T16:57:37Z"
-  },
-  "197346": {
-   "title": "Бед ту зе боунс Шкелет",
-   "slug": "197346-bed-tu-ze-bouns-shkelet",
-   "createdAt": "2026-10-30T15:10:30+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T15:27:47Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T17:27:36Z",
-   "last_lpn": 12,
-   "last_cc": 11,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-10-30T16:57:40Z"
-  },
   "197350": {
    "title": "Велике математики ООО \"Ексбо\"",
    "slug": "197350-velike-matematiki-ooo-eksbo",
@@ -58,11 +13,11 @@
    "discovered_at": "2026-10-30T16:01:48Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T18:01:38Z",
-   "last_lpn": 16,
-   "last_cc": 16,
-   "checks": 3,
+   "last_lpn": 38,
+   "last_cc": 38,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T16:57:42Z"
+   "last_checked": "2026-10-30T17:48:27Z"
   },
   "197349": {
    "title": "Проблема с установкой тактических блоков в игре",
@@ -73,11 +28,11 @@
    "discovered_at": "2026-10-30T16:01:48Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T18:01:38Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 3,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T16:57:44Z"
+   "last_checked": "2026-10-30T17:48:28Z"
   },
   "197348": {
    "title": "💰 Время — деньги",
@@ -88,11 +43,11 @@
    "discovered_at": "2026-10-30T16:01:48Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T18:01:38Z",
-   "last_lpn": 48,
-   "last_cc": 46,
-   "checks": 3,
+   "last_lpn": 66,
+   "last_cc": 64,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T16:57:46Z"
+   "last_checked": "2026-10-30T17:48:31Z"
   },
   "197354": {
    "title": "💡 Суть предложения: Механика «Возвышения» (Ascension)",
@@ -103,11 +58,11 @@
    "discovered_at": "2026-10-30T16:14:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T18:14:09Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 2,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T16:57:48Z"
+   "last_checked": "2026-10-30T17:48:33Z"
   },
   "197353": {
    "title": "Казуал игры",
@@ -120,9 +75,9 @@
    "until_ts": "2026-10-30T18:14:09Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T16:57:50Z"
+   "last_checked": "2026-10-30T17:48:35Z"
   },
   "197352": {
    "title": "💡 Суть предложения: Механика «Возвышения» (Ascension)",
@@ -136,7 +91,7 @@
    "last_lpn": 2,
    "last_cc": 2,
    "checks": 0,
-   "fails": 2,
+   "fails": 3,
    "last_error": "404"
   },
   "197351": {
@@ -151,7 +106,7 @@
    "last_lpn": 2,
    "last_cc": 2,
    "checks": 0,
-   "fails": 2,
+   "fails": 3,
    "last_error": "404"
   },
   "197356": {
@@ -165,9 +120,9 @@
    "until_ts": "2026-10-30T18:39:11Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-30T16:57:54Z"
+   "last_checked": "2026-10-30T17:48:39Z"
   },
   "197357": {
    "title": "STALRUST",
@@ -178,9 +133,11 @@
    "discovered_at": "2026-10-30T16:57:57Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T18:57:34Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 19,
+   "last_cc": 19,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T17:48:41Z"
   },
   "197355": {
    "title": "Ужасы",
@@ -191,8 +148,62 @@
    "discovered_at": "2026-10-30T16:57:57Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T18:57:34Z",
-   "last_lpn": 12,
-   "last_cc": 12,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T17:48:43Z"
+  },
+  "197361": {
+   "title": "Искл осколок",
+   "slug": "197361-iskl-oskolok",
+   "createdAt": "2026-10-30T17:32:58+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T17:48:46Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T19:48:24Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 0
+  },
+  "197360": {
+   "title": "Как же так?",
+   "slug": "197360-kak-zhe-tak",
+   "createdAt": "2026-10-30T17:23:32+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T17:48:46Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T19:48:24Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197359": {
+   "title": "Празднество",
+   "slug": "197359-prazdnestvo",
+   "createdAt": "2026-10-30T17:03:42+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T17:48:46Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T19:48:24Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 0
+  },
+  "197358": {
+   "title": "ХОЧЕТСЯ СВОИХ ШАБЛОНОВ ГРАФИКИ",
+   "slug": "197358-hochetsya-svoih-shablonov-grafiki",
+   "createdAt": "2026-10-30T17:03:18+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T17:48:46Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T19:48:24Z",
+   "last_lpn": 6,
+   "last_cc": 6,
    "checks": 0
   }
  },
@@ -400,6 +411,57 @@
    "last_checked": "2026-10-30T16:14:11Z",
    "graduated_at": "2026-10-30T16:27:45Z",
    "checks_done": 5
+  },
+  "197345": {
+   "title": "куплю артефакт бритва особой/необычной/обычной редкости",
+   "slug": "197345-kuplyu-artefakt-britva-osoboyneobychnoyobychnoy-redkosti",
+   "createdAt": "2026-10-30T14:58:01+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T15:10:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T17:10:10Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-30T16:57:36Z",
+   "graduated_at": "2026-10-30T17:48:24Z",
+   "checks_done": 5
+  },
+  "197346": {
+   "title": "Бед ту зе боунс Шкелет",
+   "slug": "197346-bed-tu-ze-bouns-shkelet",
+   "createdAt": "2026-10-30T15:10:30+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T15:27:47Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T17:27:36Z",
+   "last_lpn": 12,
+   "last_cc": 11,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-10-30T16:57:40Z",
+   "graduated_at": "2026-10-30T17:48:24Z",
+   "checks_done": 4
+  },
+  "197347": {
+   "title": "STALZONE STORE",
+   "slug": "197347-stalzone-store",
+   "createdAt": "2026-10-30T15:17:12+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T15:27:47Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T17:27:36Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-10-30T16:57:37Z",
+   "graduated_at": "2026-10-30T17:48:24Z",
+   "checks_done": 4
   }
  }
 }
