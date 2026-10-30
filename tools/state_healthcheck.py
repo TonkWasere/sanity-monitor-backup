@@ -15,6 +15,11 @@ KEY_DIRS = ['tools', 'output/evidence_post']
 ORIGIN_URL = 'https://github.com/TonkWasere/test.git'
 BRANCH = 'sanity-monitor'
 UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36'}
+# MEGA-vault линия (решение автора 30.10 ~12:15 UTC: АДРЕС ссылки на гите хранить МОЖНО —
+# СОДЕРЖИМОЕ (vault/ZIP) на гит не попадает никогда). Vault перезаливается автором на тот же адрес.
+MEGA_VAULT_URL = 'https://mega.nz/file/r9QxQBCT#F4tjwiW8UOhJKqxFk1K55r8w5Je5qDw6zNC4dqmy2uo'
+VAULT_LOCAL = os.path.join(PROJ, 'PAT_VAULT_LOCAL.md')  # gitignored, chmod 600
+
 
 def sh(cmd, cwd=PROJ, timeout=60):
     try:
@@ -22,6 +27,40 @@ def sh(cmd, cwd=PROJ, timeout=60):
         return r.returncode, (r.stdout + r.stderr).strip()
     except Exception as e:
         return 1, str(e)
+
+
+def creds_from_vault(vault_src):
+    """Restore ~/.git-credentials из vault-файла. Секреты НЕ печатает.
+    Внешний источник шредится; локальная vault-копия (VAULT_LOCAL) сохраняется."""
+    import re, shutil
+    try:
+        txt = open(vault_src, encoding='utf-8', errors='replace').read()
+    except Exception:
+        return False
+    m = re.search(r'ghp_[A-Za-z0-9]{30,}', txt)
+    if not m:
+        print('  [HEAL-FAIL] токен ghp_ в vault не найден')
+        return False
+    tok = m.group(0)
+    rc, out = sh('git remote get-url origin', timeout=15)
+    mo = re.search(r'github\.com[/:]([A-Za-z0-9_.-]+)/', out or '')
+    user = mo.group(1) if mo else 'TonkWasere'
+    try:
+        with open(os.path.expanduser('~/.git-credentials'), 'w') as f:
+            f.write(f'https://{user}:{tok}@github.com\n')
+        os.chmod(os.path.expanduser('~/.git-credentials'), 0o600)
+        sh('git config --global credential.helper store', timeout=15)
+        if os.path.abspath(vault_src) != os.path.abspath(VAULT_LOCAL):
+            shutil.copyfile(vault_src, VAULT_LOCAL)
+            sh(f'shred -u "{vault_src}"', timeout=15)  # шредим ТОЛЬКО внешний источник
+        os.chmod(VAULT_LOCAL, 0o600)
+        rc, ci = sh('git check-ignore PAT_VAULT_LOCAL.md', timeout=15)
+        print(f'  [HEAL-OK] creds+vault восстановлены (user={user}, token=ghp-классик len={len(tok)}, check-ignore={bool(ci.strip())})')
+        return True
+    except Exception as e:
+        print(f'  [HEAL-FAIL] {e}')
+        return False
+
 
 now = datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%d %H:%M:%S UTC')
 problems = []
@@ -66,7 +105,21 @@ cred = os.path.expanduser('~/.git-credentials')
 cred_ok = os.path.isfile(cred) and oct(os.stat(cred).st_mode & 0o777) == '0o600'
 print(f"  [{'OK' if cred_ok else 'DEAD'}] ~/.git-credentials (600)")
 if not cred_ok:
-    problems.append('credentials missing/perm — push будет 401, нужен токен от автора')
+    # C3-HEAL (30.10, после 16.5ч молчаливого push-pending WIPE-91..120): creds умерли →
+    # self-heal: 1) локальная gitignored vault-копия, 2) MEGA-vault по адресу из этого скрипта.
+    src = VAULT_LOCAL if os.path.isfile(VAULT_LOCAL) else None
+    if src:
+        print('  [HEAL] creds мертвы — восстановление из локальной vault-копии')
+        cred_ok = creds_from_vault(src)
+    else:
+        print('  [HEAL] creds и vault-копия мертвы — MEGA-vault линия')
+        rc, out = sh(f'python3 tools/mega_pull.py "{MEGA_VAULT_URL}" /tmp/hc_vault.md', timeout=180)
+        if rc == 0:
+            cred_ok = creds_from_vault('/tmp/hc_vault.md')
+        else:
+            print(f'  [HEAL-FAIL] MEGA недоступна: {out[:120]}')
+    if not cred_ok:
+        problems.append('credentials missing + self-heal failed — push будет 401, нужен токен от автора')
 
 # C2. credential.helper = store (слетает при чистках ВМ — урок 54-212:
 # файл creds жив, а push падает «could not read Username», т.к. helper не настроен)
@@ -74,7 +127,12 @@ rc_h, out_h = sh('git config --global credential.helper')
 helper_ok = (rc_h == 0 and out_h.strip() == 'store')
 print(f"  [{'OK' if helper_ok else 'DEAD'}] credential.helper = store ({out_h.strip() or 'НЕ ЗАДАН'})")
 if not helper_ok:
-    problems.append('credential.helper != store — push «could not read Username»; лечится: git config --global credential.helper store')
+    sh('git config --global credential.helper store', timeout=15)
+    rc_h, out_h = sh('git config --global credential.helper')
+    helper_ok = (rc_h == 0 and out_h.strip() == 'store')
+    print(f"  [{'OK' if helper_ok else 'HEAL-FAIL'}] credential.helper восстановлен = {out_h.strip() or '?'}")
+    if not helper_ok:
+        problems.append('credential.helper != store — push «could not read Username»')
 
 # D. Remote-синхронизация (ls-remote, не жрёт API rate limit; оба remote)
 rc, head_local = sh('git rev-parse --short=12 HEAD')
@@ -159,4 +217,4 @@ print(f'>>> RECOVERY DONE: branch={branch.strip()}')
 for f in KEY_FILES:
     p = os.path.join(PROJ, f)
     print(f"  [{'OK' if os.path.isfile(p) else 'STILL DEAD'}] {f}")
-print('NOTE: если ~/.git-credentials отсутствовал — push недоступен до нового токена от автора (коммить локально, push pending).')
+print('NOTE: ~/.git-credentials отсутствовал → self-heal из vault (локально/MEGA) выполняется в секции C при каждом прогоне; при HEAL-FAIL — push pending до нового токена от автора.')

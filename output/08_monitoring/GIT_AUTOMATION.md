@@ -401,3 +401,26 @@ https://vk.ru/@-2677092-start-ots-sobytiya-prazdnestvo-afdfvs4563».
   сводит [SKIP]-маркеры в ledger (шаг 0b LITE-АУДИТ); спека кронов повышена до v2.
 
 ## СТАТУС (28.10 14:18 UTC, после WIPE-45): PUSH ВОССТАНОВЛЕН 6-Й РАЗ (54-328). WIPE-45 (28.10 ~14:07 UTC, самый глубокий: откат ФС к снапшоту ~25.10 19:07 — reflog обрезан, HEAD→71c70b83 19.10 «behind 551», 4 tools пропали, /tmp-цепочка + state_snapshots/prev_lpn_315 потеряны, creds снесены). Восстановление по чек-листу ~6 мин: (0a) fetch/show tools ×4 → (reset --hard origin/sanity-monitor =857919c3, работа дня цела) → sweep pass#82 прошёл СЛЕПЫМ (ре-сид prev_lpn_1, окно слепоты сигнатур 13:33→14:04, частично покрыто s15 13:55) → restore_state_from_repo.py (prev_lpn_315 448 кл → /tmp) → mega_pull.py vault (MAC OK, sha256 7f9edd5d эталон, токен НЕ ротирован — 25-е напоминание) → creds 600 + helper=store → API 200 → dual push 857919c3..e0668f94 обе репы зелёные → bundle 1417. ПОТЕРИ НЕЗАКОММИЧЕННОГО: первый черновик ledger №354 + worklog 54-328 (переписаны v2), evidence ext_1404 (перезахват на след. EXT). УРОК: append → git add СРАЗУ (окно риска всего дерева, не только /tmp); столкновения dotfiles с параллельным git add — стейджить по путям, не -A.
+
+## MEGA-VAULT ЛИНИЯ v2 (решение автора 30.10 ~12:15 UTC после 16.5ч простоя push)
+- **ПОЛИТИКА АВТОРА (уточнение 30.10):** хранить АДРЕС MEGA-ссылки на гите — НОРМАЛЬНО; на гит не должно
+  попадать только СОДЕРЖИМОЕ файла, который по ней качается (vault/ZIP). Адрес file/r9QxQBCT#F4tj… — легитимный
+  элемент восстановления, лежит в git-истории и в tools/state_healthcheck.py (MEGA_VAULT_URL).
+- **Что сломалось (инцидент 29.10 19:36 → 30.10 12:15 UTC, 16.5ч):** вайп-серия WIPE-91+ убила ~/.git-credentials
+  + credential.helper + gitignored vault-копии; новые cron-протоколы v4 (lite s15/s35 + long30, переписаны
+  25-28.10) содержат self-heal ТОЛЬКО для tools (анонимный git show), шаг восстановления creds/vault из
+  MEGA остался в закрытом 19.10 часовом протоколе → каждый проход писал «push pending» и молчал. MEGA-сторона
+  ЦЕЛА всё время: vault MAC OK, sha256 7f9edd5d = эталон 54-61, токен не ротирован.
+- **Что починено (30.10 12:15-12:42):** vault скачан по авторской ссылке (MAC OK, эталон), creds восстановлены
+  (user:TonkWasere, API 200), credential.helper=store возвращён, vault-копия на месте (gitignored, 600);
+  fork merge: origin-цепочка вечера 29.10 (35df4150, ledger №139-407) влита в восстановительную линию 30.10
+  (f963991c, оба remote), очередь 8 коммитов уехала, push restored.
+- **Защита от повтора:** tools/state_healthcheck.py секция C3-HEAL — при мёртвых creds каждый прогон
+  сам восстанавливает: (1) локальная vault-копия → (2) MEGA-vault по MEGA_VAULT_URL; секреты не печатаются,
+  /tmp-источники шредятся, vault-копия переживает heal (урок теста: shred только внешнего источника).
+- ⚠️ БИТВЫ ЗА HEAD (30.10 12:35): lite s35-тик запустил pull --rebase посреди авторского fork-merge →
+  rebase повис на checkout 35df4150, HEAD detached. Лечение: git rebase --abort → checkout sanity-monitor.
+  Урок: при глубоком fork (параллельный инстанс) rebase по lite-протоколу заменять ручным merge со склейкой
+  append-only файлов (ledger/worklog: origin-блок раньше локального; стейт-json/tools: локальные свежее).
+- АВТОРУ: ротация PAT по-прежнему НЕ сделана (токен с 18.10 жив и лежит на публичной MEGA-ссылке —
+  по новой политике адрес на гите ок, но сам токен старый; ротировать → перезалить vault → новый PAT).
