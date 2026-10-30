@@ -4,65 +4,37 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197337": {
-   "title": "Идеи по улучшению Арены",
-   "slug": "197337-idei-po-uluchsheniyu-areny",
-   "createdAt": "2026-10-30T10:53:05+00:00",
+  "197339": {
+   "title": "А че из аккаунта в лаунчере выкинуло?",
+   "slug": "197339-a-che-iz-akkaunta-v-launchere-vykinulo",
+   "createdAt": "2026-10-30T13:11:39+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T13:12:03Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T15:11:59Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  }
+ },
+ "graduated": {
+  "197332": {
+   "title": "Награды отс",
+   "slug": "197332-nagrady-ots",
+   "createdAt": "2026-10-30T08:46:32+00:00",
    "op_user": "?",
    "stm": false,
    "discovered_at": "2026-10-30T10:56:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T12:56:26Z",
-   "last_lpn": 8,
-   "last_cc": 8,
+   "last_lpn": 3,
+   "last_cc": 3,
    "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T12:55:17Z"
-  },
-  "197336": {
-   "title": "Дарка Арены Митрополита",
-   "slug": "197336-darka-areny-mitropolita",
-   "createdAt": "2026-10-30T10:24:08+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T10:56:29Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T12:56:26Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-10-30T12:55:19Z"
-  },
-  "197335": {
-   "title": "Соло распред на Тихой Заводи",
-   "slug": "197335-solo-raspred-na-tihoy-zavodi",
-   "createdAt": "2026-10-30T10:22:09+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T10:56:29Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T12:56:26Z",
-   "last_lpn": 16,
-   "last_cc": 16,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-10-30T12:55:21Z"
-  },
-  "197334": {
-   "title": "Мир в сосании и арена Ворона ребут",
-   "slug": "197334-mir-v-sosanii-i-arena-vorona-rebut",
-   "createdAt": "2026-10-30T09:34:59+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T10:56:29Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T12:56:26Z",
-   "last_lpn": 17,
-   "last_cc": 17,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-10-30T12:55:23Z"
+   "last_checked": "2026-10-30T12:55:26Z",
+   "graduated_at": "2026-10-30T13:11:59Z",
+   "checks_done": 4
   },
   "197333": {
    "title": "Ивент, АК-103 > АК-203 ",
@@ -77,22 +49,77 @@
    "last_cc": 4,
    "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T12:55:24Z"
+   "last_checked": "2026-10-30T12:55:24Z",
+   "graduated_at": "2026-10-30T13:11:59Z",
+   "checks_done": 4
   },
-  "197332": {
-   "title": "Награды отс",
-   "slug": "197332-nagrady-ots",
-   "createdAt": "2026-10-30T08:46:32+00:00",
+  "197334": {
+   "title": "Мир в сосании и арена Ворона ребут",
+   "slug": "197334-mir-v-sosanii-i-arena-vorona-rebut",
+   "createdAt": "2026-10-30T09:34:59+00:00",
    "op_user": "?",
    "stm": false,
    "discovered_at": "2026-10-30T10:56:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T12:56:26Z",
-   "last_lpn": 3,
-   "last_cc": 3,
+   "last_lpn": 17,
+   "last_cc": 17,
    "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T12:55:26Z"
+   "last_checked": "2026-10-30T12:55:23Z",
+   "graduated_at": "2026-10-30T13:11:59Z",
+   "checks_done": 4
+  },
+  "197335": {
+   "title": "Соло распред на Тихой Заводи",
+   "slug": "197335-solo-raspred-na-tihoy-zavodi",
+   "createdAt": "2026-10-30T10:22:09+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T10:56:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T12:56:26Z",
+   "last_lpn": 16,
+   "last_cc": 16,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-10-30T12:55:21Z",
+   "graduated_at": "2026-10-30T13:11:59Z",
+   "checks_done": 4
+  },
+  "197336": {
+   "title": "Дарка Арены Митрополита",
+   "slug": "197336-darka-areny-mitropolita",
+   "createdAt": "2026-10-30T10:24:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T10:56:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T12:56:26Z",
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-10-30T12:55:19Z",
+   "graduated_at": "2026-10-30T13:11:59Z",
+   "checks_done": 4
+  },
+  "197337": {
+   "title": "Идеи по улучшению Арены",
+   "slug": "197337-idei-po-uluchsheniyu-areny",
+   "createdAt": "2026-10-30T10:53:05+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T10:56:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T12:56:26Z",
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-10-30T12:55:17Z",
+   "graduated_at": "2026-10-30T13:11:59Z",
+   "checks_done": 4
   },
   "197338": {
    "title": "💡 Суть предложения: Мастерский ПП «Орех»",
@@ -107,8 +134,9 @@
    "last_cc": 29,
    "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T12:55:28Z"
+   "last_checked": "2026-10-30T12:55:28Z",
+   "graduated_at": "2026-10-30T13:11:59Z",
+   "checks_done": 3
   }
- },
- "graduated": {}
+ }
 }
