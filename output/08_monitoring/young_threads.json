@@ -15,6 +15,21 @@
    "until_ts": "2026-10-30T15:11:59Z",
    "last_lpn": 1,
    "last_cc": 1,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T13:29:42Z"
+  },
+  "197341": {
+   "title": "Баг с квестом \"Ударная Волна\"",
+   "slug": "197341-bag-s-kvestom-udarnaya-volna",
+   "createdAt": "2026-10-30T13:17:45+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T13:29:45Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T15:29:41Z",
+   "last_lpn": 2,
+   "last_cc": 1,
    "checks": 0
   }
  },
