@@ -15,9 +15,9 @@
    "until_ts": "2026-10-30T23:59:53Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-30T23:28:13Z"
+   "last_checked": "2026-10-30T23:44:53Z"
   },
   "197373": {
    "title": "Когда ввод пистолетных рукояток для ганов?",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-31T00:44:52Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T23:28:15Z"
+   "last_checked": "2026-10-30T23:44:55Z"
   }
  },
  "graduated": {
