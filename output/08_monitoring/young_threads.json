@@ -15,9 +15,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T19:02:30Z"
+   "last_checked": "2026-10-30T19:13:48Z"
   },
   "197360": {
    "title": "Как же так?",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T19:02:31Z"
+   "last_checked": "2026-10-30T19:13:50Z"
   },
   "197359": {
    "title": "Празднество",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T19:02:33Z"
+   "last_checked": "2026-10-30T19:13:52Z"
   },
   "197358": {
    "title": "ХОЧЕТСЯ СВОИХ ШАБЛОНОВ ГРАФИКИ",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T19:02:34Z"
+   "last_checked": "2026-10-30T19:13:54Z"
   },
   "197362": {
    "title": "Кукла мурзи",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-10-30T18:44:31Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T20:44:17Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 1,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-30T19:02:36Z"
+   "last_checked": "2026-10-30T19:13:56Z"
   },
   "197363": {
    "title": "Получение достижения *Импровизация* на базе санитаров",
@@ -88,9 +88,11 @@
    "discovered_at": "2026-10-30T19:02:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T21:02:28Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T19:13:57Z"
   }
  },
  "graduated": {
