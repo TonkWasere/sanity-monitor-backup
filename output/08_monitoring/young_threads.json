@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-30T10:56:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T12:56:26Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 3,
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T12:10:11Z"
+   "last_checked": "2026-10-30T12:55:17Z"
   },
   "197336": {
    "title": "Дарка Арены Митрополита",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-30T12:56:26Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T12:10:13Z"
+   "last_checked": "2026-10-30T12:55:19Z"
   },
   "197335": {
    "title": "Соло распред на Тихой Заводи",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-30T12:56:26Z",
    "last_lpn": 16,
    "last_cc": 16,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T12:10:15Z"
+   "last_checked": "2026-10-30T12:55:21Z"
   },
   "197334": {
    "title": "Мир в сосании и арена Ворона ребут",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-30T10:56:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T12:56:26Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 3,
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T12:10:17Z"
+   "last_checked": "2026-10-30T12:55:23Z"
   },
   "197333": {
    "title": "Ивент, АК-103 > АК-203 ",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-30T12:56:26Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T12:10:19Z"
+   "last_checked": "2026-10-30T12:55:24Z"
   },
   "197332": {
    "title": "Награды отс",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-30T12:56:26Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T12:10:20Z"
+   "last_checked": "2026-10-30T12:55:26Z"
   },
   "197338": {
    "title": "💡 Суть предложения: Мастерский ПП «Орех»",
@@ -103,11 +103,11 @@
    "discovered_at": "2026-10-30T11:10:30Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T13:10:17Z",
-   "last_lpn": 25,
-   "last_cc": 25,
-   "checks": 2,
+   "last_lpn": 29,
+   "last_cc": 29,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T12:10:22Z"
+   "last_checked": "2026-10-30T12:55:28Z"
   }
  },
  "graduated": {}
