@@ -13,9 +13,11 @@
    "discovered_at": "2026-10-30T10:56:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T12:56:26Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T11:10:19Z"
   },
   "197336": {
    "title": "Дарка Арены Митрополита",
@@ -26,9 +28,11 @@
    "discovered_at": "2026-10-30T10:56:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T12:56:26Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 0
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T11:10:20Z"
   },
   "197335": {
    "title": "Соло распред на Тихой Заводи",
@@ -41,7 +45,9 @@
    "until_ts": "2026-10-30T12:56:26Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T11:10:22Z"
   },
   "197334": {
    "title": "Мир в сосании и арена Ворона ребут",
@@ -52,9 +58,11 @@
    "discovered_at": "2026-10-30T10:56:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T12:56:26Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 0
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T11:10:25Z"
   },
   "197333": {
    "title": "Ивент, АК-103 > АК-203 ",
@@ -67,7 +75,9 @@
    "until_ts": "2026-10-30T12:56:26Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T11:10:26Z"
   },
   "197332": {
    "title": "Награды отс",
@@ -80,6 +90,21 @@
    "until_ts": "2026-10-30T12:56:26Z",
    "last_lpn": 3,
    "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T11:10:28Z"
+  },
+  "197338": {
+   "title": "💡 Суть предложения: Мастерский ПП «Орех»",
+   "slug": "197338-sut-predlozheniya-masterskiy-pp-oreh",
+   "createdAt": "2026-10-30T10:57:29+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T11:10:30Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T13:10:17Z",
+   "last_lpn": 5,
+   "last_cc": 5,
    "checks": 0
   }
  },
