@@ -4,12 +4,12 @@
   "stalzone": {
    "last_id": 3260,
    "last_dt": "2026-10-30T09:00:04+00:00",
-   "last_views": "15.2K"
+   "last_views": "16.4K"
   },
   "spectrum_zone": {
    "last_id": 8091,
    "last_dt": "2026-10-29T16:47:54+00:00",
-   "last_views": "9.14K"
+   "last_views": "9.19K"
   }
  },
  "steam": {
@@ -48,9 +48,29 @@
   "articles": {
    "stalzone-cep-raspada-nagrazhdenie-la170998": {
     "title": "stalzone-cep-raspada-nagrazhdenie-la170998",
+    "published": "2026-10-21T10:36:55+03:00",
+    "modified": "2026-10-21T12:26:41+03:00",
+    "fp": "892a86089dc7"
+   },
+   "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563": {
+    "title": "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563",
+    "published": "2026-10-23T17:30:20+03:00",
+    "modified": "2026-10-23T19:01:07+03:00",
+    "fp": "c5e3cbe064f0"
+   },
+   "stalzone-patchnout-28102026-ergsekrnv": {
+    "title": "",
     "published": "",
     "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "fp": "",
+    "discovered": "20261030_1132"
+   },
+   "stalzone-otkrytie-testovogo-servera-16102026-1": {
+    "title": "",
+    "published": "",
+    "modified": "",
+    "fp": "",
+    "discovered": "20261030_1132"
    }
   },
   "wall": {
@@ -74,10 +94,30 @@
     1148591,
     1148584,
     1148509,
+    1148437,
+    1136421,
+    1149796,
+    1149660,
+    1149645,
+    1149559,
+    1149449,
+    1149393,
+    1149371,
+    1149323,
+    1149204,
+    1149106,
+    1148907,
+    1148847,
+    1148839,
+    1148721,
+    1148614,
+    1148591,
+    1148584,
+    1148509,
     1148437
    ],
    "top": 1149796,
-   "last_check": "20261030_1105"
+   "last_check": "20261030_1132"
   }
  },
  "youtube": {
@@ -100,5 +140,5 @@
   ],
   "last_ts": "2026-10-29T18:46:55+00:00"
  },
- "updated": "2026-10-30T11:06:59+00:00"
+ "updated": "2026-10-30T11:33:19+00:00"
 }
