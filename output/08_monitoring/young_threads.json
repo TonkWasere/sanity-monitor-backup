@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-30T13:12:03Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T15:11:59Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 2,
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T13:42:38Z"
+   "last_checked": "2026-10-30T13:57:43Z"
   },
   "197341": {
    "title": "Баг с квестом \"Ударная Волна\"",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-30T13:29:45Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T15:29:41Z",
-   "last_lpn": 4,
-   "last_cc": 2,
-   "checks": 1,
+   "last_lpn": 5,
+   "last_cc": 3,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-30T13:42:41Z"
+   "last_checked": "2026-10-30T13:57:44Z"
   },
   "197342": {
    "title": "Вы зачем звук заточки испортили",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-10-30T13:42:08Z",
    "source": "snap35",
    "until_ts": "2026-10-30T15:42:08Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-30T13:42:42Z"
+   "last_checked": "2026-10-30T13:57:46Z"
   },
   "197340": {
    "title": "💰 Хочешь 1500 Сталкоинов?",
@@ -58,9 +58,11 @@
    "discovered_at": "2026-10-30T13:42:45Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T15:42:37Z",
-   "last_lpn": 5,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 8,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T13:57:48Z"
   }
  },
  "graduated": {
