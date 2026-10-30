@@ -4,12 +4,12 @@
   "stalzone": {
    "last_id": 3260,
    "last_dt": "2026-10-30T09:00:04+00:00",
-   "last_views": "17.7K"
+   "last_views": "19.2K"
   },
   "spectrum_zone": {
    "last_id": 8091,
    "last_dt": "2026-10-29T16:47:54+00:00",
-   "last_views": "9.24K"
+   "last_views": "9.32K"
   }
  },
  "steam": {
@@ -71,11 +71,17 @@
     "fp": "9318c249c309"
    },
    "stalzone-ostanavlivauschee-deistvie": {
+    "title": "stalzone-ostanavlivauschee-deistvie",
+    "published": "2026-10-06T14:45:48+03:00",
+    "modified": "2026-10-06T15:29:55+03:00",
+    "fp": "d7ceca8d5096"
+   },
+   "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3": {
     "title": "",
     "published": "",
     "modified": "",
     "fp": "",
-    "discovered": "20261030_1202"
+    "discovered": "20261030_1248"
    }
   },
   "wall": {
@@ -139,10 +145,30 @@
     1148591,
     1148584,
     1148509,
+    1148437,
+    1136421,
+    1149796,
+    1149660,
+    1149645,
+    1149559,
+    1149449,
+    1149393,
+    1149371,
+    1149323,
+    1149204,
+    1149106,
+    1148907,
+    1148847,
+    1148839,
+    1148721,
+    1148614,
+    1148591,
+    1148584,
+    1148509,
     1148437
    ],
    "top": 1149796,
-   "last_check": "20261030_1202"
+   "last_check": "20261030_1248"
   }
  },
  "youtube": {
@@ -165,5 +191,5 @@
   ],
   "last_ts": "2026-10-29T18:46:55+00:00"
  },
- "updated": "2026-10-30T12:06:19+00:00"
+ "updated": "2026-10-30T12:50:47+00:00"
 }
