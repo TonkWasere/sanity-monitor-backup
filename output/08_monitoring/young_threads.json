@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197362": {
-   "title": "Кукла мурзи",
-   "slug": "197362-kukla-murzi",
-   "createdAt": "2026-10-30T18:37:37+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T18:44:31Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T20:44:17Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-30T20:43:14Z"
-  },
   "197363": {
    "title": "Получение достижения *Импровизация* на базе санитаров",
    "slug": "197363-poluchenie-dostizheniya-improvizatsiya-na-baze-sanitarov",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-10-30T19:02:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T21:02:28Z",
-   "last_lpn": 16,
-   "last_cc": 16,
-   "checks": 7,
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-30T20:43:15Z"
+   "last_checked": "2026-10-30T20:58:10Z"
   },
   "197365": {
    "title": "Итоги вайбкодинга",
@@ -45,9 +30,9 @@
    "until_ts": "2026-10-30T21:22:40Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-30T20:43:17Z"
+   "last_checked": "2026-10-30T20:58:11Z"
   },
   "197364": {
    "title": "Куплю Лег охотник 0.1",
@@ -60,9 +45,9 @@
    "until_ts": "2026-10-30T21:22:41Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-30T20:43:18Z"
+   "last_checked": "2026-10-30T20:58:13Z"
   },
   "197366": {
    "title": "The November is not co(u)ming",
@@ -73,11 +58,11 @@
    "discovered_at": "2026-10-30T19:28:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T21:28:10Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 5,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-30T20:43:20Z"
+   "last_checked": "2026-10-30T20:58:15Z"
   },
   "197368": {
    "title": "Что с маст магазинами?",
@@ -90,9 +75,9 @@
    "until_ts": "2026-10-30T22:13:06Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T20:43:22Z"
+   "last_checked": "2026-10-30T20:58:16Z"
   },
   "197367": {
    "title": "ахуеть",
@@ -105,9 +90,9 @@
    "until_ts": "2026-10-30T22:13:06Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T20:43:23Z"
+   "last_checked": "2026-10-30T20:58:18Z"
   }
  },
  "graduated": {
@@ -603,6 +588,23 @@
    "last_checked": "2026-10-30T19:43:11Z",
    "graduated_at": "2026-10-30T19:58:07Z",
    "checks_done": 6
+  },
+  "197362": {
+   "title": "Кукла мурзи",
+   "slug": "197362-kukla-murzi",
+   "createdAt": "2026-10-30T18:37:37+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T18:44:31Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T20:44:17Z",
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-30T20:43:14Z",
+   "graduated_at": "2026-10-30T20:58:08Z",
+   "checks_done": 8
   }
  }
 }
