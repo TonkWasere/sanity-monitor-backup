@@ -15,9 +15,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-30T19:28:12Z"
+   "last_checked": "2026-10-30T19:43:11Z"
   },
   "197360": {
    "title": "Как же так?",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-30T19:28:13Z"
+   "last_checked": "2026-10-30T19:43:12Z"
   },
   "197359": {
    "title": "Празднество",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-30T19:28:15Z"
+   "last_checked": "2026-10-30T19:43:14Z"
   },
   "197358": {
    "title": "ХОЧЕТСЯ СВОИХ ШАБЛОНОВ ГРАФИКИ",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-30T19:28:17Z"
+   "last_checked": "2026-10-30T19:43:16Z"
   },
   "197362": {
    "title": "Кукла мурзи",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-30T20:44:17Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T19:28:18Z"
+   "last_checked": "2026-10-30T19:43:17Z"
   },
   "197363": {
    "title": "Получение достижения *Импровизация* на базе санитаров",
@@ -88,11 +88,11 @@
    "discovered_at": "2026-10-30T19:02:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T21:02:28Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 2,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T19:28:20Z"
+   "last_checked": "2026-10-30T19:43:19Z"
   },
   "197365": {
    "title": "Итоги вайбкодинга",
@@ -105,9 +105,9 @@
    "until_ts": "2026-10-30T21:22:40Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-30T19:28:22Z"
+   "last_checked": "2026-10-30T19:43:20Z"
   },
   "197364": {
    "title": "Куплю Лег охотник 0.1",
@@ -120,9 +120,9 @@
    "until_ts": "2026-10-30T21:22:41Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-30T19:28:23Z"
+   "last_checked": "2026-10-30T19:43:22Z"
   },
   "197366": {
    "title": "The November is not co(u)ming",
@@ -133,9 +133,11 @@
    "discovered_at": "2026-10-30T19:28:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T21:28:10Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T19:43:24Z"
   }
  },
  "graduated": {
