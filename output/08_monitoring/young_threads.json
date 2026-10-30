@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197365": {
-   "title": "Итоги вайбкодинга",
-   "slug": "197365-itogi-vaybkodinga",
-   "createdAt": "2026-10-30T19:21:14+00:00",
-   "op_user": "stm:76561199001738594",
-   "stm": true,
-   "discovered_at": "2026-10-30T19:22:40Z",
-   "source": "snap35",
-   "until_ts": "2026-10-30T21:22:40Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-30T21:18:13Z"
-  },
-  "197364": {
-   "title": "Куплю Лег охотник 0.1",
-   "slug": "197364-kuplyu-leg-ohotnik-01",
-   "createdAt": "2026-10-30T19:17:13+00:00",
-   "op_user": "Xant1mant",
-   "stm": false,
-   "discovered_at": "2026-10-30T19:22:41Z",
-   "source": "snap35",
-   "until_ts": "2026-10-30T21:22:41Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-30T21:18:14Z"
-  },
   "197366": {
    "title": "The November is not co(u)ming",
    "slug": "197366-the-november-is-not-couming",
@@ -45,9 +15,9 @@
    "until_ts": "2026-10-30T21:28:10Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-10-30T21:18:16Z"
+   "last_checked": "2026-10-30T21:28:09Z"
   },
   "197368": {
    "title": "Что с маст магазинами?",
@@ -60,9 +30,9 @@
    "until_ts": "2026-10-30T22:13:06Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-30T21:18:18Z"
+   "last_checked": "2026-10-30T21:28:11Z"
   },
   "197367": {
    "title": "ахуеть",
@@ -75,9 +45,9 @@
    "until_ts": "2026-10-30T22:13:06Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-30T21:18:19Z"
+   "last_checked": "2026-10-30T21:28:13Z"
   },
   "197371": {
    "title": "Мб пора апнуть?",
@@ -88,9 +58,11 @@
    "discovered_at": "2026-10-30T21:18:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T23:18:11Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T21:28:14Z"
   },
   "197370": {
    "title": "Имбаланс века",
@@ -101,9 +73,11 @@
    "discovered_at": "2026-10-30T21:18:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T23:18:11Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 0
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T21:28:16Z"
   },
   "197369": {
    "title": "Ряд небольших предложений по игре",
@@ -116,7 +90,9 @@
    "until_ts": "2026-10-30T23:18:11Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T21:28:17Z"
   }
  },
  "graduated": {
@@ -645,6 +621,40 @@
    "fails": 0,
    "last_checked": "2026-10-30T20:58:10Z",
    "graduated_at": "2026-10-30T21:18:11Z",
+   "checks_done": 8
+  },
+  "197364": {
+   "title": "Куплю Лег охотник 0.1",
+   "slug": "197364-kuplyu-leg-ohotnik-01",
+   "createdAt": "2026-10-30T19:17:13+00:00",
+   "op_user": "Xant1mant",
+   "stm": false,
+   "discovered_at": "2026-10-30T19:22:41Z",
+   "source": "snap35",
+   "until_ts": "2026-10-30T21:22:41Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-30T21:18:14Z",
+   "graduated_at": "2026-10-30T21:28:07Z",
+   "checks_done": 8
+  },
+  "197365": {
+   "title": "Итоги вайбкодинга",
+   "slug": "197365-itogi-vaybkodinga",
+   "createdAt": "2026-10-30T19:21:14+00:00",
+   "op_user": "stm:76561199001738594",
+   "stm": true,
+   "discovered_at": "2026-10-30T19:22:40Z",
+   "source": "snap35",
+   "until_ts": "2026-10-30T21:22:40Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-30T21:18:13Z",
+   "graduated_at": "2026-10-30T21:28:07Z",
    "checks_done": 8
   }
  }
