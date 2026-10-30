@@ -4,51 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197371": {
-   "title": "Мб пора апнуть?",
-   "slug": "197371-mb-pora-apnut",
-   "createdAt": "2026-10-30T21:15:04+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T21:18:22Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T23:18:11Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-30T23:14:55Z"
-  },
-  "197370": {
-   "title": "Имбаланс века",
-   "slug": "197370-imbalans-veka",
-   "createdAt": "2026-10-30T21:11:54+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T21:18:22Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T23:18:11Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-30T23:14:57Z"
-  },
-  "197369": {
-   "title": "Ряд небольших предложений по игре",
-   "slug": "197369-ryad-nebolshih-predlozheniy-po-igre",
-   "createdAt": "2026-10-30T20:58:36+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T21:18:22Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T23:18:11Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-10-30T23:14:58Z"
-  },
   "197372": {
    "title": "Ответ на позицию разработчиков по наградам",
    "slug": "197372-otvet-na-pozitsiyu-razrabotchikov-po-nagradam",
@@ -58,11 +13,11 @@
    "discovered_at": "2026-10-30T22:00:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T23:59:53Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 5,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-30T23:15:02Z"
+   "last_checked": "2026-10-30T23:28:13Z"
   },
   "197373": {
    "title": "Когда ввод пистолетных рукояток для ганов?",
@@ -75,9 +30,9 @@
    "until_ts": "2026-10-31T00:44:52Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T23:15:04Z"
+   "last_checked": "2026-10-30T23:28:15Z"
   }
  },
  "graduated": {
@@ -692,6 +647,57 @@
    "last_checked": "2026-10-30T21:59:55Z",
    "graduated_at": "2026-10-30T22:14:53Z",
    "checks_done": 7
+  },
+  "197369": {
+   "title": "Ряд небольших предложений по игре",
+   "slug": "197369-ryad-nebolshih-predlozheniy-po-igre",
+   "createdAt": "2026-10-30T20:58:36+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T21:18:22Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T23:18:11Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-30T23:14:58Z",
+   "graduated_at": "2026-10-30T23:28:11Z",
+   "checks_done": 8
+  },
+  "197370": {
+   "title": "Имбаланс века",
+   "slug": "197370-imbalans-veka",
+   "createdAt": "2026-10-30T21:11:54+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T21:18:22Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T23:18:11Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-30T23:14:57Z",
+   "graduated_at": "2026-10-30T23:28:11Z",
+   "checks_done": 8
+  },
+  "197371": {
+   "title": "Мб пора апнуть?",
+   "slug": "197371-mb-pora-apnut",
+   "createdAt": "2026-10-30T21:15:04+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T21:18:22Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T23:18:11Z",
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-10-30T23:14:55Z",
+   "graduated_at": "2026-10-30T23:28:11Z",
+   "checks_done": 8
   }
  }
 }
