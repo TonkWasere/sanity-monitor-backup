@@ -4,51 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197341": {
-   "title": "Баг с квестом \"Ударная Волна\"",
-   "slug": "197341-bag-s-kvestom-udarnaya-volna",
-   "createdAt": "2026-10-30T13:17:45+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T13:29:45Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T15:29:41Z",
-   "last_lpn": 5,
-   "last_cc": 3,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-30T15:27:38Z"
-  },
-  "197342": {
-   "title": "Вы зачем звук заточки испортили",
-   "slug": "197342-vy-zachem-zvuk-zatochki-isportili",
-   "createdAt": "2026-10-30T13:37:01+00:00",
-   "op_user": "Laska1",
-   "stm": false,
-   "discovered_at": "2026-10-30T13:42:08Z",
-   "source": "snap35",
-   "until_ts": "2026-10-30T15:42:08Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-10-30T15:27:39Z"
-  },
-  "197340": {
-   "title": "💰 Хочешь 1500 Сталкоинов?",
-   "slug": "197340-hochesh-1500-stalkoinov",
-   "createdAt": "2026-10-30T13:15:13+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T13:42:45Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T15:42:37Z",
-   "last_lpn": 16,
-   "last_cc": 14,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-10-30T15:27:41Z"
-  },
   "197343": {
    "title": "Оптимизация... 12 лет спустя",
    "slug": "197343-optimizatsiya-12-let-spustya",
@@ -60,9 +15,9 @@
    "until_ts": "2026-10-30T16:27:42Z",
    "last_lpn": 26,
    "last_cc": 26,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T15:27:43Z"
+   "last_checked": "2026-10-30T16:01:40Z"
   },
   "197345": {
    "title": "куплю артефакт бритва особой/необычной/обычной редкости",
@@ -75,9 +30,9 @@
    "until_ts": "2026-10-30T17:10:10Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-30T15:27:44Z"
+   "last_checked": "2026-10-30T16:01:42Z"
   },
   "197347": {
    "title": "STALZONE STORE",
@@ -88,9 +43,11 @@
    "discovered_at": "2026-10-30T15:27:47Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T17:27:36Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T16:01:44Z"
   },
   "197346": {
    "title": "Бед ту зе боунс Шкелет",
@@ -101,8 +58,49 @@
    "discovered_at": "2026-10-30T15:27:47Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T17:27:36Z",
-   "last_lpn": 5,
-   "last_cc": 5,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T16:01:45Z"
+  },
+  "197350": {
+   "title": "Велике математики ООО \"Ексбо\"",
+   "slug": "197350-velike-matematiki-ooo-eksbo",
+   "createdAt": "2026-10-30T15:53:09+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T16:01:48Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T18:01:38Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
+  },
+  "197349": {
+   "title": "Проблема с установкой тактических блоков в игре",
+   "slug": "197349-problema-s-ustanovkoy-takticheskih-blokov-v-igre",
+   "createdAt": "2026-10-30T15:48:07+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T16:01:48Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T18:01:38Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197348": {
+   "title": "💰 Время — деньги",
+   "slug": "197348-vremya-dengi",
+   "createdAt": "2026-10-30T15:22:16+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T16:01:48Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T18:01:38Z",
+   "last_lpn": 22,
+   "last_cc": 20,
    "checks": 0
   }
  },
@@ -241,6 +239,57 @@
    "fails": 0,
    "last_checked": "2026-10-30T15:10:12Z",
    "graduated_at": "2026-10-30T15:27:36Z",
+   "checks_done": 6
+  },
+  "197340": {
+   "title": "💰 Хочешь 1500 Сталкоинов?",
+   "slug": "197340-hochesh-1500-stalkoinov",
+   "createdAt": "2026-10-30T13:15:13+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T13:42:45Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T15:42:37Z",
+   "last_lpn": 16,
+   "last_cc": 14,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-10-30T15:27:41Z",
+   "graduated_at": "2026-10-30T16:01:38Z",
+   "checks_done": 5
+  },
+  "197341": {
+   "title": "Баг с квестом \"Ударная Волна\"",
+   "slug": "197341-bag-s-kvestom-udarnaya-volna",
+   "createdAt": "2026-10-30T13:17:45+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T13:29:45Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T15:29:41Z",
+   "last_lpn": 5,
+   "last_cc": 3,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-30T15:27:38Z",
+   "graduated_at": "2026-10-30T16:01:38Z",
+   "checks_done": 6
+  },
+  "197342": {
+   "title": "Вы зачем звук заточки испортили",
+   "slug": "197342-vy-zachem-zvuk-zatochki-isportili",
+   "createdAt": "2026-10-30T13:37:01+00:00",
+   "op_user": "Laska1",
+   "stm": false,
+   "discovered_at": "2026-10-30T13:42:08Z",
+   "source": "snap35",
+   "until_ts": "2026-10-30T15:42:08Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-10-30T15:27:39Z",
+   "graduated_at": "2026-10-30T16:01:38Z",
    "checks_done": 6
   }
  }
