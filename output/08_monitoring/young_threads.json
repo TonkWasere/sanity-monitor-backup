@@ -13,11 +13,11 @@
    "discovered_at": "2026-10-30T21:18:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T23:18:11Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 4,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-30T22:14:54Z"
+   "last_checked": "2026-10-30T22:28:14Z"
   },
   "197370": {
    "title": "Имбаланс века",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-30T23:18:11Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-30T22:14:56Z"
+   "last_checked": "2026-10-30T22:28:16Z"
   },
   "197369": {
    "title": "Ряд небольших предложений по игре",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-30T23:18:11Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-30T22:14:58Z"
+   "last_checked": "2026-10-30T22:28:17Z"
   },
   "197372": {
    "title": "Ответ на позицию разработчиков по наградам",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-30T22:00:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T23:59:53Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-30T22:14:59Z"
+   "last_checked": "2026-10-30T22:28:19Z"
   }
  },
  "graduated": {
