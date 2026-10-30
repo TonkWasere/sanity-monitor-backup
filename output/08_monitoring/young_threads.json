@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197357": {
-   "title": "STALRUST",
-   "slug": "197357-stalrust",
-   "createdAt": "2026-10-30T16:46:43+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T16:57:57Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T18:57:34Z",
-   "last_lpn": 19,
-   "last_cc": 19,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-10-30T18:44:19Z"
-  },
-  "197355": {
-   "title": "Ужасы",
-   "slug": "197355-uzhasy",
-   "createdAt": "2026-10-30T16:30:28+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T16:57:57Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T18:57:34Z",
-   "last_lpn": 18,
-   "last_cc": 18,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-10-30T18:44:21Z"
-  },
   "197361": {
    "title": "Искл осколок",
    "slug": "197361-iskl-oskolok",
@@ -45,9 +15,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T18:44:23Z"
+   "last_checked": "2026-10-30T19:02:30Z"
   },
   "197360": {
    "title": "Как же так?",
@@ -60,9 +30,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T18:44:24Z"
+   "last_checked": "2026-10-30T19:02:31Z"
   },
   "197359": {
    "title": "Празднество",
@@ -75,9 +45,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T18:44:26Z"
+   "last_checked": "2026-10-30T19:02:33Z"
   },
   "197358": {
    "title": "ХОЧЕТСЯ СВОИХ ШАБЛОНОВ ГРАФИКИ",
@@ -90,9 +60,9 @@
    "until_ts": "2026-10-30T19:48:24Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T18:44:28Z"
+   "last_checked": "2026-10-30T19:02:34Z"
   },
   "197362": {
    "title": "Кукла мурзи",
@@ -103,6 +73,21 @@
    "discovered_at": "2026-10-30T18:44:31Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T20:44:17Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T19:02:36Z"
+  },
+  "197363": {
+   "title": "Получение достижения *Импровизация* на базе санитаров",
+   "slug": "197363-poluchenie-dostizheniya-improvizatsiya-na-baze-sanitarov",
+   "createdAt": "2026-10-30T18:58:42+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T19:02:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T21:02:28Z",
    "last_lpn": 2,
    "last_cc": 2,
    "checks": 0
@@ -498,6 +483,40 @@
    "fails": 0,
    "last_checked": "2026-10-30T18:29:12Z",
    "graduated_at": "2026-10-30T18:44:17Z",
+   "checks_done": 3
+  },
+  "197355": {
+   "title": "Ужасы",
+   "slug": "197355-uzhasy",
+   "createdAt": "2026-10-30T16:30:28+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T16:57:57Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T18:57:34Z",
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-10-30T18:44:21Z",
+   "graduated_at": "2026-10-30T19:02:28Z",
+   "checks_done": 3
+  },
+  "197357": {
+   "title": "STALRUST",
+   "slug": "197357-stalrust",
+   "createdAt": "2026-10-30T16:46:43+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T16:57:57Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T18:57:34Z",
+   "last_lpn": 19,
+   "last_cc": 19,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-10-30T18:44:19Z",
+   "graduated_at": "2026-10-30T19:02:28Z",
    "checks_done": 3
   }
  }
