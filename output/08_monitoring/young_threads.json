@@ -93,6 +93,32 @@
    "checks": 1,
    "fails": 0,
    "last_checked": "2026-10-30T19:13:57Z"
+  },
+  "197365": {
+   "title": "Итоги вайбкодинга",
+   "slug": "197365-itogi-vaybkodinga",
+   "createdAt": "2026-10-30T19:21:14+00:00",
+   "op_user": "stm:76561199001738594",
+   "stm": true,
+   "discovered_at": "2026-10-30T19:22:40Z",
+   "source": "snap35",
+   "until_ts": "2026-10-30T21:22:40Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197364": {
+   "title": "Куплю Лег охотник 0.1",
+   "slug": "197364-kuplyu-leg-ohotnik-01",
+   "createdAt": "2026-10-30T19:17:13+00:00",
+   "op_user": "Xant1mant",
+   "stm": false,
+   "discovered_at": "2026-10-30T19:22:41Z",
+   "source": "snap35",
+   "until_ts": "2026-10-30T21:22:41Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
   }
  },
  "graduated": {
