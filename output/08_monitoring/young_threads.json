@@ -15,9 +15,9 @@
    "until_ts": "2026-10-30T23:18:11Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-30T22:44:55Z"
+   "last_checked": "2026-10-30T22:59:55Z"
   },
   "197370": {
    "title": "Имбаланс века",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-30T23:18:11Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-30T22:44:57Z"
+   "last_checked": "2026-10-30T22:59:57Z"
   },
   "197369": {
    "title": "Ряд небольших предложений по игре",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-30T23:18:11Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-30T22:44:58Z"
+   "last_checked": "2026-10-30T22:59:58Z"
   },
   "197372": {
    "title": "Ответ на позицию разработчиков по наградам",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-30T22:00:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T23:59:53Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 3,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T22:45:00Z"
+   "last_checked": "2026-10-30T23:00:00Z"
   },
   "197373": {
    "title": "Когда ввод пистолетных рукояток для ганов?",
@@ -73,9 +73,11 @@
    "discovered_at": "2026-10-30T22:45:03Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T00:44:52Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T23:00:02Z"
   }
  },
  "graduated": {
