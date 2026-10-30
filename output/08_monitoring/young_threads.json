@@ -15,9 +15,9 @@
    "until_ts": "2026-10-30T15:11:59Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-30T14:27:45Z"
+   "last_checked": "2026-10-30T14:57:36Z"
   },
   "197341": {
    "title": "Баг с квестом \"Ударная Волна\"",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-30T15:29:41Z",
    "last_lpn": 5,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T14:27:46Z"
+   "last_checked": "2026-10-30T14:57:39Z"
   },
   "197342": {
    "title": "Вы зачем звук заточки испортили",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-30T15:42:08Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-30T14:27:48Z"
+   "last_checked": "2026-10-30T14:57:41Z"
   },
   "197340": {
    "title": "💰 Хочешь 1500 Сталкоинов?",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-30T13:42:45Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T15:42:37Z",
-   "last_lpn": 12,
-   "last_cc": 10,
-   "checks": 2,
+   "last_lpn": 15,
+   "last_cc": 13,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T14:27:50Z"
+   "last_checked": "2026-10-30T14:57:42Z"
   },
   "197343": {
    "title": "Оптимизация... 12 лет спустя",
@@ -73,9 +73,11 @@
    "discovered_at": "2026-10-30T14:27:53Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T16:27:42Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 0
+   "last_lpn": 25,
+   "last_cc": 25,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T14:57:44Z"
   }
  },
  "graduated": {
