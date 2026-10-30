@@ -153,6 +153,19 @@
    "checks": 0,
    "fails": 1,
    "last_error": "404"
+  },
+  "197356": {
+   "title": "Кто-то об этом просил?",
+   "slug": "197356-kto-to-ob-etom-prosil",
+   "createdAt": "2026-10-30T16:33:33+00:00",
+   "op_user": "michMann_",
+   "stm": false,
+   "discovered_at": "2026-10-30T16:39:11Z",
+   "source": "snap35",
+   "until_ts": "2026-10-30T18:39:11Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
   }
  },
  "graduated": {
