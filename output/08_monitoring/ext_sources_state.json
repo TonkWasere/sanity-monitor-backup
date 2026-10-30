@@ -2,14 +2,14 @@
  "v": 1,
  "tg": {
   "stalzone": {
-   "last_id": 3263,
-   "last_dt": "2026-10-30T15:04:12+00:00",
-   "last_views": "8.29K"
+   "last_id": 3268,
+   "last_dt": "2026-10-30T15:40:05+00:00",
+   "last_views": "8.2K"
   },
   "spectrum_zone": {
-   "last_id": 8091,
-   "last_dt": "2026-10-29T16:47:54+00:00",
-   "last_views": "9.6K"
+   "last_id": 8093,
+   "last_dt": "2026-10-30T15:44:22+00:00",
+   "last_views": "3.01K"
   }
  },
  "steam": {
@@ -54,15 +54,15 @@
    },
    "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563": {
     "title": "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563",
-    "published": "2026-10-23T17:30:20+03:00",
-    "modified": "2026-10-23T19:01:07+03:00",
-    "fp": "c5e3cbe064f0"
+    "published": "",
+    "modified": "",
+    "fp": "cbe5cfdf7c21"
    },
    "stalzone-patchnout-28102026-ergsekrnv": {
     "title": "stalzone-patchnout-28102026-ergsekrnv",
-    "published": "2026-10-28T11:09:01+03:00",
-    "modified": "2026-10-28T16:12:54+03:00",
-    "fp": "a5743d170933"
+    "published": "",
+    "modified": "",
+    "fp": "cbe5cfdf7c21"
    },
    "stalzone-otkrytie-testovogo-servera-16102026-1": {
     "title": "stalzone-otkrytie-testovogo-servera-16102026-1",
@@ -90,9 +90,9 @@
    },
    "stalzone-patchnout-30092026-mr639022": {
     "title": "stalzone-patchnout-30092026-mr639022",
-    "published": "2026-09-30T10:03:21+03:00",
-    "modified": "2026-09-30T11:40:27+03:00",
-    "fp": "853834e182a6"
+    "published": "",
+    "modified": "",
+    "fp": "cbe5cfdf7c21"
    },
    "stalzone-obnovlenie-ekonomiki-otkrytogo-mira-yrolfgmeghzkjtmb": {
     "title": "",
@@ -104,6 +104,26 @@
   },
   "wall": {
    "seen": [
+    1136421,
+    1149882,
+    1149869,
+    1149850,
+    1149845,
+    1149796,
+    1149660,
+    1149645,
+    1149559,
+    1149449,
+    1149393,
+    1149371,
+    1149323,
+    1149204,
+    1149106,
+    1148907,
+    1148847,
+    1148839,
+    1148721,
+    1148614,
     1136421,
     1149869,
     1149850,
@@ -265,8 +285,8 @@
     1148509,
     1148437
    ],
-   "top": 1149869,
-   "last_check": "20261030_1533"
+   "top": 1149882,
+   "last_check": "20261030_1607"
   }
  },
  "youtube": {
@@ -289,5 +309,5 @@
   ],
   "last_ts": "2026-10-29T18:46:55+00:00"
  },
- "updated": "2026-10-30T15:35:13+00:00"
+ "updated": "2026-10-30T16:10:08+00:00"
 }
