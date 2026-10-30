@@ -15,9 +15,9 @@
    "until_ts": "2026-10-30T16:27:42Z",
    "last_lpn": 26,
    "last_cc": 26,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-30T16:01:40Z"
+   "last_checked": "2026-10-30T16:14:11Z"
   },
   "197345": {
    "title": "куплю артефакт бритва особой/необычной/обычной редкости",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-30T17:10:10Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-30T16:01:42Z"
+   "last_checked": "2026-10-30T16:14:12Z"
   },
   "197347": {
    "title": "STALZONE STORE",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-30T17:27:36Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-30T16:01:44Z"
+   "last_checked": "2026-10-30T16:14:14Z"
   },
   "197346": {
    "title": "Бед ту зе боунс Шкелет",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-30T15:27:47Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T17:27:36Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-30T16:01:45Z"
+   "last_checked": "2026-10-30T16:14:16Z"
   },
   "197350": {
    "title": "Велике математики ООО \"Ексбо\"",
@@ -73,9 +73,11 @@
    "discovered_at": "2026-10-30T16:01:48Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T18:01:38Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T16:14:17Z"
   },
   "197349": {
    "title": "Проблема с установкой тактических блоков в игре",
@@ -88,7 +90,9 @@
    "until_ts": "2026-10-30T18:01:38Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T16:14:19Z"
   },
   "197348": {
    "title": "💰 Время — деньги",
@@ -99,8 +103,62 @@
    "discovered_at": "2026-10-30T16:01:48Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-30T18:01:38Z",
-   "last_lpn": 22,
-   "last_cc": 20,
+   "last_lpn": 34,
+   "last_cc": 32,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-30T16:14:21Z"
+  },
+  "197354": {
+   "title": "💡 Суть предложения: Механика «Возвышения» (Ascension)",
+   "slug": "197354-sut-predlozheniya-mehanika-vozvysheniya-ascension",
+   "createdAt": "2026-10-30T16:05:53+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T16:14:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T18:14:09Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 0
+  },
+  "197353": {
+   "title": "Казуал игры",
+   "slug": "197353-kazual-igry",
+   "createdAt": "2026-10-30T16:05:01+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T16:14:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T18:14:09Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197352": {
+   "title": "💡 Суть предложения: Механика «Возвышения» (Ascension)",
+   "slug": "197352-sut-predlozheniya-mehanika-vozvysheniya-ascension",
+   "createdAt": "2026-10-30T16:03:11+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T16:14:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T18:14:09Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
+  },
+  "197351": {
+   "title": "💡 Суть предложения: Механика «Возвышения» (Ascension)",
+   "slug": "197351-sut-predlozheniya-mehanika-vozvysheniya-ascension",
+   "createdAt": "2026-10-30T16:01:53+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T16:14:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T18:14:09Z",
+   "last_lpn": 2,
+   "last_cc": 2,
    "checks": 0
   }
  },
