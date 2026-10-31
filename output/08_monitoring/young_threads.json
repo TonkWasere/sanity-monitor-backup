@@ -15,9 +15,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 45,
    "last_cc": 45,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-31T12:13:19Z"
+   "last_checked": "2026-10-31T12:28:11Z"
   },
   "197382": {
    "title": "Изменение наград арены русов(хз как её ща назвали да и пофиг ес честно)",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 16,
    "last_cc": 16,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-31T12:13:21Z"
+   "last_checked": "2026-10-31T12:28:13Z"
   },
   "197381": {
    "title": "папочка",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 12,
    "last_cc": 11,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-31T12:13:23Z"
+   "last_checked": "2026-10-31T12:28:15Z"
   },
   "197380": {
    "title": "А че с мпх",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 19,
    "last_cc": 19,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-31T12:13:25Z"
+   "last_checked": "2026-10-31T12:28:17Z"
   },
   "197379": {
    "title": "при каком мсе меняется анимка бега",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-31T12:13:26Z"
+   "last_checked": "2026-10-31T12:28:18Z"
   },
   "197386": {
    "title": "Новый фич или баг?",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-31T13:58:11Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-31T12:13:28Z"
+   "last_checked": "2026-10-31T12:28:20Z"
   },
   "197385": {
    "title": "Афкашеры на арене",
@@ -103,11 +103,11 @@
    "discovered_at": "2026-10-31T11:58:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T13:58:11Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 1,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-10-31T12:13:30Z"
+   "last_checked": "2026-10-31T12:28:22Z"
   },
   "197388": {
    "title": "Чего бля",
@@ -118,9 +118,11 @@
    "discovered_at": "2026-10-31T12:13:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T14:13:17Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T12:28:24Z"
   },
   "197387": {
    "title": "Я знаю как исправить Арену Митрополита",
@@ -133,7 +135,9 @@
    "until_ts": "2026-10-31T14:13:17Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T12:28:25Z"
   }
  },
  "graduated": {}
