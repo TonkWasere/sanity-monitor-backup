@@ -13,9 +13,11 @@
    "discovered_at": "2026-10-31T11:16:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T13:16:18Z",
-   "last_lpn": 31,
-   "last_cc": 31,
-   "checks": 0
+   "last_lpn": 36,
+   "last_cc": 36,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T11:28:12Z"
   },
   "197382": {
    "title": "Изменение наград арены русов(хз как её ща назвали да и пофиг ес честно)",
@@ -26,9 +28,11 @@
    "discovered_at": "2026-10-31T11:16:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T13:16:18Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 0
+   "last_lpn": 16,
+   "last_cc": 16,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T11:28:14Z"
   },
   "197381": {
    "title": "папочка",
@@ -39,9 +43,11 @@
    "discovered_at": "2026-10-31T11:16:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T13:16:18Z",
-   "last_lpn": 9,
-   "last_cc": 8,
-   "checks": 0
+   "last_lpn": 10,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T11:28:16Z"
   },
   "197380": {
    "title": "А че с мпх",
@@ -54,7 +60,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 19,
    "last_cc": 19,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T11:28:18Z"
   },
   "197379": {
    "title": "при каком мсе меняется анимка бега",
@@ -67,7 +75,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T11:28:19Z"
   }
  },
  "graduated": {}
