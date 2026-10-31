@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197408": {
-   "title": "Куда писать на счёт вылазов через текстуры как баг?",
-   "slug": "197408-kuda-pisat-na-schyot-vylazov-cherez-tekstury-kak-bag",
-   "createdAt": "2026-10-31T18:40:29+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-31T18:43:21Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-31T20:43:09Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-31T20:43:07Z"
-  },
-  "197407": {
-   "title": "Что за дизинфа (Квест Ударная Волна)",
-   "slug": "197407-chto-za-dizinfa-kvest-udarnaya-volna",
-   "createdAt": "2026-10-31T18:37:03+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-31T18:43:21Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-31T20:43:09Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-31T20:43:09Z"
-  },
   "197409": {
    "title": "Они повсюду... ",
    "slug": "197409-oni-povsyudu",
@@ -45,9 +15,9 @@
    "until_ts": "2026-10-31T22:13:08Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-31T20:43:10Z"
+   "last_checked": "2026-10-31T21:13:07Z"
   }
  },
  "graduated": {
@@ -474,6 +444,40 @@
    "fails": 0,
    "last_checked": "2026-10-31T20:28:08Z",
    "graduated_at": "2026-10-31T20:43:05Z",
+   "checks_done": 7
+  },
+  "197407": {
+   "title": "Что за дизинфа (Квест Ударная Волна)",
+   "slug": "197407-chto-za-dizinfa-kvest-udarnaya-volna",
+   "createdAt": "2026-10-31T18:37:03+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-31T18:43:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-31T20:43:09Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-31T20:43:09Z",
+   "graduated_at": "2026-10-31T21:13:06Z",
+   "checks_done": 7
+  },
+  "197408": {
+   "title": "Куда писать на счёт вылазов через текстуры как баг?",
+   "slug": "197408-kuda-pisat-na-schyot-vylazov-cherez-tekstury-kak-bag",
+   "createdAt": "2026-10-31T18:40:29+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-31T18:43:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-31T20:43:09Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-31T20:43:07Z",
+   "graduated_at": "2026-10-31T21:13:06Z",
    "checks_done": 7
   }
  }
