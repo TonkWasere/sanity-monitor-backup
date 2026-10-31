@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197386": {
-   "title": "Новый фич или баг?",
-   "slug": "197386-novyy-fich-ili-bag",
-   "createdAt": "2026-10-31T11:39:14+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-31T11:58:22Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-31T13:58:11Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-31T13:43:11Z"
-  },
-  "197385": {
-   "title": "Афкашеры на арене",
-   "slug": "197385-afkashery-na-arene",
-   "createdAt": "2026-10-31T11:29:17+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-31T11:58:22Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-31T13:58:11Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-31T13:43:13Z"
-  },
   "197388": {
    "title": "Чего бля",
    "slug": "197388-chego-blya",
@@ -45,9 +15,9 @@
    "until_ts": "2026-10-31T14:13:17Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-31T13:43:14Z"
+   "last_checked": "2026-10-31T14:02:18Z"
   },
   "197387": {
    "title": "Я знаю как исправить Арену Митрополита",
@@ -60,9 +30,9 @@
    "until_ts": "2026-10-31T14:13:17Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-31T13:43:16Z"
+   "last_checked": "2026-10-31T14:02:20Z"
   },
   "197392": {
    "title": "Экономист наэкономичил. Геймдизайнер надизайнил. По итогу - насрали в зоне.",
@@ -75,9 +45,9 @@
    "until_ts": "2026-10-31T14:43:12Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-31T13:43:18Z"
+   "last_checked": "2026-10-31T14:02:22Z"
   },
   "197391": {
    "title": "кто шарит что это?",
@@ -90,9 +60,9 @@
    "until_ts": "2026-10-31T14:43:12Z",
    "last_lpn": 12,
    "last_cc": 10,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-31T13:43:20Z"
+   "last_checked": "2026-10-31T14:02:24Z"
   },
   "197390": {
    "title": "Потенциальный абуз ивента",
@@ -105,9 +75,9 @@
    "until_ts": "2026-10-31T14:43:12Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-31T13:43:22Z"
+   "last_checked": "2026-10-31T14:02:26Z"
   },
   "197393": {
    "title": "Штенников не принимает детали",
@@ -118,11 +88,37 @@
    "discovered_at": "2026-10-31T13:28:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T15:28:06Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-10-31T14:02:28Z"
+  },
+  "197395": {
+   "title": "Наказание для ПК",
+   "slug": "197395-nakazanie-dlya-pk",
+   "createdAt": "2026-10-31T13:54:43+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-31T14:02:31Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-31T16:02:16Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 0
+  },
+  "197394": {
+   "title": "Билды на Арене",
+   "slug": "197394-bildy-na-arene",
+   "createdAt": "2026-10-31T13:52:09+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-31T14:02:31Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-31T16:02:16Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 1,
-   "fails": 0,
-   "last_checked": "2026-10-31T13:43:24Z"
+   "checks": 0
   }
  },
  "graduated": {
@@ -209,6 +205,40 @@
    "fails": 0,
    "last_checked": "2026-10-31T13:13:15Z",
    "graduated_at": "2026-10-31T13:28:06Z",
+   "checks_done": 7
+  },
+  "197385": {
+   "title": "Афкашеры на арене",
+   "slug": "197385-afkashery-na-arene",
+   "createdAt": "2026-10-31T11:29:17+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-31T11:58:22Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-31T13:58:11Z",
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-31T13:43:13Z",
+   "graduated_at": "2026-10-31T14:02:16Z",
+   "checks_done": 7
+  },
+  "197386": {
+   "title": "Новый фич или баг?",
+   "slug": "197386-novyy-fich-ili-bag",
+   "createdAt": "2026-10-31T11:39:14+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-31T11:58:22Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-31T13:58:11Z",
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-31T13:43:11Z",
+   "graduated_at": "2026-10-31T14:02:16Z",
    "checks_done": 7
   }
  }
