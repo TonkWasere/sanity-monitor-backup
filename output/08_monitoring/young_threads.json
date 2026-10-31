@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197372": {
-   "title": "Ответ на позицию разработчиков по наградам",
-   "slug": "197372-otvet-na-pozitsiyu-razrabotchikov-po-nagradam",
-   "createdAt": "2026-10-30T21:55:51+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T22:00:04Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-30T23:59:53Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-30T23:44:53Z"
-  },
   "197373": {
    "title": "Когда ввод пистолетных рукояток для ганов?",
    "slug": "197373-kogda-vvod-pistoletnyh-rukoyatok-dlya-ganov",
@@ -30,9 +15,9 @@
    "until_ts": "2026-10-31T00:44:52Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-10-30T23:44:55Z"
+   "last_checked": "2026-10-31T00:00:00Z"
   }
  },
  "graduated": {
@@ -698,6 +683,23 @@
    "last_checked": "2026-10-30T23:14:55Z",
    "graduated_at": "2026-10-30T23:28:11Z",
    "checks_done": 8
+  },
+  "197372": {
+   "title": "Ответ на позицию разработчиков по наградам",
+   "slug": "197372-otvet-na-pozitsiyu-razrabotchikov-po-nagradam",
+   "createdAt": "2026-10-30T21:55:51+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T22:00:04Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-30T23:59:53Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-30T23:44:53Z",
+   "graduated_at": "2026-10-30T23:59:59Z",
+   "checks_done": 7
   }
  }
 }
