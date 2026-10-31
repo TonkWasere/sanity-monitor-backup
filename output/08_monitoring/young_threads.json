@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {},
+ "threads": {
+  "197411": {
+   "title": "поПЫТКА в 3D",
+   "slug": "197411-popytka-v-3d",
+   "createdAt": "2026-10-31T22:55:36+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-31T23:00:20Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T01:00:17Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  }
+ },
  "graduated": {
   "197379": {
    "title": "при каком мсе меняется анимка бега",
