@@ -15,9 +15,22 @@
    "until_ts": "2026-11-01T01:00:17Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-31T23:28:21Z"
+   "last_checked": "2026-10-31T23:43:08Z"
+  },
+  "197412": {
+   "title": "Ленивые эксбо",
+   "slug": "197412-lenivye-eksbo",
+   "createdAt": "2026-10-31T23:36:34+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-31T23:43:10Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T01:43:06Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
