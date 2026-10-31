@@ -15,9 +15,9 @@
    "until_ts": "2026-11-01T01:00:17Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-31T23:43:08Z"
+   "last_checked": "2026-10-31T23:58:08Z"
   },
   "197412": {
    "title": "Ленивые эксбо",
@@ -30,7 +30,9 @@
    "until_ts": "2026-11-01T01:43:06Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T23:58:10Z"
   }
  },
  "graduated": {
