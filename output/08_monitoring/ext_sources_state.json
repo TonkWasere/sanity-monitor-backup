@@ -4,12 +4,12 @@
   "stalzone": {
    "last_id": 3271,
    "last_dt": "2026-10-31T14:00:01+00:00",
-   "last_views": "21K"
+   "last_views": "21.4K"
   },
   "spectrum_zone": {
    "last_id": 8101,
    "last_dt": "2026-10-31T15:58:42+00:00",
-   "last_views": "6.47K"
+   "last_views": "6.61K"
   }
  },
  "steam": {
@@ -48,9 +48,9 @@
   "articles": {
    "stalzone-cep-raspada-nagrazhdenie-la170998": {
     "title": "stalzone-cep-raspada-nagrazhdenie-la170998",
-    "published": "2026-10-21T10:36:55+03:00",
-    "modified": "2026-10-21T12:26:41+03:00",
-    "fp": "892a86089dc7"
+    "published": "",
+    "modified": "",
+    "fp": "cbe5cfdf7c21"
    },
    "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563": {
     "title": "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563",
@@ -60,9 +60,9 @@
    },
    "stalzone-patchnout-28102026-ergsekrnv": {
     "title": "stalzone-patchnout-28102026-ergsekrnv",
-    "published": "2026-10-28T11:09:01+03:00",
-    "modified": "2026-10-28T16:12:54+03:00",
-    "fp": "a5743d170933"
+    "published": "",
+    "modified": "",
+    "fp": "cbe5cfdf7c21"
    },
    "stalzone-otkrytie-testovogo-servera-16102026-1": {
     "title": "stalzone-otkrytie-testovogo-servera-16102026-1",
@@ -72,9 +72,9 @@
    },
    "stalzone-ostanavlivauschee-deistvie": {
     "title": "stalzone-ostanavlivauschee-deistvie",
-    "published": "2026-10-06T14:45:48+03:00",
-    "modified": "2026-10-06T15:29:55+03:00",
-    "fp": "d7ceca8d5096"
+    "published": "",
+    "modified": "",
+    "fp": "cbe5cfdf7c21"
    },
    "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3": {
     "title": "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3",
@@ -84,9 +84,9 @@
    },
    "stalzone-vopros-otvet-s-otdelom-razrabotki-ii-12412afdf": {
     "title": "stalzone-vopros-otvet-s-otdelom-razrabotki-ii-12412afdf",
-    "published": "2026-10-01T14:53:24+03:00",
-    "modified": "2026-10-01T16:02:05+03:00",
-    "fp": "3f3e1ea7d818"
+    "published": "",
+    "modified": "",
+    "fp": "cbe5cfdf7c21"
    },
    "stalzone-patchnout-30092026-mr639022": {
     "title": "stalzone-patchnout-30092026-mr639022",
@@ -306,7 +306,7 @@
     1148847
    ],
    "top": 1150125,
-   "last_check": "20261031_2105"
+   "last_check": "20261031_2133"
   }
  },
  "youtube": {
@@ -329,5 +329,5 @@
   ],
   "last_ts": "2026-10-31T21:00:37+00:00"
  },
- "updated": "2026-10-31T21:06:11+00:00"
+ "updated": "2026-10-31T21:34:00+00:00"
 }
