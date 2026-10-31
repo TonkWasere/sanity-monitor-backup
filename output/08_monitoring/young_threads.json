@@ -15,9 +15,9 @@
    "until_ts": "2026-10-31T13:58:11Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-31T13:28:09Z"
+   "last_checked": "2026-10-31T13:43:11Z"
   },
   "197385": {
    "title": "Афкашеры на арене",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-10-31T11:58:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T13:58:11Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 6,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-10-31T13:28:11Z"
+   "last_checked": "2026-10-31T13:43:13Z"
   },
   "197388": {
    "title": "Чего бля",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-31T14:13:17Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-31T13:28:13Z"
+   "last_checked": "2026-10-31T13:43:14Z"
   },
   "197387": {
    "title": "Я знаю как исправить Арену Митрополита",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-10-31T12:13:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T14:13:17Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 5,
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-31T13:28:15Z"
+   "last_checked": "2026-10-31T13:43:16Z"
   },
   "197392": {
    "title": "Экономист наэкономичил. Геймдизайнер надизайнил. По итогу - насрали в зоне.",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-10-31T12:43:35Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T14:43:12Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 3,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-31T13:28:17Z"
+   "last_checked": "2026-10-31T13:43:18Z"
   },
   "197391": {
    "title": "кто шарит что это?",
@@ -88,11 +88,11 @@
    "discovered_at": "2026-10-31T12:43:35Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T14:43:12Z",
-   "last_lpn": 11,
-   "last_cc": 9,
-   "checks": 3,
+   "last_lpn": 12,
+   "last_cc": 10,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-31T13:28:19Z"
+   "last_checked": "2026-10-31T13:43:20Z"
   },
   "197390": {
    "title": "Потенциальный абуз ивента",
@@ -105,9 +105,9 @@
    "until_ts": "2026-10-31T14:43:12Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-31T13:28:21Z"
+   "last_checked": "2026-10-31T13:43:22Z"
   },
   "197393": {
    "title": "Штенников не принимает детали",
@@ -118,9 +118,11 @@
    "discovered_at": "2026-10-31T13:28:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T15:28:06Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T13:43:24Z"
   }
  },
  "graduated": {
