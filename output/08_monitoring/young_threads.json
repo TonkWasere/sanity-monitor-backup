@@ -15,9 +15,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 46,
    "last_cc": 46,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-31T12:43:15Z"
+   "last_checked": "2026-10-31T13:00:39Z"
   },
   "197382": {
    "title": "Изменение наград арены русов(хз как её ща назвали да и пофиг ес честно)",
@@ -30,9 +30,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 16,
    "last_cc": 16,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-31T12:43:17Z"
+   "last_checked": "2026-10-31T13:00:41Z"
   },
   "197381": {
    "title": "папочка",
@@ -45,9 +45,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 12,
    "last_cc": 11,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-31T12:43:19Z"
+   "last_checked": "2026-10-31T13:00:44Z"
   },
   "197380": {
    "title": "А че с мпх",
@@ -60,9 +60,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 19,
    "last_cc": 19,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-31T12:43:22Z"
+   "last_checked": "2026-10-31T13:00:46Z"
   },
   "197379": {
    "title": "при каком мсе меняется анимка бега",
@@ -75,9 +75,9 @@
    "until_ts": "2026-10-31T13:16:18Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-10-31T12:43:24Z"
+   "last_checked": "2026-10-31T13:00:48Z"
   },
   "197386": {
    "title": "Новый фич или баг?",
@@ -90,9 +90,9 @@
    "until_ts": "2026-10-31T13:58:11Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-31T12:43:25Z"
+   "last_checked": "2026-10-31T13:00:50Z"
   },
   "197385": {
    "title": "Афкашеры на арене",
@@ -105,9 +105,9 @@
    "until_ts": "2026-10-31T13:58:11Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-10-31T12:43:28Z"
+   "last_checked": "2026-10-31T13:00:51Z"
   },
   "197388": {
    "title": "Чего бля",
@@ -120,9 +120,9 @@
    "until_ts": "2026-10-31T14:13:17Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-31T12:43:30Z"
+   "last_checked": "2026-10-31T13:00:53Z"
   },
   "197387": {
    "title": "Я знаю как исправить Арену Митрополита",
@@ -135,9 +135,9 @@
    "until_ts": "2026-10-31T14:13:17Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-10-31T12:43:32Z"
+   "last_checked": "2026-10-31T13:00:55Z"
   },
   "197392": {
    "title": "Экономист наэкономичил. Геймдизайнер надизайнил. По итогу - насрали в зоне.",
@@ -148,9 +148,11 @@
    "discovered_at": "2026-10-31T12:43:35Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T14:43:12Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T13:00:58Z"
   },
   "197391": {
    "title": "кто шарит что это?",
@@ -161,9 +163,11 @@
    "discovered_at": "2026-10-31T12:43:35Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T14:43:12Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 11,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T13:01:00Z"
   },
   "197390": {
    "title": "Потенциальный абуз ивента",
@@ -174,9 +178,11 @@
    "discovered_at": "2026-10-31T12:43:35Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-10-31T14:43:12Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-10-31T13:01:02Z"
   }
  },
  "graduated": {}
