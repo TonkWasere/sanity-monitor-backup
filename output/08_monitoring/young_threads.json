@@ -3,23 +3,7 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {
-  "197373": {
-   "title": "Когда ввод пистолетных рукояток для ганов?",
-   "slug": "197373-kogda-vvod-pistoletnyh-rukoyatok-dlya-ganov",
-   "createdAt": "2026-10-30T22:31:55+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-30T22:45:03Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-10-31T00:44:52Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-10-31T00:28:12Z"
-  }
- },
+ "threads": {},
  "graduated": {
   "197332": {
    "title": "Награды отс",
@@ -699,6 +683,23 @@
    "fails": 0,
    "last_checked": "2026-10-30T23:44:53Z",
    "graduated_at": "2026-10-30T23:59:59Z",
+   "checks_done": 7
+  },
+  "197373": {
+   "title": "Когда ввод пистолетных рукояток для ганов?",
+   "slug": "197373-kogda-vvod-pistoletnyh-rukoyatok-dlya-ganov",
+   "createdAt": "2026-10-30T22:31:55+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-30T22:45:03Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-10-31T00:44:52Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-10-31T00:28:12Z",
+   "graduated_at": "2026-10-31T00:44:56Z",
    "checks_done": 7
   }
  }
