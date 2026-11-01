@@ -4,12 +4,12 @@
   "stalzone": {
    "last_id": 3272,
    "last_dt": "2026-11-01T10:00:22+00:00",
-   "last_views": "24.6K"
+   "last_views": "25.1K"
   },
   "spectrum_zone": {
    "last_id": 8101,
    "last_dt": "2026-10-31T15:58:42+00:00",
-   "last_views": "9.25K"
+   "last_views": "9.28K"
   }
  },
  "steam": {
@@ -60,15 +60,15 @@
    },
    "stalzone-patchnout-28102026-ergsekrnv": {
     "title": "stalzone-patchnout-28102026-ergsekrnv",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-28T11:09:01+03:00",
+    "modified": "2026-10-28T16:12:54+03:00",
+    "fp": "a5743d170933"
    },
    "stalzone-otkrytie-testovogo-servera-16102026-1": {
     "title": "stalzone-otkrytie-testovogo-servera-16102026-1",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-15T15:00:36+03:00",
+    "modified": "2026-10-16T21:08:53+03:00",
+    "fp": "9318c249c309"
    },
    "stalzone-ostanavlivauschee-deistvie": {
     "title": "stalzone-ostanavlivauschee-deistvie",
@@ -78,9 +78,9 @@
    },
    "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3": {
     "title": "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-02T19:41:26+03:00",
+    "modified": "2026-10-11T18:32:25+03:00",
+    "fp": "a891f4c9dedc"
    },
    "stalzone-vopros-otvet-s-otdelom-razrabotki-ii-12412afdf": {
     "title": "stalzone-vopros-otvet-s-otdelom-razrabotki-ii-12412afdf",
@@ -90,9 +90,9 @@
    },
    "stalzone-patchnout-30092026-mr639022": {
     "title": "stalzone-patchnout-30092026-mr639022",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-09-30T10:03:21+03:00",
+    "modified": "2026-09-30T11:40:27+03:00",
+    "fp": "853834e182a6"
    },
    "stalzone-obnovlenie-ekonomiki-otkrytogo-mira-yrolfgmeghzkjtmb": {
     "title": "",
@@ -306,7 +306,7 @@
     1148907
    ],
    "top": 1150258,
-   "last_check": "20261101_1803"
+   "last_check": "20261101_1906"
   }
  },
  "youtube": {
@@ -329,5 +329,5 @@
   ],
   "last_ts": "2026-10-31T21:00:37+00:00"
  },
- "updated": "2026-11-01T18:34:36+00:00"
+ "updated": "2026-11-01T19:07:34+00:00"
 }
