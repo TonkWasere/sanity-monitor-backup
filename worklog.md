@@ -8583,3 +8583,4 @@ Task ID: 54-457: sweep 9xNEW-POSTS + 1 KEY 197399 (179022 +7 всплеск, 197
 - Task ID: 54-506: sweep 6xNEW-POSTS (191614 +4 вспышка вернулась, ракеты 197434/197437 встали финалы 39/34), EXT 0, deep 0; WIPE-194 recovery 9-й ~21:57; караул 6/16; ledger №517
 - Task ID: 54-22-s15: тик 22:13: 197442 +3=11 (ускорение); 197441 =3 замер; young=2 graduated=56
 - Task ID: 54-22-s15: тик 22:28: 197442 +2=13 (x2 серия 8→11→13); 197441 =3 x3; young=2 graduated=56
+- Task ID: 54-507: sweep 6xNEW-POSTS (197442 +6 новая ракета-разгон, 164665 ожил после x10), EXT 0, deep 0; CANON #84 integrity ДА; караул 4/10; ledger №518
