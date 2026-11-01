@@ -15,9 +15,9 @@
    "until_ts": "2026-11-01T21:13:09Z",
    "last_lpn": 31,
    "last_cc": 31,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T20:28:10Z"
+   "last_checked": "2026-11-01T20:43:09Z"
   },
   "197439": {
    "title": "Что случилось с Руной?",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-01T21:28:05Z",
    "last_lpn": 13,
    "last_cc": 12,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-01T20:28:11Z"
+   "last_checked": "2026-11-01T20:43:11Z"
   },
   "197438": {
    "title": "Слишком темно ночью",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-11-01T19:28:15Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T21:28:05Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 4,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-01T20:28:13Z"
+   "last_checked": "2026-11-01T20:43:13Z"
   }
  },
  "graduated": {
