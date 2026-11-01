@@ -4,51 +4,18 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197415": {
-   "title": "Аванпосты, итерация 0.0.0.0.1 (помет и палки)",
-   "slug": "197415-avanposty-iteratsiya-00001-pomet-i-palki",
-   "createdAt": "2026-11-01T00:12:03+00:00",
+  "197416": {
+   "title": "Через что качать пиротехнику в убежке?",
+   "slug": "197416-cherez-chto-kachat-pirotehniku-v-ubezhke",
+   "createdAt": "2026-11-01T02:04:37+00:00",
    "op_user": "?",
    "stm": false,
-   "discovered_at": "2026-11-01T00:13:12Z",
+   "discovered_at": "2026-11-01T02:13:19Z",
    "source": "snap15-reconcile",
-   "until_ts": "2026-11-01T02:13:06Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 1,
-   "fails": 6,
-   "last_checked": "2026-11-01T00:28:10Z",
-   "last_error": "404"
-  },
-  "197414": {
-   "title": "Аванпосты, итерация 0.0.0.0.1 (помет и палки)",
-   "slug": "197414-avanposty-iteratsiya-00001-pomet-i-palki",
-   "createdAt": "2026-11-01T00:08:40+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-01T00:13:12Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-01T02:13:06Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-01T02:00:15Z"
-  },
-  "197413": {
-   "title": "Празднество. Пластинка.",
-   "slug": "197413-prazdnestvo-plastinka",
-   "createdAt": "2026-11-01T00:00:33+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-01T00:13:12Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-01T02:13:06Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-01T02:00:17Z"
+   "until_ts": "2026-11-01T04:13:16Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
@@ -561,6 +528,58 @@
    "last_checked": "2026-11-01T01:28:13Z",
    "graduated_at": "2026-11-01T01:43:10Z",
    "checks_done": 7
+  },
+  "197413": {
+   "title": "Празднество. Пластинка.",
+   "slug": "197413-prazdnestvo-plastinka",
+   "createdAt": "2026-11-01T00:00:33+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T00:13:12Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T02:13:06Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-01T02:00:17Z",
+   "graduated_at": "2026-11-01T02:13:16Z",
+   "checks_done": 7
+  },
+  "197414": {
+   "title": "Аванпосты, итерация 0.0.0.0.1 (помет и палки)",
+   "slug": "197414-avanposty-iteratsiya-00001-pomet-i-palki",
+   "createdAt": "2026-11-01T00:08:40+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T00:13:12Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T02:13:06Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-01T02:00:15Z",
+   "graduated_at": "2026-11-01T02:13:16Z",
+   "checks_done": 7
+  },
+  "197415": {
+   "title": "Аванпосты, итерация 0.0.0.0.1 (помет и палки)",
+   "slug": "197415-avanposty-iteratsiya-00001-pomet-i-palki",
+   "createdAt": "2026-11-01T00:12:03+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T00:13:12Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T02:13:06Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 1,
+   "fails": 6,
+   "last_checked": "2026-11-01T00:28:10Z",
+   "last_error": "404",
+   "graduated_at": "2026-11-01T02:13:16Z",
+   "checks_done": 1
   }
  }
 }
