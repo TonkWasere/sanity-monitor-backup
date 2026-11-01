@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197423": {
-   "title": "Почему в Сталзонке только 2 Вайфу",
-   "slug": "197423-pochemu-v-stalzonke-tolko-2-vayfu",
-   "createdAt": "2026-11-01T11:26:31+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-01T11:28:16Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-01T13:28:10Z",
-   "last_lpn": 17,
-   "last_cc": 17,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-01T13:28:10Z"
-  },
   "197424": {
    "title": "нооконвентор",
    "slug": "197424-nookonventor",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-01T15:13:09Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-01T13:28:12Z"
+   "last_checked": "2026-11-01T13:43:14Z"
   },
   "197425": {
    "title": "Демки",
@@ -45,9 +30,22 @@
    "until_ts": "2026-11-01T15:21:16Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-01T13:28:13Z"
+   "last_checked": "2026-11-01T13:43:17Z"
+  },
+  "197426": {
+   "title": "Прыжки от стен в ГВ/ДМ",
+   "slug": "197426-pryzhki-ot-sten-v-gvdm",
+   "createdAt": "2026-11-01T13:37:17+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T13:43:20Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T15:43:12Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
@@ -732,6 +730,23 @@
    "last_error": "404",
    "graduated_at": "2026-11-01T12:28:09Z",
    "checks_done": 2
+  },
+  "197423": {
+   "title": "Почему в Сталзонке только 2 Вайфу",
+   "slug": "197423-pochemu-v-stalzonke-tolko-2-vayfu",
+   "createdAt": "2026-11-01T11:26:31+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T11:28:16Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T13:28:10Z",
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-01T13:28:10Z",
+   "graduated_at": "2026-11-01T13:43:12Z",
+   "checks_done": 8
   }
  }
 }
