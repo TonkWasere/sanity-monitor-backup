@@ -15,9 +15,9 @@
    "until_ts": "2026-11-01T09:00:14Z",
    "last_lpn": 6,
    "last_cc": 5,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-01T07:43:09Z"
+   "last_checked": "2026-11-01T08:00:11Z"
   },
   "197419": {
    "title": "Такой вопросик",
@@ -28,9 +28,11 @@
    "discovered_at": "2026-11-01T07:43:12Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T09:43:07Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-01T08:00:12Z"
   }
  },
  "graduated": {
