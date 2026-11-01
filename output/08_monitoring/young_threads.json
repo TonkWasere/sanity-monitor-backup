@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197420": {
-   "title": "Пропали вещи",
-   "slug": "197420-propali-veschi",
-   "createdAt": "2026-11-01T09:14:55+00:00",
-   "op_user": "Rammkota",
-   "stm": false,
-   "discovered_at": "2026-11-01T09:21:12Z",
-   "source": "snap35",
-   "until_ts": "2026-11-01T11:21:12Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-01T11:13:12Z"
-  },
   "197421": {
    "title": "Форт",
    "slug": "197421-fort",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-01T11:43:10Z",
    "last_lpn": 20,
    "last_cc": 20,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-01T11:13:14Z"
+   "last_checked": "2026-11-01T11:28:12Z"
   },
   "197422": {
    "title": "Отличный патч!",
@@ -46,9 +31,22 @@
    "last_lpn": 6,
    "last_cc": 6,
    "checks": 2,
-   "fails": 2,
+   "fails": 3,
    "last_checked": "2026-11-01T10:43:17Z",
    "last_error": "404"
+  },
+  "197423": {
+   "title": "Почему в Сталзонке только 2 Вайфу",
+   "slug": "197423-pochemu-v-stalzonke-tolko-2-vayfu",
+   "createdAt": "2026-11-01T11:26:31+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T11:28:16Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T13:28:10Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
@@ -681,6 +679,23 @@
    "last_checked": "2026-11-01T09:28:25Z",
    "graduated_at": "2026-11-01T09:43:10Z",
    "checks_done": 7
+  },
+  "197420": {
+   "title": "Пропали вещи",
+   "slug": "197420-propali-veschi",
+   "createdAt": "2026-11-01T09:14:55+00:00",
+   "op_user": "Rammkota",
+   "stm": false,
+   "discovered_at": "2026-11-01T09:21:12Z",
+   "source": "snap35",
+   "until_ts": "2026-11-01T11:21:12Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-01T11:13:12Z",
+   "graduated_at": "2026-11-01T11:28:10Z",
+   "checks_done": 8
   }
  }
 }
