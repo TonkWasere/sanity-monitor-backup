@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-01T17:28:20Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T19:28:10Z",
-   "last_lpn": 27,
-   "last_cc": 27,
-   "checks": 5,
+   "last_lpn": 30,
+   "last_cc": 30,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T19:13:10Z"
+   "last_checked": "2026-11-01T19:28:07Z"
   },
   "197435": {
    "title": "А как ?",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-01T19:43:07Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-01T19:13:12Z"
+   "last_checked": "2026-11-01T19:28:09Z"
   },
   "197436": {
    "title": "чо бля",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-01T20:13:09Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-01T19:13:14Z"
+   "last_checked": "2026-11-01T19:28:11Z"
   },
   "197437": {
    "title": "Общество защиты бичуганов",
@@ -58,8 +58,36 @@
    "discovered_at": "2026-11-01T19:13:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T21:13:09Z",
-   "last_lpn": 23,
-   "last_cc": 23,
+   "last_lpn": 28,
+   "last_cc": 28,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-01T19:28:12Z"
+  },
+  "197439": {
+   "title": "Что случилось с Руной?",
+   "slug": "197439-chto-sluchilos-s-runoy",
+   "createdAt": "2026-11-01T19:21:31+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T19:28:15Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T21:28:05Z",
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 0
+  },
+  "197438": {
+   "title": "Слишком темно ночью",
+   "slug": "197438-slishkom-temno-nochyu",
+   "createdAt": "2026-11-01T19:16:13+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T19:28:15Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T21:28:05Z",
+   "last_lpn": 2,
+   "last_cc": 2,
    "checks": 0
   }
  },
