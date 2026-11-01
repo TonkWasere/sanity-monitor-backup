@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197412": {
-   "title": "Ленивые эксбо",
-   "slug": "197412-lenivye-eksbo",
-   "createdAt": "2026-10-31T23:36:34+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-10-31T23:43:10Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-01T01:43:06Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-01T01:28:13Z"
-  },
   "197415": {
    "title": "Аванпосты, итерация 0.0.0.0.1 (помет и палки)",
    "slug": "197415-avanposty-iteratsiya-00001-pomet-i-palki",
@@ -31,7 +16,7 @@
    "last_lpn": 2,
    "last_cc": 2,
    "checks": 1,
-   "fails": 4,
+   "fails": 5,
    "last_checked": "2026-11-01T00:28:10Z",
    "last_error": "404"
   },
@@ -44,11 +29,11 @@
    "discovered_at": "2026-11-01T00:13:12Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T02:13:06Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 5,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T01:28:17Z"
+   "last_checked": "2026-11-01T01:43:14Z"
   },
   "197413": {
    "title": "Празднество. Пластинка.",
@@ -59,11 +44,11 @@
    "discovered_at": "2026-11-01T00:13:12Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T02:13:06Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 5,
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T01:28:19Z"
+   "last_checked": "2026-11-01T01:43:15Z"
   }
  },
  "graduated": {
@@ -558,6 +543,23 @@
    "fails": 0,
    "last_checked": "2026-11-01T00:43:11Z",
    "graduated_at": "2026-11-01T01:01:40Z",
+   "checks_done": 7
+  },
+  "197412": {
+   "title": "Ленивые эксбо",
+   "slug": "197412-lenivye-eksbo",
+   "createdAt": "2026-10-31T23:36:34+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-10-31T23:43:10Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T01:43:06Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-01T01:28:13Z",
+   "graduated_at": "2026-11-01T01:43:10Z",
    "checks_done": 7
   }
  }
