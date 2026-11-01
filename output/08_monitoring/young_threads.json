@@ -3,23 +3,7 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {
-  "197442": {
-   "title": "ахуеть",
-   "slug": "197442-ahuet",
-   "createdAt": "2026-11-01T21:00:59+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-01T21:15:12Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-01T23:15:04Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-01T23:00:38Z"
-  }
- },
+ "threads": {},
  "graduated": {
   "197379": {
    "title": "при каком мсе меняется анимка бега",
@@ -990,6 +974,23 @@
    "fails": 0,
    "last_checked": "2026-11-01T22:43:48Z",
    "graduated_at": "2026-11-01T23:00:35Z",
+   "checks_done": 7
+  },
+  "197442": {
+   "title": "ахуеть",
+   "slug": "197442-ahuet",
+   "createdAt": "2026-11-01T21:00:59+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T21:15:12Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T23:15:04Z",
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-01T23:00:38Z",
+   "graduated_at": "2026-11-01T23:28:06Z",
    "checks_done": 7
   }
  }
