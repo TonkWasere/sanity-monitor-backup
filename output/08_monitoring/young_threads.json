@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-01T19:13:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T21:13:09Z",
-   "last_lpn": 31,
-   "last_cc": 31,
-   "checks": 6,
+   "last_lpn": 33,
+   "last_cc": 33,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-01T20:43:09Z"
+   "last_checked": "2026-11-01T20:58:08Z"
   },
   "197439": {
    "title": "Что случилось с Руной?",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-01T21:28:05Z",
    "last_lpn": 13,
    "last_cc": 12,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T20:43:11Z"
+   "last_checked": "2026-11-01T20:58:10Z"
   },
   "197438": {
    "title": "Слишком темно ночью",
@@ -45,9 +45,22 @@
    "until_ts": "2026-11-01T21:28:05Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T20:43:13Z"
+   "last_checked": "2026-11-01T20:58:12Z"
+  },
+  "197441": {
+   "title": "вопрос",
+   "slug": "197441-vopros",
+   "createdAt": "2026-11-01T20:44:22+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T20:58:15Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T22:58:06Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
