@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197425": {
-   "title": "Демки",
-   "slug": "197425-demki",
-   "createdAt": "2026-11-01T13:14:30+00:00",
-   "op_user": "Mars1k1k",
-   "stm": false,
-   "discovered_at": "2026-11-01T13:21:16Z",
-   "source": "snap35",
-   "until_ts": "2026-11-01T15:21:16Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-01T15:13:12Z"
-  },
   "197426": {
    "title": "Прыжки от стен в ГВ/ДМ",
    "slug": "197426-pryzhki-ot-sten-v-gvdm",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-01T15:43:12Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-01T15:13:14Z"
+   "last_checked": "2026-11-01T15:28:07Z"
   },
   "197427": {
    "title": "Непопулярное мнение о ивенте \"Празднество\"",
@@ -45,9 +30,9 @@
    "until_ts": "2026-11-01T16:00:09Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T15:13:16Z"
+   "last_checked": "2026-11-01T15:28:09Z"
   },
   "197428": {
    "title": "Посоветуйте оружие или сборку для PVP ",
@@ -58,11 +43,11 @@
    "discovered_at": "2026-11-01T15:00:44Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T17:00:35Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 1,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-01T15:13:17Z"
+   "last_checked": "2026-11-01T15:28:11Z"
   }
  },
  "graduated": {
@@ -781,6 +766,23 @@
    "last_checked": "2026-11-01T15:00:36Z",
    "graduated_at": "2026-11-01T15:13:10Z",
    "checks_done": 7
+  },
+  "197425": {
+   "title": "Демки",
+   "slug": "197425-demki",
+   "createdAt": "2026-11-01T13:14:30+00:00",
+   "op_user": "Mars1k1k",
+   "stm": false,
+   "discovered_at": "2026-11-01T13:21:16Z",
+   "source": "snap35",
+   "until_ts": "2026-11-01T15:21:16Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-01T15:13:12Z",
+   "graduated_at": "2026-11-01T15:28:06Z",
+   "checks_done": 8
   }
  }
 }
