@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197418": {
-   "title": "\"Кривые\" сигналы",
-   "slug": "197418-krivye-signaly",
-   "createdAt": "2026-11-01T06:46:24+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-01T07:00:18Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-01T09:00:14Z",
-   "last_lpn": 6,
-   "last_cc": 5,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-01T08:43:20Z"
-  },
   "197419": {
    "title": "Такой вопросик",
    "slug": "197419-takoy-voprosik",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-01T09:43:07Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-01T08:43:22Z"
+   "last_checked": "2026-11-01T09:06:40Z"
   }
  },
  "graduated": {
@@ -631,6 +616,23 @@
    "last_checked": "2026-11-01T07:13:10Z",
    "graduated_at": "2026-11-01T07:28:12Z",
    "checks_done": 8
+  },
+  "197418": {
+   "title": "\"Кривые\" сигналы",
+   "slug": "197418-krivye-signaly",
+   "createdAt": "2026-11-01T06:46:24+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T07:00:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T09:00:14Z",
+   "last_lpn": 6,
+   "last_cc": 5,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-01T08:43:20Z",
+   "graduated_at": "2026-11-01T09:06:39Z",
+   "checks_done": 7
   }
  }
 }
