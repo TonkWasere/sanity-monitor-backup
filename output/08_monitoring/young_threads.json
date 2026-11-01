@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-01T20:58:15Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T22:58:06Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 2,
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-01T21:28:06Z"
+   "last_checked": "2026-11-01T21:43:09Z"
   },
   "197442": {
    "title": "ахуеть",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-01T21:15:12Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T23:15:04Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 1,
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-01T21:28:08Z"
+   "last_checked": "2026-11-01T21:43:11Z"
   }
  },
  "graduated": {
