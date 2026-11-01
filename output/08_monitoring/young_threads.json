@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-01T11:28:16Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T13:28:10Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 5,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T12:43:09Z"
+   "last_checked": "2026-11-01T13:01:25Z"
   }
  },
  "graduated": {
