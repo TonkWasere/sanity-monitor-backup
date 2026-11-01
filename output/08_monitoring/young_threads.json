@@ -15,9 +15,9 @@
    "until_ts": "2026-11-01T15:13:09Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-01T14:00:10Z"
+   "last_checked": "2026-11-01T14:13:11Z"
   },
   "197425": {
    "title": "Демки",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-01T15:21:16Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-01T14:00:12Z"
+   "last_checked": "2026-11-01T14:13:14Z"
   },
   "197426": {
    "title": "Прыжки от стен в ГВ/ДМ",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-01T15:43:12Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-01T14:00:14Z"
+   "last_checked": "2026-11-01T14:13:16Z"
   },
   "197427": {
    "title": "Непопулярное мнение о ивенте \"Празднество\"",
@@ -58,9 +58,11 @@
    "discovered_at": "2026-11-01T14:00:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T16:00:09Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 0
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-01T14:13:17Z"
   }
  },
  "graduated": {
