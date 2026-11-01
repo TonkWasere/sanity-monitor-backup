@@ -15,9 +15,9 @@
    "until_ts": "2026-11-01T22:58:06Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-01T22:00:11Z"
+   "last_checked": "2026-11-01T22:13:10Z"
   },
   "197442": {
    "title": "ахуеть",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-01T21:15:12Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T23:15:04Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 3,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-01T22:00:13Z"
+   "last_checked": "2026-11-01T22:13:12Z"
   }
  },
  "graduated": {
