@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-01T15:00:44Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T17:00:35Z",
-   "last_lpn": 35,
-   "last_cc": 35,
-   "checks": 5,
+   "last_lpn": 36,
+   "last_cc": 36,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T16:45:04Z"
+   "last_checked": "2026-11-01T17:00:06Z"
   },
   "197429": {
    "title": "Ищу пачку +3 на рейт кидайте стату",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-01T17:43:06Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-01T16:45:05Z"
+   "last_checked": "2026-11-01T17:00:08Z"
   },
   "197430": {
    "title": "пропал лут при фулл инвенторе ",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-01T18:00:15Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-01T16:45:07Z"
+   "last_checked": "2026-11-01T17:00:09Z"
   },
   "197432": {
    "title": "Подпивасный геймплей",
@@ -58,9 +58,11 @@
    "discovered_at": "2026-11-01T16:45:10Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T18:45:02Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 0
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-01T17:00:11Z"
   },
   "197431": {
    "title": "Добавит женские скинц",
@@ -71,9 +73,11 @@
    "discovered_at": "2026-11-01T16:45:10Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T18:45:02Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-01T17:00:13Z"
   }
  },
  "graduated": {
