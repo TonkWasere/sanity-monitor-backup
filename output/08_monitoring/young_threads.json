@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197417": {
-   "title": "Шиза? Или разрабы нига дяй",
-   "slug": "197417-shiza-ili-razraby-niga-dyay",
-   "createdAt": "2026-11-01T05:14:40+00:00",
-   "op_user": "MOZGOJLPAB",
-   "stm": false,
-   "discovered_at": "2026-11-01T05:21:12Z",
-   "source": "snap35",
-   "until_ts": "2026-11-01T07:21:12Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-01T07:13:10Z"
-  },
   "197418": {
    "title": "\"Кривые\" сигналы",
    "slug": "197418-krivye-signaly",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-11-01T07:00:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T09:00:14Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 1,
+   "last_lpn": 6,
+   "last_cc": 5,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-01T07:13:11Z"
+   "last_checked": "2026-11-01T07:28:14Z"
   }
  },
  "graduated": {
@@ -613,6 +598,23 @@
    "fails": 0,
    "last_checked": "2026-11-01T04:13:08Z",
    "graduated_at": "2026-11-01T04:28:07Z",
+   "checks_done": 8
+  },
+  "197417": {
+   "title": "Шиза? Или разрабы нига дяй",
+   "slug": "197417-shiza-ili-razraby-niga-dyay",
+   "createdAt": "2026-11-01T05:14:40+00:00",
+   "op_user": "MOZGOJLPAB",
+   "stm": false,
+   "discovered_at": "2026-11-01T05:21:12Z",
+   "source": "snap35",
+   "until_ts": "2026-11-01T07:21:12Z",
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-01T07:13:10Z",
+   "graduated_at": "2026-11-01T07:28:12Z",
    "checks_done": 8
   }
  }
