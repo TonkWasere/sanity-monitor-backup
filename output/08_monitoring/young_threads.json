@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {},
+ "threads": {
+  "197417": {
+   "title": "Шиза? Или разрабы нига дяй",
+   "slug": "197417-shiza-ili-razraby-niga-dyay",
+   "createdAt": "2026-11-01T05:14:40+00:00",
+   "op_user": "MOZGOJLPAB",
+   "stm": false,
+   "discovered_at": "2026-11-01T05:21:12Z",
+   "source": "snap35",
+   "until_ts": "2026-11-01T07:21:12Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  }
+ },
  "graduated": {
   "197379": {
    "title": "при каком мсе меняется анимка бега",
