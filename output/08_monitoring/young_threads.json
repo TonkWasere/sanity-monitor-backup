@@ -15,9 +15,9 @@
    "until_ts": "2026-11-01T11:21:12Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-01T11:00:07Z"
+   "last_checked": "2026-11-01T11:13:12Z"
   },
   "197421": {
    "title": "Форт",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-01T09:43:14Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T11:43:10Z",
-   "last_lpn": 19,
-   "last_cc": 19,
-   "checks": 5,
+   "last_lpn": 20,
+   "last_cc": 20,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T11:00:10Z"
+   "last_checked": "2026-11-01T11:13:14Z"
   },
   "197422": {
    "title": "Отличный патч!",
@@ -46,7 +46,7 @@
    "last_lpn": 6,
    "last_cc": 6,
    "checks": 2,
-   "fails": 1,
+   "fails": 2,
    "last_checked": "2026-11-01T10:43:17Z",
    "last_error": "404"
   }
