@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-01T05:21:12Z",
    "source": "snap35",
    "until_ts": "2026-11-01T07:21:12Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 5,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T06:28:09Z"
+   "last_checked": "2026-11-01T06:43:11Z"
   }
  },
  "graduated": {
