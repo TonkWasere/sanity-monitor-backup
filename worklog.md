@@ -8512,3 +8512,4 @@ Task ID: 54-457: sweep 9xNEW-POSTS + 1 KEY 197399 (179022 +7 всплеск, 197
 - Task ID: 54-08-s15: тик 08:58 (исполнен 09:06): WIPE-179 глубокий (откат снапшота 19.10 23:43) — полный recovery (reset→vault MAC OK sha256 7f9edd5d→креды API 200→prev_lpn 421); 197418 GRADUATED (checks=7, финал 6/5 гэп 1, graduated=36); TICK-LOST слот 08:58; 197419 5/5 ч5 тихо
 - Task ID: 54-484: sweep 10xNEW-POSTS (197411 11→21 +10 рекорд тика, 197402 +4=125, 197371 =100 сотня, 197355 +2=23, 193452 +2=286, 112917 +3/гэп 1256), EXT 0, deep 0; OWW-FAIL x4 (45-й); WIPE-179 глубокий ~08:55 recovery OK, 197418 GRADUATED (graduated=36); караул 5/11; ledger №495
 - Task ID: 54-09-s35: NEW 197420 «Пропали вещи» OP Rammkota lpn/cc 2/2 → young 2h (createdAt 09:14:55)
+- Task ID: 54-485: sweep 5xNEW-POSTS (197355 +5=28 взрыв, 197322 +1=113, 197371 +1=101, 197402 +1=126, 197414 +1=15), EXT 0, deep 0; OWW-FAIL x4 (46-й); караул 4/11; ledger №496
