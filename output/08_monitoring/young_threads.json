@@ -15,9 +15,9 @@
    "until_ts": "2026-11-01T09:00:14Z",
    "last_lpn": 6,
    "last_cc": 5,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-01T08:28:08Z"
+   "last_checked": "2026-11-01T08:43:20Z"
   },
   "197419": {
    "title": "Такой вопросик",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-01T09:43:07Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-01T08:28:10Z"
+   "last_checked": "2026-11-01T08:43:22Z"
   }
  },
  "graduated": {
