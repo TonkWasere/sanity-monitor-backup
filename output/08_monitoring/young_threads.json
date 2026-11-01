@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197424": {
-   "title": "нооконвентор",
-   "slug": "197424-nookonventor",
-   "createdAt": "2026-11-01T13:01:52+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-01T13:13:13Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-01T15:13:09Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-01T15:00:36Z"
-  },
   "197425": {
    "title": "Демки",
    "slug": "197425-demki",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-01T15:21:16Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-01T15:00:38Z"
+   "last_checked": "2026-11-01T15:13:12Z"
   },
   "197426": {
    "title": "Прыжки от стен в ГВ/ДМ",
@@ -45,9 +30,9 @@
    "until_ts": "2026-11-01T15:43:12Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T15:00:40Z"
+   "last_checked": "2026-11-01T15:13:14Z"
   },
   "197427": {
    "title": "Непопулярное мнение о ивенте \"Празднество\"",
@@ -60,9 +45,9 @@
    "until_ts": "2026-11-01T16:00:09Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-01T15:00:42Z"
+   "last_checked": "2026-11-01T15:13:16Z"
   },
   "197428": {
    "title": "Посоветуйте оружие или сборку для PVP ",
@@ -73,9 +58,11 @@
    "discovered_at": "2026-11-01T15:00:44Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T17:00:35Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-01T15:13:17Z"
   }
  },
  "graduated": {
@@ -777,6 +764,23 @@
    "last_checked": "2026-11-01T13:28:10Z",
    "graduated_at": "2026-11-01T13:43:12Z",
    "checks_done": 8
+  },
+  "197424": {
+   "title": "нооконвентор",
+   "slug": "197424-nookonventor",
+   "createdAt": "2026-11-01T13:01:52+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T13:13:13Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T15:13:09Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-01T15:00:36Z",
+   "graduated_at": "2026-11-01T15:13:10Z",
+   "checks_done": 7
   }
  }
 }
