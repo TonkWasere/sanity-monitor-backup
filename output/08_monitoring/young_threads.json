@@ -33,6 +33,19 @@
    "checks": 2,
    "fails": 0,
    "last_checked": "2026-11-01T10:13:16Z"
+  },
+  "197422": {
+   "title": "Отличный патч!",
+   "slug": "197422-otlichnyy-patch",
+   "createdAt": "2026-11-01T10:13:51+00:00",
+   "op_user": "stm:76561199474354936",
+   "stm": true,
+   "discovered_at": "2026-11-01T10:21:13Z",
+   "source": "snap35",
+   "until_ts": "2026-11-01T12:21:13Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 0
   }
  },
  "graduated": {
