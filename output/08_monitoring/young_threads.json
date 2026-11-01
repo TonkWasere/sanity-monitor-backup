@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197437": {
-   "title": "Общество защиты бичуганов",
-   "slug": "197437-obschestvo-zaschity-bichuganov",
-   "createdAt": "2026-11-01T18:31:37+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-01T19:13:17Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-01T21:13:09Z",
-   "last_lpn": 33,
-   "last_cc": 33,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-01T20:58:08Z"
-  },
   "197439": {
    "title": "Что случилось с Руной?",
    "slug": "197439-chto-sluchilos-s-runoy",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-01T21:28:05Z",
    "last_lpn": 13,
    "last_cc": 12,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-01T20:58:10Z"
+   "last_checked": "2026-11-01T21:15:06Z"
   },
   "197438": {
    "title": "Слишком темно ночью",
@@ -45,9 +30,9 @@
    "until_ts": "2026-11-01T21:28:05Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-01T20:58:12Z"
+   "last_checked": "2026-11-01T21:15:08Z"
   },
   "197441": {
    "title": "вопрос",
@@ -60,6 +45,21 @@
    "until_ts": "2026-11-01T22:58:06Z",
    "last_lpn": 1,
    "last_cc": 1,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-01T21:15:09Z"
+  },
+  "197442": {
+   "title": "ахуеть",
+   "slug": "197442-ahuet",
+   "createdAt": "2026-11-01T21:00:59+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T21:15:12Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T23:15:04Z",
+   "last_lpn": 4,
+   "last_cc": 4,
    "checks": 0
   }
  },
@@ -966,6 +966,23 @@
    "last_checked": "2026-11-01T20:13:07Z",
    "graduated_at": "2026-11-01T20:28:08Z",
    "checks_done": 6
+  },
+  "197437": {
+   "title": "Общество защиты бичуганов",
+   "slug": "197437-obschestvo-zaschity-bichuganov",
+   "createdAt": "2026-11-01T18:31:37+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T19:13:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T21:13:09Z",
+   "last_lpn": 33,
+   "last_cc": 33,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-01T20:58:08Z",
+   "graduated_at": "2026-11-01T21:15:05Z",
+   "checks_done": 7
   }
  }
 }
