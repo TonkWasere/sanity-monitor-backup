@@ -15,7 +15,9 @@
    "until_ts": "2026-11-01T07:21:12Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-01T05:28:09Z"
   }
  },
  "graduated": {
