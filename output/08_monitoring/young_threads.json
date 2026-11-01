@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197419": {
-   "title": "Такой вопросик",
-   "slug": "197419-takoy-voprosik",
-   "createdAt": "2026-11-01T07:41:05+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-01T07:43:12Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-01T09:43:07Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-01T09:28:25Z"
-  },
   "197420": {
    "title": "Пропали вещи",
    "slug": "197420-propali-veschi",
@@ -30,9 +15,22 @@
    "until_ts": "2026-11-01T11:21:12Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-01T09:28:26Z"
+   "last_checked": "2026-11-01T09:43:11Z"
+  },
+  "197421": {
+   "title": "Форт",
+   "slug": "197421-fort",
+   "createdAt": "2026-11-01T09:37:24+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T09:43:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T11:43:10Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 0
   }
  },
  "graduated": {
@@ -647,6 +645,23 @@
    "fails": 0,
    "last_checked": "2026-11-01T08:43:20Z",
    "graduated_at": "2026-11-01T09:06:39Z",
+   "checks_done": 7
+  },
+  "197419": {
+   "title": "Такой вопросик",
+   "slug": "197419-takoy-voprosik",
+   "createdAt": "2026-11-01T07:41:05+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T07:43:12Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T09:43:07Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-01T09:28:25Z",
+   "graduated_at": "2026-11-01T09:43:10Z",
    "checks_done": 7
   }
  }
