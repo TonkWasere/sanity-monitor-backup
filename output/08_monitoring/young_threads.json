@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197436": {
-   "title": "чо бля",
-   "slug": "197436-cho-blya",
-   "createdAt": "2026-11-01T18:04:25+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-01T18:13:19Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-01T20:13:09Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-01T20:13:07Z"
-  },
   "197437": {
    "title": "Общество защиты бичуганов",
    "slug": "197437-obschestvo-zaschity-bichuganov",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-11-01T19:13:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T21:13:09Z",
-   "last_lpn": 30,
-   "last_cc": 30,
-   "checks": 4,
+   "last_lpn": 31,
+   "last_cc": 31,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-01T20:13:09Z"
+   "last_checked": "2026-11-01T20:28:10Z"
   },
   "197439": {
    "title": "Что случилось с Руной?",
@@ -45,9 +30,9 @@
    "until_ts": "2026-11-01T21:28:05Z",
    "last_lpn": 13,
    "last_cc": 12,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-01T20:13:11Z"
+   "last_checked": "2026-11-01T20:28:11Z"
   },
   "197438": {
    "title": "Слишком темно ночью",
@@ -60,9 +45,9 @@
    "until_ts": "2026-11-01T21:28:05Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-01T20:13:12Z"
+   "last_checked": "2026-11-01T20:28:13Z"
   }
  },
  "graduated": {
@@ -951,6 +936,23 @@
    "last_checked": "2026-11-01T19:28:09Z",
    "graduated_at": "2026-11-01T19:43:07Z",
    "checks_done": 5
+  },
+  "197436": {
+   "title": "чо бля",
+   "slug": "197436-cho-blya",
+   "createdAt": "2026-11-01T18:04:25+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-01T18:13:19Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-01T20:13:09Z",
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-01T20:13:07Z",
+   "graduated_at": "2026-11-01T20:28:08Z",
+   "checks_done": 6
   }
  }
 }
