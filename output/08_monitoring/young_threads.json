@@ -15,9 +15,9 @@
    "until_ts": "2026-11-01T01:00:17Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-01T00:13:07Z"
+   "last_checked": "2026-11-01T00:28:07Z"
   },
   "197412": {
    "title": "Ленивые эксбо",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-01T01:43:06Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-01T00:13:09Z"
+   "last_checked": "2026-11-01T00:28:08Z"
   },
   "197415": {
    "title": "Аванпосты, итерация 0.0.0.0.1 (помет и палки)",
@@ -43,9 +43,11 @@
    "discovered_at": "2026-11-01T00:13:12Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T02:13:06Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-01T00:28:10Z"
   },
   "197414": {
    "title": "Аванпосты, итерация 0.0.0.0.1 (помет и палки)",
@@ -56,9 +58,11 @@
    "discovered_at": "2026-11-01T00:13:12Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-01T02:13:06Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-01T00:28:12Z"
   },
   "197413": {
    "title": "Празднество. Пластинка.",
@@ -71,7 +75,9 @@
    "until_ts": "2026-11-01T02:13:06Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-01T00:28:14Z"
   }
  },
  "graduated": {
