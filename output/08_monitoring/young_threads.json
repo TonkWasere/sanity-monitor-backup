@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197445": {
-   "title": "Мне его жалко",
-   "slug": "197445-mne-ego-zhalko",
-   "createdAt": "2026-11-02T06:11:34+00:00",
-   "op_user": "Gosha_Stepkin",
-   "stm": false,
-   "discovered_at": "2026-11-02T06:21:17Z",
-   "source": "snap35",
-   "until_ts": "2026-11-02T08:21:17Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-02T08:15:30Z"
-  },
   "197447": {
    "title": "Категоризация лута в инвентаре",
    "slug": "197447-kategorizatsiya-luta-v-inventare",
@@ -30,7 +15,9 @@
    "until_ts": "2026-11-02T10:15:28Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-02T08:28:28Z"
   },
   "197448": {
    "title": "Что делать в игре кроме кв и ивентов?",
@@ -41,9 +28,11 @@
    "discovered_at": "2026-11-02T08:21:23Z",
    "source": "snap35",
    "until_ts": "2026-11-02T10:21:23Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-02T08:28:30Z"
   }
  },
  "graduated": {
@@ -1068,6 +1057,23 @@
    "last_checked": "2026-11-02T05:00:15Z",
    "graduated_at": "2026-11-02T05:13:18Z",
    "checks_done": 7
+  },
+  "197445": {
+   "title": "Мне его жалко",
+   "slug": "197445-mne-ego-zhalko",
+   "createdAt": "2026-11-02T06:11:34+00:00",
+   "op_user": "Gosha_Stepkin",
+   "stm": false,
+   "discovered_at": "2026-11-02T06:21:17Z",
+   "source": "snap35",
+   "until_ts": "2026-11-02T08:21:17Z",
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-02T08:15:30Z",
+   "graduated_at": "2026-11-02T08:28:27Z",
+   "checks_done": 8
   }
  }
 }
