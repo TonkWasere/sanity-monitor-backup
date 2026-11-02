@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197464": {
-   "title": "Мама, купи",
-   "slug": "197464-mama-kupi",
-   "createdAt": "2026-11-02T21:14:07+00:00",
-   "op_user": "TexasL",
-   "stm": false,
-   "discovered_at": "2026-11-02T21:21:11Z",
-   "source": "snap35",
-   "until_ts": "2026-11-02T23:21:11Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-02T23:13:20Z"
-  },
   "197465": {
    "title": "Не триггерится начало квеста \"Отец и сын\"",
    "slug": "197465-ne-triggeritsya-nachalo-kvesta-otets-i-syn",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-03T00:43:13Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-02T23:13:21Z"
+   "last_checked": "2026-11-02T23:28:11Z"
   }
  },
  "graduated": {
@@ -1330,6 +1315,23 @@
    "fails": 0,
    "last_checked": "2026-11-02T22:13:10Z",
    "graduated_at": "2026-11-02T22:28:08Z",
+   "checks_done": 8
+  },
+  "197464": {
+   "title": "Мама, купи",
+   "slug": "197464-mama-kupi",
+   "createdAt": "2026-11-02T21:14:07+00:00",
+   "op_user": "TexasL",
+   "stm": false,
+   "discovered_at": "2026-11-02T21:21:11Z",
+   "source": "snap35",
+   "until_ts": "2026-11-02T23:21:11Z",
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-02T23:13:20Z",
+   "graduated_at": "2026-11-02T23:28:10Z",
    "checks_done": 8
   }
  }
