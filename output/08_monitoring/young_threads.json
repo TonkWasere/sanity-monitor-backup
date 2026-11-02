@@ -31,6 +31,19 @@
    "last_lpn": 1,
    "last_cc": 1,
    "checks": 0
+  },
+  "197448": {
+   "title": "Что делать в игре кроме кв и ивентов?",
+   "slug": "197448-chto-delat-v-igre-krome-kv-i-iventov",
+   "createdAt": "2026-11-02T08:15:37+00:00",
+   "op_user": "stm:76561199438102061",
+   "stm": true,
+   "discovered_at": "2026-11-02T08:21:23Z",
+   "source": "snap35",
+   "until_ts": "2026-11-02T10:21:23Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
   }
  },
  "graduated": {
