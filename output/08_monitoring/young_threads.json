@@ -49,6 +49,19 @@
    "checks": 4,
    "fails": 0,
    "last_checked": "2026-11-02T21:13:12Z"
+  },
+  "197464": {
+   "title": "Мама, купи",
+   "slug": "197464-mama-kupi",
+   "createdAt": "2026-11-02T21:14:07+00:00",
+   "op_user": "TexasL",
+   "stm": false,
+   "discovered_at": "2026-11-02T21:21:11Z",
+   "source": "snap35",
+   "until_ts": "2026-11-02T23:21:11Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 0
   }
  },
  "graduated": {
