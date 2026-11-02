@@ -15,9 +15,9 @@
    "until_ts": "2026-11-02T19:48:05Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-02T19:13:13Z"
+   "last_checked": "2026-11-02T19:43:17Z"
   },
   "197461": {
    "title": "Связался с кубиками. Итог",
@@ -28,9 +28,11 @@
    "discovered_at": "2026-11-02T19:13:16Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T21:13:11Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-02T19:43:19Z"
   }
  },
  "graduated": {
