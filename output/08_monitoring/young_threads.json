@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-02T13:05:11Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T15:05:08Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 3,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-02T14:03:14Z"
+   "last_checked": "2026-11-02T14:13:25Z"
   },
   "197453": {
    "title": "😭 Перенос итогов конкурса рисунков",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-02T15:05:08Z",
    "last_lpn": 5,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-02T14:03:17Z"
+   "last_checked": "2026-11-02T14:13:26Z"
   }
  },
  "graduated": {
