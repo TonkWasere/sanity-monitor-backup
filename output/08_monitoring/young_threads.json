@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {},
+ "threads": {
+  "197445": {
+   "title": "Мне его жалко",
+   "slug": "197445-mne-ego-zhalko",
+   "createdAt": "2026-11-02T06:11:34+00:00",
+   "op_user": "Gosha_Stepkin",
+   "stm": false,
+   "discovered_at": "2026-11-02T06:21:17Z",
+   "source": "snap35",
+   "until_ts": "2026-11-02T08:21:17Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 0
+  }
+ },
  "graduated": {
   "197379": {
    "title": "при каком мсе меняется анимка бега",
