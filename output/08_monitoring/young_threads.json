@@ -15,9 +15,9 @@
    "until_ts": "2026-11-02T10:15:28Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-02T08:28:28Z"
+   "last_checked": "2026-11-02T08:43:23Z"
   },
   "197448": {
    "title": "Что делать в игре кроме кв и ивентов?",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-02T08:21:23Z",
    "source": "snap35",
    "until_ts": "2026-11-02T10:21:23Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-02T08:28:30Z"
+   "last_checked": "2026-11-02T08:43:25Z"
   }
  },
  "graduated": {
