@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-02T14:21:15Z",
    "source": "snap35",
    "until_ts": "2026-11-02T16:21:15Z",
-   "last_lpn": 18,
-   "last_cc": 16,
-   "checks": 3,
+   "last_lpn": 19,
+   "last_cc": 17,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-02T15:07:30Z"
+   "last_checked": "2026-11-02T15:15:30Z"
   },
   "197456": {
    "title": "💡 Суть предложения: бонусные эффекты для брони ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-02T16:43:08Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-02T15:07:31Z"
+   "last_checked": "2026-11-02T15:15:31Z"
   }
  },
  "graduated": {
