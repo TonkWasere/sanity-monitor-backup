@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197449": {
-   "title": "Имхо об ивенте Празднество ",
-   "slug": "197449-imho-ob-ivente-prazdnestvo",
-   "createdAt": "2026-11-02T08:48:05+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-02T09:06:04Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-02T11:05:58Z",
-   "last_lpn": 30,
-   "last_cc": 30,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-02T10:55:49Z"
-  },
   "197450": {
    "title": "Баг или фича?",
    "slug": "197450-bag-ili-ficha",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-02T11:43:10Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-02T10:55:51Z"
+   "last_checked": "2026-11-02T11:28:10Z"
   },
   "197451": {
    "title": "События и статистика",
@@ -43,11 +28,11 @@
    "discovered_at": "2026-11-02T10:01:09Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T12:01:00Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 4,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-02T10:55:53Z"
+   "last_checked": "2026-11-02T11:28:11Z"
   },
   "197452": {
    "title": "Кд в ветеранских сессиях",
@@ -58,11 +43,11 @@
    "discovered_at": "2026-11-02T10:14:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T12:14:24Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 3,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-02T10:55:54Z"
+   "last_checked": "2026-11-02T11:28:13Z"
   }
  },
  "graduated": {
@@ -1137,6 +1122,23 @@
    "fails": 0,
    "last_checked": "2026-11-02T10:14:28Z",
    "graduated_at": "2026-11-02T10:28:16Z",
+   "checks_done": 8
+  },
+  "197449": {
+   "title": "Имхо об ивенте Празднество ",
+   "slug": "197449-imho-ob-ivente-prazdnestvo",
+   "createdAt": "2026-11-02T08:48:05+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T09:06:04Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T11:05:58Z",
+   "last_lpn": 30,
+   "last_cc": 30,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-02T10:55:49Z",
+   "graduated_at": "2026-11-02T11:28:08Z",
    "checks_done": 8
   }
  }
