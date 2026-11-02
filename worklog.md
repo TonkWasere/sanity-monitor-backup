@@ -8599,3 +8599,4 @@ Task ID: 54-457: sweep 9xNEW-POSTS + 1 KEY 197399 (179022 +7 всплеск, 197
 - Task ID: 54-513: sweep 1xROLLBACK (197370 откат 34→33) + 1xNEW-POSTS (197402 x2), CANON нет, EXT 0 (11-й штиль), deep 1 [197370]; караул 3/8; ledger №524
 - Task ID: 54-514: sweep 1xNEW-POSTS (197402 x3), CANON нет, EXT 0 (12-й штиль), deep 0; WIPE-198 ~01:57 верифицирован (recovery 13-й, свип отложен 3 мин); караул 3/8; ledger №525
 - Task ID: 54-02-s15: тик 02:28: TICK-LOST ~02:10 (слоты 01:58+02:13 без артефактов — разрыв 45 мин > 22, детект скриптом; слепая зона ~45 мин); 197443 «Почему в PvEvP ивенте» TTL-выпуск в graduated (young=0, graduated=59; финальный замер =9/9 x5-6)
+- Task ID: 54-515: sweep 8xNEW-POSTS (197443 пост-graduated 10, 197442 разгон 18, 197423 x4 28, 197437 +2 37, 197411, 197274, 142508), CANON ДА (196411 MATCH + GG x4 alive), EXT 0 (13-й штиль), deep 0; караул 3/8; ledger №526
