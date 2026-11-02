@@ -3,23 +3,7 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {
-  "197452": {
-   "title": "Кд в ветеранских сессиях",
-   "slug": "197452-kd-v-veteranskih-sessiyah",
-   "createdAt": "2026-11-02T10:01:32+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-02T10:14:36Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-02T12:14:24Z",
-   "last_lpn": 18,
-   "last_cc": 18,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-02T12:12:49Z"
-  }
- },
+ "threads": {},
  "graduated": {
   "197379": {
    "title": "при каком мсе меняется анимка бега",
@@ -1143,6 +1127,23 @@
    "fails": 0,
    "last_checked": "2026-11-02T11:43:10Z",
    "graduated_at": "2026-11-02T12:12:47Z",
+   "checks_done": 6
+  },
+  "197452": {
+   "title": "Кд в ветеранских сессиях",
+   "slug": "197452-kd-v-veteranskih-sessiyah",
+   "createdAt": "2026-11-02T10:01:32+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T10:14:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T12:14:24Z",
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-02T12:12:49Z",
+   "graduated_at": "2026-11-02T12:28:06Z",
    "checks_done": 6
   }
  }
