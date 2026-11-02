@@ -397,3 +397,4 @@
 - 2026-11-02T17:48:09Z snap15 197460 RECONCILE-ADD «вопрос насчет конкурса рисунков» createdAt 2026-11-02T17:28:59+00:00 lpn/cc 14/14 → young(2h)
 - 2026-11-02T17:58:09Z snap15 197457 CHECK FAIL x4 (404) — VANISH? (2+ подряд; title: Баланс)
 - 2026-11-02T18:13:10Z snap15 197457 CHECK FAIL x5 (404) — VANISH? (2+ подряд; title: Баланс)
+- 2026-11-02T18:28:10Z snap15 197457 CHECK FAIL x6 (404) — VANISH? (2+ подряд; title: Баланс)
