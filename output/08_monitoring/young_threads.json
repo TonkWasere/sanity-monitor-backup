@@ -15,9 +15,9 @@
    "until_ts": "2026-11-02T10:15:28Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-02T09:28:12Z"
+   "last_checked": "2026-11-02T09:43:12Z"
   },
   "197448": {
    "title": "Что делать в игре кроме кв и ивентов?",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-02T08:21:23Z",
    "source": "snap35",
    "until_ts": "2026-11-02T10:21:23Z",
-   "last_lpn": 20,
-   "last_cc": 20,
-   "checks": 5,
+   "last_lpn": 28,
+   "last_cc": 28,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-02T09:28:14Z"
+   "last_checked": "2026-11-02T09:43:13Z"
   },
   "197449": {
    "title": "Имхо об ивенте Празднество ",
@@ -45,9 +45,22 @@
    "until_ts": "2026-11-02T11:05:58Z",
    "last_lpn": 17,
    "last_cc": 17,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-02T09:28:16Z"
+   "last_checked": "2026-11-02T09:43:15Z"
+  },
+  "197450": {
+   "title": "Баг или фича?",
+   "slug": "197450-bag-ili-ficha",
+   "createdAt": "2026-11-02T09:39:35+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T09:43:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T11:43:10Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
   }
  },
  "graduated": {
