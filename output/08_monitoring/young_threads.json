@@ -16,7 +16,7 @@
    "last_lpn": 12,
    "last_cc": 12,
    "checks": 1,
-   "fails": 2,
+   "fails": 3,
    "last_checked": "2026-11-02T19:43:19Z",
    "last_error": "404"
   },
@@ -31,9 +31,9 @@
    "until_ts": "2026-11-02T22:03:07Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-02T20:16:40Z"
+   "last_checked": "2026-11-02T20:28:15Z"
   },
   "197463": {
    "title": "можно ли мутить людей за попрошайничество ",
@@ -44,9 +44,11 @@
    "discovered_at": "2026-11-02T20:21:20Z",
    "source": "snap35",
    "until_ts": "2026-11-02T22:21:20Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-02T20:28:17Z"
   }
  },
  "graduated": {
