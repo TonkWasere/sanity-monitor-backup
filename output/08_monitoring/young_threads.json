@@ -15,9 +15,9 @@
    "until_ts": "2026-11-02T10:15:28Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-02T09:06:00Z"
+   "last_checked": "2026-11-02T09:14:45Z"
   },
   "197448": {
    "title": "Что делать в игре кроме кв и ивентов?",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-02T10:21:23Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-02T09:06:02Z"
+   "last_checked": "2026-11-02T09:14:47Z"
   },
   "197449": {
    "title": "Имхо об ивенте Празднество ",
@@ -43,9 +43,11 @@
    "discovered_at": "2026-11-02T09:06:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T11:05:58Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 0
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-02T09:14:49Z"
   }
  },
  "graduated": {
