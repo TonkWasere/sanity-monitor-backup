@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-02T08:15:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T10:15:28Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 2,
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-02T08:43:23Z"
+   "last_checked": "2026-11-02T09:06:00Z"
   },
   "197448": {
    "title": "Что делать в игре кроме кв и ивентов?",
@@ -28,11 +28,24 @@
    "discovered_at": "2026-11-02T08:21:23Z",
    "source": "snap35",
    "until_ts": "2026-11-02T10:21:23Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 2,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-02T08:43:25Z"
+   "last_checked": "2026-11-02T09:06:02Z"
+  },
+  "197449": {
+   "title": "Имхо об ивенте Празднество ",
+   "slug": "197449-imho-ob-ivente-prazdnestvo",
+   "createdAt": "2026-11-02T08:48:05+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T09:06:04Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T11:05:58Z",
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 0
   }
  },
  "graduated": {
