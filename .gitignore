@@ -18,3 +18,6 @@ output/sanity_sources_stage/
 tests/
 # массивные старые снап-хранилища вне evidence_post (никогда не коммичены, 30k+ файлов)
 output/02_api_snapshots/
+
+# temp-файлы параллельных ext_sources процессов (root-owned, .name.XXXXXX) — никогда не коммитятся (урок pass#98)
+output/evidence_post/.*
