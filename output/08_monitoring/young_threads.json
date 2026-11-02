@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197455": {
-   "title": "Чем заняться спустя 12 лет игры",
-   "slug": "197455-chem-zanyatsya-spustya-12-let-igry",
-   "createdAt": "2026-11-02T14:17:09+00:00",
-   "op_user": "irpoiro",
-   "stm": false,
-   "discovered_at": "2026-11-02T14:21:15Z",
-   "source": "snap35",
-   "until_ts": "2026-11-02T16:21:15Z",
-   "last_lpn": 24,
-   "last_cc": 22,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-02T16:13:16Z"
-  },
   "197456": {
    "title": "💡 Суть предложения: бонусные эффекты для брони ",
    "slug": "197456-sut-predlozheniya-bonusnye-effekty-dlya-broni",
@@ -30,9 +15,22 @@
    "until_ts": "2026-11-02T16:43:08Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-02T16:13:18Z"
+   "last_checked": "2026-11-02T16:29:16Z"
+  },
+  "197457": {
+   "title": "Баланс",
+   "slug": "197457-balans",
+   "createdAt": "2026-11-02T16:28:47+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T16:29:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T18:29:14Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
@@ -1210,6 +1208,23 @@
    "last_checked": "2026-11-02T14:43:10Z",
    "graduated_at": "2026-11-02T15:07:28Z",
    "checks_done": 6
+  },
+  "197455": {
+   "title": "Чем заняться спустя 12 лет игры",
+   "slug": "197455-chem-zanyatsya-spustya-12-let-igry",
+   "createdAt": "2026-11-02T14:17:09+00:00",
+   "op_user": "irpoiro",
+   "stm": false,
+   "discovered_at": "2026-11-02T14:21:15Z",
+   "source": "snap35",
+   "until_ts": "2026-11-02T16:21:15Z",
+   "last_lpn": 24,
+   "last_cc": 22,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-02T16:13:16Z",
+   "graduated_at": "2026-11-02T16:29:14Z",
+   "checks_done": 8
   }
  }
 }
