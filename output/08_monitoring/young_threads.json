@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-02T08:15:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T10:15:28Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 7,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-02T10:01:02Z"
+   "last_checked": "2026-11-02T10:14:26Z"
   },
   "197448": {
    "title": "Что делать в игре кроме кв и ивентов?",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-02T08:21:23Z",
    "source": "snap35",
    "until_ts": "2026-11-02T10:21:23Z",
-   "last_lpn": 34,
-   "last_cc": 34,
-   "checks": 7,
+   "last_lpn": 38,
+   "last_cc": 38,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-02T10:01:04Z"
+   "last_checked": "2026-11-02T10:14:28Z"
   },
   "197449": {
    "title": "Имхо об ивенте Празднество ",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-11-02T09:06:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T11:05:58Z",
-   "last_lpn": 23,
-   "last_cc": 23,
-   "checks": 4,
+   "last_lpn": 24,
+   "last_cc": 24,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-02T10:01:05Z"
+   "last_checked": "2026-11-02T10:14:30Z"
   },
   "197450": {
    "title": "Баг или фича?",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-02T11:43:10Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-02T10:01:07Z"
+   "last_checked": "2026-11-02T10:14:32Z"
   },
   "197451": {
    "title": "События и статистика",
@@ -73,8 +73,23 @@
    "discovered_at": "2026-11-02T10:01:09Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T12:01:00Z",
-   "last_lpn": 1,
-   "last_cc": 1,
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-02T10:14:33Z"
+  },
+  "197452": {
+   "title": "Кд в ветеранских сессиях",
+   "slug": "197452-kd-v-veteranskih-sessiyah",
+   "createdAt": "2026-11-02T10:01:32+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T10:14:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T12:14:24Z",
+   "last_lpn": 6,
+   "last_cc": 6,
    "checks": 0
   }
  },
