@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197450": {
-   "title": "Баг или фича?",
-   "slug": "197450-bag-ili-ficha",
-   "createdAt": "2026-11-02T09:39:35+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-02T09:43:18Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-02T11:43:10Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-02T11:43:08Z"
-  },
-  "197451": {
-   "title": "События и статистика",
-   "slug": "197451-sobytiya-i-statistika",
-   "createdAt": "2026-11-02T09:57:26+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-02T10:01:09Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-02T12:01:00Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-02T11:43:10Z"
-  },
   "197452": {
    "title": "Кд в ветеранских сессиях",
    "slug": "197452-kd-v-veteranskih-sessiyah",
@@ -43,11 +13,11 @@
    "discovered_at": "2026-11-02T10:14:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T12:14:24Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 5,
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-02T11:43:11Z"
+   "last_checked": "2026-11-02T12:12:49Z"
   }
  },
  "graduated": {
@@ -1140,6 +1110,40 @@
    "last_checked": "2026-11-02T10:55:49Z",
    "graduated_at": "2026-11-02T11:28:08Z",
    "checks_done": 8
+  },
+  "197450": {
+   "title": "Баг или фича?",
+   "slug": "197450-bag-ili-ficha",
+   "createdAt": "2026-11-02T09:39:35+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T09:43:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T11:43:10Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-02T11:43:08Z",
+   "graduated_at": "2026-11-02T12:12:47Z",
+   "checks_done": 7
+  },
+  "197451": {
+   "title": "События и статистика",
+   "slug": "197451-sobytiya-i-statistika",
+   "createdAt": "2026-11-02T09:57:26+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T10:01:09Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T12:01:00Z",
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-02T11:43:10Z",
+   "graduated_at": "2026-11-02T12:12:47Z",
+   "checks_done": 6
   }
  }
 }
