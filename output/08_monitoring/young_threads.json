@@ -15,9 +15,22 @@
    "until_ts": "2026-11-02T19:48:05Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-02T19:00:40Z"
+   "last_checked": "2026-11-02T19:13:13Z"
+  },
+  "197461": {
+   "title": "Связался с кубиками. Итог",
+   "slug": "197461-svyazalsya-s-kubikami-itog",
+   "createdAt": "2026-11-02T19:11:48+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T19:13:16Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T21:13:11Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
