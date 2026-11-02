@@ -34,6 +34,19 @@
    "checks": 1,
    "fails": 0,
    "last_checked": "2026-11-02T20:16:40Z"
+  },
+  "197463": {
+   "title": "можно ли мутить людей за попрошайничество ",
+   "slug": "197463-mozhno-li-mutit-lyudey-za-poproshaynichestvo",
+   "createdAt": "2026-11-02T20:20:33+00:00",
+   "op_user": "Slamience",
+   "stm": false,
+   "discovered_at": "2026-11-02T20:21:20Z",
+   "source": "snap35",
+   "until_ts": "2026-11-02T22:21:20Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
