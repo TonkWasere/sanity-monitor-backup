@@ -4,12 +4,12 @@
   "stalzone": {
    "last_id": 3274,
    "last_dt": "2026-11-02T13:00:10+00:00",
-   "last_views": "21.4K"
+   "last_views": "21.7K"
   },
   "spectrum_zone": {
    "last_id": 8104,
    "last_dt": "2026-11-02T09:50:42+00:00",
-   "last_views": "8.67K"
+   "last_views": "8.73K"
   }
  },
  "steam": {
@@ -48,9 +48,9 @@
   "articles": {
    "stalzone-cep-raspada-nagrazhdenie-la170998": {
     "title": "stalzone-cep-raspada-nagrazhdenie-la170998",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-21T10:36:55+03:00",
+    "modified": "2026-10-21T12:26:41+03:00",
+    "fp": "892a86089dc7"
    },
    "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563": {
     "title": "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563",
@@ -60,39 +60,39 @@
    },
    "stalzone-patchnout-28102026-ergsekrnv": {
     "title": "stalzone-patchnout-28102026-ergsekrnv",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-28T11:09:01+03:00",
+    "modified": "2026-10-28T16:12:54+03:00",
+    "fp": "a5743d170933"
    },
    "stalzone-otkrytie-testovogo-servera-16102026-1": {
     "title": "stalzone-otkrytie-testovogo-servera-16102026-1",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-15T15:00:36+03:00",
+    "modified": "2026-10-16T21:08:53+03:00",
+    "fp": "9318c249c309"
    },
    "stalzone-ostanavlivauschee-deistvie": {
     "title": "stalzone-ostanavlivauschee-deistvie",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-06T14:45:48+03:00",
+    "modified": "2026-10-06T15:29:55+03:00",
+    "fp": "d7ceca8d5096"
    },
    "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3": {
     "title": "stalzone-itogi-konkursa-v-obektive-stalzone-sd457gdfd3",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-02T19:41:26+03:00",
+    "modified": "2026-10-11T18:32:25+03:00",
+    "fp": "a891f4c9dedc"
    },
    "stalzone-vopros-otvet-s-otdelom-razrabotki-ii-12412afdf": {
     "title": "stalzone-vopros-otvet-s-otdelom-razrabotki-ii-12412afdf",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-01T14:53:24+03:00",
+    "modified": "2026-10-01T16:02:05+03:00",
+    "fp": "3f3e1ea7d818"
    },
    "stalzone-patchnout-30092026-mr639022": {
     "title": "stalzone-patchnout-30092026-mr639022",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-09-30T10:03:21+03:00",
+    "modified": "2026-09-30T11:40:27+03:00",
+    "fp": "853834e182a6"
    },
    "stalzone-obnovlenie-ekonomiki-otkrytogo-mira-yrolfgmeghzkjtmb": {
     "title": "",
@@ -306,7 +306,7 @@
     1149204
    ],
    "top": 1150469,
-   "last_check": "20261102_2034"
+   "last_check": "20261102_2109"
   }
  },
  "youtube": {
@@ -329,5 +329,5 @@
   ],
   "last_ts": "2026-10-31T21:00:37+00:00"
  },
- "updated": "2026-11-02T20:35:53+00:00"
+ "updated": "2026-11-02T21:09:50+00:00"
 }
