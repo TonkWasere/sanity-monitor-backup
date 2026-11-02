@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {},
+ "threads": {
+  "197443": {
+   "title": "Почему в PvEvP ивенте",
+   "slug": "197443-pochemu-v-pvevp-ivente",
+   "createdAt": "2026-11-01T23:34:12+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T00:00:55Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T02:00:52Z",
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 0
+  }
+ },
  "graduated": {
   "197379": {
    "title": "при каком мсе меняется анимка бега",
