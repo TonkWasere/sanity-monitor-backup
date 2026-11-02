@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197447": {
-   "title": "Категоризация лута в инвентаре",
-   "slug": "197447-kategorizatsiya-luta-v-inventare",
-   "createdAt": "2026-11-02T08:13:01+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-02T08:15:32Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-02T10:15:28Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-02T10:14:26Z"
-  },
-  "197448": {
-   "title": "Что делать в игре кроме кв и ивентов?",
-   "slug": "197448-chto-delat-v-igre-krome-kv-i-iventov",
-   "createdAt": "2026-11-02T08:15:37+00:00",
-   "op_user": "stm:76561199438102061",
-   "stm": true,
-   "discovered_at": "2026-11-02T08:21:23Z",
-   "source": "snap35",
-   "until_ts": "2026-11-02T10:21:23Z",
-   "last_lpn": 38,
-   "last_cc": 38,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-02T10:14:28Z"
-  },
   "197449": {
    "title": "Имхо об ивенте Празднество ",
    "slug": "197449-imho-ob-ivente-prazdnestvo",
@@ -43,11 +13,11 @@
    "discovered_at": "2026-11-02T09:06:04Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T11:05:58Z",
-   "last_lpn": 24,
-   "last_cc": 24,
-   "checks": 5,
+   "last_lpn": 27,
+   "last_cc": 27,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-02T10:14:30Z"
+   "last_checked": "2026-11-02T10:28:17Z"
   },
   "197450": {
    "title": "Баг или фича?",
@@ -60,9 +30,9 @@
    "until_ts": "2026-11-02T11:43:10Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-02T10:14:32Z"
+   "last_checked": "2026-11-02T10:28:19Z"
   },
   "197451": {
    "title": "События и статистика",
@@ -75,9 +45,9 @@
    "until_ts": "2026-11-02T12:01:00Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-02T10:14:33Z"
+   "last_checked": "2026-11-02T10:28:21Z"
   },
   "197452": {
    "title": "Кд в ветеранских сессиях",
@@ -88,9 +58,11 @@
    "discovered_at": "2026-11-02T10:14:36Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T12:14:24Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 0
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-02T10:28:22Z"
   }
  },
  "graduated": {
@@ -1131,6 +1103,40 @@
    "fails": 0,
    "last_checked": "2026-11-02T08:15:30Z",
    "graduated_at": "2026-11-02T08:28:27Z",
+   "checks_done": 8
+  },
+  "197447": {
+   "title": "Категоризация лута в инвентаре",
+   "slug": "197447-kategorizatsiya-luta-v-inventare",
+   "createdAt": "2026-11-02T08:13:01+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T08:15:32Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T10:15:28Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-02T10:14:26Z",
+   "graduated_at": "2026-11-02T10:28:16Z",
+   "checks_done": 8
+  },
+  "197448": {
+   "title": "Что делать в игре кроме кв и ивентов?",
+   "slug": "197448-chto-delat-v-igre-krome-kv-i-iventov",
+   "createdAt": "2026-11-02T08:15:37+00:00",
+   "op_user": "stm:76561199438102061",
+   "stm": true,
+   "discovered_at": "2026-11-02T08:21:23Z",
+   "source": "snap35",
+   "until_ts": "2026-11-02T10:21:23Z",
+   "last_lpn": 38,
+   "last_cc": 38,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-02T10:14:28Z",
+   "graduated_at": "2026-11-02T10:28:16Z",
    "checks_done": 8
   }
  }
