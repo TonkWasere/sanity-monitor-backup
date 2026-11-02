@@ -15,9 +15,22 @@
    "until_ts": "2026-11-02T08:21:17Z",
    "last_lpn": 12,
    "last_cc": 12,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-02T08:00:33Z"
+   "last_checked": "2026-11-02T08:15:30Z"
+  },
+  "197447": {
+   "title": "Категоризация лута в инвентаре",
+   "slug": "197447-kategorizatsiya-luta-v-inventare",
+   "createdAt": "2026-11-02T08:13:01+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T08:15:32Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T10:15:28Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
