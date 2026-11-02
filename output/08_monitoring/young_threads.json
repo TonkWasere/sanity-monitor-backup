@@ -15,9 +15,9 @@
    "until_ts": "2026-11-02T15:05:08Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-02T14:13:25Z"
+   "last_checked": "2026-11-02T14:28:11Z"
   },
   "197453": {
    "title": "😭 Перенос итогов конкурса рисунков",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-02T13:05:11Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T15:05:08Z",
-   "last_lpn": 5,
-   "last_cc": 4,
-   "checks": 4,
+   "last_lpn": 6,
+   "last_cc": 5,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-02T14:13:26Z"
+   "last_checked": "2026-11-02T14:28:12Z"
   },
   "197455": {
    "title": "Чем заняться спустя 12 лет игры",
@@ -43,9 +43,11 @@
    "discovered_at": "2026-11-02T14:21:15Z",
    "source": "snap35",
    "until_ts": "2026-11-02T16:21:15Z",
-   "last_lpn": 6,
-   "last_cc": 5,
-   "checks": 0
+   "last_lpn": 7,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-02T14:28:14Z"
   }
  },
  "graduated": {
