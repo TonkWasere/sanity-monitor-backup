@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197456": {
-   "title": "💡 Суть предложения: бонусные эффекты для брони ",
-   "slug": "197456-sut-predlozheniya-bonusnye-effekty-dlya-broni",
-   "createdAt": "2026-11-02T14:34:05+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-02T14:43:16Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-02T16:43:08Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-02T16:29:16Z"
-  },
   "197457": {
    "title": "Баланс",
    "slug": "197457-balans",
@@ -28,9 +13,11 @@
    "discovered_at": "2026-11-02T16:29:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-02T18:29:14Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 31,
+   "last_cc": 31,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-02T16:48:20Z"
   }
  },
  "graduated": {
@@ -1225,6 +1212,23 @@
    "last_checked": "2026-11-02T16:13:16Z",
    "graduated_at": "2026-11-02T16:29:14Z",
    "checks_done": 8
+  },
+  "197456": {
+   "title": "💡 Суть предложения: бонусные эффекты для брони ",
+   "slug": "197456-sut-predlozheniya-bonusnye-effekty-dlya-broni",
+   "createdAt": "2026-11-02T14:34:05+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T14:43:16Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T16:43:08Z",
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-02T16:29:16Z",
+   "graduated_at": "2026-11-02T16:48:18Z",
+   "checks_done": 7
   }
  }
 }
