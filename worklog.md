@@ -8698,3 +8698,4 @@ Task ID: 54-547: sweep 5xNEW-POSTS (197348 гэп 4→5 — 2-й снос в sti
 Task ID: 54-21-s15: тик 21:43: 197464 «Мама, купи» +1=8/8 (29 мин от рождения); 197462 11/11 check #7 тихий; 197463 14/14 check #6 тихий; young=3, recon_add=0, graduated=74.
 Task ID: 54-22-s15: WIPE-222 ~21:57 (интервал 221 ~20:55-58 → 222 ≈ 60 мин — возврат к ритму 50-60; recovery 37-я 21:58→22:01: fetch/reset с 1-го раза на e2b207a1, ПОТЕРЬ 0; vault file-hash 7f9edd5d MATCH + API 200, creds 600 + helper=store + vault-копия + /home/z/backups ~4 мин); тик 21:58 исполнен в 22:00: тихий — 197462 11/11 check #8, 197463 14/14 check #7, 197464 8/8 check #3; young=3, recon_add=0, graduated=74.
 Task ID: 54-548: sweep 5xNEW-POSTS (★197460 первый вырез гэп 0→1; 197397 +2), EXT 0 (ТГК штиль 14-й), deep 0; OWW x6; young=3, в начале окна WIPE-222+recovery 37 (потерь 0).
+Task ID: 54-549: sweep [SWEEP-CLEAN] 0 сигнатур (первый штиль за вечер), EXT 0 (ТГК штиль 15-й), deep 0; OWW x6; young=1, grad=76.
