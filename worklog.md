@@ -8695,3 +8695,4 @@ Task ID: 54-546: sweep 10 сигнатур (★ROLLBACK 197348 sticky — сно
 Task ID: 54-21-s15: тик 21:13: 197461 «Связался с кубиками. Итог» 404 x6 (VANISH стабилен); 197462 11/11 check #5 тихий; 197463 14/14 check #4 тихий (пауза после +10); young=3, recon_add=0, graduated=73.
 Task ID: 54-21-s35: NEW 197464 «Мама, купи» OP TexasL createdAt 2026-11-02T21:14:07 lpn/cc 7/7 → young 2h (быстрый старт: 7 постов за 7 мин); KNOWN 764 (union восстановлен после вайпа 221); young=4 (197461 vanish x6, 197462, 197463, 197464), graduated=73.
 Task ID: 54-547: sweep 5xNEW-POSTS (197348 гэп 4→5 — 2-й снос в sticky за 30 мин; 197440 +3; 197397 +2), EXT 0 (ТГК штиль 13-й), deep 0, INTEGRITY ДА (CANON #48 MATCH + GG alive); OWW x6; young=3, grad=74.
+Task ID: 54-21-s15: тик 21:43: 197464 «Мама, купи» +1=8/8 (29 мин от рождения); 197462 11/11 check #7 тихий; 197463 14/14 check #6 тихий; young=3, recon_add=0, graduated=74.
