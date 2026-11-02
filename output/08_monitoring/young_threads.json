@@ -16,7 +16,7 @@
    "last_lpn": 31,
    "last_cc": 31,
    "checks": 1,
-   "fails": 4,
+   "fails": 5,
    "last_checked": "2026-11-02T16:48:20Z",
    "last_error": "404"
   },
@@ -31,9 +31,9 @@
    "until_ts": "2026-11-02T19:48:05Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-02T17:58:11Z"
+   "last_checked": "2026-11-02T18:13:12Z"
   }
  },
  "graduated": {
