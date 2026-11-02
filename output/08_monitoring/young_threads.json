@@ -16,9 +16,22 @@
    "last_lpn": 31,
    "last_cc": 31,
    "checks": 1,
-   "fails": 2,
+   "fails": 3,
    "last_checked": "2026-11-02T16:48:20Z",
    "last_error": "404"
+  },
+  "197460": {
+   "title": "вопрос насчет конкурса рисунков",
+   "slug": "197460-vopros-naschet-konkursa-risunkov",
+   "createdAt": "2026-11-02T17:28:59+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T17:48:09Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T19:48:05Z",
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 0
   }
  },
  "graduated": {
