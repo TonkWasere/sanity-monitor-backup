@@ -15,9 +15,9 @@
    "until_ts": "2026-11-02T23:21:11Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-02T22:43:15Z"
+   "last_checked": "2026-11-02T23:01:34Z"
   },
   "197465": {
    "title": "Не триггерится начало квеста \"Отец и сын\"",
@@ -28,9 +28,11 @@
    "discovered_at": "2026-11-02T22:43:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T00:43:13Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-02T23:01:35Z"
   }
  },
  "graduated": {
