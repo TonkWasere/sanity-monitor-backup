@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197460": {
-   "title": "вопрос насчет конкурса рисунков",
-   "slug": "197460-vopros-naschet-konkursa-risunkov",
-   "createdAt": "2026-11-02T17:28:59+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-02T17:48:09Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-02T19:48:05Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-02T19:43:17Z"
-  },
   "197461": {
    "title": "Связался с кубиками. Итог",
    "slug": "197461-svyazalsya-s-kubikami-itog",
@@ -31,8 +16,22 @@
    "last_lpn": 12,
    "last_cc": 12,
    "checks": 1,
-   "fails": 0,
-   "last_checked": "2026-11-02T19:43:19Z"
+   "fails": 1,
+   "last_checked": "2026-11-02T19:43:19Z",
+   "last_error": "404"
+  },
+  "197462": {
+   "title": "Деградация ивентов.",
+   "slug": "197462-degradatsiya-iventov",
+   "createdAt": "2026-11-02T19:50:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T20:03:11Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T22:03:07Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
   }
  },
  "graduated": {
@@ -1262,6 +1261,23 @@
    "last_error": "404",
    "graduated_at": "2026-11-02T18:45:40Z",
    "checks_done": 1
+  },
+  "197460": {
+   "title": "вопрос насчет конкурса рисунков",
+   "slug": "197460-vopros-naschet-konkursa-risunkov",
+   "createdAt": "2026-11-02T17:28:59+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T17:48:09Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T19:48:05Z",
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-02T19:43:17Z",
+   "graduated_at": "2026-11-02T20:03:07Z",
+   "checks_done": 7
   }
  }
 }
