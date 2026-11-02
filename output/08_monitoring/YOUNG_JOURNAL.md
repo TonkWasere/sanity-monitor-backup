@@ -398,3 +398,4 @@
 - 2026-11-02T17:58:09Z snap15 197457 CHECK FAIL x4 (404) — VANISH? (2+ подряд; title: Баланс)
 - 2026-11-02T18:13:10Z snap15 197457 CHECK FAIL x5 (404) — VANISH? (2+ подряд; title: Баланс)
 - 2026-11-02T18:28:10Z snap15 197457 CHECK FAIL x6 (404) — VANISH? (2+ подряд; title: Баланс)
+- 2026-11-02T18:45:40Z snap15 197457 GRADUATED (2h отслужил, checks=1) — накрывает часовой раунд

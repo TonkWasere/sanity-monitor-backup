@@ -4,22 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197457": {
-   "title": "Баланс",
-   "slug": "197457-balans",
-   "createdAt": "2026-11-02T16:28:47+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-02T16:29:18Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-02T18:29:14Z",
-   "last_lpn": 31,
-   "last_cc": 31,
-   "checks": 1,
-   "fails": 6,
-   "last_checked": "2026-11-02T16:48:20Z",
-   "last_error": "404"
-  },
   "197460": {
    "title": "вопрос насчет конкурса рисунков",
    "slug": "197460-vopros-naschet-konkursa-risunkov",
@@ -31,9 +15,9 @@
    "until_ts": "2026-11-02T19:48:05Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-02T18:28:12Z"
+   "last_checked": "2026-11-02T18:45:41Z"
   }
  },
  "graduated": {
@@ -1245,6 +1229,24 @@
    "last_checked": "2026-11-02T16:29:16Z",
    "graduated_at": "2026-11-02T16:48:18Z",
    "checks_done": 7
+  },
+  "197457": {
+   "title": "Баланс",
+   "slug": "197457-balans",
+   "createdAt": "2026-11-02T16:28:47+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-02T16:29:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-02T18:29:14Z",
+   "last_lpn": 31,
+   "last_cc": 31,
+   "checks": 1,
+   "fails": 6,
+   "last_checked": "2026-11-02T16:48:20Z",
+   "last_error": "404",
+   "graduated_at": "2026-11-02T18:45:40Z",
+   "checks_done": 1
   }
  }
 }
