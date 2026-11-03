@@ -4,51 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197472": {
-   "title": "Интересный вариант  нерфа инъекторов ",
-   "slug": "197472-interesnyy-variant-nerfa-inektorov",
-   "createdAt": "2026-11-03T07:37:40+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T08:01:06Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T10:00:58Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 9,
-   "fails": 0,
-   "last_checked": "2026-11-03T09:58:50Z"
-  },
-  "197474": {
-   "title": "Заработок с Ивента калл ",
-   "slug": "197474-zarabotok-s-iventa-kall",
-   "createdAt": "2026-11-03T08:15:42+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T08:17:06Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T10:17:00Z",
-   "last_lpn": 24,
-   "last_cc": 24,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-03T09:58:52Z"
-  },
-  "197473": {
-   "title": "Пси-облученные",
-   "slug": "197473-psi-obluchennye",
-   "createdAt": "2026-11-03T08:08:56+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T08:17:06Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T10:17:00Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-03T09:58:53Z"
-  },
   "197476": {
    "title": "критика",
    "slug": "197476-kritika",
@@ -58,11 +13,11 @@
    "discovered_at": "2026-11-03T08:28:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:28:14Z",
-   "last_lpn": 28,
-   "last_cc": 28,
-   "checks": 6,
+   "last_lpn": 29,
+   "last_cc": 29,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-03T09:58:55Z"
+   "last_checked": "2026-11-03T10:18:10Z"
   },
   "197475": {
    "title": "Полуавтоматическое оружие.",
@@ -73,11 +28,11 @@
    "discovered_at": "2026-11-03T08:28:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:28:14Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 6,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-03T09:58:57Z"
+   "last_checked": "2026-11-03T10:18:12Z"
   },
   "197477": {
    "title": "Новое для баланса",
@@ -88,11 +43,11 @@
    "discovered_at": "2026-11-03T09:07:05Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T11:05:55Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 4,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T09:58:59Z"
+   "last_checked": "2026-11-03T10:18:14Z"
   },
   "197478": {
    "title": "Максимум стабилизации!",
@@ -105,9 +60,9 @@
    "until_ts": "2026-11-03T11:28:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T09:59:00Z"
+   "last_checked": "2026-11-03T10:18:15Z"
   }
  },
  "graduated": {
@@ -1509,6 +1464,57 @@
    "last_error": "The read operation timed out",
    "graduated_at": "2026-11-03T09:15:35Z",
    "checks_done": 6
+  },
+  "197472": {
+   "title": "Интересный вариант  нерфа инъекторов ",
+   "slug": "197472-interesnyy-variant-nerfa-inektorov",
+   "createdAt": "2026-11-03T07:37:40+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T08:01:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T10:00:58Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 9,
+   "fails": 0,
+   "last_checked": "2026-11-03T09:58:50Z",
+   "graduated_at": "2026-11-03T10:18:09Z",
+   "checks_done": 9
+  },
+  "197473": {
+   "title": "Пси-облученные",
+   "slug": "197473-psi-obluchennye",
+   "createdAt": "2026-11-03T08:08:56+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T08:17:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T10:17:00Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-03T09:58:53Z",
+   "graduated_at": "2026-11-03T10:18:09Z",
+   "checks_done": 7
+  },
+  "197474": {
+   "title": "Заработок с Ивента калл ",
+   "slug": "197474-zarabotok-s-iventa-kall",
+   "createdAt": "2026-11-03T08:15:42+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T08:17:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T10:17:00Z",
+   "last_lpn": 24,
+   "last_cc": 24,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-03T09:58:52Z",
+   "graduated_at": "2026-11-03T10:18:09Z",
+   "checks_done": 7
   }
  }
 }
