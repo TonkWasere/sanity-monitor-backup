@@ -4,22 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197492": {
-   "title": "Переиспользование старых локаций.",
-   "slug": "197492-pereispolzovanie-staryh-lokatsiy",
-   "createdAt": "2026-11-03T17:33:35+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T18:00:26Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T20:00:18Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-11-03T20:00:07Z",
-   "last_error": "The read operation timed out"
-  },
   "197494": {
    "title": "Морозный интерфейс 2018 - 2020",
    "slug": "197494-moroznyy-interfeys-2018-2020",
@@ -31,10 +15,10 @@
    "until_ts": "2026-11-03T21:28:11Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
    "last_error": "The read operation timed out",
-   "last_checked": "2026-11-03T20:00:08Z"
+   "last_checked": "2026-11-03T20:13:10Z"
   }
  },
  "graduated": {
@@ -1760,6 +1744,24 @@
    "last_checked": "2026-11-03T19:15:07Z",
    "graduated_at": "2026-11-03T19:28:11Z",
    "checks_done": 4
+  },
+  "197492": {
+   "title": "Переиспользование старых локаций.",
+   "slug": "197492-pereispolzovanie-staryh-lokatsiy",
+   "createdAt": "2026-11-03T17:33:35+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T18:00:26Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T20:00:18Z",
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-11-03T20:00:07Z",
+   "last_error": "The read operation timed out",
+   "graduated_at": "2026-11-03T20:13:09Z",
+   "checks_done": 5
   }
  }
 }
