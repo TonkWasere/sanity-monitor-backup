@@ -8748,3 +8748,4 @@ Task ID: 54-09-s15: events=6 — NEW 197478 «Максимум стабилиз�
 Task ID: 54-09-s15: events=5 (тик смещён ~09:55, WIPE-237 recovery 09:43-09:52: HEAD 71c70b83→04451856, sparse-checkout восстановлен, creds из MEGA-vault, fsck OK); +3: 197474 24/24, 197476 28/28; +2: 197475 10/10; +1: 197477 14/14; young=7, grad=82.
 Task ID: 54-10-s15: events=3 (тик смещён ~10:18, WIPE-238 recovery 10:13-10:16: базовый снап платформы, sparse+reset c2f2477d, creds из MEGA); GRADUATED x3: 197472, 197473, 197474 (grad=85); +2: 197475 12/12; +1: 197476 29/29, 197477 15/15; young=4.
 Task ID: 54-10-s15: events=2 — +2: 197477 17/17; +1: 197476 30/30 (порог 30 перевалён); 197475/197478 тихо; young=4, grad=85.
+Task ID: 54-565: sweep 20xNEW-POSTS (окно 84 мин, слоты 09:32/10:02 — вайп-потери WIPE-237/238), OWW-FAIL x4, EXT 0, deep 0.
