@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-03T15:00:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T17:00:17Z",
-   "last_lpn": 95,
-   "last_cc": 93,
-   "checks": 4,
+   "last_lpn": 97,
+   "last_cc": 95,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T16:49:44Z"
+   "last_checked": "2026-11-03T16:58:11Z"
   },
   "197487": {
    "title": "Они отправили сильнейшего...",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-03T15:00:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T17:00:17Z",
-   "last_lpn": 33,
-   "last_cc": 33,
-   "checks": 4,
+   "last_lpn": 35,
+   "last_cc": 35,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T16:49:46Z"
+   "last_checked": "2026-11-03T16:58:13Z"
   },
   "197486": {
    "title": "НУ собственно 3 тий пост про нытье на разрабов ",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-03T17:00:17Z",
    "last_lpn": 23,
    "last_cc": 23,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T16:49:48Z"
+   "last_checked": "2026-11-03T16:58:16Z"
   },
   "197489": {
    "title": "🚧 Технические работы",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-03T18:28:14Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T16:49:50Z"
+   "last_checked": "2026-11-03T16:58:17Z"
   },
   "197490": {
    "title": "Откуда падает рыжий папоротник на севере",
@@ -73,9 +73,11 @@
    "discovered_at": "2026-11-03T16:49:52Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T18:49:42Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T16:58:19Z"
   }
  },
  "graduated": {
