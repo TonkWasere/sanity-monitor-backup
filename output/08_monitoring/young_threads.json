@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-03T21:45:24Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T23:45:22Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 4,
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T22:43:09Z"
+   "last_checked": "2026-11-03T23:00:05Z"
   },
   "197495": {
    "title": "Распред на ивенте",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-03T23:45:22Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T22:43:11Z"
+   "last_checked": "2026-11-03T23:00:06Z"
   },
   "197497": {
    "title": "Вопрос по кв",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-11-03T22:15:11Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T00:15:05Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 2,
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T22:43:12Z"
+   "last_checked": "2026-11-03T23:00:08Z"
   }
  },
  "graduated": {
