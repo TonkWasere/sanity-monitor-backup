@@ -8718,3 +8718,4 @@ Task ID: 54-03-s15: WIPE-231+recovery 46 (HEAD откат к 71c70b8 19.10 → f
 Task ID: 54-555: sweep 6xNEW-POSTS (191614 +2; 197436 +2 гэп 5 стаб; 197462 +2; 197427/193783/173237 +1), EXT 0 (VK стабилен, ТГК штиль 21-й), deep 0, CANON #48 MATCH integrity ДА (GG 3/3 alive); OWW x5; young=0, grad=78; WIPE-231+recovery 46 в начале окна (пятая ВМ, ENOSPC-квота+ретрай, потерь 0).
 Task ID: 54-04-s15: RECONCILE-ADD 197467 «Отдача малыша» createdAt 04:06:54 lpn/cc 4/4 → young 2h — быстрый разгон (4 поста за 6 мин от рождения); young=1 (197467, выпуск ~06:07), graduated=78.
 Task ID: 54-04-s15: 197467 «Отдача малыша» lpn/cc 4/4→6/6: +2 за 15 мин (young, снап near=1 21KB)
+Task ID: 54-556: sweep 6xNEW-POSTS (197447 +3; 197454/197463 +2; 197395/197460/197465 +1), EXT 0 (ТГК штиль 22-й), deep 0, OWW-FAIL x5 стаб; young=1 (197467 растёт), grad=78; SKIP-маркеров lite нет.
