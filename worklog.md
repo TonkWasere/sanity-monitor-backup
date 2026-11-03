@@ -8761,3 +8761,4 @@ Task ID: 54-12-s15: тик 12:58, WIPE-241 ~12:5x → recovery 56 (15-я ВМ c-
 Task ID: 54-570: sweep 11xNEW-POSTS (191614 +7), OWW-FAIL x3, EXT 1 (ТГК #3275 мем-клип), deep 0.
 Task ID: 54-13-s15: events=1 — NEW RECONCILE-ADD 197481 «Сталзов в локальной сети» createdAt 13:09:08 lpn/cc 4/4 → young(2h); 197480 check #2 без дельт (14/14); young=2 (197480/197481), grad=89.
 Task ID: 54-13-s15: events=1 — +8 с ВЫРЕЗОМ: 197481 «Сталзов в локальной сети» lpn 4→12 / cc 4→11 (гэп 0→1, битые номера [5] — снесён пост, треду 19 мин); 197480 check #3 без дельт (14/14); young=2 (197480/197481), grad=89.
+Task ID: 54-571: sweep 15xNEW-POSTS + NEW-THREAD 197482 (deep), CANON #148 integrity ДА (GG 3/3), OWW-FAIL x3, EXT 0, deep 1 [197482].
