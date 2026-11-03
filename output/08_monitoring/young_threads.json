@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197477": {
-   "title": "Новое для баланса",
-   "slug": "197477-novoe-dlya-balansa",
-   "createdAt": "2026-11-03T08:55:57+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T09:07:05Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T11:05:55Z",
-   "last_lpn": 19,
-   "last_cc": 19,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-03T11:01:18Z"
-  },
   "197478": {
    "title": "Максимум стабилизации!",
    "slug": "197478-maksimum-stabilizatsii",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-03T11:28:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-03T11:01:19Z"
+   "last_checked": "2026-11-03T11:13:12Z"
   }
  },
  "graduated": {
@@ -1518,6 +1503,23 @@
    "fails": 0,
    "last_checked": "2026-11-03T10:28:15Z",
    "graduated_at": "2026-11-03T10:43:17Z",
+   "checks_done": 8
+  },
+  "197477": {
+   "title": "Новое для баланса",
+   "slug": "197477-novoe-dlya-balansa",
+   "createdAt": "2026-11-03T08:55:57+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T09:07:05Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T11:05:55Z",
+   "last_lpn": 19,
+   "last_cc": 19,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-03T11:01:18Z",
+   "graduated_at": "2026-11-03T11:13:10Z",
    "checks_done": 8
   }
  }
