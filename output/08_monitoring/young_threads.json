@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197480": {
-   "title": "как активировать шаринган в сталкрафте?",
-   "slug": "197480-kak-aktivirovat-sharingan-v-stalkrafte",
-   "createdAt": "2026-11-03T12:36:17+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T12:43:09Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T14:43:07Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-11-03T14:00:36Z"
-  },
   "197481": {
    "title": "Сталзов в локальной сети",
    "slug": "197481-stalzov-v-lokalnoy-seti",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-03T15:14:16Z",
    "last_lpn": 18,
    "last_cc": 17,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T14:00:37Z"
+   "last_checked": "2026-11-03T15:00:20Z"
   },
   "197484": {
    "title": "УЛЬТРОМЕГОСУПЕР РЕШЕНИЕ НАГРАД АРЕНЫ ГНОСТИКА",
@@ -43,9 +28,11 @@
    "discovered_at": "2026-11-03T14:00:40Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T16:00:34Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T15:00:21Z"
   },
   "197483": {
    "title": "Фарм лвлов сессий слишком долгий",
@@ -56,9 +43,11 @@
    "discovered_at": "2026-11-03T14:00:40Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T16:00:34Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 0
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T15:00:23Z"
   },
   "197482": {
    "title": "Ограничение куры",
@@ -69,9 +58,11 @@
    "discovered_at": "2026-11-03T14:00:40Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T16:00:34Z",
-   "last_lpn": 15,
-   "last_cc": 14,
-   "checks": 0
+   "last_lpn": 17,
+   "last_cc": 16,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T15:00:25Z"
   },
   "197485": {
    "title": "Насранный ивент",
@@ -82,8 +73,49 @@
    "discovered_at": "2026-11-03T14:21:19Z",
    "source": "snap35",
    "until_ts": "2026-11-03T16:21:19Z",
-   "last_lpn": 4,
-   "last_cc": 4,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T15:00:26Z"
+  },
+  "197488": {
+   "title": "Не смогли смерится с поражением ? НЕ ПОНЯТНО",
+   "slug": "197488-ne-smogli-smeritsya-s-porazheniem-ne-ponyatno",
+   "createdAt": "2026-11-03T14:58:18+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T15:00:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T17:00:17Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
+  },
+  "197487": {
+   "title": "Они отправили сильнейшего...",
+   "slug": "197487-oni-otpravili-silneyshego",
+   "createdAt": "2026-11-03T14:46:55+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T15:00:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T17:00:17Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197486": {
+   "title": "НУ собственно 3 тий пост про нытье на разрабов ",
+   "slug": "197486-nu-sobstvenno-3-tiy-post-pro-nyte-na-razrabov",
+   "createdAt": "2026-11-03T14:27:57+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T15:00:29Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T17:00:17Z",
+   "last_lpn": 12,
+   "last_cc": 12,
    "checks": 0
   }
  },
@@ -1605,6 +1637,23 @@
    "last_checked": "2026-11-03T11:28:11Z",
    "graduated_at": "2026-11-03T11:43:12Z",
    "checks_done": 8
+  },
+  "197480": {
+   "title": "как активировать шаринган в сталкрафте?",
+   "slug": "197480-kak-aktivirovat-sharingan-v-stalkrafte",
+   "createdAt": "2026-11-03T12:36:17+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T12:43:09Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T14:43:07Z",
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-11-03T14:00:36Z",
+   "graduated_at": "2026-11-03T15:00:17Z",
+   "checks_done": 4
   }
  }
 }
