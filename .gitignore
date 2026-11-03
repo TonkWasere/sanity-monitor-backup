@@ -21,3 +21,4 @@ output/02_api_snapshots/
 
 # temp-файлы параллельных ext_sources процессов (root-owned, .name.XXXXXX) — никогда не коммитятся (урок pass#98)
 output/evidence_post/.*
+tool-results/
