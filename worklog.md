@@ -8704,3 +8704,4 @@ Task ID: 54-23-s15: WIPE-223 ~22:57 (интервал 222 ~21:57 → 223 ≈ 60 
 Task ID: 54-550: sweep 4xNEW-POSTS (191614 +2=8036; 197436 гэп 5 стаб; 197441 +1), EXT 0 (ТГК штиль 16-й), deep 0; OWW x6; young=2, WIPE-223+recovery 38 в конце окна (потерь 0).
 Task ID: 54-23-s15: дельта 197465 (квест «Отец и сын») lpn/cc 5/5→6/6 (+1); 197464 без дельт (check #8), выпуск ~23:28; young=2, grad=76.
 Task ID: 54-23-s15: WIPE-224+recovery 39 (HEAD откатился к 71c70b8 от 19.10 → fetch+reset на ac0ddd8e; /tmp-стейт prev_lpn_488 из Хранилища; vault MAC OK file-hash 7f9edd5d MATCH; creds+helper+backups пересобраны; API 200; потерь 0) + TICK-LOST слот 23:43; 197465 без дельт (6/6, check #4); young=1, grad=77.
+Task ID: 54-551: sweep 5xNEW-POSTS (197462 +4=16 флагман, 197432 +2, 197397/180244/164665 +1), EXT 0 (VK стабилен, YT 500), deep 0, CANON #48 MATCH integrity ДА; OWW x6 7-й; слот 23:32 пропущен (WIPE-224); young=1, grad=77.
