@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-03T07:13:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T09:13:16Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 4,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T08:17:02Z"
+   "last_checked": "2026-11-03T08:28:15Z"
   },
   "197472": {
    "title": "Интересный вариант  нерфа инъекторов ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-03T10:00:58Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T08:17:04Z"
+   "last_checked": "2026-11-03T08:28:17Z"
   },
   "197474": {
    "title": "Заработок с Ивента калл ",
@@ -43,9 +43,11 @@
    "discovered_at": "2026-11-03T08:17:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:17:00Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T08:28:19Z"
   },
   "197473": {
    "title": "Пси-облученные",
@@ -56,8 +58,36 @@
    "discovered_at": "2026-11-03T08:17:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:17:00Z",
-   "last_lpn": 1,
-   "last_cc": 1,
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T08:28:20Z"
+  },
+  "197476": {
+   "title": "критика",
+   "slug": "197476-kritika",
+   "createdAt": "2026-11-03T08:23:04+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T08:28:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T10:28:14Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197475": {
+   "title": "Полуавтоматическое оружие.",
+   "slug": "197475-poluavtomaticheskoe-oruzhie",
+   "createdAt": "2026-11-03T08:21:28+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T08:28:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T10:28:14Z",
+   "last_lpn": 2,
+   "last_cc": 2,
    "checks": 0
   }
  },
