@@ -15,9 +15,9 @@
    "until_ts": "2026-11-03T15:14:16Z",
    "last_lpn": 18,
    "last_cc": 17,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-03T15:00:20Z"
+   "last_checked": "2026-11-03T15:13:11Z"
   },
   "197484": {
    "title": "УЛЬТРОМЕГОСУПЕР РЕШЕНИЕ НАГРАД АРЕНЫ ГНОСТИКА",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-03T16:00:34Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T15:00:21Z"
+   "last_checked": "2026-11-03T15:13:14Z"
   },
   "197483": {
    "title": "Фарм лвлов сессий слишком долгий",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-03T16:00:34Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T15:00:23Z"
+   "last_checked": "2026-11-03T15:13:15Z"
   },
   "197482": {
    "title": "Ограничение куры",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-03T16:00:34Z",
    "last_lpn": 17,
    "last_cc": 16,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T15:00:25Z"
+   "last_checked": "2026-11-03T15:13:17Z"
   },
   "197485": {
    "title": "Насранный ивент",
@@ -75,9 +75,9 @@
    "until_ts": "2026-11-03T16:21:19Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T15:00:26Z"
+   "last_checked": "2026-11-03T15:13:19Z"
   },
   "197488": {
    "title": "Не смогли смерится с поражением ? НЕ ПОНЯТНО",
@@ -88,9 +88,11 @@
    "discovered_at": "2026-11-03T15:00:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T17:00:17Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T15:13:21Z"
   },
   "197487": {
    "title": "Они отправили сильнейшего...",
@@ -103,7 +105,9 @@
    "until_ts": "2026-11-03T17:00:17Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T15:13:23Z"
   },
   "197486": {
    "title": "НУ собственно 3 тий пост про нытье на разрабов ",
@@ -114,9 +118,11 @@
    "discovered_at": "2026-11-03T15:00:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T17:00:17Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 0
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T15:13:24Z"
   }
  },
  "graduated": {
