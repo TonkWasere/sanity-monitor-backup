@@ -15,9 +15,9 @@
    "until_ts": "2026-11-03T18:28:14Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T17:28:09Z"
+   "last_checked": "2026-11-03T18:00:20Z"
   },
   "197490": {
    "title": "Откуда падает рыжий папоротник на севере",
@@ -31,7 +31,7 @@
    "last_lpn": 5,
    "last_cc": 5,
    "checks": 1,
-   "fails": 2,
+   "fails": 3,
    "last_checked": "2026-11-03T16:58:19Z",
    "last_error": "404"
   },
@@ -44,8 +44,23 @@
    "discovered_at": "2026-11-03T17:28:13Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T19:28:07Z",
-   "last_lpn": 1,
-   "last_cc": 1,
+   "last_lpn": 15,
+   "last_cc": 14,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T18:00:24Z"
+  },
+  "197492": {
+   "title": "Переиспользование старых локаций.",
+   "slug": "197492-pereispolzovanie-staryh-lokatsiy",
+   "createdAt": "2026-11-03T17:33:35+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T18:00:26Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T20:00:18Z",
+   "last_lpn": 5,
+   "last_cc": 5,
    "checks": 0
   }
  },
