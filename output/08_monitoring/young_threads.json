@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {},
+ "threads": {
+  "197480": {
+   "title": "как активировать шаринган в сталкрафте?",
+   "slug": "197480-kak-aktivirovat-sharingan-v-stalkrafte",
+   "createdAt": "2026-11-03T12:36:17+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T12:43:09Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T14:43:07Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  }
+ },
  "graduated": {
   "197379": {
    "title": "при каком мсе меняется анимка бега",
