@@ -3,23 +3,7 @@
   "version": 1,
   "note": "young-thread queue (54-181)"
  },
- "threads": {
-  "197478": {
-   "title": "Максимум стабилизации!",
-   "slug": "197478-maksimum-stabilizatsii",
-   "createdAt": "2026-11-03T09:26:32+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T09:28:40Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T11:28:26Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-03T11:28:11Z"
-  }
- },
+ "threads": {},
  "graduated": {
   "197379": {
    "title": "при каком мсе меняется анимка бега",
@@ -1520,6 +1504,23 @@
    "fails": 0,
    "last_checked": "2026-11-03T11:01:18Z",
    "graduated_at": "2026-11-03T11:13:10Z",
+   "checks_done": 8
+  },
+  "197478": {
+   "title": "Максимум стабилизации!",
+   "slug": "197478-maksimum-stabilizatsii",
+   "createdAt": "2026-11-03T09:26:32+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T09:28:40Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T11:28:26Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-03T11:28:11Z",
+   "graduated_at": "2026-11-03T11:43:12Z",
    "checks_done": 8
   }
  }
