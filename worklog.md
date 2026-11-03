@@ -8755,3 +8755,4 @@ Task ID: 54-566: sweep 8xNEW-POSTS (191614 +11, 197476 +7), OWW-FAIL x4, EXT 0, 
 Task ID: 54-11-s15: events=1 — +2: 197478 «Максимум стабилизации!» 3/3 (первая активность, дамп вырос 7→11КБ); young=1, grad=88.
 Task ID: 54-567: sweep 11xNEW-POSTS, CANON #144 integrity ДА (GG 3/3), OWW-FAIL x3, EXT 0, deep 0.
 Task ID: 54-568: sweep 14xNEW-POSTS (112917 +19 рекорд дня), OWW-FAIL x3, EXT 0, deep 0.
+Task ID: 54-569: sweep 8xNEW-POSTS (112917 68319 рекорд дня), OWW-FAIL x3, EXT 0, deep 0.
