@@ -8724,3 +8724,4 @@ Task ID: 54-04-s15: WIPE-232 ~04:5x + recovery 47 (шестая ВМ c-6ae969d9,
 Task ID: 54-557: sweep 7xNEW-POSTS (197463 +2; 197467 +3 young; 142508/187993/191614/197434/197448 +1), EXT 0 (ТГК штиль 23-й), deep 0, OWW-FAIL x5 стаб; WIPE-232+recovery 47 в начале окна (потерь 0); young=1 (197467 9/9), grad=78.
 Task ID: 54-558: sweep 9xNEW-POSTS (197463/197448/197432 +4; 191614 +3; 193783/197348 +2; 112917/197434/197462 +1), EXT 0 (ТГК штиль 24-й), deep 0, OWW-FAIL x5 стаб; young=1 (197467 9/9), grad=78.
 Task ID: 54-05-s15: 197467 «Отдача малыша» lpn/cc 9/9→11/11: +2 за 15 мин (young, снап near=1 34KB)
+Task ID: 54-05-s15: WIPE-233 ~05:4x + recovery 48 (седьмая ВМ c-6ae977e9, ENOSPC 98% при 1-м reset — квота, prune-packed+ретрай → 4a7828a2, потерь 0; vault sha MATCH, creds 600, API 200); тик 05:58 исполнен 06:01: 197467 11/11→14/14 +3 (снап 37KB), 197468 «Почему именно так? » RECONCILE-ADD createdAt 06:01:05 1/1 → young 2h; young=2, grad=78.

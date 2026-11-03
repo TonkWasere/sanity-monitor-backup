@@ -13,11 +13,24 @@
    "discovered_at": "2026-11-03T04:13:11Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T06:13:09Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 6,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-03T05:43:16Z"
+   "last_checked": "2026-11-03T06:01:59Z"
+  },
+  "197468": {
+   "title": "Почему именно так? ",
+   "slug": "197468-pochemu-imenno-tak",
+   "createdAt": "2026-11-03T06:01:05+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T06:02:02Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T08:01:57Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
