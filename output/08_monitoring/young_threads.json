@@ -15,9 +15,9 @@
    "until_ts": "2026-11-03T14:43:07Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T13:14:18Z"
+   "last_checked": "2026-11-03T13:28:12Z"
   },
   "197481": {
    "title": "Сталзов в локальной сети",
@@ -28,9 +28,11 @@
    "discovered_at": "2026-11-03T13:14:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T15:14:16Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 12,
+   "last_cc": 11,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T13:28:14Z"
   }
  },
  "graduated": {
