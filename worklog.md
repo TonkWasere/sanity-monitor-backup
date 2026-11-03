@@ -8753,3 +8753,4 @@ Task ID: 54-10-s15: events=1 — GRADUATED x2: 197475 (финал 12/12), 197476
 Task ID: 54-11-s15: events=1 (тик смещён ~11:01, WIPE-239 recovery 10:58-11:00: 13-я ВМ c-6ae9be39, снап 19.10, sparse+reset a10ce45e, creds из MEGA); +1: 197477 19/19; young=2 (197477/197478), grad=87.
 Task ID: 54-566: sweep 8xNEW-POSTS (191614 +11, 197476 +7), OWW-FAIL x4, EXT 0, deep 0.
 Task ID: 54-11-s15: events=1 — +2: 197478 «Максимум стабилизации!» 3/3 (первая активность, дамп вырос 7→11КБ); young=1, grad=88.
+Task ID: 54-567: sweep 11xNEW-POSTS, CANON #144 integrity ДА (GG 3/3), OWW-FAIL x3, EXT 0, deep 0.
