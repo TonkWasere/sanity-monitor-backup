@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-03T08:01:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:00:58Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 6,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-03T09:15:37Z"
+   "last_checked": "2026-11-03T09:28:28Z"
   },
   "197474": {
    "title": "Заработок с Ивента калл ",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-03T08:17:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:17:00Z",
-   "last_lpn": 20,
-   "last_cc": 20,
-   "checks": 4,
+   "last_lpn": 21,
+   "last_cc": 21,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T09:15:39Z"
+   "last_checked": "2026-11-03T09:28:30Z"
   },
   "197473": {
    "title": "Пси-облученные",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-03T10:17:00Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T09:15:41Z"
+   "last_checked": "2026-11-03T09:28:31Z"
   },
   "197476": {
    "title": "критика",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-11-03T08:28:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:28:14Z",
-   "last_lpn": 24,
-   "last_cc": 24,
-   "checks": 3,
+   "last_lpn": 25,
+   "last_cc": 25,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-03T09:15:42Z"
+   "last_checked": "2026-11-03T09:28:33Z"
   },
   "197475": {
    "title": "Полуавтоматическое оружие.",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-11-03T08:28:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:28:14Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 3,
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-03T09:15:44Z"
+   "last_checked": "2026-11-03T09:28:35Z"
   },
   "197477": {
    "title": "Новое для баланса",
@@ -88,11 +88,24 @@
    "discovered_at": "2026-11-03T09:07:05Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T11:05:55Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 1,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T09:15:46Z"
+   "last_checked": "2026-11-03T09:28:37Z"
+  },
+  "197478": {
+   "title": "Максимум стабилизации!",
+   "slug": "197478-maksimum-stabilizatsii",
+   "createdAt": "2026-11-03T09:26:32+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T09:28:40Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T11:28:26Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
