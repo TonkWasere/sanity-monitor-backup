@@ -564,3 +564,5 @@
 - 2026-11-03T19:00:10Z snap15 197492 «Переиспользование старых локаций.» lpn/cc 5/5→9/9: +4
 - 2026-11-03T19:28:11Z snap15 197491 GRADUATED (2h отслужил, checks=4) — накрывает часовой раунд
 - 2026-11-03T19:28:16Z snap15 197494 RECONCILE-ADD «Морозный интерфейс 2018 - 2020» createdAt 2026-11-03T19:25:17+00:00 lpn/cc 2/2 → young(2h)
+- 2026-11-03T19:43:39Z snap15 197492 CHECK FAIL x1 (The read operation timed out)
+- 2026-11-03T19:44:10Z snap15 197494 CHECK FAIL x1 (The read operation timed out)
