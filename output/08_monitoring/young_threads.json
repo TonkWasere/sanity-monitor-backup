@@ -13,9 +13,11 @@
    "discovered_at": "2026-11-03T21:45:24Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T23:45:22Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T22:00:11Z"
   },
   "197495": {
    "title": "Распред на ивенте",
@@ -28,7 +30,9 @@
    "until_ts": "2026-11-03T23:45:22Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T22:00:12Z"
   }
  },
  "graduated": {
