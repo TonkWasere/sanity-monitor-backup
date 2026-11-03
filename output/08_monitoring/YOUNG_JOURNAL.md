@@ -566,3 +566,4 @@
 - 2026-11-03T19:28:16Z snap15 197494 RECONCILE-ADD «Морозный интерфейс 2018 - 2020» createdAt 2026-11-03T19:25:17+00:00 lpn/cc 2/2 → young(2h)
 - 2026-11-03T19:43:39Z snap15 197492 CHECK FAIL x1 (The read operation timed out)
 - 2026-11-03T19:44:10Z snap15 197494 CHECK FAIL x1 (The read operation timed out)
+- 2026-11-03T20:00:05Z snap15 TICK-LOST ~19:55 UTC (последний завершённый прогон 19:28, разрыв 32 мин > 22 — слот без единого артефакта)

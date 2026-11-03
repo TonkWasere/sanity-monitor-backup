@@ -15,9 +15,9 @@
    "until_ts": "2026-11-03T20:00:18Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 4,
-   "fails": 1,
-   "last_checked": "2026-11-03T19:28:13Z",
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-11-03T20:00:07Z",
    "last_error": "The read operation timed out"
   },
   "197494": {
@@ -31,9 +31,10 @@
    "until_ts": "2026-11-03T21:28:11Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 0,
-   "fails": 1,
-   "last_error": "The read operation timed out"
+   "checks": 1,
+   "fails": 0,
+   "last_error": "The read operation timed out",
+   "last_checked": "2026-11-03T20:00:08Z"
   }
  },
  "graduated": {
