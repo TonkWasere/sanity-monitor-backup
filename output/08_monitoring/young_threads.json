@@ -15,9 +15,9 @@
    "until_ts": "2026-11-03T23:45:22Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-03T23:00:05Z"
+   "last_checked": "2026-11-03T23:15:11Z"
   },
   "197495": {
    "title": "Распред на ивенте",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-03T23:45:22Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-03T23:00:06Z"
+   "last_checked": "2026-11-03T23:15:12Z"
   },
   "197497": {
    "title": "Вопрос по кв",
@@ -45,9 +45,35 @@
    "until_ts": "2026-11-04T00:15:05Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-03T23:00:08Z"
+   "last_checked": "2026-11-03T23:15:14Z"
+  },
+  "197499": {
+   "title": "какие модули ставить на снайперки в сталкрафт",
+   "slug": "197499-kakie-moduli-stavit-na-snayperki-v-stalkraft",
+   "createdAt": "2026-11-03T23:13:09+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T23:15:16Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T01:15:09Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197498": {
+   "title": "Нерф скорости до базовых настроек или +фпс моделькам персонажей",
+   "slug": "197498-nerf-skorosti-do-bazovyh-nastroek-ili-fps-modelkam-personazhey",
+   "createdAt": "2026-11-03T23:08:38+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T23:15:16Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T01:15:09Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
