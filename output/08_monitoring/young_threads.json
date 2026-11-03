@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197476": {
-   "title": "критика",
-   "slug": "197476-kritika",
-   "createdAt": "2026-11-03T08:23:04+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T08:28:23Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T10:28:14Z",
-   "last_lpn": 30,
-   "last_cc": 30,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-03T10:28:15Z"
-  },
-  "197475": {
-   "title": "Полуавтоматическое оружие.",
-   "slug": "197475-poluavtomaticheskoe-oruzhie",
-   "createdAt": "2026-11-03T08:21:28+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T08:28:23Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T10:28:14Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-03T10:28:17Z"
-  },
   "197477": {
    "title": "Новое для баланса",
    "slug": "197477-novoe-dlya-balansa",
@@ -43,11 +13,11 @@
    "discovered_at": "2026-11-03T09:07:05Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T11:05:55Z",
-   "last_lpn": 17,
-   "last_cc": 17,
-   "checks": 6,
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-03T10:28:19Z"
+   "last_checked": "2026-11-03T10:43:20Z"
   },
   "197478": {
    "title": "Максимум стабилизации!",
@@ -60,9 +30,9 @@
    "until_ts": "2026-11-03T11:28:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T10:28:20Z"
+   "last_checked": "2026-11-03T10:43:21Z"
   }
  },
  "graduated": {
@@ -1515,6 +1485,40 @@
    "last_checked": "2026-11-03T09:58:52Z",
    "graduated_at": "2026-11-03T10:18:09Z",
    "checks_done": 7
+  },
+  "197475": {
+   "title": "Полуавтоматическое оружие.",
+   "slug": "197475-poluavtomaticheskoe-oruzhie",
+   "createdAt": "2026-11-03T08:21:28+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T08:28:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T10:28:14Z",
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-03T10:28:17Z",
+   "graduated_at": "2026-11-03T10:43:17Z",
+   "checks_done": 8
+  },
+  "197476": {
+   "title": "критика",
+   "slug": "197476-kritika",
+   "createdAt": "2026-11-03T08:23:04+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T08:28:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T10:28:14Z",
+   "last_lpn": 30,
+   "last_cc": 30,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-03T10:28:15Z",
+   "graduated_at": "2026-11-03T10:43:17Z",
+   "checks_done": 8
   }
  }
 }
