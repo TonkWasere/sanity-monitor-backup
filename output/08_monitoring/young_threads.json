@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197481": {
-   "title": "Сталзов в локальной сети",
-   "slug": "197481-stalzov-v-lokalnoy-seti",
-   "createdAt": "2026-11-03T13:09:08+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T13:14:21Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T15:14:16Z",
-   "last_lpn": 18,
-   "last_cc": 17,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-11-03T15:13:11Z"
-  },
   "197484": {
    "title": "УЛЬТРОМЕГОСУПЕР РЕШЕНИЕ НАГРАД АРЕНЫ ГНОСТИКА",
    "slug": "197484-ultromegosuper-reshenie-nagrad-areny-gnostika",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-03T16:00:34Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T15:13:14Z"
+   "last_checked": "2026-11-03T16:00:22Z"
   },
   "197483": {
    "title": "Фарм лвлов сессий слишком долгий",
@@ -45,9 +30,9 @@
    "until_ts": "2026-11-03T16:00:34Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T15:13:15Z"
+   "last_checked": "2026-11-03T16:00:23Z"
   },
   "197482": {
    "title": "Ограничение куры",
@@ -60,9 +45,9 @@
    "until_ts": "2026-11-03T16:00:34Z",
    "last_lpn": 17,
    "last_cc": 16,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T15:13:17Z"
+   "last_checked": "2026-11-03T16:00:25Z"
   },
   "197485": {
    "title": "Насранный ивент",
@@ -73,11 +58,11 @@
    "discovered_at": "2026-11-03T14:21:19Z",
    "source": "snap35",
    "until_ts": "2026-11-03T16:21:19Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 2,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T15:13:19Z"
+   "last_checked": "2026-11-03T16:00:28Z"
   },
   "197488": {
    "title": "Не смогли смерится с поражением ? НЕ ПОНЯТНО",
@@ -88,11 +73,11 @@
    "discovered_at": "2026-11-03T15:00:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T17:00:17Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 1,
+   "last_lpn": 71,
+   "last_cc": 70,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T15:13:21Z"
+   "last_checked": "2026-11-03T16:00:30Z"
   },
   "197487": {
    "title": "Они отправили сильнейшего...",
@@ -103,11 +88,11 @@
    "discovered_at": "2026-11-03T15:00:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T17:00:17Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T15:13:23Z"
+   "last_checked": "2026-11-03T16:00:31Z"
   },
   "197486": {
    "title": "НУ собственно 3 тий пост про нытье на разрабов ",
@@ -118,11 +103,11 @@
    "discovered_at": "2026-11-03T15:00:29Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T17:00:17Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 1,
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T15:13:24Z"
+   "last_checked": "2026-11-03T16:00:33Z"
   }
  },
  "graduated": {
@@ -1659,6 +1644,23 @@
    "fails": 0,
    "last_checked": "2026-11-03T14:00:36Z",
    "graduated_at": "2026-11-03T15:00:17Z",
+   "checks_done": 4
+  },
+  "197481": {
+   "title": "Сталзов в локальной сети",
+   "slug": "197481-stalzov-v-lokalnoy-seti",
+   "createdAt": "2026-11-03T13:09:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T13:14:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T15:14:16Z",
+   "last_lpn": 18,
+   "last_cc": 17,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-11-03T15:13:11Z",
+   "graduated_at": "2026-11-03T16:00:20Z",
    "checks_done": 4
   }
  }
