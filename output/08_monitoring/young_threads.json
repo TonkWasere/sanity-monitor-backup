@@ -15,9 +15,22 @@
    "until_ts": "2026-11-03T14:43:07Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T13:03:21Z"
+   "last_checked": "2026-11-03T13:14:18Z"
+  },
+  "197481": {
+   "title": "Сталзов в локальной сети",
+   "slug": "197481-stalzov-v-lokalnoy-seti",
+   "createdAt": "2026-11-03T13:09:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T13:14:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T15:14:16Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
   }
  },
  "graduated": {

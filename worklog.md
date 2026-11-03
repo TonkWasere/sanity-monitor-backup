@@ -8759,3 +8759,4 @@ Task ID: 54-569: sweep 8xNEW-POSTS (112917 68319 рекорд дня), OWW-FAIL 
 Task ID: 54-12-s15: events=1 — NEW RECONCILE-ADD 197480 «как активировать шаринган в сталкрафте?» createdAt 12:36:17 lpn/cc 3/3 → young(2h); young=1 (197480), grad=89.
 Task ID: 54-12-s15: тик 12:58, WIPE-241 ~12:5x → recovery 56 (15-я ВМ c-6ae9da59, снап 19.10; fetch+sparse non-cone+reset fec66194, creds MEGA vault sha эталон API 200, mkdir backups; ENOSPC при первой попытке reset — повтор после sparse, ~6 мин); события=1 — +11: 197480 «как активировать шаринган в сталкрафте?» 3→14/14 (взрывной старт, young 12:43); young=1 (197480), grad=89.
 Task ID: 54-570: sweep 11xNEW-POSTS (191614 +7), OWW-FAIL x3, EXT 1 (ТГК #3275 мем-клип), deep 0.
+Task ID: 54-13-s15: events=1 — NEW RECONCILE-ADD 197481 «Сталзов в локальной сети» createdAt 13:09:08 lpn/cc 4/4 → young(2h); 197480 check #2 без дельт (14/14); young=2 (197480/197481), grad=89.
