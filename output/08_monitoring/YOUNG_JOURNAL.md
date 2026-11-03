@@ -512,3 +512,4 @@
 - 2026-11-03T14:00:40Z snap15 197484 RECONCILE-ADD «УЛЬТРОМЕГОСУПЕР РЕШЕНИЕ НАГРАД АРЕНЫ ГНОСТИК» createdAt 2026-11-03T13:55:42+00:00 lpn/cc 2/2 → young(2h)
 - 2026-11-03T14:00:40Z snap15 197483 RECONCILE-ADD «Фарм лвлов сессий слишком долгий» createdAt 2026-11-03T13:54:20+00:00 lpn/cc 6/6 → young(2h)
 - 2026-11-03T14:00:40Z snap15 197482 RECONCILE-ADD «Ограничение куры» createdAt 2026-11-03T13:28:38+00:00 lpn/cc 15/14 → young(2h)
+- 2026-11-03T14:21:19Z snap35 NEW 197485 «Насранный ивент» OP Zloy_BorIsKA createdAt 2026-11-03T14:15:30+00:00 lpn/cc 4/4 → young(2h)

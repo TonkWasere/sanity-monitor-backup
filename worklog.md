@@ -8764,3 +8764,4 @@ Task ID: 54-13-s15: events=1 — +8 с ВЫРЕЗОМ: 197481 «Сталзов �
 Task ID: 54-571: sweep 15xNEW-POSTS + NEW-THREAD 197482 (deep), CANON #148 integrity ДА (GG 3/3), OWW-FAIL x3, EXT 0, deep 1 [197482].
 Task ID: 54-13-s15: тик 13:58 (смещён), WIPE-242 ~13:5x → recovery 57 (16-я ВМ c-6ae9e869, снап 19.10; fetch+sparse non-cone→reset 675275c2, creds MEGA sha эталон API 200, mkdir backups, ~5 мин чисто без ENOSPC); TICK-LOST слот 13:43 (вайп-потеря); events=4: +6 197481 12/11→18/17 (гэп 1), RECONCILE-ADD 197482 «Ограничение куры» 15/14 (13:28, deep-дамп long30 #148 подтверждает), 197483 «Фарм лвлов сессий слишком долгий» 6/6 (13:54:20), 197484 «УЛЬТРОМЕГОСУПЕР РЕШЕНИЕ НАГРАД АРЕНЫ ГНОСТИК» 2/2 (13:55:42); young=5 (197480-84), grad=89.
 Task ID: 54-572: sweep 10xNEW-POSTS (197476 +14 ВЫРЕЗ), OWW-FAIL x3, EXT 0, deep 0.
+Task ID: 54-14-s35: NEW 197485 «Насранный ивент» OP Zloy_BorIsKA createdAt 14:15:30 lpn/cc 4/4 → young 2h (не STM); young=6 (197480-85), grad=89.

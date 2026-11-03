@@ -72,6 +72,19 @@
    "last_lpn": 15,
    "last_cc": 14,
    "checks": 0
+  },
+  "197485": {
+   "title": "Насранный ивент",
+   "slug": "197485-nasrannyy-ivent",
+   "createdAt": "2026-11-03T14:15:30+00:00",
+   "op_user": "Zloy_BorIsKA",
+   "stm": false,
+   "discovered_at": "2026-11-03T14:21:19Z",
+   "source": "snap35",
+   "until_ts": "2026-11-03T16:21:19Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
   }
  },
  "graduated": {
