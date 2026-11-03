@@ -15,9 +15,9 @@
    "until_ts": "2026-11-03T10:00:58Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 8,
+   "checks": 9,
    "fails": 0,
-   "last_checked": "2026-11-03T09:55:05Z"
+   "last_checked": "2026-11-03T09:58:50Z"
   },
   "197474": {
    "title": "Заработок с Ивента калл ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-03T10:17:00Z",
    "last_lpn": 24,
    "last_cc": 24,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-03T09:55:08Z"
+   "last_checked": "2026-11-03T09:58:52Z"
   },
   "197473": {
    "title": "Пси-облученные",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-03T10:17:00Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-03T09:55:09Z"
+   "last_checked": "2026-11-03T09:58:53Z"
   },
   "197476": {
    "title": "критика",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-03T10:28:14Z",
    "last_lpn": 28,
    "last_cc": 28,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-03T09:55:11Z"
+   "last_checked": "2026-11-03T09:58:55Z"
   },
   "197475": {
    "title": "Полуавтоматическое оружие.",
@@ -75,9 +75,9 @@
    "until_ts": "2026-11-03T10:28:14Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-03T09:55:13Z"
+   "last_checked": "2026-11-03T09:58:57Z"
   },
   "197477": {
    "title": "Новое для баланса",
@@ -90,9 +90,9 @@
    "until_ts": "2026-11-03T11:05:55Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-03T09:55:15Z"
+   "last_checked": "2026-11-03T09:58:59Z"
   },
   "197478": {
    "title": "Максимум стабилизации!",
@@ -105,9 +105,9 @@
    "until_ts": "2026-11-03T11:28:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T09:55:16Z"
+   "last_checked": "2026-11-03T09:59:00Z"
   }
  },
  "graduated": {
