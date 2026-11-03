@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197468": {
-   "title": "Почему именно так? ",
-   "slug": "197468-pochemu-imenno-tak",
-   "createdAt": "2026-11-03T06:01:05+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T06:02:02Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T08:01:57Z",
-   "last_lpn": 36,
-   "last_cc": 36,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-03T08:01:00Z"
-  },
   "197469": {
    "title": "Хочу",
    "slug": "197469-hochu",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-03T08:13:14Z",
    "last_lpn": 21,
    "last_cc": 21,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-03T08:01:01Z"
+   "last_checked": "2026-11-03T08:04:24Z"
   },
   "197470": {
    "title": "Не перетрудились?",
@@ -45,9 +30,9 @@
    "until_ts": "2026-11-03T09:13:16Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T08:01:03Z"
+   "last_checked": "2026-11-03T08:04:26Z"
   },
   "197472": {
    "title": "Интересный вариант  нерфа инъекторов ",
@@ -60,7 +45,9 @@
    "until_ts": "2026-11-03T10:00:58Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T08:04:28Z"
   }
  },
  "graduated": {
@@ -1409,6 +1396,23 @@
    "fails": 0,
    "last_checked": "2026-11-03T06:01:59Z",
    "graduated_at": "2026-11-03T06:13:15Z",
+   "checks_done": 7
+  },
+  "197468": {
+   "title": "Почему именно так? ",
+   "slug": "197468-pochemu-imenno-tak",
+   "createdAt": "2026-11-03T06:01:05+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T06:02:02Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T08:01:57Z",
+   "last_lpn": 36,
+   "last_cc": 36,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-03T08:01:00Z",
+   "graduated_at": "2026-11-03T08:04:23Z",
    "checks_done": 7
   }
  }
