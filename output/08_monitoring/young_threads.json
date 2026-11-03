@@ -4,22 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197470": {
-   "title": "Не перетрудились?",
-   "slug": "197470-ne-peretrudilis",
-   "createdAt": "2026-11-03T07:03:56+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T07:13:27Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T09:13:16Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 6,
-   "fails": 1,
-   "last_checked": "2026-11-03T08:43:10Z",
-   "last_error": "The read operation timed out"
-  },
   "197472": {
    "title": "Интересный вариант  нерфа инъекторов ",
    "slug": "197472-interesnyy-variant-nerfa-inektorov",
@@ -29,11 +13,11 @@
    "discovered_at": "2026-11-03T08:01:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:00:58Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 5,
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-03T09:06:52Z"
+   "last_checked": "2026-11-03T09:15:37Z"
   },
   "197474": {
    "title": "Заработок с Ивента калл ",
@@ -46,9 +30,9 @@
    "until_ts": "2026-11-03T10:17:00Z",
    "last_lpn": 20,
    "last_cc": 20,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-03T09:06:56Z"
+   "last_checked": "2026-11-03T09:15:39Z"
   },
   "197473": {
    "title": "Пси-облученные",
@@ -59,11 +43,11 @@
    "discovered_at": "2026-11-03T08:17:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:17:00Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 3,
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-03T09:06:58Z"
+   "last_checked": "2026-11-03T09:15:41Z"
   },
   "197476": {
    "title": "критика",
@@ -74,11 +58,11 @@
    "discovered_at": "2026-11-03T08:28:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:28:14Z",
-   "last_lpn": 23,
-   "last_cc": 23,
-   "checks": 2,
+   "last_lpn": 24,
+   "last_cc": 24,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T09:07:00Z"
+   "last_checked": "2026-11-03T09:15:42Z"
   },
   "197475": {
    "title": "Полуавтоматическое оружие.",
@@ -89,11 +73,11 @@
    "discovered_at": "2026-11-03T08:28:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:28:14Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 2,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T09:07:02Z"
+   "last_checked": "2026-11-03T09:15:44Z"
   },
   "197477": {
    "title": "Новое для баланса",
@@ -104,9 +88,11 @@
    "discovered_at": "2026-11-03T09:07:05Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T11:05:55Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 0
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T09:15:46Z"
   }
  },
  "graduated": {
@@ -1490,6 +1476,24 @@
    "last_checked": "2026-11-03T08:04:24Z",
    "graduated_at": "2026-11-03T08:17:00Z",
    "checks_done": 7
+  },
+  "197470": {
+   "title": "Не перетрудились?",
+   "slug": "197470-ne-peretrudilis",
+   "createdAt": "2026-11-03T07:03:56+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T07:13:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T09:13:16Z",
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 6,
+   "fails": 1,
+   "last_checked": "2026-11-03T08:43:10Z",
+   "last_error": "The read operation timed out",
+   "graduated_at": "2026-11-03T09:15:35Z",
+   "checks_done": 6
   }
  }
 }
