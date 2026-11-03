@@ -8720,3 +8720,4 @@ Task ID: 54-04-s15: RECONCILE-ADD 197467 «Отдача малыша» createdAt
 Task ID: 54-04-s15: 197467 «Отдача малыша» lpn/cc 4/4→6/6: +2 за 15 мин (young, снап near=1 21KB)
 Task ID: 54-556: sweep 6xNEW-POSTS (197447 +3; 197454/197463 +2; 197395/197460/197465 +1), EXT 0 (ТГК штиль 22-й), deep 0, OWW-FAIL x5 стаб; young=1 (197467 растёт), grad=78; SKIP-маркеров lite нет.
 Task ID: 54-04-s15: 197467 «Отдача малыша» lpn/cc 6/6→9/9: +3 за 15 мин (young, снап near=1 28KB)
+Task ID: 54-04-s15: WIPE-232 ~04:5x + recovery 47 (шестая ВМ c-6ae969d9, HEAD откат на 71c70b8 19.10; ENOSPC при 97% чекаута при df 6.6G — квота ВМ, урок 44 повторился; prune-packed+ретрай → cd484123, потерь 0; vault MAC OK sha 7f9edd5d MATCH, creds 600, API 200; снапшоты [493,494]) — прогон 05:03 events=0 (197467 стабилен 9/9).
