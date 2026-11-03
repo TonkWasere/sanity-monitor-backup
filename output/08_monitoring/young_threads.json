@@ -15,9 +15,9 @@
    "until_ts": "2026-11-03T10:00:58Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-03T09:28:28Z"
+   "last_checked": "2026-11-03T09:55:05Z"
   },
   "197474": {
    "title": "Заработок с Ивента калл ",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-03T08:17:06Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:17:00Z",
-   "last_lpn": 21,
-   "last_cc": 21,
-   "checks": 5,
+   "last_lpn": 24,
+   "last_cc": 24,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-03T09:28:30Z"
+   "last_checked": "2026-11-03T09:55:08Z"
   },
   "197473": {
    "title": "Пси-облученные",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-03T10:17:00Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-03T09:28:31Z"
+   "last_checked": "2026-11-03T09:55:09Z"
   },
   "197476": {
    "title": "критика",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-11-03T08:28:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:28:14Z",
-   "last_lpn": 25,
-   "last_cc": 25,
-   "checks": 4,
+   "last_lpn": 28,
+   "last_cc": 28,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T09:28:33Z"
+   "last_checked": "2026-11-03T09:55:11Z"
   },
   "197475": {
    "title": "Полуавтоматическое оружие.",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-11-03T08:28:23Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T10:28:14Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 4,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-03T09:28:35Z"
+   "last_checked": "2026-11-03T09:55:13Z"
   },
   "197477": {
    "title": "Новое для баланса",
@@ -88,11 +88,11 @@
    "discovered_at": "2026-11-03T09:07:05Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T11:05:55Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 2,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T09:28:37Z"
+   "last_checked": "2026-11-03T09:55:15Z"
   },
   "197478": {
    "title": "Максимум стабилизации!",
@@ -105,7 +105,9 @@
    "until_ts": "2026-11-03T11:28:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-03T09:55:16Z"
   }
  },
  "graduated": {
