@@ -8750,3 +8750,4 @@ Task ID: 54-10-s15: events=3 (тик смещён ~10:18, WIPE-238 recovery 10:1
 Task ID: 54-10-s15: events=2 — +2: 197477 17/17; +1: 197476 30/30 (порог 30 перевалён); 197475/197478 тихо; young=4, grad=85.
 Task ID: 54-565: sweep 20xNEW-POSTS (окно 84 мин, слоты 09:32/10:02 — вайп-потери WIPE-237/238), OWW-FAIL x4, EXT 0, deep 0.
 Task ID: 54-10-s15: events=1 — GRADUATED x2: 197475 (финал 12/12), 197476 (финал 30/30); +1: 197477 18/18; young=2 (197477/197478), grad=87.
+Task ID: 54-11-s15: events=1 (тик смещён ~11:01, WIPE-239 recovery 10:58-11:00: 13-я ВМ c-6ae9be39, снап 19.10, sparse+reset a10ce45e, creds из MEGA); +1: 197477 19/19; young=2 (197477/197478), grad=87.

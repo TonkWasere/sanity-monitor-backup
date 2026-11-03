@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-03T09:07:05Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T11:05:55Z",
-   "last_lpn": 18,
-   "last_cc": 18,
-   "checks": 7,
+   "last_lpn": 19,
+   "last_cc": 19,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-03T10:43:20Z"
+   "last_checked": "2026-11-03T11:01:18Z"
   },
   "197478": {
    "title": "Максимум стабилизации!",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-03T11:28:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-03T10:43:21Z"
+   "last_checked": "2026-11-03T11:01:19Z"
   }
  },
  "graduated": {
