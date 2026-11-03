@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197469": {
-   "title": "Хочу",
-   "slug": "197469-hochu",
-   "createdAt": "2026-11-03T06:03:25+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T06:13:19Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T08:13:14Z",
-   "last_lpn": 21,
-   "last_cc": 21,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-03T08:04:24Z"
-  },
   "197470": {
    "title": "Не перетрудились?",
    "slug": "197470-ne-peretrudilis",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-11-03T07:13:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-03T09:13:16Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 3,
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-03T08:04:26Z"
+   "last_checked": "2026-11-03T08:17:02Z"
   },
   "197472": {
    "title": "Интересный вариант  нерфа инъекторов ",
@@ -45,9 +30,35 @@
    "until_ts": "2026-11-03T10:00:58Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-03T08:04:28Z"
+   "last_checked": "2026-11-03T08:17:04Z"
+  },
+  "197474": {
+   "title": "Заработок с Ивента калл ",
+   "slug": "197474-zarabotok-s-iventa-kall",
+   "createdAt": "2026-11-03T08:15:42+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T08:17:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T10:17:00Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197473": {
+   "title": "Пси-облученные",
+   "slug": "197473-psi-obluchennye",
+   "createdAt": "2026-11-03T08:08:56+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T08:17:06Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T10:17:00Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
@@ -1413,6 +1424,23 @@
    "fails": 0,
    "last_checked": "2026-11-03T08:01:00Z",
    "graduated_at": "2026-11-03T08:04:23Z",
+   "checks_done": 7
+  },
+  "197469": {
+   "title": "Хочу",
+   "slug": "197469-hochu",
+   "createdAt": "2026-11-03T06:03:25+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T06:13:19Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T08:13:14Z",
+   "last_lpn": 21,
+   "last_cc": 21,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-03T08:04:24Z",
+   "graduated_at": "2026-11-03T08:17:00Z",
    "checks_done": 7
   }
  }
