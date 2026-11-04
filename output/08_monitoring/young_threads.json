@@ -15,9 +15,9 @@
    "until_ts": "2026-11-04T15:33:13Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:15Z"
+   "last_checked": "2026-11-04T14:43:14Z"
   },
   "197546": {
    "title": "Таблица топ 240",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-04T15:33:14Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:16Z"
+   "last_checked": "2026-11-04T14:43:15Z"
   },
   "197545": {
    "title": "Что с иконкой?!",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-04T15:33:16Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:18Z"
+   "last_checked": "2026-11-04T14:43:17Z"
   },
   "197544": {
    "title": "Рейтинг празднества",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-04T15:33:18Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:20Z"
+   "last_checked": "2026-11-04T14:43:18Z"
   },
   "197543": {
    "title": "Награды за колизей",
@@ -75,9 +75,9 @@
    "until_ts": "2026-11-04T15:33:19Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:21Z"
+   "last_checked": "2026-11-04T14:43:20Z"
   },
   "197542": {
    "title": "Что сделали с ивентом и почему всё так плохо",
@@ -90,9 +90,9 @@
    "until_ts": "2026-11-04T15:33:21Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:23Z"
+   "last_checked": "2026-11-04T14:43:22Z"
   },
   "197541": {
    "title": "Откат крутой обновы",
@@ -105,9 +105,9 @@
    "until_ts": "2026-11-04T15:48:38Z",
    "last_lpn": 3,
    "last_cc": 2,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:25Z"
+   "last_checked": "2026-11-04T14:43:23Z"
   },
   "197550": {
    "title": "Подозрительно настроенные иксы за жетоны в рейтинге Празднества",
@@ -118,11 +118,11 @@
    "discovered_at": "2026-11-04T14:13:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T16:13:11Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:26Z"
+   "last_checked": "2026-11-04T14:43:25Z"
   },
   "197549": {
    "title": "Играбельное оружие (Эндгейм)",
@@ -133,11 +133,11 @@
    "discovered_at": "2026-11-04T14:13:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T16:13:11Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 1,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:28Z"
+   "last_checked": "2026-11-04T14:43:28Z"
   },
   "197548": {
    "title": "Награды за  2й сезон колизея.",
@@ -150,9 +150,9 @@
    "until_ts": "2026-11-04T16:13:11Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:30Z"
+   "last_checked": "2026-11-04T14:43:29Z"
   },
   "197552": {
    "title": "Рейтинг в ивенте. Проблемы и изменения.",
@@ -165,9 +165,9 @@
    "until_ts": "2026-11-04T16:21:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:31Z"
+   "last_checked": "2026-11-04T14:43:31Z"
   },
   "197551": {
    "title": "Замечательный рейтинг",
@@ -180,9 +180,9 @@
    "until_ts": "2026-11-04T16:21:27Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T14:28:33Z"
+   "last_checked": "2026-11-04T14:43:33Z"
   },
   "197553": {
    "title": "Ну что, пацаны, арена ворона?",
@@ -195,6 +195,32 @@
    "until_ts": "2026-11-04T16:28:13Z",
    "last_lpn": 1,
    "last_cc": 1,
+   "checks": 0
+  },
+  "197555": {
+   "title": "Вайбовый квестдизайн, или Не мамонт",
+   "slug": "197555-vaybovyy-kvestdizayn-ili-ne-mamont",
+   "createdAt": "2026-11-04T14:41:10+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T14:43:35Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T16:43:12Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197554": {
+   "title": "Вы чего наделали ... ? (И немного про тенденцию рейтинга)",
+   "slug": "197554-vy-chego-nadelali-i-nemnogo-pro-tendentsiyu-reytinga",
+   "createdAt": "2026-11-04T14:35:59+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T14:43:35Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T16:43:12Z",
+   "last_lpn": 3,
+   "last_cc": 3,
    "checks": 0
   }
  },
