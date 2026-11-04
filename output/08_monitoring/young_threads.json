@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-04T01:14:00Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T03:13:51Z",
-   "last_lpn": 10,
-   "last_cc": 9,
-   "checks": 4,
+   "last_lpn": 12,
+   "last_cc": 11,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T02:13:15Z"
+   "last_checked": "2026-11-04T02:45:27Z"
   },
   "197506": {
    "title": "Скинчики",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-04T03:46:46Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T02:13:16Z"
+   "last_checked": "2026-11-04T02:45:28Z"
   }
  },
  "graduated": {
