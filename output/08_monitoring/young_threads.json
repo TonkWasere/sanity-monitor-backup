@@ -168,6 +168,19 @@
    "checks": 1,
    "fails": 0,
    "last_checked": "2026-11-04T10:14:50Z"
+  },
+  "197532": {
+   "title": "Топ 250 гоев",
+   "slug": "197532-top-250-goev",
+   "createdAt": "2026-11-04T10:20:25+00:00",
+   "op_user": "Shuhartich",
+   "stm": false,
+   "discovered_at": "2026-11-04T10:21:12Z",
+   "source": "snap35",
+   "until_ts": "2026-11-04T12:21:12Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
