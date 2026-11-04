@@ -209,6 +209,32 @@
    "last_lpn": 3,
    "last_cc": 3,
    "checks": 0
+  },
+  "197529": {
+   "title": "Арена после патча",
+   "slug": "197529-arena-posle-patcha",
+   "createdAt": "2026-11-04T09:17:26+00:00",
+   "op_user": "IgorLaser",
+   "stm": false,
+   "discovered_at": "2026-11-04T09:21:30Z",
+   "source": "snap35",
+   "until_ts": "2026-11-04T11:21:30Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197528": {
+   "title": "Набалансили ",
+   "slug": "197528-nabalansili",
+   "createdAt": "2026-11-04T09:15:01+00:00",
+   "op_user": "stm:76561198155635860",
+   "stm": true,
+   "discovered_at": "2026-11-04T09:21:32Z",
+   "source": "snap35",
+   "until_ts": "2026-11-04T11:21:32Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
   }
  },
  "graduated": {
