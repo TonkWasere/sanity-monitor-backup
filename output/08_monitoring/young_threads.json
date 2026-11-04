@@ -15,9 +15,9 @@
    "until_ts": "2026-11-04T09:15:49Z",
    "last_lpn": 38,
    "last_cc": 38,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-04T08:43:20Z"
+   "last_checked": "2026-11-04T09:00:40Z"
   },
   "197515": {
    "title": "Елка 2027",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-04T07:28:20Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T09:28:10Z",
-   "last_lpn": 21,
-   "last_cc": 21,
-   "checks": 5,
+   "last_lpn": 22,
+   "last_cc": 22,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-04T08:43:22Z"
+   "last_checked": "2026-11-04T09:00:42Z"
   },
   "197510": {
    "title": "🗒️ Патчноут [04.11.2026]",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-11-04T07:44:14Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T09:44:03Z",
-   "last_lpn": 77,
-   "last_cc": 61,
-   "checks": 4,
+   "last_lpn": 80,
+   "last_cc": 64,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T08:43:24Z"
+   "last_checked": "2026-11-04T09:00:44Z"
   },
   "197519": {
    "title": "🗒️ Патчноут [04.11.2026] Комментарии",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-11-04T08:01:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T10:01:04Z",
-   "last_lpn": 39,
-   "last_cc": 37,
-   "checks": 3,
+   "last_lpn": 49,
+   "last_cc": 46,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T08:43:26Z"
+   "last_checked": "2026-11-04T09:00:46Z"
   },
   "197517": {
    "title": "Ну всё, прощаемся",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-11-04T08:01:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T10:01:04Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 3,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T08:43:27Z"
+   "last_checked": "2026-11-04T09:00:47Z"
   },
   "197516": {
    "title": "Скока фиол лига зимы стоит?",
@@ -88,11 +88,11 @@
    "discovered_at": "2026-11-04T08:01:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T10:01:04Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 3,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T08:43:29Z"
+   "last_checked": "2026-11-04T09:00:49Z"
   },
   "197520": {
    "title": "А вы помните?",
@@ -105,9 +105,9 @@
    "until_ts": "2026-11-04T10:14:14Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T08:43:30Z"
+   "last_checked": "2026-11-04T09:00:51Z"
   },
   "197522": {
    "title": "11 хлебных крошек",
@@ -120,9 +120,9 @@
    "until_ts": "2026-11-04T10:21:18Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T08:43:32Z"
+   "last_checked": "2026-11-04T09:00:53Z"
   },
   "197524": {
    "title": "Награды за Колизей?",
@@ -135,9 +135,9 @@
    "until_ts": "2026-11-04T10:28:20Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T08:43:34Z"
+   "last_checked": "2026-11-04T09:00:54Z"
   },
   "197523": {
    "title": "А когда добавили такое?",
@@ -150,9 +150,9 @@
    "until_ts": "2026-11-04T10:28:20Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T08:43:35Z"
+   "last_checked": "2026-11-04T09:00:56Z"
   },
   "197525": {
    "title": "У нас реорганизация мы ничего не успеваем (((( бедни ((",
@@ -165,6 +165,34 @@
    "until_ts": "2026-11-04T10:43:18Z",
    "last_lpn": 3,
    "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T09:00:57Z"
+  },
+  "197526": {
+   "title": "🚀 Запуск игровых серверов",
+   "slug": "197526-zapusk-igrovyh-serverov",
+   "createdAt": "2026-11-04T08:40:28+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T09:01:00Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T11:00:38Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197521": {
+   "title": "⚔️ Промокод для страждущих",
+   "slug": "197521-promokod-dlya-strazhduschih",
+   "createdAt": "2026-11-04T08:18:34+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T09:01:00Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T11:00:38Z",
+   "last_lpn": 1,
+   "last_cc": 1,
    "checks": 0
   }
  },
