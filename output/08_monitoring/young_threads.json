@@ -15,9 +15,9 @@
    "until_ts": "2026-11-04T15:33:13Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T13:58:28Z"
+   "last_checked": "2026-11-04T14:13:13Z"
   },
   "197546": {
    "title": "Таблица топ 240",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-04T15:33:14Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T13:58:29Z"
+   "last_checked": "2026-11-04T14:13:15Z"
   },
   "197545": {
    "title": "Что с иконкой?!",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-04T15:33:16Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T13:58:30Z"
+   "last_checked": "2026-11-04T14:13:16Z"
   },
   "197544": {
    "title": "Рейтинг празднества",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-04T15:33:18Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T13:58:32Z"
+   "last_checked": "2026-11-04T14:13:18Z"
   },
   "197543": {
    "title": "Награды за колизей",
@@ -75,9 +75,9 @@
    "until_ts": "2026-11-04T15:33:19Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T13:58:34Z"
+   "last_checked": "2026-11-04T14:13:20Z"
   },
   "197542": {
    "title": "Что сделали с ивентом и почему всё так плохо",
@@ -90,9 +90,9 @@
    "until_ts": "2026-11-04T15:33:21Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T13:58:35Z"
+   "last_checked": "2026-11-04T14:13:22Z"
   },
   "197541": {
    "title": "Откат крутой обновы",
@@ -105,9 +105,48 @@
    "until_ts": "2026-11-04T15:48:38Z",
    "last_lpn": 3,
    "last_cc": 2,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T13:58:37Z"
+   "last_checked": "2026-11-04T14:13:23Z"
+  },
+  "197550": {
+   "title": "Подозрительно настроенные иксы за жетоны в рейтинге Празднества",
+   "slug": "197550-podozritelno-nastroennye-iksy-za-zhetony-v-reytinge-prazdnestva",
+   "createdAt": "2026-11-04T14:05:09+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T14:13:26Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T16:13:11Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
+  },
+  "197549": {
+   "title": "Играбельное оружие (Эндгейм)",
+   "slug": "197549-igrabelnoe-oruzhie-endgeym",
+   "createdAt": "2026-11-04T14:04:37+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T14:13:26Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T16:13:11Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197548": {
+   "title": "Награды за  2й сезон колизея.",
+   "slug": "197548-nagrady-za-2y-sezon-kolizeya",
+   "createdAt": "2026-11-04T14:03:24+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T14:13:26Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T16:13:11Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
   }
  },
  "graduated": {
