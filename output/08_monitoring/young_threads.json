@@ -15,9 +15,9 @@
    "until_ts": "2026-11-04T05:00:39Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-04T04:47:13Z"
+   "last_checked": "2026-11-04T05:00:27Z"
   },
   "197508": {
    "title": "А когда это добавили ",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-04T03:21:33Z",
    "source": "snap35",
    "until_ts": "2026-11-04T05:21:33Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 5,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-04T04:47:15Z"
+   "last_checked": "2026-11-04T05:00:28Z"
   }
  },
  "graduated": {
