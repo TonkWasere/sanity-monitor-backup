@@ -136,6 +136,19 @@
    "last_lpn": 2,
    "last_cc": 2,
    "checks": 0
+  },
+  "197522": {
+   "title": "11 хлебных крошек",
+   "slug": "197522-11-hlebnyh-kroshek",
+   "createdAt": "2026-11-04T08:21:01+00:00",
+   "op_user": "stm:76561199389681386",
+   "stm": true,
+   "discovered_at": "2026-11-04T08:21:18Z",
+   "source": "snap35",
+   "until_ts": "2026-11-04T10:21:18Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
