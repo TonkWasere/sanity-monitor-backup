@@ -8822,3 +8822,4 @@ Task ID: 54-590: sweep 5xNEW-POSTS (197505 +2 post-grad, 197503 гэп 1, 112917
 - Task ID: 54-03-s15: тик 03:58: 197506 «Скинчики» GRADUATED (2h отслужил, финал 1/1) grad 111→112; 197507 (1/1 check#3)/197508 (3/3 check#3) без дельт; WIPE-263 (36-я ВМ, снап 19.10, интервал 262→263 ~1 ч) → recovery 78 ~3 мин чисто (reset 09a20f8f, vault MAC OK, creds API 200); young=2 (197507/508), grad=112.
 Task ID: 54-591: sweep 3xNEW-POSTS (197505 +2, 196572, 197508), EXT 0, OWW-FAIL x2 (196475/197461 31-й проход), deep 0; окно 29 мин; ★CANON ДА (#48 MATCH + GG 3/3).
 - Task ID: 54-04-s15: тик 04:13 events=1: 197508 «А когда это добавили» +1 (3/3→4/4); 197507 (1/1 check#4) без дельт; young=2, grad=112.
+- Task ID: 54-04-s15: тик 04:43 (слот 04:28 TICK-LOST — WIPE-264 37-я ВМ, снап 19.10, репо откатился к 71c70b8): recovery 79 ~3 мин чисто (reset 5284b2b0, vault MAC OK, creds API 200, /home/z/backups abs); события: 197507 +1 (1/1→2/2), 197508 +1 (4/4→5/5); young=2, grad=112.
