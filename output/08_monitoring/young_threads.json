@@ -15,9 +15,9 @@
    "until_ts": "2026-11-04T01:15:09Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-04T01:01:10Z"
+   "last_checked": "2026-11-04T01:13:53Z"
   },
   "197498": {
    "title": "Нерф скорости до базовых настроек или +фпс моделькам персонажей",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-04T01:15:09Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-04T01:01:12Z"
+   "last_checked": "2026-11-04T01:13:55Z"
   },
   "197503": {
    "title": "Разряд, Беретта или МГ3?",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-04T02:03:13Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T01:01:13Z"
+   "last_checked": "2026-11-04T01:13:56Z"
   },
   "197502": {
    "title": "Cкины коллизея.",
@@ -60,9 +60,22 @@
    "until_ts": "2026-11-04T02:03:13Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T01:01:15Z"
+   "last_checked": "2026-11-04T01:13:58Z"
+  },
+  "197505": {
+   "title": "Скуфики",
+   "slug": "197505-skufiki",
+   "createdAt": "2026-11-04T01:05:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T01:14:00Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T03:13:51Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
