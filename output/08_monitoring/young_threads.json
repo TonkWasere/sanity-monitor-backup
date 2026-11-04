@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-04T00:03:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T02:03:13Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 6,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-04T01:28:55Z"
+   "last_checked": "2026-11-04T01:46:47Z"
   },
   "197502": {
    "title": "Cкины коллизея.",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-04T00:03:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T02:03:13Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 6,
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-04T01:28:57Z"
+   "last_checked": "2026-11-04T01:46:49Z"
   },
   "197505": {
    "title": "Скуфики",
@@ -43,11 +43,24 @@
    "discovered_at": "2026-11-04T01:14:00Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T03:13:51Z",
-   "last_lpn": 5,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 6,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T01:28:58Z"
+   "last_checked": "2026-11-04T01:46:50Z"
+  },
+  "197506": {
+   "title": "Скинчики",
+   "slug": "197506-skinchiki",
+   "createdAt": "2026-11-04T01:38:29+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T01:46:53Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T03:46:46Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
