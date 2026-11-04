@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197496": {
-   "title": "Хеппи-энд в заданиях.",
-   "slug": "197496-heppi-end-v-zadaniyah",
-   "createdAt": "2026-11-03T21:43:18+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T21:45:24Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T23:45:22Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-03T23:43:10Z"
-  },
-  "197495": {
-   "title": "Распред на ивенте",
-   "slug": "197495-raspred-na-ivente",
-   "createdAt": "2026-11-03T21:34:20+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T21:45:24Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-03T23:45:22Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-03T23:43:11Z"
-  },
   "197497": {
    "title": "Вопрос по кв",
    "slug": "197497-vopros-po-kv",
@@ -45,9 +15,9 @@
    "until_ts": "2026-11-04T00:15:05Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-03T23:43:13Z"
+   "last_checked": "2026-11-04T00:03:15Z"
   },
   "197499": {
    "title": "какие модули ставить на снайперки в сталкрафт",
@@ -60,9 +30,9 @@
    "until_ts": "2026-11-04T01:15:09Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T23:43:15Z"
+   "last_checked": "2026-11-04T00:03:16Z"
   },
   "197498": {
    "title": "Нерф скорости до базовых настроек или +фпс моделькам персонажей",
@@ -75,9 +45,35 @@
    "until_ts": "2026-11-04T01:15:09Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-03T23:43:16Z"
+   "last_checked": "2026-11-04T00:03:18Z"
+  },
+  "197503": {
+   "title": "Разряд, Беретта или МГ3?",
+   "slug": "197503-razryad-beretta-ili-mg3",
+   "createdAt": "2026-11-03T23:54:34+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T00:03:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T02:03:13Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
+  },
+  "197502": {
+   "title": "Cкины коллизея.",
+   "slug": "197502-ckiny-kollizeya",
+   "createdAt": "2026-11-03T23:52:02+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T00:03:21Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T02:03:13Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
@@ -1839,6 +1835,40 @@
    "last_checked": "2026-11-03T21:15:12Z",
    "graduated_at": "2026-11-03T21:45:22Z",
    "checks_done": 6
+  },
+  "197495": {
+   "title": "Распред на ивенте",
+   "slug": "197495-raspred-na-ivente",
+   "createdAt": "2026-11-03T21:34:20+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T21:45:24Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T23:45:22Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-03T23:43:11Z",
+   "graduated_at": "2026-11-04T00:03:13Z",
+   "checks_done": 8
+  },
+  "197496": {
+   "title": "Хеппи-энд в заданиях.",
+   "slug": "197496-heppi-end-v-zadaniyah",
+   "createdAt": "2026-11-03T21:43:18+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T21:45:24Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-03T23:45:22Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-03T23:43:10Z",
+   "graduated_at": "2026-11-04T00:03:13Z",
+   "checks_done": 8
   }
  }
 }
