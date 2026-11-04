@@ -13,11 +13,37 @@
    "discovered_at": "2026-11-04T05:43:55Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T07:43:52Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 3,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T06:28:15Z"
+   "last_checked": "2026-11-04T06:43:15Z"
+  },
+  "197513": {
+   "title": "Зачем плоть Арсиналу?",
+   "slug": "197513-zachem-plot-arsinalu",
+   "createdAt": "2026-11-04T06:42:33+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T06:43:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T08:43:13Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197512": {
+   "title": "модераторы страх потеряли",
+   "slug": "197512-moderatory-strah-poteryali",
+   "createdAt": "2026-11-04T06:28:47+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T06:43:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T08:43:13Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
