@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197509": {
-   "title": "А чё всё ещё не  достаточно аргументов ?",
-   "slug": "197509-a-chyo-vsyo-eschyo-ne-dostatochno-argumentov",
-   "createdAt": "2026-11-04T05:43:04+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-04T05:43:55Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-04T07:43:52Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-04T07:28:12Z"
-  },
   "197513": {
    "title": "Зачем плоть Арсиналу?",
    "slug": "197513-zachem-plot-arsinalu",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-11-04T06:43:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T08:43:13Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 2,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T07:28:14Z"
+   "last_checked": "2026-11-04T07:44:05Z"
   },
   "197512": {
    "title": "модераторы страх потеряли",
@@ -43,11 +28,11 @@
    "discovered_at": "2026-11-04T06:43:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T08:43:13Z",
-   "last_lpn": 19,
-   "last_cc": 19,
-   "checks": 2,
+   "last_lpn": 30,
+   "last_cc": 30,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T07:28:16Z"
+   "last_checked": "2026-11-04T07:44:07Z"
   },
   "197514": {
    "title": "Описание в стиме",
@@ -58,11 +43,11 @@
    "discovered_at": "2026-11-04T07:15:57Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T09:15:49Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 1,
+   "last_lpn": 21,
+   "last_cc": 21,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T07:28:17Z"
+   "last_checked": "2026-11-04T07:44:09Z"
   },
   "197515": {
    "title": "Елка 2027",
@@ -73,8 +58,23 @@
    "discovered_at": "2026-11-04T07:28:20Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T09:28:10Z",
-   "last_lpn": 2,
-   "last_cc": 2,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T07:44:11Z"
+  },
+  "197510": {
+   "title": "🗒️ Патчноут [04.11.2026]",
+   "slug": "197510-patchnout-04112026",
+   "createdAt": "2026-11-04T06:08:03+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T07:44:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T09:44:03Z",
+   "last_lpn": 1,
+   "last_cc": 1,
    "checks": 0
   }
  },
@@ -2024,6 +2024,23 @@
    "last_checked": "2026-11-04T05:13:13Z",
    "graduated_at": "2026-11-04T05:28:09Z",
    "checks_done": 7
+  },
+  "197509": {
+   "title": "А чё всё ещё не  достаточно аргументов ?",
+   "slug": "197509-a-chyo-vsyo-eschyo-ne-dostatochno-argumentov",
+   "createdAt": "2026-11-04T05:43:04+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T05:43:55Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T07:43:52Z",
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-04T07:28:12Z",
+   "graduated_at": "2026-11-04T07:44:03Z",
+   "checks_done": 6
   }
  }
 }
