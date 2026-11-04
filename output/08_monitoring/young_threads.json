@@ -15,9 +15,9 @@
    "until_ts": "2026-11-04T15:33:13Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T14:13:13Z"
+   "last_checked": "2026-11-04T14:28:15Z"
   },
   "197546": {
    "title": "Таблица топ 240",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-04T15:33:14Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T14:13:15Z"
+   "last_checked": "2026-11-04T14:28:16Z"
   },
   "197545": {
    "title": "Что с иконкой?!",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-04T15:33:16Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T14:13:16Z"
+   "last_checked": "2026-11-04T14:28:18Z"
   },
   "197544": {
    "title": "Рейтинг празднества",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-04T15:33:18Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T14:13:18Z"
+   "last_checked": "2026-11-04T14:28:20Z"
   },
   "197543": {
    "title": "Награды за колизей",
@@ -75,9 +75,9 @@
    "until_ts": "2026-11-04T15:33:19Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T14:13:20Z"
+   "last_checked": "2026-11-04T14:28:21Z"
   },
   "197542": {
    "title": "Что сделали с ивентом и почему всё так плохо",
@@ -90,9 +90,9 @@
    "until_ts": "2026-11-04T15:33:21Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T14:13:22Z"
+   "last_checked": "2026-11-04T14:28:23Z"
   },
   "197541": {
    "title": "Откат крутой обновы",
@@ -105,9 +105,9 @@
    "until_ts": "2026-11-04T15:48:38Z",
    "last_lpn": 3,
    "last_cc": 2,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T14:13:23Z"
+   "last_checked": "2026-11-04T14:28:25Z"
   },
   "197550": {
    "title": "Подозрительно настроенные иксы за жетоны в рейтинге Празднества",
@@ -118,9 +118,11 @@
    "discovered_at": "2026-11-04T14:13:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T16:13:11Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T14:28:26Z"
   },
   "197549": {
    "title": "Играбельное оружие (Эндгейм)",
@@ -131,9 +133,11 @@
    "discovered_at": "2026-11-04T14:13:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T16:13:11Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T14:28:28Z"
   },
   "197548": {
    "title": "Награды за  2й сезон колизея.",
@@ -146,7 +150,9 @@
    "until_ts": "2026-11-04T16:13:11Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T14:28:30Z"
   },
   "197552": {
    "title": "Рейтинг в ивенте. Проблемы и изменения.",
@@ -159,7 +165,9 @@
    "until_ts": "2026-11-04T16:21:26Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T14:28:31Z"
   },
   "197551": {
    "title": "Замечательный рейтинг",
@@ -170,6 +178,21 @@
    "discovered_at": "2026-11-04T14:21:27Z",
    "source": "snap35",
    "until_ts": "2026-11-04T16:21:27Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T14:28:33Z"
+  },
+  "197553": {
+   "title": "Ну что, пацаны, арена ворона?",
+   "slug": "197553-nu-chto-patsany-arena-vorona",
+   "createdAt": "2026-11-04T14:26:23+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T14:28:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T16:28:13Z",
    "last_lpn": 1,
    "last_cc": 1,
    "checks": 0
