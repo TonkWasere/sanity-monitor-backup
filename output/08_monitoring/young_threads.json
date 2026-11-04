@@ -4,36 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197513": {
-   "title": "Зачем плоть Арсиналу?",
-   "slug": "197513-zachem-plot-arsinalu",
-   "createdAt": "2026-11-04T06:42:33+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-04T06:43:17Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-04T08:43:13Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-04T08:28:22Z"
-  },
-  "197512": {
-   "title": "модераторы страх потеряли",
-   "slug": "197512-moderatory-strah-poteryali",
-   "createdAt": "2026-11-04T06:28:47+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-04T06:43:17Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-04T08:43:13Z",
-   "last_lpn": 43,
-   "last_cc": 43,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-04T08:28:24Z"
-  },
   "197514": {
    "title": "Описание в стиме",
    "slug": "197514-opisanie-v-stime",
@@ -45,9 +15,9 @@
    "until_ts": "2026-11-04T09:15:49Z",
    "last_lpn": 38,
    "last_cc": 38,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-04T08:28:26Z"
+   "last_checked": "2026-11-04T08:43:20Z"
   },
   "197515": {
    "title": "Елка 2027",
@@ -60,9 +30,9 @@
    "until_ts": "2026-11-04T09:28:10Z",
    "last_lpn": 21,
    "last_cc": 21,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T08:28:28Z"
+   "last_checked": "2026-11-04T08:43:22Z"
   },
   "197510": {
    "title": "🗒️ Патчноут [04.11.2026]",
@@ -73,11 +43,11 @@
    "discovered_at": "2026-11-04T07:44:14Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T09:44:03Z",
-   "last_lpn": 73,
-   "last_cc": 58,
-   "checks": 3,
+   "last_lpn": 77,
+   "last_cc": 61,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T08:28:29Z"
+   "last_checked": "2026-11-04T08:43:24Z"
   },
   "197519": {
    "title": "🗒️ Патчноут [04.11.2026] Комментарии",
@@ -88,11 +58,11 @@
    "discovered_at": "2026-11-04T08:01:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T10:01:04Z",
-   "last_lpn": 36,
-   "last_cc": 34,
-   "checks": 2,
+   "last_lpn": 39,
+   "last_cc": 37,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T08:28:31Z"
+   "last_checked": "2026-11-04T08:43:26Z"
   },
   "197517": {
    "title": "Ну всё, прощаемся",
@@ -105,9 +75,9 @@
    "until_ts": "2026-11-04T10:01:04Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T08:28:33Z"
+   "last_checked": "2026-11-04T08:43:27Z"
   },
   "197516": {
    "title": "Скока фиол лига зимы стоит?",
@@ -118,11 +88,11 @@
    "discovered_at": "2026-11-04T08:01:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T10:01:04Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 2,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T08:28:35Z"
+   "last_checked": "2026-11-04T08:43:29Z"
   },
   "197520": {
    "title": "А вы помните?",
@@ -135,9 +105,9 @@
    "until_ts": "2026-11-04T10:14:14Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T08:28:36Z"
+   "last_checked": "2026-11-04T08:43:30Z"
   },
   "197522": {
    "title": "11 хлебных крошек",
@@ -148,11 +118,11 @@
    "discovered_at": "2026-11-04T08:21:18Z",
    "source": "snap35",
    "until_ts": "2026-11-04T10:21:18Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 1,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T08:28:38Z"
+   "last_checked": "2026-11-04T08:43:32Z"
   },
   "197524": {
    "title": "Награды за Колизей?",
@@ -163,9 +133,11 @@
    "discovered_at": "2026-11-04T08:28:40Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T10:28:20Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T08:43:34Z"
   },
   "197523": {
    "title": "А когда добавили такое?",
@@ -176,6 +148,21 @@
    "discovered_at": "2026-11-04T08:28:40Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T10:28:20Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T08:43:35Z"
+  },
+  "197525": {
+   "title": "У нас реорганизация мы ничего не успеваем (((( бедни ((",
+   "slug": "197525-u-nas-reorganizatsiya-my-nichego-ne-uspevaem-bedni",
+   "createdAt": "2026-11-04T08:39:36+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T08:43:38Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T10:43:18Z",
    "last_lpn": 3,
    "last_cc": 3,
    "checks": 0
@@ -2143,6 +2130,40 @@
    "fails": 0,
    "last_checked": "2026-11-04T07:28:12Z",
    "graduated_at": "2026-11-04T07:44:03Z",
+   "checks_done": 6
+  },
+  "197512": {
+   "title": "модераторы страх потеряли",
+   "slug": "197512-moderatory-strah-poteryali",
+   "createdAt": "2026-11-04T06:28:47+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T06:43:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T08:43:13Z",
+   "last_lpn": 43,
+   "last_cc": 43,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-04T08:28:24Z",
+   "graduated_at": "2026-11-04T08:43:18Z",
+   "checks_done": 6
+  },
+  "197513": {
+   "title": "Зачем плоть Арсиналу?",
+   "slug": "197513-zachem-plot-arsinalu",
+   "createdAt": "2026-11-04T06:42:33+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T06:43:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T08:43:13Z",
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-04T08:28:22Z",
+   "graduated_at": "2026-11-04T08:43:18Z",
    "checks_done": 6
   }
  }
