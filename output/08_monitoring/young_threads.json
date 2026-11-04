@@ -15,9 +15,9 @@
    "until_ts": "2026-11-04T01:15:09Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-04T00:43:13Z"
+   "last_checked": "2026-11-04T01:01:10Z"
   },
   "197498": {
    "title": "Нерф скорости до базовых настроек или +фпс моделькам персонажей",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-04T01:15:09Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-04T00:43:14Z"
+   "last_checked": "2026-11-04T01:01:12Z"
   },
   "197503": {
    "title": "Разряд, Беретта или МГ3?",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-04T02:03:13Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T00:43:16Z"
+   "last_checked": "2026-11-04T01:01:13Z"
   },
   "197502": {
    "title": "Cкины коллизея.",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-04T02:03:13Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T00:43:17Z"
+   "last_checked": "2026-11-04T01:01:15Z"
   }
  },
  "graduated": {
