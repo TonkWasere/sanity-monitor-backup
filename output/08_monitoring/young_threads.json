@@ -15,9 +15,9 @@
    "until_ts": "2026-11-04T15:33:13Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T13:48:41Z"
+   "last_checked": "2026-11-04T13:58:28Z"
   },
   "197546": {
    "title": "Таблица топ 240",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-04T15:33:14Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T13:48:42Z"
+   "last_checked": "2026-11-04T13:58:29Z"
   },
   "197545": {
    "title": "Что с иконкой?!",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-04T15:33:16Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T13:48:44Z"
+   "last_checked": "2026-11-04T13:58:30Z"
   },
   "197544": {
    "title": "Рейтинг празднества",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-04T15:33:18Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T13:48:45Z"
+   "last_checked": "2026-11-04T13:58:32Z"
   },
   "197543": {
    "title": "Награды за колизей",
@@ -75,9 +75,9 @@
    "until_ts": "2026-11-04T15:33:19Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T13:48:47Z"
+   "last_checked": "2026-11-04T13:58:34Z"
   },
   "197542": {
    "title": "Что сделали с ивентом и почему всё так плохо",
@@ -90,9 +90,9 @@
    "until_ts": "2026-11-04T15:33:21Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T13:48:49Z"
+   "last_checked": "2026-11-04T13:58:35Z"
   },
   "197541": {
    "title": "Откат крутой обновы",
@@ -105,7 +105,9 @@
    "until_ts": "2026-11-04T15:48:38Z",
    "last_lpn": 3,
    "last_cc": 2,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T13:58:37Z"
   }
  },
  "graduated": {
