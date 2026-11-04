@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197497": {
-   "title": "Вопрос по кв",
-   "slug": "197497-vopros-po-kv",
-   "createdAt": "2026-11-03T22:01:54+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-03T22:15:11Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-04T00:15:05Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-04T00:13:14Z"
-  },
   "197499": {
    "title": "какие модули ставить на снайперки в сталкрафт",
    "slug": "197499-kakie-moduli-stavit-na-snayperki-v-stalkraft",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-04T01:15:09Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T00:13:16Z"
+   "last_checked": "2026-11-04T00:28:12Z"
   },
   "197498": {
    "title": "Нерф скорости до базовых настроек или +фпс моделькам персонажей",
@@ -45,9 +30,9 @@
    "until_ts": "2026-11-04T01:15:09Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T00:13:18Z"
+   "last_checked": "2026-11-04T00:28:14Z"
   },
   "197503": {
    "title": "Разряд, Беретта или МГ3?",
@@ -60,9 +45,9 @@
    "until_ts": "2026-11-04T02:03:13Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T00:13:20Z"
+   "last_checked": "2026-11-04T00:28:16Z"
   },
   "197502": {
    "title": "Cкины коллизея.",
@@ -75,9 +60,9 @@
    "until_ts": "2026-11-04T02:03:13Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T00:13:21Z"
+   "last_checked": "2026-11-04T00:28:17Z"
   }
  },
  "graduated": {
@@ -1872,6 +1857,23 @@
    "fails": 0,
    "last_checked": "2026-11-03T23:43:10Z",
    "graduated_at": "2026-11-04T00:03:13Z",
+   "checks_done": 8
+  },
+  "197497": {
+   "title": "Вопрос по кв",
+   "slug": "197497-vopros-po-kv",
+   "createdAt": "2026-11-03T22:01:54+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-03T22:15:11Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T00:15:05Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-04T00:13:14Z",
+   "graduated_at": "2026-11-04T00:28:11Z",
    "checks_done": 8
   }
  }
