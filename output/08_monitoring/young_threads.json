@@ -4,66 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197519": {
-   "title": "🗒️ Патчноут [04.11.2026] Комментарии",
-   "slug": "197519-patchnout-04112026-kommentarii",
-   "createdAt": "2026-11-04T07:50:09+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-04T08:01:17Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-04T10:01:04Z",
-   "last_lpn": 50,
-   "last_cc": 47,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-04T10:00:58Z"
-  },
-  "197517": {
-   "title": "Ну всё, прощаемся",
-   "slug": "197517-nu-vsyo-proschaemsya",
-   "createdAt": "2026-11-04T07:47:39+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-04T08:01:17Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-04T10:01:04Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-04T10:01:00Z"
-  },
-  "197516": {
-   "title": "Скока фиол лига зимы стоит?",
-   "slug": "197516-skoka-fiol-liga-zimy-stoit",
-   "createdAt": "2026-11-04T07:45:01+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-04T08:01:17Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-04T10:01:04Z",
-   "last_lpn": 16,
-   "last_cc": 16,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-04T10:01:01Z"
-  },
-  "197520": {
-   "title": "А вы помните?",
-   "slug": "197520-a-vy-pomnite",
-   "createdAt": "2026-11-04T08:05:49+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-04T08:14:31Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-04T10:14:14Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-04T10:01:03Z"
-  },
   "197522": {
    "title": "11 хлебных крошек",
    "slug": "197522-11-hlebnyh-kroshek",
@@ -75,9 +15,9 @@
    "until_ts": "2026-11-04T10:21:18Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-04T10:01:05Z"
+   "last_checked": "2026-11-04T10:14:33Z"
   },
   "197524": {
    "title": "Награды за Колизей?",
@@ -90,9 +30,9 @@
    "until_ts": "2026-11-04T10:28:20Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-04T10:01:06Z"
+   "last_checked": "2026-11-04T10:14:35Z"
   },
   "197523": {
    "title": "А когда добавили такое?",
@@ -105,9 +45,9 @@
    "until_ts": "2026-11-04T10:28:20Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-04T10:01:08Z"
+   "last_checked": "2026-11-04T10:14:36Z"
   },
   "197525": {
    "title": "У нас реорганизация мы ничего не успеваем (((( бедни ((",
@@ -120,9 +60,9 @@
    "until_ts": "2026-11-04T10:43:18Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T10:01:09Z"
+   "last_checked": "2026-11-04T10:14:38Z"
   },
   "197526": {
    "title": "🚀 Запуск игровых серверов",
@@ -135,9 +75,9 @@
    "until_ts": "2026-11-04T11:00:38Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T10:01:11Z"
+   "last_checked": "2026-11-04T10:14:39Z"
   },
   "197521": {
    "title": "⚔️ Промокод для страждущих",
@@ -150,9 +90,9 @@
    "until_ts": "2026-11-04T11:00:38Z",
    "last_lpn": 10,
    "last_cc": 8,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T10:01:12Z"
+   "last_checked": "2026-11-04T10:14:41Z"
   },
   "197527": {
    "title": "Конкуренты exbo нашлись ",
@@ -165,9 +105,9 @@
    "until_ts": "2026-11-04T11:13:21Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T10:01:14Z"
+   "last_checked": "2026-11-04T10:14:43Z"
   },
   "197529": {
    "title": "Арена после патча",
@@ -178,11 +118,11 @@
    "discovered_at": "2026-11-04T09:21:30Z",
    "source": "snap35",
    "until_ts": "2026-11-04T11:21:30Z",
-   "last_lpn": 7,
-   "last_cc": 6,
-   "checks": 1,
+   "last_lpn": 11,
+   "last_cc": 10,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-04T10:01:16Z"
+   "last_checked": "2026-11-04T10:14:45Z"
   },
   "197528": {
    "title": "Набалансили ",
@@ -193,9 +133,11 @@
    "discovered_at": "2026-11-04T09:21:32Z",
    "source": "snap35",
    "until_ts": "2026-11-04T11:21:32Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T10:14:47Z"
   },
   "197530": {
    "title": "Я думал хотя бы отдел монетизации старается...",
@@ -206,9 +148,11 @@
    "discovered_at": "2026-11-04T09:28:48Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T11:28:26Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T10:14:49Z"
   },
   "197531": {
    "title": "Гой  недоволен",
@@ -221,7 +165,9 @@
    "until_ts": "2026-11-04T12:00:56Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T10:14:50Z"
   }
  },
  "graduated": {
@@ -2272,6 +2218,74 @@
    "last_checked": "2026-11-04T09:28:28Z",
    "graduated_at": "2026-11-04T10:00:56Z",
    "checks_done": 7
+  },
+  "197516": {
+   "title": "Скока фиол лига зимы стоит?",
+   "slug": "197516-skoka-fiol-liga-zimy-stoit",
+   "createdAt": "2026-11-04T07:45:01+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T08:01:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T10:01:04Z",
+   "last_lpn": 16,
+   "last_cc": 16,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-04T10:01:01Z",
+   "graduated_at": "2026-11-04T10:14:31Z",
+   "checks_done": 7
+  },
+  "197517": {
+   "title": "Ну всё, прощаемся",
+   "slug": "197517-nu-vsyo-proschaemsya",
+   "createdAt": "2026-11-04T07:47:39+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T08:01:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T10:01:04Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-04T10:01:00Z",
+   "graduated_at": "2026-11-04T10:14:31Z",
+   "checks_done": 7
+  },
+  "197519": {
+   "title": "🗒️ Патчноут [04.11.2026] Комментарии",
+   "slug": "197519-patchnout-04112026-kommentarii",
+   "createdAt": "2026-11-04T07:50:09+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T08:01:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T10:01:04Z",
+   "last_lpn": 50,
+   "last_cc": 47,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-04T10:00:58Z",
+   "graduated_at": "2026-11-04T10:14:31Z",
+   "checks_done": 7
+  },
+  "197520": {
+   "title": "А вы помните?",
+   "slug": "197520-a-vy-pomnite",
+   "createdAt": "2026-11-04T08:05:49+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T08:14:31Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T10:14:14Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-04T10:01:03Z",
+   "graduated_at": "2026-11-04T10:14:31Z",
+   "checks_done": 6
   }
  }
 }
