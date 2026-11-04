@@ -15,9 +15,9 @@
    "until_ts": "2026-11-04T00:15:05Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-04T00:03:15Z"
+   "last_checked": "2026-11-04T00:13:14Z"
   },
   "197499": {
    "title": "какие модули ставить на снайперки в сталкрафт",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-04T01:15:09Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T00:03:16Z"
+   "last_checked": "2026-11-04T00:13:16Z"
   },
   "197498": {
    "title": "Нерф скорости до базовых настроек или +фпс моделькам персонажей",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-11-03T23:15:16Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T01:15:09Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 3,
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-04T00:03:18Z"
+   "last_checked": "2026-11-04T00:13:18Z"
   },
   "197503": {
    "title": "Разряд, Беретта или МГ3?",
@@ -58,9 +58,11 @@
    "discovered_at": "2026-11-04T00:03:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T02:03:13Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T00:13:20Z"
   },
   "197502": {
    "title": "Cкины коллизея.",
@@ -73,7 +75,9 @@
    "until_ts": "2026-11-04T02:03:13Z",
    "last_lpn": 1,
    "last_cc": 1,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T00:13:21Z"
   }
  },
  "graduated": {
