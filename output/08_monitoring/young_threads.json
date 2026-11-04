@@ -15,9 +15,9 @@
    "until_ts": "2026-11-04T01:15:09Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-04T00:28:12Z"
+   "last_checked": "2026-11-04T00:43:13Z"
   },
   "197498": {
    "title": "Нерф скорости до базовых настроек или +фпс моделькам персонажей",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-03T23:15:16Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T01:15:09Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 5,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-04T00:28:14Z"
+   "last_checked": "2026-11-04T00:43:14Z"
   },
   "197503": {
    "title": "Разряд, Беретта или МГ3?",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-11-04T00:03:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T02:03:13Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 2,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T00:28:16Z"
+   "last_checked": "2026-11-04T00:43:16Z"
   },
   "197502": {
    "title": "Cкины коллизея.",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-11-04T00:03:21Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T02:03:13Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 2,
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-04T00:28:17Z"
+   "last_checked": "2026-11-04T00:43:17Z"
   }
  },
  "graduated": {
