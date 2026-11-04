@@ -4,21 +4,6 @@
   "note": "young-thread queue (54-181)"
  },
  "threads": {
-  "197507": {
-   "title": "Вопросы и предложения относительно события \"празднецтво\"",
-   "slug": "197507-voprosy-i-predlozheniya-otnositelno-sobytiya-prazdnetstvo",
-   "createdAt": "2026-11-04T02:51:47+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-04T03:00:45Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-04T05:00:39Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-04T05:00:27Z"
-  },
   "197508": {
    "title": "А когда это добавили ",
    "slug": "197508-a-kogda-eto-dobavili",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-04T05:21:33Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-04T05:00:28Z"
+   "last_checked": "2026-11-04T05:13:13Z"
   }
  },
  "graduated": {
@@ -1946,6 +1931,23 @@
    "fails": 0,
    "last_checked": "2026-11-04T03:43:16Z",
    "graduated_at": "2026-11-04T04:00:35Z",
+   "checks_done": 6
+  },
+  "197507": {
+   "title": "Вопросы и предложения относительно события \"празднецтво\"",
+   "slug": "197507-voprosy-i-predlozheniya-otnositelno-sobytiya-prazdnetstvo",
+   "createdAt": "2026-11-04T02:51:47+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T03:00:45Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T05:00:39Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-04T05:00:27Z",
+   "graduated_at": "2026-11-04T05:13:11Z",
    "checks_done": 6
   }
  }
