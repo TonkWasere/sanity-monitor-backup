@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-04T05:43:55Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T07:43:52Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 4,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-04T06:43:15Z"
+   "last_checked": "2026-11-04T07:15:51Z"
   },
   "197513": {
    "title": "Зачем плоть Арсиналу?",
@@ -28,9 +28,11 @@
    "discovered_at": "2026-11-04T06:43:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T08:43:13Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T07:15:52Z"
   },
   "197512": {
    "title": "модераторы страх потеряли",
@@ -41,6 +43,21 @@
    "discovered_at": "2026-11-04T06:43:17Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-04T08:43:13Z",
+   "last_lpn": 18,
+   "last_cc": 18,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-04T07:15:54Z"
+  },
+  "197514": {
+   "title": "Описание в стиме",
+   "slug": "197514-opisanie-v-stime",
+   "createdAt": "2026-11-04T07:10:57+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-04T07:15:57Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-04T09:15:49Z",
    "last_lpn": 2,
    "last_cc": 2,
    "checks": 0
