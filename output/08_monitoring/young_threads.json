@@ -147,6 +147,32 @@
    "last_lpn": 4,
    "last_cc": 4,
    "checks": 0
+  },
+  "197552": {
+   "title": "Рейтинг в ивенте. Проблемы и изменения.",
+   "slug": "197552-reyting-v-ivente-problemy-i-izmeneniya",
+   "createdAt": "2026-11-04T14:20:19+00:00",
+   "op_user": "Orbitr",
+   "stm": false,
+   "discovered_at": "2026-11-04T14:21:26Z",
+   "source": "snap35",
+   "until_ts": "2026-11-04T16:21:26Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197551": {
+   "title": "Замечательный рейтинг",
+   "slug": "197551-zamechatelnyy-reyting",
+   "createdAt": "2026-11-04T14:19:16+00:00",
+   "op_user": "HerrFaust",
+   "stm": false,
+   "discovered_at": "2026-11-04T14:21:27Z",
+   "source": "snap35",
+   "until_ts": "2026-11-04T16:21:27Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
