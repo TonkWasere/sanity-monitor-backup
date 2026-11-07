@@ -3,7 +3,34 @@
   "version": 1,
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
- "threads": {},
+ "threads": {
+  "197739": {
+   "title": "защита от кровотечения",
+   "slug": "197739-zaschita-ot-krovotecheniya",
+   "createdAt": "2026-11-07T21:50:01+00:00",
+   "op_user": "sllboxes",
+   "stm": false,
+   "discovered_at": "2026-11-07T23:48:06Z",
+   "source": "snap35",
+   "until_ts": "2026-11-08T01:48:06Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 0
+  },
+  "197738": {
+   "title": "лаунчер ",
+   "slug": "197738-launcher",
+   "createdAt": "2026-11-07T21:40:43+00:00",
+   "op_user": "Kalu",
+   "stm": false,
+   "discovered_at": "2026-11-07T23:48:08Z",
+   "source": "snap35",
+   "until_ts": "2026-11-08T01:48:08Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 0
+  }
+ },
  "graduated": {
   "197704": {
    "title": "Вопрос раритетности и адекватности",
