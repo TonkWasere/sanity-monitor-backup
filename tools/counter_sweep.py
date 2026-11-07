@@ -335,7 +335,6 @@ print(f'>>> prev_lpn_{newn}.json записан ({len(newprev)} кл; /tmp + sta
 for e in events:
     print(f'>>> {e}')
 print(f'DONE LONG30 pass#{pass_no} {TS}')
-_disk_guard()
 
 # --- DISK-GUARD (07.11, урок WIPE-серии: evidence 6.9G забил rootfs 9.9G на 91% →
 #     VM-кризисы/вайпы; prune сырых JSON-ответов старше 48h, запуск после каждого пасса) ---
@@ -352,3 +351,5 @@ def _disk_guard():
                 pass
     except Exception:
         pass
+
+_disk_guard()  # вызов ПОСЛЕ def — фикс 07.11 23:55: вызов стоял перед def (NameError каждый пасс с recovery #6)
