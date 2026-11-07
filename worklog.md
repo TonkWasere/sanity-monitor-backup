@@ -8874,3 +8874,28 @@ Task ID: 54-15-s15: [WIPE-274 + DISK-CRISIS RECOVERY] тик 14:58 обнару�
 Task ID: 54-15-s35: NEW 197557 «рейтинг)» OP akainy1 lpn/cc 4/4 → young 2h (продолжение рейтинг-волны после ивента); KNOWN 857, young=17, grad=136
 Task ID: 54-614: sweep 21xNEW-POSTS (DEL-SIG нет; гэпы: 197255 3→5, 197553 0→2 — 4 дыры; 197510 24 и 197348 7 стабильно; 197553 4→21 взрывной), EXT 0, deep 0; integrity=нет (расписание, след. #184), OWW-FAIL x2 (VANISH 196475/197461 43-й); слот long30 15:02 пропал без маркера (disk-crisis окно); SKIP-маркеров нет
 Task ID: 54-15-s15: тик 15:43 — 197553 «Ну что, пацаны, арена ворона?» 1/1→21/19 ВЫРЕЗ +2 (гэп 0→2, битые номера [2-10] — блок-чистка в хайповом треде Арены), 197557 «рейтинг)» +10 (14/13) ВЫРЕЗ +1 (гэп 1, №12), 197554 +11 (14/14), 197555 +9 (10/10), 197556 +2 (5/5), 197549 +1 (18/18); RECONCILE-ADD x2: 197559 «exbo лаунчер переведен в автономный режим до» (15:44:04, 1/1), 197558 «Колизей» (15:35:59, 1/1); active=13, grad=142
+Task ID: 54-13-s15: [WIPE-15 + RECOVERY #5] тик 12:58 обнаружил вайп: HEAD→71c70b8 (19.10), tools x6 missing, коммиты уничтожены, /tmp и /home/z/backups снесены; origin-ref сброшен (3-й ref-reset; origin stale 04.11 15:45); recovery: tools x6 + файлы из origin, young-стейт по API (10 active), long30_state 185/542, worklog/ledger chat-replay
+Task ID: 54-615: sweep 09:02 UTC [recon-кратко — вербатим утерян с предыдущей сессией]
+Task ID: 54-616: sweep 09:32 UTC [recon-кратко: канон #48 MATCH (1-й за утро, 09:34)]
+Task ID: 54-617: sweep 10:02 UTC [recon-кратко]
+Task ID: 54-618: sweep 10:32 UTC [recon-кратко: вайп #10 10:32 снёс git-объекты]
+Task ID: 54-619: sweep 11:02 UTC [recon-кратко: после вайпов #11 ref-reset + #12]
+Task ID: 54-620: sweep ~11:05 UTC redo после recovery #3 [recon-кратко]
+Task ID: 54-621: sweep ~11:0x UTC [recon-кратко: young 197702/703 graduate 11:00]
+Task ID: 54-09-s15: [recon-кратко: утренние young-тики, 197700/701 graduate]
+Task ID: 54-10-s15: [recon-кратко]
+Task ID: 54-11-s15: [recon-кратко: ВЫРЕЗ 197707 гэп 1]
+Task ID: 54-11-s35: [recon-кратко: NEW 197708/197709/197710]
+Task ID: 54-622: sweep pass#183 11:32 — 10xNEW-POSTS+1 NEW-THREAD 197709 «Гибельный звон сломан» 11:29, DEL-SIG 0, 197700 +4 разгон после graduate; коммит убит вайпом #14
+Task ID: 54-623: sweep pass#184 12:03 (redo5 против 542 после вайпа #14, окно 43.3 ч) — 79xNEW-POSTS DEL-SIG 0 VANISH 0, deep 1 [196461]; канон #48 MATCH (184%4) + GG живы — 3-й MATCH за утро; база 543 (969 кл)
+Task ID: 54-12-s35: NEW 197711 «Зима.» OP Arti_Mnstr (не STM) lpn/cc 9/9 → young 2h — быстрый старт; young=8
+Task ID: 54-12-s15: events=5 — TICK-LOST слот 12:13 (вайп #14), дельты: 197710 +5, 197706 +4, 197707 +3, 197711 +2; active=8
+Task ID: 54-624: sweep 12xNEW-POSTS DEL-SIG 0 VANISH 0 (197710 +5 топ, 197628/197706 +4, 197700 +3 разгон; 197711 тихо в базу 544 young-dedupe), EXT 0, deep 0; OWW-FAIL [196475] 49-й
+Task ID: 54-12-s15: events=8 — NEW 197713 «Вопрос по старой локации "Радар"» 12:39 и 197712 «Худший подбор в мире» 12:32 → young(2h); дельты 197711 +3, 197707 +2, x4 +1; active=10
+Task ID: 54-13-s15: отложенный тик 12:58→13:11 после recovery #5; GRADUATED x5 197704-708 по 2h-TTL → handover LONG30; active=5; фикс схемы graduated list→dict
+Task ID: 54-13-s35: NEW x3 (все не-STM): 197714 «Десант» OP Arti_Mnstr 3/3 13:13:25, 197715 «Че там с войной фракций?» OP DyroDj 2/2 13:13:50, 197716 «Ну сколько можно..» OP Pledik 3/3 13:15:41 → young 2h; young=8 grad=5
+Task ID: 54-13-s15: events=4 — 197714 «Десант» +6 (9/9 взрывной), 197716 +2, 197711 +1, 197712 +1 (10/8 гэп 2); active=8
+Task ID: 54-625: sweep 79xNEW-POSTS (pass#186 redo ~46 ч vs 542; 197540 49→199 гэп 2, 197537 78→106, 197255 +39, 197207 +19; 197700 63/62 тихо в базу — +28 разгон), EXT 30 (VK-стена x9 + статьи + ТГК/Steam агрегат stale), deep 1 [196461 tiktok-спам #197]; OWW-FAIL [196475] 50-й; канон skip 186%4
+Task ID: 54-13-s15: events=4 — 197714 +17 (26/26, 3→9→26 за 30 мин — самый быстрый старт дня), 197716 +6 (11/11), 197711 +5 (23/23), 197713 +1; GRADUATED 197709 (TTL); active=7 grad=6
+Task ID: 54-14-s15: [WIPE-16 + RECOVERY #6 + PAT-FIX] вайп #16 ~14:0x: снёс recovery #5 (11 коммитов bfd65ab4..8b77d42d), bundle 1341, /home/z/backups, HEAD→19.10; слоты s15 14:43/14:58 и long30 15:02 не отработали (cron-потеря в окне вайпа); АВТОР ПЕРЕДАЛ PAT через MEGA-волт (механизм с 15.10, токен SanityBackups не ротировался — на VM не было кредов): git fetch УСПЕХ без промпта, origin cfef89c9; recovery #6: tools x6 + файлы origin + young-стейт по API (13 тредов, все TTL-graduated к 15:13, active=0), long30_state 186/542; ПЕРВЫЙ ПУШ ЗА 3 ДНЯ — см. след. строку
+Task ID: 54-14-s15: DISK-CRISIS найден и чинится — /tmp/my-project 8.8G + evidence 6.9G забили rootfs 91%; counter_sweep получил _disk_guard (48h prune); PAT из MEGA-волта жив, fetch green; push через plumbing-коммит (родитель cfef89c9)

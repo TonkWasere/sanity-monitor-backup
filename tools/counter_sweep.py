@@ -335,3 +335,20 @@ print(f'>>> prev_lpn_{newn}.json записан ({len(newprev)} кл; /tmp + sta
 for e in events:
     print(f'>>> {e}')
 print(f'DONE LONG30 pass#{pass_no} {TS}')
+_disk_guard()
+
+# --- DISK-GUARD (07.11, урок WIPE-серии: evidence 6.9G забил rootfs 9.9G на 91% →
+#     VM-кризисы/вайпы; prune сырых JSON-ответов старше 48h, запуск после каждого пасса) ---
+def _disk_guard():
+    try:
+        _ev = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                           'output', 'evidence_post')
+        _now = time.time()
+        for _f in glob.glob(os.path.join(_ev, '*')):
+            try:
+                if _now - os.path.getmtime(_f) > 48 * 3600:
+                    os.remove(_f)
+            except Exception:
+                pass
+    except Exception:
+        pass
