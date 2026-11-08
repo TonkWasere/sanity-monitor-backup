@@ -3,53 +3,7 @@
   "version": 1,
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
- "threads": {
-  "197746": {
-   "title": "Красивый визуал",
-   "slug": "197746-krasivyy-vizual",
-   "createdAt": "2026-11-08T09:55:38+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T10:00:26Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T12:00:23Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-11-08T11:43:10Z"
-  },
-  "197748": {
-   "title": "ПП Витязь мутирует",
-   "slug": "197748-pp-vityaz-mutiruet",
-   "createdAt": "2026-11-08T10:25:03+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T10:28:14Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T12:28:09Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 2,
-   "fails": 0,
-   "last_checked": "2026-11-08T11:43:11Z"
-  },
-  "197747": {
-   "title": "Способ сделать Лиманск чуть-чуть привлекательнее",
-   "slug": "197747-sposob-sdelat-limansk-chut-chut-privlekatelnee",
-   "createdAt": "2026-11-08T10:17:26+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T10:28:14Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T12:28:09Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 2,
-   "fails": 0,
-   "last_checked": "2026-11-08T11:43:13Z"
-  }
- },
+ "threads": {},
  "graduated": {
   "197704": {
    "title": "Вопрос раритетности и адекватности",
@@ -338,6 +292,57 @@
    "last_checked": "2026-11-08T09:43:11Z",
    "graduated_at": "2026-11-08T10:00:23Z",
    "checks_done": 7
+  },
+  "197746": {
+   "title": "Красивый визуал",
+   "slug": "197746-krasivyy-vizual",
+   "createdAt": "2026-11-08T09:55:38+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T10:00:26Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T12:00:23Z",
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-11-08T11:43:10Z",
+   "graduated_at": "2026-11-08T12:28:17Z",
+   "checks_done": 4
+  },
+  "197747": {
+   "title": "Способ сделать Лиманск чуть-чуть привлекательнее",
+   "slug": "197747-sposob-sdelat-limansk-chut-chut-privlekatelnee",
+   "createdAt": "2026-11-08T10:17:26+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T10:28:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T12:28:09Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-11-08T11:43:13Z",
+   "graduated_at": "2026-11-08T12:28:17Z",
+   "checks_done": 2
+  },
+  "197748": {
+   "title": "ПП Витязь мутирует",
+   "slug": "197748-pp-vityaz-mutiruet",
+   "createdAt": "2026-11-08T10:25:03+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T10:28:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T12:28:09Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-11-08T11:43:11Z",
+   "graduated_at": "2026-11-08T12:28:17Z",
+   "checks_done": 2
   }
  }
 }
