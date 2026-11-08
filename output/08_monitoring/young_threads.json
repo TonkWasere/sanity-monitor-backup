@@ -4,51 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197755": {
-   "title": "хронология пузырей опен",
-   "slug": "197755-hronologiya-puzyrey-open",
-   "createdAt": "2026-11-08T14:54:08+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T15:00:40Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T17:00:26Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-11-08T16:45:12Z"
-  },
-  "197756": {
-   "title": "ждем",
-   "slug": "197756-zhdem",
-   "createdAt": "2026-11-08T15:05:39+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T15:13:33Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T17:13:13Z",
-   "last_lpn": 19,
-   "last_cc": 19,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-11-08T16:45:14Z"
-  },
-  "197757": {
-   "title": "Закрепы",
-   "slug": "197757-zakrepy",
-   "createdAt": "2026-11-08T15:21:44+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T15:28:28Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T17:28:12Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-11-08T16:45:16Z"
-  },
   "197760": {
    "title": "Стоит продать после расперса? Или оставить на следующий год?  ",
    "slug": "197760-stoit-prodat-posle-raspersa-ili-ostavit-na-sleduyuschiy-god",
@@ -58,11 +13,11 @@
    "discovered_at": "2026-11-08T16:15:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T18:15:16Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 1,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-08T16:45:18Z"
+   "last_checked": "2026-11-08T17:29:00Z"
   },
   "197758": {
    "title": "небольшой личный тредик",
@@ -75,9 +30,9 @@
    "until_ts": "2026-11-08T18:15:16Z",
    "last_lpn": 21,
    "last_cc": 21,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-08T16:45:19Z"
+   "last_checked": "2026-11-08T17:29:01Z"
   },
   "197761": {
    "title": "распред ивента cломан!!!",
@@ -88,9 +43,11 @@
    "discovered_at": "2026-11-08T16:45:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T18:45:10Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 0
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-08T17:29:03Z"
   }
  },
  "graduated": {
@@ -534,6 +491,57 @@
    "last_checked": "2026-11-08T16:15:23Z",
    "graduated_at": "2026-11-08T16:45:10Z",
    "checks_done": 5
+  },
+  "197755": {
+   "title": "хронология пузырей опен",
+   "slug": "197755-hronologiya-puzyrey-open",
+   "createdAt": "2026-11-08T14:54:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T15:00:40Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T17:00:26Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-11-08T16:45:12Z",
+   "graduated_at": "2026-11-08T17:28:58Z",
+   "checks_done": 5
+  },
+  "197756": {
+   "title": "ждем",
+   "slug": "197756-zhdem",
+   "createdAt": "2026-11-08T15:05:39+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T15:13:33Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T17:13:13Z",
+   "last_lpn": 19,
+   "last_cc": 19,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-11-08T16:45:14Z",
+   "graduated_at": "2026-11-08T17:28:58Z",
+   "checks_done": 4
+  },
+  "197757": {
+   "title": "Закрепы",
+   "slug": "197757-zakrepy",
+   "createdAt": "2026-11-08T15:21:44+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T15:28:28Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T17:28:12Z",
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-11-08T16:45:16Z",
+   "graduated_at": "2026-11-08T17:28:58Z",
+   "checks_done": 3
   }
  }
 }
