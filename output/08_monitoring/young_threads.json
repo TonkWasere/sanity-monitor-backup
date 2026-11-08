@@ -4,20 +4,18 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197745": {
-   "title": "АААЭЭЭ ЧО Я ВАЩЕ НЕСУ",
-   "slug": "197745-aaaeee-cho-ya-vasche-nesu",
-   "createdAt": "2026-11-08T07:36:07+00:00",
+  "197746": {
+   "title": "Красивый визуал",
+   "slug": "197746-krasivyy-vizual",
+   "createdAt": "2026-11-08T09:55:38+00:00",
    "op_user": "?",
    "stm": false,
-   "discovered_at": "2026-11-08T07:45:33Z",
+   "discovered_at": "2026-11-08T10:00:26Z",
    "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T09:45:30Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-08T09:43:11Z"
+   "until_ts": "2026-11-08T12:00:23Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
   }
  },
  "graduated": {
@@ -291,6 +289,23 @@
    "last_checked": "2026-11-08T06:28:46Z",
    "graduated_at": "2026-11-08T06:47:17Z",
    "checks_done": 2
+  },
+  "197745": {
+   "title": "АААЭЭЭ ЧО Я ВАЩЕ НЕСУ",
+   "slug": "197745-aaaeee-cho-ya-vasche-nesu",
+   "createdAt": "2026-11-08T07:36:07+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T07:45:33Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T09:45:30Z",
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-08T09:43:11Z",
+   "graduated_at": "2026-11-08T10:00:23Z",
+   "checks_done": 7
   }
  }
 }
