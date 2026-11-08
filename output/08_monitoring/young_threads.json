@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-08T14:16:01Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T16:15:57Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 5,
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-08T15:28:14Z"
+   "last_checked": "2026-11-08T15:45:21Z"
   },
   "197752": {
    "title": "ИЗМЕНИТЕ КРАФТ ИГРИСТОГО ШАМПАНСКОГО",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-08T16:28:11Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-08T15:28:16Z"
+   "last_checked": "2026-11-08T15:45:23Z"
   },
   "197751": {
    "title": "Амб",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-08T16:28:11Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-08T15:28:18Z"
+   "last_checked": "2026-11-08T15:45:24Z"
   },
   "197754": {
    "title": "помощь с выбором краски",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-08T16:43:26Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-08T15:28:20Z"
+   "last_checked": "2026-11-08T15:45:26Z"
   },
   "197753": {
    "title": "АХААХХАХАХАХХА",
@@ -75,9 +75,9 @@
    "until_ts": "2026-11-08T16:43:26Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-08T15:28:22Z"
+   "last_checked": "2026-11-08T15:45:28Z"
   },
   "197755": {
    "title": "хронология пузырей опен",
@@ -88,11 +88,11 @@
    "discovered_at": "2026-11-08T15:00:40Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T17:00:26Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 2,
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T15:28:23Z"
+   "last_checked": "2026-11-08T15:45:30Z"
   },
   "197756": {
    "title": "ждем",
@@ -103,11 +103,11 @@
    "discovered_at": "2026-11-08T15:13:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T17:13:13Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 1,
+   "last_lpn": 19,
+   "last_cc": 19,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-08T15:28:25Z"
+   "last_checked": "2026-11-08T15:45:32Z"
   },
   "197757": {
    "title": "Закрепы",
@@ -118,9 +118,11 @@
    "discovered_at": "2026-11-08T15:28:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T17:28:12Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-08T15:45:34Z"
   }
  },
  "graduated": {
