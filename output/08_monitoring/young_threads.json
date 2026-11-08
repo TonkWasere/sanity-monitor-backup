@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
- "threads": {},
+ "threads": {
+  "197740": {
+   "title": "Тоннель Ямакаси",
+   "slug": "197740-tonnel-yamakasi",
+   "createdAt": "2026-11-08T02:05:31+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T02:13:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T04:13:11Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  }
+ },
  "graduated": {
   "197704": {
    "title": "Вопрос раритетности и адекватности",
