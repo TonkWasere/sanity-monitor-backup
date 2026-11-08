@@ -4,21 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197749": {
-   "title": "КОГДА ОПТИМИЗАЦИЯ",
-   "slug": "197749-kogda-optimizatsiya",
-   "createdAt": "2026-11-08T12:56:21+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T13:13:26Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T15:13:23Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-08T15:13:21Z"
-  },
   "197750": {
    "title": "Добавлять распред по рейтингу? Пффф, нахуй надо!",
    "slug": "197750-dobavlyat-raspred-po-reytingu-pfff-nahuy-nado",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-11-08T14:16:01Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T16:15:57Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 4,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-08T15:13:23Z"
+   "last_checked": "2026-11-08T15:28:14Z"
   },
   "197752": {
    "title": "ИЗМЕНИТЕ КРАФТ ИГРИСТОГО ШАМПАНСКОГО",
@@ -45,9 +30,9 @@
    "until_ts": "2026-11-08T16:28:11Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-08T15:13:24Z"
+   "last_checked": "2026-11-08T15:28:16Z"
   },
   "197751": {
    "title": "Амб",
@@ -60,9 +45,9 @@
    "until_ts": "2026-11-08T16:28:11Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-08T15:13:26Z"
+   "last_checked": "2026-11-08T15:28:18Z"
   },
   "197754": {
    "title": "помощь с выбором краски",
@@ -75,9 +60,9 @@
    "until_ts": "2026-11-08T16:43:26Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T15:13:27Z"
+   "last_checked": "2026-11-08T15:28:20Z"
   },
   "197753": {
    "title": "АХААХХАХАХАХХА",
@@ -90,9 +75,9 @@
    "until_ts": "2026-11-08T16:43:26Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T15:13:29Z"
+   "last_checked": "2026-11-08T15:28:22Z"
   },
   "197755": {
    "title": "хронология пузырей опен",
@@ -103,11 +88,11 @@
    "discovered_at": "2026-11-08T15:00:40Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T17:00:26Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 1,
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-08T15:13:31Z"
+   "last_checked": "2026-11-08T15:28:23Z"
   },
   "197756": {
    "title": "ждем",
@@ -118,8 +103,23 @@
    "discovered_at": "2026-11-08T15:13:33Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T17:13:13Z",
-   "last_lpn": 8,
-   "last_cc": 8,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-08T15:28:25Z"
+  },
+  "197757": {
+   "title": "Закрепы",
+   "slug": "197757-zakrepy",
+   "createdAt": "2026-11-08T15:21:44+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T15:28:28Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T17:28:12Z",
+   "last_lpn": 2,
+   "last_cc": 2,
    "checks": 0
   }
  },
@@ -462,6 +462,23 @@
    "last_checked": "2026-11-08T11:43:11Z",
    "graduated_at": "2026-11-08T12:28:17Z",
    "checks_done": 2
+  },
+  "197749": {
+   "title": "КОГДА ОПТИМИЗАЦИЯ",
+   "slug": "197749-kogda-optimizatsiya",
+   "createdAt": "2026-11-08T12:56:21+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T13:13:26Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T15:13:23Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-08T15:13:21Z",
+   "graduated_at": "2026-11-08T15:28:12Z",
+   "checks_done": 7
   }
  }
 }
