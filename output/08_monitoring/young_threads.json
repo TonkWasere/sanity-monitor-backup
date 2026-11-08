@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-08T16:15:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T18:15:16Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 2,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T17:29:00Z"
+   "last_checked": "2026-11-08T18:02:20Z"
   },
   "197758": {
    "title": "небольшой личный тредик",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-08T18:15:16Z",
    "last_lpn": 21,
    "last_cc": 21,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T17:29:01Z"
+   "last_checked": "2026-11-08T18:02:22Z"
   },
   "197761": {
    "title": "распред ивента cломан!!!",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-11-08T16:45:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T18:45:10Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 1,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-08T17:29:03Z"
+   "last_checked": "2026-11-08T18:02:24Z"
   }
  },
  "graduated": {
