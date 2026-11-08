@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-08T18:28:14Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T20:28:10Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 4,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-08T19:45:08Z"
+   "last_checked": "2026-11-08T20:15:11Z"
   },
   "197764": {
    "title": "Рейтинг (хуейтинг)",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-08T20:45:18Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-08T19:45:09Z"
+   "last_checked": "2026-11-08T20:15:12Z"
   }
  },
  "graduated": {
