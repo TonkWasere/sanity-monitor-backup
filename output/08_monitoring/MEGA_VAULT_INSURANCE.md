@@ -4,29 +4,43 @@
 в отличие от СОДЕРЖИМОГО — контент качается только в /tmp, в репо не коммитится):**
 
 ```
-https://mega.nz/file/r9QxQBCT#F4tjwiW8UOhJKqxFk1K55r8w5Je5qDw6zNC4dqmy2uo
+https://mega.nz/file/q0oxwDYS#VWiZRTbj5yFNzFh8r97HfPY1oCuMJeaRzS9H21CxikE
 ```
 
-## Что внутри
-- `PAT_VAULT_LOCAL.md`, **2630 B** — классик `ghp_`-токен GitHub (TonkWasere).
-- Эталон: sha256 `7f9edd5d…` (54-61) — vault байт-в-байт тот же с 22.10 (проверено 54-149-mega и 25.10 54-209-B), **токен НЕ ротирован** (выдан 15.10).
-- MAC-проверка делается автоматически в `tools/mega_pull.py`.
+## Что внутри (АКТУАЛЬНО с 08.11.2026)
+- `PAT_VAULT_LOCAL.md`, **2620 B** чистых — классик `ghp_`-токен GitHub (TonkWasere).
+- Ротация: 08.11.2026 ~00:45 UTC — автор перезалил vault со СВЕЖИМ токеном («создано прямо
+  сейчас»), ссылка-шаринг создана с нуля. MAC OK при обеих скачках 00:49/00:53 UTC.
+- Новый эталон: sha256 `61cbc0c478a39c06…` (префикс 16; проверено 08.11 00:53 UTC).
+  Старый эталон `7f9edd5d` (vault 15.10, ссылка r9QxQBCT) — БОЛЬШЕ НЕ АКТУАЛЕН.
+- Метаданные внутри файла (имя SanityBackups, «выдан 15.10») автором не обновлялись —
+  текст шаблона старый, токен свежий по слову автора. API 200 подтверждён 00:50 UTC,
+  оба push зелёные сразу после восстановления helper.
 
 ## Зачем
 После отката ВМ гибнут `~/.git-credentials`, vault в корне, /tmp и не-git артефакты («не переживают и час», урок 54-96). Ссылка в теле репо переживает ЛЮБОЙ откат → самостоятельное восстановление пуша без ожидания автора в чате (чей контекст тоже теряется).
 
-## Восстановление (6 шагов, токен НИКОГДА не печатать)
+## Восстановление (7 шагов, токен НИКОГДА не печатать)
 1. `python3 tools/mega_pull.py '<ссылка выше>'` → /tmp/PAT_VAULT_LOCAL.md (MAC OK = целостность)
 2. `TOKEN=$(grep -oE 'gh[pousr]+_[A-Za-z0-9_]+' /tmp/PAT_VAULT_LOCAL.md | head -1)`
-3. `umask 077; printf 'https://TonkWasere:%s@github.com\n' "$TOKEN" > ~/.git-credentials; chmod 600 ~/.git-credentials`
-4. `git config --global credential.helper store`
+3. `umask 077; printf 'https://TonkWasere:%s@github.com/\n' "$TOKEN" > ~/.git-credentials; chmod 600 ~/.git-credentials`
+4. **`git config --global credential.helper store`** — ⚠️ ОБЯЗАТЕЛЬНЫЙ шаг: урок 08.11 00:47 UTC —
+   вайп урезал ~/.gitconfig, creds записаны верно, но БЕЗ helper push падал
+   «could not read Username» при живом токене (API 200). Формат creds и helper — пара,
+   потеря одного = пуш не работает.
 5. `cp /tmp/PAT_VAULT_LOCAL.md ./PAT_VAULT_LOCAL.md; chmod 600 ./PAT_VAULT_LOCAL.md` (gitignored — не коммитить!)
 6. Проверка: `curl -s -o /dev/null -w '%{http_code}' -H "Authorization: token $TOKEN" https://api.github.com/user` → **200**
+7. `shred -u /tmp/PAT_VAULT_LOCAL.md`
 
 ## Риск (осознанный, решение автора)
-- ⚠️ Инцидент 54-61 (MEGA-INCIDENT 18.10): vault с живым токеном на публичной ссылке, ключ — в публичных репах. GitHub MEGA не сканирует (5+ восстановлений с 15.10 без последствий), НО:
+- ⚠️ Инцидент 54-61 (MEGA-INCIDENT 18.10): vault с живым токеном на публичной ссылке, ключ — в публичных репах. GitHub MEGA не сканирует (6+ восстановлений с 15.10 без последствий), НО:
 - При ротации токена автором: перезалить vault с новым токеном под НОВЫМ ключом → **обязательно обновить ссылку в этом файле** → старый токен отозвать.
+- 🔴 ОТКРЫТО после ротации 08.11: старый vault (ссылка r9QxQBCT, файл 15.10, эталон 7f9edd5d)
+  может содержать ЖИВЫЙ старый токен — автору отозвать его в GitHub UI (Settings → Developer
+  settings → Tokens: имя SanityBackups от 15.10). До отзыва старую ссылку считать тёплой.
 
 ## Дубль ссылки
-- Git-история: commit `aa91ed9` (`scripts/restore_creds_54_96.py`), playbook «СТАТУС 22.10» (file-ID r9QxQBCT ×5 упоминаний).
-- История использований восстановления: 54-61, 54-96, 54-138b, 54-149-mega, 54-161-B, WIPE-6 (20.10), 54-209-B (25.10 — впервые из ТЕЛА РЕПО, до него ссылка жила только в чате).
+- Git-история: история этого файла (все версии), ссылка также в worklog-эпохе 54-96/54-209-B.
+- PolarFS-копия этого файла: /tmp/my-project/MEGA_VAULT_INSURANCE.md (переживает вайпы).
+- Тела кронов: recovery-строка отсылает сюда (пересозданы 08.11).
+- История использований восстановления: 54-61, 54-96, 54-138b, 54-149-mega, 54-161-B, WIPE-6 (20.10), 54-209-B (25.10), 08.11 (ротация + восстановление после disc-rollback 19.10: API 200, push origin+backup зелёные).

@@ -1,0 +1,46 @@
+# RECOVERY-ИНСТРУКЦИЯ v2 (08.11.2026) — эталон, хранится в ТРЁХ местах
+# 1) Гит: этот файл + output/08_monitoring/cron_specs/jobs.json (v6, шапка в payload.message всех кронов)
+# 2) PolarFS: /tmp/my-project/RECOVERY_HEADER_20261108.txt (копия)
+# 3) Тела кронов: RECOVERY-ШАПКА в payload.message каждого из трёх (513568/513570/513571)
+#
+# ПРАВИЛО СЕКРЕТНОСТИ: наружу (гит/чат/логи/коммиты) — ТОЛЬКО URL Меги. Сам токен — только
+# ~/.git-credentials (600) и ephemeral /tmp (shred после применения). PAT_VAULT_LOCAL.md — gitignored.
+
+=== R1. ВОССТАНОВЛЕНИЕ CREDS/PUSH (токен из Меги) ===
+Ссылка-хранилище (актуальна с 08.11, ротация по слову автора; эталон и шаги — output/08_monitoring/MEGA_VAULT_INSURANCE.md):
+  https://mega.nz/file/q0oxwDYS#VWiZRTbj5yFNzFh8r97HfPY1oCuMJeaRzS9H21CxikE
+
+Шаги (токен НИКОГДА не печатать):
+  1. python3 tools/mega_pull.py '<ссылка выше>'            # MAC OK = целостность; файл → /tmp/PAT_VAULT_LOCAL.md
+  2. TOKEN=$(grep -oE 'gh[pousr]+_[A-Za-z0-9_]+' /tmp/PAT_VAULT_LOCAL.md | head -1)
+  3. umask 077; printf 'https://TonkWasere:%s@github.com/\n' "$TOKEN" > ~/.git-credentials; chmod 600 ~/.git-credentials
+  4. git config --global credential.helper store            # ОБЯЗАТЕЛЬНО! Урок 08.11: без helper push падает
+                                                            # «could not read Username» при живом токене (API 200)
+  5. curl -s -o /dev/null -w '%{http_code}' -H "Authorization: token $TOKEN" https://api.github.com/user   # → 200
+  6. git push origin sanity-monitor && git push backup sanity-monitor
+  7. shred -u /tmp/PAT_VAULT_LOCAL.md
+Формат creds — ТОЛЬКО user:pass (token-as-username store-хелпер не отдаёт). Хранить токен на GitHub — ЗАПРЕЩЕНО в любом виде.
+
+=== R2. ВОССТАНОВЛЕНИЕ ДИСКА/СПАРС-СТЕЙТА (anti-вайп-петля) ===
+output/evidence_post = 55k tracked ≈ 7GB — НИКОГДА не материализовать (полный checkout/clone → «No space» → вайп):
+  1. git fetch origin sanity-monitor && git reset --hard origin/sanity-monitor   # merge-base=HEAD ⇒ потерь нет (урок 54-90)
+  2. git ls-files -z output/evidence_post | git update-index -z --skip-worktree --stdin
+  3. rm -rf output/evidence_post && mkdir -p output/evidence_post               # с диска; контент в гите
+  4. git status --porcelain | wc -l   # → 0; df -h /home/z → ~17%
+  5. Кроны коммитят новые evidence через git add --sparse — флаги не трогаются (проверено probe 08.11).
+healthcheck: git fsck/branch OK; вайп-петля = deleted-but-open + полный клон в /tmp (rootfs) — избегать.
+
+=== R3. БАНДЛЫ (третья линия) ===
+Путь: /tmp/my-project/backups/sanity-monitor-*.bundle (PolarFS, переживает вайпы; решение автора 08.11).
+  git bundle create /tmp/my-project/backups/sanity-monitor-$(date -u +%Y%m%d_%H%M).bundle sanity-monitor
+  bash tools/bundle_rotate.sh     # keep 2; НЕ пайплайн ls -t | xargs (молча глотал — урок 54-233)
+Восстановление из бандла: git clone /tmp/my-project/backups/sanity-monitor-<свежий>.bundle recovered
+
+=== ХРОНОЛОГИЯ 08.11 (для контекста) ===
+- Диск откатился к стейту 19.10 (HEAD 71c70b8, −1425 комм., creds/helpers снесены) — сценарий урока 54-90.
+- LONG30-тик 00:02 UTC упал: диск 94% (resет материализовал evidence 7GB) — «что посыпалось» автора.
+- 00:16-00:53: reset → 743550bf (0 ahead, потерь нет) → skip-worktree 55828 → диск 17% → Мега-ротация
+  (новый vault q0oxwDYS, sha256 61cbc0c478a39c06…, классик ghp_, API 200) → helper=store → dual push зелёный
+  (acb802ee+d8923c6a) → бандл 596MB на PolarFS → спека v6 (шапка во всех трёх кронах).
+- ОТКРЫТО: старый vault (r9QxQBCT, файл 15.10, эталон 7f9edd5d) может содержать ЖИВЫЙ старый токен —
+  автору отозвать его в GitHub UI (SanityBackups от 15.10).

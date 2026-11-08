@@ -10,8 +10,8 @@
 2. **backup** https://github.com/TonkWasere/sanity-monitor-backup.git → ветка **sanity-monitor**
    (второй репо, создан 15.10 22:23 тем же PAT; защита от удаления/порчи основного репо)
 3. **origin** ветка **sanity-monitor-mirror** (зеркало основной ветки; защита от кривого push/force в основную)
-4. **Локальный bundle** /home/z/backups/sanity-monitor-*.bundle (вне репо; защита от порчи GitHub-репозиториев;
-   обновлять каждый раунд; восстановление: git clone sanity-monitor-*.bundle recovered)
+4. **Локальный bundle** /tmp/my-project/backups/sanity-monitor-*.bundle (PolarFS, переживает ВМ-вайпы — перенос решён автором 08.11 после серии «No space» от 1.3-2GB×3 бандлов на rootfs; защита от порчи GitHub-репозиториев;
+   обновлять каждый раунд; восстановление: git clone sanity-monitor-*.bundle recovered; урок 54-96 «каталог уносится» на PolarFS не действует — маунт постоянный)
 5. **КРОН-СПЕКА на гите** (решение автора 24.10 08:4x UTC): output/08_monitoring/cron_specs/jobs.json —
    эталон всех 3 cron-задач (long30/SNAP15/SNAP35; до 25.10 ~23:5x был hourly — см. раздел v4 ниже;
    расписание + промпт + sha256). Сверка каждый раунд
@@ -76,7 +76,7 @@ fsck, ветка, creds, синхронизация origin+backup, гэп ком
   0b-аудит [SKIP]-маркеров lite в ledger-строке); (2b) git add -A + secret_guard + commit
   + ДВОЙНОЙ push + bundle keep 3 — КАЖДЫЙ проход (защита от вайпов на полчаса).
 - **Ротация бандлов — ТОЛЬКО через tools/bundle_rotate.sh** (54-233, 00:0x UTC 26.10):
-  пайплайн `ls -t /home/z/backups | tail -n +4 | xargs -r rm -f` в среде cron-агента
+  пайплайн `ls -t /tmp/my-project/backups | tail -n +4 | xargs -r rm -f` в среде cron-агента
   МОЛЧА НЕ УДАЛЯЕТ (имена в пайпе приходят с мусором, `rm -f` глушит сбой → exit 0,
   бандлы копились; поймано на проходе 54-233 — жило 5 вместо 3). Замена: чистый bash
   (glob + -nt сортировка, без пайпов), идемпотентен, при ≤3 бандлах выходит чисто.
@@ -124,8 +124,8 @@ fsck, ветка, creds, синхронизация origin+backup, гэп ком
    - ДВОЙНОЙ PUSH: `git push origin sanity-monitor` + `git push backup sanity-monitor`
      (если origin прошёл, backup упал — пометить «pushed origin, backup FAILED»; 401/403 —
      «push pending: токен отозван/без прав», коммит остаётся локальным)
-   - Обновить bundle: `git bundle create /home/z/backups/sanity-monitor-$(date -u +%Y%m%d_%H%M).bundle sanity-monitor`
-     (старые bundle >3 шт можно чистить: ls -t | tail -n +4 | xargs rm -f)
+   - Обновить bundle: `git bundle create /tmp/my-project/backups/sanity-monitor-$(date -u +%Y%m%d_%H%M).bundle sanity-monitor`
+     (старые bundle >3 шт можно чистить: ls -t | tail -n +4 | xargs rm -f; каталог на PolarFS — mkdir не нужен)
 5. НЕ публиковать ничего на форуме (read-only), НЕ создавать ZIP-версии (это отдельная линия,
    только по чек-пойнтам/команде автора), НЕ трогать /tmp-стейджи.
 
@@ -231,7 +231,7 @@ fsck, ветка, creds, синхронизация origin+backup, гэп ком
 1. git clone -b sanity-monitor https://github.com/TonkWasere/test.git → вернуть worklog.md, tools/, output/ тексты.
    (ветка по умолчанию на GitHub = master «Hello world» — мониторинг живёт в sanity-monitor).
 2. Если origin-репо повреждён/удалён: `git clone -b sanity-monitor https://github.com/TonkWasere/sanity-monitor-backup.git`
-3. Если оба GitHub-репо мертвы: локальный bundle `git clone /home/z/backups/sanity-monitor-<свежий>.bundle recovered`
+3. Если оба GitHub-репо мертвы: локальный bundle `git clone /tmp/my-project/backups/sanity-monitor-<свежий>.bundle recovered`
 4. Тяжёлое (ZIP vNN, png-баннеры) — из MEGA-оттяжки автора (свежая версия у автора всегда).
 5. Продолжить раунды с нового HEAD. Если credentials пропали — работать локально (push pending),
    автор выдаёт новый токен (GitHub → Settings → Developer settings → Tokens, scope repo).

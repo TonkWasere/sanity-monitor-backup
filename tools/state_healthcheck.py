@@ -166,7 +166,7 @@ except Exception as e:
 
 # F. Локальный bundle (третья линия)
 import glob as _glob
-bundles = sorted(_glob.glob('/home/z/backups/sanity-monitor-*.bundle'))
+bundles = sorted(_glob.glob('/tmp/my-project/backups/sanity-monitor-*.bundle') or glob.glob('/home/z/backups/sanity-monitor-*.bundle'))
 if bundles:
     age_h = (datetime.datetime.now(timezone.utc) - datetime.datetime.fromtimestamp(os.path.getmtime(bundles[-1]), timezone.utc)).total_seconds() / 3600
     print(f"  [{'OK' if age_h < 26 else 'STALE'}] bundle: {os.path.basename(bundles[-1])} ({age_h:.1f} ч, {os.path.getsize(bundles[-1])//1024//1024}MB)")

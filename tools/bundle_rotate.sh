@@ -4,7 +4,7 @@
 # Замена хрупкого пайплайна `ls -t | tail -n +4 | xargs -r rm -f`
 # (в среде cron-агента пайплайн глотал имена — rm -f молча exit 0, бандлы копились).
 # Чистый bash: без пайпов, без ls, только glob + -nt сортировка.
-cd /home/z/backups || exit 0
+cd /tmp/my-project/backups 2>/dev/null || exit 0
 shopt -s nullglob
 files=(*.bundle)
 [ ${#files[@]} -le 2 ] && { echo "ROTATE: ${#files[@]} бандлов — чисто"; exit 0; }
