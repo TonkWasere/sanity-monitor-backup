@@ -8957,3 +8957,4 @@ Task ID: 54-11-s15: push pending — creds стёрты новой инстан�
 Task ID: 54-644: sweep 8 NEW-POSTS (197745 +15 ВСПЫШКА, 197744 +8 третья волна), EXT 1 (VK-статья изменена), deep 0; integrity ДА
 Task ID: 54-12-s15: push-очередь добита 12:22 UTC (Mega-квота сбросилась, creds revived, API 200) — origin=backup=HEAD=1de68f5a, pending 2 коммита доставлены
 Task ID: 54-12-s15: GRADUATED x3 по TTL — 197746 «Красивый визуал» (финал 11/11), 197747 «Лиманск» (10/10), 197748 «ПП Витязь» (3/3+1=4? нет: 3/3); young пуст (graduated=23); TICK-LOST ~12:10 — слот 12:13 не сработал
+Task ID: 54-645: sweep 9 NEW-POSTS (197745 +13 второй пик, 197744 +12 рекорд), EXT 3 (VK wall ротация, статьи-флаппинг), deep 0
