@@ -15,9 +15,22 @@
    "until_ts": "2026-11-08T15:13:23Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T13:43:11Z"
+   "last_checked": "2026-11-08T14:15:58Z"
+  },
+  "197750": {
+   "title": "Добавлять распред по рейтингу? Пффф, нахуй надо!",
+   "slug": "197750-dobavlyat-raspred-po-reytingu-pfff-nahuy-nado",
+   "createdAt": "2026-11-08T14:14:03+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T14:16:01Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T16:15:57Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
