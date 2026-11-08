@@ -3,38 +3,7 @@
   "version": 1,
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
- "threads": {
-  "197744": {
-   "title": "Реально ли вернуться на старый аккаунт после 5 лет бана?",
-   "slug": "197744-realno-li-vernutsya-na-staryy-akkaunt-posle-5-let-bana",
-   "createdAt": "2026-11-08T04:20:14+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T04:44:54Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T06:44:51Z",
-   "last_lpn": 21,
-   "last_cc": 20,
-   "checks": 2,
-   "fails": 0,
-   "last_checked": "2026-11-08T06:28:46Z"
-  },
-  "197742": {
-   "title": "Сессии и почему пора начать что-то делать",
-   "slug": "197742-sessii-i-pochemu-pora-nachat-chto-to-delat",
-   "createdAt": "2026-11-08T03:22:56+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T04:44:54Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T06:44:51Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 2,
-   "fails": 0,
-   "last_checked": "2026-11-08T06:28:47Z"
-  }
- },
+ "threads": {},
  "graduated": {
   "197704": {
    "title": "Вопрос раритетности и адекватности",
@@ -271,6 +240,40 @@
    "fails": 0,
    "last_checked": "2026-11-08T03:00:59Z",
    "graduated_at": "2026-11-08T04:44:51Z",
+   "checks_done": 2
+  },
+  "197742": {
+   "title": "Сессии и почему пора начать что-то делать",
+   "slug": "197742-sessii-i-pochemu-pora-nachat-chto-to-delat",
+   "createdAt": "2026-11-08T03:22:56+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T04:44:54Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T06:44:51Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-11-08T06:28:47Z",
+   "graduated_at": "2026-11-08T06:47:17Z",
+   "checks_done": 2
+  },
+  "197744": {
+   "title": "Реально ли вернуться на старый аккаунт после 5 лет бана?",
+   "slug": "197744-realno-li-vernutsya-na-staryy-akkaunt-posle-5-let-bana",
+   "createdAt": "2026-11-08T04:20:14+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T04:44:54Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T06:44:51Z",
+   "last_lpn": 21,
+   "last_cc": 20,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-11-08T06:28:46Z",
+   "graduated_at": "2026-11-08T06:47:17Z",
    "checks_done": 2
   }
  }
