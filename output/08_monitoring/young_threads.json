@@ -15,9 +15,9 @@
    "until_ts": "2026-11-08T12:00:23Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-08T11:28:24Z"
+   "last_checked": "2026-11-08T11:43:10Z"
   },
   "197748": {
    "title": "ПП Витязь мутирует",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-08T12:28:09Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-08T11:28:26Z"
+   "last_checked": "2026-11-08T11:43:11Z"
   },
   "197747": {
    "title": "Способ сделать Лиманск чуть-чуть привлекательнее",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-08T12:28:09Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-08T11:28:28Z"
+   "last_checked": "2026-11-08T11:43:13Z"
   }
  },
  "graduated": {
