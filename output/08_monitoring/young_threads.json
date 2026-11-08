@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
- "threads": {},
+ "threads": {
+  "197766": {
+   "title": "Куплю искл губитель",
+   "slug": "197766-kuplyu-iskl-gubitel",
+   "createdAt": "2026-11-08T21:10:12+00:00",
+   "op_user": "smenapoc",
+   "stm": false,
+   "discovered_at": "2026-11-08T21:21:09Z",
+   "source": "snap35",
+   "until_ts": "2026-11-08T23:21:09Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  }
+ },
  "graduated": {
   "197704": {
    "title": "Вопрос раритетности и адекватности",
