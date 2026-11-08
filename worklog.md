@@ -8988,3 +8988,4 @@ Task ID: 54-20-s15: WIPE-#29 (~20:50, →71c70b8, сжёг слот s15 20:43) �
 Task ID: 54-654: sweep 9 дельт (штиле-режим, 197750 затих), VANISH 404 №22; EXT 0 (штиль 8-й); deep 0
 Task ID: 54-21-s35: NEW 197766 «Куплю искл губитель» OP smenapoc lpn/cc 1/1 → young 2h (createdAt 21:10:12)
 Task ID: 54-21-s15: TICK-LOST слот 21:13 (гэп 28 мин, следов вайпа нет — HEAD не откатывался, дерево чистое); 197766 «Куплю искл губитель» тихо 1/1 (check #1); active=1, graduated=37
+Task ID: 54-21-s15: WIPE-#30 СЕРЬЁЗНЫЙ (ВМ откат к снапшоту 19.10 23:27, HEAD 71c70b8, потеря 3 недель локального стейта, script+state.json+creds уничтожены) → R2 полн по быстрой схеме update-ref+read-tree+flags+checkout-index+purge → HEAD e90614266 ~1.5 мин 0 потерь; R1 creds (Mega MAC OK, API 200); TICK-LOST слот 21:43 (уходил на восстановление); 197766 «Куплю искл губитель» 1/1→2/2 (+1, check#2); active=1 graduated=37
