@@ -4,81 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197750": {
-   "title": "Добавлять распред по рейтингу? Пффф, нахуй надо!",
-   "slug": "197750-dobavlyat-raspred-po-reytingu-pfff-nahuy-nado",
-   "createdAt": "2026-11-08T14:14:03+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T14:16:01Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T16:15:57Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-08T16:15:18Z"
-  },
-  "197752": {
-   "title": "ИЗМЕНИТЕ КРАФТ ИГРИСТОГО ШАМПАНСКОГО",
-   "slug": "197752-izmenite-kraft-igristogo-shampanskogo",
-   "createdAt": "2026-11-08T14:28:02+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T14:28:17Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T16:28:11Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-08T16:15:20Z"
-  },
-  "197751": {
-   "title": "Амб",
-   "slug": "197751-amb",
-   "createdAt": "2026-11-08T14:25:48+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T14:28:17Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T16:28:11Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-08T16:15:21Z"
-  },
-  "197754": {
-   "title": "помощь с выбором краски",
-   "slug": "197754-pomosch-s-vyborom-kraski",
-   "createdAt": "2026-11-08T14:33:28+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T14:43:36Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T16:43:26Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-11-08T16:15:23Z"
-  },
-  "197753": {
-   "title": "АХААХХАХАХАХХА",
-   "slug": "197753-ahaahhahahahha",
-   "createdAt": "2026-11-08T14:28:55+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T14:43:36Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T16:43:26Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-11-08T16:15:25Z"
-  },
   "197755": {
    "title": "хронология пузырей опен",
    "slug": "197755-hronologiya-puzyrey-open",
@@ -90,9 +15,9 @@
    "until_ts": "2026-11-08T17:00:26Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-08T16:15:26Z"
+   "last_checked": "2026-11-08T16:45:12Z"
   },
   "197756": {
    "title": "ждем",
@@ -105,9 +30,9 @@
    "until_ts": "2026-11-08T17:13:13Z",
    "last_lpn": 19,
    "last_cc": 19,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-08T16:15:28Z"
+   "last_checked": "2026-11-08T16:45:14Z"
   },
   "197757": {
    "title": "Закрепы",
@@ -120,9 +45,9 @@
    "until_ts": "2026-11-08T17:28:12Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T16:15:29Z"
+   "last_checked": "2026-11-08T16:45:16Z"
   },
   "197760": {
    "title": "Стоит продать после расперса? Или оставить на следующий год?  ",
@@ -135,7 +60,9 @@
    "until_ts": "2026-11-08T18:15:16Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-08T16:45:18Z"
   },
   "197758": {
    "title": "небольшой личный тредик",
@@ -146,8 +73,23 @@
    "discovered_at": "2026-11-08T16:15:32Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T18:15:16Z",
-   "last_lpn": 19,
-   "last_cc": 19,
+   "last_lpn": 21,
+   "last_cc": 21,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-08T16:45:19Z"
+  },
+  "197761": {
+   "title": "распред ивента cломан!!!",
+   "slug": "197761-raspred-iventa-cloman",
+   "createdAt": "2026-11-08T16:26:32+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T16:45:22Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T18:45:10Z",
+   "last_lpn": 10,
+   "last_cc": 10,
    "checks": 0
   }
  },
@@ -507,6 +449,91 @@
    "last_checked": "2026-11-08T15:13:21Z",
    "graduated_at": "2026-11-08T15:28:12Z",
    "checks_done": 7
+  },
+  "197750": {
+   "title": "Добавлять распред по рейтингу? Пффф, нахуй надо!",
+   "slug": "197750-dobavlyat-raspred-po-reytingu-pfff-nahuy-nado",
+   "createdAt": "2026-11-08T14:14:03+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T14:16:01Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T16:15:57Z",
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-08T16:15:18Z",
+   "graduated_at": "2026-11-08T16:45:10Z",
+   "checks_done": 7
+  },
+  "197751": {
+   "title": "Амб",
+   "slug": "197751-amb",
+   "createdAt": "2026-11-08T14:25:48+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T14:28:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T16:28:11Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-08T16:15:21Z",
+   "graduated_at": "2026-11-08T16:45:10Z",
+   "checks_done": 6
+  },
+  "197752": {
+   "title": "ИЗМЕНИТЕ КРАФТ ИГРИСТОГО ШАМПАНСКОГО",
+   "slug": "197752-izmenite-kraft-igristogo-shampanskogo",
+   "createdAt": "2026-11-08T14:28:02+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T14:28:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T16:28:11Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-08T16:15:20Z",
+   "graduated_at": "2026-11-08T16:45:10Z",
+   "checks_done": 6
+  },
+  "197753": {
+   "title": "АХААХХАХАХАХХА",
+   "slug": "197753-ahaahhahahahha",
+   "createdAt": "2026-11-08T14:28:55+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T14:43:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T16:43:26Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-11-08T16:15:25Z",
+   "graduated_at": "2026-11-08T16:45:10Z",
+   "checks_done": 5
+  },
+  "197754": {
+   "title": "помощь с выбором краски",
+   "slug": "197754-pomosch-s-vyborom-kraski",
+   "createdAt": "2026-11-08T14:33:28+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T14:43:36Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T16:43:26Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-11-08T16:15:23Z",
+   "graduated_at": "2026-11-08T16:45:10Z",
+   "checks_done": 5
   }
  }
 }
