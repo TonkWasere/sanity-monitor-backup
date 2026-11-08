@@ -15,9 +15,9 @@
    "until_ts": "2026-11-08T01:48:06Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T01:11:53Z"
+   "last_checked": "2026-11-08T01:13:29Z"
   },
   "197738": {
    "title": "лаунчер ",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-08T01:48:08Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T01:11:55Z"
+   "last_checked": "2026-11-08T01:13:30Z"
   }
  },
  "graduated": {
