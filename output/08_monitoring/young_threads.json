@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
- "threads": {},
+ "threads": {
+  "197749": {
+   "title": "КОГДА ОПТИМИЗАЦИЯ",
+   "slug": "197749-kogda-optimizatsiya",
+   "createdAt": "2026-11-08T12:56:21+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T13:13:26Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T15:13:23Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  }
+ },
  "graduated": {
   "197704": {
    "title": "Вопрос раритетности и адекватности",
