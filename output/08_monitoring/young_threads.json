@@ -15,9 +15,9 @@
    "until_ts": "2026-11-08T04:13:11Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-08T02:48:06Z"
+   "last_checked": "2026-11-08T03:00:58Z"
   },
   "197741": {
    "title": "Делаем деньги, а не деньги",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-08T02:21:11Z",
    "source": "snap35",
    "until_ts": "2026-11-08T04:21:11Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 1,
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-08T02:48:07Z"
+   "last_checked": "2026-11-08T03:00:59Z"
   }
  },
  "graduated": {
