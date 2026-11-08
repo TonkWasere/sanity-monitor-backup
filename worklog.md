@@ -8948,3 +8948,4 @@ Task ID: 54-10-s15: recon-add x2: 197748 «ПП Витязь мутирует» 
 Task ID: 54-641: sweep 11 NEW-POSTS (191614 +7, 197746 +6, 197741 +2), EXT 0, deep 0
 Task ID: 54-10-s15: [SKIP] 10:58 UTC песочница недоступна (сбой старта среды; тик 10:43 не сработал); компенсация и реконструкция в 54-642
 Task ID: 54-642: sweep ROLLBACK 112917 + 12 NEW-POSTS (197744 +6, НОВЫЙ ВЫРЕЗ 197690 гэп 0→1), EXT 0, deep 1 [112917]; WIPE-#14 recovery → 811eb4dd
+Task ID: 54-642: push pending — creds мертвы после WIPE-#14 (vault r9QxQBCT: токен 401; vault q0oxwDYS из репо: Mega 509 bandwidth); коммит 0e413d04 локален, R1-retry на след. тиках
