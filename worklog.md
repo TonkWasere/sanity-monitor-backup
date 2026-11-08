@@ -8953,3 +8953,5 @@ Task ID: 54-642: push добит 11:27 UTC — creds revived (vault q0oxwDYS, AP
 Task ID: 54-11-s15: 197747 «Лиманск» +8 (2/2→10/10 — быстрый разгон), 197746 +2 (11/11), 197748 +2 (3/3 первое движение); TICK-LOST ~11:10 задокументирован скриптом (дыра 10:43/10:58 после WIPE-#14); active=3
 Task ID: 54-643: sweep 7 NEW-POSTS (197745 +3, 197747 выдох), EXT 0, deep 0
 Task ID: 54-11-s15: WIPE-#15 — повторный откат диска (HEAD 71c70b83, скрипты/стейт young потеряны); self-heal OK (fetch+show), recovery reset→10b3cc40 без потерь (origin цел); young-очередь реконструирована скриптом RECONCILE-ADD x3 (197746 11/11, 197747 10/10, 197748 3/3), TICK-LOST ~11:40 артефакт вайпа
+Task ID: 54-11-s15: push pending — creds стёрты новой инстансой, vault q0oxwDYS Mega 509 (quota); коммит c50c73d9 локален, R1-retry на след. тиках
+Task ID: 54-644: sweep 8 NEW-POSTS (197745 +15 ВСПЫШКА, 197744 +8 третья волна), EXT 1 (VK-статья изменена), deep 0; integrity ДА
