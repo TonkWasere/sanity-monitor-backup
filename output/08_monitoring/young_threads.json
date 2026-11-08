@@ -16,6 +16,19 @@
    "last_lpn": 1,
    "last_cc": 1,
    "checks": 0
+  },
+  "197741": {
+   "title": "Делаем деньги, а не деньги",
+   "slug": "197741-delaem-dengi-a-ne-dengi",
+   "createdAt": "2026-11-08T02:18:06+00:00",
+   "op_user": "clyuda_s",
+   "stm": false,
+   "discovered_at": "2026-11-08T02:21:11Z",
+   "source": "snap35",
+   "until_ts": "2026-11-08T04:21:11Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
