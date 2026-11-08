@@ -15,9 +15,9 @@
    "until_ts": "2026-11-08T15:13:23Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-08T14:15:58Z"
+   "last_checked": "2026-11-08T14:28:13Z"
   },
   "197750": {
    "title": "Добавлять распред по рейтингу? Пффф, нахуй надо!",
@@ -28,8 +28,36 @@
    "discovered_at": "2026-11-08T14:16:01Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T16:15:57Z",
+   "last_lpn": 8,
+   "last_cc": 8,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-08T14:28:14Z"
+  },
+  "197752": {
+   "title": "ИЗМЕНИТЕ КРАФТ ИГРИСТОГО ШАМПАНСКОГО",
+   "slug": "197752-izmenite-kraft-igristogo-shampanskogo",
+   "createdAt": "2026-11-08T14:28:02+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T14:28:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T16:28:11Z",
    "last_lpn": 1,
    "last_cc": 1,
+   "checks": 0
+  },
+  "197751": {
+   "title": "Амб",
+   "slug": "197751-amb",
+   "createdAt": "2026-11-08T14:25:48+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T14:28:17Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T16:28:11Z",
+   "last_lpn": 2,
+   "last_cc": 2,
    "checks": 0
   }
  },
