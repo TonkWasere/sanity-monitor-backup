@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-08T10:00:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T12:00:23Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 2,
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T10:28:11Z"
+   "last_checked": "2026-11-08T11:28:24Z"
   },
   "197748": {
    "title": "ПП Витязь мутирует",
@@ -28,9 +28,11 @@
    "discovered_at": "2026-11-08T10:28:14Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T12:28:09Z",
-   "last_lpn": 1,
-   "last_cc": 1,
-   "checks": 0
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-08T11:28:26Z"
   },
   "197747": {
    "title": "Способ сделать Лиманск чуть-чуть привлекательнее",
@@ -41,9 +43,11 @@
    "discovered_at": "2026-11-08T10:28:14Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-08T12:28:09Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 0
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-08T11:28:28Z"
   }
  },
  "graduated": {
