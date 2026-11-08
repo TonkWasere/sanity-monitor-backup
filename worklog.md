@@ -8951,3 +8951,4 @@ Task ID: 54-642: sweep ROLLBACK 112917 + 12 NEW-POSTS (197744 +6, НОВЫЙ В�
 Task ID: 54-642: push pending — creds мертвы после WIPE-#14 (vault r9QxQBCT: токен 401; vault q0oxwDYS из репо: Mega 509 bandwidth); коммит 0e413d04 локален, R1-retry на след. тиках
 Task ID: 54-642: push добит 11:27 UTC — creds revived (vault q0oxwDYS, API 200), origin=backup=HEAD=3e9d71f8, очередь pending закрыта
 Task ID: 54-11-s15: 197747 «Лиманск» +8 (2/2→10/10 — быстрый разгон), 197746 +2 (11/11), 197748 +2 (3/3 первое движение); TICK-LOST ~11:10 задокументирован скриптом (дыра 10:43/10:58 после WIPE-#14); active=3
+Task ID: 54-643: sweep 7 NEW-POSTS (197745 +3, 197747 выдох), EXT 0, deep 0
