@@ -15,9 +15,9 @@
    "until_ts": "2026-11-08T18:15:16Z",
    "last_lpn": 11,
    "last_cc": 11,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-08T18:02:20Z"
+   "last_checked": "2026-11-08T18:04:30Z"
   },
   "197758": {
    "title": "небольшой личный тредик",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-08T18:15:16Z",
    "last_lpn": 21,
    "last_cc": 21,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-08T18:02:22Z"
+   "last_checked": "2026-11-08T18:04:32Z"
   },
   "197761": {
    "title": "распред ивента cломан!!!",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-08T18:45:10Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T18:02:24Z"
+   "last_checked": "2026-11-08T18:04:34Z"
   }
  },
  "graduated": {
