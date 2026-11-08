@@ -4,36 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197760": {
-   "title": "Стоит продать после расперса? Или оставить на следующий год?  ",
-   "slug": "197760-stoit-prodat-posle-raspersa-ili-ostavit-na-sleduyuschiy-god",
-   "createdAt": "2026-11-08T16:02:42+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T16:15:32Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T18:15:16Z",
-   "last_lpn": 11,
-   "last_cc": 11,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-11-08T18:04:30Z"
-  },
-  "197758": {
-   "title": "небольшой личный тредик",
-   "slug": "197758-nebolshoy-lichnyy-tredik",
-   "createdAt": "2026-11-08T15:46:22+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-08T16:15:32Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-08T18:15:16Z",
-   "last_lpn": 21,
-   "last_cc": 21,
-   "checks": 4,
-   "fails": 0,
-   "last_checked": "2026-11-08T18:04:32Z"
-  },
   "197761": {
    "title": "распред ивента cломан!!!",
    "slug": "197761-raspred-iventa-cloman",
@@ -45,9 +15,22 @@
    "until_ts": "2026-11-08T18:45:10Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-08T18:04:34Z"
+   "last_checked": "2026-11-08T18:28:12Z"
+  },
+  "197763": {
+   "title": "награды за ивенты",
+   "slug": "197763-nagrady-za-iventy",
+   "createdAt": "2026-11-08T18:25:16+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T18:28:14Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T20:28:10Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
@@ -542,6 +525,40 @@
    "last_checked": "2026-11-08T16:45:16Z",
    "graduated_at": "2026-11-08T17:28:58Z",
    "checks_done": 3
+  },
+  "197758": {
+   "title": "небольшой личный тредик",
+   "slug": "197758-nebolshoy-lichnyy-tredik",
+   "createdAt": "2026-11-08T15:46:22+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T16:15:32Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T18:15:16Z",
+   "last_lpn": 21,
+   "last_cc": 21,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-11-08T18:04:32Z",
+   "graduated_at": "2026-11-08T18:28:10Z",
+   "checks_done": 4
+  },
+  "197760": {
+   "title": "Стоит продать после расперса? Или оставить на следующий год?  ",
+   "slug": "197760-stoit-prodat-posle-raspersa-ili-ostavit-na-sleduyuschiy-god",
+   "createdAt": "2026-11-08T16:02:42+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-08T16:15:32Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-08T18:15:16Z",
+   "last_lpn": 11,
+   "last_cc": 11,
+   "checks": 4,
+   "fails": 0,
+   "last_checked": "2026-11-08T18:04:30Z",
+   "graduated_at": "2026-11-08T18:28:10Z",
+   "checks_done": 4
   }
  }
 }
