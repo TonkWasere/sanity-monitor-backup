@@ -15,9 +15,9 @@
    "until_ts": "2026-11-08T20:28:10Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-08T19:15:18Z"
+   "last_checked": "2026-11-08T19:28:14Z"
   },
   "197764": {
    "title": "Рейтинг (хуейтинг)",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-08T20:45:18Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-08T19:15:20Z"
+   "last_checked": "2026-11-08T19:28:16Z"
   }
  },
  "graduated": {
