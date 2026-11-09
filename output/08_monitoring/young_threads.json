@@ -4,21 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197784": {
-   "title": "Продам штурму медик ",
-   "slug": "197784-prodam-shturmu-medik",
-   "createdAt": "2026-11-09T14:11:59+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-09T14:15:51Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-09T16:15:28Z",
-   "last_lpn": 35,
-   "last_cc": 34,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-09T16:14:50Z"
-  },
   "197786": {
    "title": "я нашёл нового убийцу сталзоне...",
    "slug": "197786-ya-nashyol-novogo-ubiytsu-stalzone",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-11-09T14:45:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:45:10Z",
-   "last_lpn": 29,
-   "last_cc": 29,
-   "checks": 5,
+   "last_lpn": 36,
+   "last_cc": 35,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T16:14:52Z"
+   "last_checked": "2026-11-09T16:28:13Z"
   },
   "197785": {
    "title": "Почините вы уже",
@@ -45,9 +30,9 @@
    "until_ts": "2026-11-09T16:45:10Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T16:14:54Z"
+   "last_checked": "2026-11-09T16:28:14Z"
   },
   "197787": {
    "title": "весы и зеркало",
@@ -60,9 +45,9 @@
    "until_ts": "2026-11-09T17:28:12Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T16:14:56Z"
+   "last_checked": "2026-11-09T16:28:16Z"
   }
  },
  "graduated": {
@@ -930,6 +915,23 @@
    "fails": 0,
    "last_checked": "2026-11-09T15:43:13Z",
    "graduated_at": "2026-11-09T16:04:11Z",
+   "checks_done": 7
+  },
+  "197784": {
+   "title": "Продам штурму медик ",
+   "slug": "197784-prodam-shturmu-medik",
+   "createdAt": "2026-11-09T14:11:59+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T14:15:51Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T16:15:28Z",
+   "last_lpn": 35,
+   "last_cc": 34,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-09T16:14:50Z",
+   "graduated_at": "2026-11-09T16:28:11Z",
    "checks_done": 7
   }
  }
