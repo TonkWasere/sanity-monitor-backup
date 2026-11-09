@@ -44,6 +44,13 @@ OWW_RECENT_H = 48        # OUT-OF-WINDOW с lpa свежее → целевой 
 cutover3h = _hms_ago(NEW_H)
 recency_cut = _hms_ago(OWW_RECENT_H)
 
+# 09.11 fix: приоритетный лок (Long30 > Snap35 > Snap15) — LONG30 ждёт до 120 с,
+# s35/s15 уходят в [SKIP-overlap] (exit 3) не трогая сеть и стейты
+from cron_lock import acquire_or_skip
+_lk = acquire_or_skip('long30', wait=120)
+if _lk is None:
+    raise SystemExit(3)
+
 def get(url, name, validate_json=True):
     path = os.path.join(OUT, name)
     if os.path.exists(path):

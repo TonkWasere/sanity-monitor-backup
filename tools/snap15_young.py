@@ -246,4 +246,8 @@ def main():
     return 0
 
 if __name__ == '__main__':
+    from cron_lock import acquire_or_skip   # 09.11 fix: наложение линией-соседом (инцидент 19:02)
+    _lk = acquire_or_skip('snap15', wait=0)
+    if _lk is None:
+        sys.exit(3)   # [SKIP-overlap]: лок занят (long30/s35) — агент пишет [SKIP] в worklog
     sys.exit(main())
