@@ -15,9 +15,9 @@
    "until_ts": "2026-11-09T16:15:28Z",
    "last_lpn": 35,
    "last_cc": 34,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-09T16:04:13Z"
+   "last_checked": "2026-11-09T16:14:50Z"
   },
   "197786": {
    "title": "я нашёл нового убийцу сталзоне...",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-09T14:45:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:45:10Z",
-   "last_lpn": 27,
-   "last_cc": 27,
-   "checks": 4,
+   "last_lpn": 29,
+   "last_cc": 29,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-09T16:04:15Z"
+   "last_checked": "2026-11-09T16:14:52Z"
   },
   "197785": {
    "title": "Почините вы уже",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-09T16:45:10Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-09T16:04:16Z"
+   "last_checked": "2026-11-09T16:14:54Z"
   },
   "197787": {
    "title": "весы и зеркало",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-09T17:28:12Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-09T16:04:18Z"
+   "last_checked": "2026-11-09T16:14:56Z"
   }
  },
  "graduated": {
