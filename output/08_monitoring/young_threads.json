@@ -15,9 +15,9 @@
    "until_ts": "2026-11-09T14:45:14Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-09T14:28:07Z"
+   "last_checked": "2026-11-09T14:45:13Z"
   },
   "197779": {
    "title": "Легендарный модуль",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-09T13:14:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T15:14:03Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 6,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-09T14:28:09Z"
+   "last_checked": "2026-11-09T14:45:15Z"
   },
   "197778": {
    "title": "Рубеж понерфили",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-09T15:14:03Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-09T14:28:11Z"
+   "last_checked": "2026-11-09T14:45:17Z"
   },
   "197781": {
    "title": "Вот и думайте",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-09T15:43:09Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-09T14:28:13Z"
+   "last_checked": "2026-11-09T14:45:18Z"
   },
   "197783": {
    "title": "Ограничение для запуска рейтингового режима",
@@ -75,9 +75,9 @@
    "until_ts": "2026-11-09T16:02:37Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T14:28:15Z"
+   "last_checked": "2026-11-09T14:45:20Z"
   },
   "197782": {
    "title": "Всмысле конкурент ск нет и не будет ",
@@ -88,11 +88,11 @@
    "discovered_at": "2026-11-09T14:02:51Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:02:37Z",
-   "last_lpn": 26,
-   "last_cc": 22,
-   "checks": 3,
+   "last_lpn": 30,
+   "last_cc": 26,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T14:28:16Z"
+   "last_checked": "2026-11-09T14:45:22Z"
   },
   "197784": {
    "title": "Продам штурму медик ",
@@ -103,11 +103,37 @@
    "discovered_at": "2026-11-09T14:15:51Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:15:28Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 1,
+   "last_lpn": 15,
+   "last_cc": 15,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-09T14:28:18Z"
+   "last_checked": "2026-11-09T14:45:24Z"
+  },
+  "197786": {
+   "title": "я нашёл нового убийцу сталзоне...",
+   "slug": "197786-ya-nashyol-novogo-ubiytsu-stalzone",
+   "createdAt": "2026-11-09T14:40:18+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T14:45:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T16:45:10Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 0
+  },
+  "197785": {
+   "title": "Почините вы уже",
+   "slug": "197785-pochinite-vy-uzhe",
+   "createdAt": "2026-11-09T14:38:39+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T14:45:27Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T16:45:10Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
