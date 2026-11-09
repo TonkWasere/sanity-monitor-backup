@@ -15,9 +15,9 @@
    "until_ts": "2026-11-09T08:21:55Z",
    "last_lpn": 19,
    "last_cc": 18,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T07:43:11Z"
+   "last_checked": "2026-11-09T08:00:39Z"
   },
   "197770": {
    "title": "Стенки на Празднестве",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-09T09:08:43Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T07:43:12Z"
+   "last_checked": "2026-11-09T08:00:41Z"
   }
  },
  "graduated": {
