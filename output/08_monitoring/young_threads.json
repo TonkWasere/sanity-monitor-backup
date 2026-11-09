@@ -48,6 +48,45 @@
    "checks": 1,
    "fails": 0,
    "last_checked": "2026-11-09T17:45:23Z"
+  },
+  "197793": {
+   "title": "3,14туший",
+   "slug": "197793-314tushiy",
+   "createdAt": "2026-11-09T18:22:47+00:00",
+   "op_user": "Dralogin",
+   "stm": false,
+   "discovered_at": "2026-11-09T18:23:19Z",
+   "source": "snap35",
+   "until_ts": "2026-11-09T20:23:19Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
+  },
+  "197792": {
+   "title": "Заплесневело ",
+   "slug": "197792-zaplesnevelo",
+   "createdAt": "2026-11-09T18:11:19+00:00",
+   "op_user": "stm:76561198876342999",
+   "stm": true,
+   "discovered_at": "2026-11-09T18:23:21Z",
+   "source": "snap35",
+   "until_ts": "2026-11-09T20:23:21Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
+  },
+  "197791": {
+   "title": "Доп квесты в открытом мире",
+   "slug": "197791-dop-kvesty-v-otkrytom-mire",
+   "createdAt": "2026-11-09T18:05:39+00:00",
+   "op_user": "p47",
+   "stm": false,
+   "discovered_at": "2026-11-09T18:23:23Z",
+   "source": "snap35",
+   "until_ts": "2026-11-09T20:23:23Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 0
   }
  },
  "graduated": {
