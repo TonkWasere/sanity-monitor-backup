@@ -13,11 +13,24 @@
    "discovered_at": "2026-11-09T11:15:24Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T13:15:21Z",
-   "last_lpn": 17,
-   "last_cc": 14,
-   "checks": 2,
+   "last_lpn": 21,
+   "last_cc": 18,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-09T11:43:07Z"
+   "last_checked": "2026-11-09T12:00:23Z"
+  },
+  "197774": {
+   "title": "Прощай праект розроб плахой",
+   "slug": "197774-proschay-praekt-rozrob-plahoy",
+   "createdAt": "2026-11-09T11:49:47+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T12:00:26Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T14:00:21Z",
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 0
   }
  },
  "graduated": {
