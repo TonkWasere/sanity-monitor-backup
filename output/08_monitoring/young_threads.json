@@ -15,9 +15,9 @@
    "until_ts": "2026-11-09T14:45:14Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-09T14:15:38Z"
+   "last_checked": "2026-11-09T14:28:07Z"
   },
   "197779": {
    "title": "Легендарный модуль",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-09T13:14:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T15:14:03Z",
-   "last_lpn": 13,
-   "last_cc": 13,
-   "checks": 5,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T14:15:42Z"
+   "last_checked": "2026-11-09T14:28:09Z"
   },
   "197778": {
    "title": "Рубеж понерфили",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-11-09T13:14:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T15:14:03Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 5,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T14:15:43Z"
+   "last_checked": "2026-11-09T14:28:11Z"
   },
   "197781": {
    "title": "Вот и думайте",
@@ -60,9 +60,9 @@
    "until_ts": "2026-11-09T15:43:09Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T14:15:45Z"
+   "last_checked": "2026-11-09T14:28:13Z"
   },
   "197783": {
    "title": "Ограничение для запуска рейтингового режима",
@@ -75,9 +75,9 @@
    "until_ts": "2026-11-09T16:02:37Z",
    "last_lpn": 10,
    "last_cc": 10,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-09T14:15:47Z"
+   "last_checked": "2026-11-09T14:28:15Z"
   },
   "197782": {
    "title": "Всмысле конкурент ск нет и не будет ",
@@ -88,11 +88,11 @@
    "discovered_at": "2026-11-09T14:02:51Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:02:37Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 2,
+   "last_lpn": 26,
+   "last_cc": 22,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-09T14:15:49Z"
+   "last_checked": "2026-11-09T14:28:16Z"
   },
   "197784": {
    "title": "Продам штурму медик ",
@@ -103,9 +103,11 @@
    "discovered_at": "2026-11-09T14:15:51Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:15:28Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-09T14:28:18Z"
   }
  },
  "graduated": {
