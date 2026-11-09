@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-09T17:21:19Z",
    "source": "snap35",
    "until_ts": "2026-11-09T19:21:19Z",
-   "last_lpn": 29,
-   "last_cc": 29,
-   "checks": 1,
+   "last_lpn": 53,
+   "last_cc": 53,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-09T17:28:21Z"
+   "last_checked": "2026-11-09T17:45:19Z"
   },
   "197788": {
    "title": "А РЕЙТИН ЭТО ПРОСТО БУКВЫ????",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-09T17:21:21Z",
    "source": "snap35",
    "until_ts": "2026-11-09T19:21:21Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 1,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-09T17:28:23Z"
+   "last_checked": "2026-11-09T17:45:21Z"
   },
   "197790": {
    "title": "А как зайти то",
@@ -43,9 +43,11 @@
    "discovered_at": "2026-11-09T17:28:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T19:28:19Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 0
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-09T17:45:23Z"
   }
  },
  "graduated": {
