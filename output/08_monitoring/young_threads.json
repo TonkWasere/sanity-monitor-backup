@@ -15,9 +15,9 @@
    "until_ts": "2026-11-09T08:21:55Z",
    "last_lpn": 19,
    "last_cc": 18,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-09T07:28:13Z"
+   "last_checked": "2026-11-09T07:43:11Z"
   },
   "197770": {
    "title": "Стенки на Празднестве",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-09T07:08:48Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T09:08:43Z",
-   "last_lpn": 4,
-   "last_cc": 4,
-   "checks": 2,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-09T07:28:14Z"
+   "last_checked": "2026-11-09T07:43:12Z"
   }
  },
  "graduated": {
