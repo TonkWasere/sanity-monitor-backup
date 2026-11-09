@@ -4,21 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197767": {
-   "title": "Прощай, васянский проект",
-   "slug": "197767-proschay-vasyanskiy-proekt",
-   "createdAt": "2026-11-09T01:12:55+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-09T01:29:51Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-09T03:29:48Z",
-   "last_lpn": 19,
-   "last_cc": 18,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-11-09T03:02:54Z"
-  },
   "197768": {
    "title": "Я присяду?",
    "slug": "197768-ya-prisyadu",
@@ -28,9 +13,11 @@
    "discovered_at": "2026-11-09T03:02:56Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T05:02:52Z",
-   "last_lpn": 9,
-   "last_cc": 8,
-   "checks": 0
+   "last_lpn": 11,
+   "last_cc": 10,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-09T04:01:21Z"
   }
  },
  "graduated": {
@@ -627,6 +614,23 @@
    "last_checked": "2026-11-08T23:00:07Z",
    "graduated_at": "2026-11-09T00:00:05Z",
    "checks_done": 5
+  },
+  "197767": {
+   "title": "Прощай, васянский проект",
+   "slug": "197767-proschay-vasyanskiy-proekt",
+   "createdAt": "2026-11-09T01:12:55+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T01:29:51Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T03:29:48Z",
+   "last_lpn": 19,
+   "last_cc": 18,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-11-09T03:02:54Z",
+   "graduated_at": "2026-11-09T04:01:19Z",
+   "checks_done": 3
   }
  }
 }
