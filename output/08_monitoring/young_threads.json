@@ -15,9 +15,9 @@
    "until_ts": "2026-11-09T10:15:33Z",
    "last_lpn": 12,
    "last_cc": 11,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T09:49:25Z"
+   "last_checked": "2026-11-09T09:58:25Z"
   },
   "197772": {
    "title": "Почему мы позволяем делать это с нами?",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-09T11:00:22Z",
    "last_lpn": 21,
    "last_cc": 21,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-09T09:49:27Z"
+   "last_checked": "2026-11-09T09:58:26Z"
   }
  },
  "graduated": {
