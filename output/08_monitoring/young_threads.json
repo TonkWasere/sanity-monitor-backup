@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
- "threads": {},
+ "threads": {
+  "197773": {
+   "title": "⚖️ Как балансится экипировка в игре?",
+   "slug": "197773-kak-balansitsya-ekipirovka-v-igre",
+   "createdAt": "2026-11-09T10:46:35+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T11:15:24Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T13:15:21Z",
+   "last_lpn": 10,
+   "last_cc": 7,
+   "checks": 0
+  }
+ },
  "graduated": {
   "197704": {
    "title": "Вопрос раритетности и адекватности",
