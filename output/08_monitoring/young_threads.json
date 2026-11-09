@@ -3,23 +3,7 @@
   "version": 1,
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
- "threads": {
-  "197768": {
-   "title": "Я присяду?",
-   "slug": "197768-ya-prisyadu",
-   "createdAt": "2026-11-09T02:40:08+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-09T03:02:56Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-09T05:02:52Z",
-   "last_lpn": 12,
-   "last_cc": 11,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-11-09T05:01:04Z"
-  }
- },
+ "threads": {},
  "graduated": {
   "197704": {
    "title": "Вопрос раритетности и адекватности",
@@ -630,6 +614,23 @@
    "fails": 0,
    "last_checked": "2026-11-09T03:02:54Z",
    "graduated_at": "2026-11-09T04:01:19Z",
+   "checks_done": 3
+  },
+  "197768": {
+   "title": "Я присяду?",
+   "slug": "197768-ya-prisyadu",
+   "createdAt": "2026-11-09T02:40:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T03:02:56Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T05:02:52Z",
+   "last_lpn": 12,
+   "last_cc": 11,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-11-09T05:01:04Z",
+   "graduated_at": "2026-11-09T05:28:13Z",
    "checks_done": 3
   }
  }
