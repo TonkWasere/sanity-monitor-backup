@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-09T13:43:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T15:43:09Z",
-   "last_lpn": 8,
-   "last_cc": 8,
-   "checks": 6,
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-09T15:17:49Z"
+   "last_checked": "2026-11-09T15:28:14Z"
   },
   "197783": {
    "title": "Ограничение для запуска рейтингового режима",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-09T14:02:51Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:02:37Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 5,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T15:17:51Z"
+   "last_checked": "2026-11-09T15:28:15Z"
   },
   "197782": {
    "title": "Всмысле конкурент ск нет и не будет ",
@@ -45,9 +45,9 @@
    "until_ts": "2026-11-09T16:02:37Z",
    "last_lpn": 30,
    "last_cc": 26,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T15:17:53Z"
+   "last_checked": "2026-11-09T15:28:17Z"
   },
   "197784": {
    "title": "Продам штурму медик ",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-11-09T14:15:51Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:15:28Z",
-   "last_lpn": 34,
-   "last_cc": 33,
-   "checks": 3,
+   "last_lpn": 35,
+   "last_cc": 34,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T15:17:54Z"
+   "last_checked": "2026-11-09T15:28:19Z"
   },
   "197786": {
    "title": "я нашёл нового убийцу сталзоне...",
@@ -73,11 +73,11 @@
    "discovered_at": "2026-11-09T14:45:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:45:10Z",
-   "last_lpn": 9,
-   "last_cc": 9,
-   "checks": 1,
+   "last_lpn": 19,
+   "last_cc": 19,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-09T15:17:56Z"
+   "last_checked": "2026-11-09T15:28:21Z"
   },
   "197785": {
    "title": "Почините вы уже",
@@ -90,9 +90,22 @@
    "until_ts": "2026-11-09T16:45:10Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-09T15:17:58Z"
+   "last_checked": "2026-11-09T15:28:22Z"
+  },
+  "197787": {
+   "title": "весы и зеркало",
+   "slug": "197787-vesy-i-zerkalo",
+   "createdAt": "2026-11-09T15:28:22+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T15:28:25Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T17:28:12Z",
+   "last_lpn": 1,
+   "last_cc": 1,
+   "checks": 0
   }
  },
  "graduated": {
