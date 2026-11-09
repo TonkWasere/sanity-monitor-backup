@@ -15,9 +15,9 @@
    "until_ts": "2026-11-09T09:08:43Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 7,
+   "checks": 8,
    "fails": 0,
-   "last_checked": "2026-11-09T08:43:08Z"
+   "last_checked": "2026-11-09T09:00:23Z"
   },
   "197771": {
    "title": "Очки мне дайте",
@@ -28,11 +28,24 @@
    "discovered_at": "2026-11-09T08:15:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T10:15:33Z",
-   "last_lpn": 8,
-   "last_cc": 7,
-   "checks": 2,
+   "last_lpn": 10,
+   "last_cc": 9,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-09T08:43:10Z"
+   "last_checked": "2026-11-09T09:00:25Z"
+  },
+  "197772": {
+   "title": "Почему мы позволяем делать это с нами?",
+   "slug": "197772-pochemu-my-pozvolyaem-delat-eto-s-nami",
+   "createdAt": "2026-11-09T08:46:37+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T09:00:28Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T11:00:22Z",
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 0
   }
  },
  "graduated": {
