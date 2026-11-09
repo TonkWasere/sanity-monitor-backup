@@ -15,9 +15,9 @@
    "until_ts": "2026-11-09T10:15:33Z",
    "last_lpn": 12,
    "last_cc": 11,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-09T09:58:25Z"
+   "last_checked": "2026-11-09T10:13:13Z"
   },
   "197772": {
    "title": "Почему мы позволяем делать это с нами?",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-09T09:00:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T11:00:22Z",
-   "last_lpn": 21,
-   "last_cc": 21,
-   "checks": 3,
+   "last_lpn": 23,
+   "last_cc": 23,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T09:58:26Z"
+   "last_checked": "2026-11-09T10:13:15Z"
   }
  },
  "graduated": {
