@@ -4,36 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197776": {
-   "title": "Разраб вообще аутист?",
-   "slug": "197776-razrab-voobsche-autist",
-   "createdAt": "2026-11-09T12:03:18+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-09T12:13:19Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-09T14:13:13Z",
-   "last_lpn": 29,
-   "last_cc": 29,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-09T14:02:58Z"
-  },
-  "197775": {
-   "title": "Меня очень тронуло твоё сообщение... я не буду прощаться с тобой.",
-   "slug": "197775-menya-ochen-tronulo-tvoyo-soobschenie-ya-ne-budu-proschatsya-s-toboy",
-   "createdAt": "2026-11-09T12:01:21+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-09T12:13:19Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-09T14:13:13Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 6,
-   "fails": 0,
-   "last_checked": "2026-11-09T14:03:00Z"
-  },
   "197777": {
    "title": "Замена частей лег шмоток за талоны",
    "slug": "197777-zamena-chastey-leg-shmotok-za-talony",
@@ -45,9 +15,9 @@
    "until_ts": "2026-11-09T14:45:14Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T14:03:02Z"
+   "last_checked": "2026-11-09T14:15:38Z"
   },
   "197779": {
    "title": "Легендарный модуль",
@@ -60,9 +30,9 @@
    "until_ts": "2026-11-09T15:14:03Z",
    "last_lpn": 13,
    "last_cc": 13,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-09T14:03:04Z"
+   "last_checked": "2026-11-09T14:15:42Z"
   },
   "197778": {
    "title": "Рубеж понерфили",
@@ -75,9 +45,9 @@
    "until_ts": "2026-11-09T15:14:03Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-09T14:03:06Z"
+   "last_checked": "2026-11-09T14:15:43Z"
   },
   "197781": {
    "title": "Вот и думайте",
@@ -90,9 +60,9 @@
    "until_ts": "2026-11-09T15:43:09Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-09T14:03:07Z"
+   "last_checked": "2026-11-09T14:15:45Z"
   },
   "197783": {
    "title": "Ограничение для запуска рейтингового режима",
@@ -103,11 +73,11 @@
    "discovered_at": "2026-11-09T14:02:51Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:02:37Z",
-   "last_lpn": 2,
-   "last_cc": 2,
-   "checks": 1,
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-09T14:03:09Z"
+   "last_checked": "2026-11-09T14:15:47Z"
   },
   "197782": {
    "title": "Всмысле конкурент ск нет и не будет ",
@@ -118,11 +88,24 @@
    "discovered_at": "2026-11-09T14:02:51Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:02:37Z",
+   "last_lpn": 12,
+   "last_cc": 12,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-11-09T14:15:49Z"
+  },
+  "197784": {
+   "title": "Продам штурму медик ",
+   "slug": "197784-prodam-shturmu-medik",
+   "createdAt": "2026-11-09T14:11:59+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T14:15:51Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T16:15:28Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
-   "fails": 0,
-   "last_checked": "2026-11-09T14:03:11Z"
+   "checks": 0
   }
  },
  "graduated": {
@@ -855,6 +838,40 @@
    "last_checked": "2026-11-09T13:43:10Z",
    "graduated_at": "2026-11-09T14:02:37Z",
    "checks_done": 5
+  },
+  "197775": {
+   "title": "Меня очень тронуло твоё сообщение... я не буду прощаться с тобой.",
+   "slug": "197775-menya-ochen-tronulo-tvoyo-soobschenie-ya-ne-budu-proschatsya-s-toboy",
+   "createdAt": "2026-11-09T12:01:21+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T12:13:19Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T14:13:13Z",
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-09T14:03:00Z",
+   "graduated_at": "2026-11-09T14:15:28Z",
+   "checks_done": 6
+  },
+  "197776": {
+   "title": "Разраб вообще аутист?",
+   "slug": "197776-razrab-voobsche-autist",
+   "createdAt": "2026-11-09T12:03:18+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T12:13:19Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T14:13:13Z",
+   "last_lpn": 29,
+   "last_cc": 29,
+   "checks": 6,
+   "fails": 0,
+   "last_checked": "2026-11-09T14:02:58Z",
+   "graduated_at": "2026-11-09T14:15:28Z",
+   "checks_done": 6
   }
  }
 }
