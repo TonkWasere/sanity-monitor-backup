@@ -4,21 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197771": {
-   "title": "Очки мне дайте",
-   "slug": "197771-ochki-mne-dayte",
-   "createdAt": "2026-11-09T07:53:21+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-09T08:15:39Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-09T10:15:33Z",
-   "last_lpn": 12,
-   "last_cc": 11,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-09T10:13:13Z"
-  },
   "197772": {
    "title": "Почему мы позволяем делать это с нами?",
    "slug": "197772-pochemu-my-pozvolyaem-delat-eto-s-nami",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-11-09T09:00:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T11:00:22Z",
-   "last_lpn": 23,
-   "last_cc": 23,
-   "checks": 4,
+   "last_lpn": 35,
+   "last_cc": 35,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-09T10:13:15Z"
+   "last_checked": "2026-11-09T10:28:10Z"
   }
  },
  "graduated": {
@@ -697,6 +682,23 @@
    "last_checked": "2026-11-09T09:00:23Z",
    "graduated_at": "2026-11-09T09:13:09Z",
    "checks_done": 8
+  },
+  "197771": {
+   "title": "Очки мне дайте",
+   "slug": "197771-ochki-mne-dayte",
+   "createdAt": "2026-11-09T07:53:21+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T08:15:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T10:15:33Z",
+   "last_lpn": 12,
+   "last_cc": 11,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-09T10:13:13Z",
+   "graduated_at": "2026-11-09T10:28:08Z",
+   "checks_done": 7
   }
  }
 }
