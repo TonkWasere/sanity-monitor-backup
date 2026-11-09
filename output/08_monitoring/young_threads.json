@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-09T11:15:24Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T13:15:21Z",
-   "last_lpn": 23,
-   "last_cc": 20,
-   "checks": 5,
+   "last_lpn": 24,
+   "last_cc": 21,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T12:45:16Z"
+   "last_checked": "2026-11-09T13:14:06Z"
   },
   "197774": {
    "title": "Прощай праект розроб плахой",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-09T12:00:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T14:00:21Z",
-   "last_lpn": 17,
-   "last_cc": 17,
-   "checks": 2,
+   "last_lpn": 28,
+   "last_cc": 28,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-09T12:45:17Z"
+   "last_checked": "2026-11-09T13:14:08Z"
   },
   "197776": {
    "title": "Разраб вообще аутист?",
@@ -43,11 +43,11 @@
    "discovered_at": "2026-11-09T12:13:19Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T14:13:13Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 1,
+   "last_lpn": 23,
+   "last_cc": 23,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-09T12:45:19Z"
+   "last_checked": "2026-11-09T13:14:11Z"
   },
   "197775": {
    "title": "Меня очень тронуло твоё сообщение... я не буду прощаться с тобой.",
@@ -58,11 +58,11 @@
    "discovered_at": "2026-11-09T12:13:19Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T14:13:13Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 1,
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-09T12:45:21Z"
+   "last_checked": "2026-11-09T13:14:13Z"
   },
   "197777": {
    "title": "Замена частей лег шмоток за талоны",
@@ -75,6 +75,34 @@
    "until_ts": "2026-11-09T14:45:14Z",
    "last_lpn": 5,
    "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-09T13:14:15Z"
+  },
+  "197779": {
+   "title": "Легендарный модуль",
+   "slug": "197779-legendarnyy-modul",
+   "createdAt": "2026-11-09T13:10:59+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T13:14:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T15:14:03Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197778": {
+   "title": "Рубеж понерфили",
+   "slug": "197778-rubezh-ponerfili",
+   "createdAt": "2026-11-09T13:04:49+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T13:14:18Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T15:14:03Z",
+   "last_lpn": 2,
+   "last_cc": 2,
    "checks": 0
   }
  },
