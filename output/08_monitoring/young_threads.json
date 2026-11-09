@@ -4,21 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197774": {
-   "title": "Прощай праект розроб плахой",
-   "slug": "197774-proschay-praekt-rozrob-plahoy",
-   "createdAt": "2026-11-09T11:49:47+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-09T12:00:26Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-09T14:00:21Z",
-   "last_lpn": 30,
-   "last_cc": 30,
-   "checks": 5,
-   "fails": 0,
-   "last_checked": "2026-11-09T13:43:10Z"
-  },
   "197776": {
    "title": "Разраб вообще аутист?",
    "slug": "197776-razrab-voobsche-autist",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-11-09T12:13:19Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T14:13:13Z",
-   "last_lpn": 28,
-   "last_cc": 28,
-   "checks": 4,
+   "last_lpn": 29,
+   "last_cc": 29,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T13:43:12Z"
+   "last_checked": "2026-11-09T14:02:58Z"
   },
   "197775": {
    "title": "Меня очень тронуло твоё сообщение... я не буду прощаться с тобой.",
@@ -45,9 +30,9 @@
    "until_ts": "2026-11-09T14:13:13Z",
    "last_lpn": 14,
    "last_cc": 14,
-   "checks": 4,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T13:43:14Z"
+   "last_checked": "2026-11-09T14:03:00Z"
   },
   "197777": {
    "title": "Замена частей лег шмоток за талоны",
@@ -60,9 +45,9 @@
    "until_ts": "2026-11-09T14:45:14Z",
    "last_lpn": 5,
    "last_cc": 5,
-   "checks": 3,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-09T13:43:16Z"
+   "last_checked": "2026-11-09T14:03:02Z"
   },
   "197779": {
    "title": "Легендарный модуль",
@@ -73,11 +58,11 @@
    "discovered_at": "2026-11-09T13:14:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T15:14:03Z",
-   "last_lpn": 10,
-   "last_cc": 10,
-   "checks": 2,
+   "last_lpn": 13,
+   "last_cc": 13,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T13:43:17Z"
+   "last_checked": "2026-11-09T14:03:04Z"
   },
   "197778": {
    "title": "Рубеж понерфили",
@@ -88,11 +73,11 @@
    "discovered_at": "2026-11-09T13:14:18Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T15:14:03Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 2,
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T13:43:19Z"
+   "last_checked": "2026-11-09T14:03:06Z"
   },
   "197781": {
    "title": "Вот и думайте",
@@ -103,9 +88,41 @@
    "discovered_at": "2026-11-09T13:43:22Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T15:43:09Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-11-09T14:03:07Z"
+  },
+  "197783": {
+   "title": "Ограничение для запуска рейтингового режима",
+   "slug": "197783-ogranichenie-dlya-zapuska-reytingovogo-rezhima",
+   "createdAt": "2026-11-09T13:58:52+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T14:02:51Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T16:02:37Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-09T14:03:09Z"
+  },
+  "197782": {
+   "title": "Всмысле конкурент ск нет и не будет ",
+   "slug": "197782-vsmysle-konkurent-sk-net-i-ne-budet",
+   "createdAt": "2026-11-09T13:56:28+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T14:02:51Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T16:02:37Z",
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-09T14:03:11Z"
   }
  },
  "graduated": {
@@ -821,6 +838,23 @@
    "last_checked": "2026-11-09T13:14:06Z",
    "graduated_at": "2026-11-09T13:28:10Z",
    "checks_done": 6
+  },
+  "197774": {
+   "title": "Прощай праект розроб плахой",
+   "slug": "197774-proschay-praekt-rozrob-plahoy",
+   "createdAt": "2026-11-09T11:49:47+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T12:00:26Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T14:00:21Z",
+   "last_lpn": 30,
+   "last_cc": 30,
+   "checks": 5,
+   "fails": 0,
+   "last_checked": "2026-11-09T13:43:10Z",
+   "graduated_at": "2026-11-09T14:02:37Z",
+   "checks_done": 5
   }
  }
 }
