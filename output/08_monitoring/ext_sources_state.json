@@ -4,12 +4,12 @@
   "stalzone": {
    "last_id": 3293,
    "last_dt": "2026-11-09T16:00:09+00:00",
-   "last_views": "9.99K"
+   "last_views": "14.1K"
   },
   "spectrum_zone": {
    "last_id": 8113,
    "last_dt": "2026-11-06T13:10:59+00:00",
-   "last_views": "6.4K"
+   "last_views": "6.45K"
   }
  },
  "steam": {
@@ -48,21 +48,21 @@
   "articles": {
    "stalzone-cep-raspada-nagrazhdenie-la170998": {
     "title": "stalzone-cep-raspada-nagrazhdenie-la170998",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-21T10:36:55+03:00",
+    "modified": "2026-10-21T12:26:41+03:00",
+    "fp": "892a86089dc7"
    },
    "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563": {
     "title": "stalzone-start-ots-sobytiya-prazdnestvo-afdfvs4563",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-23T17:30:20+03:00",
+    "modified": "2026-10-23T19:01:07+03:00",
+    "fp": "c5e3cbe064f0"
    },
    "stalzone-patchnout-28102026-ergsekrnv": {
     "title": "stalzone-patchnout-28102026-ergsekrnv",
-    "published": "",
-    "modified": "",
-    "fp": "cbe5cfdf7c21"
+    "published": "2026-10-28T11:09:01+03:00",
+    "modified": "2026-10-28T16:12:54+03:00",
+    "fp": "a5743d170933"
    },
    "stalzone-otkrytie-testovogo-servera-16102026-1": {
     "title": "stalzone-otkrytie-testovogo-servera-16102026-1",
@@ -152,6 +152,7 @@
     1150689,
     1150469,
     1136421,
+    1151877,
     1151809,
     1151668,
     1151627,
@@ -170,7 +171,6 @@
     1150775,
     1150689,
     1150469,
-    1150408,
     1136421,
     1151809,
     1151668,
@@ -292,6 +292,7 @@
     1150469,
     1150408,
     1136421,
+    1151809,
     1151668,
     1151627,
     1151623,
@@ -309,11 +310,10 @@
     1150775,
     1150689,
     1150469,
-    1150408,
-    1150258
+    1150408
    ],
    "top": 1151877,
-   "last_check": "20261109_1633"
+   "last_check": "20261109_1833"
   }
  },
  "youtube": {
@@ -336,5 +336,5 @@
   ],
   "last_ts": "2026-10-31T21:00:37+00:00"
  },
- "updated": "2026-11-09T17:04:21+00:00"
+ "updated": "2026-11-09T18:34:21+00:00"
 }
