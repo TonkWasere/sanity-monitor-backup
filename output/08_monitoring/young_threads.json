@@ -15,9 +15,9 @@
    "until_ts": "2026-11-09T08:21:55Z",
    "last_lpn": 19,
    "last_cc": 18,
-   "checks": 6,
+   "checks": 7,
    "fails": 0,
-   "last_checked": "2026-11-09T08:00:39Z"
+   "last_checked": "2026-11-09T08:15:35Z"
   },
   "197770": {
    "title": "Стенки на Празднестве",
@@ -30,9 +30,22 @@
    "until_ts": "2026-11-09T09:08:43Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-09T08:00:41Z"
+   "last_checked": "2026-11-09T08:15:37Z"
+  },
+  "197771": {
+   "title": "Очки мне дайте",
+   "slug": "197771-ochki-mne-dayte",
+   "createdAt": "2026-11-09T07:53:21+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T08:15:39Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T10:15:33Z",
+   "last_lpn": 5,
+   "last_cc": 4,
+   "checks": 0
   }
  },
  "graduated": {
