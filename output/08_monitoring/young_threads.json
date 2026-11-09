@@ -4,36 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197783": {
-   "title": "Ограничение для запуска рейтингового режима",
-   "slug": "197783-ogranichenie-dlya-zapuska-reytingovogo-rezhima",
-   "createdAt": "2026-11-09T13:58:52+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-09T14:02:51Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-09T16:02:37Z",
-   "last_lpn": 14,
-   "last_cc": 14,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-09T15:43:13Z"
-  },
-  "197782": {
-   "title": "Всмысле конкурент ск нет и не будет ",
-   "slug": "197782-vsmysle-konkurent-sk-net-i-ne-budet",
-   "createdAt": "2026-11-09T13:56:28+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-09T14:02:51Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-09T16:02:37Z",
-   "last_lpn": 30,
-   "last_cc": 26,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-09T15:43:15Z"
-  },
   "197784": {
    "title": "Продам штурму медик ",
    "slug": "197784-prodam-shturmu-medik",
@@ -45,9 +15,9 @@
    "until_ts": "2026-11-09T16:15:28Z",
    "last_lpn": 35,
    "last_cc": 34,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T15:43:17Z"
+   "last_checked": "2026-11-09T16:04:13Z"
   },
   "197786": {
    "title": "я нашёл нового убийцу сталзоне...",
@@ -58,11 +28,11 @@
    "discovered_at": "2026-11-09T14:45:27Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T16:45:10Z",
-   "last_lpn": 23,
-   "last_cc": 23,
-   "checks": 3,
+   "last_lpn": 27,
+   "last_cc": 27,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T15:43:19Z"
+   "last_checked": "2026-11-09T16:04:15Z"
   },
   "197785": {
    "title": "Почините вы уже",
@@ -75,9 +45,9 @@
    "until_ts": "2026-11-09T16:45:10Z",
    "last_lpn": 3,
    "last_cc": 3,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T15:43:20Z"
+   "last_checked": "2026-11-09T16:04:16Z"
   },
   "197787": {
    "title": "весы и зеркало",
@@ -88,11 +58,11 @@
    "discovered_at": "2026-11-09T15:28:25Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T17:28:12Z",
-   "last_lpn": 5,
-   "last_cc": 5,
-   "checks": 1,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-09T15:43:22Z"
+   "last_checked": "2026-11-09T16:04:18Z"
   }
  },
  "graduated": {
@@ -926,6 +896,40 @@
    "fails": 0,
    "last_checked": "2026-11-09T15:28:14Z",
    "graduated_at": "2026-11-09T15:43:10Z",
+   "checks_done": 7
+  },
+  "197782": {
+   "title": "Всмысле конкурент ск нет и не будет ",
+   "slug": "197782-vsmysle-konkurent-sk-net-i-ne-budet",
+   "createdAt": "2026-11-09T13:56:28+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T14:02:51Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T16:02:37Z",
+   "last_lpn": 30,
+   "last_cc": 26,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-09T15:43:15Z",
+   "graduated_at": "2026-11-09T16:04:11Z",
+   "checks_done": 7
+  },
+  "197783": {
+   "title": "Ограничение для запуска рейтингового режима",
+   "slug": "197783-ogranichenie-dlya-zapuska-reytingovogo-rezhima",
+   "createdAt": "2026-11-09T13:58:52+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T14:02:51Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T16:02:37Z",
+   "last_lpn": 14,
+   "last_cc": 14,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-09T15:43:13Z",
+   "graduated_at": "2026-11-09T16:04:11Z",
    "checks_done": 7
   }
  }
