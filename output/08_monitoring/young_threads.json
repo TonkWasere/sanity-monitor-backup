@@ -4,21 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197769": {
-   "title": "Каким бы хотелось видеть ивент",
-   "slug": "197769-kakim-by-hotelos-videt-ivent",
-   "createdAt": "2026-11-09T06:06:33+00:00",
-   "op_user": "Kikizo",
-   "stm": false,
-   "discovered_at": "2026-11-09T06:21:55Z",
-   "source": "snap35",
-   "until_ts": "2026-11-09T08:21:55Z",
-   "last_lpn": 19,
-   "last_cc": 18,
-   "checks": 7,
-   "fails": 0,
-   "last_checked": "2026-11-09T08:15:35Z"
-  },
   "197770": {
    "title": "Стенки на Празднестве",
    "slug": "197770-stenki-na-prazdnestve",
@@ -30,9 +15,9 @@
    "until_ts": "2026-11-09T09:08:43Z",
    "last_lpn": 6,
    "last_cc": 6,
-   "checks": 5,
+   "checks": 6,
    "fails": 0,
-   "last_checked": "2026-11-09T08:15:37Z"
+   "last_checked": "2026-11-09T08:28:12Z"
   },
   "197771": {
    "title": "Очки мне дайте",
@@ -43,9 +28,11 @@
    "discovered_at": "2026-11-09T08:15:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T10:15:33Z",
-   "last_lpn": 5,
-   "last_cc": 4,
-   "checks": 0
+   "last_lpn": 6,
+   "last_cc": 5,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-09T08:28:14Z"
   }
  },
  "graduated": {
@@ -676,6 +663,23 @@
    "last_checked": "2026-11-09T05:01:04Z",
    "graduated_at": "2026-11-09T05:28:13Z",
    "checks_done": 3
+  },
+  "197769": {
+   "title": "Каким бы хотелось видеть ивент",
+   "slug": "197769-kakim-by-hotelos-videt-ivent",
+   "createdAt": "2026-11-09T06:06:33+00:00",
+   "op_user": "Kikizo",
+   "stm": false,
+   "discovered_at": "2026-11-09T06:21:55Z",
+   "source": "snap35",
+   "until_ts": "2026-11-09T08:21:55Z",
+   "last_lpn": 19,
+   "last_cc": 18,
+   "checks": 7,
+   "fails": 0,
+   "last_checked": "2026-11-09T08:15:35Z",
+   "graduated_at": "2026-11-09T08:28:10Z",
+   "checks_done": 7
   }
  }
 }
