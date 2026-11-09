@@ -3,7 +3,21 @@
   "version": 1,
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
- "threads": {},
+ "threads": {
+  "197767": {
+   "title": "Прощай, васянский проект",
+   "slug": "197767-proschay-vasyanskiy-proekt",
+   "createdAt": "2026-11-09T01:12:55+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T01:29:51Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T03:29:48Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 0
+  }
+ },
  "graduated": {
   "197704": {
    "title": "Вопрос раритетности и адекватности",
