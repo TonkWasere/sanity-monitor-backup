@@ -15,9 +15,9 @@
    "until_ts": "2026-11-09T13:15:21Z",
    "last_lpn": 23,
    "last_cc": 20,
-   "checks": 4,
+   "checks": 5,
    "fails": 0,
-   "last_checked": "2026-11-09T12:13:14Z"
+   "last_checked": "2026-11-09T12:45:16Z"
   },
   "197774": {
    "title": "Прощай праект розроб плахой",
@@ -28,11 +28,11 @@
    "discovered_at": "2026-11-09T12:00:26Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T14:00:21Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 1,
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-09T12:13:16Z"
+   "last_checked": "2026-11-09T12:45:17Z"
   },
   "197776": {
    "title": "Разраб вообще аутист?",
@@ -43,9 +43,11 @@
    "discovered_at": "2026-11-09T12:13:19Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T14:13:13Z",
-   "last_lpn": 3,
-   "last_cc": 3,
-   "checks": 0
+   "last_lpn": 10,
+   "last_cc": 10,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-09T12:45:19Z"
   },
   "197775": {
    "title": "Меня очень тронуло твоё сообщение... я не буду прощаться с тобой.",
@@ -56,8 +58,23 @@
    "discovered_at": "2026-11-09T12:13:19Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T14:13:13Z",
-   "last_lpn": 3,
-   "last_cc": 3,
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-09T12:45:21Z"
+  },
+  "197777": {
+   "title": "Замена частей лег шмоток за талоны",
+   "slug": "197777-zamena-chastey-leg-shmotok-za-talony",
+   "createdAt": "2026-11-09T12:25:37+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T12:45:23Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T14:45:14Z",
+   "last_lpn": 5,
+   "last_cc": 5,
    "checks": 0
   }
  },
