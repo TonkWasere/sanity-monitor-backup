@@ -13,11 +13,24 @@
    "discovered_at": "2026-11-09T06:21:55Z",
    "source": "snap35",
    "until_ts": "2026-11-09T08:21:55Z",
+   "last_lpn": 19,
+   "last_cc": 18,
+   "checks": 2,
+   "fails": 0,
+   "last_checked": "2026-11-09T07:08:45Z"
+  },
+  "197770": {
+   "title": "Стенки на Празднестве",
+   "slug": "197770-stenki-na-prazdnestve",
+   "createdAt": "2026-11-09T06:35:45+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T07:08:48Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T09:08:43Z",
    "last_lpn": 4,
    "last_cc": 4,
-   "checks": 1,
-   "fails": 0,
-   "last_checked": "2026-11-09T06:28:24Z"
+   "checks": 0
   }
  },
  "graduated": {
