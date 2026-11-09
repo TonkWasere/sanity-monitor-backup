@@ -4,21 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197770": {
-   "title": "Стенки на Празднестве",
-   "slug": "197770-stenki-na-prazdnestve",
-   "createdAt": "2026-11-09T06:35:45+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-09T07:08:48Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-09T09:08:43Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 8,
-   "fails": 0,
-   "last_checked": "2026-11-09T09:00:23Z"
-  },
   "197771": {
    "title": "Очки мне дайте",
    "slug": "197771-ochki-mne-dayte",
@@ -28,11 +13,11 @@
    "discovered_at": "2026-11-09T08:15:39Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T10:15:33Z",
-   "last_lpn": 10,
-   "last_cc": 9,
-   "checks": 3,
+   "last_lpn": 11,
+   "last_cc": 10,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-09T09:00:25Z"
+   "last_checked": "2026-11-09T09:13:12Z"
   },
   "197772": {
    "title": "Почему мы позволяем делать это с нами?",
@@ -43,9 +28,11 @@
    "discovered_at": "2026-11-09T09:00:28Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-09T11:00:22Z",
-   "last_lpn": 12,
-   "last_cc": 12,
-   "checks": 0
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-09T09:13:14Z"
   }
  },
  "graduated": {
@@ -693,6 +680,23 @@
    "last_checked": "2026-11-09T08:15:35Z",
    "graduated_at": "2026-11-09T08:28:10Z",
    "checks_done": 7
+  },
+  "197770": {
+   "title": "Стенки на Празднестве",
+   "slug": "197770-stenki-na-prazdnestve",
+   "createdAt": "2026-11-09T06:35:45+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-09T07:08:48Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-09T09:08:43Z",
+   "last_lpn": 6,
+   "last_cc": 6,
+   "checks": 8,
+   "fails": 0,
+   "last_checked": "2026-11-09T09:00:23Z",
+   "graduated_at": "2026-11-09T09:13:09Z",
+   "checks_done": 8
   }
  }
 }
