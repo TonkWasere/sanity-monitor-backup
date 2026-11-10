@@ -178,4 +178,9 @@ if __name__ == '__main__':
     _lk = acquire_or_skip('snap35', wait=0)
     if _lk is None:
         sys.exit(3)   # [SKIP-overlap]: лок занят (long30/s15) — агент пишет [SKIP] в worklog
+    from wipe_sentinel import gate, mark      # 10.11 fix: WIPE-детект до тяжёлой работы
+    _g = gate()
+    if _g['status'] in ('wipe', 'creds'):
+        sys.exit(5 if _g['status'] == 'wipe' else 4)   # [WIPE-ALARM]: агент делает R2/R1 в этом же тике
+    mark()
     sys.exit(main())

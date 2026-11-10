@@ -50,6 +50,12 @@ from cron_lock import acquire_or_skip
 _lk = acquire_or_skip('long30', wait=120)
 if _lk is None:
     raise SystemExit(3)
+# 10.11 fix: WIPE-детект после лока, до сети/стейтов (wipe exit 5 → R2, creds exit 4 → R1)
+from wipe_sentinel import gate, mark
+_g = gate()
+if _g['status'] in ('wipe', 'creds'):
+    raise SystemExit(5 if _g['status'] == 'wipe' else 4)
+mark()
 
 def get(url, name, validate_json=True):
     path = os.path.join(OUT, name)

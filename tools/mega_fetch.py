@@ -19,7 +19,7 @@ tools/mega_pull.py (stdlib, самодостаточный). Урок 15.10: ф�
 import os, re, subprocess, sys
 
 # Ротация 27.10.2026 (~13:50 UTC, creds умерли 26.10, старый n5QmRLaJ мёртв)
-HARD_LINK = "https://mega.nz/file/r9QxQBCT#F4tjwiW8UOhJKqxFk1K55r8w5Je5qDw6zNC4dqmy2uo"
+HARD_LINK = "https://mega.nz/file/q0oxwDYS#VWiZRTbj5yFNzFh8r97HfPY1oCuMJeaRzS9H21CxikE"  # ротация 10.11.2026 ~01:10 UTC (PAT заменён автором после WIPE-#61)
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def resolve():

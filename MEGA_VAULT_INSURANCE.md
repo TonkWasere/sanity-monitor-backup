@@ -5,5 +5,5 @@
 #   → printf 'https://TonkWasere:%s@github.com/\n' "$TOKEN" > ~/.git-credentials && chmod 600
 #   → git push origin sanity-monitor && git push backup sanity-monitor
 # Ротация: обновлять ВСЕ ТРИ (MEGA-файл у автора, HARD_LINK в mega_fetch.py, строка ниже).
-MEGA_LINK: https://mega.nz/file/r9QxQBCT#F4tjwiW8UOhJKqxFk1K55r8w5Je5qDw6zNC4dqmy2uo
+MEGA_LINK: https://mega.nz/file/q0oxwDYS#VWiZRTbj5yFNzFh8r97HfPY1oCuMJeaRzS9H21CxikE
 # Мёртвые: n5QmRLaJ… (ротирован ~26.10 вместе с PAT)
