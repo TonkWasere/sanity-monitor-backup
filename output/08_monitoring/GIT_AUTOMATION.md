@@ -5,6 +5,29 @@
 (worklog, ledger, снапы, инструменты, документы) уходит в GitHub-репо автора.
 Рекавери = git clone. Работает до команды автора «Остановить автоматизацию».
 
+## БЮЛЛЕТЕНЬ 10.11.2026 (post WIPE-#61 — читать первым)
+- **WIPE-#61** (~01:05 UTC 10.11, первый ЗАФИКСИРОВАН LIVE: idle 8.5ч, boot на пинг автора) →
+  R1+R2 отработаны, 0 потерь (HEAD 49bfd46, prev_lpn_597, evidence_post пуст).
+- **PAT-ротация автора 10.11 ~01:10 UTC** (после #61): единая ссылка vault —
+  `q0oxwDYS…` — во ВСЕХ источниках (root `MEGA_VAULT_INSURANCE.md` +
+  `output/08_monitoring/MEGA_VAULT_INSURANCE.md` + HARD_LINK в `tools/mega_fetch.py` +
+  PolarFS-копия). Старая `r9QxQBCT…` МЕРТВА, не использовать. Эталон vault:
+  sha256 `61cbc0c478a39c06…`; live-проверка 10.11: mega_pull MAC OK, sha совпал,
+  push origin+backup зелёные. R1 из шапок кронов гарантированно рабочий.
+- **`tools/cron_lock.py` flock-guard (09.11, инцидент наложения 19:02)**: вживлён во все три
+  скрипта; long30 wait=120с, s35/s15 — мгновенный отказ **exit 3** (stdout
+  `>>> [SKIP-overlap]`) = БЕЗВРЕДНОЕ наложение, не авария: достаточно строки `[SKIP]
+  наложение` в worklog, recovery НЕ запускать.
+- **`tools/wipe_sentinel.py` v1 (10.11)**: вживлён в s15/s35/long30 сразу после flock, до
+  тяжёлой работы. **exit 5** = WIPE-ALARM (`>>> [WIPE-ALARM]` + R2-ранбук на stdout) —
+  выполнить ранбук, затем ПЕРЕЗАПУСТИТЬ скрипт тика; **exit 4** = креды сожжены
+  (`>>> [WIPE-CREDS]` + R1-ранбук) — выполнить R1, перезапустить; exit 0 (ok/net/other) —
+  работаем как обычно. `/tmp/wipe_last_tick.json` отсутствует = норма (создастся на
+  первом тике). Слепое окно обнаружения WIPE сжато до 1 тика (≤15–30 мин).
+- Тексты тел кронов СОЗНАТЕЛЬНО не менялись (редакция 08.11; объекты на паузе): все новые
+  механизмы живут внутри скриптов и в этом бюллетене. Спека `cron_specs/jobs.json`
+  сверена с живыми кронами 10.11 (хвосты/якоря совпадают) — актуальна.
+
 ## Линии отказоустойчивости (Task 54-hc, 15.10 22:25 UTC)
 1. **origin** https://github.com/TonkWasere/test.git → ветка **sanity-monitor** (основная)
 2. **backup** https://github.com/TonkWasere/sanity-monitor-backup.git → ветка **sanity-monitor**
