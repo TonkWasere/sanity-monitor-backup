@@ -6,7 +6,8 @@ tools/__pycache__/
 video_tmp/
 # WIPE-45 aftermath (54-331): untracked-мусор, ронявший git add -A (35k файлов) и secret_guard (OOM)
 backup_home_root_20261002/
-mini-services/
+mini-services/*
+!mini-services/monitor-scheduler/
 examples/
 .zscripts/
 mega-dl-tmp.mjs

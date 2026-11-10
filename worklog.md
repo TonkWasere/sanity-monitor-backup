@@ -9103,3 +9103,5 @@ Task ID: 54-688-hc: post-recovery healthcheck 10/10 green (origin+backup acb2837
 Task ID: 54-689: ИНФРАСТРУКТУРА — локальный автономный шедулер (bun :3031, слоты +90с, flock-приоритет крону) + auto_tick (self-heal R2/R1, ledger/worklog/timeline, commit+dual push+bundle, evidence-инвариант) + auto_digest (Аналитика 24ч каждые 4ч) + FIX 404→VANISH-SIG (обслуж. №683); ОТКРЫТИЕ: tool-call процессы песочница убивает (setsid умирает) — шедулер хостится в дереве дев-сервера через MonitorBoot в layout (платформенный поллер GET / = сиделка); парсеры протестированы 12/12
 
 Task ID: 54-689-auto: [sched s15 23:46] events=4: TICK-LOST ~23:40 UTC (последний завершённый прогон НЕТ СНАПО | 197859 RECONCILE-ADD «я олд?(ерS)» createdAt 2026-11-10T22:0 | 197858 RECONCILE-ADD «Победите на 21+ раунде с прочностью Ре | итог: active=2 graduated=76 recon_add=2; active=2 grad=76
+
+Task ID: 54-689-auto: [sched s15 23:59] events=2: TICK-LOST ~23:40 UTC (последний завершённый прогон НЕТ СНАПО | итог: active=2 graduated=76 recon_add=0; active=2 grad=76
