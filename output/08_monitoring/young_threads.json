@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-10T06:04:08Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-10T08:03:59Z",
-   "last_lpn": 20,
-   "last_cc": 19,
-   "checks": 3,
+   "last_lpn": 23,
+   "last_cc": 22,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-10T07:13:10Z"
+   "last_checked": "2026-11-10T07:28:29Z"
   },
   "197805": {
    "title": "Скрытие статистики",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-10T08:03:59Z",
    "last_lpn": 8,
    "last_cc": 8,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-10T07:13:11Z"
+   "last_checked": "2026-11-10T07:28:30Z"
   },
   "197807": {
    "title": "Игнорируемый moment",
@@ -43,8 +43,36 @@
    "discovered_at": "2026-11-10T07:13:15Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-10T09:13:07Z",
-   "last_lpn": 1,
-   "last_cc": 1,
+   "last_lpn": 4,
+   "last_cc": 4,
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-10T07:28:32Z"
+  },
+  "197809": {
+   "title": "Автокликер",
+   "slug": "197809-avtokliker",
+   "createdAt": "2026-11-10T07:25:51+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-10T07:28:35Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-10T09:28:27Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
+  },
+  "197808": {
+   "title": "а куда девать облик?",
+   "slug": "197808-a-kuda-devat-oblik",
+   "createdAt": "2026-11-10T07:22:05+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-10T07:28:35Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-10T09:28:27Z",
+   "last_lpn": 3,
+   "last_cc": 3,
    "checks": 0
   }
  },
