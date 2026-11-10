@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-10T04:26:54Z",
    "source": "snap35",
    "until_ts": "2026-11-10T06:26:54Z",
-   "last_lpn": 39,
-   "last_cc": 38,
-   "checks": 3,
+   "last_lpn": 65,
+   "last_cc": 63,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-10T05:28:08Z"
+   "last_checked": "2026-11-10T06:04:02Z"
   },
   "197802": {
    "title": "250+50+50+50 = 250",
@@ -30,9 +30,35 @@
    "until_ts": "2026-11-10T06:26:56Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 3,
+   "checks": 4,
    "fails": 0,
-   "last_checked": "2026-11-10T05:28:10Z"
+   "last_checked": "2026-11-10T06:04:04Z"
+  },
+  "197806": {
+   "title": "Про конкуренцию с ск.",
+   "slug": "197806-pro-konkurentsiyu-s-sk",
+   "createdAt": "2026-11-10T05:47:21+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-10T06:04:08Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-10T08:03:59Z",
+   "last_lpn": 3,
+   "last_cc": 3,
+   "checks": 0
+  },
+  "197805": {
+   "title": "Скрытие статистики",
+   "slug": "197805-skrytie-statistiki",
+   "createdAt": "2026-11-10T05:46:48+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-10T06:04:08Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-10T08:03:59Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
