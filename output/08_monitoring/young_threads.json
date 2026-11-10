@@ -78,6 +78,32 @@
    "checks": 1,
    "fails": 0,
    "last_checked": "2026-11-09T19:28:56Z"
+  },
+  "197803": {
+   "title": "Люди которые верят в конкурент ексбо что с вами ",
+   "slug": "197803-lyudi-kotorye-veryat-v-konkurent-eksbo-chto-s-vami",
+   "createdAt": "2026-11-10T04:19:36+00:00",
+   "op_user": "Laska1",
+   "stm": false,
+   "discovered_at": "2026-11-10T04:26:54Z",
+   "source": "snap35",
+   "until_ts": "2026-11-10T06:26:54Z",
+   "last_lpn": 5,
+   "last_cc": 5,
+   "checks": 0
+  },
+  "197802": {
+   "title": "250+50+50+50 = 250",
+   "slug": "197802-250505050-250",
+   "createdAt": "2026-11-10T02:41:00+00:00",
+   "op_user": "StreloK52",
+   "stm": false,
+   "discovered_at": "2026-11-10T04:26:56Z",
+   "source": "snap35",
+   "until_ts": "2026-11-10T06:26:56Z",
+   "last_lpn": 9,
+   "last_cc": 9,
+   "checks": 0
   }
  },
  "graduated": {
