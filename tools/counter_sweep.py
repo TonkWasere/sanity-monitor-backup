@@ -20,7 +20,7 @@
 # Состояние: /tmp/prev_lpn_<N+1>.json (цепочка rescan-эры продолжается, +поле lpa) +
 # output/08_monitoring/long30_state.json (pass_no/расписание integrity) +
 # state_snapshots ротация keep 2. Young-очередь НЕ трогает (линия s15/s35).
-import json, os, glob, re, time, hashlib, urllib.request
+import json, os, glob, re, time, hashlib, urllib.request, urllib.error
 
 TS = time.strftime('%Y%m%d_%H%M', time.gmtime())
 
@@ -73,6 +73,16 @@ def get(url, name, validate_json=True):
             return d
         print(f'OK {name} ({len(body)}B)')
         return True
+    except urllib.error.HTTPError as e:
+        # 54-689 fix (обслуживание с №683): 404 раньше падал в общий except →
+        # OWW-FAIL «(сеть?)», VANISH-SIG ветка была недостижима. Теперь 404
+        # возвращает маркер → ветка VANISH-SIG срабатывает штатно.
+        print(f'FAIL {name}: HTTP {e.code}')
+        if os.path.exists(path):
+            os.remove(path)
+        if e.code == 404 and validate_json:
+            return {'_http404': True}
+        return None
     except Exception as e:
         print(f'FAIL {name}: {e}')
         if os.path.exists(path):
@@ -265,6 +275,9 @@ for prio, tid, why in deep_queue:
     time.sleep(1)
     if not dd:
         continue
+    if isinstance(dd, dict) and dd.get('_http404'):
+        print(f'>>> DEEP [{tid}] 404 — тред снесён до глубокого захода ({why})')
+        continue
     deep_done.append(tid)
     a = (dd.get('data') or {}).get('attributes', {}) if isinstance(dd.get('data'), dict) else {}
     if why == 'NEW':
@@ -303,7 +316,7 @@ if do_integrity:
             h = hashlib.sha256((p['attributes'].get('contentHtml') or '').encode()).hexdigest()
             ok = (h == CANON48)
             print(f'>>> CANON #48 196411: {"MATCH" if ok else "MISMATCH sha256=" + h[:16]}')
-    if d is None:
+    if d is None or (isinstance(d, dict) and d.get('_http404')):
         print('>>> CANON #48 196411: postsindex off40 недоступен — повтор на след. проходе')
     for tid, near, want in ((195574, 69, [69]), (195660, 381, [387]), (159759, 14590, [14590, 14591])):
         dd = get(f'{BASE}/api/discussions/{tid}?page[near]={near}',

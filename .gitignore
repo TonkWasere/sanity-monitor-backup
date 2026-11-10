@@ -22,3 +22,9 @@ output/02_api_snapshots/
 # temp-файлы параллельных ext_sources процессов (root-owned, .name.XXXXXX) — никогда не коммитятся (урок pass#98)
 output/evidence_post/.*
 tool-results/
+
+# 54-689: локальные артефакты шедулера (код шедулера в гите, логи — нет)
+mini-services/monitor-scheduler/scheduler.log
+mini-services/monitor-scheduler/nohup.out
+nohup.out
+__pycache__/
