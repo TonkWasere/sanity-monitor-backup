@@ -13,11 +13,11 @@
    "discovered_at": "2026-11-10T04:26:54Z",
    "source": "snap35",
    "until_ts": "2026-11-10T06:26:54Z",
-   "last_lpn": 6,
-   "last_cc": 6,
-   "checks": 1,
+   "last_lpn": 15,
+   "last_cc": 14,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-10T04:28:31Z"
+   "last_checked": "2026-11-10T04:58:17Z"
   },
   "197802": {
    "title": "250+50+50+50 = 250",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-10T06:26:56Z",
    "last_lpn": 9,
    "last_cc": 9,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-10T04:28:32Z"
+   "last_checked": "2026-11-10T04:58:19Z"
   }
  },
  "graduated": {
