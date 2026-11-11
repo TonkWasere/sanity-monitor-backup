@@ -9136,3 +9136,5 @@ Task ID: 54-689-auto: [sched s15 02:59] events=2: TICK-LOST ~02:40 UTC (посл
 Task ID: 54-689-auto: [sched long30 03:05] pass#252: 5 дельт (2-й проход ноль DEL/MIX/UNHIDE), NEW-THREAD ×0, EXT 0, base 608 (1110 кл); топ: [197843] «Легендарная вещь за ёлочку 26-27» 72→75
 
 Task ID: 54-689-auto: [sched s15 03:14] events=2: TICK-LOST ~02:55 UTC (последний завершённый прогон НЕТ СНАПО | итог: active=1 graduated=78 recon_add=0; active=1 grad=78
+
+Task ID: 54-689-auto: [sched s35 03:22] new=0 candidates=0: young очередь: 1 активных, graduated 78
