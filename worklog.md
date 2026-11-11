@@ -9105,3 +9105,5 @@ Task ID: 54-689: ИНФРАСТРУКТУРА — локальный автон�
 Task ID: 54-689-auto: [sched s15 23:46] events=4: TICK-LOST ~23:40 UTC (последний завершённый прогон НЕТ СНАПО | 197859 RECONCILE-ADD «я олд?(ерS)» createdAt 2026-11-10T22:0 | 197858 RECONCILE-ADD «Победите на 21+ раунде с прочностью Ре | итог: active=2 graduated=76 recon_add=2; active=2 grad=76
 
 Task ID: 54-689-auto: [sched s15 23:59] events=2: TICK-LOST ~23:40 UTC (последний завершённый прогон НЕТ СНАПО | итог: active=2 graduated=76 recon_add=0; active=2 grad=76
+
+Task ID: 54-689-auto: [sched long30 00:05] pass#248: 13 дельт (0-й проход ноль DEL/MIX/UNHIDE), NEW-THREAD ×0, EXT 0, base 604 (1108 кл); топ: [197858] «Победите на 21+ раунде с прочностью Реликвии >80%» 3→15 [197857] «аномаааа» 10→17 [197789] «мертворождённый убийца ск » 427→432
