@@ -189,7 +189,7 @@ except Exception as e:
 import glob as _glob
 # 54-692: канонический каталог /home/z/backups ПЕРВЫМ (в /tmp/my-project — устаревшее
 # зеркала до-вайпной эпохи); паттерн — и dash (старый), и underscore (auto_tick/maybe_bundle)
-bundles = sorted(glob.glob('/home/z/backups/sanity-monitor[-_]*.bundle') or _glob.glob('/tmp/my-project/backups/sanity-monitor[-_]*.bundle'))
+bundles = sorted(_glob.glob('/home/z/backups/sanity-monitor[-_]*.bundle') or _glob.glob('/tmp/my-project/backups/sanity-monitor[-_]*.bundle'))
 if bundles:
     age_h = (datetime.datetime.now(timezone.utc) - datetime.datetime.fromtimestamp(os.path.getmtime(bundles[-1]), timezone.utc)).total_seconds() / 3600
     print(f"  [{'OK' if age_h < 26 else 'STALE'}] bundle: {os.path.basename(bundles[-1])} ({age_h:.1f} ч, {os.path.getsize(bundles[-1])//1024//1024}MB)")
