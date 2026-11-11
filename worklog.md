@@ -9140,3 +9140,5 @@ Task ID: 54-689-auto: [sched s15 03:14] events=2: TICK-LOST ~02:55 UTC (посл
 Task ID: 54-689-auto: [sched s35 03:22] new=0 candidates=0: young очередь: 1 активных, graduated 78
 
 Task ID: 54-689-auto: [sched s15 03:29] events=2: TICK-LOST ~03:10 UTC (последний завершённый прогон НЕТ СНАПО | итог: active=1 graduated=78 recon_add=0; active=1 grad=78
+
+Task ID: 54-689-auto: [sched long30 03:35] pass#253: 2 дельт (2-й проход ноль DEL/MIX/UNHIDE), NEW-THREAD ×0, EXT 0, base 609 (1110 кл)
