@@ -9118,3 +9118,5 @@ Task ID: 54-692: WIPE-#70 (41-й откат) — детект 01:26 UTC по с�
 Task ID: 54-689-auto: [sched s15 01:44] events=4: TICK-LOST ~01:25 UTC (последний завершённый прогон НЕТ СНАПО | 197858 «Победите на 21+ раунде с прочностью Рели» lpn/cc 15/ | 197860 RECONCILE-ADD «рисование от руки » createdAt 2026-11- | итог: active=3 graduated=76 recon_add=1; active=3 grad=76
 
 Task ID: 54-689-auto: [sched s15 01:59] events=2: TICK-LOST ~01:40 UTC (последний завершённый прогон НЕТ СНАПО | итог: active=1 graduated=78 recon_add=0; active=1 grad=78
+
+Task ID: 54-689-auto: [sched long30 02:05] pass#250: 5 дельт (2-й проход ноль DEL/MIX/UNHIDE), NEW-THREAD ×0, EXT 0, base 606 (1109 кл)
