@@ -9113,3 +9113,6 @@ Task ID: 54-689-auto: [sched s15 00:14] events=2: TICK-LOST ~23:55 UTC (посл
 Task ID: 54-689-auto: [sched s35 00:22] new=0 candidates=0: young очередь: 2 активных, graduated 76
 
 Task ID: 54-689-auto: [sched long30 01:36] pass#249: 5 дельт (1-й проход ноль DEL/MIX/UNHIDE), NEW-THREAD ×1, EXT 0, base 605 (1109 кл)
+Task ID: 54-692: WIPE-#70 (41-й откат) — детект 01:26 UTC по сигналу автора; шедулер убит откатом в окне 00:22→01:26 (9 слотов недоставлено), перезапущен параллельной крон-сессией 01:34:57 → pass#249 прошёл; R2+R1 вручную (~15 мин, 0 потерь), пуш-догон 5775a02fd, тройная синхронизация 01:44, бандл 622MB; патч lost-update бага auto_tick (push_pending перезапись); ledger №692
+
+Task ID: 54-689-auto: [sched s15 01:44] events=4: TICK-LOST ~01:25 UTC (последний завершённый прогон НЕТ СНАПО | 197858 «Победите на 21+ раунде с прочностью Рели» lpn/cc 15/ | 197860 RECONCILE-ADD «рисование от руки » createdAt 2026-11- | итог: active=3 graduated=76 recon_add=1; active=3 grad=76

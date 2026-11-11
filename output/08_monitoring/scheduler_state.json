@@ -2,7 +2,7 @@
  "push_pending": 0,
  "wipes": 0,
  "r1_runs": 0,
- "zero_del_streak": 0,
+ "zero_del_streak": 1,
  "ticks": {
   "s15": {
    "ts": "2026-11-11T00:15:02Z",
@@ -12,16 +12,16 @@
    "note": "ok"
   },
   "long30": {
-   "ts": "2026-11-11T00:06:32Z",
+   "ts": "2026-11-11T01:37:00Z",
    "rc": 0,
-   "dur_s": 170,
-   "pass": 248,
+   "dur_s": 103,
+   "pass": 249,
    "note": "ok"
   }
  },
  "last_tick": {
-  "ts": "2026-11-11T00:15:02Z",
-  "line": "s15",
-  "dur_s": 20
+  "ts": "2026-11-11T01:37:00Z",
+  "line": "long30",
+  "dur_s": 103
  }
 }

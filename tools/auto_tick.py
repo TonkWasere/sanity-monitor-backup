@@ -551,6 +551,9 @@ def main():
         if (pass_no_stored and pass_no_stored % 4 == 0) or 'R2' in healed:
             ok = maybe_bundle()
             print(f'[auto_tick] bundle: {"OK" if ok else "FAIL"} (keep-2)')
+    # 54-692: перечитать стейт ПОСЛЕ commit_push — тот мог поднять push_pending
+    # (push fail); старый код перезаписывал его устаревшим объектом (lost-update)
+    s = load_sched()
     s['ticks'][line] = {'ts': utc(), 'rc': 0, 'dur_s': round(time.time() - t0),
                         'pass': pass_no_stored if line == 'long30' else None,
                         'note': f'healed={healed_txt}' if healed else 'ok'}

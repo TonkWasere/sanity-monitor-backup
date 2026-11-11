@@ -15,9 +15,9 @@
    "until_ts": "2026-11-11T01:46:02Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 2,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-11T00:14:44Z"
+   "last_checked": "2026-11-11T01:44:40Z"
   },
   "197858": {
    "title": "Победите на 21+ раунде с прочностью Реликвии >80%",
@@ -28,11 +28,24 @@
    "discovered_at": "2026-11-10T23:46:05Z",
    "source": "snap15-reconcile",
    "until_ts": "2026-11-11T01:46:02Z",
-   "last_lpn": 15,
-   "last_cc": 15,
-   "checks": 2,
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 3,
    "fails": 0,
-   "last_checked": "2026-11-11T00:14:46Z"
+   "last_checked": "2026-11-11T01:44:41Z"
+  },
+  "197860": {
+   "title": "рисование от руки ",
+   "slug": "197860-risovanie-ot-ruki",
+   "createdAt": "2026-11-11T00:37:03+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-11T01:44:44Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-11T03:44:38Z",
+   "last_lpn": 2,
+   "last_cc": 2,
+   "checks": 0
   }
  },
  "graduated": {
