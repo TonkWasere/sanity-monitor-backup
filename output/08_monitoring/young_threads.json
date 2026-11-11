@@ -4,36 +4,6 @@
   "note": "young queue (recon wipe16, TTL-разделение при реконструкции)"
  },
  "threads": {
-  "197859": {
-   "title": "я олд?(ерS)",
-   "slug": "197859-ya-olders",
-   "createdAt": "2026-11-10T22:02:06+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-10T23:46:05Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-11T01:46:02Z",
-   "last_lpn": 7,
-   "last_cc": 7,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-11-11T01:44:40Z"
-  },
-  "197858": {
-   "title": "Победите на 21+ раунде с прочностью Реликвии >80%",
-   "slug": "197858-pobedite-na-21-raunde-s-prochnostyu-relikvii-80",
-   "createdAt": "2026-11-10T21:39:08+00:00",
-   "op_user": "?",
-   "stm": false,
-   "discovered_at": "2026-11-10T23:46:05Z",
-   "source": "snap15-reconcile",
-   "until_ts": "2026-11-11T01:46:02Z",
-   "last_lpn": 17,
-   "last_cc": 17,
-   "checks": 3,
-   "fails": 0,
-   "last_checked": "2026-11-11T01:44:41Z"
-  },
   "197860": {
    "title": "рисование от руки ",
    "slug": "197860-risovanie-ot-ruki",
@@ -45,7 +15,9 @@
    "until_ts": "2026-11-11T03:44:38Z",
    "last_lpn": 2,
    "last_cc": 2,
-   "checks": 0
+   "checks": 1,
+   "fails": 0,
+   "last_checked": "2026-11-11T01:59:39Z"
   }
  },
  "graduated": {
@@ -1282,6 +1254,40 @@
    "checks": 0,
    "graduated_at": "2026-11-10T23:46:02Z",
    "checks_done": 0
+  },
+  "197858": {
+   "title": "Победите на 21+ раунде с прочностью Реликвии >80%",
+   "slug": "197858-pobedite-na-21-raunde-s-prochnostyu-relikvii-80",
+   "createdAt": "2026-11-10T21:39:08+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-10T23:46:05Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-11T01:46:02Z",
+   "last_lpn": 17,
+   "last_cc": 17,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-11-11T01:44:41Z",
+   "graduated_at": "2026-11-11T01:59:38Z",
+   "checks_done": 3
+  },
+  "197859": {
+   "title": "я олд?(ерS)",
+   "slug": "197859-ya-olders",
+   "createdAt": "2026-11-10T22:02:06+00:00",
+   "op_user": "?",
+   "stm": false,
+   "discovered_at": "2026-11-10T23:46:05Z",
+   "source": "snap15-reconcile",
+   "until_ts": "2026-11-11T01:46:02Z",
+   "last_lpn": 7,
+   "last_cc": 7,
+   "checks": 3,
+   "fails": 0,
+   "last_checked": "2026-11-11T01:44:40Z",
+   "graduated_at": "2026-11-11T01:59:38Z",
+   "checks_done": 3
   }
  }
 }
