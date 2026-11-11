@@ -11,7 +11,8 @@ KEY_FILES = [
     'output/08_monitoring/ledger.md',
     'output/08_monitoring/GIT_AUTOMATION.md',
 ]
-KEY_DIRS = ['tools', 'output/evidence_post']
+KEY_DIRS = ['tools']
+EV_DIR = 'output/evidence_post'  # 54-692: инвариант — на диске 0 файлов (всё в гите)
 ORIGIN_URL = 'https://github.com/TonkWasere/test.git'
 BRANCH = 'sanity-monitor'
 UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36'}
@@ -85,8 +86,28 @@ for d in KEY_DIRS:
         problems.append(f'dir dead: {d}')
         recover_needed = True
 
-# B. Git-репо
-rc, out = sh('git fsck --no-dangling 2>&1 | head -3')
+# A2. Evidence-инвариант (54-692): на диске должно быть 0 файлов; допустим активный свип
+# (свежие файлы < 20 мин), но застоявшаяся материализация — проблема.
+_ev = os.path.join(PROJ, EV_DIR)
+_n = len(os.listdir(_ev)) if os.path.isdir(_ev) else -1
+if _n < 0:
+    print(f"  [DEAD] {EV_DIR}/ (каталог отсутствует)")
+    problems.append('evidence dir missing')
+    recover_needed = True
+elif _n == 0:
+    print(f"  [OK] {EV_DIR}/ инвариант (0 файлов на диске, всё в гите)")
+else:
+    import time as _t
+    _youngest = max(os.path.getmtime(os.path.join(_ev, f)) for f in os.listdir(_ev))
+    _age_min = (_t.time() - _youngest) / 60
+    if _age_min < 20:
+        print(f"  [OK] {EV_DIR}/ ({_n} файлов, идёт свип — младшему {_age_min:.0f} мин)")
+    else:
+        print(f"  [WARN] {EV_DIR}/ ({_n} файлов, застоялись {_age_min:.0f} мин — свип не прибрал)")
+        problems.append('evidence stale materialization')
+
+# B. Git-репо (54-692: fsck на 7G-репо > 60с — отдельный таймаут 300с)
+rc, out = sh('git fsck --no-dangling 2>&1 | head -3', timeout=300)
 git_ok = rc == 0
 rc2, branch = sh('git branch --show-current')
 branch = branch.strip()
@@ -166,7 +187,9 @@ except Exception as e:
 
 # F. Локальный bundle (третья линия)
 import glob as _glob
-bundles = sorted(_glob.glob('/tmp/my-project/backups/sanity-monitor-*.bundle') or glob.glob('/home/z/backups/sanity-monitor-*.bundle'))
+# 54-692: канонический каталог /home/z/backups ПЕРВЫМ (в /tmp/my-project — устаревшее
+# зеркала до-вайпной эпохи); паттерн — и dash (старый), и underscore (auto_tick/maybe_bundle)
+bundles = sorted(glob.glob('/home/z/backups/sanity-monitor[-_]*.bundle') or _glob.glob('/tmp/my-project/backups/sanity-monitor[-_]*.bundle'))
 if bundles:
     age_h = (datetime.datetime.now(timezone.utc) - datetime.datetime.fromtimestamp(os.path.getmtime(bundles[-1]), timezone.utc)).total_seconds() / 3600
     print(f"  [{'OK' if age_h < 26 else 'STALE'}] bundle: {os.path.basename(bundles[-1])} ({age_h:.1f} ч, {os.path.getsize(bundles[-1])//1024//1024}MB)")
