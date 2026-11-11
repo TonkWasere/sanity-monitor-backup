@@ -505,8 +505,13 @@ def main():
         # digest каждый 4-й час (00/04/08/12/16/20 UTC, слот :02)
         now = time.gmtime()
         if now.tm_hour % 4 == 0 and now.tm_min < 10:
-            run([sys.executable, os.path.join(REPO, 'tools', 'auto_digest.py')], timeout=180)
-            print('[auto_tick] digest выпущен')
+            rc_d, out_d, err_d = run([sys.executable, os.path.join(REPO, 'tools', 'auto_digest.py')], timeout=180)
+            if rc_d == 0:
+                print('[auto_tick] digest выпущен')
+            else:
+                print(f'[auto_tick] DIGEST FAIL rc={rc_d}: {(err_d or out_d)[-200:]}')
+                append_worklog(f'Task ID: 54-689-auto: [sched] DIGEST FAIL rc={rc_d}: '
+                               f'{((err_d or out_d)[-120:]).strip()}')
         msg = (f'auto long30 {hm()} UTC: pass#{res["pass_no"]}: {res["sig"]} дельт '
                f'({"все NEW-POSTS" if not res["special"] else "spec: " + ",".join(r["label"] for r in res["special"][:4])}), '
                f'NEW-THREAD {len(res["newthreads"])}, deep {res["deep_count"]}, EXT {ext_n}, '

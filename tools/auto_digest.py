@@ -55,7 +55,7 @@ def main():
     # --- агрегация движения: первый cc_old → последний cc_new по каждому tid ---
     first_old, last_new, titles, last_gap = {}, {}, {}, {}
     sig_total = newthreads = 0
-    special, vanish_seen, oww_seen = [], [], set()
+    special, vanish_seen, oww_seen = [], set(), set()
     ext_total = 0
     blocks = defaultdict(int)  # 2h-блоки: hour → Δcc сумма
     wipes = 0

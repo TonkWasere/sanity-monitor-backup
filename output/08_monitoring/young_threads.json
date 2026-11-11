@@ -15,9 +15,9 @@
    "until_ts": "2026-11-11T01:46:02Z",
    "last_lpn": 7,
    "last_cc": 7,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-10T23:59:44Z"
+   "last_checked": "2026-11-11T00:14:44Z"
   },
   "197858": {
    "title": "Победите на 21+ раунде с прочностью Реликвии >80%",
@@ -30,9 +30,9 @@
    "until_ts": "2026-11-11T01:46:02Z",
    "last_lpn": 15,
    "last_cc": 15,
-   "checks": 1,
+   "checks": 2,
    "fails": 0,
-   "last_checked": "2026-11-10T23:59:46Z"
+   "last_checked": "2026-11-11T00:14:46Z"
   }
  },
  "graduated": {
